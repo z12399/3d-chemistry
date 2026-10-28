@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="analysis-sampling-blank-title analysis-sampling-blank-desc">
+<title id="analysis-sampling-blank-title">從哪裡取樣，最後就量到什麼</title>
+<desc id="analysis-sampling-blank-desc">取樣與均質先決定代表性，萃取液再進入 GOPOD 測定；試劑空白只扣除它所含背景，並非總糖或所有干擾校正。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">從哪裡取樣，最後就量到什麼</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="88" width="184" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.0" y="123.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">整份食品</text>
+<text x="124.0" y="149.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">各部位可能不同</text>
+<line x1="219" y1="130" x2="265" y2="130" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="270" y="88" width="180" height="84" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="123.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">取樣／均質</text>
+<text x="360.0" y="149.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">符合報告目標</text>
+<line x1="453" y1="130" x2="500" y2="130" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="505" y="88" width="183" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="596.5" y="123.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">萃取液</text>
+<text x="596.5" y="149.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">實際測定範圍</text>
+<path d="M596 175 V223 H498" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="270" y="227" width="220" height="97" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="380.0" y="268.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">GOPOD 耦合顯色</text>
+<text x="380.0" y="294.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">方法下的 D-glucose</text>
+<rect x="32" y="234" width="184" height="83" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.0" y="268.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">試劑空白</text>
+<text x="124.0" y="294.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">扣自身背景</text>
+<line x1="218" y1="276" x2="260" y2="276" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="514" y="264" font-size="16" fill="#1c2732" text-anchor="start" font-weight="400">重讀同一萃取液</text>
+<text x="514" y="290" font-size="16" fill="#1c2732" text-anchor="start" font-weight="400">只檢查這一層</text>
+<text x="514" y="316" font-size="16" fill="#1c2732" text-anchor="start" font-weight="400">的重複性</text>
+<rect x="32" y="385" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="411" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">未另做經驗證水解時，D-glucose 不能叫作總糖。</text>
+<text x="46" y="436" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">重複讀值不能補回未取到的部位；空白也不排除所有基質干擾。</text>
+<text x="680" y="497" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 455" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">加熱降低 RH，未必移走水</title>
+<desc id="figure-desc">空氣固定總壓且沒有水進出時，加熱使含濕比 Y 不變而相對濕度 RH 降低；通過食品後 Y 上升才表示帶走水。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="455" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">加熱降低 RH，未必移走水</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">含濕比追水量；相對濕度看飽和程度</tspan></text>
+<rect x="32" y="119" width="180" height="193" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122" y="152" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="122" dy="0">加熱前</tspan></text>
+<text x="122" y="220" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="122" dy="0">Y</tspan><tspan x="122" dy="42">RH</tspan></text>
+<rect x="270" y="119" width="180" height="193" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="152" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="360" dy="0">加熱後</tspan></text>
+<text x="360" y="220" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">Y 不變</tspan><tspan x="360" dy="42">RH 下降</tspan></text>
+<rect x="508" y="119" width="180" height="193" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598" y="152" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="598" dy="0">通過果片後</tspan></text>
+<text x="598" y="220" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="598" dy="0">Y 上升</tspan><tspan x="598" dy="42">帶走食品的水</tspan></text>
+<path d="M 224 210 L 257 210" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="240" y="112" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="240" dy="0">加熱</tspan></text>
+<path d="M 461 210 L 495 210" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="478" y="112" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="478" dy="0">乾燥</tspan></text>
+<rect x="32" y="341" width="310" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187.0" y="379.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="187.0" dy="0">Y＝水蒸氣質量／乾空氣質量</tspan></text>
+<rect x="363" y="341" width="325" height="62" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="525.5" y="379.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="525.5" dy="0">RH＝水蒸氣分壓／飽和蒸氣壓</tspan></text>
+<text x="32" y="431" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">加熱比較：固定總壓，沒有加濕或除濕</tspan></text>
+<text x="688" y="437" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

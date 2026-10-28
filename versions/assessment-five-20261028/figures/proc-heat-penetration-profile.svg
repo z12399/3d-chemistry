@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">熱要先經表面，再到中心</title>
+<desc id="figure-desc">定性加熱歷程區分固定介質溫度、表面升溫及落後的中心升溫，並顯示對流與導熱兩段傳熱路徑。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">熱要先經表面，再到中心</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">有限表面換熱；均質平板兩面對稱加熱</tspan></text>
+<rect x="32" y="110" width="157" height="61" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="110.5" y="147.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="110.5" dy="0">介質</tspan></text>
+<rect x="282" y="110" width="157" height="61" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.5" y="147.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.5" dy="0">表面</tspan></text>
+<rect x="532" y="110" width="157" height="61" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="610.5" y="147.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="610.5" dy="0">中心</tspan></text>
+<path d="M 204 140 L 267 140" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="236" y="111" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="236" dy="0">對流</tspan></text>
+<path d="M 454 140 L 517 140" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="485" y="111" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="485" dy="0">導熱</tspan></text>
+<text x="48" y="210" font-size="18" fill="#53606d" text-anchor="start"><tspan x="48" dy="0">溫度（定性）</tspan></text>
+<path d="M 85 387 L 85 229" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 85 387 L 664 387" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 100 240 L 494 240" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 100 371 C 174 303 260 269 494 253" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 100 371 C 194 371 282 310 494 283" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="518" y="247" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="518" dy="0">介質</tspan></text>
+<text x="518" y="273" font-size="19" fill="#6f8fb5" text-anchor="start"><tspan x="518" dy="0">表面</tspan></text>
+<text x="518" y="303" font-size="19" fill="#14665d" text-anchor="start"><tspan x="518" dy="0">中心</tspan></text>
+<text x="658" y="416" font-size="18" fill="#53606d" text-anchor="end"><tspan x="658" dy="0">時間</tspan></text>
+<text x="32" y="454" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">Bi＝hL／k：比較內部與表面熱阻</tspan></text>
+<text x="32" y="480" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">Bi 小支持內部較均勻，不代表立即升溫</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

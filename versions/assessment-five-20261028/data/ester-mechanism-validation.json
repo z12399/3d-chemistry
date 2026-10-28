@@ -1,0 +1,295 @@
+{
+  "status": "PASS",
+  "mechanisms": 4,
+  "states": 32,
+  "checks": [
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-0",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.92
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-1",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.844
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-2",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.4
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-3",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.852
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-4",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 5.248
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-5",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.454
+    },
+    {
+      "id": "gluconic-acid-lactonization-lactonization-state-6",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.033
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-0",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.033
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-1",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.454
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-2",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 5.248
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-3",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.852
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-4",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.4
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-5",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.844
+    },
+    {
+      "id": "gluconic-acid-lactonization-hydrolysis-state-6",
+      "atoms": 29,
+      "formula": "C6H15O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.92
+    },
+    {
+      "id": "gluconic-acid-lactonization-acid-dissociation-state-0",
+      "atoms": 28,
+      "formula": "C6H14O8",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.422
+    },
+    {
+      "id": "gluconic-acid-lactonization-acid-dissociation-state-1",
+      "atoms": 28,
+      "formula": "C6H14O8",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.833
+    },
+    {
+      "id": "ester-hydrolysis-default-state-0",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.166
+    },
+    {
+      "id": "ester-hydrolysis-default-state-1",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.671
+    },
+    {
+      "id": "ester-hydrolysis-default-state-2",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.055
+    },
+    {
+      "id": "ester-hydrolysis-default-state-3",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.181
+    },
+    {
+      "id": "ester-hydrolysis-default-state-4",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.145
+    },
+    {
+      "id": "ester-hydrolysis-default-state-5",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.0
+    },
+    {
+      "id": "ester-hydrolysis-default-state-6",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.792
+    },
+    {
+      "id": "ester-hydrolysis-default-state-7",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.105
+    },
+    {
+      "id": "ester-hydrolysis-default-state-8",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.047
+    },
+    {
+      "id": "ester-hydrolysis-default-state-9",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.117
+    },
+    {
+      "id": "ester-hydrolysis-default-state-10",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.919
+    },
+    {
+      "id": "ester-hydrolysis-default-state-11",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.73
+    },
+    {
+      "id": "ester-hydrolysis-default-state-12",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.562
+    },
+    {
+      "id": "ester-hydrolysis-default-state-13",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.115
+    },
+    {
+      "id": "ester-hydrolysis-default-state-14",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.97
+    },
+    {
+      "id": "ester-hydrolysis-default-state-15",
+      "atoms": 59,
+      "formula": "C16H27O16-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.089
+    }
+  ]
+}

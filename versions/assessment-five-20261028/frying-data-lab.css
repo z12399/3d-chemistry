@@ -1,0 +1,70 @@
+.frying-lab { container-type:inline-size; max-width:1000px; }
+.frying-toolbar { display:flex; justify-content:space-between; align-items:end; gap:20px; }
+.frying-lab label { display:flex; flex-direction:column; gap:8px; font-size:13px; color:var(--exp-muted); }
+.frying-lab select { font:inherit; color:var(--exp-ink); background:#fff; border:1px solid #cfd6dc; border-radius:8px; padding:10px 12px; min-height:44px; max-width:100%; }
+.frying-toolbar label { flex:1; max-width:290px; }
+.frying-views { display:flex; padding:3px; gap:3px; background:#f1f3f5; border-radius:7px; }
+.frying-views button { color:var(--exp-muted); border:0; border-radius:8px; background:transparent; font:inherit; font-size:13px; padding:10px 16px; min-height:40px; cursor:pointer; }
+.frying-views button[aria-pressed=true] { background:#fffdf8; color:var(--exp-ink); box-shadow:0 1px 3px #392e1710; }
+.frying-definition { font-size:13px; line-height:1.9; color:var(--exp-muted); margin:19px 0 10px; }
+.frying-layout,.frying-stage,.frying-panel { min-width:0; }
+.frying-plot svg { width:100%; display:block; overflow:visible; }
+.frying-plot text { font:12px 'Segoe UI','Microsoft JhengHei',sans-serif; fill:var(--exp-muted); }
+.frying-grid { stroke:var(--exp-line); stroke-width:1; }
+.frying-selected { stroke:#b7ae9b; stroke-width:1; stroke-dasharray:3 5; }
+.frying-oil-soybean { --oil:#376754; }
+.frying-oil-canola { --oil:#a65b35; }
+.frying-line { fill:none; stroke:var(--oil); stroke-width:1.5; stroke-dasharray:5 5; }
+.frying-dot { fill:var(--oil); stroke:#fcfaf4; stroke-width:1.3; }
+.frying-error { stroke:var(--oil); stroke-width:1.2; fill:none; }
+.frying-hit { fill:transparent; cursor:pointer; }
+.frying-legend { display:flex; gap:25px; justify-content:center; margin:3px 0 13px; font-size:13px; }
+.frying-soy { color:#53606d; }.frying-canola { color:#a65b35; }
+.frying-caption,.frying-boundary { font-size:13px; line-height:1.85; color:var(--exp-muted); }
+.frying-caption { max-width:480px; margin:0 auto; text-align:center; }
+.frying-panel { padding-top:16px; }
+.frying-readings { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin:20px 0; }
+.frying-reading { display:flex; flex-direction:column; gap:7px; font-size:13px; color:var(--exp-muted); min-width:0; }
+.frying-reading > span:first-child { color:var(--oil); font-size:13px; }
+.frying-reading strong { display:block; font-size:29px; font-weight:450; color:var(--exp-ink); letter-spacing:-.04em; font-variant-numeric:tabular-nums; }
+.frying-reading strong small { display:block; font-size:13px; font-weight:400; letter-spacing:0; margin-top:4px; }
+.frying-equation { font-size:13px; line-height:1.8; padding:14px 0 0; border-top:1px solid var(--exp-line); }
+.frying-boundary { margin-bottom:0; }
+.frying-details { border-top:1px solid var(--exp-line); margin-top:20px; }
+.frying-details summary { font-size:14px; padding:18px 0 3px; cursor:pointer; }
+.frying-detail-body { padding:8px 0 0; font-size:13px; line-height:1.9; color:var(--exp-muted); }
+.frying-detail-body a { color:var(--exp-accent); overflow-wrap:anywhere; }
+.frying-from { max-width:240px; margin-top:13px; }
+.frying-comparison-results { display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+.frying-comparison-results h4 { color:var(--exp-ink); font-weight:500; margin:5px 0 14px; }
+.frying-comparison-results dl > div { display:flex; justify-content:space-between; gap:12px; margin:7px 0; }
+.frying-comparison-results dd { margin:0; color:var(--exp-ink); font-variant-numeric:tabular-nums; }
+.frying-comparison-results p,.frying-stat-scope { font-size:13px; }
+.frying-table-scroll { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+.frying-table-scroll table { width:100%; min-width:440px; border-collapse:collapse; font-size:13px; font-variant-numeric:tabular-nums; }
+.frying-table-scroll caption { text-align:left; margin:15px 0 10px; }
+.frying-table-scroll :is(th,td) { text-align:right; padding:10px 13px; border-bottom:1px solid var(--exp-line); font-weight:400; white-space:nowrap; }
+.frying-table-scroll tr.is-selected { background:#e7f1ee; }
+.frying-lab :is(button,select,.frying-table-scroll):focus-visible { outline:3px solid var(--exp-accent); outline-offset:3px; }
+.frying-loading,.frying-load-error { font-size:14px; line-height:1.9; }
+.frying-record-actions { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin-top:20px; }
+.frying-record-actions span { font-size:13px; color:var(--exp-muted); }
+.frying-journal .frying-detail-body { display:grid; gap:14px; }
+.frying-journal textarea { box-sizing:border-box; width:100%; min-width:0; font:inherit; color:var(--exp-ink); background:#fff; border:1px solid #cfd6dc; border-radius:8px; padding:10px 12px; line-height:1.7; resize:vertical; }
+.frying-journal pre { white-space:pre-wrap; overflow-wrap:anywhere; margin:0; font:inherit; line-height:1.8; max-height:320px; overflow:auto; }
+.frying-journal button { justify-self:start; min-height:44px; }
+.frying-journal-scope { margin:0; font-size:13px; line-height:1.85; }
+.frying-journal textarea:focus-visible { outline:3px solid var(--exp-accent); outline-offset:3px; }
+@container (min-width:700px) {
+  .frying-layout { display:grid; grid-template-columns:minmax(0,1.8fr) minmax(0,1fr); gap:28px; }
+  .frying-panel { padding-top:10px; }
+  .frying-readings { gap:14px; }
+}
+@media(max-width:480px) {
+  .frying-toolbar { flex-direction:column; align-items:stretch; gap:12px; }
+  .frying-toolbar label { max-width:none; }
+  .frying-views { align-self:start; }
+  .frying-plot text { font-size:20px; }
+  .frying-panel { padding-top:24px; }
+  .frying-comparison-results { grid-template-columns:1fr; gap:4px; }
+}

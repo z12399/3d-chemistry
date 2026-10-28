@@ -1,0 +1,42 @@
+.hydrolysis-identifiability-lab { --hi-ink:#193d42; --hi-accent:#236b58; --hi-line:#c8d7ce; color:var(--hi-ink); max-width:960px; margin:0 auto; font-size:16px; line-height:1.7; }
+.hydrolysis-identifiability-lab *, .hydrolysis-identifiability-lab *::before, .hydrolysis-identifiability-lab *::after { box-sizing:border-box; }
+.hydrolysis-identifiability-lab [hidden] { display:none !important; }
+.hydrolysis-identifiability-lab header { border-bottom:2px solid var(--hi-accent); padding-bottom:16px; }
+.hydrolysis-identifiability-lab h3 { font-size:25px; line-height:1.4; margin:4px 0 10px; }
+.hydrolysis-identifiability-lab h4 { font-size:20px; line-height:1.6; margin:10px 0 16px; }
+.hydrolysis-identifiability-lab .hi-kicker, .hydrolysis-identifiability-lab .hi-station-label { color:var(--hi-accent); font-weight:700; margin:6px 0; }
+.hydrolysis-identifiability-lab .hi-kicker, .hydrolysis-identifiability-lab .hi-small { font-size:14px; }
+.hydrolysis-identifiability-lab .hi-small { color:#52645b; }
+.hydrolysis-identifiability-lab .hi-navigation { display:flex; justify-content:space-between; align-items:center; gap:18px; padding:18px 0; }
+.hydrolysis-identifiability-lab .hi-navigation p { margin:0; font-weight:700; }
+.hydrolysis-identifiability-lab button { min-height:44px; padding:9px 16px; border:1px solid var(--hi-accent); border-radius:5px; color:var(--hi-ink); background:#fff; font:inherit; cursor:pointer; }
+.hydrolysis-identifiability-lab button:disabled { color:#626d66; background:#f0f2ed; border-color:#c5ccc7; cursor:default; }
+.hydrolysis-identifiability-lab button:focus-visible, .hydrolysis-identifiability-lab input:focus-visible, .hydrolysis-identifiability-lab textarea:focus-visible, .hydrolysis-identifiability-lab a:focus-visible, .hydrolysis-identifiability-lab summary:focus-visible { outline:3px solid #b25c26; outline-offset:3px; }
+.hydrolysis-identifiability-lab .hi-candidates { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px 24px; }
+.hydrolysis-identifiability-lab .hi-method-controls { display:flex; gap:20px; flex-wrap:wrap; margin-top:16px; }
+.hydrolysis-identifiability-lab .hi-method-controls label { flex:1 1 240px; }
+.hydrolysis-identifiability-lab label { font-weight:600; }
+.hydrolysis-identifiability-lab input[type=text] { display:block; width:100%; min-height:44px; padding:8px 10px; color:var(--hi-ink); background:#fff; border:1px solid #9bb3a7; border-radius:4px; font:inherit; }
+.hydrolysis-identifiability-lab textarea { display:block; width:100%; min-height:85px; margin:6px 0 14px; padding:10px 12px; font:inherit; line-height:1.6; color:var(--hi-ink); background:#fff; border:1px solid #9bb3a7; border-radius:4px; resize:vertical; }
+.hydrolysis-identifiability-lab textarea[readonly] { background:#f5f6f1; color:#53645b; }
+.hydrolysis-identifiability-lab .hi-error { color:#943622; font-weight:700; min-height:1.7em; margin:10px 0; }
+.hydrolysis-identifiability-lab .hi-observation { border-block:1px solid var(--hi-line); padding:12px 0; margin-bottom:18px; }
+.hydrolysis-identifiability-lab .hi-table-wrap { overflow-x:auto; }
+.hydrolysis-identifiability-lab table { width:100%; border-collapse:collapse; font-size:16px; }
+.hydrolysis-identifiability-lab caption { text-align:left; font-weight:600; padding:0 0 8px; }
+.hydrolysis-identifiability-lab th, .hydrolysis-identifiability-lab td { text-align:left; border-bottom:1px solid var(--hi-line); padding:9px 12px; }
+.hydrolysis-identifiability-lab .hi-options { min-width:0; padding:0; margin:18px 0; border:0; }
+.hydrolysis-identifiability-lab .hi-options legend { margin-bottom:8px; font-weight:700; }
+.hydrolysis-identifiability-lab .hi-options label { display:flex; align-items:flex-start; gap:12px; padding:11px 13px; margin:8px 0; border:1px solid var(--hi-line); border-radius:5px; background:#fff; cursor:pointer; }
+.hydrolysis-identifiability-lab .hi-options input { flex:0 0 auto; width:19px; height:19px; margin-top:4px; accent-color:var(--hi-accent); }
+.hydrolysis-identifiability-lab .hi-options label:has(input:checked) { background:#edf4ee; border-color:var(--hi-accent); }
+.hydrolysis-identifiability-lab .hi-feedback { border-left:4px solid var(--hi-accent); background:#f0f5ee; padding:14px 20px; margin:20px 0; }
+.hydrolysis-identifiability-lab .hi-preview-status { font-weight:700; }
+.hydrolysis-identifiability-lab .hi-detail { margin:14px 0; }
+.hydrolysis-identifiability-lab .hi-detail summary { min-height:40px; padding:6px 0; color:var(--hi-accent); font-weight:700; cursor:pointer; }
+.hydrolysis-identifiability-lab .hi-detail p, .hydrolysis-identifiability-lab .hi-literal { overflow-wrap:anywhere; }
+.hydrolysis-identifiability-lab .hi-literal { white-space:pre-wrap; }
+.hydrolysis-identifiability-lab .hi-save { display:flex; align-items:center; flex-wrap:wrap; gap:16px; margin:22px 0 10px; }
+.hydrolysis-identifiability-lab .hi-save p { flex:1 1 240px; margin:0; font-size:14px; }
+.hydrolysis-identifiability-lab a { color:var(--hi-accent); text-underline-offset:3px; }
+@media (max-width:680px) { .hydrolysis-identifiability-lab .hi-candidates { grid-template-columns:1fr; } .hydrolysis-identifiability-lab .hi-navigation { gap:8px; } .hydrolysis-identifiability-lab .hi-navigation button { padding:9px; } }

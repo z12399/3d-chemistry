@@ -1,0 +1,55 @@
+.lyoprotectant-storage-evidence{--ls-ink:#1c2732;--ls-muted:#53606d;--ls-border:#dfe4e8;--ls-action:#14665d;color:var(--ls-ink);font:400 1rem/1.65 "Segoe UI","Microsoft JhengHei UI","Microsoft JhengHei",system-ui,sans-serif;container-type:inline-size;min-width:0}
+.lyoprotectant-storage-evidence *{box-sizing:border-box}
+.lyoprotectant-storage-evidence [hidden]{display:none!important}
+.lyoprotectant-storage-evidence .ls-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.lyoprotectant-storage-evidence :is(p,li,dt,dd,td,th,caption,label,button,select,textarea,summary){font-size:1rem;overflow-wrap:anywhere}
+.lyoprotectant-storage-evidence p{margin:.6rem 0}
+.lyoprotectant-storage-evidence h3{font-size:1rem;line-height:1.55;margin:.6rem 0}
+.lyoprotectant-storage-evidence .ls-caption{color:var(--ls-muted)}
+.lyoprotectant-storage-evidence .ls-controls{display:flex;flex-wrap:wrap;gap:.75rem 1rem;align-items:end;margin:.6rem 0 1rem}
+.lyoprotectant-storage-evidence label{display:block;min-width:0}
+.lyoprotectant-storage-evidence .ls-controls label{flex:1 1 13rem}
+.lyoprotectant-storage-evidence .ls-controls .ls-mode{flex-basis:100%}
+.lyoprotectant-storage-evidence :is(select,textarea,button){font:inherit;max-width:100%;color:var(--ls-ink)}
+.lyoprotectant-storage-evidence select{display:block;width:100%;min-height:44px;background:#fff;border:1px solid #cfd6dc;border-radius:8px;padding:.5rem 2.5rem .5rem .7rem;margin-top:.3rem}
+.lyoprotectant-storage-evidence textarea{display:block;width:100%;resize:vertical;border:1px solid #cfd6dc;border-radius:8px;padding:.7rem;line-height:1.65;margin:.35rem 0 .9rem;background:#fff}
+.lyoprotectant-storage-evidence textarea[readonly]{background:#f6f7f8}
+.lyoprotectant-storage-evidence button{min-height:44px;padding:.55rem .85rem;border:1px solid #cfd6dc;border-radius:9px;background:#fff;cursor:pointer;line-height:1.4}
+.lyoprotectant-storage-evidence button:hover:not(:disabled){background:#e7f1ee;border-color:var(--ls-action)}
+.lyoprotectant-storage-evidence :is(button,select):disabled{opacity:.6;cursor:default}
+.lyoprotectant-storage-evidence .ls-primary{background:var(--ls-action);border-color:var(--ls-action);color:#fff}
+.lyoprotectant-storage-evidence .ls-primary:hover:not(:disabled){background:#0e4f48;color:#fff}
+.lyoprotectant-storage-evidence :is(button,select,textarea,a,summary,[tabindex]):focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.lyoprotectant-storage-evidence .ls-conditions{padding:.65rem .8rem;background:#f1f3f5;border-radius:9px}
+.lyoprotectant-storage-evidence .ls-awaiting{padding:1.5rem 1rem;border:1px dashed #bdc9ca;border-radius:9px;background:#fbfcfc;color:var(--ls-muted)}
+.lyoprotectant-storage-evidence .ls-figure{margin:1rem 0 .6rem;padding:0}
+.lyoprotectant-storage-evidence figcaption{font-size:1rem;margin:0 0 1rem}
+.lyoprotectant-storage-evidence .ls-plot{display:flex;height:240px;margin:1.5rem 1rem .6rem 0}
+.lyoprotectant-storage-evidence .ls-ticks{position:relative;width:5.5rem;flex-shrink:0;color:var(--ls-muted);font-size:1rem;font-variant-numeric:tabular-nums}
+.lyoprotectant-storage-evidence .ls-ticks span{position:absolute;right:.7rem;transform:translateY(-50%)}
+.lyoprotectant-storage-evidence .ls-lanes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;border-left:1px solid #91a3a7;border-bottom:1px solid #91a3a7;background:repeating-linear-gradient(to bottom,#e2e8e9 0,#e2e8e9 1px,transparent 1px,transparent 20%)}
+.lyoprotectant-storage-evidence .ls-lane{position:relative;min-width:0}
+.lyoprotectant-storage-evidence .ls-point{position:absolute;left:50%;transform:translate(-50%,-50%);width:2rem;height:2rem;border-radius:50%;background:var(--ls-action);color:#fff;display:grid;place-items:center;font-size:1rem;font-weight:600;line-height:1}
+.lyoprotectant-storage-evidence .ls-lane:nth-child(2) .ls-point{background:#556c83}
+.lyoprotectant-storage-evidence .ls-pair-labels{display:grid;grid-template-columns:1fr 1fr;text-align:center;margin-left:5.5rem;margin-right:1rem;font-weight:600}
+.lyoprotectant-storage-evidence .ls-readings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem 1.5rem;border-bottom:1px solid var(--ls-border);padding:.25rem 0 .8rem}
+.lyoprotectant-storage-evidence .ls-value{font-weight:600;font-variant-numeric:tabular-nums}
+.lyoprotectant-storage-evidence .ls-boundary{padding:.55rem .8rem;border-left:3px solid #75858d;background:#f6f7f8}
+.lyoprotectant-storage-evidence .ls-initial{display:flex;flex-wrap:wrap;gap:.75rem;align-items:end;margin:1rem 0 .5rem}
+.lyoprotectant-storage-evidence .ls-initial label{flex:1 1 16rem}
+.lyoprotectant-storage-evidence .ls-actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:1rem 0 .5rem}
+.lyoprotectant-storage-evidence details{border-top:1px solid var(--ls-border);margin-top:.9rem;padding-top:.5rem}
+.lyoprotectant-storage-evidence [data-ls-details] > summary{cursor:pointer;padding:.55rem 0;min-height:44px;font-weight:600;font-size:1rem}
+.lyoprotectant-storage-evidence .ls-table-scroll{max-width:100%;overflow-x:auto;border:1px solid var(--ls-border);margin:.8rem 0}
+.lyoprotectant-storage-evidence table{width:100%;border-collapse:collapse;min-width:900px;font-variant-numeric:tabular-nums}
+.lyoprotectant-storage-evidence :is(td,th){text-align:left;vertical-align:top;padding:.7rem;border-bottom:1px solid var(--ls-border);font-size:1rem}
+.lyoprotectant-storage-evidence th{font-weight:600;background:#f6f7f8}
+.lyoprotectant-storage-evidence caption{text-align:left;padding:.75rem;color:var(--ls-muted)}
+.lyoprotectant-storage-evidence dl{display:grid;grid-template-columns:5rem minmax(0,1fr);gap:.4rem .7rem}
+.lyoprotectant-storage-evidence dd{margin:0}
+.lyoprotectant-storage-evidence ul{padding-left:1.5rem}
+.lyoprotectant-storage-evidence li{margin:.45rem 0}
+.lyoprotectant-storage-evidence :is(pre,code){white-space:pre-wrap;overflow-wrap:anywhere;word-break:break-word;font:inherit}
+.lyoprotectant-storage-evidence a{color:var(--ls-action);text-decoration:underline;text-underline-offset:.2rem}
+@container(max-width:620px){.lyoprotectant-storage-evidence .ls-readings{grid-template-columns:1fr}.lyoprotectant-storage-evidence .ls-controls label{flex-basis:100%}.lyoprotectant-storage-evidence .ls-plot{height:220px}}
+@container(max-width:390px){.lyoprotectant-storage-evidence .ls-actions button,.lyoprotectant-storage-evidence .ls-initial button{width:100%}.lyoprotectant-storage-evidence dl{grid-template-columns:1fr;gap:0}.lyoprotectant-storage-evidence dd{margin-bottom:.6rem}}

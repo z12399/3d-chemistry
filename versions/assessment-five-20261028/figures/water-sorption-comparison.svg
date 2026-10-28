@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">同一水活性，平衡含水量仍可不同</title>
+<desc id="figure-desc">同一溫度下的兩條材料吸濕等溫線，在同一水活性可對應不同的平衡含水量。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">同一水活性，平衡含水量仍可不同</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">固定溫度；曲線僅表示材料差異</tspan></text>
+<path d="M 102 390 L 650 390" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 102 390 L 102 119" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="32" y="107" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">平衡含水量</tspan></text>
+<text x="580" y="424" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="580" dy="0">水活性 a_w</tspan></text>
+<path d="M 119 373 C 240 357 355 320 430 255 C 510 191 566 145 615 111" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 119 380 C 250 375 359 356 430 325 C 530 282 575 222 615 174" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 430 390 L 430 239" fill="none" stroke="#6f8fb5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M 102 255 L 430 255" fill="none" stroke="#14665d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<circle cx="430" cy="255" r="6" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<path d="M 102 325 L 430 325" fill="none" stroke="#b4692e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 7"/>
+<circle cx="430" cy="325" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="485" y="139" font-size="20" fill="#14665d" text-anchor="start"><tspan x="485" dy="0">材料 A</tspan></text>
+<text x="538" y="297" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="538" dy="0">材料 B</tspan></text>
+<text x="430" y="423" font-size="18" fill="#6f8fb5" text-anchor="middle"><tspan x="430" dy="0">同一 a_w</tspan></text>
+<text x="140" y="239" font-size="18" fill="#14665d" text-anchor="start"><tspan x="140" dy="0">較多水</tspan></text>
+<text x="140" y="313" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="140" dy="0">較少水</tspan></text>
+<text x="32" y="464" font-size="19" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">材料、溫度與吸／脫濕路徑，都須先確認</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

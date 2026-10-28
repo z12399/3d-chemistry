@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">水解方法，改變的是切割與分析答案</title>
+<desc id="desc">蛋白分向化學水解與蛋白酶水解；前者需檢查降解消旋，後者需檢查未切肽段，兩者都要核對回收。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">水解方法，改變的是切割與分析答案</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">先決定要保留肽段，還是分析胺基酸組成</tspan></text>
+<path d="M265.0 107L296.6666666666667 125" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M296.6666666666667 125L328.3333333333333 107" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M328.3333333333333 107L360.0 125" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M360.0 125L391.6666666666667 107" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M391.6666666666667 107L423.33333333333337 125" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M423.33333333333337 125L455.0 107" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265.0" cy="107" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="296.6666666666667" cy="125" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="328.3333333333333" cy="107" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="360.0" cy="125" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="391.6666666666667" cy="107" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="423.33333333333337" cy="125" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="455.0" cy="107" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="360" y="159" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">蛋白質</tspan></text>
+<path d="M360 177V197H190V225" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M360 197H540V225" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<rect x="30" y="238" width="310" height="156" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="380" y="238" width="310" height="156" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="185" y="271" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="185" dy="0">強酸／強鹼＋加熱</tspan></text>
+<text x="535" y="271" font-size="21" fill="#b4692e" text-anchor="middle"><tspan x="535" dy="0">蛋白酶</tspan></text>
+<text x="185" y="315" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="185" dy="0">切割並釋出胺基酸</tspan><tspan x="185" dy="27">也可能降解或消旋</tspan></text>
+<text x="535" y="315" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="535" dy="0">切位偏好依酵素而異</tspan><tspan x="535" dy="27">常留下未切肽段</tspan></text>
+<text x="30" y="440" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">兩者都需檢查釋出完整性、轉化與分析回收。</tspan><tspan x="30" dy="25">條件更強或酵素更專一，都不保證無損、完全水解。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

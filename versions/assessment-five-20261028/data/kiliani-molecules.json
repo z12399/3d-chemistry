@@ -1,0 +1,2043 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "arabinose-open",
+      "name": "開鏈 D-阿拉伯糖",
+      "formula": "C5H10O5",
+      "atoms": [
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -2.368839,
+            -0.475894,
+            -0.698174
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -1.533704,
+            0.692942,
+            -0.172225
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.066697,
+            0.698958,
+            -0.665087
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.796647,
+            -0.464262,
+            -0.151373
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            2.23711,
+            -0.299928,
+            -0.610382
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO1",
+          "element": "O",
+          "position": [
+            3.189829,
+            -0.555876,
+            0.125578
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            0.742375,
+            -0.526106,
+            1.28117
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            0.522626,
+            1.935988,
+            -0.218337
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -1.592674,
+            0.709364,
+            1.264973
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -1.926673,
+            -1.715185,
+            -0.156142
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HaC5a",
+          "element": "H",
+          "position": [
+            -3.418629,
+            -0.352819,
+            -0.411368
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC5b",
+          "element": "H",
+          "position": [
+            -2.315231,
+            -0.535902,
+            -1.789334
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC4",
+          "element": "H",
+          "position": [
+            -2.006323,
+            1.626731,
+            -0.499359
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "HaC3",
+          "element": "H",
+          "position": [
+            -0.04516,
+            0.721767,
+            -1.760588
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "HaC2",
+          "element": "H",
+          "position": [
+            0.450556,
+            -1.419994,
+            -0.553265
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "HaC1",
+          "element": "H",
+          "position": [
+            2.386409,
+            -0.009743,
+            -1.663964
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "HaO2",
+          "element": "H",
+          "position": [
+            1.611379,
+            -0.892744,
+            1.556822
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "HaO3",
+          "element": "H",
+          "position": [
+            0.324215,
+            2.00103,
+            0.738612
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "HaO4",
+          "element": "H",
+          "position": [
+            -0.849429,
+            0.154362,
+            1.592598
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "HaO5",
+          "element": "H",
+          "position": [
+            -2.088021,
+            -1.658747,
+            0.805715
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "aO1",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "aO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "HaC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "HaC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "HaC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "HaC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO2",
+          "b": "HaO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO3",
+          "b": "HaO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO4",
+          "b": "HaO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO5",
+          "b": "HaO5",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/66308",
+        "pubchemCid": 66308,
+        "smiles": "O=C[C@@H](O)[C@H](O)[C@H](O)CO",
+        "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5+/m1/s1",
+        "sourceInchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4-,5+/m1/s1",
+        "carbonPositionMap": {
+          "aC1": "C1",
+          "aC2": "C2",
+          "aC3": "C3",
+          "aC4": "C4",
+          "aC5": "C5"
+        },
+        "atomOriginNote": "aC1–aC5 and aO1–aO5 denote the original D-arabinose atoms; Cn is the incoming cyanide carbon and becomes product C1. Newly introduced OnCarbonyl/OnHydroxyl are structural labels, not isotope-verified water-oxygen origins. Hydrogen names do not imply proton provenance.",
+        "construction": "PubChem stereograph relabeled in carbohydrate chain order; C1 aldehyde.",
+        "identityScope": "PubChem identity match",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One neutral isolated-molecule conformer, not a measured solution structure, population, transition state, reaction energy or atom-by-atom oxygen/proton fate.",
+        "candidateConformers": 11,
+        "convergedConformers": 11,
+        "selectedMmff94EnergyKcalMol": 69.24064199089914
+      }
+    },
+    {
+      "id": "glucononitrile",
+      "name": "D-葡萄糖酸腈（氰醇支）",
+      "formula": "C6H11NO5",
+      "atoms": [
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -2.276257,
+            1.151369,
+            -0.602697
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -1.880488,
+            0.133516,
+            0.468613
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.372221,
+            0.129006,
+            0.783318
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.507373,
+            -0.449285,
+            -0.349514
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            2.015106,
+            -0.388598,
+            -0.023188
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aO1",
+          "element": "O",
+          "position": [
+            2.719191,
+            -1.092866,
+            -1.06521
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            0.184918,
+            -1.841672,
+            -0.584618
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            -0.169871,
+            -0.675087,
+            1.956515
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -2.28471,
+            -1.178107,
+            0.02657
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -3.690999,
+            1.073806,
+            -0.793715
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Cn",
+          "element": "C",
+          "position": [
+            2.475489,
+            1.008406,
+            0.056907
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Nn",
+          "element": "N",
+          "position": [
+            2.772468,
+            2.129512,
+            0.127019
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HaC5a",
+          "element": "H",
+          "position": [
+            -2.005027,
+            2.173678,
+            -0.3224
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC5b",
+          "element": "H",
+          "position": [
+            -1.819292,
+            0.911134,
+            -1.566667
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC4",
+          "element": "H",
+          "position": [
+            -2.449555,
+            0.323458,
+            1.386597
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "HaC3",
+          "element": "H",
+          "position": [
+            -0.062954,
+            1.148051,
+            1.037356
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "HaC2",
+          "element": "H",
+          "position": [
+            0.317013,
+            0.074611,
+            -1.293262
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "HaC1",
+          "element": "H",
+          "position": [
+            2.234759,
+            -0.922606,
+            0.907385
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "HaO1",
+          "element": "H",
+          "position": [
+            2.182689,
+            -1.898376,
+            -1.216479
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO1"
+        },
+        {
+          "id": "HaO2",
+          "element": "H",
+          "position": [
+            -0.797568,
+            -1.905531,
+            -0.587084
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "HaO3",
+          "element": "H",
+          "position": [
+            -0.530292,
+            -1.560536,
+            1.744679
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "HaO4",
+          "element": "H",
+          "position": [
+            -3.197571,
+            -1.056394,
+            -0.315766
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "HaO5",
+          "element": "H",
+          "position": [
+            -4.111324,
+            1.634142,
+            -0.115949
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "aO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "aO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "Cn",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cn",
+          "b": "Nn",
+          "order": 3,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "HaC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "HaC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "HaC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "HaC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO1",
+          "b": "HaO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO2",
+          "b": "HaO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO3",
+          "b": "HaO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO4",
+          "b": "HaO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO5",
+          "b": "HaO5",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.sciencedirect.com/science/article/pii/S0008621500827482",
+        "pubchemCid": null,
+        "smiles": "N#C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+        "inchi": "InChI=1S/C6H11NO5/c7-1-3(9)5(11)6(12)4(10)2-8/h3-6,8-12H,2H2/t3-,4+,5+,6+/m0/s1",
+        "sourceInchi": null,
+        "carbonPositionMap": {
+          "Cn": "C1",
+          "aC1": "C2",
+          "aC2": "C3",
+          "aC3": "C4",
+          "aC4": "C5",
+          "aC5": "C6"
+        },
+        "atomOriginNote": "aC1–aC5 and aO1–aO5 denote the original D-arabinose atoms; Cn is the incoming cyanide carbon and becomes product C1. Newly introduced OnCarbonyl/OnHydroxyl are structural labels, not isotope-verified water-oxygen origins. Hydrogen names do not imply proton provenance.",
+        "construction": "D-arabinose aldehyde oxygen becomes C2 hydroxyl; incoming Cn#Nn at aC1. Virtual acid identity agrees with PubChem D-gluconic acid CID 10690.",
+        "identityScope": "Source-supported cyanohydrin stereograph; acid-identity probe distinguishes the two C2 epimers without asserting hydrolysis microsteps",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One neutral isolated-molecule conformer, not a measured solution structure, population, transition state, reaction energy or atom-by-atom oxygen/proton fate.",
+        "candidateConformers": 9,
+        "convergedConformers": 9,
+        "selectedMmff94EnergyKcalMol": 90.97393978954507
+      }
+    },
+    {
+      "id": "mannononitrile",
+      "name": "D-甘露糖酸腈（氰醇支）",
+      "formula": "C6H11NO5",
+      "atoms": [
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -2.772075,
+            0.56596,
+            0.727686
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -1.918842,
+            -0.556839,
+            0.134148
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.448451,
+            -0.523529,
+            0.59887
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.372825,
+            0.638244,
+            -0.004277
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            1.802835,
+            0.763874,
+            0.562752
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aO1",
+          "element": "O",
+          "position": [
+            2.362045,
+            1.989665,
+            0.04714
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            0.448782,
+            0.555373,
+            -1.440867
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            0.143369,
+            -1.772254,
+            0.230038
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -1.974599,
+            -0.46225,
+            -1.302953
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -4.112055,
+            0.417478,
+            0.252867
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Cn",
+          "element": "C",
+          "position": [
+            2.68607,
+            -0.372075,
+            0.226608
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Nn",
+          "element": "N",
+          "position": [
+            3.410096,
+            -1.243646,
+            -0.032012
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HaC5a",
+          "element": "H",
+          "position": [
+            -2.775523,
+            0.546813,
+            1.821648
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC5b",
+          "element": "H",
+          "position": [
+            -2.429604,
+            1.547375,
+            0.388197
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC4",
+          "element": "H",
+          "position": [
+            -2.364348,
+            -1.527346,
+            0.384092
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "HaC3",
+          "element": "H",
+          "position": [
+            -0.419114,
+            -0.469991,
+            1.692968
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "HaC2",
+          "element": "H",
+          "position": [
+            -0.142056,
+            1.582921,
+            0.206705
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "HaC1",
+          "element": "H",
+          "position": [
+            1.754971,
+            0.876086,
+            1.651347
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "HaO1",
+          "element": "H",
+          "position": [
+            2.274383,
+            1.915345,
+            -0.925297
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO1"
+        },
+        {
+          "id": "HaO2",
+          "element": "H",
+          "position": [
+            -0.443112,
+            0.285675,
+            -1.758428
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "HaO3",
+          "element": "H",
+          "position": [
+            0.146275,
+            -1.812582,
+            -0.748109
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "HaO4",
+          "element": "H",
+          "position": [
+            -2.923775,
+            -0.323533,
+            -1.512306
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "HaO5",
+          "element": "H",
+          "position": [
+            -4.53646,
+            -0.286879,
+            0.775909
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "aO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "aO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "Cn",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cn",
+          "b": "Nn",
+          "order": 3,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "HaC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "HaC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "HaC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "HaC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO1",
+          "b": "HaO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO2",
+          "b": "HaO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO3",
+          "b": "HaO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO4",
+          "b": "HaO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO5",
+          "b": "HaO5",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.sciencedirect.com/science/article/pii/S0008621500827482",
+        "pubchemCid": null,
+        "smiles": "N#C[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+        "inchi": "InChI=1S/C6H11NO5/c7-1-3(9)5(11)6(12)4(10)2-8/h3-6,8-12H,2H2/t3-,4-,5-,6-/m1/s1",
+        "sourceInchi": null,
+        "carbonPositionMap": {
+          "Cn": "C1",
+          "aC1": "C2",
+          "aC2": "C3",
+          "aC3": "C4",
+          "aC4": "C5",
+          "aC5": "C6"
+        },
+        "atomOriginNote": "aC1–aC5 and aO1–aO5 denote the original D-arabinose atoms; Cn is the incoming cyanide carbon and becomes product C1. Newly introduced OnCarbonyl/OnHydroxyl are structural labels, not isotope-verified water-oxygen origins. Hydrogen names do not imply proton provenance.",
+        "construction": "C2 epimer of the glucononitrile graph; virtual acid identity agrees with PubChem D-mannonic acid CID 3246006.",
+        "identityScope": "Source-supported cyanohydrin stereograph; acid-identity probe distinguishes the two C2 epimers without asserting hydrolysis microsteps",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One neutral isolated-molecule conformer, not a measured solution structure, population, transition state, reaction energy or atom-by-atom oxygen/proton fate.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": 95.16939322572833
+      }
+    },
+    {
+      "id": "mannonic-acid",
+      "name": "D-甘露糖酸（中性式）",
+      "formula": "C6H12O7",
+      "atoms": [
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -2.700718,
+            -1.06125,
+            0.311807
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -2.131272,
+            0.036902,
+            -0.58851
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.586427,
+            0.093968,
+            -0.627466
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.068356,
+            0.22329,
+            0.768572
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            1.591871,
+            0.447786,
+            0.71215
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aO1",
+          "element": "O",
+          "position": [
+            1.846527,
+            1.757741,
+            0.189433
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            -0.530071,
+            1.352172,
+            1.452131
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            -0.201272,
+            1.236061,
+            -1.424124
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -2.644326,
+            1.318829,
+            -0.190519
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -2.093606,
+            -2.313772,
+            0.028417
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Cn",
+          "element": "C",
+          "position": [
+            2.295798,
+            -0.665393,
+            -0.058425
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "OnCarbonyl",
+          "element": "O",
+          "position": [
+            2.988459,
+            -0.541059,
+            -1.054983
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "OnHydroxyl",
+          "element": "O",
+          "position": [
+            2.096682,
+            -1.885275,
+            0.481517
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HaC5a",
+          "element": "H",
+          "position": [
+            -2.553418,
+            -0.824275,
+            1.370853
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC5b",
+          "element": "H",
+          "position": [
+            -3.781767,
+            -1.144153,
+            0.152993
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC4",
+          "element": "H",
+          "position": [
+            -2.482277,
+            -0.125447,
+            -1.614717
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "HaC3",
+          "element": "H",
+          "position": [
+            -0.200767,
+            -0.795871,
+            -1.136184
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "HaC2",
+          "element": "H",
+          "position": [
+            -0.151594,
+            -0.669306,
+            1.363311
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "HaC1",
+          "element": "H",
+          "position": [
+            2.001498,
+            0.458468,
+            1.728399
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "HaO1",
+          "element": "H",
+          "position": [
+            1.518483,
+            1.737441,
+            -0.738378
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO1"
+        },
+        {
+          "id": "HaO2",
+          "element": "H",
+          "position": [
+            0.060304,
+            2.111622,
+            1.246884
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "HaO3",
+          "element": "H",
+          "position": [
+            -0.963761,
+            1.853033,
+            -1.383563
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "HaO4",
+          "element": "H",
+          "position": [
+            -2.209685,
+            1.530495,
+            0.666122
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "HaO5",
+          "element": "H",
+          "position": [
+            -2.570289,
+            -2.98336,
+            0.55148
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO5"
+        },
+        {
+          "id": "HOnHydroxyl",
+          "element": "H",
+          "position": [
+            2.613863,
+            -2.486883,
+            -0.097169
+          ],
+          "formalCharge": 0,
+          "attachedTo": "OnHydroxyl"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "aO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "aO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "Cn",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cn",
+          "b": "OnCarbonyl",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Cn",
+          "b": "OnHydroxyl",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "HaC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "HaC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "HaC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "HaC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO1",
+          "b": "HaO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO2",
+          "b": "HaO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO3",
+          "b": "HaO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO4",
+          "b": "HaO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO5",
+          "b": "HaO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "OnHydroxyl",
+          "b": "HOnHydroxyl",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/3246006",
+        "pubchemCid": 3246006,
+        "smiles": "O=C(O)[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+        "inchi": "InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)/t2-,3-,4+,5+/m1/s1",
+        "sourceInchi": "InChI=1S/C6H12O7/c7-1-2(8)3(9)4(10)5(11)6(12)13/h2-5,7-11H,1H2,(H,12,13)/t2-,3-,4+,5+/m1/s1",
+        "carbonPositionMap": {
+          "Cn": "C1",
+          "aC1": "C2",
+          "aC2": "C3",
+          "aC3": "C4",
+          "aC4": "C5",
+          "aC5": "C6"
+        },
+        "atomOriginNote": "aC1–aC5 and aO1–aO5 denote the original D-arabinose atoms; Cn is the incoming cyanide carbon and becomes product C1. Newly introduced OnCarbonyl/OnHydroxyl are structural labels, not isotope-verified water-oxygen origins. Hydrogen names do not imply proton provenance.",
+        "construction": "Formal acid endpoint graph derived from mannononitrile; full stereograph independently matched to PubChem. Hydrolysis microsteps are not modeled.",
+        "identityScope": "PubChem identity match",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One neutral isolated-molecule conformer, not a measured solution structure, population, transition state, reaction energy or atom-by-atom oxygen/proton fate.",
+        "candidateConformers": 10,
+        "convergedConformers": 10,
+        "selectedMmff94EnergyKcalMol": 77.59168335994114
+      }
+    },
+    {
+      "id": "mannono-gamma-lactone",
+      "name": "D-甘露糖酸-γ-內酯",
+      "formula": "C6H10O6",
+      "atoms": [
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -2.861722,
+            -0.274353,
+            0.050048
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -1.732044,
+            0.74977,
+            0.199964
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.460772,
+            0.337495,
+            -0.563258
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.180675,
+            -0.968346,
+            -0.110186
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            1.622691,
+            -0.772725,
+            -0.532648
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aO1",
+          "element": "O",
+          "position": [
+            2.483712,
+            -1.605285,
+            0.226341
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            0.110891,
+            -1.146687,
+            1.314794
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            0.565984,
+            1.337036,
+            -0.386539
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -1.483634,
+            0.96067,
+            1.595207
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -3.055628,
+            -0.628786,
+            -1.313371
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Cn",
+          "element": "C",
+          "position": [
+            1.780764,
+            0.721518,
+            -0.324969
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "OnCarbonyl",
+          "element": "O",
+          "position": [
+            2.849084,
+            1.289693,
+            -0.155382
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HaC5a",
+          "element": "H",
+          "position": [
+            -2.649347,
+            -1.183871,
+            0.622308
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC5b",
+          "element": "H",
+          "position": [
+            -3.793832,
+            0.143106,
+            0.447336
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "HaC4",
+          "element": "H",
+          "position": [
+            -2.065294,
+            1.713604,
+            -0.202429
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "HaC3",
+          "element": "H",
+          "position": [
+            -0.667103,
+            0.301917,
+            -1.640568
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "HaC2",
+          "element": "H",
+          "position": [
+            -0.278575,
+            -1.84954,
+            -0.567717
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "HaC1",
+          "element": "H",
+          "position": [
+            1.758568,
+            -0.979917,
+            -1.599836
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "HaO1",
+          "element": "H",
+          "position": [
+            3.375499,
+            -1.209467,
+            0.150391
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO1"
+        },
+        {
+          "id": "HaO2",
+          "element": "H",
+          "position": [
+            0.878368,
+            -1.71954,
+            1.537454
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "HaO4",
+          "element": "H",
+          "position": [
+            -0.911401,
+            0.220018,
+            1.892771
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "HaO5",
+          "element": "H",
+          "position": [
+            -3.876563,
+            -1.152608,
+            -1.350732
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "aC1",
+          "b": "aO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "aO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "Cn",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "Cn",
+          "b": "OnCarbonyl",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Cn",
+          "b": "aO3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC5",
+          "b": "HaC5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC4",
+          "b": "HaC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC3",
+          "b": "HaC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC2",
+          "b": "HaC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aC1",
+          "b": "HaC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO1",
+          "b": "HaO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO2",
+          "b": "HaO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO4",
+          "b": "HaO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "aO5",
+          "b": "HaO5",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/1774581",
+        "pubchemCid": 1774581,
+        "smiles": "O=C1O[C@H]([C@H](O)CO)[C@H](O)[C@@H]1O",
+        "inchi": "InChI=1S/C6H10O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2-5,7-10H,1H2/t2-,3-,4+,5-/m1/s1",
+        "sourceInchi": "InChI=1S/C6H10O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2-5,7-10H,1H2/t2-,3-,4+,5-/m1/s1",
+        "carbonPositionMap": {
+          "Cn": "C1",
+          "aC1": "C2",
+          "aC2": "C3",
+          "aC3": "C4",
+          "aC4": "C5",
+          "aC5": "C6"
+        },
+        "atomOriginNote": "aC1–aC5 and aO1–aO5 denote the original D-arabinose atoms; Cn is the incoming cyanide carbon and becomes product C1. Newly introduced OnCarbonyl/OnHydroxyl are structural labels, not isotope-verified water-oxygen origins. Hydrogen names do not imply proton provenance.",
+        "construction": "Mannonic acid C1 to original arabinose aO3 (product O4) ring closure; five-membered 1,4-lactone matched to PubChem CID 1774581.",
+        "identityScope": "PubChem identity match",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One neutral isolated-molecule conformer, not a measured solution structure, population, transition state, reaction energy or atom-by-atom oxygen/proton fate.",
+        "candidateConformers": 11,
+        "convergedConformers": 11,
+        "selectedMmff94EnergyKcalMol": 84.15497397054484
+      }
+    }
+  ],
+  "scope": "Five endpoint 3D structures only. No aqueous populations, reaction-state inventory, electron arrows or fully mapped hydrolysis/reduction mechanism."
+}

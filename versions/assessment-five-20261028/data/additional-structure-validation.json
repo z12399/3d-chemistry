@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-22",
+  "status": "PASS",
+  "count": 6,
+  "rdkitVersion": "2026.03.6",
+  "inputSha256": "6fc39c878725f8ad4bd9c6a368a0d29976ac38d8afc7bfa1be5cf23cb34edb4f",
+  "checks": [
+    {
+      "id": "glucose-tetra-o-methyl",
+      "pubchemCid": 111162,
+      "formula": "C10H20O6",
+      "atomCount": 36,
+      "explicitHydrogenCount": 20,
+      "elementCounts": {
+        "C": 10,
+        "O": 6,
+        "H": 20
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        0.971774,
+        1.548211
+      ]
+    },
+    {
+      "id": "glucose-penta-o-methyl",
+      "pubchemCid": 95143,
+      "formula": "C11H22O6",
+      "atomCount": 39,
+      "explicitHydrogenCount": 22,
+      "elementCounts": {
+        "C": 11,
+        "O": 6,
+        "H": 22
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        1.091751,
+        1.54495
+      ]
+    },
+    {
+      "id": "cellobiose",
+      "pubchemCid": 441014,
+      "formula": "C12H22O11",
+      "atomCount": 45,
+      "explicitHydrogenCount": 22,
+      "elementCounts": {
+        "C": 12,
+        "O": 11,
+        "H": 22
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        0.971509,
+        1.544289
+      ]
+    },
+    {
+      "id": "maltotriose",
+      "pubchemCid": 192826,
+      "formula": "C18H32O16",
+      "atomCount": 66,
+      "explicitHydrogenCount": 32,
+      "elementCounts": {
+        "C": 18,
+        "O": 16,
+        "H": 32
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        0.97316,
+        1.553539
+      ]
+    },
+    {
+      "id": "isomaltose",
+      "pubchemCid": 11968638,
+      "formula": "C12H22O11",
+      "atomCount": 45,
+      "explicitHydrogenCount": 22,
+      "elementCounts": {
+        "C": 12,
+        "O": 11,
+        "H": 22
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        0.972842,
+        1.545403
+      ]
+    },
+    {
+      "id": "1-kestose",
+      "pubchemCid": 440080,
+      "formula": "C18H32O16",
+      "atomCount": 66,
+      "explicitHydrogenCount": 32,
+      "elementCounts": {
+        "C": 18,
+        "O": 16,
+        "H": 32
+      },
+      "uniqueIds": true,
+      "explicitHydrogensComplete": true,
+      "valence": true,
+      "finiteCoordinates": true,
+      "singleConnectedNeutralMolecule": true,
+      "sourceSmilesInchiAgreement": true,
+      "sourceStereoComplete": true,
+      "sourceCacheHash": true,
+      "exported3DInchiMatchesPubchem": true,
+      "cipLabelsMatch3D": true,
+      "bondLengths": true,
+      "bondLengthRangeAngstrom": [
+        0.974568,
+        1.559999
+      ]
+    }
+  ],
+  "unavailableModels": [
+    {
+      "id": "glucose-osazone",
+      "status": "NOT_GENERATED_STEREOCHEMISTRY_UNRESOLVED",
+      "reason": "PubChem CID 91618094 encodes three chain stereocentres but leaves one C=N geometry undefined; CID 131880540 leaves both undefined. Fully specified CID 12461581 differs in its chain stereochemistry from those records and was rejected. Primary literature also discusses phenylazo/cyclic forms, so no arbitrary E/Z or tautomer was selected.",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/91618094",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/131880540",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12461581",
+        "https://doi.org/10.1039/J39690002357"
+      ]
+    }
+  ],
+  "limits": "PASS covers the six delivered molecular graphs, explicit hydrogens and exported 3D identities. It does not cover glucose-osazone, reaction trajectories, intermediates, transition states, barriers, solution equilibria or complete polysaccharide structures."
+}

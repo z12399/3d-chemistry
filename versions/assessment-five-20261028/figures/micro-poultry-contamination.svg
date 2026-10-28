@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="620" viewBox="0 0 720 620" role="img" aria-labelledby="title desc">
+  <title id="title">禽肉加熱與兩條繞過加熱的接觸</title>
+  <desc id="desc">原創情境示意圖：假設生禽肉已有目標菌。第一條經過禽肉加熱，在有效處理已成立的前提下排除；第二條由生肉砧板接觸熟肉，第三條由沖洗飛濺碰到即食配菜，仍然開啟。箭頭只表示可能接觸，不表示菌量或感染機率。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#a3542d"/></marker>
+    <marker id="gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#82918f"/></marker>
+  </defs>
+  <rect width="720" height="620" rx="20" fill="#f5faf7"/>
+  <g font-family="sans-serif" fill="#213f3d">
+    <text x="28" y="44" font-size="25" font-weight="700">加熱處理不到後來的接觸</text>
+    <text x="28" y="76" font-size="18">假設原料已有菌；三條路徑分開追蹤</text>
+    <rect x="28" y="261" width="152" height="92" rx="14" fill="#f6e4d5" stroke="#b06a44" stroke-width="2"/>
+    <text x="104" y="297" font-size="21" text-anchor="middle" font-weight="700">受污染</text>
+    <text x="104" y="329" font-size="21" text-anchor="middle" font-weight="700">生禽肉</text>
+    <g fill="none" stroke="#a3542d" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M180 285H211V152H248"/>
+      <path d="M180 307H248"/>
+      <path d="M180 329H211V462H248"/>
+    </g>
+    <text x="252" y="119" font-size="18" font-weight="700" fill="#286d64">① 原料經加熱</text>
+    <rect x="252" y="132" width="199" height="58" rx="9" fill="#deeee6" stroke="#6c9b86"/>
+    <text x="352" y="168" font-size="20" text-anchor="middle">有效加熱已成立</text>
+    <path d="M451 161H525" fill="none" stroke="#82918f" stroke-width="3" stroke-dasharray="5 5" marker-end="url(#gray)"/>
+    <path d="M477 145V177M487 145V177" stroke="#286d64" stroke-width="5"/>
+    <rect x="532" y="132" width="160" height="58" rx="9" fill="#fff" stroke="#94aaa0"/>
+    <text x="612" y="168" font-size="20" text-anchor="middle">供餐禽肉</text>
+    <text x="252" y="216" font-size="17" fill="#286d64">只在此條件前提下，排除經處理的路徑</text>
+    <text x="252" y="273" font-size="18" font-weight="700" fill="#964c27">② 砧板再引入</text>
+    <rect x="252" y="286" width="199" height="58" rx="9" fill="#fbecdf" stroke="#c89776"/>
+    <text x="352" y="322" font-size="20" text-anchor="middle">生肉砧板</text>
+    <path d="M451 315H525" fill="none" stroke="#a3542d" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="532" y="286" width="160" height="58" rx="9" fill="#fff" stroke="#c89776"/>
+    <text x="612" y="322" font-size="20" text-anchor="middle">已加熱禽肉</text>
+    <text x="252" y="370" font-size="17" fill="#964c27">熟肉再碰生肉砧板，繞過前段加熱</text>
+    <text x="252" y="428" font-size="18" font-weight="700" fill="#964c27">③ 飛濺至配菜</text>
+    <rect x="252" y="441" width="199" height="58" rx="9" fill="#fbecdf" stroke="#c89776"/>
+    <text x="352" y="477" font-size="20" text-anchor="middle">沖洗水花</text>
+    <path d="M451 470H525" fill="none" stroke="#a3542d" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="532" y="441" width="160" height="58" rx="9" fill="#fff" stroke="#c89776"/>
+    <text x="612" y="477" font-size="20" text-anchor="middle">即食配菜</text>
+    <text x="252" y="525" font-size="17" fill="#964c27">明定水花碰到配菜，且配菜未再加熱</text>
+    <path d="M28 550H692" stroke="#c1d4c9"/>
+    <text x="28" y="578" font-size="17">箭頭表示接觸，不表示菌量或感染機率。</text>
+    <text x="28" y="604" font-size="17">分開砧板與避免沖洗各控制一條路徑；仍需查其他食品鏈條件。</text>
+  </g>
+</svg>

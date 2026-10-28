@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "examples": [
+    {
+      "id": "t4",
+      "label": "T4：可收縮尾鞘",
+      "shortLabel": "T4",
+      "scope": "選定T4主要構造；結構證據含E. coli minicells感染起始中間態。",
+      "summary": "比較衣殼、DNA、尾管、尾鞘、基板及長短尾纖維；不以這個外形代表全部噬菌體。",
+      "diagramKind": "t4",
+      "structures": [
+        {
+          "id": "capsid",
+          "label": "衣殼",
+          "shortLabel": "衣殼",
+          "description": "蛋白質衣殼包住T4雙股DNA。圖選畫主要部位，沒有列出所有蛋白。",
+          "claimIds": [
+            "phage-claim-t4-structure"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "genome",
+          "label": "雙股DNA基因體",
+          "shortLabel": "DNA",
+          "description": "衣殼內的DNA攜帶遺傳訊息；後續形成子代仍依賴宿主中的複製、合成與組裝。",
+          "claimIds": [
+            "phage-claim-t4-structure",
+            "phage-claim-host-dependence"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015",
+            "phage-source-openstax61",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "tail-tube",
+          "label": "尾管",
+          "shortLabel": "尾管",
+          "description": "尾管位於尾鞘內，與DNA通過的路徑有關；它與外側可收縮的尾鞘是不同構造。",
+          "claimIds": [
+            "phage-claim-t4-structure",
+            "phage-claim-t4-entry"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "tail-sheath",
+          "label": "可收縮尾鞘",
+          "shortLabel": "尾鞘",
+          "description": "尾鞘收縮推動尾管。來源中尾管先進入周質，不能把示意簡化成直穿兩層膜至細胞質。",
+          "claimIds": [
+            "phage-claim-t4-structure",
+            "phage-claim-t4-entry"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "baseplate",
+          "label": "基板",
+          "shortLabel": "基板",
+          "description": "尾端基板連結纖維；其結構重排與穩定附著、尾鞘收縮的起始相連。",
+          "claimIds": [
+            "phage-claim-t4-attachment"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "long-tail-fibers",
+          "label": "長尾纖維",
+          "shortLabel": "長纖維",
+          "description": "長尾纖維參與宿主表面辨識。圖為了可選取而展開；來源不要求所有長纖維同時接觸。",
+          "claimIds": [
+            "phage-claim-t4-attachment"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "short-tail-fibers",
+          "label": "短尾纖維",
+          "shortLabel": "短纖維",
+          "description": "短尾纖維位於基板附近，參與較穩定的附著；不能只靠一個接觸圖就認定完成繁殖。",
+          "claimIds": [
+            "phage-claim-t4-attachment",
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-t4-2015",
+            "phage-source-dussoix-1962"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lambda",
+      "label": "λ：柔性非收縮尾管",
+      "shortLabel": "λ",
+      "scope": "λ為概念例；結構、受體與生活史資料來自不同研究材料，不是同一菌株的連續實驗。",
+      "summary": "只選畫衣殼、DNA、尾管與尾端；未畫側纖維不表示任何λ都沒有側纖維。",
+      "diagramKind": "lambda",
+      "structures": [
+        {
+          "id": "capsid",
+          "label": "衣殼",
+          "shortLabel": "衣殼",
+          "description": "λ衣殼容納基因體；原研究也區分含DNA與空粒子，外形本身不是感染性測試。",
+          "claimIds": [
+            "phage-claim-lambda-structure",
+            "phage-claim-morphology-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2020",
+            "phage-source-klopot-2017"
+          ]
+        },
+        {
+          "id": "genome",
+          "label": "雙股DNA基因體",
+          "shortLabel": "DNA",
+          "description": "圖中DNA可在衣殼內、宿主內、前噬菌體或新衣殼內，依所選概念片段追蹤。",
+          "claimIds": [
+            "phage-claim-lambda-structure",
+            "phage-claim-lysogeny",
+            "phage-claim-diagram-subset"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2020",
+            "phage-source-openstax62",
+            "phage-source-t4-2015"
+          ]
+        },
+        {
+          "id": "tail-tube",
+          "label": "柔性非收縮尾管",
+          "shortLabel": "尾管",
+          "description": "λ尾管連接衣殼與尾端，呈柔性且不以T4式尾鞘收縮；進入圖只畫抽象DNA方向。",
+          "claimIds": [
+            "phage-claim-lambda-structure"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2020"
+          ]
+        },
+        {
+          "id": "tail-tip",
+          "label": "尾端辨識結構",
+          "shortLabel": "尾端",
+          "description": "gpJ相關尾端與LamB互動。2024來源用純化尾部與Shigella sonnei LamB，受體結合不等於完整感染成功。",
+          "claimIds": [
+            "phage-claim-lambda-receptor",
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2024",
+            "phage-source-dussoix-1962"
+          ]
+        }
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "id": "t4-lytic",
+      "exampleId": "t4",
+      "label": "T4裂解途徑",
+      "scope": "所選定性順序；沒有給T4添加溶原分支。",
+      "stageIds": [
+        "attachment",
+        "entry",
+        "biosynthesis",
+        "assembly",
+        "release"
+      ]
+    },
+    {
+      "id": "lambda-lytic",
+      "exampleId": "lambda",
+      "label": "λ裂解途徑",
+      "scope": "λ的一條教學途徑；不計算是否進入此路的機率。",
+      "stageIds": [
+        "attachment",
+        "entry",
+        "biosynthesis",
+        "assembly",
+        "release"
+      ]
+    },
+    {
+      "id": "lambda-lysogenic",
+      "exampleId": "lambda",
+      "label": "λ溶原與傳承",
+      "scope": "λ整合型前噬菌體的選定途徑；不等於成熟粒子自行分裂。",
+      "stageIds": [
+        "attachment",
+        "entry",
+        "integration",
+        "inheritance"
+      ]
+    },
+    {
+      "id": "lambda-induced",
+      "exampleId": "lambda",
+      "label": "λ誘導後轉裂解",
+      "scope": "起點已是λ溶原細胞，第一片段明定前噬菌體已切出；不提供誘導條件。",
+      "stageIds": [
+        "induction",
+        "biosynthesis",
+        "assembly",
+        "release"
+      ]
+    }
+  ],
+  "cycleStages": [
+    {
+      "id": "attachment",
+      "label": "附著片段",
+      "prompt": "先判讀：本片段停在附著而尚未送入DNA。追蹤基因體及成熟子代各在哪裡？",
+      "explanation": "所追蹤的入侵粒子已與表面相連，DNA仍留在其衣殼內；圖中尚無成熟子代。受體接觸是前段證據，不能自行保證完成繁殖。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "parent-capsid",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-lytic",
+        "phage-claim-post-entry-barrier",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-dussoix-1962",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "entry",
+      "label": "進入完成片段",
+      "prompt": "先判讀：本片段只追蹤已移入、尚未整合或包裝的DNA。",
+      "explanation": "DNA已進入宿主內，原入侵衣殼仍在外；尚未畫出成熟子代。箭頭只表達位置改變，沒有宣稱T4與λ使用相同膜通道。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。 T4膜中間態與λ受體結構各有材料與機制限制。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "host-interior",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-lytic",
+        "phage-claim-t4-entry",
+        "phage-claim-lambda-receptor",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2024",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "biosynthesis",
+      "label": "複製與合成片段",
+      "prompt": "先判讀：追蹤尚未包裝的DNA與未組裝部件，現在能畫出成熟子代嗎？",
+      "explanation": "宿主內進行噬菌體基因體複製與部件合成。本片段選在尚未組裝成熟粒子的狀態；DNA與蛋白部件不算同一種粒子。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。 共用圖不表示λ會依T4方式降解宿主DNA或製造尾鞘。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "host-interior",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-lytic",
+        "phage-claim-host-dependence",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-openstax61",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "assembly",
+      "label": "已組裝片段",
+      "prompt": "先判讀：這次改追蹤已包裝進新粒子的DNA子集。",
+      "explanation": "新粒子在宿主內完成圖示的組裝，所追蹤DNA位於新衣殼內。成熟外形和組裝狀態本身不是逐粒感染性測定。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。 未包裝DNA或其他部件仍可能同時存在。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "new-capsids",
+        "progeny": "inside"
+      },
+      "claimIds": [
+        "phage-claim-lytic",
+        "phage-claim-morphology-endpoint",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-lambda-2020",
+        "phage-source-klopot-2017",
+        "phage-source-t4-2015"
+      ]
+    },
+    {
+      "id": "release",
+      "label": "裂解釋放片段",
+      "prompt": "先判讀：追蹤已釋放的新粒子及其DNA，宿主圖有何改變？",
+      "explanation": "所選裂解途徑中宿主破裂，新粒子釋放；追蹤DNA仍在新衣殼內。圖示不給感染性數值，也不保證它們能感染所有菌株。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。",
+      "diagramState": {
+        "host": "lysed"
+      },
+      "answers": {
+        "genome": "new-capsids",
+        "progeny": "released"
+      },
+      "claimIds": [
+        "phage-claim-lytic",
+        "phage-claim-infectivity-endpoint",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-klopot-2017",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "integration",
+      "label": "整合片段",
+      "prompt": "先判讀：λ DNA與宿主染色體形成整合關係，這等於已有成熟粒子嗎？",
+      "explanation": "所追蹤λ DNA成為染色體中的前噬菌體。本片段没有成熟子代圖示；整合的DNA與完整病毒粒子是不同物件。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "prophage",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-lysogeny",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "inheritance",
+      "label": "隨細胞傳承片段",
+      "prompt": "先判讀：帶前噬菌體的染色體隨細胞分裂傳給子細胞；傳的是什麼？",
+      "explanation": "前噬菌體DNA隨染色體複製與細胞分裂傳承。圖中是細胞分裂，不是成熟噬菌體粒子二分裂。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。",
+      "diagramState": {
+        "host": "dividing"
+      },
+      "answers": {
+        "genome": "prophage",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-lysogeny",
+        "phage-claim-host-dependence",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-openstax61",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    },
+    {
+      "id": "induction",
+      "label": "誘導後已切出",
+      "prompt": "先判讀：起點是溶原細胞，且題設已完成前噬菌體切出；此刻尚未組裝新粒子。",
+      "explanation": "這個片段追蹤已從染色體切出的λ DNA，之後接到合成、組裝與釋放；此刻尚無成熟子代圖示。",
+      "limits": "這是選定片段與DNA子集，不是全細胞同步實測；階段名提供提示，並非盲測。 不提供誘導條件，不表示每個溶原細胞必然立即裂解。",
+      "diagramState": {
+        "host": "intact"
+      },
+      "answers": {
+        "genome": "host-interior",
+        "progeny": "absent"
+      },
+      "claimIds": [
+        "phage-claim-induction",
+        "phage-claim-diagram-subset"
+      ],
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ]
+    }
+  ],
+  "evidenceCases": [
+    {
+      "id": "dna-versus-infectivity",
+      "title": "DNA訊號等於感染性嗎？",
+      "prompt": "自編定性題設。卡片不是原論文資料重播；來源只支持概念與推論界線。未提供的觀察保留未知。",
+      "kind": "authored-hypothetical",
+      "cards": [
+        {
+          "id": "dna-target",
+          "label": "卡A：序列訊號",
+          "text": "一份標示為T4相關樣本的報告寫「已檢出目標DNA序列」。此刻沒有粒子影像或感染性結果。",
+          "observationScope": "nucleic-acid",
+          "observationLabel": "樣本中的目標DNA訊號",
+          "claimIds": [
+            "phage-claim-dna-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017"
+          ]
+        },
+        {
+          "id": "dna-image",
+          "label": "卡B：粒子影像",
+          "text": "同一自編報告再提供頭尾粒子外形影像；影像未逐粒驗證DNA完整性或感染性。",
+          "observationScope": "particle",
+          "observationLabel": "頭尾粒子的外形影像",
+          "claimIds": [
+            "phage-claim-morphology-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2020",
+            "phage-source-klopot-2017"
+          ]
+        },
+        {
+          "id": "dna-infectivity",
+          "label": "卡C：指定宿主結果",
+          "text": "報告新增：樣本在指定試驗宿主的感染性檢測為陽性。沒有提供新生來源或與原輸入粒子的區分。",
+          "observationScope": "infectivity",
+          "observationLabel": "指定宿主感染性陽性",
+          "claimIds": [
+            "phage-claim-infectivity-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "id": "dna-one",
+          "label": "只有A",
+          "cardIds": [
+            "dna-target"
+          ],
+          "prompt": "此時最能支持哪一項？",
+          "choices": [
+            {
+              "id": "sequence",
+              "label": "目標序列存在於受測樣本"
+            },
+            {
+              "id": "active",
+              "label": "所有粒子均有感染性"
+            },
+            {
+              "id": "offspring",
+              "label": "已在待判宿主形成新子代"
+            }
+          ],
+          "answerId": "sequence",
+          "explanation": "核酸訊號回答序列是否被檢出；自由DNA也可能貢獻訊號，不能直接改成完整粒子或感染性。",
+          "limits": "來源Kłopot研究是血清中和輸入粒子，不提供這個自編樣本的定位或生產結果。",
+          "claimIds": [
+            "phage-claim-dna-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017"
+          ]
+        },
+        {
+          "id": "dna-two",
+          "label": "A與B",
+          "cardIds": [
+            "dna-target",
+            "dna-image"
+          ],
+          "prompt": "新增影像後，哪個結論較合適？",
+          "choices": [
+            {
+              "id": "everyone",
+              "label": "所有菌株都會被感染"
+            },
+            {
+              "id": "two-ends",
+              "label": "已有DNA與粒子外形兩類證據，感染性仍未提供"
+            },
+            {
+              "id": "new-active",
+              "label": "影像已證明新具感染力子代"
+            }
+          ],
+          "answerId": "two-ends",
+          "explanation": "兩種觀察增加了不同面向的證據，但外形無法替代感染性檢測，也未建立DNA與每一粒子的逐粒對應。",
+          "limits": "不能把λ空／滿粒子的原文圖片冒充這個T4情境的照片。",
+          "claimIds": [
+            "phage-claim-dna-endpoint",
+            "phage-claim-morphology-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-lambda-2020"
+          ]
+        },
+        {
+          "id": "dna-three",
+          "label": "A、B與C",
+          "cardIds": [
+            "dna-target",
+            "dna-image",
+            "dna-infectivity"
+          ],
+          "prompt": "目前仍需保留哪項限制？",
+          "choices": [
+            {
+              "id": "no-activity",
+              "label": "樣本完全沒有感染性證據"
+            },
+            {
+              "id": "every-host",
+              "label": "已證明全部細菌均是宿主"
+            },
+            {
+              "id": "origin-unknown",
+              "label": "支持指定宿主感染性；新子代來源仍未知"
+            }
+          ],
+          "answerId": "origin-unknown",
+          "explanation": "卡C支持指定宿主與該試驗範圍的感染性；若原輸入粒子仍在，陽性不代表待判宿主已產出新子代。",
+          "limits": "不由定性陽性計算產量、感染率或食品安全效果。",
+          "claimIds": [
+            "phage-claim-infectivity-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adsorption-versus-production",
+      "title": "吸附之後還缺什麼？",
+      "prompt": "自編定性題設。卡片不是原論文資料重播；來源只支持概念與推論界線。未提供的觀察保留未知。",
+      "kind": "authored-hypothetical",
+      "cards": [
+        {
+          "id": "host-binding",
+          "label": "卡A：已吸附",
+          "text": "自編λ／指定細菌組合的觀察報告：粒子已吸附於細胞表面。尚無DNA位置或子代資訊。",
+          "observationScope": "cell-surface",
+          "observationLabel": "細胞表面吸附",
+          "claimIds": [
+            "phage-claim-lambda-receptor",
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2024",
+            "phage-source-dussoix-1962"
+          ]
+        },
+        {
+          "id": "host-entry",
+          "label": "卡B：DNA已進入",
+          "text": "報告再提供相互支持的定位證據，確認入侵DNA已進入宿主內；未測定後續子代。",
+          "observationScope": "host-interior",
+          "observationLabel": "入侵DNA位於宿主內",
+          "claimIds": [
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-dussoix-1962"
+          ]
+        },
+        {
+          "id": "host-degradation",
+          "label": "卡C：DNA降解",
+          "text": "後續觀察顯示入侵DNA發生降解，宿主細胞仍存留。沒有提供成熟粒子或感染性子代的測量。",
+          "observationScope": "host-interior",
+          "observationLabel": "宿主內入侵DNA降解",
+          "claimIds": [
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-dussoix-1962"
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "id": "host-one",
+          "label": "只有A",
+          "cardIds": [
+            "host-binding"
+          ],
+          "prompt": "吸附證據最適合支持什麼？",
+          "choices": [
+            {
+              "id": "productive",
+              "label": "必然形成新感染性子代"
+            },
+            {
+              "id": "surface",
+              "label": "支持表面互動，後續步驟仍未知"
+            },
+            {
+              "id": "no-host",
+              "label": "指定細菌不可能與λ互動"
+            }
+          ],
+          "answerId": "surface",
+          "explanation": "受體／表面相容性關係到前段接觸；完整生產性繁殖還跨越進入與宿主內事件。",
+          "limits": "受體原始結構研究使用純化tail–ssLamB；此卡是自編細胞觀察，不把兩者當同一實驗。",
+          "claimIds": [
+            "phage-claim-lambda-receptor",
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2024",
+            "phage-source-dussoix-1962"
+          ]
+        },
+        {
+          "id": "host-two",
+          "label": "A與B",
+          "cardIds": [
+            "host-binding",
+            "host-entry"
+          ],
+          "prompt": "DNA已進入後應如何修訂？",
+          "choices": [
+            {
+              "id": "after-entry",
+              "label": "前段進入有支持，後續生產仍未確認"
+            },
+            {
+              "id": "all-steps",
+              "label": "所有後續步驟皆成功"
+            },
+            {
+              "id": "zero-dna",
+              "label": "宿主內完全沒有噬菌體DNA"
+            }
+          ],
+          "answerId": "after-entry",
+          "explanation": "卡B把證據延伸到宿主內DNA；Dussoix與Arber摘要的具名案例提醒，成功進入後仍可能遇到障礙。",
+          "limits": "研究的指定λ·K／E. coli組合不代表所有λ或所有E. coli。",
+          "claimIds": [
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-dussoix-1962"
+          ]
+        },
+        {
+          "id": "host-three",
+          "label": "A、B與C",
+          "cardIds": [
+            "host-binding",
+            "host-entry",
+            "host-degradation"
+          ],
+          "prompt": "卡C讓哪一項推論更有根據？",
+          "choices": [
+            {
+              "id": "never-attached",
+              "label": "DNA降解證明從未吸附"
+            },
+            {
+              "id": "offspring-zero",
+              "label": "所有條件下子代數量必定為零"
+            },
+            {
+              "id": "barrier",
+              "label": "有進入後障礙線索；未測子代仍保留未知"
+            }
+          ],
+          "answerId": "barrier",
+          "explanation": "吸附與進入的證據沒有被抹除；新增降解觀察把障礙定位到較後段。它不能替代未提供的子代測量。",
+          "limits": "來源只取得摘要，沒有填入未提供的PFU結果、降解率或宿主擴張機制。",
+          "claimIds": [
+            "phage-claim-post-entry-barrier"
+          ],
+          "sourceIds": [
+            "phage-source-dussoix-1962"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lysogen-evidence",
+      "title": "細胞帶DNA，就是溶原嗎？",
+      "prompt": "自編定性題設。卡片不是原論文資料重播；來源只支持概念與推論界線。未提供的觀察保留未知。",
+      "kind": "authored-hypothetical",
+      "cards": [
+        {
+          "id": "lysogen-dna",
+          "label": "卡A：細胞樣本的DNA",
+          "text": "一份自編λ題設報告：細胞樣本檢出λ目標DNA，尚未提供整合位置、子細胞傳承或新粒子證據。",
+          "observationScope": "nucleic-acid",
+          "observationLabel": "細胞樣本檢出λ序列",
+          "claimIds": [
+            "phage-claim-dna-endpoint",
+            "phage-claim-lysogeny"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "lysogen-junction",
+          "label": "卡B：整合關係",
+          "text": "報告新增相互支持的序列與位置證據，確認λ DNA已與同一宿主染色體形成整合關係。尚未提供子細胞傳承。",
+          "observationScope": "host-chromosome",
+          "observationLabel": "λ DNA與宿主染色體整合",
+          "claimIds": [
+            "phage-claim-lysogeny"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "lysogen-inheritance",
+          "label": "卡C：子細胞傳承",
+          "text": "同一細胞譜系的後續觀察顯示：子細胞保有相同的整合關係。此報告沒有成熟粒子形成或感染性測量。",
+          "observationScope": "inheritance",
+          "observationLabel": "整合訊號隨子細胞傳承",
+          "claimIds": [
+            "phage-claim-lysogeny",
+            "phage-claim-host-dependence"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-openstax61"
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "id": "lysogen-one",
+          "label": "只有A",
+          "cardIds": [
+            "lysogen-dna"
+          ],
+          "prompt": "單一DNA訊號能否確定已建立溶原狀態？",
+          "choices": [
+            {
+              "id": "certain",
+              "label": "能，任何DNA陽性都是溶原"
+            },
+            {
+              "id": "lysed",
+              "label": "能，且宿主一定已裂解"
+            },
+            {
+              "id": "incomplete",
+              "label": "尚不能，缺整合與傳承證據"
+            }
+          ],
+          "answerId": "incomplete",
+          "explanation": "檢出序列不等於知道其在染色體上的關係，也不等於有新粒子；λ溶原判讀還需要對應狀態證據。",
+          "limits": "此處qPCR限制是端點推理，不把T4血清原研究當作λ細胞內定位研究。",
+          "claimIds": [
+            "phage-claim-dna-endpoint",
+            "phage-claim-lysogeny"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "lysogen-two",
+          "label": "A與B",
+          "cardIds": [
+            "lysogen-dna",
+            "lysogen-junction"
+          ],
+          "prompt": "卡B最直接新增什麼支持？",
+          "choices": [
+            {
+              "id": "integration",
+              "label": "支持所述λ前噬菌體整合狀態"
+            },
+            {
+              "id": "virion-division",
+              "label": "證明成熟噬菌體正在二分裂"
+            },
+            {
+              "id": "progeny-active",
+              "label": "證明新子代均有感染性"
+            }
+          ],
+          "answerId": "integration",
+          "explanation": "相同宿主染色體上的整合關係，比單一λ序列訊號更直接支持本例前噬菌體狀態；長期或子細胞傳承還要另看資料。",
+          "limits": "前噬菌體是DNA狀態，不是整顆病毒藏在染色體裡；本例不概括全部溫和噬菌體。",
+          "claimIds": [
+            "phage-claim-lysogeny",
+            "phage-claim-host-dependence"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-openstax61"
+          ]
+        },
+        {
+          "id": "lysogen-three",
+          "label": "A、B與C",
+          "cardIds": [
+            "lysogen-dna",
+            "lysogen-junction",
+            "lysogen-inheritance"
+          ],
+          "prompt": "完整題設最能支持哪個描述？",
+          "choices": [
+            {
+              "id": "all-lytic",
+              "label": "全部子細胞都已立即裂解"
+            },
+            {
+              "id": "inheritance",
+              "label": "支持前噬菌體隨細胞傳承；新粒子形成仍未提供"
+            },
+            {
+              "id": "no-phage",
+              "label": "沒有成熟粒子報告就等於不存在λ DNA"
+            }
+          ],
+          "answerId": "inheritance",
+          "explanation": "整合與同譜系子細胞傳承相互支持λ溶原路徑；細胞分裂傳遞前噬菌體DNA，不等於成熟噬菌體自行分裂。",
+          "limits": "未提供成熟粒子資料不是測定陰性；也不排除日後在其他片段轉向裂解。",
+          "claimIds": [
+            "phage-claim-lysogeny",
+            "phage-claim-host-dependence",
+            "phage-claim-induction"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-openstax61"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progeny-origin",
+      "title": "陽性訊號來自新子代嗎？",
+      "prompt": "自編定性題設。卡片不是原論文資料重播；來源只支持概念與推論界線。未提供的觀察保留未知。",
+      "kind": "authored-hypothetical",
+      "cards": [
+        {
+          "id": "origin-positive",
+          "label": "卡A：接觸後陽性",
+          "text": "自編T4題設：粒子與待判細菌接觸後，樣本對指定試驗宿主呈感染性陽性。樣本仍可能含原輸入粒子。",
+          "observationScope": "infectivity",
+          "observationLabel": "接觸後樣本感染性陽性",
+          "claimIds": [
+            "phage-claim-infectivity-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "origin-assembly",
+          "label": "卡B：組裝與裂解",
+          "text": "針對待判細菌的追蹤另見新組裝粒子外形及宿主裂解；沒有把這批新粒子與卡A的感染性訊號直接對應。",
+          "observationScope": "particle",
+          "observationLabel": "新組裝粒子外形",
+          "claimIds": [
+            "phage-claim-lytic",
+            "phage-claim-morphology-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-lambda-2020",
+            "phage-source-klopot-2017"
+          ]
+        },
+        {
+          "id": "origin-control",
+          "label": "卡C：新生來源判別",
+          "text": "題設明定來源辨別有效：報告已排除原輸入粒子殘留作為此訊號來源，並將新形成子代與指定試驗宿主的感染性結果對應。此卡是定性判讀前提，沒有提供實驗方法。",
+          "observationScope": "input-control",
+          "observationLabel": "新生來源與感染性訊號對應",
+          "claimIds": [
+            "phage-claim-progeny-origin",
+            "phage-claim-infectivity-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-klopot-2017"
+          ]
+        }
+      ],
+      "levels": [
+        {
+          "id": "origin-one",
+          "label": "只有A",
+          "cardIds": [
+            "origin-positive"
+          ],
+          "prompt": "卡A足以確認待判細菌產出新子代嗎？",
+          "choices": [
+            {
+              "id": "new-proven",
+              "label": "足夠，接觸後陽性就是新子代"
+            },
+            {
+              "id": "carryover",
+              "label": "不足，仍可能來自原輸入粒子"
+            },
+            {
+              "id": "no-infection",
+              "label": "不足，所以樣本一定毫無感染性"
+            }
+          ],
+          "answerId": "carryover",
+          "explanation": "感染性陽性回答樣本對試驗宿主的作用；待判細菌是否生產新子代，是額外的來源問題。",
+          "limits": "待判宿主與感染性試驗宿主是兩個角色；不能偷換成相同菌株。",
+          "claimIds": [
+            "phage-claim-infectivity-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "origin-two",
+          "label": "A與B",
+          "cardIds": [
+            "origin-positive",
+            "origin-assembly"
+          ],
+          "prompt": "新增粒子與裂解觀察後，還缺什麼？",
+          "choices": [
+            {
+              "id": "origin-link",
+              "label": "新形成粒子與感染性訊號的對應"
+            },
+            {
+              "id": "tail-length",
+              "label": "一個尾巴長度就能解決全部問題"
+            },
+            {
+              "id": "nothing",
+              "label": "不再需要任何来源或端點區分"
+            }
+          ],
+          "answerId": "origin-link",
+          "explanation": "卡B支持組裝與裂解事件；卡A的感染性訊號若仍可能由原輸入帶來，就尚未證明新組裝粒子本身具感染性。",
+          "limits": "外形、裂解、感染性與新生來源各是不同觀察；不能用任一項替代其餘。",
+          "claimIds": [
+            "phage-claim-morphology-endpoint",
+            "phage-claim-progeny-origin"
+          ],
+          "sourceIds": [
+            "phage-source-lambda-2020",
+            "phage-source-klopot-2017",
+            "phage-source-openstax62"
+          ]
+        },
+        {
+          "id": "origin-three",
+          "label": "A、B與C",
+          "cardIds": [
+            "origin-positive",
+            "origin-assembly",
+            "origin-control"
+          ],
+          "prompt": "在卡C明示前提成立時，最合理的結論？",
+          "choices": [
+            {
+              "id": "all-foods",
+              "label": "已證明任何食品都安全"
+            },
+            {
+              "id": "all-strains",
+              "label": "已證明所有菌株都是有效宿主"
+            },
+            {
+              "id": "bounded-production",
+              "label": "支持待判宿主形成新具感染力子代，適用範圍限此題設"
+            }
+          ],
+          "answerId": "bounded-production",
+          "explanation": "新生來源與感染性對應補上前兩卡的缺口，支持所述待判宿主完成生產性繁殖；不由此推算數量、效率或其他宿主。",
+          "limits": "這是助理自編的條件式推理，非引用某篇論文已完成此三卡實驗。",
+          "claimIds": [
+            "phage-claim-progeny-origin",
+            "phage-claim-infectivity-endpoint"
+          ],
+          "sourceIds": [
+            "phage-source-openstax62",
+            "phage-source-klopot-2017"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "phage-source-ntu113",
+      "title": "臺大113年食品微生物學275，第1題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/113/113-275.pdf",
+      "publisher": "國立臺灣大學圖書館；官方試題",
+      "year": 2024,
+      "evidenceKind": "official-exam",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/ntu-113-275.pdf",
+      "sha256": "3a16d381727e3bb265cf8f3833abfdcc9012331611d8b115517316863040ca94",
+      "locator": "第1頁，第1題",
+      "retrievalScope": "完整原頁已視讀；PDF為影像頁。",
+      "limits": [
+        "只作能力範圍依據，不是官方答案。"
+      ],
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/ntu-113-275-p1.png",
+          "sha256": "b790b68dcf1be3e07af645384b1052336d2149e24b132ff5c4fb00ef5519f9e3"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-ntu114",
+      "title": "臺大114年食品微生物學259，第4題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/114/114-259.pdf",
+      "publisher": "國立臺灣大學圖書館；官方試題",
+      "year": 2025,
+      "evidenceKind": "official-exam",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/ntu-114-259.pdf",
+      "sha256": "dc3d4f002917a37f63d9a344e1227e945fbfdca0ed8cc962e5df8e6950397eb7",
+      "locator": "第1頁，第4題",
+      "retrievalScope": "完整原頁已視讀；PDF為影像頁。",
+      "limits": [
+        "一般病毒宿主依賴的相鄰前置；兩種噬菌體不能代替全部病毒。"
+      ],
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/ntu-114-259-p1.png",
+          "sha256": "dc165b357f6113695e31bc2d49beb88ee971e1b538b31a512175cc84b81cc3cc"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-openstax61",
+      "title": "Microbiology §6.1: Viruses",
+      "url": "https://openstax.org/books/microbiology/pages/6-1-viruses",
+      "publisher": "OpenStax，Rice University",
+      "year": 2016,
+      "evidenceKind": "textbook",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-1.html",
+      "sha256": "e3549afe90671e97901d4d6eb17f7315a83ff6b05cdaa15c309507bc995608fd",
+      "locator": "Acellular Entities；Host Range；Virus Structure",
+      "retrievalScope": "已讀相關完整段落；原HTML citation_date=Nov 1, 2016。",
+      "limits": [
+        "只採宿主依賴與基本結構，不將一種外形套用全部病毒。"
+      ],
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/extracted/openstax-6-1-fulltext.txt",
+          "sha256": "4baf528c5886b42014e16c29c25fa4c25058684ced217768ab07d44213669a23"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-openstax62",
+      "title": "Microbiology §6.2: The Viral Life Cycle",
+      "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+      "publisher": "OpenStax，Rice University",
+      "year": 2016,
+      "evidenceKind": "textbook",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+      "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833",
+      "locator": "The Lytic Cycle；The Lysogenic Cycle；Figures 6.7–6.8",
+      "retrievalScope": "已讀噬菌體段落及圖說。",
+      "limits": [
+        "T-even段落的尾鞘、宿主DNA降解不直接套用λ；λ途徑為概念例而非全部感染結果。"
+      ],
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/extracted/openstax-6-2-fulltext.txt",
+          "sha256": "32ca335409ff510ee5c9cf3d18f0b2fb849a39af24ac89da628762c862788efd"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-t4-2015",
+      "title": "Hu等：Structural remodeling of bacteriophage T4 and host membranes during infection initiation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568249/",
+      "publisher": "PNAS；原始研究",
+      "year": 2015,
+      "evidenceKind": "primary-fulltext",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/t4-2015-pmc-attempt02.html",
+      "sha256": "dfdc108008191ce5640e6ce95f0b166b5742e3f69df132be1711fd4df64785b0",
+      "locator": "Significance／Abstract；Figure 1；Results与Discussion的尾管及膜重排段",
+      "retrievalScope": "已讀完整指定段落與Figure 1，原圖已視讀。",
+      "limits": [
+        "E. coli minicells、WT與突變粒子的cryo-ET靜態中間態；非即時分子電影。",
+        "尾管先入周質，不能畫成直穿兩層膜；通道蛋白角色仍有推測。"
+      ],
+      "doi": "10.1073/pnas.1501064112",
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/extracted/t4-2015-fulltext.txt",
+          "sha256": "63d74ce93a44fc5561706e404f0a6cae6cd1b419b0bb1f6bd17e41f4a6e70ce2"
+        },
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/t4-2015-figure1.jpg",
+          "sha256": "663233197d63e569be568fb58b9bccda272c76462d265b7e14bac4c58db360c9"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-lambda-2020",
+      "title": "Campbell等：Mobile Loops and Electrostatic Interactions Maintain the Flexible Tail Tube of Bacteriophage Lambda",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7575002/",
+      "publisher": "原始研究；同行評審期刊",
+      "year": 2020,
+      "evidenceKind": "primary-fulltext",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2019-pmc-attempt02.html",
+      "sha256": "cc90b9e906a79f7d39235a325e18254f33f5abae7f6e926ff545fea18ac2f8d6",
+      "locator": "Abstract；Introduction；Figures 1–2；Methods: Phage preparation",
+      "retrievalScope": "2019-11-08 online；2020-01-17 issue。已讀指定完整段落與兩圖。",
+      "limits": [
+        "結構研究的材料為λ CI857 Sam7，含裝DNA粒子、空粒子及游離尾部；不是完整野生型生活史實驗。",
+        "不將歷史尾型分類名稱當作現行分類；柔性非收縮尾管形態可用。"
+      ],
+      "doi": "10.1016/j.jmb.2019.10.031",
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/extracted/lambda-2019-fulltext.txt",
+          "sha256": "6584c6e22478065062b3ea5f72e9637b0bba14e5ee3476d4cdc90c6ba18136bc"
+        },
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/lambda-2019-figure1.jpg",
+          "sha256": "5ed9d89e4e10efae9b2fa1a2c414ca65f3dc1293ebaad5c3e42b7231d04c8244"
+        },
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/lambda-2019-figure2.jpg",
+          "sha256": "b9ae8c93ae5aba09dbcec710e85c3335590c1e7a3000f41fe0cf7886a2c876cd"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-lambda-2024",
+      "title": "Ge與Wang：Structural mechanism of bacteriophage lambda tail’s interaction with the bacterial receptor",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11101478/",
+      "publisher": "原始研究；同行評審期刊",
+      "year": 2024,
+      "evidenceKind": "primary-fulltext",
+      "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2024-pmc.html",
+      "sha256": "cc1d66778502ce6653f1d23d1fa14730a61fd58bf0a942cfd88860478c64ec0c",
+      "locator": "Introduction；Results: receptor-bound tail；Figure 1；Discussion",
+      "retrievalScope": "已讀相關完整段落與Figure 1。",
+      "limits": [
+        "主要結構系統為純化λ尾部與Shigella sonnei 3070 LamB nanodisc，非完整E. coli感染。",
+        "原始λ可有側纖維；教材選畫4部位不是宣稱所有λ都沒有側纖維。",
+        "DNA穿過周質和內膜仍未完全解明。"
+      ],
+      "doi": "10.1038/s41467-024-48686-3",
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/extracted/lambda-2024-pmc-fulltext.txt",
+          "sha256": "38befe2418fbbc59fb4204548821a6c1b22d531405d11d88e0257b3a8a07ae8f"
+        },
+        {
+          "path": "output/phage-evidence-2026-10-13/source-curriculum/pages/lambda-2024-figure1.jpg",
+          "sha256": "88fb509a41033a504137b2caf80470918475bbd5b6a69b3fa5b1f1ce8b4c5c06"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-dussoix-1962",
+      "title": "Dussoix與Arber：Host specificity of DNA produced by Escherichia coli. II. Control over acceptance of DNA from infecting phage lambda",
+      "url": "https://edoc.unibas.ch/entities/publication/bf937c66-da5e-4065-a3f8-3107b877f557",
+      "publisher": "原始研究；University of Basel institutional repository",
+      "year": 1962,
+      "evidenceKind": "primary-abstract",
+      "localPath": "output/phage-evidence-2026-10-13/design-review/sources/dussoix1962-institution-abstract.html",
+      "sha256": "3e5f59fef056006ca57ee178467956d9928c3c733ada82281ad2981ea0277cbe",
+      "locator": "Abstract首兩句與host-survival段；text第11–12行",
+      "retrievalScope": "只取得並讀作者機構典藏摘要，不宣稱取得全文。",
+      "limits": [
+        "所述λ·K與E. coli K12(P1)／B組合；不可推成所有λ與所有E. coli。",
+        "摘要未提供的子代測量不可填成零；不重述宿主優化部分。"
+      ],
+      "doi": "10.1016/S0022-2836(62)80059-X",
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/design-review/sources/dussoix1962-institution-abstract.txt",
+          "sha256": "a579151b2626c03d0660a2a6e38bc8b28ab0d1f485e6e9e3b7ec06c4d51d5842"
+        }
+      ]
+    },
+    {
+      "id": "phage-source-klopot-2017",
+      "title": "Kłopot等：Real-Time qPCR as a Method for Detection of Antibody-Neutralized Phage Particles",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672142/",
+      "publisher": "原始研究；同行評審期刊",
+      "year": 2017,
+      "evidenceKind": "primary-fulltext",
+      "localPath": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.xml",
+      "sha256": "2e9c12c4aba00fc72b2c0fd2143ab8e5337136f52fd9aa9e98f2b0da94eb94cf",
+      "locator": "Results: serum comparison；Figure 3；Discussion最後限制段",
+      "retrievalScope": "已讀指定完整段落；qPCR單位依Results genomic equivalents，不採摘要混用PFU。",
+      "limits": [
+        "T4血清中和與輸入粒子清除研究；非宿主細菌內定位或新子代形成。",
+        "自由DNA與抑制物影響核酸訊號；未檢出依方法條件表述，不能改寫成絕對零。"
+      ],
+      "doi": "10.3389/fmicb.2017.02170",
+      "additionalEvidence": [
+        {
+          "path": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.txt",
+          "sha256": "ec937a26fdd19a690883c16e6f9392ff8d306f00adfee62e125ed7884823221d"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "phage-claim-exam-scope",
+      "claim": "113年第1題要求連結噬菌體的結構、專一性、繁殖與生命週期；114年第4題的一般病毒宿主依賴只作相鄰前置。",
+      "sourceIds": [
+        "phage-source-ntu113",
+        "phage-source-ntu114"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-ntu113",
+          "locator": "第1頁，第1題",
+          "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/113/113-275.pdf",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/ntu-113-275.pdf",
+          "sha256": "3a16d381727e3bb265cf8f3833abfdcc9012331611d8b115517316863040ca94"
+        },
+        {
+          "sourceId": "phage-source-ntu114",
+          "locator": "第1頁，第4題",
+          "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/114/114-259.pdf",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/ntu-114-259.pdf",
+          "sha256": "dc3d4f002917a37f63d9a344e1227e945fbfdca0ed8cc962e5df8e6950397eb7"
+        }
+      ],
+      "limits": [
+        "本課為原創教材，不是官方答案或全部病毒學課程。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-host-dependence",
+      "claim": "噬菌體感染細菌；病毒的子代形成依賴宿主細胞，經基因體複製、部件合成與組裝，不能當成完整粒子自行二分裂。",
+      "sourceIds": [
+        "phage-source-openstax61",
+        "phage-source-openstax62"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax61",
+          "locator": "Acellular Entities；Host Range；Virus Structure",
+          "url": "https://openstax.org/books/microbiology/pages/6-1-viruses",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-1.html",
+          "sha256": "e3549afe90671e97901d4d6eb17f7315a83ff6b05cdaa15c309507bc995608fd"
+        },
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lytic Cycle；The Lysogenic Cycle；Figures 6.7–6.8",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        }
+      ],
+      "limits": [
+        "本课只选T4與λ；不由宿主依賴推算食品中的增殖量。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-t4-structure",
+      "claim": "T4具包住雙股DNA的衣殼、尾管、可收縮尾鞘、基板及長／短尾纖維。尾鞘的收縮與尾管的通道功能要分開。",
+      "sourceIds": [
+        "phage-source-t4-2015"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-t4-2015",
+          "locator": "Introduction的T4 virion構造段；extracted/t4-2015-fulltext.txt L89；Figure 1與圖說 L90–92。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568249/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/t4-2015-pmc-attempt02.html",
+          "sha256": "dfdc108008191ce5640e6ce95f0b166b5742e3f69df132be1711fd4df64785b0"
+        }
+      ],
+      "limits": [
+        "選畫主要構造，不是全蛋白清單或比例圖；T4外形不代表λ或全部噬菌體。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-t4-attachment",
+      "claim": "T4長尾纖維參與宿主表面辨識；基板重排與短尾纖維的穩定附著連到後續尾鞘收縮。",
+      "sourceIds": [
+        "phage-source-t4-2015"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-t4-2015",
+          "locator": "長／短尾纖維附著段 L96；Initial Stages of T4 Infection Visualized in Situ by Cryo-ET L114–115；extracted/t4-2015-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568249/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/t4-2015-pmc-attempt02.html",
+          "sha256": "dfdc108008191ce5640e6ce95f0b166b5742e3f69df132be1711fd4df64785b0"
+        }
+      ],
+      "limits": [
+        "來源不支持所有長尾纖維必須同時接觸；示意展開位置不是唯一實測姿態。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-t4-entry",
+      "claim": "Hu等在E. coli minicells的T4感染起始中間態觀察到尾管進入周質，胞質膜向外彎曲與尾端接觸／融合。",
+      "sourceIds": [
+        "phage-source-t4-2015"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-t4-2015",
+          "locator": "Significance及Abstract L84–87；感染中間態 L197；The Cytoplasmic Membrane Bulges Outwards in Fusing with the Phage Tail Tip 段；extracted/t4-2015-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568249/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/t4-2015-pmc-attempt02.html",
+          "sha256": "dfdc108008191ce5640e6ce95f0b166b5742e3f69df132be1711fd4df64785b0"
+        }
+      ],
+      "limits": [
+        "不能將其畫成尾管直接穿過兩層膜至細胞質；部分通道蛋白作用仍為推測。",
+        "教材只用抽象基因體移入箭頭，不重建未完全確定的膜通道。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-lambda-structure",
+      "claim": "λ的長柔性尾管連接衣殼與尾端；其尾部非收縮型，不應加上T4式收縮尾鞘。",
+      "sourceIds": [
+        "phage-source-lambda-2020"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-lambda-2020",
+          "locator": "Abstract L87；Introduction L91–94；Figure 1與圖說 L95–97；Methods: Phage preparation L152；extracted/lambda-2019-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7575002/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2019-pmc-attempt02.html",
+          "sha256": "cc90b9e906a79f7d39235a325e18254f33f5abae7f6e926ff545fea18ac2f8d6"
+        }
+      ],
+      "limits": [
+        "來源結構材料λ CI857 Sam7，不是教材全部λ途徑的同一實驗材料。",
+        "圖選畫衣殼、DNA、尾管、尾端；未画側纖維不表示任何λ都無側纖維。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-lambda-receptor",
+      "claim": "λ尾端gpJ相關辨識結構與LamB受體互動；受體相容性是宿主判讀的一環。",
+      "sourceIds": [
+        "phage-source-lambda-2024"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-lambda-2024",
+          "locator": "Introduction的λ／受體背景 L73–76；Results受體结合系统 L82–85；Discussion L116；extracted/lambda-2024-pmc-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11101478/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2024-pmc.html",
+          "sha256": "cc1d66778502ce6653f1d23d1fa14730a61fd58bf0a942cfd88860478c64ec0c"
+        }
+      ],
+      "limits": [
+        "原始結構系統含Shigella sonnei LamB nanodisc與純化尾部，不能宣稱該圖直接量測整體E. coli感染。",
+        "受體結合不等於所有後續步驟成功；此處不提供受體改造。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-lytic",
+      "claim": "在所選T4或λ裂解途徑，依序比較附著、基因體進入、複製與部件合成、組裝、裂解釋放。",
+      "sourceIds": [
+        "phage-source-openstax62"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lytic Cycle：五階段及合成／成熟／釋放段；extracted/openstax-6-2-fulltext.txt L18–22。",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        }
+      ],
+      "limits": [
+        "是定性教學順序，無實測時間、產量或感染機率。",
+        "共用合成階段只述基因體複製與部件合成，不把T-even的宿主DNA降解或尾鞘生成套到λ。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-lysogeny",
+      "claim": "所選λ溶原途徑中，噬菌體DNA與宿主染色體整合為前噬菌體，隨染色體複製與細胞分裂傳给子細胞。",
+      "sourceIds": [
+        "phage-source-openstax62"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lysogenic Cycle：λ整合、prophage與子細胞傳承；extracted/openstax-6-2-fulltext.txt L24、Figure 6.8 L27。",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        }
+      ],
+      "limits": [
+        "細胞帶有前噬菌體不等於細胞內裝著完整噬菌體；傳承不等於成熟粒子正在形成。",
+        "本圖是λ整合型例子，不概括全部溫和噬菌體。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-induction",
+      "claim": "λ前噬菌體在誘導後可從宿主染色體切出並轉向裂解途徑。教學中的誘導片段明定已完成切出。",
+      "sourceIds": [
+        "phage-source-openstax62"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lysogenic Cycle段末的induction／excision，Figure 6.8；extracted/openstax-6-2-fulltext.txt L24、L27。",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        }
+      ],
+      "limits": [
+        "不給誘導條件或分支機率；不是說所有溶原細胞都會立即裂解。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-post-entry-barrier",
+      "claim": "Dussoix與Arber報告指定λ·K／新E. coli宿主組合在吸附並成功注入DNA後仍出現DNA降解，支持進入後存在障礙。",
+      "sourceIds": [
+        "phage-source-dussoix-1962"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-dussoix-1962",
+          "locator": "作者機構典藏Abstract首兩句與host-survival句；design-review/sources/dussoix1962-institution-abstract.txt L11–12。",
+          "url": "https://edoc.unibas.ch/entities/publication/bf937c66-da5e-4065-a3f8-3107b877f557",
+          "localPath": "output/phage-evidence-2026-10-13/design-review/sources/dussoix1962-institution-abstract.html",
+          "sha256": "3e5f59fef056006ca57ee178467956d9928c3c733ada82281ad2981ea0277cbe"
+        }
+      ],
+      "limits": [
+        "只讀摘要；沒有子代數量或感染性結果就保留未知。",
+        "不推廣到全部E. coli、全部λ或食品系統。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-dna-endpoint",
+      "claim": "核酸檢出支持目標序列存在；單憑qPCR不能確認完整粒子、感染性或新子代來源。",
+      "sourceIds": [
+        "phage-source-klopot-2017"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-klopot-2017",
+          "locator": "Results血清T4 qPCR／plaque比較與Figure 3 L91–97；Discussion自由DNA／抑制物限制 L133；design-review/sources/klopot2017-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672142/",
+          "localPath": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.xml",
+          "sha256": "2e9c12c4aba00fc72b2c0fd2143ab8e5337136f52fd9aa9e98f2b0da94eb94cf"
+        }
+      ],
+      "limits": [
+        "研究是T4血清中和的輸入粒子比較，不是細菌內定位；自由DNA可造成訊號。",
+        "資料未提供與測定未檢出須分開；未檢出仍依方法與條件。"
+      ],
+      "claimKind": "source-paraphrase"
+    },
+    {
+      "id": "phage-claim-morphology-endpoint",
+      "claim": "外形影像、DNA存在與感染性是不同觀察。Campbell等區分含DNA與空λ粒子，Kłopot等的核酸訊號亦不等於感染性端點。",
+      "sourceIds": [
+        "phage-source-lambda-2020",
+        "phage-source-klopot-2017"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-lambda-2020",
+          "locator": "Results: Lambda tail tube structures；Figure 2與圖說，含DNA與空粒子比較；extracted/lambda-2019-fulltext.txt L100–104。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7575002/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2019-pmc-attempt02.html",
+          "sha256": "cc90b9e906a79f7d39235a325e18254f33f5abae7f6e926ff545fea18ac2f8d6"
+        },
+        {
+          "sourceId": "phage-source-klopot-2017",
+          "locator": "Results血清T4 qPCR／plaque比較及Figure 3 L91–97；Discussion限制 L133；design-review/sources/klopot2017-fulltext.txt。",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672142/",
+          "localPath": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.xml",
+          "sha256": "2e9c12c4aba00fc72b2c0fd2143ab8e5337136f52fd9aa9e98f2b0da94eb94cf"
+        }
+      ],
+      "limits": [
+        "跨研究的證據推理綜合；不是同一實驗，也不將λ影像冒充T4照片。",
+        "教材的成熟粒子符號表示指定組裝狀態，不聲稱逐粒測過感染性。"
+      ],
+      "claimKind": "bounded-synthesis"
+    },
+    {
+      "id": "phage-claim-infectivity-endpoint",
+      "claim": "指定宿主的感染性結果可支持在該試驗範圍的可感染性；單一陽性不能推出所有菌株皆可感染或判定訊號來自新子代。",
+      "sourceIds": [
+        "phage-source-klopot-2017",
+        "phage-source-openstax62"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-klopot-2017",
+          "locator": "Results: serum comparison；Figure 3；Discussion最後限制段",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672142/",
+          "localPath": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.xml",
+          "sha256": "2e9c12c4aba00fc72b2c0fd2143ab8e5337136f52fd9aa9e98f2b0da94eb94cf"
+        },
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lytic Cycle；The Lysogenic Cycle；Figures 6.7–6.8",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        }
+      ],
+      "limits": [
+        "研究端點與教材自編題設分開；不提供測定步驟、配方或參數。"
+      ],
+      "claimKind": "bounded-synthesis"
+    },
+    {
+      "id": "phage-claim-progeny-origin",
+      "claim": "要主張形成新具感染力子代，需同時有新形成來源與感染性證據；原輸入粒子殘留的感染性不能獨自證明在待判宿主完成繁殖。",
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-klopot-2017"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lytic Cycle；The Lysogenic Cycle；Figures 6.7–6.8",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        },
+        {
+          "sourceId": "phage-source-klopot-2017",
+          "locator": "Results: serum comparison；Figure 3；Discussion最後限制段",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672142/",
+          "localPath": "output/phage-evidence-2026-10-13/design-review/sources/klopot2017-fulltext.xml",
+          "sha256": "2e9c12c4aba00fc72b2c0fd2143ab8e5337136f52fd9aa9e98f2b0da94eb94cf"
+        }
+      ],
+      "limits": [
+        "教材只提供定性報告摘要與明示的來源辨別前提，沒有偽造原論文數值。",
+        "裂解或新組裝外形也不能單獨證明新子代可感染。"
+      ],
+      "claimKind": "bounded-synthesis"
+    },
+    {
+      "id": "phage-claim-diagram-subset",
+      "claim": "階段圖追蹤一個指定的基因體或已包裝子集，並分開成熟子代的圖示位置；單選答案描述該片段，不排除同一細胞尚有其他狀態DNA。",
+      "sourceIds": [
+        "phage-source-openstax62",
+        "phage-source-t4-2015",
+        "phage-source-lambda-2020"
+      ],
+      "evidence": [
+        {
+          "sourceId": "phage-source-openstax62",
+          "locator": "The Lytic Cycle；The Lysogenic Cycle；Figures 6.7–6.8",
+          "url": "https://openstax.org/books/microbiology/pages/6-2-the-viral-life-cycle",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/openstax-6-2.html",
+          "sha256": "348f3b457ac7bb821d55746f7ba749d85ae2ed5341e2ff44e7dbf80b051d5833"
+        },
+        {
+          "sourceId": "phage-source-t4-2015",
+          "locator": "Significance／Abstract；Figure 1；Results与Discussion的尾管及膜重排段",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4568249/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/t4-2015-pmc-attempt02.html",
+          "sha256": "dfdc108008191ce5640e6ce95f0b166b5742e3f69df132be1711fd4df64785b0"
+        },
+        {
+          "sourceId": "phage-source-lambda-2020",
+          "locator": "Abstract；Introduction；Figures 1–2；Methods: Phage preparation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7575002/",
+          "localPath": "output/phage-evidence-2026-10-13/source-curriculum/sources/lambda-2019-pmc-attempt02.html",
+          "sha256": "cc90b9e906a79f7d39235a325e18254f33f5abae7f6e926ff545fea18ac2f8d6"
+        }
+      ],
+      "limits": [
+        "助理教學抽象，非全細胞同步實測；無比例、時間、產量與成功率。",
+        "所有圖為原創概念示意，來源圖只留作核對。"
+      ],
+      "claimKind": "authored-teaching-abstraction"
+    }
+  ],
+  "limits": [
+    "來源化原創概念圖，不是顯微照片、實測比例或即時分子電影。",
+    "T4與λ只作具名例；λ各篇結構材料與教科書生命週期不能拼成同一實驗。",
+    "路徑與片段為定性教學，追蹤選定DNA或已包裝子集，不模擬全細胞同步狀態。",
+    "自編證據卡的觀察是明示題設，來源支持推論界線；不偽造原論文數值。",
+    "不提供培養參數、實驗排程、宿主擴張、感染優化、分支機率、產量或食品安全效果。",
+    "核酸、外形、感染性與新生來源分開；資料未提供不當成測定陰性。"
+  ]
+}

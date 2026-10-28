@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乳化：液滴分散與界面穩定</title>
+<desc id="figure-desc">左圖油滴分散在連續水相，右圖水滴分散在連續油相。液滴外圈示意界面成分吸附，並非分子層級互溶。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乳化：液滴分散與界面穩定</tspan></text>
+<rect x="32" y="112" width="310" height="254" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="378" y="112" width="310" height="254" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187" y="146" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="187" dy="0">O/W：油滴在水中</tspan></text>
+<text x="533" y="146" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">W/O：水滴在油中</tspan></text>
+<circle cx="103" cy="216" r="36" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="103" cy="216" r="30" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<text x="103" y="223" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="103" dy="0">油</tspan></text>
+<circle cx="224" cy="223" r="45" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="224" cy="223" r="39" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<text x="224" y="230" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="224" dy="0">油</tspan></text>
+<circle cx="132" cy="305" r="35" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="132" cy="305" r="29" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<text x="132" y="312" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="132" dy="0">油</tspan></text>
+<circle cx="274" cy="310" r="31" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="274" cy="310" r="25" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<text x="274" y="317" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="274" dy="0">油</tspan></text>
+<circle cx="449" cy="216" r="36" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="449" cy="216" r="30" fill="#e7f1ee" stroke="#6f8fb5" stroke-width="2"/>
+<text x="449" y="223" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="449" dy="0">水</tspan></text>
+<circle cx="570" cy="223" r="45" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="570" cy="223" r="39" fill="#e7f1ee" stroke="#6f8fb5" stroke-width="2"/>
+<text x="570" y="230" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="570" dy="0">水</tspan></text>
+<circle cx="478" cy="305" r="35" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="478" cy="305" r="29" fill="#e7f1ee" stroke="#6f8fb5" stroke-width="2"/>
+<text x="478" y="312" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="478" dy="0">水</tspan></text>
+<circle cx="620" cy="310" r="31" fill="#ffffff" stroke="#14665d" stroke-width="3"/>
+<circle cx="620" cy="310" r="25" fill="#e7f1ee" stroke="#6f8fb5" stroke-width="2"/>
+<text x="620" y="317" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="620" dy="0">水</tspan></text>
+<text x="315" y="182" font-size="18" fill="#53606d" text-anchor="end"><tspan x="315" dy="0">水相</tspan></text>
+<text x="661" y="182" font-size="18" fill="#53606d" text-anchor="end"><tspan x="661" dy="0">油相</tspan></text>
+<text x="32" y="406" font-size="20" fill="#14665d" text-anchor="start"><tspan x="32" dy="0">外圈：界面成分吸附</tspan></text>
+<path d="M 300 400 L 350 400" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="371" y="406" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="371" dy="0">延緩液滴重新合併</tspan></text>
+<text x="32" y="447" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">普通乳液仍可能長期失穩。</tspan><tspan x="32" dy="25">物理分散不代表兩液體分子層級互溶。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

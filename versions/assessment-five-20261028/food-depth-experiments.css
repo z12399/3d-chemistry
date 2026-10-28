@@ -1,0 +1,38 @@
+/* Uses the shared food-experiment typography, range controls and disclosures. */
+.food-depth-experiment .depth-model-boundary { margin: -4px 0 19px; padding-left: 12px; border-left: 2px solid var(--exp-line); color: var(--exp-muted); font-size: 13px; line-height: 1.7; }
+.food-depth-experiment .depth-curve { fill: none; stroke-width: 2.7; stroke-linecap: round; stroke-linejoin: round; }
+.food-depth-experiment .depth-curve-a { stroke: #77867d; stroke-dasharray: 3 5; }
+.food-depth-experiment .depth-curve-p { stroke: #b9543a; stroke-width: 3.4; }
+.food-depth-experiment .depth-curve-s { stroke: #286e64; stroke-dasharray: 9 4; }
+.food-depth-experiment .depth-readings { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 13px; margin: 16px 0 12px; }
+.food-depth-experiment .depth-reading { min-width: 0; padding-top: 8px; border-top: 3px solid #cfd6dc; }
+.food-depth-experiment .depth-reading dt { color: var(--exp-muted); font-size: 13px; line-height: 1.65; overflow-wrap: break-word; }
+.food-depth-experiment .depth-reading dd { margin: 3px 0 0; color: var(--exp-ink); font-size: 20px; font-weight: 500; font-variant-numeric: tabular-nums; line-height: 1.4; white-space: nowrap; }
+.food-depth-experiment .depth-reading-p,.food-depth-experiment .depth-reading-glucose { border-color: #b9543a; }
+.food-depth-experiment .depth-reading-s { border-color: #286e64; }
+.food-depth-experiment .depth-reading-maltose { border-color: #b49a58; }
+.food-depth-experiment .depth-reading-dp10 { border-color: #14665d; }
+.food-depth-experiment .depth-actions { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 20px; }
+.food-depth-experiment .depth-actions button { padding: 8px 13px; color: var(--exp-muted); background: transparent; border: 1px solid #cfd6dc; border-radius: 8px; font: inherit; font-size: 13px; cursor: pointer; }
+.food-depth-experiment .depth-actions button:hover { color: var(--exp-accent); border-color: var(--exp-accent); }
+.food-depth-experiment .depth-actions button[aria-pressed=true] { color: var(--exp-accent); background: #e7f1ee; border-color: #14665d; }
+.food-depth-experiment .depth-actions button:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+.food-depth-experiment .depth-remainder-note { margin: -7px 0 19px; font-size: 13px; color: var(--exp-muted); }
+.food-depth-experiment input[type=range]:disabled { opacity: .4; cursor: default; }
+@media (max-width:480px) {
+  .food-depth-experiment .depth-readings { gap: 9px; padding: 0 10px; margin-top: 13px; }
+  .food-depth-experiment .depth-reading dd { font-size: 18px; }
+  .food-depth-experiment .depth-reading dt { font-size: 13px; }
+  .food-depth-experiment .depth-actions button { flex: 1; padding-inline: 8px; }
+}
+
+.depth-equation-line { color:#53606d; font-size:15px; line-height:1.7; margin:15px 0 20px; }
+.depth-workbench,.depth-controls { min-width:0; }
+@media (min-width:1200px) {
+  .food-depth-experiment { max-width:870px; }
+  .depth-workbench { display:grid; grid-template-columns:minmax(0,1.4fr) minmax(270px,1fr); align-items:start; gap:32px; }
+  .food-depth-experiment .food-exp-stage { margin-bottom:0; padding:18px 12px 14px; }
+  .depth-controls { padding-top:18px; }
+  .food-depth-experiment .depth-actions { gap:7px; }
+  .food-depth-experiment .depth-actions button { flex:1; padding-inline:8px; }
+}

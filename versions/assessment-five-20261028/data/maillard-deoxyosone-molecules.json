@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "sourceCheckedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "maillard-3-deoxyosone",
+      "name": "3-去氧葡萄糖酮（開鏈 3-DG）",
+      "formula": "C6H10O5",
+      "atoms": [
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -0.288959,
+            0.984069,
+            -0.331727
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            1.069435,
+            0.962101,
+            0.371235
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            1.884583,
+            -0.339523,
+            0.194811
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            1.204145,
+            -1.61558,
+            0.691461
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            0.136135,
+            -1.979264,
+            -0.185084
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            2.198034,
+            -0.518155,
+            -1.198841
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            1.857019,
+            2.023905,
+            -0.208396
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -1.358674,
+            0.341032,
+            0.512094
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            -1.345485,
+            0.281967,
+            1.736655
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -2.547447,
+            -0.23497,
+            -0.218152
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -2.808785,
+            0.094418,
+            -1.364056
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_C3a",
+          "element": "H",
+          "position": [
+            -0.604493,
+            2.017304,
+            -0.520554
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C3b",
+          "element": "H",
+          "position": [
+            -0.223911,
+            0.490556,
+            -1.30699
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            0.959409,
+            1.188367,
+            1.438005
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            2.842203,
+            -0.218671,
+            0.715012
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_C6a",
+          "element": "H",
+          "position": [
+            0.81647,
+            -1.502254,
+            1.707619
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C6b",
+          "element": "H",
+          "position": [
+            1.91536,
+            -2.448319,
+            0.684869
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_O6",
+          "element": "H",
+          "position": [
+            0.548871,
+            -2.001918,
+            -1.074852
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O6"
+        },
+        {
+          "id": "H_O5",
+          "element": "H",
+          "position": [
+            2.408483,
+            0.377895,
+            -1.534802
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O5"
+        },
+        {
+          "id": "H_O4",
+          "element": "H",
+          "position": [
+            2.550914,
+            2.256378,
+            0.435429
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "H_C1",
+          "element": "H",
+          "position": [
+            -3.141057,
+            -0.947814,
+            0.374684
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O1",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "H_O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "H_O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "H_O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/114839",
+        "sourceProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/114839,11228966/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "sourcePubchemSha256": "ad9b928f14ef97df8e902ed1e91f5e95abc11ee419f086161c053b16bea81093",
+        "pubchemCid": 114839,
+        "sourceInchi": "InChI=1S/C6H10O5/c7-2-4(9)1-5(10)6(11)3-8/h2,5-6,8,10-11H,1,3H2/t5-,6+/m0/s1",
+        "sourceInchiKey": "ZGCHLOWZNKRZSN-NTSWFWBYSA-N",
+        "inchi": "InChI=1S/C6H10O5/c7-2-4(9)1-5(10)6(11)3-8/h2,5-6,8,10-11H,1,3H2/t5-,6+/m0/s1",
+        "smiles": "O=CC(=O)C[C@H](O)[C@H](O)CO",
+        "atomRoleMap": {
+          "C1": "C1",
+          "C2": "C2",
+          "C3": "C3",
+          "C4": "C4",
+          "C5": "C5",
+          "C6": "C6",
+          "O1": "O1",
+          "O2": "O2",
+          "O4": "O4",
+          "O5": "O5",
+          "O6": "O6"
+        },
+        "atomNamingNote": "C1–C6 and positional O labels identify local structure only; no DFG-to-product atom tracing is asserted.",
+        "method": "RDKit ETKDGv3 16 seeded candidates; lowest converged MMFF94 isolated conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated open-chain conformer. Open-chain 3-deoxy-D-erythro-hexos-2-ulose only; excludes cyclic hemiacetals, hydrates, enol tautomers, and solution-state populations. This does not establish a DFG transformation pathway or experimental geometry.",
+        "candidateConformers": 14,
+        "convergedConformers": 14,
+        "selectedMmff94EnergyKcalMol": 49.54361367764618
+      }
+    },
+    {
+      "id": "maillard-1-deoxyosone",
+      "name": "1-去氧葡萄糖酮（開鏈 1-DG）",
+      "formula": "C6H10O5",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -2.733649,
+            -1.308196,
+            -0.007937
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -2.11325,
+            0.049608,
+            0.131097
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            -2.589889,
+            0.956359,
+            0.801627
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -0.810039,
+            0.277902,
+            -0.60868
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            -0.736148,
+            1.193486,
+            -1.420134
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            0.3076,
+            -0.710754,
+            -0.321935
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            1.677827,
+            -0.119482,
+            -0.713235
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            2.079007,
+            1.11634,
+            0.108348
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            1.918775,
+            0.845301,
+            1.505924
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            2.677414,
+            -1.134955,
+            -0.507544
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            0.322351,
+            -1.16561,
+            1.032467
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_C1a",
+          "element": "H",
+          "position": [
+            -2.214959,
+            -2.028084,
+            0.628257
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_C1b",
+          "element": "H",
+          "position": [
+            -2.695316,
+            -1.62963,
+            -1.052097
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_C1c",
+          "element": "H",
+          "position": [
+            -3.783821,
+            -1.257169,
+            0.293529
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            0.119482,
+            -1.598719,
+            -0.936422
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            1.69956,
+            0.136688,
+            -1.778097
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_C6a",
+          "element": "H",
+          "position": [
+            1.461667,
+            1.983297,
+            -0.142201
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C6b",
+          "element": "H",
+          "position": [
+            3.131876,
+            1.36214,
+            -0.064435
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_O6",
+          "element": "H",
+          "position": [
+            2.281427,
+            1.621733,
+            1.97541
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O6"
+        },
+        {
+          "id": "H_O5",
+          "element": "H",
+          "position": [
+            2.595063,
+            -1.408467,
+            0.427462
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O5"
+        },
+        {
+          "id": "H_O4",
+          "element": "H",
+          "position": [
+            0.768275,
+            -0.464815,
+            1.563195
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O3",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1c",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "H_O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "H_O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "H_O4",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/11228966",
+        "sourceProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/114839,11228966/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "sourcePubchemSha256": "ad9b928f14ef97df8e902ed1e91f5e95abc11ee419f086161c053b16bea81093",
+        "pubchemCid": 11228966,
+        "sourceInchi": "InChI=1S/C6H10O5/c1-3(8)5(10)6(11)4(9)2-7/h4,6-7,9,11H,2H2,1H3/t4-,6-/m1/s1",
+        "sourceInchiKey": "JPNOFZPGVHGIAU-INEUFUBQSA-N",
+        "inchi": "InChI=1S/C6H10O5/c1-3(8)5(10)6(11)4(9)2-7/h4,6-7,9,11H,2H2,1H3/t4-,6-/m1/s1",
+        "smiles": "CC(=O)C(=O)[C@H](O)[C@H](O)CO",
+        "atomRoleMap": {
+          "C1": "C1",
+          "C2": "C2",
+          "C3": "C3",
+          "C4": "C4",
+          "C5": "C5",
+          "C6": "C6",
+          "O2": "O2",
+          "O3": "O3",
+          "O4": "O4",
+          "O5": "O5",
+          "O6": "O6"
+        },
+        "atomNamingNote": "C1–C6 and positional O labels identify local structure only; no DFG-to-product atom tracing is asserted.",
+        "method": "RDKit ETKDGv3 16 seeded candidates; lowest converged MMFF94 isolated conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated open-chain conformer. Open-chain (4R,5R)-1-deoxy-erythro-hexo-2,3-diulose only; excludes hydrates, enol tautomers, and solution-state populations. This does not establish a DFG transformation pathway or experimental geometry.",
+        "candidateConformers": 8,
+        "convergedConformers": 8,
+        "selectedMmff94EnergyKcalMol": 72.5891287619385
+      }
+    }
+  ]
+}
