@@ -1,5 +1,5 @@
 // Infection, toxin made in the gut, or toxin already in the food: sort organisms, then test what reheating can and cannot undo.
-// Every statement and onset range is taken from the FDA Bad Bug Book, 2nd ed. (2012); page numbers refer to the PDF.
+// FDA Bad Bug Book, 2nd ed. (2012) supplies background and onset ranges; the reheat exercise is a hypothetical comparison, not a treatment guide.
 
 export const ILLNESS_MECHANISM_ID = 'illness-mechanism-sort';
 
@@ -11,7 +11,7 @@ export const CLASSES = {
 
 export const ORGANISMS = [
   {id: 'saureus', name: '金黃色葡萄球菌', latin: 'Staphylococcus aureus', cls: 'preformed', onset: [1, 7], typical: '平均 2–4 h', reheatSurvives: true,
-    quote: '加熱殺死活菌，不會破壞已形成的葡萄球菌腸毒素的生物活性；這些毒素高度耐熱。', page: 89},
+    quote: '葡萄球菌腸毒素具耐熱性；加熱殺死細菌，未必使已形成的毒素失活。', page: 89},
   {id: 'cereusE', name: '蠟樣芽孢桿菌（嘔吐型）', latin: 'Bacillus cereus', cls: 'preformed', onset: [0.5, 6], typical: '', reheatSurvives: true,
     quote: '嘔吐型與 cereulide 有關，cereulide 對 pH 穩定，並耐熱、耐蛋白酶。', page: 93},
   {id: 'cereusD', name: '蠟樣芽孢桿菌（腹瀉型）', latin: 'Bacillus cereus', cls: 'gut', onset: [6, 15], typical: '附錄另列較寬的 2–36 h', reheatSurvives: false,
@@ -30,7 +30,7 @@ export function grade(answers) {
   return ORGANISMS.map(o => ({id: o.id, answer: answers[o.id] || null, correct: answers[o.id] === o.cls}));
 }
 
-// After hot-holding and a reheat that kills the cells, which illnesses can the food still cause?
+// In the stated hypothetical, stillRisk denotes a possible preformed-toxin illness, not guaranteed toxin survival or illness.
 export function afterReheat() {
   return ORGANISMS.map(o => ({id: o.id, stillRisk: o.reheatSurvives}));
 }
@@ -59,17 +59,17 @@ export function mountIllnessMechanismLab(container, id = ILLNESS_MECHANISM_ID, o
   let disposed = false;
 
   container.innerHTML = `<section class="illness-lab" data-im-lab="${esc(id)}" aria-labelledby="${prefix}-title">
-    <header class="im-head"><p class="im-kicker">動手分類</p><h3 id="${prefix}-title">感染、腸內產毒，還是吃下已形成的毒素？</h3><p class="im-hint">先替每種病原選一類，再核對 FDA 的說明；接著判斷「重新加熱殺死細菌」之後，還有哪些風險留著。</p></header>
+    <header class="im-head"><p class="im-kicker">動手分類</p><h3 id="${prefix}-title">感染、腸內產毒，還是吃下已形成的毒素？</h3><p class="im-hint">先替每種病原選一類，再核對 FDA 的說明；接著在指定假想條件下，判斷哪些疾病仍可能發生。</p></header>
     <ol class="im-list">${ORGANISMS.map(o => `<li class="im-row" data-im-row="${o.id}"><div class="im-name"><strong>${esc(o.name)}</strong><i>${esc(o.latin)}</i></div><label class="im-pick"><span class="sr-only">${esc(o.name)}的類別</span><select data-im-answer="${o.id}"><option value="">選擇類別</option>${Object.entries(CLASSES).map(([k, c]) => `<option value="${k}">${c.label}</option>`).join('')}</select></label><p class="im-feedback" data-im-feedback="${o.id}" hidden></p></li>`).join('')}</ol>
     <div class="im-actions"><button type="button" data-im-action="check">核對分類</button><span data-im-score role="status"></span></div>
-    <section class="im-onset" data-im-onset hidden><h4>發病時間（FDA 附錄 5 與各章；對數時間軸）</h4><div data-im-chart></div><p class="im-legend">${Object.entries(CLASSES).map(([k, c]) => `<span><i class="im-sw im-${k}"></i>${c.short}</span>`).join('')}</p><p class="im-insight">已形成毒素的兩種最快發病：毒素隨食品吃下就能作用，不需要細菌先在體內增殖或產毒。</p></section>
-    <section class="im-reheat" aria-labelledby="${prefix}-reheat"><h4 id="${prefix}-reheat">一鍋菜在室溫放太久，上桌前重新加熱到把細菌都殺死。哪些病仍可能發生？</h4>
+    <section class="im-onset" data-im-onset hidden><h4>發病時間（FDA 附錄 5 與各章；對數時間軸）</h4><div data-im-chart></div><p class="im-legend">${Object.entries(CLASSES).map(([k, c]) => `<span><i class="im-sw im-${k}"></i>${c.short}</span>`).join('')}</p><p class="im-insight">在此頁列出的參考範圍中，兩種預成毒素案例的起病時間下限較早；區間可能重疊，不能只憑起病時間判定病因。它們都是先在食品中形成毒素，攝入後作用，不需先在腸道增殖或產毒。</p></section>
+    <section class="im-reheat" aria-labelledby="${prefix}-reheat"><h4 id="${prefix}-reheat">假設一鍋菜曾受污染並在室溫放置，上桌前重新加熱；本題假設所列病原的所有可存活型態（包括芽孢）均已失活，且此後沒有再污染。若事先形成的毒素仍有足夠活性，哪些疾病仍可能發生？</h4>
       <div class="im-checks">${ORGANISMS.map(o => `<label class="im-check"><input type="checkbox" data-im-reheat="${o.id}"><span>${esc(o.name)}</span></label>`).join('')}</div>
       <div class="im-actions"><button type="button" data-im-action="reheat">核對</button><span data-im-reheat-result role="status"></span></div></section>
     <details class="im-detail" data-im-detail="write"><summary>附加本課筆記（選填）</summary><div class="im-save"><button type="button" data-im-action="save">附加分類結果到本課筆記</button><span data-im-save-status role="status"></span></div></details>
     <details class="im-detail" data-im-detail="bounds"><summary>判讀界線與來源</summary><ul>
       <li>發病時間是 FDA 列出的大致範圍；同一病原在附錄與本章可能寫不同範圍（如腹瀉型蠟樣芽孢桿菌），以本章為準並並列附錄值。</li>
-      <li>「重新加熱」題只依 FDA 對耐熱毒素的明文判斷；肉毒桿菌毒素等未在本工作台納入。重新加熱不能補救已在食品中形成的耐熱毒素，也不代表其他病原一定被殺滅。</li>
+      <li>此題是假想比較：假設所列病原的可存活型態均已失活，且沒有後續再污染；肉毒桿菌毒素等未納入本工作台。殺死細菌不能保證已形成的耐熱毒素失活；殘餘活性仍受毒素及處理條件影響，不能只憑殺菌結果判定。</li>
       <li>對應官方題目：<a href="https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf" target="_blank" rel="noopener noreferrer">115 食微第六題</a>、<a href="https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/114/114-259.pdf" target="_blank" rel="noopener noreferrer">114 第 7 題</a>；本工作台是判讀練習，不是官方答案。</li>
     </ul><p><a href="${SOURCE.url}" target="_blank" rel="noopener noreferrer">${esc(SOURCE.label)}</a></p></details>
   </section>`;
@@ -97,7 +97,7 @@ export function mountIllnessMechanismLab(container, id = ILLNESS_MECHANISM_ID, o
     if (!state.reheatChecked) { out.textContent = ''; return; }
     const truth = afterReheat(), wrong = truth.filter(t => !!state.reheat[t.id] !== t.stillRisk);
     out.dataset.imState = wrong.length ? 'wrong' : 'right';
-    out.textContent = wrong.length ? `還有 ${wrong.length} 項不對。只有已在食品中形成耐熱毒素的金黃色葡萄球菌與嘔吐型蠟樣芽孢桿菌，殺死細菌後仍會致病。` : '正確：金黃色葡萄球菌腸毒素與 cereulide 耐熱，殺死細菌也去不掉；其餘需要活菌進入腸道。';
+    out.textContent = wrong.length ? `還有 ${wrong.length} 項不對。本題假設所列病原的可存活型態均已失活且沒有再污染；金黃色葡萄球菌及嘔吐型蠟樣芽孢桿菌的預成毒素若仍有足夠活性，中毒仍可能發生。` : '正確：金黃色葡萄球菌腸毒素與 cereulide 耐熱；殺死細菌不保證已形成的毒素失活。若殘存活性足以致病，中毒仍可能發生；其餘四項依本題假設缺少所需的可存活微生物。';
   }
   renderCheck(); renderReheat();
   const onResize = () => { if (!disposed && state.checked) $('[data-im-chart]').innerHTML = onsetSVG(root.clientWidth < 560); };
