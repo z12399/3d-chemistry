@@ -100,7 +100,7 @@ export function mountEnzymeKinetics(container,id,{draftOwner,draftKey=id}={}){
     $('.enzyme-metrics').innerHTML=metrics([['表觀 Km',fmt(r.apparentKm),'mM'],['表觀 Vmax',fmt(r.apparentVmax),'mM/min'],['α ／ α′',`${fmt(r.alpha)} ／ ${fmt(r.alphaPrime)}`,'由所選結合模型決定']]);
     const texts={none:'E + S ⇌ ES → E + P',competitive:'E + I ⇌ EI；抑制劑與受質互斥結合。',uncompetitive:'ES + I ⇌ ESI；本模型不與游離 E 結合。','pure-noncompetitive':'E + I ⇌ EI；ES + I ⇌ ESI；Ki′ = Ki。',mixed:'E + I ⇌ EI；ES + I ⇌ ESI；Ki 與 Ki′ 可不同。'};
     $('[data-enzyme-binding]').textContent=texts[state.mode];
-    $('.enzyme-observation').textContent=state.mode==='mixed'?`此設定 α/α′ = ${fmt(r.alpha/r.alphaPrime)}，所以表觀 Km ${r.alpha===r.alphaPrime?'不變':r.alpha>r.alphaPrime?'提高':'降低'}。混合模型能呈現兩個方向，不能只背「Km一定上升」。`:state.mode==='uncompetitive'?'表觀 Km 與 Vmax 按同一比例下降；雙倒數圖的斜率不變。':state.mode==='competitive'?'Vmax 保持不變；提高受質濃度可減少此理想模型的相對抑制。':state.mode==='pure-noncompetitive'?'兩側結合同樣強，表觀 Km 不變，Vmax 降低；這是混合模型的一個特例。':'目前沒有抑制，回到基準 Michaelis–Menten 曲線。';
+    $('.enzyme-observation').textContent=state.mode==='mixed'?`此設定 α/α′ = ${fmt(r.alpha/r.alphaPrime)}，所以表觀 Km ${r.alpha===r.alphaPrime?'不變':r.alpha>r.alphaPrime?'提高':'降低'}。混合模型能呈現兩個方向，不能只背「Km一定上升」。`:state.mode==='uncompetitive'?(state.inhibitor===0?'游離抑制劑為零；α＝α′＝1，表觀 Km、Vmax 與曲線回到未抑制基準。':'表觀 Km 與 Vmax 按同一比例下降；雙倒數圖的斜率不變。'):state.mode==='competitive'?'Vmax 保持不變；提高受質濃度可減少此理想模型的相對抑制。':state.mode==='pure-noncompetitive'?(state.inhibitor===0?'游離抑制劑為零；α＝α′＝1，表觀 Km、Vmax 與曲線回到未抑制基準。':'兩側結合同樣強，表觀 Km 不變，Vmax 降低；這是混合模型的一個特例。'):'目前沒有抑制，回到基準 Michaelis–Menten 曲線。';
   }
   function drawFit(){
     if(!measured)return;
