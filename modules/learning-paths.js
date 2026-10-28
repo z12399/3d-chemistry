@@ -7,6 +7,7 @@ import {lessonPath} from './learning-model.js';
 import {LEARNING_PATHS,resolvePathStations,decoratePath,pathAnswerStatus} from './learning-paths-model.js';
 
 const number = i => String(i+1).padStart(2,'0');
+const plannedSubjects = stations => [...new Set(stations.map(station=>station.subjectMeta?.title||'未識別科目'))].map(esc).join('／')||'未識別科目';
 const symbol = id => {
   const drawings={
     'powder-moisture':'<path d="M27 26h42v53H27z M24 20h48v6H24z M28 66q10-10 20-2t20-4 M33 73h2m8 2h2m10-5h2"/><path d="M78 30q-10 13 0 13t0-13Z"/>',
@@ -33,7 +34,7 @@ export function learningPathEntry({courses={},progresses={},positions}={}){
 export function renderPathDirectory({courses,progresses,positions}){
   return `${chrome()}<header class="path-heading"><h1>備考學習路徑</h1><p>先診斷缺口，再選需要的概念與證據；已有基礎可直接跳站。</p></header>${renderExamStartNavigation({courses,variant:'full'})}${renderStudyRoadmap(courses)}<h2>跨課整合路徑</h2><div class="path-directory">${LEARNING_PATHS.map((path,i)=>{
     const facts=pathFacts(path,courses,progresses,positions);
-    return `<article class="path-directory-row"><span class="path-number" aria-hidden="true">${number(i)}</span>${symbol(path.id)}<div class="path-directory-copy"><p class="path-meta">${path.stations.length} 站 · 化學／加工／微生物${facts.answered?` · ${facts.answered} 站已有作答`:''}</p><h2><a href="#paths/${path.id}">${esc(path.title)} <span aria-hidden="true">↗</span></a></h2><p>${esc(path.description)}</p></div><a class="path-open" href="#paths/${path.id}" aria-label="查看路徑：${esc(path.title)}">查看路徑 <span aria-hidden="true">→</span></a></article>`;
+    return `<article class="path-directory-row"><span class="path-number" aria-hidden="true">${number(i)}</span>${symbol(path.id)}<div class="path-directory-copy"><p class="path-meta">${path.stations.length} 站 · 規劃涵蓋：${plannedSubjects(facts.stations)}${facts.answered?` · ${facts.answered} 站已有作答`:''}</p><h2><a href="#paths/${path.id}">${esc(path.title)} <span aria-hidden="true">↗</span></a></h2><p>${esc(path.description)}</p></div><a class="path-open" href="#paths/${path.id}" aria-label="查看路徑：${esc(path.title)}">查看路徑 <span aria-hidden="true">→</span></a></article>`;
   }).join('')}</div><p class="path-footnote">作答與筆記可在各科「筆記與複習」匯出。</p>`;
 }
 export function renderPathOverview(id,{courses,progresses,positions}){
