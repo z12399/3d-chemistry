@@ -19,7 +19,7 @@ export const TABLE_B = {
 };
 
 export const EXAMPLES = [
-  {id: 'melon', label: '切開的甜瓜（未加熱）', heated: false, packaged: false, pH: 6.5, aw: 0.99, note: '哈密瓜 pH 約 6.2–7.1、水活性 > 0.99；刀切面可帶入病原。'},
+  {id: 'melon', label: '切開的甜瓜（未加熱）', heated: false, packaged: false, pH: 6.5, aw: 0.995, note: '哈密瓜 pH 約 6.2–7.1、水活性 > 0.99；本例 0.995 為查表代表值，不是原文報告的單一測值。刀切面可帶入病原。'},
   {id: 'sprouts', label: '生芽菜（未加熱）', heated: false, packaged: false, pH: 6.6, aw: 0.995, note: 'pH > 6.5、水活性 > 0.99，無法以這兩項阻止病原生長。'},
   {id: 'parmesan', label: '帕瑪森起司（加熱凝乳後熟成、包裝）', heated: true, packaged: true, pH: 6.5, aw: 0.72, note: '水活性 0.68–0.76、pH 約 6.5。'},
   {id: 'dressing', label: '沙拉醬（分裝）', heated: false, packaged: false, pH: 4.0, aw: 0.84, note: '配方 pH 3.6–4.4、水活性 < 0.85。'}
@@ -63,20 +63,21 @@ export function mountHurdleTableLab(container, id = HURDLE_TABLE_ID, options = {
   const {draftOwner, draftKey = id, onSaveSummary} = options;
   let store = null;
   if (draftOwner && typeof draftOwner === 'object') { store = drafts.get(draftOwner); if (!store) { store = new Map(); drafts.set(draftOwner, store); } }
-  const state = store?.get(draftKey) || {heated: false, packaged: false, pH: 6.5, aw: 0.99, example: 'melon', savedCursor: ''};
+  const defaultExample = EXAMPLES.find(item => item.id === 'melon');
+  const state = store?.get(draftKey) || {heated: defaultExample.heated, packaged: defaultExample.packaged, pH: defaultExample.pH, aw: defaultExample.aw, example: defaultExample.id, savedCursor: ''};
   store?.set(draftKey, state);
   const prefix = `ht-${++instance}`;
   let disposed = false;
   const yesNo = (k, q) => `<fieldset class="ht-q"><legend>${q}</legend>${[['true', '是'], ['false', '否']].map(([v, t]) => `<label class="ht-choice"><input type="radio" name="${prefix}-${k}" value="${v}" data-ht-flag="${k}"><span>${t}</span></label>`).join('')}</fieldset>`;
 
   container.innerHTML = `<section class="hurdle-lab" data-ht-lab="${esc(id)}" aria-labelledby="${prefix}-title">
-    <header class="ht-head"><p class="ht-kicker">動手判讀</p><h3 id="${prefix}-title">pH 和水活性一起看，這個食品需要溫度控制嗎？</h3><p class="ht-hint">FDA Food Code 用兩張交互作用表判斷：落在「非 TCS」可不靠時間／溫度控制；落在「PA」須進一步產品評估，評估前仍當 TCS 食品處理。</p></header>
+    <header class="ht-head"><p class="ht-kicker">動手判讀</p><h3 id="${prefix}-title">依歷史表格，如何判讀 pH 與水活性？</h3><p class="ht-hint">依 2005 年美國 FDA Food Code 的交互作用表練習判讀；「PA」表示需進一步產品評估，原文件在評估前將其視為 TCS。本活動是教學示例，不作現行法規或實際食品安全判定。</p></header>
     <label class="ht-example"><span>帶入例子</span><select data-ht-example>${EXAMPLES.map(e => `<option value="${e.id}">${esc(e.label)}</option>`).join('')}<option value="custom">自訂</option></select></label>
     <div class="ht-flow">${yesNo('heated', '1. 是否經加熱殺滅營養細胞？')}${yesNo('packaged', '2. 加熱後是否包裝以防再汙染？')}</div>
     <div class="ht-main">
       <div class="ht-sliders">
         <label><span>pH <output data-ht-out="pH"></output></span><input type="range" min="3" max="7.5" step="0.1" data-ht-input="pH"></label>
-        <label><span>水活性 a<sub>w</sub> <output data-ht-out="aw"></output></span><input type="range" min="0.80" max="1.00" step="0.005" data-ht-input="aw"></label>
+        <label><span>水活性 a<sub>w</sub> <output data-ht-out="aw"></output></span><input type="range" min="0.68" max="1.00" step="0.005" data-ht-input="aw"></label>
         <p class="ht-verdict" data-ht-verdict aria-live="polite"></p>
         <p class="ht-hurdle" data-ht-hurdle hidden></p>
         <p class="ht-example-note" data-ht-note></p>
@@ -108,10 +109,10 @@ export function mountHurdleTableLab(container, id = HURDLE_TABLE_ID, options = {
     $('[data-ht-table]').innerHTML = `<table class="ht-grid" data-ht-which="${c.table}"><caption>${t.title}</caption><thead><tr><th scope="col">a<sub>w</sub> ＼ pH</th>${t.ph.map(p => `<th scope="col">${p.label}</th>`).join('')}</tr></thead><tbody>${t.aw.map((a, r) => `<tr><th scope="row">${a.label}</th>${t.cells[r].map((v, k) => `<td class="ht-${v.toLowerCase()}${r === c.row && k === c.col ? ' ht-here' : ''}"${r === c.row && k === c.col ? ' aria-current="true"' : ''}>${v === 'NTCS' ? '非 TCS' : 'PA'}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
     const v = $('[data-ht-verdict]');
     v.dataset.htResult = c.result;
-    v.innerHTML = c.result === 'NTCS' ? `<strong>非 TCS 食品</strong>（表 ${c.table}）：依 pH 與水活性可不靠時間／溫度控制。` : `<strong>需產品評估（PA）</strong>（表 ${c.table}）：評估前當作 TCS 食品，須時間／溫度控制。`;
+    v.innerHTML = c.result === 'NTCS' ? `<strong>非 TCS</strong>（2005 表 ${c.table} 的教學分類）；不作現行法規或實際食品安全判定。` : `<strong>需產品評估（PA）</strong>（2005 表 ${c.table} 的教學分類）；不作現行法規或實際食品安全判定。`;
     const hb = $('[data-ht-hurdle]');
     hb.hidden = !h.combined;
-    if (h.combined) hb.textContent = '障礙效應：只看 pH 或只看水活性都不足以判為非 TCS，兩者一起才足夠。';
+    if (h.combined) hb.textContent = '障礙效應：依這張歷史表，單看 pH 或水活性都未落入非 TCS 格；兩者組合落入非 TCS 格。這是表格條件下的分類。';
     const ex = EXAMPLES.find(e => e.id === state.example);
     $('[data-ht-note]').textContent = ex ? ex.note : '';
   }
