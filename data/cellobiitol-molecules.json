@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "cellobiitol",
+      "name": "纖維二糖醇（cellobiitol）",
+      "formula": "C12H24O11",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -2.861842,
+            -2.126027,
+            0.894712
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -2.460714,
+            -0.649121,
+            0.77683
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -3.420747,
+            0.112532,
+            -0.152223
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            -2.960429,
+            1.565259,
+            -0.279259
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -1.495841,
+            1.627722,
+            -0.708966
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -0.636119,
+            0.773552,
+            0.24541
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -1.119267,
+            -0.565288,
+            0.273651
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            0.704944,
+            0.799413,
+            -0.263603
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C7",
+          "element": "C",
+          "position": [
+            1.686866,
+            0.314838,
+            0.663015
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C8",
+          "element": "C",
+          "position": [
+            3.039183,
+            1.015805,
+            0.37022
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            4.039209,
+            0.704417,
+            1.354392
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C9",
+          "element": "C",
+          "position": [
+            1.202752,
+            -1.733399,
+            -1.822588
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C10",
+          "element": "C",
+          "position": [
+            2.225377,
+            -1.870411,
+            -0.695332
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C11",
+          "element": "C",
+          "position": [
+            1.821259,
+            -1.22982,
+            0.644359
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            2.812799,
+            -1.623316,
+            1.621396
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            2.421058,
+            -3.282516,
+            -0.437093
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            1.658333,
+            -2.52891,
+            -2.924222
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C12",
+          "element": "C",
+          "position": [
+            2.900554,
+            2.543574,
+            0.358866
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O7",
+          "element": "O",
+          "position": [
+            4.178384,
+            3.133577,
+            0.116897
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O8",
+          "element": "O",
+          "position": [
+            -1.079792,
+            3.000644,
+            -0.714942
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O9",
+          "element": "O",
+          "position": [
+            -3.792655,
+            2.233177,
+            -1.239189
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O10",
+          "element": "O",
+          "position": [
+            -4.762857,
+            0.07321,
+            0.342517
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O11",
+          "element": "O",
+          "position": [
+            -4.100453,
+            -2.288912,
+            1.575152
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HC1a",
+          "element": "H",
+          "position": [
+            -2.937308,
+            -2.591917,
+            -0.094064
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC1b",
+          "element": "H",
+          "position": [
+            -2.095927,
+            -2.681802,
+            1.446217
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC2",
+          "element": "H",
+          "position": [
+            -2.500954,
+            -0.213453,
+            1.784717
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "HC3",
+          "element": "H",
+          "position": [
+            -3.432163,
+            -0.35001,
+            -1.147424
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "HC4",
+          "element": "H",
+          "position": [
+            -3.111151,
+            2.099132,
+            0.667345
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "HC5",
+          "element": "H",
+          "position": [
+            -1.395991,
+            1.267529,
+            -1.740695
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "HC6",
+          "element": "H",
+          "position": [
+            -0.644489,
+            1.213499,
+            1.251405
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "HC7",
+          "element": "H",
+          "position": [
+            1.409925,
+            0.60572,
+            1.686473
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C7"
+        },
+        {
+          "id": "HC8",
+          "element": "H",
+          "position": [
+            3.436636,
+            0.706446,
+            -0.602384
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C8"
+        },
+        {
+          "id": "HC9",
+          "element": "H",
+          "position": [
+            0.227466,
+            -2.126477,
+            -1.521242
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C9"
+        },
+        {
+          "id": "HC10",
+          "element": "H",
+          "position": [
+            3.205967,
+            -1.510735,
+            -1.024411
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C10"
+        },
+        {
+          "id": "HC11",
+          "element": "H",
+          "position": [
+            0.888517,
+            -1.690543,
+            0.983984
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C11"
+        },
+        {
+          "id": "HO4",
+          "element": "H",
+          "position": [
+            2.93765,
+            -2.585408,
+            1.454759
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "HO5",
+          "element": "H",
+          "position": [
+            2.480003,
+            -3.683594,
+            -1.330708
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O5"
+        },
+        {
+          "id": "HO6",
+          "element": "H",
+          "position": [
+            3.896636,
+            -0.230374,
+            1.626616
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O3"
+        },
+        {
+          "id": "HC12a",
+          "element": "H",
+          "position": [
+            2.217076,
+            2.887663,
+            -0.421748
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HC12b",
+          "element": "H",
+          "position": [
+            2.549382,
+            2.913294,
+            1.327818
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HO7",
+          "element": "H",
+          "position": [
+            4.79622,
+            2.626871,
+            0.683884
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O7"
+        },
+        {
+          "id": "HO8",
+          "element": "H",
+          "position": [
+            -0.137755,
+            2.9976,
+            -0.973957
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O8"
+        },
+        {
+          "id": "HO9",
+          "element": "H",
+          "position": [
+            -3.369498,
+            3.104089,
+            -1.385964
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O9"
+        },
+        {
+          "id": "HO10",
+          "element": "H",
+          "position": [
+            -5.249734,
+            0.739556,
+            -0.188058
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O10"
+        },
+        {
+          "id": "HO11",
+          "element": "H",
+          "position": [
+            -4.716607,
+            -1.611545,
+            1.221451
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O11"
+        },
+        {
+          "id": "HC9red",
+          "element": "H",
+          "position": [
+            1.104522,
+            -0.702427,
+            -2.167891
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C9"
+        },
+        {
+          "id": "HO6red",
+          "element": "H",
+          "position": [
+            1.00288,
+            -2.424747,
+            -3.637338
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O6"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "C7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "C8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "C10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "C11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C11",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "C12",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "O7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "O8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C11",
+          "b": "C7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "HC1a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "HC1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "HC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "HC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "HC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "HC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "HC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "HC7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "HC8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "HC9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "HC10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C11",
+          "b": "HC11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "HO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "HO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O7",
+          "b": "HO7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O8",
+          "b": "HO8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O9",
+          "b": "HO9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O10",
+          "b": "HO10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O11",
+          "b": "HO11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "HO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "HC9red",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "HO6red",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/160514",
+        "sourceDownload": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/160514/property/IsomericSMILES,InChI,MolecularFormula,IUPACName,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "pubchemCid": 160514,
+        "sourceCache": "source/pubchem-cellobiitol.json",
+        "sourceCacheSha256": "b5de4aa23b40b05d3bef9e2e30ef7d1976b4973e84deb3dbc3864e735907dc57",
+        "sourceCheckedOn": "2026-09-24",
+        "sourceInchi": "InChI=1S/C12H24O11/c13-1-4(16)7(18)11(5(17)2-14)23-12-10(21)9(20)8(19)6(3-15)22-12/h4-21H,1-3H2/t4-,5+,6+,7+,8+,9-,10+,11+,12-/m0/s1",
+        "sourceSmiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@H]([C@@H](CO)O)[C@@H]([C@H](CO)O)O)O)O)O)O",
+        "inchi": "InChI=1S/C12H24O11/c13-1-4(16)7(18)11(5(17)2-14)23-12-10(21)9(20)8(19)6(3-15)22-12/h4-21H,1-3H2/t4-,5+,6+,7+,8+,9-,10+,11+,12-/m0/s1",
+        "smiles": "OC[C@@H](O)[C@@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)[C@@H](O)CO",
+        "parentOpenId": "cellobiose-open",
+        "parentOpenInchi": "InChI=1S/C12H22O11/c13-1-4(16)7(18)11(5(17)2-14)23-12-10(21)9(20)8(19)6(3-15)22-12/h1,4-12,14-21H,2-3H2/t4-,5+,6+,7+,8+,9-,10+,11+,12-/m0/s1",
+        "parentAssetSha256": "93a169376b743c7e5b64c13f11e9e6e73ffcd07398f7bbfe17bc752d94936534",
+        "sugarPositionMap": {
+          "A_nonreducing_beta_glucosyl": {
+            "C1": "C6",
+            "C2": "C5",
+            "C3": "C4",
+            "C4": "C3",
+            "C5": "C2",
+            "C6": "C1",
+            "O1_bridge": "O2",
+            "O2": "O8",
+            "O3": "O9",
+            "O4": "O10",
+            "O5_ring": "O1",
+            "O6": "O11"
+          },
+          "B_reducing_glucose": {
+            "C1": "C9",
+            "C2": "C10",
+            "C3": "C11",
+            "C4": "C7",
+            "C5": "C8",
+            "C6": "C12",
+            "O1_hydroxyl_or_carbonyl": "O6",
+            "O2": "O5",
+            "O3": "O4",
+            "O4_bridge": "O2",
+            "O5_ring_or_hydroxyl": "O3",
+            "O6": "O7"
+          }
+        },
+        "allParentAtomIdsPreserved": true,
+        "addedHydrogenIds": [
+          "HC9red",
+          "HO6red"
+        ],
+        "identityScope": "Complete stereograph independently matched to PubChem CID 160514; computed 3D conformer is not measured geometry",
+        "atomOriginNote": "HO6 remains bonded to O3 as in the parent open-chain model. HC9red and HO6red complete the neutral reduced graph; their names do not establish isotope provenance, a measured proton relay, or a reagent byproduct.",
+        "construction": "Reduce local C9=O6 to C9–O6H, add one H to C9, preserve C6–O2–C7 and the nine pre-existing tetrahedral stereocenters",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated neutral computed conformer; no solvent population, actual hydride/proton isotope fate, boron species, reaction trajectory, rate, or elementary mechanism.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": 179.0701972510598
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.ethanol-partition-lab { color:var(--ink,#18343a); line-height:1.6; min-width:0; }
+.ethanol-partition-lab h3 { margin:0 0 .4rem; font-size:1.35rem; }
+.ethanol-partition-lab h4 { margin:.2rem 0 .8rem; font-size:1.08rem; }
+.ethanol-partition-lab p { margin:.5rem 0 .9rem; }
+.ethanol-partition-lab .ep-origin { border-left:3px solid #448178; padding:.65rem .85rem; background:#f0f6f3; }
+.ethanol-partition-lab label { display:block; font-size:1rem; margin:.65rem 0; }
+.ethanol-partition-lab select { display:block; width:100%; max-width:100%; padding:.55rem; border:1px solid #879e9c; border-radius:.4rem; background:#fff; color:inherit; font:inherit; }
+.ethanol-partition-lab textarea { display:block; width:100%; box-sizing:border-box; padding:.65rem; border:1px solid #879e9c; border-radius:.4rem; font:inherit; line-height:1.5; resize:vertical; }
+.ethanol-partition-lab textarea[readonly] { background:#f4f6f5; }
+.ethanol-partition-lab .ep-layout { display:grid; grid-template-columns:minmax(15rem,.85fr) minmax(20rem,1.15fr); gap:1.2rem; align-items:start; margin:1rem 0; }
+.ethanol-partition-lab .ep-model { min-width:0; padding:1rem; border:1px solid #c8d8d3; border-radius:.7rem; background:#f8faf8; }
+.ethanol-partition-lab .ep-stage { min-width:0; }
+.ethanol-partition-lab .ep-given { font-size:1rem; }
+.ethanol-partition-lab .ep-chain { list-style:none; padding:0; margin:.8rem 0 0; }
+.ethanol-partition-lab .ep-chain li { padding:.6rem 0; border-top:1px solid #cbd8d4; }
+.ethanol-partition-lab .ep-chain strong,.ethanol-partition-lab .ep-chain span { display:block; overflow-wrap:anywhere; }
+.ethanol-partition-lab fieldset { border:0; padding:0; margin:.5rem 0 1rem; min-width:0; }
+.ethanol-partition-lab legend { font-weight:600; }
+.ethanol-partition-lab .ep-choice { display:flex; align-items:flex-start; gap:.6rem; padding:.65rem .7rem; border:1px solid #c8d8d3; border-radius:.4rem; background:#fff; }
+.ethanol-partition-lab .ep-choice input { flex:0 0 auto; width:1.05rem; height:1.05rem; margin:.25rem 0 0; }
+.ethanol-partition-lab .ep-choice span { min-width:0; }
+.ethanol-partition-lab button { font:inherit; cursor:pointer; padding:.6rem .9rem; border:1px solid #4a756f; border-radius:.45rem; background:#fff; color:inherit; }
+.ethanol-partition-lab button:disabled { cursor:default; opacity:.6; }
+.ethanol-partition-lab button:focus-visible,.ethanol-partition-lab select:focus-visible,.ethanol-partition-lab textarea:focus-visible,.ethanol-partition-lab input:focus-visible { outline:3px solid #b16a24; outline-offset:3px; }
+.ethanol-partition-lab .ep-actions { display:flex; flex-wrap:wrap; align-items:center; gap:.7rem; margin:.8rem 0; }
+.ethanol-partition-lab .ep-feedback { padding:.9rem; border-left:3px solid #497c73; background:#f0f6f3; margin-top:1rem; }
+.ethanol-partition-lab details { margin:.8rem 0; padding:.7rem .9rem; border:1px solid #c8d8d3; border-radius:.45rem; }
+.ethanol-partition-lab summary { cursor:pointer; font-size:1rem; font-weight:600; }
+.ethanol-partition-lab .ep-error { color:#883b20; }
+.ethanol-partition-lab .ep-small { font-size:1rem; color:#435f60; }
+.ethanol-partition-lab [hidden] { display:none!important; }
+@media (max-width:900px) {
+.ethanol-partition-lab .ep-layout { grid-template-columns:minmax(0,1fr); }
+}
+
+.ethanol-partition-lab input[type=text] { box-sizing:border-box; display:block; width:100%; padding:.55rem; border:1px solid #879e9c; border-radius:.4rem; font:inherit; }
+.ethanol-partition-lab .ep-scroll { max-width:100%; overflow-x:auto; }
+.ethanol-partition-lab table { border-collapse:collapse; width:100%; font-size:1rem; }
+.ethanol-partition-lab th,.ethanol-partition-lab td { border:1px solid #c8d8d3; padding:.5rem; text-align:left; overflow-wrap:anywhere; }
+.ethanol-partition-lab caption { text-align:left; margin:.5rem 0; }

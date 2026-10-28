@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">MutY 移除錯配 A，留下 AP</title>
+<desc id="figure-desc">DNA 中 G 被氧化成 8-oxoG 後容易與 A 錯配；MutY 糖苷酶辨認 A/8-oxoG 錯配並移除錯配的 A（不是受損的 G），留下 AP 位點待後續修復，以防止 G:C→T:A 突變。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">MutY 移除錯配 A，留下 AP</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">受損的 8-oxoG 與被移除的 A 是不同物件</tspan></text>
+<rect x="32" y="124" width="270" height="292" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="167" y="157" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="167" dy="0">A / 8-oxoG 錯配</tspan></text>
+<path d="M 62 189 L 272 189" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 62 379 L 272 379" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="154" y="177" width="26" height="24" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="154" y="367" width="26" height="24" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 167 202 L 167 220" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 167 350 L 167 365" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="97" y="300" width="140" height="50" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="167.0" y="332.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="167.0" dy="0">8-oxoG</tspan></text>
+<rect x="418" y="124" width="270" height="292" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="553" y="157" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="553" dy="0">AP / 8-oxoG 中間態</tspan></text>
+<path d="M 448 189 L 658 189" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 448 379 L 658 379" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="540" y="177" width="26" height="24" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="540" y="367" width="26" height="24" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 553 350 L 553 365" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="483" y="300" width="140" height="50" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="553.0" y="332.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="553.0" dy="0">8-oxoG</tspan></text>
+<rect x="97" y="220" width="140" height="50" rx="14" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="167.0" y="252.0" font-size="25" fill="#1c2732" text-anchor="middle"><tspan x="167.0" dy="0">A</tspan></text>
+<rect x="483" y="220" width="140" height="50" rx="10" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="553" y="253" font-size="21" fill="#b4692e" text-anchor="middle"><tspan x="553" dy="0">AP 缺鹼基</tspan></text>
+<path d="M 312 249 L 408 249" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="224" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">MutY</tspan></text>
+<path d="M 360 260 L 360 330" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="317" y="341" width="86" height="57" rx="14" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="360.0" y="376.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">游離 A</tspan></text>
+<text x="360" y="453" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">糖與糖磷酸骨架仍在；另一股 8-oxoG 也仍在。</tspan></text>
+<text x="32" y="499" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">AP 尚待後續修復；本步不是切斷骨架。</tspan><tspan x="32" dy="25">切除結果不能直接換算完整修復、菌落數或存活。</tspan></text>
+<text x="688" y="542" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

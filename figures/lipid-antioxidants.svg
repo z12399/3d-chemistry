@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 475" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">供氫截斷連鎖，延緩新的氧化</title>
+<desc id="figure-desc">斷鏈抗氧化劑 AH 向過氧自由基供氫，形成 LOOH 與較穩定 A 自由基；既有氧化產物仍然存在。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="475" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">供氫截斷連鎖，延緩新的氧化</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">AH：斷鏈抗氧化劑</tspan></text>
+<rect x="32" y="119" width="150" height="86" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="107.0" y="169.0" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="107.0" dy="0">LOO•</tspan></text>
+<text x="211" y="171" font-size="28" fill="#53606d" text-anchor="middle"><tspan x="211" dy="0">＋</tspan></text>
+<rect x="242" y="119" width="116" height="86" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="300.0" y="169.0" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="300.0" dy="0">AH</tspan></text>
+<path d="M 378 162 L 435 162" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="405" y="127" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="405" dy="0">供氫</tspan></text>
+<rect x="454" y="119" width="115" height="86" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="511.5" y="169.0" font-size="26" fill="#1c2732" text-anchor="middle"><tspan x="511.5" dy="0">LOOH</tspan></text>
+<text x="590" y="171" font-size="28" fill="#53606d" text-anchor="middle"><tspan x="590" dy="0">＋</tspan></text>
+<rect x="612" y="119" width="76" height="86" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="650.0" y="169.0" font-size="26" fill="#1c2732" text-anchor="middle"><tspan x="650.0" dy="0">A•</tspan></text>
+<text x="650" y="243" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="650" dy="0">較穩定</tspan></text>
+<path d="M 360 221 L 360 278" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="179" y="294" width="362" height="63" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="332.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">中斷連鎖 → 延緩新氧化</tspan></text>
+<rect x="32" y="386" width="656" height="55" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="421" font-size="20" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">既有氧化產物仍在，不能因此去掉既有異味</tspan></text>
+<text x="688" y="457" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

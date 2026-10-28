@@ -1,0 +1,38 @@
+/* Extends food-experiments.css; controls remain adjacent to plots when space permits. */
+.water-phase-experiment { container-type: inline-size; max-width: 900px; }
+.water-phase-experiment .phase-boundary { margin: -4px 0 22px; padding-left: 12px; border-left: 2px solid var(--exp-line); color: var(--exp-muted); font-size: 13px; line-height: 1.75; }
+.water-phase-experiment .phase-layout { min-width: 0; }
+.water-phase-experiment .phase-stage { position: static; top: auto; padding: 18px 8px 16px; }
+.water-phase-experiment .phase-panel { min-width: 0; }
+.water-phase-experiment .phase-panel > .food-exp-result { display: block; margin-bottom: 23px; }
+.water-phase-experiment .phase-value { display: block; }
+.water-phase-experiment .phase-value-label { display: block; margin-top: 5px; }
+.water-phase-experiment .phase-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 7px 20px; margin: 14px 0 9px; font-size: 13px; color: var(--exp-muted); }
+.water-phase-experiment .phase-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.water-phase-experiment .phase-legend span::before { content: ''; width: 24px; border-top: 3px solid var(--exp-accent); }
+.water-phase-experiment .phase-legend .phase-legend-reference::before { border-top: 2px dashed #cfd6dc; }
+.water-phase-experiment .phase-model-equation { margin: 15px 6px 12px; padding-top: 12px; border-top: 1px solid var(--exp-line); color: var(--exp-ink); font: 14px/1.8 "Cambria Math", "Segoe UI", sans-serif; text-align: center; overflow-wrap: anywhere; }
+.water-phase-experiment .phase-model-equation small { display: block; margin-top: 5px; color: var(--exp-muted); font: 13px/1.7 "Segoe UI", sans-serif; }
+.water-phase-experiment .phase-readings { display: grid; gap: 9px; margin: 0 0 18px; padding-top: 13px; border-top: 1px solid var(--exp-line); font-size: 13px; }
+.water-phase-experiment .phase-readings > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 3px 10px; }
+.water-phase-experiment .phase-readings dt { color: var(--exp-muted); }
+.water-phase-experiment .phase-readings dd { margin: 0; font-variant-numeric: tabular-nums; }
+.water-phase-experiment .phase-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 21px; }
+.water-phase-experiment .phase-actions button { flex: 1; padding: 8px 10px; border: 1px solid #cfd6dc; border-radius: 8px; background: transparent; color: var(--exp-muted); font: inherit; font-size: 13px; cursor: pointer; }
+.water-phase-experiment .phase-actions button:hover { color: var(--exp-accent); border-color: var(--exp-accent); }
+.water-phase-experiment .phase-actions button[aria-pressed=true] { color: var(--exp-accent); border-color: #14665d; background: #e7f1ee; }
+.water-phase-experiment .phase-actions button:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+.water-phase-experiment .phase-observation { font-size: 13px; min-height: 0; }
+.water-phase-experiment .food-exp-equation { font-size: 14px; }
+.water-phase-experiment .food-exp-figure text { font-size: 14px; }
+@container (min-width: 620px) {
+  .water-phase-experiment .phase-layout { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 25px; align-items: start; }
+  .water-phase-experiment .phase-stage { position: sticky; top: 96px; margin-bottom: 0; }
+  .water-phase-experiment .phase-panel > .food-exp-result { min-height: 78px; }
+  .water-phase-experiment .food-exp-control-label { font-size: 13px; }
+}
+@media (max-width: 480px) {
+  .water-phase-experiment .phase-stage { position: static; top: auto; padding-inline: 3px; }
+  .water-phase-experiment .phase-panel > .food-exp-result { padding-inline: 0; }
+  .water-phase-experiment .phase-legend { gap: 7px 16px; }
+}

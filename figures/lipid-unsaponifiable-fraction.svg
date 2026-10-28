@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="746" viewBox="0 0 720 746" role="img" aria-labelledby="title desc">
+  <title id="title">酯能皂化，醇端仍可進不皂化分段</title>
+  <desc id="desc">概念示意圖：甾醇酯與蠟酯經鹼性酯水解，分別釋出甾醇或長鏈醇和脂肪酸鹽。示意在未酸化、完成皂化與洗滌後，前者通往有機萃取相，後者通往含水醇皂液；TAG 的甘油也留在含水醇相。這不是回收率或分配係數圖。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#53606d"/></marker></defs>
+  <rect width="720" height="746" rx="14" fill="#fff"/>
+  <g font-family="Arial,Microsoft JhengHei,sans-serif" fill="#1c2732">
+    <text x="28" y="42" font-size="26" font-weight="700">酯能皂化，醇端仍可留下</text>
+    <text x="28" y="74" font-size="17" fill="#53606d">未酸化端點；先追蹤酯鍵兩端，再看分析分段</text>
+
+    <text x="28" y="119" font-size="18" font-weight="700">甾醇酯</text>
+    <rect x="28" y="136" width="664" height="73" rx="9" fill="#f6f7f8" stroke="#dfe4e8"/>
+    <rect x="48" y="150" width="148" height="44" rx="8" fill="#e7f1ee" stroke="#14665d"/>
+    <text x="65" y="179" font-size="21" fill="#14665d">甾醇骨架</text>
+    <text x="208" y="179" font-size="21">— O — C(=O) — R</text>
+    <text x="506" y="179" font-size="18" fill="#53606d">＋ OH⁻</text>
+    <path d="M195 211 L195 252" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M520 211 L520 252" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <rect x="28" y="262" width="312" height="96" rx="9" fill="#e7f1ee" stroke="#9bbdb6"/>
+    <text x="47" y="293" font-size="21" font-weight="600" fill="#14665d">游離甾醇 — OH</text>
+    <text x="47" y="326" font-size="18">→ 有機萃取相</text>
+    <rect x="380" y="262" width="312" height="96" rx="9" fill="#f0f3f5" stroke="#c8d1d8"/>
+    <text x="399" y="293" font-size="21" font-weight="600">脂肪酸鹽 R–COO⁻</text>
+    <text x="399" y="326" font-size="18">→ 含水醇皂液</text>
+
+    <text x="28" y="402" font-size="18" font-weight="700">蠟酯：同樣切酯鍵，換成長鏈醇端</text>
+    <rect x="28" y="419" width="664" height="67" rx="9" fill="#f6f7f8" stroke="#dfe4e8"/>
+    <text x="48" y="460" font-size="21"><tspan fill="#14665d">長鏈醇骨架</tspan> — O — C(=O) — R ＋ OH⁻</text>
+    <path d="M195 488 L195 526" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M520 488 L520 526" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <rect x="28" y="536" width="312" height="74" rx="9" fill="#e7f1ee" stroke="#9bbdb6"/>
+    <text x="47" y="565" font-size="21" font-weight="600" fill="#14665d">長鏈醇 — OH</text>
+    <text x="47" y="593" font-size="18">→ 有機萃取相</text>
+    <rect x="380" y="536" width="312" height="74" rx="9" fill="#f0f3f5" stroke="#c8d1d8"/>
+    <text x="399" y="565" font-size="21" font-weight="600">脂肪酸鹽 R–COO⁻</text>
+    <text x="399" y="593" font-size="18">→ 含水醇皂液</text>
+
+    <path d="M28 636 H692" stroke="#dfe4e8"/>
+    <text x="28" y="666" font-size="18">對照 TAG：釋出的甘油偏親水 → 含水醇相</text>
+    <text x="28" y="699" font-size="17" font-weight="600" fill="#14665d">原酯已反應；不皂化分段並非「原樣未反應分子」的集合。</text>
+    <text x="28" y="728" font-size="16" fill="#53606d">片段去向示意；不表示完整結構、分配係數或定量回收率。</text>
+  </g>
+</svg>

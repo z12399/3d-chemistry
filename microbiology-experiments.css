@@ -1,0 +1,72 @@
+/* Both workbenches keep their original models and SVGs; only the reading surface changes. */
+.microbiology-experiment { container-type: inline-size; max-width: 980px; }
+.microbiology-experiment .micro-layout,.microbiology-experiment .micro-panel,.microbiology-experiment .micro-stage { min-width: 0; }
+.microbiology-experiment .food-exp-heading { margin-bottom: 16px; }
+.microbiology-experiment .food-exp-heading h3 { font-size: clamp(20px,2.1vw,25px); }
+.microbiology-experiment .food-exp-kicker,.microbiology-experiment .food-exp-hint,
+.microbiology-experiment .food-exp-control-label,.microbiology-experiment .food-exp-endpoints,
+.microbiology-experiment .food-exp-result-label,.microbiology-experiment .food-exp-caption,
+.microbiology-experiment .food-exp-details summary,.microbiology-experiment .food-exp-assumptions,
+.microbiology-experiment .food-exp-sources li { font-size: 16px; }
+.microbiology-experiment .micro-boundary { margin: 0 0 20px; padding-left: 12px; border-left: 2px solid var(--exp-line); color: var(--exp-muted); font-size: 16px; line-height: 1.75; }
+.microbiology-experiment .micro-layout { display: grid; grid-template-columns: minmax(0,1fr); gap: 20px; align-items: start; }
+.microbiology-experiment .micro-panel { order: 1; }
+.microbiology-experiment .micro-stage { order: 2; position: static; top: auto; margin: 0; padding: 14px 8px; }
+.microbiology-experiment .micro-panel > .food-exp-result { display: block; min-height: 0; margin: 0 0 20px; padding: 0; }
+.microbiology-experiment .micro-value { display: block; font-size: clamp(30px,3vw,38px); }
+.microbiology-experiment .micro-label { display: block; margin-top: 5px; }
+.microbiology-experiment .food-exp-control { margin-bottom: 18px; }
+.microbiology-experiment .food-exp-control-label { gap: 5px 12px; }
+.microbiology-experiment .food-exp-endpoints { margin-top: 3px; }
+.microbiology-experiment .micro-formula { margin: 14px 6px 12px; padding-top: 12px; border-top: 1px solid var(--exp-line); font: 16px/1.8 'Cambria Math','Segoe UI',sans-serif; text-align: center; overflow-wrap: anywhere; }
+.microbiology-experiment .micro-formula small { display: block; margin-top: 6px; color: var(--exp-muted); font: 16px/1.8 'Segoe UI',sans-serif; }
+.microbiology-experiment .micro-parameters { margin: 0 0 20px; color: var(--exp-muted); font-size: 16px; }
+.microbiology-experiment .micro-parameters summary { cursor: pointer; min-height: 44px; padding: 8px 0 10px; font-size: 16px; }
+.microbiology-experiment .micro-parameters > div { padding-top: 10px; }
+.microbiology-experiment .micro-readings { display: grid; gap: 10px; margin: 20px 0 18px; padding-top: 13px; border-top: 1px solid var(--exp-line); font-size: 16px; }
+.microbiology-experiment .micro-readings > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 3px 10px; }
+.microbiology-experiment .micro-readings dt { color: var(--exp-muted); }
+.microbiology-experiment .micro-readings dd { margin: 0; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.microbiology-experiment .micro-reset { min-height: 44px; padding: 8px 16px; border: 1px solid var(--exp-line); border-radius: 6px; background: transparent; color: var(--exp-muted); font: inherit; font-size: 16px; cursor: pointer; }
+.microbiology-experiment .micro-reset:hover { color: var(--exp-accent); border-color: var(--exp-accent); }
+.microbiology-experiment .micro-reset:focus-visible,.microbiology-experiment .micro-parameters summary:focus-visible,.microbiology-experiment .micro-figure:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+.microbiology-experiment .micro-observation { font-size: 16px; min-height: 0; }
+.microbiology-experiment .micro-figure { max-width: none; overflow-x: auto; overflow-y: hidden; }
+/* Padding gives the extreme -2,000 tick room while the original SVG coordinates stay unchanged. */
+.microbiology-experiment .micro-figure svg { width: 100%; min-width: 460px; height: auto; padding: 0 14px 40px 32px; overflow: visible; }
+.microbiology-experiment .food-exp-figure .micro-svg-small { font-size: 18px; }
+.microbiology-experiment .food-exp-figure .micro-axis-label { fill: var(--exp-ink); font-size: 20px; }
+/* The final legend sits below the time label; the SVG's lower padding contains it. */
+.microbiology-experiment .micro-figure svg > text:last-child,
+.microbiology-experiment .micro-figure svg > .micro-reference:not([data-micro-curve]) { transform: translateY(26px); }
+.microbiology-experiment .micro-axis { stroke: #929487; stroke-width: 1; fill: none; }
+.microbiology-experiment .micro-grid { stroke: #e0e1d9; stroke-width: 1; fill: none; }
+.microbiology-experiment .micro-lag-shade { fill: #e5ece5; }
+.microbiology-experiment .micro-curve { stroke: var(--exp-accent); stroke-width: 2.6; stroke-linejoin: round; fill: none; }
+.microbiology-experiment .micro-reference { stroke: #668a80; stroke-width: 1.8; stroke-dasharray: 6 4; fill: none; }
+.microbiology-experiment .micro-guide { stroke: #bcaa95; stroke-width: 1; stroke-dasharray: 3 4; fill: none; }
+.microbiology-experiment .micro-marker { fill: var(--exp-accent); stroke: #fffdf8; stroke-width: 2; }
+.micro-thermal-workbench .micro-thermal-topline { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 18px; margin-bottom: 18px; }
+.micro-thermal-workbench .micro-thermal-topline .micro-boundary { flex: 1 1 300px; margin: 0; min-width: 0; }
+.micro-thermal-workbench .micro-thermal-topline .micro-reset { flex: 0 0 auto; }
+.micro-thermal-workbench .micro-readings { margin: 0 0 18px; padding-top: 10px; }
+.micro-thermal-workbench .micro-thermal-controls { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.micro-thermal-workbench .micro-thermal-controls .food-exp-control { min-width: 0; margin: 0; }
+.micro-thermal-workbench .micro-thermal-controls .food-exp-control-label { display: grid; gap: 4px; align-content: start; }
+.micro-thermal-workbench .micro-thermal-controls .food-exp-control-label label { min-height: 3.3em; }
+.micro-thermal-workbench .micro-parameters { margin: 18px 0 0; }
+.micro-thermal-workbench .micro-observation { margin: 16px 0; }
+.micro-thermal-workbench .micro-thermal-extensions { display: grid; gap: 4px; }
+.micro-thermal-workbench .micro-thermal-question { border-top: 1px solid var(--exp-line); }
+.micro-thermal-workbench .micro-thermal-question > summary { min-height: 44px; padding: 14px 0; color: var(--exp-muted); font-size: 16px; cursor: pointer; }
+.micro-thermal-workbench .micro-thermal-question .food-exp-heading { margin: 0 0 16px; }
+.micro-thermal-workbench .micro-thermal-question > summary:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+@container (min-width: 802px) {
+  .microbiology-experiment .micro-layout { grid-template-columns: minmax(478px,1.3fr) minmax(300px,1fr); gap: 24px; }
+  .microbiology-experiment .micro-panel,.microbiology-experiment .micro-stage { order: 0; }
+  .micro-thermal-workbench .micro-thermal-extensions { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+}
+@container (max-width: 360px) {
+  .micro-thermal-workbench .micro-thermal-controls { grid-template-columns: minmax(0,1fr); }
+  .micro-thermal-workbench .micro-thermal-controls .food-exp-control-label label { min-height: 0; }
+}

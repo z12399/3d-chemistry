@@ -1,0 +1,63 @@
+/* Protein net-charge curve: exam check on top, curve + per-group table below. */
+.protein-charge-lab { --pc-ink: var(--ink, #1c2732); --pc-muted: var(--muted, #53606d); --pc-line: var(--line, #dfe4e8); --pc-accent: var(--mint, #14665d); color: var(--pc-ink); font-size: 1rem; line-height: 1.7; }
+.pc-head { margin-bottom: 16px; }
+.pc-kicker { margin: 0; color: var(--pc-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.protein-charge-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.pc-hint { margin: 0; color: var(--pc-muted); }
+.pc-exam { margin-bottom: 22px; padding: 16px 20px; border: 1px solid var(--pc-line); border-radius: 12px; background: var(--chrome, #f6f7f8); }
+.pc-exam h4 { margin: 0 0 10px; font-size: 1.0625rem; }
+.pc-choices { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.pc-choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 16px; border: 1px solid #cfd6dc; border-radius: 22px; background: #fff; cursor: pointer; }
+.pc-choice:has(input:checked) { border-color: var(--pc-accent); background: var(--tint, #e7f1ee); }
+.pc-choice input { flex: 0 0 18px; width: 18px; height: 18px; margin: 0; }
+.pc-choice span { white-space: nowrap; }
+.protein-charge-lab .pc-choice { flex: 0 0 auto; width: auto; flex-direction: row; }
+.pc-exam button, .pc-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--pc-accent); border-radius: 10px; background: var(--pc-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.pc-reveal p { margin: 10px 0 0; }
+.pc-right { color: #0e4f48; font-weight: 650; }
+.pc-wrong { color: #8a4b12; font-weight: 650; }
+.pc-main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 22px; align-items: start; }
+.pc-plot { min-width: 0; padding: 14px 16px; border: 1px solid var(--pc-line); border-radius: 12px; background: #fff; }
+.pc-chart { display: block; width: 100%; height: auto; font: 12px var(--font, sans-serif); }
+.pc-chart text { fill: var(--pc-muted); font-size: 13px; }
+.pc-axis { stroke: #8590a0; stroke-width: 1.2; }
+.pc-grid { stroke: #eef1f3; stroke-width: 1; }
+.pc-zero { stroke: #8590a0; stroke-width: 1.2; stroke-dasharray: 4 4; }
+.pc-curve { fill: none; stroke: var(--pc-accent); stroke-width: 2.6; stroke-linejoin: round; }
+.pc-pi { stroke: #b8902a; stroke-width: 1.6; stroke-dasharray: 5 4; }
+.pc-chart .pc-pi-label { fill: #8a6a14; font-weight: 600; }
+.pc-dot { fill: #b4692e; stroke: #fff; stroke-width: 2; }
+.pc-slider { display: grid; gap: 4px; margin-top: 10px; font-weight: 600; }
+.pc-slider output { font-variant-numeric: tabular-nums; color: var(--pc-accent); }
+.pc-slider input { width: 100%; min-height: 32px; }
+.pc-set { display: grid; gap: 4px; margin-top: 10px; font-size: .9375rem; font-weight: 600; }
+.pc-set select { min-height: 44px; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; color: inherit; max-width: 100%; }
+.pc-readout { min-width: 0; }
+.pc-net { display: flex; align-items: baseline; gap: 12px; margin: 0; padding: 14px 18px; border-left: 4px solid var(--pc-accent); border-radius: 0 12px 12px 0; background: var(--tint, #e7f1ee); }
+.pc-net span { color: #3f6259; font-size: .9375rem; }
+.pc-net strong { font-size: 2.25rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.pc-net small { font-size: 1rem; font-weight: 600; }
+.pc-net[data-pc-sign-state="negative"] { border-left-color: #35628c; background: #e9f0f8; }
+.pc-net[data-pc-sign-state="negative"] span { color: #35628c; }
+.pc-pi-read { margin: 10px 0 12px; color: var(--pc-muted); }
+.pc-pi-read strong { color: #8a6a14; font-variant-numeric: tabular-nums; }
+.pc-table { width: 100%; border-collapse: collapse; font-size: .9375rem; font-variant-numeric: tabular-nums; }
+.pc-table caption { padding-bottom: 6px; text-align: left; font-weight: 600; font-size: .9375rem; }
+.pc-table th, .pc-table td { padding: 5px 6px; text-align: right; border-top: 1px solid #eef1f3; }
+.pc-table th[scope="row"], .pc-table thead th:first-child { text-align: left; font-weight: 500; }
+.pc-table thead th { color: var(--pc-muted); font-weight: 600; font-size: .875rem; border-top: 0; }
+.pc-pos { color: #a2531f; font-weight: 600; }
+.pc-neg { color: #35628c; font-weight: 600; }
+.pc-gap { margin: 18px 0 4px; padding: 12px 16px; border-left: 4px solid #b8902a; border-radius: 0 10px 10px 0; background: #fbf5e2; font-size: .9375rem; }
+.protein-charge-lab details { padding: 4px 0; border-top: 1px solid var(--pc-line); }
+.protein-charge-lab details:first-of-type { margin-top: 18px; }
+.protein-charge-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--pc-muted); }
+.protein-charge-lab details[open] > summary { color: var(--pc-ink); }
+.protein-charge-lab details li { font-size: .9375rem; }
+.protein-charge-lab a { color: var(--pc-accent); text-decoration: underline; text-underline-offset: 3px; }
+.pc-detail label { display: block; margin: 4px 0 6px; font-weight: 600; font-size: .9375rem; }
+.pc-detail textarea { display: block; width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid #cfd6dc; border-radius: 10px; font: inherit; line-height: 1.8; resize: vertical; }
+.pc-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 12px 0 14px; }
+.pc-save span { color: var(--pc-muted); font-size: .9375rem; }
+@media (max-width: 900px) { .pc-main { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .pc-chart text { font-size: 22px; } }

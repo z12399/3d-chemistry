@@ -1,0 +1,91 @@
+.tag-hydrolysis-lab {
+  --tag-ink: #1c2732;
+  --tag-muted: #53606d;
+  --tag-line: #dfe4e8;
+  --tag-accent: #14665d;
+  max-width: 1150px;
+  margin: 0 auto;
+  color: var(--tag-ink);
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.tag-hydrolysis-lab * { box-sizing: border-box; }
+.tag-hydrolysis-lab [hidden] { display: none !important; }
+.tag-hydrolysis-lab p { margin: .6rem 0; }
+.tag-hydrolysis-lab h2 { margin: .3rem 0 .75rem; font-size: 1.55rem; line-height: 1.4; }
+.tag-hydrolysis-lab h3 { font-size: .9rem; margin: 0 0 .5rem; font-weight: 600; }
+.tag-hydrolysis-lab .tag-kicker { margin: 0; color: #14665d; font-size: 0.8125rem; letter-spacing: .06em; }
+.tag-hydrolysis-lab .tag-boundary { color: var(--tag-muted); font-size: .84rem; max-width: 54rem; }
+.tag-header { margin-bottom: .6rem; }
+.tag-hydrolysis-lab .tag-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.tag-hydrolysis-lab .tag-source-scope { margin: 0; color: var(--tag-muted); font-size: .84rem; }
+.tag-hydrolysis-lab .tag-introduction > p:not(.tag-boundary) { font-size: 1rem; }
+.tag-workspace { display: grid; grid-template-columns: minmax(0,1.2fr) minmax(0,1fr); gap: 1.5rem; align-items: start; }
+.tag-molecule-panel, .tag-account-panel { min-width: 0; }
+.tag-molecule-panel { background: #f6f7f8; border: 1px solid var(--tag-line); border-radius: .8rem; overflow: hidden; padding-bottom: .8rem; }
+.tag-hydrolysis-lab .tag-component-field { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: center; gap: .5rem; margin: .6rem 1rem; }
+.tag-component-field > span, .tag-site-field > span { white-space: nowrap; }
+.tag-hydrolysis-lab .tag-site-field { display: grid; grid-template-columns: auto minmax(0,1fr); align-items: center; gap: .5rem; margin: .6rem 0; }
+.tag-identity { display: flex; flex-wrap: wrap; gap: .3rem 1rem; align-items: baseline; justify-content: space-between; padding: 0 1rem; font-size: .85rem; }
+.tag-identity strong { font-weight: 650; }
+.tag-viewer { position: relative; width: 100%; height: 410px; background: radial-gradient(ellipse at 45% 45%,#fffef8 0%,#f1f0e3 90%); }
+.tag-viewer canvas { width: 100%; height: 100%; display: block; touch-action: none; }
+.tag-labels { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 3; }
+.tag-hydrolysis-lab .atom-label { font-size: 0.8125rem; color: #1c2732; background: #fff; border: 1px solid #cfd6dc; border-radius: .25rem; box-shadow: none; }
+.tag-hydrolysis-lab .atom-label.selected { color: #693b27; border-color: #9b674b; background: #fff1df; }
+.tag-hydrolysis-lab .tag-viewer-status { padding: .5rem 1rem; font-size: .88rem; color: var(--tag-muted); }
+.tag-view-actions { display: flex; flex-wrap: wrap; gap: .4rem; padding: .7rem 1rem .15rem; }
+.tag-hydrolysis-lab .tag-focus-reading { margin: .6rem 1rem; font-size: .85rem; }
+.tag-camera-details { margin: .7rem 1rem; font-size: .86rem; }
+.tag-camera { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .35rem; margin: .65rem 0; }
+.tag-hydrolysis-lab .tag-camera button { padding: .45rem .25rem; }
+.tag-hydrolysis-lab .tag-model-note { margin: .7rem 1rem .2rem; color: var(--tag-muted); font-size: 0.8125rem; }
+.tag-hydrolysis-lab [data-tag-action="retry"] { margin: .6rem 1rem 0; }
+.tag-hydrolysis-lab button { min-height: 44px; padding: .55rem .75rem; border: 1px solid #cfd6dc; border-radius: 8px; background: #f6f7f8; color: #1c2732; font: inherit; font-size: .88rem; line-height: 1.4; white-space: normal; cursor: pointer; }
+.tag-hydrolysis-lab button:hover:not(:disabled) { background: #e9edf0; }
+.tag-hydrolysis-lab button[aria-pressed="true"] { border-color: #14665d; background: #e7f1ee; color: #14665d; box-shadow: inset 0 0 0 1px #14665d; }
+.tag-hydrolysis-lab button:disabled { opacity: .55; cursor: default; }
+.tag-hydrolysis-lab .tag-primary { background: #14665d; color: #fff; border-color: #14665d; }
+.tag-hydrolysis-lab .tag-primary:hover:not(:disabled) { background: #0e4f48; }
+.tag-hydrolysis-lab :is(button,select,textarea,input,a,summary):focus-visible { outline: 3px solid #14665d; outline-offset: 3px; }
+.tag-field { display: flex; flex-direction: column; gap: .4rem; margin: .8rem 0; font-size: .88rem; min-width: 0; }
+.tag-hydrolysis-lab select, .tag-hydrolysis-lab textarea, .learning-studio .tag-hydrolysis-lab select, .learning-studio .tag-hydrolysis-lab textarea { display: block; width: 100%; min-width: 0; max-width: 100%; padding: .7rem .8rem; background: #fff; border: 1px solid #cfd6dc; border-radius: 8px; color: var(--tag-ink); font: inherit; font-size: .9rem; line-height: 1.5; }
+.tag-hydrolysis-lab select { min-height: 46px; }
+.tag-hydrolysis-lab textarea { resize: vertical; }
+.tag-toggle { display: flex; gap: .6rem; align-items: center; min-height: 44px; }
+.tag-toggle input { width: 1.2rem; height: 1.2rem; margin: 0; accent-color: #14665d; }
+.tag-stage { display: flex; align-items: baseline; flex-wrap: wrap; gap: .3rem .7rem; padding: .5rem 0; border-bottom: 1px solid var(--tag-line); }
+.tag-stage > span { font-size: .86rem; color: var(--tag-muted); }
+.tag-stage strong { font-size: 1.5rem; font-weight: 650; }
+.tag-counters { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .7rem; padding: .6rem 0 .4rem; }
+.tag-counters > div { display: flex; flex-direction: column; align-items: flex-start; gap: .1rem; }
+.tag-counters span { font-size: 0.8125rem; color: var(--tag-muted); }
+.tag-counters strong { font-size: 1.9rem; font-weight: 550; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.tag-hydrolysis-lab .tag-double-bond-account { color: var(--tag-muted); font-size: 0.8125rem; margin-bottom: 1rem; }
+.tag-equation-block { padding: .9rem 1rem; border-left: 3px solid #14665d; background: #f1f3f5; }
+.tag-equation { font-size: 1rem; line-height: 1.8; font-variant-numeric: tabular-nums; }
+.tag-step-equation { color: var(--tag-muted); font-size: 0.8125rem; line-height: 1.7; }
+.tag-next-step { margin-top: .6rem; }
+.tag-question { font-size: .94rem; font-weight: 550; }
+.tag-selected-bond { color: var(--tag-muted); font-size: .82rem; }
+.tag-cut-actions, .tag-note-actions { display: flex; flex-wrap: wrap; gap: .4rem; margin: .8rem 0 .2rem; }
+.tag-hydrolysis-lab .tag-feedback { color: #53606d; font-size: .85rem; min-height: 1.5em; }
+.tag-balance-details { border-top: 1px solid var(--tag-line); padding-top: .8rem; margin-top: .8rem; font-size: .85rem; }
+.tag-hydrolysis-lab summary { cursor: pointer; padding: .25rem 0; }
+.tag-table-scroll { overflow-x: auto; }
+.tag-hydrolysis-lab table { border-collapse: collapse; width: 100%; font-size: .83rem; margin: .7rem 0; }
+.tag-hydrolysis-lab caption { text-align: left; color: var(--tag-muted); font-size: 0.8125rem; margin-bottom: .5rem; }
+.tag-hydrolysis-lab th, .tag-hydrolysis-lab td { text-align: left; padding: .45rem .55rem; border-bottom: 1px solid var(--tag-line); }
+.tag-notes { border-top: 1px solid var(--tag-line); margin-top: 1.6rem; padding-top: .7rem; }
+.tag-reflections { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1.4rem; align-items: end; }
+.tag-reflections .tag-field { margin-bottom: .4rem; }
+.tag-notes details { margin: 1rem 0; }
+.tag-small { color: var(--tag-muted); font-size: 0.8125rem; }
+.tag-limits { border-top: 1px solid var(--tag-line); padding-top: .75rem; margin-top: 1rem; font-size: .86rem; color: var(--tag-muted); }
+.tag-sources { padding-left: 1.25rem; }
+.tag-sources li { margin: .9rem 0; }
+.tag-sources a { color: #14665d; text-decoration: underline; text-underline-offset: .15em; }
+.tag-sources p { font-size: 0.8125rem; }
+@media (max-width: 950px) { .tag-workspace, .tag-reflections { grid-template-columns: minmax(0,1fr); } .tag-reflections { gap: .2rem; } .tag-viewer { height: 390px; } }
+@media (max-width: 480px) { .tag-viewer { height: 310px; } .tag-counters { gap: .45rem; } .tag-view-actions button { flex: 1 1 8rem; } }

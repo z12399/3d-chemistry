@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">糖解形成 NADH，末端還原再生 NAD⁺</title>
+<desc id="figure-desc">糖解每產生一份丙酮酸就把一份 NAD⁺ 還原成 NADH；發酵時丙酮酸（或其衍生物）接受 NADH 的電子生成乳酸或乙醇，再生 NAD⁺，糖解才能持續產生 ATP。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">糖解形成 NADH，末端還原再生 NAD⁺</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">選取乳酸支路：ATP 形成與 NAD 回收分開看</tspan></text>
+<rect x="40" y="175" width="250" height="130" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="165.0" y="219.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="165.0" dy="0">糖解</tspan><tspan x="165.0" dy="28">葡萄糖 → 丙酮酸</tspan><tspan x="165.0" dy="28">在此形成 ATP</tspan></text>
+<rect x="430" y="175" width="250" height="130" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="555.0" y="219.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="555.0" dy="0">末端還原（LDH）</tspan><tspan x="555.0" dy="28">丙酮酸 → L-乳酸根</tspan><tspan x="555.0" dy="28">此步不另產 ATP</tspan></text>
+<path d="M 300 240 L 420 240" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="213" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">丙酮酸</tspan></text>
+<path d="M 165 165 L 165 122 L 555 122 L 555 165" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="360" y="103" font-size="21" fill="#b4692e" text-anchor="middle"><tspan x="360" dy="0">NADH：糖解時由 NAD⁺ 還原形成</tspan></text>
+<path d="M 555 315 L 555 380 L 165 380 L 165 315" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="360" y="418" font-size="22" fill="#6f8fb5" text-anchor="middle"><tspan x="360" dy="0">NAD⁺：末端還原時再生，回到糖解</tspan></text>
+<text x="32" y="464" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">封閉 NAD 池中，NAD⁺ 用盡會擋住糖解回收段。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

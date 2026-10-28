@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="flavor-sulfur-processing-title flavor-sulfur-processing-desc">
+<title id="flavor-sulfur-processing-title">破碎與加熱順序，改變生成途徑</title>
+<desc id="flavor-sulfur-processing-desc">上列先破碎使蒜胺酸與酵素接觸，形成蒜素後仍可熱轉化；下列先使酵素熱失活，後續破碎的生成途徑受限。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">破碎與加熱順序，改變生成途徑</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<text x="32" y="91" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">先破碎，再加熱</text>
+<rect x="32" y="114" width="176" height="94" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="120.0" y="154.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">破碎</text>
+<text x="120.0" y="180.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">蒜胺酸接觸酵素</text>
+<line x1="211" y1="162" x2="267" y2="162" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="272" y="114" width="176" height="94" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="154.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">次磺酸類中間體</text>
+<text x="360.0" y="180.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">→ 蒜素</text>
+<line x1="451" y1="162" x2="507" y2="162" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="512" y="114" width="176" height="94" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="600.0" y="154.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">加熱</text>
+<text x="600.0" y="180.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">轉化／揮發</text>
+<text x="32" y="260" font-size="20" fill="#b4692e" text-anchor="start" font-weight="600">先加熱，再破碎</text>
+<rect x="32" y="284" width="176" height="94" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="120.0" y="324.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">若酵素已熱失活</text>
+<text x="120.0" y="350.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">再破碎</text>
+<line x1="211" y1="332" x2="267" y2="332" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="272" y="284" width="176" height="94" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="324.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">底物雖接觸酵素</text>
+<text x="360.0" y="350.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">生成途徑受限</text>
+<text x="494" y="313" font-size="18" fill="#b4692e" text-anchor="start" font-weight="400">不代表所有</text>
+<text x="494" y="339" font-size="18" fill="#b4692e" text-anchor="start" font-weight="400">含硫氣味消失</text>
+<rect x="32" y="411" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="437" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">須分別量：殘餘酵素活性、蒜素、氣相硫化物。</text>
+<text x="46" y="462" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">順序之外，還要記錄等待時間與實際熱歷程。</text>
+<text x="680" y="507" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

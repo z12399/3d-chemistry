@@ -1,0 +1,2449 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": [
+    {
+      "reactionId": "maltose-hydrolysis",
+      "variantId": "glucoamylase-inverting-hydrolysis",
+      "variantLabel": "Glucoamylase 反轉型酵素水解",
+      "title": "黑麴菌 Aspergillus awamori glucoamylase：α-麥芽糖反轉型水解",
+      "overallEquation": "α-麥芽糖 + H₂O —A. awamori glucoamylase→ β-D-葡萄糖(A，即時) + 所選 α-D-葡萄糖(B)",
+      "equationType": "所選水解支線；被切 Glc(A) C1 的 α 糖苷位反轉成即時 β 端點",
+      "conditions": "A. awamori glucoamylase；Glu179 一般酸、Glu400 一般鹼、水為親核體；局部模型未指定 pH、溫度或速率。",
+      "kind": "atom-mapped composite teaching mechanism",
+      "isTrajectory": false,
+      "states": [
+        {
+          "id": "maltose-glucoamylase-inverting-state-0",
+          "name": "α-麥芽糖、水與 A. awamori glucoamylase Glu179–COOH／Glu400–COO⁻ 局部模型",
+          "formula": "C18H35O16-",
+          "atoms": [
+            {
+              "id": "AC1",
+              "element": "C",
+              "position": [
+                -9.4489,
+                -0.945536,
+                0.674177
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC2",
+              "element": "C",
+              "position": [
+                -8.752979,
+                -0.41948,
+                1.943203
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC3",
+              "element": "C",
+              "position": [
+                -7.820298,
+                0.736473,
+                1.59423
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "AC4",
+              "element": "C",
+              "position": [
+                -6.842272,
+                0.321323,
+                0.488149
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "AC5",
+              "element": "C",
+              "position": [
+                -7.649605,
+                -0.191109,
+                -0.714122
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC6",
+              "element": "C",
+              "position": [
+                -6.752828,
+                -0.683064,
+                -1.857377
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO2",
+              "element": "O",
+              "position": [
+                -9.704823,
+                0.004654,
+                2.935895
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO3",
+              "element": "O",
+              "position": [
+                -7.095405,
+                1.120109,
+                2.775895
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO4",
+              "element": "O",
+              "position": [
+                -6.036737,
+                1.46342,
+                0.177971
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO5",
+              "element": "O",
+              "position": [
+                -8.488222,
+                -1.296235,
+                -0.322591
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO6",
+              "element": "O",
+              "position": [
+                -7.505978,
+                -0.980312,
+                -3.033835
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC1",
+              "element": "H",
+              "position": [
+                -9.984144,
+                -1.860908,
+                0.951527
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC2",
+              "element": "H",
+              "position": [
+                -8.16419,
+                -1.227629,
+                2.395267
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC3",
+              "element": "H",
+              "position": [
+                -8.393591,
+                1.624083,
+                1.299069
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC4",
+              "element": "H",
+              "position": [
+                -6.174106,
+                -0.458446,
+                0.874873
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC5",
+              "element": "H",
+              "position": [
+                -8.274059,
+                0.619133,
+                -1.109425
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC6a",
+              "element": "H",
+              "position": [
+                -6.011394,
+                0.070459,
+                -2.136242
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC6b",
+              "element": "H",
+              "position": [
+                -6.228653,
+                -1.600253,
+                -1.570092
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO2",
+              "element": "H",
+              "position": [
+                -9.164684,
+                0.490271,
+                3.595566
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO3",
+              "element": "H",
+              "position": [
+                -6.431798,
+                1.767823,
+                2.461905
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO4",
+              "element": "H",
+              "position": [
+                -5.275225,
+                1.164166,
+                -0.350604
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO6",
+              "element": "H",
+              "position": [
+                -8.461171,
+                -0.877761,
+                -2.823042
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BC1",
+              "element": "C",
+              "position": [
+                -14.437453,
+                0.229792,
+                -0.623026
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "BC2",
+              "element": "C",
+              "position": [
+                -14.044309,
+                -0.367913,
+                0.731722
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "BC3",
+              "element": "C",
+              "position": [
+                -12.579807,
+                -0.054887,
+                1.038199
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "BC4",
+              "element": "C",
+              "position": [
+                -11.662752,
+                -0.478415,
+                -0.121695
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "BC5",
+              "element": "C",
+              "position": [
+                -12.198934,
+                0.09555,
+                -1.45322
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "BC6",
+              "element": "C",
+              "position": [
+                -11.437561,
+                -0.465435,
+                -2.669028
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO1",
+              "element": "O",
+              "position": [
+                -14.42313,
+                1.65137,
+                -0.561618
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO2",
+              "element": "O",
+              "position": [
+                -14.868516,
+                0.181146,
+                1.773138
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO3",
+              "element": "O",
+              "position": [
+                -12.239205,
+                -0.742779,
+                2.255437
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO4",
+              "element": "O",
+              "position": [
+                -10.349716,
+                0.033603,
+                0.150681
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO5",
+              "element": "O",
+              "position": [
+                -13.578602,
+                -0.24693,
+                -1.650575
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO6",
+              "element": "O",
+              "position": [
+                -10.111978,
+                0.036709,
+                -2.787463
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC1",
+              "element": "H",
+              "position": [
+                -15.461915,
+                -0.065702,
+                -0.872
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC2",
+              "element": "H",
+              "position": [
+                -14.197,
+                -1.453987,
+                0.72387
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC3",
+              "element": "H",
+              "position": [
+                -12.456725,
+                1.013613,
+                1.256938
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC4",
+              "element": "H",
+              "position": [
+                -11.65625,
+                -1.574399,
+                -0.192614
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC5",
+              "element": "H",
+              "position": [
+                -12.082176,
+                1.187161,
+                -1.458349
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC6a",
+              "element": "H",
+              "position": [
+                -11.386553,
+                -1.558732,
+                -2.61885
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC6b",
+              "element": "H",
+              "position": [
+                -11.971939,
+                -0.225097,
+                -3.595566
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO1",
+              "element": "H",
+              "position": [
+                -14.849969,
+                1.860908,
+                0.293047
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO2",
+              "element": "H",
+              "position": [
+                -14.461716,
+                -0.14115,
+                2.604211
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO3",
+              "element": "H",
+              "position": [
+                -11.370107,
+                -0.382762,
+                2.549524
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO6",
+              "element": "H",
+              "position": [
+                -10.191579,
+                0.995271,
+                -2.946728
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                14.493915,
+                -0.4685,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hwa",
+              "element": "H",
+              "position": [
+                15.461915,
+                -0.4685,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hwb",
+              "element": "H",
+              "position": [
+                14.251915,
+                0.4685,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Ccap",
+              "element": "C",
+              "position": [
+                -1.052453,
+                -0.132957,
+                -0.304914
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Cgamma",
+              "element": "C",
+              "position": [
+                0.153199,
+                0.129647,
+                0.579875
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Cdelta",
+              "element": "C",
+              "position": [
+                1.440691,
+                0.056395,
+                -0.193717
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Ocarbonyl",
+              "element": "O",
+              "position": [
+                1.583364,
+                -0.178411,
+                -1.380899
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Oreact",
+              "element": "O",
+              "position": [
+                2.510982,
+                0.289504,
+                0.591703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hcap1",
+              "element": "H",
+              "position": [
+                -1.975225,
+                -0.074105,
+                0.280353
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hcap2",
+              "element": "H",
+              "position": [
+                -1.113045,
+                0.601363,
+                -1.115092
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hcap3",
+              "element": "H",
+              "position": [
+                -0.997593,
+                -1.127906,
+                -0.759174
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hgamma1",
+              "element": "H",
+              "position": [
+                0.07012,
+                1.127906,
+                1.021943
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hgamma2",
+              "element": "H",
+              "position": [
+                0.186564,
+                -0.616073,
+                1.380899
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hacid",
+              "element": "H",
+              "position": [
+                3.273513,
+                0.214592,
+                -0.01969
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Ccap",
+              "element": "C",
+              "position": [
+                7.501039,
+                0.41444,
+                -0.267025
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Cgamma",
+              "element": "C",
+              "position": [
+                8.651517,
+                -0.421049,
+                0.259992
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Cdelta",
+              "element": "C",
+              "position": [
+                10.010108,
+                -0.151652,
+                -0.392759
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Ocarbonyl",
+              "element": "O",
+              "position": [
+                10.951915,
+                -0.861648,
+                0.065127
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Oreact",
+              "element": "O",
+              "position": [
+                10.039313,
+                0.729218,
+                -1.295177
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "E400Hcap1",
+              "element": "H",
+              "position": [
+                7.688844,
+                1.482711,
+                -0.117495
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hcap2",
+              "element": "H",
+              "position": [
+                6.573513,
+                0.156592,
+                0.253666
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hcap3",
+              "element": "H",
+              "position": [
+                7.348206,
+                0.243942,
+                -1.337729
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hgamma1",
+              "element": "H",
+              "position": [
+                8.754819,
+                -0.247507,
+                1.337729
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hgamma2",
+              "element": "H",
+              "position": [
+                8.415162,
+                -1.482711,
+                0.121006
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "AC1",
+              "b": "AC2",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "AO5",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "AHC1",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AC3",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AO2",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AHC2",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AC4",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AO3",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AHC3",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AC5",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AO4",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AHC4",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AC6",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AO5",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AHC5",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AO6",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AHC6a",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AHC6b",
+              "order": 1
+            },
+            {
+              "a": "AO2",
+              "b": "AHO2",
+              "order": 1
+            },
+            {
+              "a": "AO3",
+              "b": "AHO3",
+              "order": 1
+            },
+            {
+              "a": "AO4",
+              "b": "AHO4",
+              "order": 1
+            },
+            {
+              "a": "AO6",
+              "b": "AHO6",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BC2",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BO1",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BO5",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BHC1",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BC3",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BO2",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BHC2",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BC4",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BO3",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BHC3",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BC5",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BO4",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BHC4",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BC6",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BO5",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BHC5",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BO6",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BHC6a",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BHC6b",
+              "order": 1
+            },
+            {
+              "a": "BO1",
+              "b": "BHO1",
+              "order": 1
+            },
+            {
+              "a": "BO2",
+              "b": "BHO2",
+              "order": 1
+            },
+            {
+              "a": "BO3",
+              "b": "BHO3",
+              "order": 1
+            },
+            {
+              "a": "BO6",
+              "b": "BHO6",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "BO4",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hwa",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hwb",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Cgamma",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Cdelta",
+              "order": 1
+            },
+            {
+              "a": "E179Cdelta",
+              "b": "E179Ocarbonyl",
+              "order": 2
+            },
+            {
+              "a": "E179Cdelta",
+              "b": "E179Oreact",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap1",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap2",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap3",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Hgamma1",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Hgamma2",
+              "order": 1
+            },
+            {
+              "a": "E179Oreact",
+              "b": "E179Hacid",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Cgamma",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Cdelta",
+              "order": 1
+            },
+            {
+              "a": "E400Cdelta",
+              "b": "E400Ocarbonyl",
+              "order": 2
+            },
+            {
+              "a": "E400Cdelta",
+              "b": "E400Oreact",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap1",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap2",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap3",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Hgamma1",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Hgamma2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "geometry": "independent finite-fragment force-field conformers arranged for teaching; not PDB coordinates",
+            "methods": [
+              "independent ETKDGv3/MMFF94 conformer; no reaction path or relative-state energy",
+              "explicit water: schematic bent geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CCC(=O)O.CCC(=O)[O-].O.OC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O",
+            "inchi": "InChI=1S/C12H22O11.2C3H6O2.H2O/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17;2*1-2-3(4)5;/h3-20H,1-2H2;2*2H2,1H3,(H,4,5);1H2/p-1/t3-,4-,5-,6+,7-,8-,9-,10-,11+,12-;;;/m1.../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.31181,
+            "sources": [
+              {
+                "title": "Sierks et al. (1990): A. awamori Glu179 mutagenesis and maltose activity",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/1970434/"
+              },
+              {
+                "title": "Natarajan and Sierks (1996): A. awamori wild-type/maltose H2O-D2O kinetics",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/8952477/"
+              },
+              {
+                "title": "Frandsen et al. (1994): Glu400 catalytic-base mutagenesis in A. niger, related enzyme",
+                "url": "https://doi.org/10.1021/bi00250a035"
+              },
+              {
+                "title": "Fierobe et al. (1998): 1H NMR inversion in A. awamori wild-type and E400 derivative",
+                "url": "https://doi.org/10.1021/bi972232p"
+              },
+              {
+                "title": "PDB 1GAI: A. awamori glucoamylase with dihydroacarbose analogue, not maltose trajectory",
+                "url": "https://www.rcsb.org/structure/1GAI"
+              },
+              {
+                "title": "Verified selected alpha-maltose starting identity",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439341"
+              },
+              {
+                "title": "Verified beta-D-glucose immediate A endpoint",
+                "url": "https://www.rcsb.org/ligand/BGC"
+              },
+              {
+                "title": "Verified alpha-D-glucose selected B reducing endpoint",
+                "url": "https://www.rcsb.org/ligand/GLC"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maltose-glucoamylase-inverting-state-1",
+          "name": "即時 β-D-Glc(A) + α-D-Glc(B)；酸／鹼位已交換質子，未表示再生",
+          "formula": "C18H35O16-",
+          "atoms": [
+            {
+              "id": "AC1",
+              "element": "C",
+              "position": [
+                -12.535215,
+                -1.233584,
+                -0.650968
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC2",
+              "element": "C",
+              "position": [
+                -11.606878,
+                -0.527818,
+                0.348873
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC3",
+              "element": "C",
+              "position": [
+                -12.448547,
+                0.216936,
+                1.381209
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "AC4",
+              "element": "C",
+              "position": [
+                -13.460291,
+                1.1375,
+                0.692001
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "AC5",
+              "element": "C",
+              "position": [
+                -14.279891,
+                0.338243,
+                -0.331154
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "AC6",
+              "element": "C",
+              "position": [
+                -15.229325,
+                1.245777,
+                -1.120338
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO2",
+              "element": "O",
+              "position": [
+                -10.752003,
+                -1.460697,
+                1.024377
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO3",
+              "element": "O",
+              "position": [
+                -11.605231,
+                1.005338,
+                2.235341
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO4",
+              "element": "O",
+              "position": [
+                -14.303471,
+                1.729239,
+                1.680238
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO5",
+              "element": "O",
+              "position": [
+                -13.412693,
+                -0.314897,
+                -1.284567
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AO6",
+              "element": "O",
+              "position": [
+                -15.956371,
+                0.46554,
+                -2.072675
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC1",
+              "element": "H",
+              "position": [
+                -13.106331,
+                -2.033189,
+                -0.165017
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC2",
+              "element": "H",
+              "position": [
+                -10.945855,
+                0.175329,
+                -0.172693
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC3",
+              "element": "H",
+              "position": [
+                -12.964331,
+                -0.489448,
+                2.043746
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC4",
+              "element": "H",
+              "position": [
+                -12.922409,
+                1.953796,
+                0.193306
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC5",
+              "element": "H",
+              "position": [
+                -14.884105,
+                -0.432566,
+                0.165947
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC6a",
+              "element": "H",
+              "position": [
+                -14.67376,
+                2.004878,
+                -1.680765
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHC6b",
+              "element": "H",
+              "position": [
+                -15.950637,
+                1.744445,
+                -0.466784
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO2",
+              "element": "H",
+              "position": [
+                -10.412055,
+                -2.061912,
+                0.330741
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO3",
+              "element": "H",
+              "position": [
+                -10.894987,
+                0.397141,
+                2.526205
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO4",
+              "element": "H",
+              "position": [
+                -13.697541,
+                2.061912,
+                2.374009
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "AHO6",
+              "element": "H",
+              "position": [
+                -15.291614,
+                -0.087086,
+                -2.526205
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BC1",
+              "element": "C",
+              "position": [
+                -4.008529,
+                1.571909,
+                0.20936
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "BC2",
+              "element": "C",
+              "position": [
+                -5.222397,
+                0.825271,
+                -0.364005
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "BC3",
+              "element": "C",
+              "position": [
+                -5.035917,
+                -0.681054,
+                -0.184933
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "BC4",
+              "element": "C",
+              "position": [
+                -3.689831,
+                -1.135262,
+                -0.755548
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "BC5",
+              "element": "C",
+              "position": [
+                -2.551377,
+                -0.285586,
+                -0.175012
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "BC6",
+              "element": "C",
+              "position": [
+                -1.214044,
+                -0.61839,
+                -0.846856
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO1",
+              "element": "O",
+              "position": [
+                -3.970023,
+                1.422373,
+                1.624103
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO2",
+              "element": "O",
+              "position": [
+                -6.42066,
+                1.234474,
+                0.313496
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO3",
+              "element": "O",
+              "position": [
+                -6.113937,
+                -1.364244,
+                -0.846173
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO4",
+              "element": "O",
+              "position": [
+                -3.526087,
+                -2.531795,
+                -0.483695
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO5",
+              "element": "O",
+              "position": [
+                -2.792293,
+                1.118167,
+                -0.379711
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BO6",
+              "element": "O",
+              "position": [
+                -0.170952,
+                0.151604,
+                -0.247249
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC1",
+              "element": "H",
+              "position": [
+                -4.104053,
+                2.643394,
+                0.005261
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC2",
+              "element": "H",
+              "position": [
+                -5.342871,
+                1.060341,
+                -1.42833
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC3",
+              "element": "H",
+              "position": [
+                -5.119889,
+                -0.959905,
+                0.872701
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC4",
+              "element": "H",
+              "position": [
+                -3.719807,
+                -1.030812,
+                -1.847273
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC5",
+              "element": "H",
+              "position": [
+                -2.437796,
+                -0.46787,
+                0.901539
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC6a",
+              "element": "H",
+              "position": [
+                -1.234133,
+                -0.365397,
+                -1.912011
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHC6b",
+              "element": "H",
+              "position": [
+                -0.958451,
+                -1.676207,
+                -0.737837
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO1",
+              "element": "H",
+              "position": [
+                -4.886321,
+                1.608233,
+                1.912011
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO2",
+              "element": "H",
+              "position": [
+                -7.112055,
+                0.618312,
+                -0.006135
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO3",
+              "element": "H",
+              "position": [
+                -5.821967,
+                -2.293477,
+                -0.942886
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "BHO6",
+              "element": "H",
+              "position": [
+                -0.521879,
+                1.061064,
+                -0.175519
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                -11.743238,
+                -1.846508,
+                -1.65726
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hwa",
+              "element": "H",
+              "position": [
+                15.956371,
+                0.025382,
+                -0.736704
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hwb",
+              "element": "H",
+              "position": [
+                -11.568253,
+                -1.134705,
+                -2.297373
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Ccap",
+              "element": "C",
+              "position": [
+                4.056574,
+                0.41444,
+                -0.267025
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Cgamma",
+              "element": "C",
+              "position": [
+                5.207052,
+                -0.421049,
+                0.259992
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Cdelta",
+              "element": "C",
+              "position": [
+                6.565644,
+                -0.151652,
+                -0.392759
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Ocarbonyl",
+              "element": "O",
+              "position": [
+                7.50745,
+                -0.861648,
+                0.065127
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Oreact",
+              "element": "O",
+              "position": [
+                6.594848,
+                0.729218,
+                -1.295177
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "E179Hcap1",
+              "element": "H",
+              "position": [
+                4.244379,
+                1.482711,
+                -0.117495
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hcap2",
+              "element": "H",
+              "position": [
+                3.129048,
+                0.156592,
+                0.253666
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hcap3",
+              "element": "H",
+              "position": [
+                3.903741,
+                0.243942,
+                -1.337729
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hgamma1",
+              "element": "H",
+              "position": [
+                5.310354,
+                -0.247507,
+                1.337729
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hgamma2",
+              "element": "H",
+              "position": [
+                4.970697,
+                -1.482711,
+                0.121006
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E179Hacid",
+              "element": "H",
+              "position": [
+                -3.357378,
+                -2.643394,
+                0.470451
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Ccap",
+              "element": "C",
+              "position": [
+                11.7105,
+                0.241681,
+                0.180856
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Cgamma",
+              "element": "C",
+              "position": [
+                12.897113,
+                -0.633945,
+                -0.180587
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Cdelta",
+              "element": "C",
+              "position": [
+                14.157267,
+                0.170873,
+                -0.340979
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Ocarbonyl",
+              "element": "O",
+              "position": [
+                14.29242,
+                1.375259,
+                -0.214178
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Oreact",
+              "element": "O",
+              "position": [
+                15.210657,
+                -0.606416,
+                -0.66182
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hcap1",
+              "element": "H",
+              "position": [
+                11.885119,
+                0.771087,
+                1.12347
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hcap2",
+              "element": "H",
+              "position": [
+                10.80745,
+                -0.366356,
+                0.291765
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hcap3",
+              "element": "H",
+              "position": [
+                11.5251,
+                0.992394,
+                -0.594605
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hgamma1",
+              "element": "H",
+              "position": [
+                12.693716,
+                -1.152069,
+                -1.12347
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "E400Hgamma2",
+              "element": "H",
+              "position": [
+                13.056797,
+                -1.375259,
+                0.609227
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "AC1",
+              "b": "AC2",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "AO5",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "AHC1",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AC3",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AO2",
+              "order": 1
+            },
+            {
+              "a": "AC2",
+              "b": "AHC2",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AC4",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AO3",
+              "order": 1
+            },
+            {
+              "a": "AC3",
+              "b": "AHC3",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AC5",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AO4",
+              "order": 1
+            },
+            {
+              "a": "AC4",
+              "b": "AHC4",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AC6",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AO5",
+              "order": 1
+            },
+            {
+              "a": "AC5",
+              "b": "AHC5",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AO6",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AHC6a",
+              "order": 1
+            },
+            {
+              "a": "AC6",
+              "b": "AHC6b",
+              "order": 1
+            },
+            {
+              "a": "AO2",
+              "b": "AHO2",
+              "order": 1
+            },
+            {
+              "a": "AO3",
+              "b": "AHO3",
+              "order": 1
+            },
+            {
+              "a": "AO4",
+              "b": "AHO4",
+              "order": 1
+            },
+            {
+              "a": "AO6",
+              "b": "AHO6",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BC2",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BO1",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BO5",
+              "order": 1
+            },
+            {
+              "a": "BC1",
+              "b": "BHC1",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BC3",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BO2",
+              "order": 1
+            },
+            {
+              "a": "BC2",
+              "b": "BHC2",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BC4",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BO3",
+              "order": 1
+            },
+            {
+              "a": "BC3",
+              "b": "BHC3",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BC5",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BO4",
+              "order": 1
+            },
+            {
+              "a": "BC4",
+              "b": "BHC4",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BC6",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BO5",
+              "order": 1
+            },
+            {
+              "a": "BC5",
+              "b": "BHC5",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BO6",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BHC6a",
+              "order": 1
+            },
+            {
+              "a": "BC6",
+              "b": "BHC6b",
+              "order": 1
+            },
+            {
+              "a": "BO1",
+              "b": "BHO1",
+              "order": 1
+            },
+            {
+              "a": "BO2",
+              "b": "BHO2",
+              "order": 1
+            },
+            {
+              "a": "BO3",
+              "b": "BHO3",
+              "order": 1
+            },
+            {
+              "a": "BO6",
+              "b": "BHO6",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hwb",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Cgamma",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Cdelta",
+              "order": 1
+            },
+            {
+              "a": "E179Cdelta",
+              "b": "E179Ocarbonyl",
+              "order": 2
+            },
+            {
+              "a": "E179Cdelta",
+              "b": "E179Oreact",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap1",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap2",
+              "order": 1
+            },
+            {
+              "a": "E179Ccap",
+              "b": "E179Hcap3",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Hgamma1",
+              "order": 1
+            },
+            {
+              "a": "E179Cgamma",
+              "b": "E179Hgamma2",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Cgamma",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Cdelta",
+              "order": 1
+            },
+            {
+              "a": "E400Cdelta",
+              "b": "E400Ocarbonyl",
+              "order": 2
+            },
+            {
+              "a": "E400Cdelta",
+              "b": "E400Oreact",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap1",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap2",
+              "order": 1
+            },
+            {
+              "a": "E400Ccap",
+              "b": "E400Hcap3",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Hgamma1",
+              "order": 1
+            },
+            {
+              "a": "E400Cgamma",
+              "b": "E400Hgamma2",
+              "order": 1
+            },
+            {
+              "a": "AC1",
+              "b": "Ow",
+              "order": 1
+            },
+            {
+              "a": "BO4",
+              "b": "E179Hacid",
+              "order": 1
+            },
+            {
+              "a": "E400Oreact",
+              "b": "Hwa",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "geometry": "independent finite-fragment force-field conformers arranged for teaching; not PDB coordinates",
+            "methods": [
+              "independent ETKDGv3/MMFF94 conformer; no reaction path or relative-state energy"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CCC(=O)O.CCC(=O)[O-].OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O.OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O",
+            "inchi": "InChI=1S/2C6H12O6.2C3H6O2/c2*7-1-2-3(8)4(9)5(10)6(11)12-2;2*1-2-3(4)5/h2*2-11H,1H2;2*2H2,1H3,(H,4,5)/p-1/t2-,3-,4+,5-,6+;2-,3-,4+,5-,6-;;/m11../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.337805,
+            "sources": [
+              {
+                "title": "Sierks et al. (1990): A. awamori Glu179 mutagenesis and maltose activity",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/1970434/"
+              },
+              {
+                "title": "Natarajan and Sierks (1996): A. awamori wild-type/maltose H2O-D2O kinetics",
+                "url": "https://pubmed.ncbi.nlm.nih.gov/8952477/"
+              },
+              {
+                "title": "Frandsen et al. (1994): Glu400 catalytic-base mutagenesis in A. niger, related enzyme",
+                "url": "https://doi.org/10.1021/bi00250a035"
+              },
+              {
+                "title": "Fierobe et al. (1998): 1H NMR inversion in A. awamori wild-type and E400 derivative",
+                "url": "https://doi.org/10.1021/bi972232p"
+              },
+              {
+                "title": "PDB 1GAI: A. awamori glucoamylase with dihydroacarbose analogue, not maltose trajectory",
+                "url": "https://www.rcsb.org/structure/1GAI"
+              },
+              {
+                "title": "Verified selected alpha-maltose starting identity",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439341"
+              },
+              {
+                "title": "Verified beta-D-glucose immediate A endpoint",
+                "url": "https://www.rcsb.org/ligand/BGC"
+              },
+              {
+                "title": "Verified alpha-D-glucose selected B reducing endpoint",
+                "url": "https://www.rcsb.org/ligand/GLC"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "Glu179 酸化橋氧，Glu400 協助水從反面置換",
+          "instruction": "讓進攻水 Ow 指向 AC1；BO4 取得 E179Hacid，Glu400 收下水上的 Hwa。",
+          "source": "Ow",
+          "target": "AC1",
+          "arrows": [
+            [
+              "Ow",
+              "AC1"
+            ],
+            [
+              "AC1-BO4",
+              "BO4"
+            ],
+            [
+              "BO4",
+              "E179Hacid"
+            ],
+            [
+              "E179Oreact-E179Hacid",
+              "E179Oreact"
+            ],
+            [
+              "E400Oreact",
+              "Hwa"
+            ],
+            [
+              "Ow-Hwa",
+              "Ow"
+            ]
+          ],
+          "equation": "α-麥芽糖 + H₂O + Glu179–COOH + Glu400–COO⁻ → β-D-Glc(A) + α-D-Glc(B) + Glu179–COO⁻ + Glu400–COOH",
+          "explanation": "這是反轉型水解的合併淨步：AC1–BO4 斷、AC1–Ow 成、BO4–BC4 保留。Ow 成為 A 糖 C1 羥基氧，BO4 成為 B 糖 C4 羥基氧。Glu179 的質子給 BO4，Glu400 收 Hwa；A 的異頭位由 α 轉為即時 β。六支箭頭是化學記帳，不聲稱單一過渡態完全同步或曾捕捉到游離氧碳正離子。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sierks et al. (1990): A. awamori Glu179 mutagenesis and maltose activity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1970434/"
+        },
+        {
+          "title": "Natarajan and Sierks (1996): A. awamori wild-type/maltose H2O-D2O kinetics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8952477/"
+        },
+        {
+          "title": "Frandsen et al. (1994): Glu400 catalytic-base mutagenesis in A. niger, related enzyme",
+          "url": "https://doi.org/10.1021/bi00250a035"
+        },
+        {
+          "title": "Fierobe et al. (1998): 1H NMR inversion in A. awamori wild-type and E400 derivative",
+          "url": "https://doi.org/10.1021/bi972232p"
+        },
+        {
+          "title": "PDB 1GAI: A. awamori glucoamylase with dihydroacarbose analogue, not maltose trajectory",
+          "url": "https://www.rcsb.org/structure/1GAI"
+        },
+        {
+          "title": "Verified selected alpha-maltose starting identity",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439341"
+        },
+        {
+          "title": "Verified beta-D-glucose immediate A endpoint",
+          "url": "https://www.rcsb.org/ligand/BGC"
+        },
+        {
+          "title": "Verified alpha-D-glucose selected B reducing endpoint",
+          "url": "https://www.rcsb.org/ligand/GLC"
+        }
+      ],
+      "limits": "只表示指定 A. awamori glucoamylase 對所選 α-麥芽糖的水解支線，不概括所有 α-glucosidase 或 GH15 成員。Glu179/Glu400 各以 CH₃–CH₂–COO(H) 截斷側鏈類比物記帳；省略其餘蛋白、離子與大多數溶劑。起始 Glu179–COOH／Glu400–COO⁻ 是選定反應性質子化態，不宣稱來自 1GAI 的直接觀測。羧酸根兩氧形式電荷是選定 Lewis 式，不代表唯一共振定位；產品態兩殘基的後續溶劑質子再生未指定。合併淨步不定論取代的同步程度、瞬時氧碳正離子特徵或質子接力；沒有虛構穩定游離正離子。模型座標用獨立 MMFF94 片段構象排開，非 1GAI 座標；1GAI 含 dihydroacarbose 類比抑制物，非天然麥芽糖連續快照。1994 年 Glu400 變異研究實際使用 A. niger，與所選 A. awamori 酶為相關證據，不當作同一實驗。Ow 進入 A-C1 為所選機構的原子守恆推論，未聲稱有麥芽糖專項 H₂¹⁸O 追蹤。B 糖還原端選 α 只因起始分子如此；產物釋放後的變旋未建模。",
+      "atomLegend": "A 為非還原端 α-D-Glc，B 為起始選 α 的還原端 Glc；AC1 為被切異頭碳，BO4 是 B-C4 橋氧。Ow 為進攻水氧，Hwb 留於 A-C1 新羥基，Hwa 移至 E400Oreact；E179Hacid 移至 BO4；E179Oreact/E400Oreact 是 Glu179/Glu400 局部截斷側鏈羧基氧。",
+      "atomMapping": {
+        "cleavageCarbon": "AC1",
+        "donorRingOxygen": "AO5",
+        "bridgeOxygen": "BO4",
+        "bridgeRetainedCarbon": "BC4",
+        "attackingWaterOxygen": "Ow",
+        "generalAcidOxygen": "E179Oreact",
+        "generalBaseOxygen": "E400Oreact",
+        "generalAcidProton": "E179Hacid",
+        "waterProtonToGeneralBase": "Hwa",
+        "sourceAssetAtomIds": {
+          "AC1": "C6",
+          "AC2": "C5",
+          "AC3": "C4",
+          "AC4": "C3",
+          "AC5": "C2",
+          "AC6": "C1",
+          "AO2": "O8",
+          "AO3": "O9",
+          "AO4": "O10",
+          "AO5": "O1",
+          "AO6": "O11",
+          "BC1": "C9",
+          "BC2": "C10",
+          "BC3": "C11",
+          "BC4": "C7",
+          "BC5": "C8",
+          "BC6": "C12",
+          "BO1": "O6",
+          "BO2": "O5",
+          "BO3": "O4",
+          "BO4": "O2",
+          "BO5": "O3",
+          "BO6": "O7"
+        }
+      },
+      "selectedEndpointModels": [
+        "glucose-beta",
+        "glucose-alpha"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="mineral-iron-complexation-title mineral-iron-complexation-desc">
+<title id="mineral-iron-complexation-title">鐵的總量、氧化態、配位分開看</title>
+<desc id="mineral-iron-complexation-desc">氧化態改變以電子半反應表示；配位圖保持同一形式氧化態，另列總鐵與可溶鐵的量測界線。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">鐵的總量、氧化態、配位分開看</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="82" width="312" height="184" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="368" y="82" width="320" height="184" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="188" y="113" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600">氧化態</text>
+<text x="188" y="171" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="400">Fe³⁺ ＋ e⁻ ⇌ Fe²⁺</text>
+<text x="188" y="228" font-size="16" fill="#53606d" text-anchor="middle" font-weight="400">形式半反應</text>
+<text x="528" y="113" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600">配位環境</text>
+<circle cx="528" cy="182" r="30" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="528" y="189" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">Fe³⁺</text>
+<line x1="496.22741701241506" y1="169.8961588618724" x2="468.29668110815317" y2="155.6959252414718" stroke="#14665d" stroke-width="2"/>
+<text x="444" y="155" font-size="16" fill="#1c2732" text-anchor="middle" font-weight="400">配位基</text>
+<line x1="559.7725829875849" y1="169.8961588618724" x2="587.7033188918468" y2="155.6959252414718" stroke="#14665d" stroke-width="2"/>
+<text x="612" y="155" font-size="16" fill="#1c2732" text-anchor="middle" font-weight="400">配位基</text>
+<line x1="497.3027423599864" y1="196.6177417333398" x2="467.4743734894222" y2="215.12106271372244" stroke="#14665d" stroke-width="2"/>
+<text x="444" y="227" font-size="16" fill="#1c2732" text-anchor="middle" font-weight="400">配位基</text>
+<line x1="558.6972576400136" y1="196.6177417333398" x2="588.5256265105778" y2="215.12106271372244" stroke="#14665d" stroke-width="2"/>
+<text x="612" y="227" font-size="16" fill="#1c2732" text-anchor="middle" font-weight="400">配位基</text>
+<text x="528" y="254" font-size="16" fill="#53606d" text-anchor="middle" font-weight="400">不指定配位數／幾何</text>
+<text x="360" y="299" font-size="20" fill="#14665d" text-anchor="middle" font-weight="400">改變配位，不必同時改變氧化態</text>
+<rect x="32" y="323" width="312" height="83" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="188.0" y="357.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">酸消化後元素分析</text>
+<text x="188.0" y="383.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">主要回答總鐵量</text>
+<rect x="368" y="323" width="320" height="83" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="528.0" y="357.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">指定消化與分離</text>
+<text x="528.0" y="383.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">得到可溶鐵分率</text>
+<rect x="32" y="433" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="459" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">兩種讀值都不能直接還原原有配位，或當作人體吸收率。</text>
+<text x="46" y="484" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">pH 與配位基影響溶解／沉澱，效應須依試驗判定。</text>
+<text x="680" y="517" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

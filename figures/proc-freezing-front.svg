@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">凍結曲線：回升與持續下降</title>
+<desc id="figure-desc">定性溫度曲線呈現過冷、成核放熱與逐漸結冰，再以因果流程說明未凍相濃縮。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">凍結曲線：回升與持續下降</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">單點溫度曲線，不是成冰前緣的空間圖</tspan></text>
+<path d="M 75 325 L 660 325" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 75 325 L 75 135" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="75" y="117" font-size="18" fill="#53606d" text-anchor="start"><tspan x="75" dy="0">溫度（定性）</tspan></text>
+<text x="660" y="354" font-size="18" fill="#53606d" text-anchor="end"><tspan x="660" dy="0">時間</tspan></text>
+<path d="M 80 207 L 658 207" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<text x="655" y="194" font-size="18" fill="#53606d" text-anchor="end"><tspan x="655" dy="0">初始凍結溫度</tspan></text>
+<path d="M 100 151 C 140 176 168 226 219 287 C 235 305 251 251 285 224 C 355 227 468 259 630 292" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="168" y="306" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="168" dy="0">過冷</tspan></text>
+<text x="288" y="143" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="288" dy="0">成核放熱</tspan></text>
+<path d="M 287 153 L 264 238" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="425" y="235" font-size="20" fill="#14665d" text-anchor="start"><tspan x="425" dy="0">逐漸結冰</tspan></text>
+<rect x="35" y="378" width="150" height="58" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="110.0" y="414.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="110.0" dy="0">冰形成</tspan></text>
+<path d="M 190 407 L 228 407" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="235" y="378" width="240" height="58" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="355.0" y="414.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="355.0" dy="0">溶質留在未凍相</tspan></text>
+<path d="M 480 407 L 518 407" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="525" y="378" width="160" height="58" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="605.0" y="400.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="605.0" dy="0">凍結點</tspan><tspan x="605.0" dy="28">繼續下降</tspan></text>
+<text x="32" y="468" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">局部回升不表示外界開始加熱。</tspan><tspan x="32" dy="25">單點溫度不能直接給出整件食品的成冰量。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
