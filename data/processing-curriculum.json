@@ -3020,7 +3020,7 @@
               "必定不變"
             ],
             "answer": 1,
-            "explanation": "固定目標成分質量，分母加倍使質量分率減半；回收率則相同。"
+            "explanation": "固定目標成分質量，分母加倍使質量分率減半；若兩組入口目標成分量也相同，回收率才相同，入口量未知時無法判定。"
           },
           "sourceIds": [
             "proc-source-extraction-balance"
