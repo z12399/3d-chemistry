@@ -37,7 +37,8 @@ const TOPIC_FOLLOWUPS = Object.freeze({
   },
   processing: {
     'proc-packaging': {start: 'proc-package-functions-evidence', lessons: ['proc-package-barriers']},
-    'proc-fermentation': {start: 'proc-fermentation-physical-state', lessons: ['proc-fermentation-comparison']}
+    'proc-fermentation': {start: 'proc-fermentation-physical-state', lessons: ['proc-fermentation-comparison']},
+    'proc-process-design': {start: 'proc-process-tradeoffs', lessons: ['proc-aseptic-chain']}
   }
 });
 export function renderTopicFollowup({subject, topic, lesson, courses={}, pathContext=null, rows=STUDY_ROADMAP}={}) {
