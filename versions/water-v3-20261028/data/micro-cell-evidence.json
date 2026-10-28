@@ -1,0 +1,1626 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-13",
+  "states": [
+    {
+      "id": "bacillus-vegetative",
+      "label": "Bacillus 營養細胞",
+      "shortLabel": "Bacillus 營養細胞",
+      "diagramKind": "gram-positive",
+      "scope": "典型 Bacillus 營養細胞的包膜示意。省略表面結構等細節，不表示其不存在；也不宣稱革蘭氏陽性細胞絕無周質。",
+      "summary": "細胞質膜外有較厚的肽聚醣；這與內生芽孢是不同狀態。",
+      "divisionStatus": "可分裂的營養型態；未量到當下生長速率。",
+      "layers": [
+        {
+          "id": "peptidoglycan",
+          "label": "肽聚醣細胞壁",
+          "shortLabel": "較厚肽聚醣",
+          "description": "細胞質膜外的較厚肽聚醣網層；厚薄為概念區別，圖上寬度不是實測。",
+          "claimIds": [
+            "cell-claim-gram-gp-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-matias2005",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        },
+        {
+          "id": "cytoplasmic-membrane",
+          "label": "細胞質膜",
+          "shortLabel": "細胞質膜",
+          "description": "位於肽聚醣內側並界定細胞質；不把它與革蘭氏陰性型外膜混為一層。",
+          "claimIds": [
+            "cell-claim-gram-gp-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-matias2005",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        },
+        {
+          "id": "cytoplasm",
+          "label": "細胞質",
+          "shortLabel": "細胞質",
+          "description": "細胞質膜所圍的內部區域；本示意未逐項畫出所有內部成分。",
+          "claimIds": [
+            "cell-claim-gram-gp-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-matias2005",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        }
+      ],
+      "claimIds": [
+        "cell-claim-gram-gp-envelope",
+        "cell-claim-bacillus-state",
+        "cell-claim-state-division"
+      ],
+      "sourceIds": [
+        "cell-source-gram-matias2005",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010",
+        "cell-source-spore-layers-2013",
+        "cell-source-fda-bad-bug-2012"
+      ]
+    },
+    {
+      "id": "bacillus-endospore",
+      "label": "Bacillus 內生芽孢",
+      "shortLabel": "Bacillus 芽孢",
+      "diagramKind": "spore",
+      "scope": "以 B. subtilis 研究例子選列主要層次；非顯微影像、非比例，不代表所有 Bacillus 芽孢。沒有添加通用 exosporium（外孢子層）。",
+      "summary": "外被、兩膜、皮層、萌發細胞壁與核心分開觀察；各因子的保護作用須按壓力判讀。",
+      "divisionStatus": "休眠存活型態；形成孢子不等於新增後代；此圖未模擬萌發。",
+      "layers": [
+        {
+          "id": "coat",
+          "label": "外被",
+          "shortLabel": "蛋白外被",
+          "description": "主要由蛋白質構成的外層；壓力種類不同，保護效果不能一概而論。",
+          "claimIds": [
+            "cell-claim-layer-topology",
+            "cell-claim-coat-stress"
+          ],
+          "sourceIds": [
+            "cell-source-spore-layers-2013",
+            "cell-source-coat-2008"
+          ]
+        },
+        {
+          "id": "outer-spore-membrane",
+          "label": "孢子外膜",
+          "shortLabel": "孢子外膜",
+          "description": "依 B. subtilis 來源的層次定位，位於外被與皮層之間；此處只標結構位置，未賦予通用屏障能力。",
+          "claimIds": [
+            "cell-claim-layer-topology"
+          ],
+          "sourceIds": [
+            "cell-source-spore-layers-2013"
+          ]
+        },
+        {
+          "id": "cortex",
+          "label": "皮層",
+          "shortLabel": "皮層 PG",
+          "description": "特化肽聚糖層，與維持核心低含水的證據相連；不等於阻止熱進入的絕熱牆。",
+          "claimIds": [
+            "cell-claim-layer-topology",
+            "cell-claim-core-water-wet"
+          ],
+          "sourceIds": [
+            "cell-source-spore-layers-2013",
+            "cell-source-core-water-1995"
+          ]
+        },
+        {
+          "id": "germ-cell-wall",
+          "label": "萌發細胞壁",
+          "shortLabel": "萌發細胞壁",
+          "description": "皮層內側的肽聚糖層；來源觀察其在萌發時保留，成為後續營養細胞的細胞壁。",
+          "claimIds": [
+            "cell-claim-germ-cell-wall"
+          ],
+          "sourceIds": [
+            "cell-source-spore-layers-2013"
+          ]
+        },
+        {
+          "id": "inner-membrane",
+          "label": "孢子內膜",
+          "shortLabel": "孢子內膜",
+          "description": "包圍核心，位於萌發細胞壁內側；此圖只標位置，未模擬分子通透或致死動力學。",
+          "claimIds": [
+            "cell-claim-layer-topology"
+          ],
+          "sourceIds": [
+            "cell-source-spore-layers-2013"
+          ]
+        },
+        {
+          "id": "core",
+          "label": "核心",
+          "shortLabel": "低含水核心",
+          "description": "包含 DNA 與其 SASP 保護因子、DPA／鈣等成分；核心含水、DNA 保護與外層作用需按壓力分開。",
+          "claimIds": [
+            "cell-claim-core-water-wet",
+            "cell-claim-sasp-dry",
+            "cell-claim-dpa-multiple"
+          ],
+          "sourceIds": [
+            "cell-source-core-water-1995",
+            "cell-source-sasp-dry-heat-1995",
+            "cell-source-dpa-2006"
+          ]
+        }
+      ],
+      "claimIds": [
+        "cell-claim-bacillus-state",
+        "cell-claim-layer-topology",
+        "cell-claim-dpa-viability",
+        "cell-claim-state-division"
+      ],
+      "sourceIds": [
+        "cell-source-spore-layers-2013",
+        "cell-source-fda-bad-bug-2012",
+        "cell-source-wet-heat-2007"
+      ]
+    },
+    {
+      "id": "salmonella-vegetative",
+      "label": "Salmonella 營養細胞",
+      "shortLabel": "Salmonella 營養細胞",
+      "diagramKind": "gram-negative",
+      "scope": "以典型革蘭氏陰性包膜解釋 Salmonella 營養細胞；非其特定菌株的實測比例。周質是區室，薄肽聚醣只是其中的網層。",
+      "summary": "外膜與內膜之間有周質及薄肽聚醣；Salmonella 不形成細菌內生芽孢。",
+      "divisionStatus": "不形成內生孢子的營養型態；是否正在增殖需另看環境及量測。",
+      "layers": [
+        {
+          "id": "outer-membrane-lps",
+          "label": "外膜與外側葉 LPS",
+          "shortLabel": "外膜／LPS",
+          "description": "最外側膜層；LPS 位於外側葉。這張概念圖不模擬特定分子的通過速率。",
+          "claimIds": [
+            "cell-claim-gram-gn-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-muhlradt1975",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        },
+        {
+          "id": "periplasm-peptidoglycan",
+          "label": "周質與薄肽聚醣",
+          "shortLabel": "周質／薄 PG",
+          "description": "外膜與內膜間的區室包含較薄肽聚醣網層；不能把整個周質當成同一塊肽聚醣。",
+          "claimIds": [
+            "cell-claim-gram-gn-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-muhlradt1975",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        },
+        {
+          "id": "inner-membrane",
+          "label": "內膜",
+          "shortLabel": "內膜",
+          "description": "位於周質內側、界定細胞質的膜；與外膜分開。",
+          "claimIds": [
+            "cell-claim-gram-gn-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-muhlradt1975",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        },
+        {
+          "id": "cytoplasm",
+          "label": "細胞質",
+          "shortLabel": "細胞質",
+          "description": "內膜所圍的內部區域；沒有逐項畫出所有內部成分。",
+          "claimIds": [
+            "cell-claim-gram-gn-envelope"
+          ],
+          "sourceIds": [
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-muhlradt1975",
+            "cell-source-gram-asm2005",
+            "cell-source-gram-envelope2010"
+          ]
+        }
+      ],
+      "claimIds": [
+        "cell-claim-gram-gn-envelope",
+        "cell-claim-salmonella-state",
+        "cell-claim-state-division"
+      ],
+      "sourceIds": [
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-muhlradt1975",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010",
+        "cell-source-fda-bad-bug-2012",
+        "cell-source-spore-layers-2013"
+      ]
+    }
+  ],
+  "gramStages": [
+    {
+      "id": "unstained",
+      "label": "未染色",
+      "concept": "尚未加入本流程的染料；只顯示細胞輪廓。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-endospore2007",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "results": {
+        "bacillus-vegetative": {
+          "signalId": "uninterpreted",
+          "label": "尚未染色",
+          "reason": "未加入染料；輪廓只是概念識別。 尚未加入本流程的染料；只顯示細胞輪廓。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-gram-ntu115q3"
+          ]
+        },
+        "bacillus-endospore": {
+          "signalId": "not-inferred",
+          "label": "本模型不推定",
+          "reason": "本模型不由營養細胞的 Gram 規則指定孢子顏色。",
+          "limits": "不硬套營養細胞的紫／粉紅規則，也不由空白區直接確認芽孢。",
+          "claimIds": [
+            "cell-claim-gram-endospore-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-endospore2007"
+          ]
+        },
+        "salmonella-vegetative": {
+          "signalId": "uninterpreted",
+          "label": "尚未染色",
+          "reason": "未加入染料；輪廓只是概念識別。 尚未加入本流程的染料；只顯示細胞輪廓。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-salmonella-reference",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-fda-bad-bug-2012",
+            "cell-source-gram-ntu115q3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "crystal-violet",
+      "label": "結晶紫",
+      "concept": "主染料進入並與細胞成分作用，兩類典型營養細胞皆可見紫色。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-endospore2007",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "results": {
+        "bacillus-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "有紫色主染訊號。 主染料進入並與細胞成分作用，兩類典型營養細胞皆可見紫色。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-primary-location",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        },
+        "bacillus-endospore": {
+          "signalId": "not-inferred",
+          "label": "本模型不推定",
+          "reason": "本模型不由營養細胞的 Gram 規則指定孢子顏色。",
+          "limits": "不硬套營養細胞的紫／粉紅規則，也不由空白區直接確認芽孢。",
+          "claimIds": [
+            "cell-claim-gram-endospore-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-endospore2007"
+          ]
+        },
+        "salmonella-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "有紫色主染訊號。 主染料進入並與細胞成分作用，兩類典型營養細胞皆可見紫色。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-salmonella-reference",
+            "cell-claim-gram-primary-location",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-fda-bad-bug-2012",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "iodine",
+      "label": "碘媒染",
+      "concept": "形成結晶紫—碘複合物；此時兩類典型營養細胞仍可見紫色。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-endospore2007",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "results": {
+        "bacillus-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "仍有紫色主染訊號；形成媒染複合物。 形成結晶紫—碘複合物；此時兩類典型營養細胞仍可見紫色。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-primary-location",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        },
+        "bacillus-endospore": {
+          "signalId": "not-inferred",
+          "label": "本模型不推定",
+          "reason": "本模型不由營養細胞的 Gram 規則指定孢子顏色。",
+          "limits": "不硬套營養細胞的紫／粉紅規則，也不由空白區直接確認芽孢。",
+          "claimIds": [
+            "cell-claim-gram-endospore-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-endospore2007"
+          ]
+        },
+        "salmonella-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "仍有紫色主染訊號；形成媒染複合物。 形成結晶紫—碘複合物；此時兩類典型營養細胞仍可見紫色。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-salmonella-reference",
+            "cell-claim-gram-primary-location",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-fda-bad-bug-2012",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "decolorization",
+      "label": "脫色",
+      "concept": "比較包膜相關的差異保留：典型 Gram-positive 保留紫色；Gram-negative 的紫色訊號移除。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-endospore2007",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "results": {
+        "bacillus-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "典型營養細胞保留紫色主染訊號。 比較包膜相關的差異保留：典型 Gram-positive 保留紫色；Gram-negative 的紫色訊號移除。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-retention-mechanism",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        },
+        "bacillus-endospore": {
+          "signalId": "not-inferred",
+          "label": "本模型不推定",
+          "reason": "本模型不由營養細胞的 Gram 規則指定孢子顏色。",
+          "limits": "不硬套營養細胞的紫／粉紅規則，也不由空白區直接確認芽孢。",
+          "claimIds": [
+            "cell-claim-gram-endospore-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-endospore2007"
+          ]
+        },
+        "salmonella-vegetative": {
+          "signalId": "no-visible-color",
+          "label": "紫訊號已移除",
+          "reason": "紫色主染訊號已移除；尚未反染。 比較包膜相關的差異保留：典型 Gram-positive 保留紫色；Gram-negative 的紫色訊號移除。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-salmonella-reference",
+            "cell-claim-gram-retention-mechanism",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-fda-bad-bug-2012",
+            "cell-source-gram-beveridge1983",
+            "cell-source-gram-ntu115q3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "counterstain",
+      "label": "對比染色",
+      "concept": "反染劑使失去主染色的典型 Gram-negative 呈粉紅至紅；Gram-positive 仍以紫色呈現。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-endospore2007",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "results": {
+        "bacillus-vegetative": {
+          "signalId": "purple",
+          "label": "紫色主訊號",
+          "reason": "反染後可見結果仍以紫色為主。 反染劑使失去主染色的典型 Gram-negative 呈粉紅至紅；Gram-positive 仍以紫色呈現。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-counterstain",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-gram-ntu115q3"
+          ]
+        },
+        "bacillus-endospore": {
+          "signalId": "not-inferred",
+          "label": "本模型不推定",
+          "reason": "本模型不由營養細胞的 Gram 規則指定孢子顏色。",
+          "limits": "不硬套營養細胞的紫／粉紅規則，也不由空白區直接確認芽孢。",
+          "claimIds": [
+            "cell-claim-gram-endospore-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-endospore2007"
+          ]
+        },
+        "salmonella-vegetative": {
+          "signalId": "pink-red",
+          "label": "粉紅至紅色",
+          "reason": "對比染色呈粉紅至紅。 反染劑使失去主染色的典型 Gram-negative 呈粉紅至紅；Gram-positive 仍以紫色呈現。",
+          "limits": "限典型營養細胞與合宜染色；老化、壁受損或方法品質可改變所見。顏色不證明菌種或存活。",
+          "claimIds": [
+            "cell-claim-gram-stage-sequence",
+            "cell-claim-gram-salmonella-reference",
+            "cell-claim-gram-counterstain",
+            "cell-claim-gram-variation",
+            "cell-claim-gram-inference-boundary"
+          ],
+          "sourceIds": [
+            "cell-source-gram-asm2005",
+            "cell-source-fda-bad-bug-2012",
+            "cell-source-gram-ntu115q3"
+          ]
+        }
+      }
+    }
+  ],
+  "evidenceTasks": [
+    {
+      "id": "thermal-state",
+      "title": "先確定存留的是哪種狀態",
+      "prompt": "題幹只說加熱不足，候選為 Bacillus 與 Salmonella。哪個回答把可能的存留機制與未知資料分開？",
+      "choices": [
+        {
+          "id": "spore-candidate",
+          "label": "Bacillus 內生孢子是條件化候選；先查原食品狀態與處理證據"
+        },
+        {
+          "id": "all-bacillus",
+          "label": "凡是 Bacillus，營養細胞也一定比 Salmonella 耐熱"
+        },
+        {
+          "id": "certain-cause",
+          "label": "只靠加熱不足就能確定是 B. cereus 且已排除再污染"
+        }
+      ],
+      "answerId": "spore-candidate",
+      "explanation": "Bacillus 需分開營養細胞與孢子；Salmonella 不形成內生孢子。若原食品含 Bacillus 孢子，其結構與核心狀態可提供耐受機制假說。題幹沒有自動指定 B. cereus，也沒有實測各候選的存活。",
+      "limits": "這是題意下的機制推論；仍缺原食品狀態、菌株、基質與熱歷程等資料。",
+      "claimIds": [
+        "cell-claim-salmonella-state",
+        "cell-claim-bacillus-state",
+        "cell-claim-thermal-conditional"
+      ],
+      "sourceIds": [
+        "cell-source-fda-bad-bug-2012",
+        "cell-source-spore-layers-2013",
+        "cell-source-core-water-1995"
+      ]
+    },
+    {
+      "id": "wet-heat-core",
+      "title": "濕熱：含水的證據放在哪裡？",
+      "prompt": "B. subtilis 文獻比較發現，核心含水較高的孢子對濕熱較敏感，UV 卻未呈同樣關係。哪個解釋符合證據？",
+      "choices": [
+        {
+          "id": "water-specific",
+          "label": "核心低含水是濕熱保護的重要因子；仍需分開其他壓力與伴隨變化"
+        },
+        {
+          "id": "wall-insulation",
+          "label": "只要皮層厚，熱就完全進不到核心"
+        },
+        {
+          "id": "dpa-alone",
+          "label": "Ca-DPA 是唯一原因，其他結構與狀態都可忽略"
+        }
+      ],
+      "answerId": "water-specific",
+      "explanation": "皮層與核心含水有關，Ca-DPA 也與核心脫水及保護相連；SASP 則有 DNA 保護證據。不同研究以比較支持這些因子的角色，沒有把它們量成可獨立相加的通用耐受分數。",
+      "limits": "源自特定 B. subtilis 比較；核心含水不是食品基質水活性，也不能據此算病原存活率或處理時間。",
+      "claimIds": [
+        "cell-claim-core-water-wet",
+        "cell-claim-dpa-multiple",
+        "cell-claim-sasp-dry"
+      ],
+      "sourceIds": [
+        "cell-source-core-water-1995",
+        "cell-source-dpa-2006",
+        "cell-source-sasp-dry-heat-1995"
+      ]
+    },
+    {
+      "id": "dry-heat-dna",
+      "title": "乾熱：什麼證據支持 DNA 保護？",
+      "prompt": "來源比較主要 SASP 完整與缺少的孢子，並檢查 DNA 損傷及純化蛋白的體外效果。哪項結果最支持 SASP 的作用？",
+      "choices": [
+        {
+          "id": "dna-protection",
+          "label": "缺少 SASP 時乾熱更易造成傷害；DNA 損傷與體外保護證據相互支持"
+        },
+        {
+          "id": "name-enough",
+          "label": "只要蛋白名稱含 acid-soluble，就已證明所有耐受機制"
+        },
+        {
+          "id": "all-wet-heat-dna",
+          "label": "這證明正常孢子所有濕熱死亡都由 DNA 斷裂造成"
+        }
+      ],
+      "answerId": "dna-protection",
+      "explanation": "α/β 型 SASP 與 DNA 結合。乾熱後 DNA 單股斷裂與突變觀察，加上純化 SASP 的保護試驗，比只觀察存活差異更直接支持 DNA 保護機制。",
+      "limits": "這是乾熱機制證據；勿直接套成濕熱的唯一致死路徑，也不表示保護絕對完整。",
+      "claimIds": [
+        "cell-claim-sasp-dry",
+        "cell-claim-dpa-viability"
+      ],
+      "sourceIds": [
+        "cell-source-sasp-dry-heat-1995",
+        "cell-source-core-water-1995",
+        "cell-source-wet-heat-2007"
+      ]
+    },
+    {
+      "id": "coat-boundary",
+      "title": "外被：能擋一種壓力就能擋全部？",
+      "prompt": "來源中的 B. subtilis 孢子失去大部分外被，對次氯酸鹽明顯更敏感，仍保有相當濕熱耐受。可支持哪個結論？",
+      "choices": [
+        {
+          "id": "stress-specific",
+          "label": "外被保護需按壓力判斷，不能以同一機制解釋所有耐受"
+        },
+        {
+          "id": "coat-all",
+          "label": "外被厚度已能完全決定每一種壓力的存活"
+        },
+        {
+          "id": "coat-no-heat",
+          "label": "此結果證明所有孢子的外被都完全不影響濕熱"
+        }
+      ],
+      "answerId": "stress-specific",
+      "explanation": "外被是蛋白質層，能參與屏障保護；這份比較顯示化學與濕熱反應不同。研究中的缺損也不是完全沒有外被，故兩個絕對化結論都超過證據。",
+      "limits": "源自特定 B. subtilis 外被缺損的比較；不能外推所有孢子、所有壓力或食品中的存活結果。",
+      "claimIds": [
+        "cell-claim-coat-stress"
+      ],
+      "sourceIds": [
+        "cell-source-coat-2008"
+      ]
+    },
+    {
+      "id": "gram-decolorization",
+      "title": "哪一步拉開紫色訊號？",
+      "prompt": "兩種典型營養細胞在碘媒染後都呈紫色。哪個下一步最能檢查包膜相關的主染料保留差異？",
+      "choices": [
+        {
+          "id": "decolorization",
+          "label": "脫色後比較主染料是否保留"
+        },
+        {
+          "id": "iodine-proves-positive",
+          "label": "碘媒染後呈紫色就足以判成陽性"
+        },
+        {
+          "id": "counterstain-only",
+          "label": "只要加對比染料就能證明菌種"
+        }
+      ],
+      "answerId": "decolorization",
+      "explanation": "脫色後，典型 Gram-positive 仍保留紫色，Gram-negative 先失去紫色，再於對比染色後呈粉紅至紅。碘媒染後兩者都可能紫，不能提前判類。 染料進入與染料留住是不同問題。厚肽聚醣及包膜完整性關聯脫色時保留，但圖示不是逐分子的孔徑開關實驗。",
+      "limits": "典型營養細胞、合宜方法。 不由保留紫色推出耐熱或存活。",
+      "claimIds": [
+        "cell-claim-gram-stage-sequence",
+        "cell-claim-gram-retention-mechanism",
+        "cell-claim-gram-primary-location"
+      ],
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983"
+      ]
+    },
+    {
+      "id": "isolate-timepoint",
+      "title": "原食品狀態與分離後染色",
+      "prompt": "題目推測 Bacillus 可能以孢子狀態耐受不足的加熱；之後分離出細菌，觀察到典型營養細胞。這時預期紫色，與前述孢子推論有何關係？",
+      "choices": [
+        {
+          "id": "compatible-different-state",
+          "label": "相容，但兩個時間點的細胞狀態須分開"
+        },
+        {
+          "id": "purple-means-original-vegetative",
+          "label": "紫色證明原食品中存活的一定是營養細胞"
+        },
+        {
+          "id": "spore-must-purple",
+          "label": "紫色證明孢子本身也一定呈紫色"
+        }
+      ],
+      "answerId": "compatible-different-state",
+      "explanation": "後來分離出的典型 Bacillus 營養細胞可有 Gram-positive 紫色預期；這不能還原原食品中孢子與營養細胞的比例。兩種敘述不衝突，因為觀察的時間點和細胞狀態不同。 以結構／狀態解釋可能的耐受，再以被觀察的營養細胞包膜解釋染色；不可把兩條證據鏈合成同一張細胞快照。",
+      "limits": "題幹未確證實際存活狀態或比例。 不加入培養與復甦操作排程。",
+      "claimIds": [
+        "cell-claim-gram-isolate-timepoint",
+        "cell-claim-gram-variation",
+        "cell-claim-gram-endospore-boundary"
+      ],
+      "sourceIds": [
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-endospore2007"
+      ]
+    },
+    {
+      "id": "gram-identity",
+      "title": "紫色桿菌能支持到哪裡？",
+      "prompt": "分離後看到紫色桿菌；這項觀察本身最適合支持哪一種陳述？",
+      "choices": [
+        {
+          "id": "phenotype-clue",
+          "label": "提供 Gram 染色與形態線索，仍需其他身分及事件證據"
+        },
+        {
+          "id": "proven-cereus",
+          "label": "已證明是 B. cereus，並造成這次污染"
+        },
+        {
+          "id": "survival-and-toxin",
+          "label": "已證明加熱後存活，而且產生毒素"
+        }
+      ],
+      "answerId": "phenotype-clue",
+      "explanation": "Gram 是染色表型線索。題幹只有屬層级 Bacillus；不能由紫色桿菌擅自升格為 B. cereus，也不能同時認定毒素、存活或污染來源。 顏色是染料保留所見；菌種、毒素、存活及溯源各需要與問題對應的證據。",
+      "limits": "這項觀察尚未確認物種、存活、毒素或事故來源；原題僅指定 Bacillus 屬。",
+      "claimIds": [
+        "cell-claim-gram-inference-boundary",
+        "cell-claim-gram-variation"
+      ],
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-ntu115q3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cell-source-gram-asm2005",
+      "title": "Smith AC, Hussey MA. Gram Stain Protocols (created 2005; PDF copyright 2016; landing page dated 2019)",
+      "url": "https://asm.org/ASM/media/protocol-images/Gram-Stain-Protocols.pdf?ext=.pdf",
+      "evidenceKind": "authoritative-professional-society-teaching",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-gram-2005.pdf",
+          "bytes": 135031,
+          "sha256": "33b7e84f018a9891b7c95786492de0e54d0117f369af82922600ff6f0bf1bf3b"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-gram-2005.txt",
+          "bytes": 18866,
+          "sha256": "553124f674b66ed19e90fbe26f6c4fc4d601d477dfa650e285ade4d415e8964f"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-gram-landing.html",
+          "bytes": 29517,
+          "sha256": "2a042c4ced64513878542f316202b2ed208288549a01a01bc2883baacdf1f977"
+        }
+      ],
+      "locators": [
+        "PDF p.1 Purpose/History; p.2 Theory; p.6 Comments and Tips; p.7 counterstain paragraph"
+      ],
+      "scope": "典型營養細胞的概念染色、機制與品質界線。原始來源含實驗程序；本教材只取概念與限制，不轉錄操作參數。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-gram-2005.pdf",
+      "sha256": "33b7e84f018a9891b7c95786492de0e54d0117f369af82922600ff6f0bf1bf3b",
+      "publisher": "American Society for Microbiology",
+      "locator": "PDF p.1 Purpose/History; p.2 Theory; p.6 Comments and Tips; p.7 counterstain paragraph"
+    },
+    {
+      "id": "cell-source-gram-beveridge1983",
+      "title": "Beveridge TJ, Davies JA. Cellular responses of Bacillus subtilis and Escherichia coli to the Gram stain. J Bacteriol. 1983;156:846–858.",
+      "url": "https://doi.org/10.1128/jb.156.2.846-858.1983",
+      "evidenceKind": "primary-research-abstract-verified",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/beveridge-1983-metadata.json",
+          "bytes": 6304,
+          "sha256": "8d4cf12a72e54fbd4e9d4f4a73cc3fb84e3008b46aaeb3a7343de5d35fb717d0"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/beveridge-1983-abstract.txt",
+          "bytes": 1402,
+          "sha256": "7dc477bae5f3f7656fcfc0e91c54ec899b087832f7c6e92c11c84dfe79a11a09"
+        }
+      ],
+      "locators": [
+        "Abstract; PMID 6195148; PMCID PMC217903"
+      ],
+      "scope": "原始研究以 B. subtilis 和 E. coli 為對象，TPt 取代一般碘媒染劑。只引用摘要已明載的差異保留與方法限制；未取得全文，不宣稱全文查核或 Salmonella 專屬實驗。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/beveridge-1983-metadata.json",
+      "sha256": "8d4cf12a72e54fbd4e9d4f4a73cc3fb84e3008b46aaeb3a7343de5d35fb717d0",
+      "publisher": "Journal of Bacteriology；原始研究作者摘要",
+      "locator": "Abstract; PMID 6195148; PMCID PMC217903"
+    },
+    {
+      "id": "cell-source-gram-envelope2010",
+      "title": "Silhavy TJ, Kahne D, Walker S. The Bacterial Cell Envelope. Cold Spring Harb Perspect Biol. 2010;2:a000414.",
+      "url": "https://doi.org/10.1101/cshperspect.a000414",
+      "evidenceKind": "authoritative-scholarly-review",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/envelope-2010-publisher.pdf",
+          "bytes": 812666,
+          "sha256": "26f30b08ecf3484ee4406b373fb0cb037172db94fd9aaefd4d2f665e86f577a5"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/envelope-2010-publisher.txt",
+          "bytes": 71219,
+          "sha256": "eaf8b08ed5ec178b47ceb31f4211891077a9d82372e74d3d22011940d2944223"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/envelope-2010-publisher-html.html",
+          "bytes": 359970,
+          "sha256": "3fed8df2911fc275f0bc0c9f3365d99b44d44d523be890443fadcd34343e20d5"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/envelope-2010-publisher-html.txt",
+          "bytes": 73831,
+          "sha256": "5c6cd490f06f247ecf497468b2cfcfae5e6841194c3c71f161c7f32dd20a6799"
+        }
+      ],
+      "locators": [
+        "The Outer Membrane; The Periplasm; The Gram-Positive Cell Envelope; Fig.3 (publisher PDF p.9); Fig.1 (p.3)"
+      ],
+      "scope": "典型包膜的相對位置與比較。論文以 E. coli 和 S. aureus 作主要參考，並討論 B. subtilis；示意圖不可冒充 Salmonella 實測影像或所有細菌都無例外的分類。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/envelope-2010-publisher.pdf",
+      "sha256": "26f30b08ecf3484ee4406b373fb0cb037172db94fd9aaefd4d2f665e86f577a5",
+      "publisher": "Cold Spring Harbor Perspectives in Biology",
+      "locator": "The Outer Membrane; The Periplasm; The Gram-Positive Cell Envelope; Fig.3 (publisher PDF p.9); Fig.1 (p.3)"
+    },
+    {
+      "id": "cell-source-gram-endospore2007",
+      "title": "American Society for Microbiology. Endospore Stain (landing page dated 2007-09-01).",
+      "url": "https://asm.org/protocols/endospore-stain-protocol",
+      "evidenceKind": "authoritative-professional-society-teaching",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-endospore-2007.html",
+          "bytes": 28656,
+          "sha256": "7f76ea1f9462cae949636efa58e11058527ca5e42f7dd13badcb8fbdeafd72d7"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-endospore-2007.txt",
+          "bytes": 2675,
+          "sha256": "e4796c5f2a848b304e205e92159dec19be29e7871b8fc6d7dc523548b883b05c"
+        }
+      ],
+      "locators": [
+        "Landing page introductory paragraphs"
+      ],
+      "scope": "只支援 Gram 或簡單染色可能看見也可能看不見孢子，因此不能將 Gram 結果當作孢子專一檢測；不移植孢子染色操作程序。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/asm-endospore-2007.html",
+      "sha256": "7f76ea1f9462cae949636efa58e11058527ca5e42f7dd13badcb8fbdeafd72d7",
+      "publisher": "American Society for Microbiology",
+      "locator": "Landing page introductory paragraphs"
+    },
+    {
+      "id": "cell-source-gram-ntu115q3",
+      "title": "國立臺灣大學 115 學年度碩士班招生考試 241 食品微生物學 第3題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf",
+      "evidenceKind": "official-curriculum-demand",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/ntu-115-241.pdf",
+          "bytes": 77445,
+          "sha256": "d3ad12a25c0115a817ec742bb648635337db8657cb0d98fc66e7d9190f969d8c"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/pages/ntu-115-241-page.png",
+          "bytes": 191588,
+          "sha256": "74ddf465be0d3b9919f315c7fe914b20d3459c3cfef68fdf5aa00893e52aa4b1"
+        }
+      ],
+      "locators": [
+        "唯一頁面，第3題題幹與第3小題；本批目視重新核對"
+      ],
+      "scope": "只證明考題需求和敘事時間點，不作為微生物機制的科學來源。由前一批已查核官方原檔逐位元複製；本批未把重新下載與複製混稱。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/ntu-115-241.pdf",
+      "sha256": "d3ad12a25c0115a817ec742bb648635337db8657cb0d98fc66e7d9190f969d8c",
+      "publisher": "國立臺灣大學",
+      "locator": "唯一頁面，第3題題幹與第3小題；本批目視重新核對"
+    },
+    {
+      "id": "cell-source-gram-matias2005",
+      "title": "Cryo-electron microscopy reveals native polymeric cell wall structure in Bacillus subtilis 168 and the existence of a periplasmic space.",
+      "url": "https://doi.org/10.1111/j.1365-2958.2005.04535.x",
+      "evidenceKind": "primary-research-abstract-verified",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/matias-2005-metadata.json",
+          "bytes": 5139,
+          "sha256": "d20f8f921c9a930829dde9f75a313305df778e887324729f8be36a7db1d351ed"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/matias-2005-abstract.txt",
+          "bytes": 1479,
+          "sha256": "521b90929ea66265fb54bb03aa64f0f1de25dd8e7ea022895ab1a1953fee6c6d"
+        }
+      ],
+      "locators": [
+        "Abstract; PMID 15773993"
+      ],
+      "scope": "B. subtilis 168 的原始 cryo-TEM 研究摘要支持膜外壁基質及其間低密度區域；作者判為周質空間。只取拓撲與不可宣稱普遍無周質的界線，不引用數值尺寸，不宣稱全文影像已檢視。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/matias-2005-metadata.json",
+      "sha256": "d20f8f921c9a930829dde9f75a313305df778e887324729f8be36a7db1d351ed",
+      "publisher": "Molecular Microbiology；原始研究作者摘要",
+      "locator": "Abstract; PMID 15773993"
+    },
+    {
+      "id": "cell-source-gram-muhlradt1975",
+      "title": "Asymmetrical distribution and artifactual reorientation of lipopolysaccharide in the outer membrane bilayer of Salmonella typhimurium.",
+      "url": "https://doi.org/10.1111/j.1432-1033.1975.tb03934.x",
+      "evidenceKind": "primary-research-abstract-verified",
+      "files": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/muhlradt-1975-metadata.json",
+          "bytes": 5968,
+          "sha256": "7dbd99a4eab2bb60e281923b268dba0334d00275022a5ac17b3f3ba4e8801592"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/muhlradt-1975-abstract.txt",
+          "bytes": 1425,
+          "sha256": "bef98e9d2a8a24881270834fe5264f9d85b2028585932e5d8a9d56500a6d1af3"
+        }
+      ],
+      "locators": [
+        "Abstract; PMID 807474"
+      ],
+      "scope": "S. Typhimurium 原始標記研究摘要支持外膜外表面 LPS 訊號，並發現樣本處理可導致分布重排。只作外膜位置與製備影響界線，不轉錄處理條件或實驗程序。",
+      "localPath": "output/micro-cell-evidence-2026-10-13/gram-sources/sources/muhlradt-1975-metadata.json",
+      "sha256": "7dbd99a4eab2bb60e281923b268dba0334d00275022a5ac17b3f3ba4e8801592",
+      "publisher": "European Journal of Biochemistry；原始研究作者摘要",
+      "locator": "Abstract; PMID 807474"
+    },
+    {
+      "id": "cell-source-core-water-1995",
+      "title": "Popham 等（1995）：核心含水、SASP 與壓力差異",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC167661/",
+      "doi": "10.1128/aem.61.10.3633-3638.1995",
+      "publisher": "原始研究；Applied and environmental microbiology；Europe PMC 收錄作者摘要",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/core-water-1995-pubmed.json",
+      "sha256": "8f26d2579b8a6d5ddcc1742f0aa95ffb0243b0900529f2a4dac2f8e21ebf3e3a",
+      "locator": "Abstract：不同核心含水／DNA 保護狀態的壓力比較，結論 (i)–(iv)。",
+      "evidenceKind": "primary-research-abstract",
+      "retrievalScope": "完整作者摘要和書目；直接 PMC 網頁與全文下載失敗已留存，不把挑戰頁當全文。",
+      "license": "引用並改述研究結果；不重製圖版。"
+    },
+    {
+      "id": "cell-source-sasp-dry-heat-1995",
+      "title": "Setlow 與 Setlow（1995）：SASP 與乾熱下的 DNA 保護",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC167553/",
+      "doi": "10.1128/aem.61.7.2787-2790.1995",
+      "publisher": "原始研究；Applied and environmental microbiology；Europe PMC 收錄作者摘要",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/sasp-dry-heat-1995-pubmed.json",
+      "sha256": "c13adbeacf19c71c260765f85e8d41ae37d8c9d20869f27a3f523225d0a99434",
+      "locator": "Abstract：乾熱、DNA 單股斷裂、突變與純化 SASP 體外證據。",
+      "evidenceKind": "primary-research-abstract",
+      "retrievalScope": "完整作者摘要和書目；直接 PMC 網頁與全文下載失敗已留存，不把挑戰頁當全文。",
+      "license": "引用並改述研究結果；不重製圖版。"
+    },
+    {
+      "id": "cell-source-dpa-2006",
+      "title": "Setlow 等（2006）：DPA、核心含水與多種壓力",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1482921/",
+      "doi": "10.1128/JB.00212-06",
+      "publisher": "原始研究；Journal of bacteriology；Europe PMC 收錄作者摘要",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-2006-pubmed.json",
+      "sha256": "1f24234a0a6944a006df8ef2d496f1a11f13f44a4f1d43f804ca63e6518bda92",
+      "locator": "Abstract；本文 Introduction／Discussion 的核心含水、Ca-DPA 與機制限制段。",
+      "evidenceKind": "primary-research-abstract",
+      "retrievalScope": "完整作者摘要和書目已下載；Introduction／Discussion 另以網頁工具原文核對，直接 HTML 抓取為挑戰頁並排除。相關 Discussion 段落擷取另存 additionalEvidence。",
+      "license": "引用並改述研究結果；不重製圖版。",
+      "additionalEvidence": [
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-2006-web-search-extraction-02.json",
+          "sha256": "598f0fbaf1dbf16e6de4910a51214c4e169778d024eac6c7a8123f86c6c84d63",
+          "scope": "只使用 PMC1482921 的 Discussion 段落；無關檢索結果不採。"
+        },
+        {
+          "path": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-core-composition-search-03.json",
+          "sha256": "d05168968937d83c9b113324c735db02a865160fc814a8298e4934d51f5aa688",
+          "scope": "PMC1482921 Introduction：核心 DPA 主要與 Ca2+ 等二價陽離子相關，及其與核心含水的關聯；只取該原論文段落。"
+        }
+      ],
+      "supportingFiles": [
+        {
+          "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-2006-web-search-extraction-02.json",
+          "sha256": "598f0fbaf1dbf16e6de4910a51214c4e169778d024eac6c7a8123f86c6c84d63",
+          "locator": "只使用 PMC1482921 的 Discussion 段落；無關檢索結果不採。",
+          "evidenceKind": "primary-article-tool-text",
+          "path": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-2006-web-search-extraction-02.json"
+        },
+        {
+          "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-core-composition-search-03.json",
+          "sha256": "d05168968937d83c9b113324c735db02a865160fc814a8298e4934d51f5aa688",
+          "locator": "PMC1482921 Introduction：核心 DPA 主要與 Ca2+ 等二價陽離子相關，及其與核心含水的關聯；只取該原論文段落。",
+          "evidenceKind": "primary-article-tool-text",
+          "path": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/dpa-core-composition-search-03.json"
+        }
+      ]
+    },
+    {
+      "id": "cell-source-wet-heat-2007",
+      "title": "Coleman 等（2007）：濕熱死亡、DPA 保留與後續生長",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2168948/",
+      "doi": "10.1128/JB.01242-07",
+      "publisher": "原始研究；Journal of bacteriology；Europe PMC 收錄作者摘要",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/wet-heat-2007-pubmed.json",
+      "sha256": "db6175e3829c63d8ac5a02ff80253bf4e8cb91995d8c91e9e593056ffb4e7b1a",
+      "locator": "Abstract：保留 DPA 的死亡孢子、萌發與 outgrowth 區別。",
+      "evidenceKind": "primary-research-abstract",
+      "retrievalScope": "完整作者摘要和書目；直接 PMC 網頁與全文下載失敗已留存，不把挑戰頁當全文。",
+      "license": "引用並改述研究結果；不重製圖版。"
+    },
+    {
+      "id": "cell-source-coat-2008",
+      "title": "Ghosh 等（2008）：外被缺損的壓力特異性",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2566211/",
+      "doi": "10.1128/JB.00896-08",
+      "publisher": "原始研究；Journal of bacteriology；Europe PMC 收錄作者摘要",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/coat-2008-pubmed.json",
+      "sha256": "dd98f8df23e3ec18bd5050691825b8558f9370fdaa5c01eb8e358ee6b2088856",
+      "locator": "Abstract：外被結構／蛋白觀察及濕熱、次氯酸鹽反應的不同。",
+      "evidenceKind": "primary-research-abstract",
+      "retrievalScope": "完整作者摘要和書目；直接 PMC 網頁與全文下載失敗已留存，不把挑戰頁當全文。",
+      "license": "引用並改述研究結果；不重製圖版。"
+    },
+    {
+      "id": "cell-source-fda-bad-bug-2012",
+      "title": "FDA Bad Bug Book（2012）：Salmonella 與 Bacillus 特性",
+      "url": "https://www.fda.gov/media/83271/download",
+      "publisher": "U.S. Food and Drug Administration",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/fda-bad-bug-book-2012.pdf",
+      "sha256": "b76d65edc9cce029a8e864f51eee8f7ae124157d55532019c6ea9de529ff21d7",
+      "locator": "此本地 PDF 第 9 頁 Salmonella：Organism；第 92 頁 Bacillus cereus and other Bacillus species；第 1–2 頁 Introduction。",
+      "evidenceKind": "official-handbook",
+      "retrievalScope": "官方完整 292 頁 PDF；使用第 1、2、9、92 頁，皆已渲染並目視查核。網站索引的部分頁次不同，以本地原檔頁序為準。",
+      "license": "改述官方文字；未採用其中照片或圖版。"
+    },
+    {
+      "id": "cell-source-spore-layers-2013",
+      "title": "Tocheva 等（2013）：B. subtilis 孢子的肽聚糖與膜層",
+      "url": "https://www.tochevalab.org/wp-content/uploads/2017/02/Tocheva_et_al-2013-Molecular_Microbiology.pdf",
+      "doi": "10.1111/mmi.12201",
+      "publisher": "Molecular Microbiology；作者實驗室提供 PDF；本地保留來源文字擷取",
+      "localPath": "output/micro-cell-evidence-2026-10-13/source-curriculum/sources/spore-layers-2013-web-extraction.json",
+      "sha256": "dc937ce811479d0772ebab8b9a270b6921959975774d407da99bc754a630d4cc",
+      "locator": "原 PDF 第 3 頁／印刷頁 675 Results，mature spores 段；第 6 頁／印刷頁 678，Fig. 2G–J 完整圖說。",
+      "evidenceKind": "primary-research-text-extraction",
+      "retrievalScope": "文字已查閱；此本地 JSON 是來源 PDF 的網頁工具文字擷取，並非原 PDF。原 PDF 直接下載 HTTP406；截圖逾時，因此未宣稱目視查核原顯微圖。",
+      "license": "© 2013 Wiley；只改述已讀文字與圖說，未重製或仿造顯微影像。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "cell-claim-gram-gp-envelope",
+      "statement": "典型 Bacillus 營養細胞的包膜由內向外為細胞質膜與較厚肽聚醣；此圖不畫革蘭氏陰性型外膜。",
+      "sourceRefs": [
+        "cell-source-gram-matias2005",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010"
+      ],
+      "locator": "Matias2005 Abstract (membrane, wall matrix and intervening zone); ASM p.2 thick PG; envelope2010 Fig.3 comparative context",
+      "limits": [
+        "這是 Bacillus 參考概念，不是所有 Gram-positive 類群的完整分類。",
+        "省略膠囊、表面蛋白與壁酸細節，不等於不存在；不得宣稱革蘭氏陽性細胞絕無周質。",
+        "B. subtilis 168 原始研究支持膜與壁基質間可有周質；此示意省略該細節，不等於此區不存在。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-matias2005",
+          "locator": "Matias2005 Abstract (membrane, wall matrix and intervening zone); ASM p.2 thick PG; envelope2010 Fig.3 comparative context"
+        },
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "Matias2005 Abstract (membrane, wall matrix and intervening zone); ASM p.2 thick PG; envelope2010 Fig.3 comparative context"
+        },
+        {
+          "sourceId": "cell-source-gram-envelope2010",
+          "locator": "Matias2005 Abstract (membrane, wall matrix and intervening zone); ASM p.2 thick PG; envelope2010 Fig.3 comparative context"
+        }
+      ],
+      "claim": "典型 Bacillus 營養細胞的包膜由內向外為細胞質膜與較厚肽聚醣；此圖不畫革蘭氏陰性型外膜。",
+      "sourceIds": [
+        "cell-source-gram-matias2005",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-gn-envelope",
+      "statement": "典型革蘭氏陰性營養細胞由內向外為內膜、含薄肽聚醣的周質、外膜；LPS 位於外膜外側葉。",
+      "sourceRefs": [
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-muhlradt1975",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010"
+      ],
+      "locator": "Beveridge1983 Abstract envelope layers; Muhlradt1975 Abstract outer-face LPS label and preparation artifact; ASM p.2 thin PG; envelope2010 Fig.3 comparative context",
+      "limits": [
+        "周質是區室，肽聚醣是其中的網層，二者不是同一材料。",
+        "套用到 Salmonella 作典型包膜參考，非其單一菌株的實測比例。",
+        "Mühlradt1975 研究是 S. Typhimurium 膜面標記，不是所有 Salmonella 的無處理實測圖；其摘要另報告製備可改變分布。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-beveridge1983",
+          "locator": "Beveridge1983 Abstract envelope layers; Muhlradt1975 Abstract outer-face LPS label and preparation artifact; ASM p.2 thin PG; envelope2010 Fig.3 comparative context"
+        },
+        {
+          "sourceId": "cell-source-gram-muhlradt1975",
+          "locator": "Beveridge1983 Abstract envelope layers; Muhlradt1975 Abstract outer-face LPS label and preparation artifact; ASM p.2 thin PG; envelope2010 Fig.3 comparative context"
+        },
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "Beveridge1983 Abstract envelope layers; Muhlradt1975 Abstract outer-face LPS label and preparation artifact; ASM p.2 thin PG; envelope2010 Fig.3 comparative context"
+        },
+        {
+          "sourceId": "cell-source-gram-envelope2010",
+          "locator": "Beveridge1983 Abstract envelope layers; Muhlradt1975 Abstract outer-face LPS label and preparation artifact; ASM p.2 thin PG; envelope2010 Fig.3 comparative context"
+        }
+      ],
+      "claim": "典型革蘭氏陰性營養細胞由內向外為內膜、含薄肽聚醣的周質、外膜；LPS 位於外膜外側葉。",
+      "sourceIds": [
+        "cell-source-gram-beveridge1983",
+        "cell-source-gram-muhlradt1975",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-envelope2010"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-stage-sequence",
+      "statement": "結晶紫後兩類營養細胞皆可呈紫色；碘形成主染料複合物；脫色後典型 Gram-positive 保留紫色、Gram-negative 失去紫色，反染後後者呈粉紅至紅。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005"
+      ],
+      "locator": "PDF p.2 Theory",
+      "limits": [
+        "限合宜方法下的典型營養細胞。",
+        "未染色與已脫色未反染的示意不顯示染料，不能解讀成沒有細胞或已死亡。",
+        "每一步呈現的是概念訊號，不是時間、濃度或操作條件模擬。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "PDF p.2 Theory"
+        }
+      ],
+      "claim": "結晶紫後兩類營養細胞皆可呈紫色；碘形成主染料複合物；脫色後典型 Gram-positive 保留紫色、Gram-negative 失去紫色，反染後後者呈粉紅至紅。",
+      "sourceIds": [
+        "cell-source-gram-asm2005"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-primary-location",
+      "statement": "結晶紫及其媒染複合物可涉及細胞內物質與外層；主染料不是只與肽聚醣層結合。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983"
+      ],
+      "locator": "ASM PDF p.2; Beveridge1983 Abstract",
+      "limits": [
+        "圖中紫色應表現細胞訊號，不能只把細胞壁染紫作為因果。",
+        "Beveridge1983 用 TPt 取代通常碘媒染劑，不能把其探針影像冒充本活動一般碘法的逐分子紀錄。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "ASM PDF p.2; Beveridge1983 Abstract"
+        },
+        {
+          "sourceId": "cell-source-gram-beveridge1983",
+          "locator": "ASM PDF p.2; Beveridge1983 Abstract"
+        }
+      ],
+      "claim": "結晶紫及其媒染複合物可涉及細胞內物質與外層；主染料不是只與肽聚醣層結合。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-retention-mechanism",
+      "statement": "包膜組成與完整性關聯脫色時主染料的差異保留；典型 Gram-positive 的多層肽聚醣關聯保留，Gram-negative 包膜受脫色劑影響後較易流失紫色訊號。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983"
+      ],
+      "locator": "ASM PDF p.2; Beveridge1983 Abstract",
+      "limits": [
+        "可解說多層肽聚醣與脱水/通透性改變的教科書模型，但不可畫成所有細菌普遍且已直接觀察的精確孔徑開關。",
+        "Beveridge1983 僅直接觀察 B. subtilis/E. coli 的特定方法；未證明所有細胞、方法或 Salmonella 均有完全相同的結構破壞過程。",
+        "紫色保留不是耐熱試驗，不能直接推出存活。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "ASM PDF p.2; Beveridge1983 Abstract"
+        },
+        {
+          "sourceId": "cell-source-gram-beveridge1983",
+          "locator": "ASM PDF p.2; Beveridge1983 Abstract"
+        }
+      ],
+      "claim": "包膜組成與完整性關聯脫色時主染料的差異保留；典型 Gram-positive 的多層肽聚醣關聯保留，Gram-negative 包膜受脫色劑影響後較易流失紫色訊號。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-beveridge1983"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-counterstain",
+      "statement": "完成典型染色後 Gram-positive 仍以紫色呈現；這不表示它從未接觸反染劑或完全不與反染劑作用。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005"
+      ],
+      "locator": "PDF p.2 final colors and p.7 counterstain paragraph",
+      "limits": [
+        "不要把反染步驟標成 Gram-positive 無染劑或完全不結合。",
+        "本模型只指定最終可見訊號，沒有估算各染料分子的比例。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "PDF p.2 final colors and p.7 counterstain paragraph"
+        }
+      ],
+      "claim": "完成典型染色後 Gram-positive 仍以紫色呈現；這不表示它從未接觸反染劑或完全不與反染劑作用。",
+      "sourceIds": [
+        "cell-source-gram-asm2005"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-variation",
+      "statement": "Bacillus 的典型 Gram-positive 預期須附條件；細胞狀態、細胞壁完整性、培養老化及染色品質均可能使所見偏離典型紫色，出現 Gram-variable 或錯誤判讀。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005"
+      ],
+      "locator": "PDF p.2 Bacillus/age paragraphs; p.6 Comments and Tips",
+      "limits": [
+        "來源支援老化、壁受損和方法品質，不宣稱任一種加熱受傷必定變成粉紅。",
+        "不把粉紅細胞自動重新認定為 Salmonella；也不能從一個顏色分布計算受傷比例。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "PDF p.2 Bacillus/age paragraphs; p.6 Comments and Tips"
+        }
+      ],
+      "claim": "Bacillus 的典型 Gram-positive 預期須附條件；細胞狀態、細胞壁完整性、培養老化及染色品質均可能使所見偏離典型紫色，出現 Gram-variable 或錯誤判讀。",
+      "sourceIds": [
+        "cell-source-gram-asm2005"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-endospore-boundary",
+      "statement": "Gram 染色可能看見，也可能看不見內生孢子；一般营養細胞的紫／粉紅規則不可硬套為內生孢子的固定結果。",
+      "sourceRefs": [
+        "cell-source-gram-endospore2007"
+      ],
+      "locator": "Landing page introductory paragraph",
+      "limits": [
+        "所有 endospore×Gram stage 的本模型結果均為 not-inferred。",
+        "不把無色空區直接診斷為孢子；不用 Gram 代替孢子專一觀察。"
+      ],
+      "claimKind": "source-supported-concept",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-endospore2007",
+          "locator": "Landing page introductory paragraph"
+        }
+      ],
+      "claim": "Gram 染色可能看見，也可能看不見內生孢子；一般营養細胞的紫／粉紅規則不可硬套為內生孢子的固定結果。",
+      "sourceIds": [
+        "cell-source-gram-endospore2007"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-isolate-timepoint",
+      "statement": "115年第3題先談食品中的可能存活者，再談分離出細菌後的 Gram 所見；若觀察的是典型 Bacillus 營養細胞，紫色預期與原食品可能以孢子耐受的推論相容。",
+      "sourceRefs": [
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-endospore2007"
+      ],
+      "locator": "Official Q3 stem and subquestion3; ASM PDF p.2 and p.6; endospore introduction",
+      "limits": [
+        "後來的紫色不能倒推原食品中全部是營養細胞，亦不能證明全部是孢子。",
+        "題幹未提供原食品各細胞狀態的比例，也未以染色結果證明最初存活狀態。"
+      ],
+      "claimKind": "bounded-pedagogical-inference",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-ntu115q3",
+          "locator": "Official Q3 stem and subquestion3; ASM PDF p.2 and p.6; endospore introduction"
+        },
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "Official Q3 stem and subquestion3; ASM PDF p.2 and p.6; endospore introduction"
+        },
+        {
+          "sourceId": "cell-source-gram-endospore2007",
+          "locator": "Official Q3 stem and subquestion3; ASM PDF p.2 and p.6; endospore introduction"
+        }
+      ],
+      "claim": "115年第3題先談食品中的可能存活者，再談分離出細菌後的 Gram 所見；若觀察的是典型 Bacillus 營養細胞，紫色預期與原食品可能以孢子耐受的推論相容。",
+      "sourceIds": [
+        "cell-source-gram-ntu115q3",
+        "cell-source-gram-asm2005",
+        "cell-source-gram-endospore2007"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-inference-boundary",
+      "statement": "Gram 顏色與形態提供染色表型線索；單靠此觀察不能證明物種身分、存活、毒素或事故來源。",
+      "sourceRefs": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-ntu115q3"
+      ],
+      "locator": "ASM PDF p.1 Purpose and p.5 phenotype description; official Q3 separates inference and staining",
+      "limits": [
+        "此為證據類型的邏輯界線，不虛構單一來源已實驗否定所有推論。",
+        "同為紫色桿菌的細胞仍需另有身分證據；毒素須有相應檢測，存活須有其自身證據，溯源須串聯菌株及事件證據。"
+      ],
+      "claimKind": "evidence-type-limitation",
+      "evidence": [
+        {
+          "sourceId": "cell-source-gram-asm2005",
+          "locator": "ASM PDF p.1 Purpose and p.5 phenotype description; official Q3 separates inference and staining"
+        },
+        {
+          "sourceId": "cell-source-gram-ntu115q3",
+          "locator": "ASM PDF p.1 Purpose and p.5 phenotype description; official Q3 separates inference and staining"
+        }
+      ],
+      "claim": "Gram 顏色與形態提供染色表型線索；單靠此觀察不能證明物種身分、存活、毒素或事故來源。",
+      "sourceIds": [
+        "cell-source-gram-asm2005",
+        "cell-source-gram-ntu115q3"
+      ]
+    },
+    {
+      "id": "cell-claim-gram-salmonella-reference",
+      "statement": "本活動將 Salmonella 營養細胞作為典型革蘭氏陰性、非內生孢子形成菌的參考。",
+      "sourceRefs": [
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "locator": "FDA local PDF page 9, Salmonella species, 1. Organism",
+      "limits": [
+        "這是典型分類參考，不能用一個粉紅桿菌所見辨識 Salmonella。",
+        "不自動推出受熱後必死或食品安全。"
+      ],
+      "claimKind": "authoritative-agency-classification",
+      "evidence": [
+        {
+          "sourceId": "cell-source-fda-bad-bug-2012",
+          "locator": "Local PDF page 9, Salmonella species, 1. Organism"
+        }
+      ],
+      "claim": "本活動將 Salmonella 營養細胞作為典型革蘭氏陰性、非內生孢子形成菌的參考。",
+      "sourceIds": [
+        "cell-source-fda-bad-bug-2012"
+      ]
+    },
+    {
+      "id": "cell-claim-salmonella-state",
+      "claim": "Salmonella 的典型營養細胞為革蘭氏陰性桿菌，不形成細菌內生孢子。",
+      "sourceIds": [
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-fda-bad-bug-2012",
+          "locator": "此本地 PDF 第 9 頁 Salmonella：Organism；第 92 頁 Bacillus cereus and other Bacillus species；第 1–2 頁 Introduction。",
+          "observation": "官方手冊第 9 頁 Organism 描述。"
+        }
+      ],
+      "limits": "不形成內生孢子不等於所有條件下都無法存活；未指定菌株、基質與熱歷程不能判定結果。"
+    },
+    {
+      "id": "cell-claim-bacillus-state",
+      "claim": "題幹的 Bacillus 保留屬層級；能形成內生孢子的 Bacillus 必須區分營養細胞與孢子狀態。B. subtilis 是本活動的結構及機制研究例子。",
+      "sourceIds": [
+        "cell-source-spore-layers-2013",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-spore-layers-2013",
+          "locator": "原 PDF 第 3 頁／印刷頁 675 Results，mature spores 段；第 6 頁／印刷頁 678，Fig. 2G–J 完整圖說。",
+          "observation": "Tocheva 2013 比較 B. subtilis 營養、形成孢子及萌發狀態；FDA 第 92 頁用 B. cereus 作為能形成內生孢子的具體例子。"
+        },
+        {
+          "sourceId": "cell-source-fda-bad-bug-2012",
+          "locator": "此本地 PDF 第 9 頁 Salmonella：Organism；第 92 頁 Bacillus cereus and other Bacillus species；第 1–2 頁 Introduction。",
+          "observation": "Tocheva 2013 比較 B. subtilis 營養、形成孢子及萌發狀態；FDA 第 92 頁用 B. cereus 作為能形成內生孢子的具體例子。"
+        }
+      ],
+      "limits": "這兩份例子不把題幹指定成 B. cereus，也不代表所有 Bacillus 物種與菌株有同一耐受性。"
+    },
+    {
+      "id": "cell-claim-layer-topology",
+      "claim": "B. subtilis 研究例子的主要層次由外向內可分外被、孢子外膜、皮層、萌發細胞壁、孢子內膜及核心；皮層與萌發細胞壁都是肽聚糖結構，位置與命運不同。",
+      "sourceIds": [
+        "cell-source-spore-layers-2013"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-spore-layers-2013",
+          "locator": "原 PDF 第 3 頁／印刷頁 675 Results，mature spores 段；第 6 頁／印刷頁 678，Fig. 2G–J 完整圖說。",
+          "observation": "Results 的成熟孢子描述與 Fig. 2G–J 圖說；圖說把 inner cortex 稱 germ cell wall，並辨別 IsM、OsM、outer cortex 和 coat。"
+        }
+      ],
+      "limits": "概念圖只選主要層次，不給通用厚度、比例、每一層蛋白或跨菌種結構。來源使用特定 B. subtilis 實驗例子；圖說觀察不代表已量到每層的耐熱貢獻。"
+    },
+    {
+      "id": "cell-claim-germ-cell-wall",
+      "claim": "萌發細胞壁位在皮層內側；來源觀察其在萌發後保留，成為長出營養細胞的細胞壁。",
+      "sourceIds": [
+        "cell-source-spore-layers-2013"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-spore-layers-2013",
+          "locator": "原 PDF 第 3 頁／印刷頁 675 Results，mature spores 段；第 6 頁／印刷頁 678，Fig. 2G–J 完整圖說。",
+          "observation": "Results 與 Fig. 2I–J 圖說比較皮層脫除和 germ cell wall 保留。"
+        }
+      ],
+      "limits": "形態／結構證據；不是實際培養、萌發操作或所有種通用的厚度。"
+    },
+    {
+      "id": "cell-claim-core-water-wet",
+      "claim": "B. subtilis 比較中，核心含水較高與濕熱耐受降低相連；皮層形成改變所帶來的含水差異提供證據，乾熱與 UV 的主要保護不能直接套用同一解釋。",
+      "sourceIds": [
+        "cell-source-core-water-1995"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-core-water-1995",
+          "locator": "Abstract：不同核心含水／DNA 保護狀態的壓力比較，結論 (i)–(iv)。",
+          "observation": "同一研究比較核心含水與 SASP 狀態不同的孢子；濕熱和過氧化氫反應對含水差異明顯，UV 未呈同一關係。"
+        }
+      ],
+      "limits": "有特定實驗背景及多項生理差異；不是僅量核心含水就能預測任一食品的存活，也不是宣稱皮層厚就能隔絕熱傳。"
+    },
+    {
+      "id": "cell-claim-sasp-dry",
+      "claim": "α/β 型 SASP 與 DNA 結合，能減少乾熱引起的 DNA 損傷；缺少主要 SASP 的孢子對乾熱更敏感，作者另有 DNA 斷裂及體外保護證據。",
+      "sourceIds": [
+        "cell-source-sasp-dry-heat-1995",
+        "cell-source-core-water-1995"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-sasp-dry-heat-1995",
+          "locator": "Abstract：乾熱、DNA 單股斷裂、突變與純化 SASP 體外證據。",
+          "observation": "孢子比較、存活者突變與 DNA 單股斷裂；純化 SASP 對 DNA 的體外試驗互相支持。"
+        },
+        {
+          "sourceId": "cell-source-core-water-1995",
+          "locator": "Abstract：不同核心含水／DNA 保護狀態的壓力比較，結論 (i)–(iv)。",
+          "observation": "孢子比較、存活者突變與 DNA 單股斷裂；純化 SASP 對 DNA 的體外試驗互相支持。"
+        }
+      ],
+      "limits": "不把「SASP 有 DNA 保護作用」改成「正常孢子的所有濕熱死亡都由 DNA 損傷造成」。"
+    },
+    {
+      "id": "cell-claim-dpa-multiple",
+      "claim": "DPA 是核心中的重要成分，與鈣等二價陽離子相關；DPA 缺少與保留的比較呈現壓力差異，不能把 Ca-DPA 當成單一、充分且通用的耐受原因。",
+      "sourceIds": [
+        "cell-source-dpa-2006"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-dpa-2006",
+          "locator": "Abstract；本文 Introduction／Discussion 的核心含水、Ca-DPA 與機制限制段。",
+          "observation": "作者摘要：DPA 狀態不同的 B. subtilis 孢子在濕熱、乾熱等反應不同，UV 反應相近；全文引言／討論將 DPA 與核心含水相連。"
+        }
+      ],
+      "limits": "DPA 比較同時牽涉核心含水與其他生理背景；不把相關因子拆成已各自量定的因果百分比。"
+    },
+    {
+      "id": "cell-claim-coat-stress",
+      "claim": "B. subtilis 外被主要為蛋白質。外被嚴重缺損的研究例子仍有相當濕熱耐受，卻對次氯酸鹽高度敏感；外被作用須按壓力種類判讀。",
+      "sourceIds": [
+        "cell-source-coat-2008"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-coat-2008",
+          "locator": "Abstract：外被結構／蛋白觀察及濕熱、次氯酸鹽反應的不同。",
+          "observation": "作者以蛋白分析與原子力顯微鏡確認主要外被缺損，並比較不同壓力反應。"
+        }
+      ],
+      "limits": "缺損孢子仍保有薄層材料；這份研究不能證明外被在所有背景下完全不影響濕熱，也不能說外被單獨解釋全部耐受性。"
+    },
+    {
+      "id": "cell-claim-dpa-viability",
+      "claim": "保留 DPA 或能開始萌發，均不能單獨證明孢子能再長出營養細胞；2007 年研究發現濕熱失活後仍保留 DPA 的孢子。",
+      "sourceIds": [
+        "cell-source-wet-heat-2007"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-wet-heat-2007",
+          "locator": "Abstract：保留 DPA 的死亡孢子、萌發與 outgrowth 區別。",
+          "observation": "作者區分 DPA、萌發、後續生長及可回收性，觀察到這些終點不同步。"
+        }
+      ],
+      "limits": "只說明該研究的終點區別；不是目前所有致死分子標的已確定，也不代替實際食品的存活驗證。"
+    },
+    {
+      "id": "cell-claim-thermal-conditional",
+      "claim": "若題意比較的是形成孢子的 Bacillus 與 Salmonella 營養細胞，加熱不足後可優先提出 Bacillus 孢子存留的機制假說；仍不能單憑菌名或加熱不足判定事故原因。",
+      "sourceIds": [
+        "cell-source-fda-bad-bug-2012",
+        "cell-source-core-water-1995",
+        "cell-source-spore-layers-2013"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-fda-bad-bug-2012",
+          "locator": "此本地 PDF 第 9 頁 Salmonella：Organism；第 92 頁 Bacillus cereus and other Bacillus species；第 1–2 頁 Introduction。",
+          "observation": "官方菌體特性加上研究中的細胞狀態差異，構成條件化機制推論；不是原題官方公布答案。"
+        },
+        {
+          "sourceId": "cell-source-core-water-1995",
+          "locator": "Abstract：不同核心含水／DNA 保護狀態的壓力比較，結論 (i)–(iv)。",
+          "observation": "官方菌體特性加上研究中的細胞狀態差異，構成條件化機制推論；不是原題官方公布答案。"
+        },
+        {
+          "sourceId": "cell-source-spore-layers-2013",
+          "locator": "原 PDF 第 3 頁／印刷頁 675 Results，mature spores 段；第 6 頁／印刷頁 678，Fig. 2G–J 完整圖說。",
+          "observation": "官方菌體特性加上研究中的細胞狀態差異，構成條件化機制推論；不是原題官方公布答案。"
+        }
+      ],
+      "limits": "實際原食品狀態、菌株、基質、熱歷程、取樣與處理後再污染資料仍未知。"
+    },
+    {
+      "id": "cell-claim-state-division",
+      "claim": "營養細胞是可進行生長分裂的型態；內生孢子是休眠存活型態。狀態標籤本身未量到當下增殖速率。",
+      "sourceIds": [
+        "cell-source-spore-layers-2013",
+        "cell-source-fda-bad-bug-2012"
+      ],
+      "evidence": [
+        {
+          "sourceId": "cell-source-spore-layers-2013",
+          "locator": "Fig. 1、Fig. 2 文字／圖說",
+          "observation": "來源區分營養細胞分裂、形成孢子及萌發後生長。"
+        },
+        {
+          "sourceId": "cell-source-fda-bad-bug-2012",
+          "locator": "本地 PDF 第 92 頁 consumer box",
+          "observation": "孢子被描述為不活躍的存活形式，之後可轉變回生長的細菌。"
+        }
+      ],
+      "limits": "不將示意圖視為時間序列或生長量測；原課 micro-spores 保留典型一對一轉換的完整教學。"
+    }
+  ],
+  "limits": [
+    "圖形是依來源編寫的概念示意，不是顯微影像、實測比例或反應時間模擬。",
+    "Bacillus 保留屬層級；B. subtilis 是結構與機制的研究例子，不能自動改稱 B. cereus。",
+    "來源中不同壓力、菌株與狀態的觀察需分開；這裡不計算病原存活率或食品安全。",
+    "Gram 顏色不直接建立物種、存活、毒素或污染來源；原食品的細胞狀態與比例仍須其他證據。"
+  ],
+  "sourcePackets": [
+    {
+      "path": "output/micro-cell-evidence-2026-10-13/gram-sources/packet-final.json",
+      "sha256": "216c0cd1672a8b2ca0c90ec63a6ddacffb009ce5b87b24cb388292d21afc3e0e"
+    },
+    {
+      "path": "output/micro-cell-evidence-2026-10-13/source-curriculum/spore-source-packet-final.json",
+      "sha256": "abc328730e47c3d7b30b8578d1f7bede1e1c1e14dc8807b7d661d8cd70e6f0b6"
+    }
+  ]
+}

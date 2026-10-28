@@ -1,0 +1,353 @@
+{
+  "status": "PASS",
+  "routes": 3,
+  "branches": 3,
+  "states": 15,
+  "moves": 12,
+  "allStateAtoms": 52,
+  "allStateFormula": "C12H27O13+",
+  "allStateCharge": 1,
+  "rdkitVersion": "2026.03.6",
+  "isTrajectory": false,
+  "checks": [
+    {
+      "reactionId": "maltose-hydrolysis",
+      "status": "PASS",
+      "states": 5,
+      "moves": 4,
+      "startingModel": "maltose",
+      "startingInchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11+,12-/m1/s1",
+      "startingGraphMatchesExistingModel": true,
+      "mapping": {
+        "cleavageCarbon": "AC1",
+        "donorRingOxygen": "AO5",
+        "bridgeOxygen": "BO4",
+        "bridgeRetainedCarbon": "BC4",
+        "attackingWaterOxygen": "Ow",
+        "acidCarrierOxygen": "Osol",
+        "sourceAssetAtomIds": {
+          "AC1": "C6",
+          "AC2": "C5",
+          "AC3": "C4",
+          "AC4": "C3",
+          "AC5": "C2",
+          "AC6": "C1",
+          "AO2": "O8",
+          "AO3": "O9",
+          "AO4": "O10",
+          "AO5": "O1",
+          "AO6": "O11",
+          "BC1": "C9",
+          "BC2": "C10",
+          "BC3": "C11",
+          "BC4": "C7",
+          "BC5": "C8",
+          "BC6": "C12",
+          "BO1": "O6",
+          "BO2": "O5",
+          "BO3": "O4",
+          "BO4": "O2",
+          "BO5": "O3",
+          "BO6": "O7"
+        }
+      },
+      "selectedEndpoints": [
+        {
+          "fragmentContaining": "AC3",
+          "modelId": "glucose-alpha",
+          "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1",
+          "matchesExistingModel": true
+        },
+        {
+          "fragmentContaining": "BC3",
+          "modelId": "glucose-alpha",
+          "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1",
+          "matchesExistingModel": true
+        }
+      ],
+      "stateChecks": [
+        {
+          "stateId": "maltose-hydrolysis-acid-state-0",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.92057
+        },
+        {
+          "stateId": "maltose-hydrolysis-acid-state-1",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.815396
+        },
+        {
+          "stateId": "maltose-hydrolysis-acid-state-2",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.236062
+        },
+        {
+          "stateId": "maltose-hydrolysis-acid-state-3",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.226086
+        },
+        {
+          "stateId": "maltose-hydrolysis-acid-state-4",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.262623
+        }
+      ]
+    },
+    {
+      "reactionId": "lactose-hydrolysis",
+      "status": "PASS",
+      "states": 5,
+      "moves": 4,
+      "startingModel": "lactose",
+      "startingInchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5+,6+,7-,8-,9-,10-,11-,12+/m1/s1",
+      "startingGraphMatchesExistingModel": true,
+      "mapping": {
+        "cleavageCarbon": "AC1",
+        "donorRingOxygen": "AO5",
+        "bridgeOxygen": "BO4",
+        "bridgeRetainedCarbon": "BC4",
+        "attackingWaterOxygen": "Ow",
+        "acidCarrierOxygen": "Osol",
+        "sourceAssetAtomIds": {
+          "AC2": "C5",
+          "AC3": "C4",
+          "AC4": "C3",
+          "AC5": "C2",
+          "AC6": "C1",
+          "AC1": "C6",
+          "AO2": "O8",
+          "AO3": "O9",
+          "AO4": "O10",
+          "AO5": "O1",
+          "AO6": "O11",
+          "BC2": "C10",
+          "BC3": "C11",
+          "BC4": "C7",
+          "BC5": "C8",
+          "BC6": "C12",
+          "BC1": "C9",
+          "BO1": "O6",
+          "BO2": "O5",
+          "BO3": "O4",
+          "BO4": "O2",
+          "BO5": "O3",
+          "BO6": "O7"
+        }
+      },
+      "selectedEndpoints": [
+        {
+          "fragmentContaining": "AC3",
+          "modelId": "galactose-beta",
+          "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3+,4+,5-,6-/m1/s1",
+          "matchesExistingModel": true
+        },
+        {
+          "fragmentContaining": "BC3",
+          "modelId": "glucose-beta",
+          "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6-/m1/s1",
+          "matchesExistingModel": true
+        }
+      ],
+      "stateChecks": [
+        {
+          "stateId": "lactose-hydrolysis-acid-state-0",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.538692
+        },
+        {
+          "stateId": "lactose-hydrolysis-acid-state-1",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.883084
+        },
+        {
+          "stateId": "lactose-hydrolysis-acid-state-2",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.246413
+        },
+        {
+          "stateId": "lactose-hydrolysis-acid-state-3",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.349911
+        },
+        {
+          "stateId": "lactose-hydrolysis-acid-state-4",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.428773
+        }
+      ]
+    },
+    {
+      "reactionId": "sucrose-inversion",
+      "status": "PASS",
+      "states": 5,
+      "moves": 4,
+      "startingModel": "sucrose",
+      "startingInchi": "InChI=1S/C12H22O11/c13-1-4-6(16)8(18)9(19)11(21-4)23-12(3-15)10(20)7(17)5(2-14)22-12/h4-11,13-20H,1-3H2/t4-,5-,6-,7-,8+,9-,10+,11-,12+/m1/s1",
+      "startingGraphMatchesExistingModel": true,
+      "mapping": {
+        "cleavageCarbon": "AC2",
+        "donorRingOxygen": "AO5",
+        "bridgeOxygen": "BO1",
+        "bridgeRetainedCarbon": "BC1",
+        "attackingWaterOxygen": "Ow",
+        "acidCarrierOxygen": "Osol",
+        "sourceAssetAtomIds": {
+          "AC1": "C12",
+          "AC2": "C7",
+          "AC3": "C8",
+          "AC4": "C9",
+          "AC5": "C10",
+          "AC6": "C11",
+          "AO1": "O7",
+          "AO3": "O6",
+          "AO4": "O5",
+          "AO5": "O3",
+          "AO6": "O4",
+          "BC1": "C6",
+          "BC2": "C5",
+          "BC3": "C4",
+          "BC4": "C3",
+          "BC5": "C2",
+          "BC6": "C1",
+          "BO1": "O2",
+          "BO2": "O8",
+          "BO3": "O9",
+          "BO4": "O10",
+          "BO5": "O1",
+          "BO6": "O11"
+        }
+      },
+      "selectedEndpoints": [
+        {
+          "fragmentContaining": "AC3",
+          "modelId": "fructose-furanose",
+          "inchi": "InChI=1S/C6H12O6/c7-1-3-4(9)5(10)6(11,2-8)12-3/h3-5,7-11H,1-2H2/t3-,4-,5+,6-/m1/s1",
+          "matchesExistingModel": true
+        },
+        {
+          "fragmentContaining": "BC3",
+          "modelId": "glucose-alpha",
+          "inchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1",
+          "matchesExistingModel": true
+        }
+      ],
+      "stateChecks": [
+        {
+          "stateId": "sucrose-inversion-acid-state-0",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.92057
+        },
+        {
+          "stateId": "sucrose-inversion-acid-state-1",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.434327
+        },
+        {
+          "stateId": "sucrose-inversion-acid-state-2",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.699858
+        },
+        {
+          "stateId": "sucrose-inversion-acid-state-3",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.516935
+        },
+        {
+          "stateId": "sucrose-inversion-acid-state-4",
+          "atoms": 52,
+          "formula": "C12H27O13+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.584005
+        }
+      ]
+    }
+  ]
+}

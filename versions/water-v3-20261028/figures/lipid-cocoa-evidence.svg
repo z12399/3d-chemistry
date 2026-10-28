@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">同為 V 型，彎曲模數仍可不同</title>
+<desc id="desc">兩種巧克力處理都判為 V 型，刊載彎曲模數分別為 74.7 和 36.6；晶型不能替代機械量測。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">同為 V 型，彎曲模數仍可不同</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">同款 90% 黑巧克力：原商售品與無添加重結晶</tspan></text>
+<rect x="30" y="105" width="300" height="265" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180" y="140" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">原商售品</tspan></text>
+<rect x="95" y="162" width="170" height="60" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="180.0" y="199.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">判為 V 型</tspan></text>
+<path d="M93 272L267 272" fill="none" stroke="#b4692e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M102 296L116 279L130 296Z" fill="#f6f7f8" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M230 296L244 279L258 296Z" fill="#f6f7f8" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M180 238L180 259" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-muted)"/>
+<text x="180" y="338" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">Eᵦ 均值 74.7 N/mm²</tspan></text>
+<rect x="390" y="105" width="300" height="265" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540" y="140" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="540" dy="0">無添加重結晶</tspan></text>
+<rect x="455" y="162" width="170" height="60" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="540.0" y="199.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">判為 V 型</tspan></text>
+<path d="M453 272L627 272" fill="none" stroke="#b4692e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M462 296L476 279L490 296Z" fill="#f6f7f8" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M590 296L604 279L618 296Z" fill="#f6f7f8" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M540 238L540 259" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-muted)"/>
+<text x="540" y="338" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="540" dy="0">Eᵦ 均值 36.6 N/mm²</tspan></text>
+<text x="30" y="425" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">晶型是排列資訊；Eᵦ 是指定方法下的彈性彎曲模數。</tspan><tspan x="30" dy="25">顯著性讀同列統計字母；未顯著不等於等效或口感一樣。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

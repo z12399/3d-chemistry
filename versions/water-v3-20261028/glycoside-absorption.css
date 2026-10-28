@@ -1,0 +1,76 @@
+.glycoside-lab{--ga-ink:#1c2732;--ga-muted:#53606d;--ga-teal:#14665d;--ga-pale:#e7f1ee;--ga-line:#dfe4e8;box-sizing:border-box;width:100%;max-width:100%;min-width:0;padding:18px;border:1px solid var(--ga-line);border-radius:14px;background:#fff;color:var(--ga-ink);font-size:15px;line-height:1.65;overflow-wrap:anywhere}
+.glycoside-lab *{box-sizing:border-box;min-width:0}
+.glycoside-lab [hidden]{display:none!important}
+.glycoside-lab h3{margin:2px 0 8px;font-size:22px;line-height:1.45}
+.glycoside-lab h4{margin:0 0 10px;font-size:16px;line-height:1.5}
+.glycoside-lab p{margin:8px 0 12px}
+.glycoside-lab .ga-kicker{margin:0;font-size:13px;font-weight:700;color:var(--ga-teal)}
+.glycoside-lab .ga-head>p:last-child{color:var(--ga-muted)}
+.glycoside-lab button,.glycoside-lab select,.glycoside-lab textarea{font:inherit;color:inherit;max-width:100%}
+.glycoside-lab button{min-height:36px;padding:7px 13px;border:1px solid var(--ga-line);border-radius:8px;background:#fff;cursor:pointer;white-space:normal;line-height:1.5;text-align:center}
+.glycoside-lab button:hover{border-color:var(--ga-teal);background:var(--ga-pale)}
+.glycoside-lab button:disabled{cursor:default;color:var(--ga-muted);background:#f6f7f8}
+.glycoside-lab :is(button,select,textarea,input,summary):focus-visible{outline:2px solid var(--ga-teal);outline-offset:3px}
+.glycoside-lab .ga-view-switch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:18px 0}
+.glycoside-lab .ga-view-switch button[aria-pressed=true]{color:var(--ga-teal);background:var(--ga-pale);border-color:var(--ga-teal);font-weight:700}
+.glycoside-lab .ga-control{display:grid;gap:6px;margin:14px 0;font-weight:600}
+.glycoside-lab select{display:block;width:100%;min-height:40px;padding:7px 30px 7px 10px;background:#fff;border:1px solid #aeb9c1;border-radius:7px;font-size:14px}
+.glycoside-lab textarea{display:block;width:100%;resize:vertical;min-height:96px;padding:10px;border:1px solid #aeb9c1;border-radius:8px;font-weight:400;line-height:1.6}
+.glycoside-lab fieldset{margin:14px 0;padding:10px 12px 13px;border:1px solid var(--ga-line);border-radius:9px}
+.glycoside-lab legend{max-width:100%;padding:0 5px;font-weight:600;font-size:14px}
+.glycoside-lab .ga-phase label>input[type=radio],.glycoside-lab label.ga-choice>input[type=radio]{flex:0 0 16px;width:16px;min-width:16px;max-width:16px;height:16px;min-height:16px;padding:0;border:0;background:transparent;margin:3px 7px 0 0;accent-color:var(--ga-teal)}
+.glycoside-lab .ga-phase{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}
+.glycoside-lab .ga-phase label{display:flex;flex-direction:row;align-items:center;width:100%;min-height:36px;cursor:pointer;font-size:14px}
+.glycoside-lab .ga-phase label>span{flex:1 1 auto;white-space:normal}
+.glycoside-lab .ga-phase label>input[type=radio]{margin-top:0}
+.glycoside-lab .ga-result-title{margin:18px 0 14px;color:var(--ga-teal);font-size:17px;font-weight:700;line-height:1.55}
+.glycoside-lab .ga-reaction{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.glycoside-lab .ga-reaction-card{padding:15px 12px;border:1px solid var(--ga-line);border-radius:10px;background:#f6f7f8}
+.glycoside-lab .ga-reaction-card p{margin:12px 0 0;font-size:14px;color:var(--ga-muted)}
+.glycoside-lab .ga-after{background:var(--ga-pale)}
+.glycoside-lab .ga-molecule{display:flex;align-items:center;justify-content:flex-start;gap:4px;max-width:100%;min-height:40px;font-size:16px;white-space:nowrap}
+.glycoside-lab .ga-token{display:inline-flex;justify-content:center;align-items:center;flex:0 0 auto;min-width:34px;min-height:34px;padding:4px 6px;background:#fff;border:2px solid var(--ga-teal);border-radius:9px;font-weight:600;line-height:1.25}
+.glycoside-lab .ga-q{border-radius:50%;min-width:36px;min-height:36px;color:var(--ga-teal)}
+.glycoside-lab .ga-sugar{border-color:#6f8fb5}
+.glycoside-lab .ga-link{flex:0 0 auto;font-size:16px;letter-spacing:0;color:var(--ga-muted)}
+.glycoside-lab .ga-legend,.glycoside-lab .ga-chart-note,.glycoside-lab small{font-size:13px;color:var(--ga-muted);line-height:1.6}
+.glycoside-lab .ga-boundary{padding:10px 12px;border-left:3px solid var(--ga-teal);background:var(--ga-pale);font-size:14px}
+.glycoside-lab .ga-detail{margin:15px 0 0;padding-top:10px;border-top:1px solid var(--ga-line)}
+.glycoside-lab .ga-detail>summary{min-height:36px;padding:6px 2px;color:var(--ga-teal);font-weight:600;font-size:14px;cursor:pointer}
+.glycoside-lab .ga-detail>p,.glycoside-lab .ga-detail>ul{font-size:14px}
+.glycoside-lab .ga-detail ul{padding-left:22px}
+.glycoside-lab a{color:var(--ga-teal);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
+.glycoside-lab .ga-compartments{margin:12px 0;border:1px solid var(--ga-line);border-radius:8px;overflow:hidden;font-size:14px}
+.glycoside-lab .ga-compartments>div{padding:12px 14px}
+.glycoside-lab .ga-compartments strong{color:var(--ga-teal)}
+.glycoside-lab .ga-compartments p{margin:5px 0 0}
+.glycoside-lab .ga-brush-border{border-top:3px double var(--ga-teal);border-bottom:3px double var(--ga-teal);background:var(--ga-pale);font-size:13px;font-weight:600;text-align:center}
+.glycoside-lab .ga-bars{list-style:none;margin:0;padding:0}
+.glycoside-lab .ga-bars li{margin:0 0 15px}
+.glycoside-lab .ga-bar-label{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 10px;margin-bottom:5px;font-size:14px}
+.glycoside-lab .ga-bar-label span{font-variant-numeric:tabular-nums}
+.glycoside-lab .ga-bar-track{height:14px;border-radius:4px;background:#f0f3f4;overflow:hidden}
+.glycoside-lab .ga-bar-track>span{display:block;height:100%;background:var(--ga-teal);border-radius:4px}
+.glycoside-lab .ga-table{width:100%;max-width:100%;table-layout:fixed;border-collapse:collapse;margin:14px 0;font-size:14px;font-variant-numeric:tabular-nums}
+.glycoside-lab .ga-table caption{text-align:left;font-size:13px;color:var(--ga-muted);margin-bottom:7px}
+.glycoside-lab .ga-table th,.glycoside-lab .ga-table td{padding:9px 7px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ga-line);overflow-wrap:anywhere;word-break:normal}
+.glycoside-lab .ga-table thead th{background:#f6f7f8;font-size:13px;line-height:1.5}
+.glycoside-lab .ga-table tbody th{font-weight:600}
+.glycoside-lab .ga-table small{display:block;font-size:13px;font-weight:400}
+.glycoside-lab .ga-col-food{width:27%}.glycoside-lab .ga-col-dose{width:28%}.glycoside-lab .ga-col-value{width:45%}
+.glycoside-lab .ga-formula{font-size:14px;padding:10px;background:#f6f7f8;border-radius:8px}
+.glycoside-lab .ga-measurement{font-size:14px;color:var(--ga-muted)}
+.glycoside-lab .ga-choice{display:flex;align-items:flex-start;gap:2px;min-height:34px;padding:7px 0;font-size:14px;cursor:pointer}
+.glycoside-lab .ga-choice span{flex:1 1 auto}
+.glycoside-lab .ga-question button{margin-top:8px;font-size:14px}
+.glycoside-lab .ga-feedback:empty{display:none}
+.glycoside-lab .ga-feedback{padding:9px 11px;margin-top:12px;background:var(--ga-pale);border-radius:7px;font-size:14px}
+.glycoside-lab .ga-feedback p{margin:4px 0 9px}
+.glycoside-lab .ga-feedback .ga-answer-result{font-weight:600;color:var(--ga-teal)}
+.glycoside-lab .ga-answer-history{font-size:13px;color:var(--ga-muted)}
+.glycoside-lab .ga-save{display:flex;flex-wrap:wrap;align-items:center;gap:7px 12px;margin-top:14px}
+.glycoside-lab .ga-save button{background:var(--ga-teal);color:#fff;border-color:var(--ga-teal);font-size:14px}
+.glycoside-lab .ga-save button:disabled{background:#f6f7f8;color:var(--ga-muted);border-color:var(--ga-line)}
+.glycoside-lab [data-ga-save-status]{font-size:13px;margin:0;flex:1 1 170px}
+@media(max-width:760px){.glycoside-lab .ga-reaction{grid-template-columns:1fr}.glycoside-lab .ga-reaction-card{padding:13px}.glycoside-lab .ga-molecule{justify-content:center}}
+@media(max-width:420px){.glycoside-lab{padding:12px;font-size:14px}.glycoside-lab h3{font-size:20px}.glycoside-lab .ga-view-switch{gap:6px}.glycoside-lab .ga-view-switch button{padding:7px 5px;font-size:14px}.glycoside-lab .ga-table{font-size:13px}.glycoside-lab .ga-table th,.glycoside-lab .ga-table td{padding:8px 4px}.glycoside-lab fieldset{padding:8px}.glycoside-lab .ga-molecule{gap:3px}.glycoside-lab .ga-token{min-width:30px;padding:4px}.glycoside-lab .ga-link{font-size:16px}.glycoside-lab .ga-save button{width:100%}}

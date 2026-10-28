@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">多種作用共同形成蛋白網絡</title>
+<desc id="figure-desc">多個蛋白分子以概念連線形成網絡；列出可參與的非共價與某些共價連接。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">多種作用共同形成蛋白網絡</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">二硫鍵只是其中一種；不同系統使用的機制不同</tspan></text>
+<path d="M 96 158 L 261 153" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 261 153 L 384 232" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 384 232 L 223 290" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 223 290 L 81 291" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 81 291 L 96 158" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 96 158 L 223 290" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 261 153 L 223 290" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<circle cx="96" cy="158" r="31" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 74 162 C 66 130 114 133 114 154 C 109 179 79 176 86 156 C 94 142 121 167 117 178" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="261" cy="153" r="31" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 239 157 C 231 125 279 128 279 149 C 274 174 244 171 251 151 C 259 137 286 162 282 173" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="384" cy="232" r="31" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 362 236 C 354 204 402 207 402 228 C 397 253 367 250 374 230 C 382 216 409 241 405 252" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="223" cy="290" r="31" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 201 294 C 193 262 241 265 241 286 C 236 311 206 308 213 288 C 221 274 248 299 244 310" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="81" cy="291" r="31" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 59 295 C 51 263 99 266 99 287 C 94 312 64 309 71 289 C 79 275 106 300 102 311" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="509" y="138" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="509" dy="0">可參與的作用</tspan></text>
+<path d="M 463 172 L 487 172" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<text x="509" y="179" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="509" dy="0">疏水作用</tspan></text>
+<path d="M 463 211 L 487 211" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<text x="509" y="218" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="509" dy="0">氫鍵</tspan></text>
+<path d="M 463 250 L 487 250" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<text x="509" y="257" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="509" dy="0">靜電作用</tspan></text>
+<path d="M 463 289 L 487 289" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<text x="509" y="296" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="509" dy="0">某些共價連接</tspan></text>
+<text x="46" y="355" font-size="18" fill="#53606d" text-anchor="start"><tspan x="46" dy="0">連線僅表示分子間作用的網絡概念</tspan></text>
+<rect x="35" y="379" width="650" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="405" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">適當系統中，可能發生二硫鍵交換</tspan></text>
+<text x="360" y="434" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">R–S⁻ + R′–S–S–R″ → R–S–S–R′ + R″–S⁻</tspan></text>
+<text x="32" y="472" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">非共價作用也能支撐網絡。</tspan><tspan x="32" dy="25">配方與加工條件決定結果。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

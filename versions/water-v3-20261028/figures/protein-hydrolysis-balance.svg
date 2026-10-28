@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">切兩個肽鍵：併入兩份水</title>
+<desc id="figure-desc">三肽兩個鍵各併入一個水，完全水解得到三段；產品總質量包括加入的水。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">切兩個肽鍵：併入兩份水</tspan></text>
+<rect x="65" y="150" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="140.0" y="189.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="140.0" dy="0">Ala</tspan></text>
+<rect x="285" y="150" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="189.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Gly</tspan></text>
+<rect x="505" y="150" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="580.0" y="189.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="580.0" dy="0">Ser</tspan></text>
+<path d="M 215 182 L 285 182" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="250.0" y="114" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="250.0" dy="0">H₂O</tspan></text>
+<path d="M 250.0 124 L 250.0 163" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 435 182 L 505 182" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470.0" y="114" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="470.0" dy="0">H₂O</tspan></text>
+<path d="M 470.0 124 L 470.0 163" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="360" y="254" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">三個殘基，兩個肽鍵</tspan></text>
+<path d="M 360 275 L 360 320" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="65" y="335" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="140.0" y="374.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="140.0" dy="0">Ala</tspan></text>
+<rect x="285" y="335" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="374.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Gly</tspan></text>
+<rect x="505" y="335" width="150" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="580.0" y="374.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="580.0" dy="0">Ser</tspan></text>
+<text x="250" y="376" font-size="26" fill="#1c2732" text-anchor="middle"><tspan x="250" dy="0">＋</tspan></text>
+<text x="470" y="376" font-size="26" fill="#1c2732" text-anchor="middle"><tspan x="470" dy="0">＋</tspan></text>
+<text x="360" y="447" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">原肽質量＋併入的水＝水解產物總質量</tspan></text>
+<text x="32" y="485" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">限未交聯直鏈：切 k 個鍵，得到 k＋1 段。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

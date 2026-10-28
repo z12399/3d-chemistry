@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 590" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">噬菌體：進入之後有不同路徑</title>
+<desc id="figure-desc">噬菌體感染細菌：吸附受體、注入 DNA，溶菌循環利用宿主機制複製並組裝新粒子後裂解細胞釋出；溶原循環則把基因體整合進宿主並隨宿主分裂傳承。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="590" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">噬菌體：進入之後有不同路徑</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">圖追蹤基因體與子代，不把 DNA 訊號當感染性</tspan></text>
+<rect x="32" y="120" width="160" height="80" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="112.0" y="167.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="112.0" dy="0">吸附受體</tspan></text>
+<rect x="280" y="120" width="160" height="80" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="167.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">注入 DNA</tspan></text>
+<rect x="528" y="120" width="160" height="80" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="608.0" y="167.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="608.0" dy="0">宿主內基因體</tspan></text>
+<path d="M 202 160 L 270 160" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 450 160 L 518 160" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 608 210 L 608 235 L 190 235 L 190 265" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 608 235 L 550 235 L 550 265" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="190" y="294" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="190" dy="0">所選溶菌路徑</tspan></text>
+<text x="550" y="294" font-size="21" fill="#6f8fb5" text-anchor="middle"><tspan x="550" dy="0">所選溶原路徑</tspan></text>
+<rect x="50" y="317" width="280" height="78" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190.0" y="349.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="190.0" dy="0">複製與部件合成</tspan><tspan x="190.0" dy="28">組裝新粒子</tspan></text>
+<rect x="410" y="317" width="280" height="78" rx="14" fill="#f6f7f8" stroke="#6f8fb5" stroke-width="2"/>
+<text x="550.0" y="349.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="550.0" dy="0">整合為前噬菌體</tspan><tspan x="550.0" dy="28">位於宿主染色體</tspan></text>
+<path d="M 190 405 L 190 440" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 550 405 L 550 440" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<rect x="50" y="450" width="280" height="76" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190.0" y="481.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="190.0" dy="0">裂解宿主</tspan><tspan x="190.0" dy="28">釋出新粒子</tspan></text>
+<rect x="410" y="450" width="280" height="76" rx="14" fill="#f6f7f8" stroke="#6f8fb5" stroke-width="2"/>
+<text x="550.0" y="481.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="550.0" dy="0">隨染色體複製</tspan><tspan x="550.0" dy="28">傳給子細胞</tspan></text>
+<text x="32" y="566" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">吸附、DNA、組裝、感染性與新生來源各需證據。</tspan></text>
+<text x="688" y="572" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

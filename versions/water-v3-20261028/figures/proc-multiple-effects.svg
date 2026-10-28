@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">多效蒸發：熱逐級再利用</title>
+<desc id="figure-desc">前效產生的蒸氣在後效凝結並供熱；後效通常降低壓力和沸點。效數不能直接當成實際蒸汽經濟性。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">多效蒸發：熱逐級再利用</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">取相鄰的前效與後效，觀察熱的重用</tspan></text>
+<rect x="115" y="200" width="180" height="140" rx="10" fill="#f6f7f8" stroke="#53606d" stroke-width="2"/>
+<rect x="125" y="278" width="160" height="50" rx="4" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="205" y="239" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="205" dy="0">前效</tspan></text>
+<rect x="475" y="245" width="180" height="140" rx="10" fill="#f6f7f8" stroke="#53606d" stroke-width="2"/>
+<rect x="485" y="323" width="160" height="50" rx="4" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="565" y="284" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="565" dy="0">後效</tspan></text>
+<path d="M 32 290 L 105 290" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="32" y="217" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="32" dy="0">外供</tspan><tspan x="32" dy="25">新鮮蒸汽</tspan></text>
+<path d="M 205 194 L 205 151 L 430 151 L 430 315 L 465 315" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="318" y="129" font-size="20" fill="#6f8fb5" text-anchor="middle"><tspan x="318" dy="0">前效產生的蒸氣</tspan></text>
+<text x="363" y="267" font-size="20" fill="#6f8fb5" text-anchor="middle"><tspan x="363" dy="0">在後效</tspan><tspan x="363" dy="28">凝結供熱</tspan></text>
+<text x="32" y="415" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">後效通常降低壓力與沸點</tspan></text>
+<text x="32" y="452" font-size="23" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">蒸汽經濟性 = ΣVᵢ / S</tspan></text>
+<text x="32" y="485" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">效數不會自動等於實際蒸汽經濟性。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

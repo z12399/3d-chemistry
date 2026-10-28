@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="600" viewBox="0 0 720 600" role="img" aria-labelledby="bc-title bc-desc">
+  <title id="bc-title">褐變要比較入口與控制位置</title>
+  <desc id="bc-desc">概念示意圖：四列示意依次為 PPO 催化酚類與氧生成醌、梅納的糖羰基與胺基入口、糖自身的熱轉化、抗壞血酸的氧化與非氧化降解。每列標示不同的控制界線，並提醒色澤不能唯一判斷機制。</desc>
+  <style>text{font-family:'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif;font-size:16px;fill:#1c2732}.title{font-size:24px;font-weight:700}.head{font-size:18px;font-weight:700}.muted{fill:#53606d}.teal{fill:#14665d}.bold{font-weight:700}.panel{fill:#f6f7f8;stroke:#dfe4e8;stroke-width:2}.node{fill:#e7f1ee;stroke:#bdd4cd;stroke-width:1.5}.arrow{stroke:#53606d;stroke-width:2;fill:none;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#53606d"/></marker></defs>
+  <rect width="720" height="600" fill="#fff"/>
+  <text x="28" y="36" class="title">褐變要比較入口與控制位置</text>
+  <text x="28" y="66" class="muted">共同的褐色結果，不表示同一種反應機制。</text>
+
+  <rect x="28" y="88" width="664" height="108" rx="11" class="panel"/>
+  <text x="44" y="119" class="head teal">酵素性</text><text x="44" y="147">PPO 入口</text>
+  <rect x="166" y="102" width="160" height="50" rx="7" class="node"/>
+  <text x="246" y="123" text-anchor="middle">PPO＋合適酚類</text><text x="246" y="144" text-anchor="middle">＋O₂，且能接觸</text>
+  <path d="M331 127 H348" class="arrow"/><rect x="356" y="102" width="125" height="50" rx="7" class="node"/><text x="418.5" y="133" text-anchor="middle">形成醌</text>
+  <path d="M486 127 H503" class="arrow"/><rect x="511" y="102" width="165" height="50" rx="7" class="node"/><text x="593.5" y="123" text-anchor="middle">後續反應</text><text x="593.5" y="144" text-anchor="middle">可形成色素</text>
+  <text x="166" y="179" class="muted">先失活可阻斷新醌；已有醌仍可能接續。</text>
+
+  <rect x="28" y="207" width="664" height="101" rx="11" class="panel"/>
+  <text x="44" y="238" class="head teal">非酵素</text><text x="44" y="265">梅納</text>
+  <rect x="166" y="220" width="160" height="42" rx="7" class="node"/><text x="246" y="247" text-anchor="middle">糖羰基＋胺基</text>
+  <path d="M331 241 H348" class="arrow"/><rect x="356" y="220" width="125" height="42" rx="7" class="node"/><text x="418.5" y="247" text-anchor="middle">縮合／重排</text>
+  <path d="M486 241 H503" class="arrow"/><rect x="511" y="220" width="165" height="42" rx="7" class="node"/><text x="593.5" y="247" text-anchor="middle">後續反應網路</text>
+  <text x="166" y="290" class="muted">不要求 PPO；較低溫儲存也可能有早期反應。</text>
+
+  <rect x="28" y="319" width="664" height="101" rx="11" class="panel"/>
+  <text x="44" y="350" class="head teal">非酵素</text><text x="44" y="377">焦糖化</text>
+  <rect x="166" y="332" width="160" height="42" rx="7" class="node"/><text x="246" y="359" text-anchor="middle">糖＋熱歷程</text>
+  <path d="M331 353 H348" class="arrow"/><rect x="356" y="332" width="125" height="42" rx="7" class="node"/><text x="418.5" y="359" text-anchor="middle">脫水／裂解</text>
+  <path d="M486 353 H503" class="arrow"/><rect x="511" y="332" width="165" height="42" rx="7" class="node"/><text x="593.5" y="359" text-anchor="middle">縮合等多路轉化</text>
+  <text x="166" y="402" class="muted">不要求胺基；時間、溫度與配方須一起看。</text>
+
+  <rect x="28" y="431" width="664" height="101" rx="11" class="panel"/>
+  <text x="44" y="462" class="head teal">非酵素</text><text x="44" y="489">AA 降解</text>
+  <rect x="166" y="444" width="160" height="42" rx="7" class="node"/><text x="246" y="471" text-anchor="middle">AA＋相應條件</text>
+  <path d="M331 465 H348" class="arrow"/><rect x="356" y="444" width="125" height="42" rx="7" class="node"/><text x="418.5" y="471" text-anchor="middle">氧化／非氧化</text>
+  <path d="M486 465 H503" class="arrow"/><rect x="511" y="444" width="165" height="42" rx="7" class="node"/><text x="593.5" y="471" text-anchor="middle">下游反應性產物</text>
+  <text x="166" y="514" class="muted">酸熱下可有無氧分支；AA 減少不等於褐色量。</text>
+  <text x="28" y="562" class="bold">控制一條入口，不等於逆轉已有色素或排除其他路徑。</text>
+  <text x="28" y="587" class="muted">AA＝抗壞血酸。代表路徑示意；箭頭不表示速率、產率或唯一機制。</text>
+</svg>
