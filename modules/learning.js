@@ -1084,6 +1084,7 @@ export class LearningStudio {
         if(this.recordLesson(lesson.id,{answer:undefined})===null)return;
         this.root.querySelectorAll('[data-quiz-answer]').forEach(b=>b.setAttribute('aria-pressed','false'));
         $('#learning-answer').innerHTML='';this.storageStatus();
+        this.root.querySelector('[data-quiz-answer]')?.focus();
       };
       if ($('#learning-note')) $('#learning-note').oninput = e => {
         if(focusedCarb){if(liveCarb())this.saveCarbNote(e.target.value);return;}
