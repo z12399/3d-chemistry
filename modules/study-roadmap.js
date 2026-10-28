@@ -13,7 +13,7 @@ export function roadmapLesson(ref,courses={}){
  return found.length===1?{...found[0],href:lessonPath(found[0].topic,found[0].lesson,'understand',subject.root)}:null;
 }
 function remedial(ref,courses,pathId=null){
- const found=roadmapLesson(ref,courses),href=found&&pathId?decoratePath(found.href,pathId,courses):found?.href;
+ const found=roadmapLesson(ref,courses),href=found&&pathId==='juice-concentration'&&ref.subject==='processing'&&ref.lessonId==='proc-mass-basis'&&found.href==='#process/proc-balances/proc-mass-basis/understand'?found.href+'?prep=juice-mass-basis':found&&pathId?decoratePath(found.href,pathId,courses):found?.href;
  return found?`<a href="${esc(href)}">${esc(found.lesson.title)}</a>：${esc(ref.why)}`:`<span>補救內容暫未載入：${esc(ref.why)}</span>`;
 }
 export function renderStudyRoadmap(courses={}){

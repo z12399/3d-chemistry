@@ -139,6 +139,14 @@ export const PROCESS_PREREQUISITE_REMEDIES=Object.freeze([
     "why": "總質量包含乾物與水；依題設固定乾物，才能以總質量減乾物求水量。",
     "reason": "The total contains dry solids and water; subtract the specified fixed dry solids to obtain remaining water.",
     "returnHref": "#process/proc-freezing/proc-freeze-drying/observe"
+  },
+  {
+    "token":"juice-mass-basis", "diagnostic":"juice-mass-basis", "subject":"processing", "branch":"juice",
+    "lessonId":"proc-mass-basis", "topicId":"proc-balances", "route":"#process/proc-balances/proc-mass-basis/understand",
+    "canonicalRoute":"#process/proc-balances/proc-mass-basis/understand", "phase":"understand", "field":"explanation", "target":"explanation", "index":1, "paragraphIndex":1,
+    "quote":"若乾燥只移除水，乾物質可作前後不變的追蹤量", "expectedQuote":"若乾燥只移除水，乾物質可作前後不變的追蹤量",
+    "why":"先辨質量分率及同一系統的進出量，再按題設檢查乾物質是否保留。",
+    "returnHref":"#paths/juice-concentration"
   }
 ].map(item=>Object.freeze(item)));
 const byToken=new Map(PROCESS_PREREQUISITE_REMEDIES.map(item=>[item.token,item]));
@@ -150,12 +158,12 @@ export function processPrerequisiteRemedyContext(hash,subject,lessonId,step){
  const delimiter=hash.indexOf('?');if(delimiter<0||hash.indexOf('?',delimiter+1)!==-1)return null;
  const canonical=hash.slice(0,delimiter),query=hash.slice(delimiter+1);if(/%(?![0-9a-f]{2})/i.test(query))return null;
  const params=new URLSearchParams(query),keys=[...params.keys()];if(keys.length!==1||keys[0]!=='prep')return null;
- const descriptor=byToken.get(params.get('prep'));return descriptor&&descriptor.route===canonical&&descriptor.lessonId===lessonId?descriptor:null;
+ const descriptor=byToken.get(params.get('prep'));if(descriptor?.token==='juice-mass-basis'&&query!=='prep=juice-mass-basis')return null;return descriptor&&descriptor.route===canonical&&descriptor.lessonId===lessonId?descriptor:null;
 }
 export function renderProcessPrerequisiteRemedyPrompt(context){
  if(!PROCESS_PREREQUISITE_REMEDIES.includes(context))return '';
- const part=context.target==='equation'?'關鍵公式':'原理說明第'+(context.index+1)+'段',branch=context.branch==='evaporation'?'真空蒸發':'凍乾';
- return '<aside class="study-remedy process-prerequisite-remedy" aria-label="加工前置概念的具體補救" data-process-prerequisite-remedy="'+escapeHtml(context.token)+'"><p><strong>這次只補'+escapeHtml(part)+'：</strong>'+escapeHtml(context.why)+'</p><p>對照「'+escapeHtml(context.expectedQuote)+'」。讀完自行說明條件，再<a href="'+escapeHtml(context.returnHref)+'">回'+branch+'原題判斷</a>；讀過段落不等於已完成遷移。</p></aside>';
+ const part=context.target==='equation'?'關鍵公式':'原理說明第'+(context.index+1)+'段',branch=context.branch==='evaporation'?'真空蒸發':context.branch==='juice'?'果汁濃縮路徑':'凍乾';
+ return '<aside class="study-remedy process-prerequisite-remedy" aria-label="加工前置概念的具體補救" data-process-prerequisite-remedy="'+escapeHtml(context.token)+'"><p><strong>這次只補'+escapeHtml(part)+'：</strong>'+escapeHtml(context.why)+'</p><p>對照「'+escapeHtml(context.expectedQuote)+'」。讀完自行說明條件，再<a href="'+escapeHtml(context.returnHref)+'">回'+branch+(context.branch==='juice'?'':'原題判斷')+'</a>；讀過段落不等於已完成遷移。</p></aside>';
 }
 const evaporationRemedies=()=>optional([
  link('evap-surface-pressure','表面蒸發：水分壓與材料界面資料')+'，以及'+link('evap-boiling-pressure','整體沸騰：外加總絕對壓力')+'，須先分清比較的是哪個壓力。',

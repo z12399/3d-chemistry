@@ -257,10 +257,11 @@ export class LearningStudio {
     if(heading){heading.tabIndex=-1;heading.focus?.({preventScroll:true});}
     if(this.foundationRemedy){
       const r=this.foundationRemedy,target=this.root.querySelector(r.target==='equation'?'[data-foundation-equation]':'[data-foundation-paragraph="'+r.index+'"]'),status=this.root.querySelector('[data-foundation-remedy-status]');
-      if(target&&typeof target.textContent==='string'&&target.textContent.includes(r.expectedQuote)){target.setAttribute?.('data-foundation-focused','true');target.tabIndex=-1;target.focus?.({preventScroll:true});target.scrollIntoView?.({block:'center',behavior:'auto'});}
+      if(target&&typeof target.textContent==='string'&&target.textContent.includes(r.expectedQuote)){target.setAttribute?.('data-foundation-focused','true');target.tabIndex=-1;target.focus?.({preventScroll:true});target.scrollIntoView?.({block:'center',behavior:'auto'});if(['juice-mass-basis','fermentation-cfu'].includes(r.token)){const epoch=this.renderEpoch;requestAnimationFrame(()=>{if(this.renderEpoch!==epoch||window.location.hash!==hash||!this.root.isConnected||!target.isConnected||!this.root.contains(target)||!target.textContent.includes(r.expectedQuote)||document.activeElement!==target)return;target.scrollIntoView?.({block:'center',behavior:'auto'});});}}
       else if(status)status.textContent='這次未能自動定位指定文字，請依上方段落與引文核對；沒有改選別段。';
     }
     if(this.thermalReturnFocus){const target=this.root.querySelector(this.route.view==='path'?'#thermal-evidence-path-lab':'#thermal-evidence-lesson-lab');if(target){target.tabIndex=-1;target.focus?.({preventScroll:true});target.scrollIntoView?.({block:'center',behavior:'auto'});}}
+    if(hash==='#paths/fermentation-evidence-chain?focus=integration'){const epoch=this.renderEpoch;requestAnimationFrame(()=>{if(this.renderEpoch!==epoch||window.location.hash!==hash||!this.root.isConnected||document.activeElement!==heading)return;const target=this.root.querySelector('#fermentation-path-practice');if(target){target.tabIndex=-1;target.focus?.({preventScroll:true});target.scrollIntoView?.({block:'start',behavior:'auto'});}});}
   }
   topbar(label = '') {
     const topic=this.route?.topic,lesson=this.route?.lesson,isLesson=this.route?.view==='lesson';
@@ -341,7 +342,8 @@ export class LearningStudio {
   foundationReturn(target,index=null) {
     const r=this.foundationRemedy;if(!r||r.target!==target||(target==='explanation'&&r.index!==index))return '';
     if(r.kind==='thermal-return')return '<p class="foundation-remedy-return">'+renderThermalRemedyReturnLink(r)+'</p>';
-    return `<p class="foundation-remedy-return"><a href="${esc(r.returnHref)}">讀完這一段，回原題診斷 →</a></p>`;
+    const destination=r.token==='juice-mass-basis'?'回果汁濃縮路徑':r.token==='fermentation-cfu'?'回發酵路徑整合練習':'回原題診斷';
+    return `<p class="foundation-remedy-return"><a href="${esc(r.returnHref)}">讀完這一段，${destination} →</a></p>`;
   }
   foundationEntry(lesson) {
     if(this.subject.id!=='chemistry')return '';

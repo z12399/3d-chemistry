@@ -67,6 +67,7 @@ export function decoratePath(canonical,pathId,courses={}){
 /** Syntactically valid unknown IDs stay explicit so the UI can show missing. */
 export function resolvePathView(hash){
   if(hash==='#paths')return {view:'paths'};
+  if(hash==='#paths/fermentation-evidence-chain?focus=integration')return {view:'path',id:'fermentation-evidence-chain'};
   if(typeof hash!=='string')return null;
   const match=hash.match(/^#paths\/([^/?#]+)$/);
   return match&&safeId(match[1])?{view:'path',id:match[1]}:null;

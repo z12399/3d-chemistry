@@ -4,7 +4,7 @@ const cfuReturn='#micro/micro-growth/micro-growth-cycle/observe';
 const dRoute='#micro/micro-control/micro-decimal-reduction/understand';
 const cfuRoute='#micro/micro-measurement/micro-plate-count/understand';
 const cfuBasisRoute='#micro/micro-measurement/micro-count-represented-sample/understand';
-const descriptor=(token,branch,route,topicId,lessonId,index,expectedQuote,why)=>Object.freeze({token,diagnostic:token,subject:'microbiology',branch,route,canonicalRoute:route,topicId,lessonId,phase:'understand',field:'explanation',target:'explanation',index,paragraphIndex:index,quote:expectedQuote,expectedQuote,why,returnHref:branch==='d-value'?dReturn:cfuReturn});
+const descriptor=(token,branch,route,topicId,lessonId,index,expectedQuote,why)=>Object.freeze({token,diagnostic:token,subject:'microbiology',branch,route,canonicalRoute:route,topicId,lessonId,phase:'understand',field:'explanation',target:'explanation',index,paragraphIndex:index,quote:expectedQuote,expectedQuote,why,returnHref:branch==='d-value'?dReturn:branch==='fermentation'?'#paths/fermentation-evidence-chain?focus=integration':cfuReturn});
 export const MICRO_FOUNDATION_REMEDIES=Object.freeze([
  descriptor('d-log-scale','d-value',dRoute,'micro-control','micro-decimal-reduction',2,'等間隔的時間在 log₁₀ 縱軸','先確定縱軸是數量或log₁₀數量。每D按當時剩餘量再留十分之一；線性數量圖的下降量不會因此每段相同。'),
  descriptor('d-conditions','d-value',dRoute,'micro-control','micro-decimal-reduction',0,'固定溫度且存活曲線可用對數直線近似','D屬於指定微生物、基質、狀態和方法。跨研究或條件改變時，先查參數是否適用，不能只靠菌名或舊D比較同一製程中的存活。'),
@@ -13,7 +13,8 @@ export const MICRO_FOUNDATION_REMEDIES=Object.freeze([
  descriptor('cfu-unit','cfu',cfuRoute,'micro-measurement','micro-plate-count',0,'一個可見菌落可能來自一個細胞','先定義培養可計數的菌落形成單位；細胞聚集可使一個CFU對應多個細胞，不能把報表數字直接改稱cell。'),
  descriptor('cfu-original-basis','cfu',cfuBasisRoute,'micro-measurement','micro-count-represented-sample',0,'以均質液的原樣等效濃度乘後續稀釋比例與記錄體積','只對題設已給定且有效的記錄換算。先把稀釋分率、受測體積與原樣品基準接起來，分清CFU/g、CFU/mL或題設相對單位；缺分母不能硬算。'),
  descriptor('cfu-recovery','cfu',cfuRoute,'micro-measurement','micro-plate-count',0,'某些仍有活性的細胞在選定方法下不形成菌落','可存活或仍有活性，與在指定方法下形成可見菌落不同。聚集、受傷、回收條件與不可培養狀態限制推論；不能只由CFU差異唯一判定死亡或增殖。'),
- descriptor('cfu-nondetection','cfu',cfuBasisRoute,'micro-measurement','micro-count-represented-sample',1,'1/M 是一個 CFU 的換算刻度','零觀察與真實濃度為零不同。一個菌落對應的報告刻度、經驗證檢出能力與統計上限是不同量，須依題設明定的報告規則作答。')
+ descriptor('cfu-nondetection','cfu',cfuBasisRoute,'micro-measurement','micro-count-represented-sample',1,'1/M 是一個 CFU 的換算刻度','零觀察與真實濃度為零不同。一個菌落對應的報告刻度、經驗證檢出能力與統計上限是不同量，須依題設明定的報告規則作答。'),
+ descriptor('fermentation-cfu','fermentation',cfuRoute,'micro-measurement','micro-plate-count',0,'一個可見菌落可能來自一個細胞','先分清指定培養條件下的 CFU、細胞及核酸訊號，再回發酵路徑判讀觀測。')
 ]);
 const byToken=new Map(MICRO_FOUNDATION_REMEDIES.map(item=>[item.token,item]));
 const esc=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -29,7 +30,7 @@ export function microFoundationRemedyContext(hash,subject,lessonId,step){
 }
 export function renderMicroFoundationRemedyPrompt(context){
  if(!MICRO_FOUNDATION_REMEDIES.includes(context))return '';
- const branch=context.branch==='d-value'?'芽孢原題':'生長曲線原題';
+ const branch=context.branch==='d-value'?'芽孢原題':context.branch==='fermentation'?'發酵路徑整合練習':'生長曲線原題';
  return '<aside class="study-remedy micro-foundation-remedy" aria-label="微生物前置概念的具體補救" data-micro-foundation-remedy="'+esc(context.token)+'"><p><strong>這次只補原理說明第'+(context.index+1)+'段：</strong>'+esc(context.why)+'</p><p>對照「'+esc(context.expectedQuote)+'」。讀後自行說明條件，再<a href="'+esc(context.returnHref)+'">回'+branch+'判斷</a>；開過段落不代表已完成遷移。</p></aside>';
 }
 const dRemedies=()=>optional([
