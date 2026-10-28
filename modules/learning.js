@@ -527,7 +527,7 @@ export class LearningStudio {
     const correct = record.answer === lesson.quiz.answer;
     const {topic} = this.route;
     const next = this.nextAction(lesson);
-    return `<div class="learning-feedback ${correct?'is-correct':''}"><strong>${correct?'✓ 這個差別抓到了。':'再想一下。'}</strong><p>${esc(lesson.quiz.explanation)}</p>${correct ? (this.pathContext||lesson.practice?'':`<a class="button-primary learning-primary" href="${esc(next.href)}">${esc(next.label)} →</a>`) : `<a href="${this.lessonPath(topic,lesson)}">回看原理 ↗</a>`}<button class="learning-retry" data-reset-answer>重新練習</button></div>`;
+    return `<div class="learning-feedback ${correct?'is-correct':''}"><strong>${correct?'✓ 這題答對了。':'再想一下。'}</strong><p>${esc(lesson.quiz.explanation)}</p>${correct ? (this.pathContext||lesson.practice?'':`<a class="button-primary learning-primary" href="${esc(next.href)}">${esc(next.label)} →</a>`) : `<a href="${this.lessonPath(topic,lesson)}">回看原理 ↗</a>`}<button class="learning-retry" data-reset-answer>重新練習</button></div>`;
   }
   sourceList(ids = []) {
     return `<ul>${ids.map(id => this.course.sources.find(s => s.id === id)).filter(s => s && /^https:\/\//.test(s.url)).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)} ↗</a><span>${esc(s.publisher || '')}</span></li>`).join('')}</ul>`;
