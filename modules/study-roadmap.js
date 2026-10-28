@@ -1,6 +1,7 @@
 import {escapeHTML as esc} from './storage.js';
 import {LEARNING_SUBJECTS} from './learning-subjects.js';
 import {lessonPath} from './learning-model.js';
+import {decoratePath} from './learning-paths-model.js';
 import {STUDY_ROADMAP,CORE_STARTS} from './study-roadmap-data.js';
 
 // Look up live identities. Missing or ambiguous material stays explicit.
@@ -11,9 +12,9 @@ export function roadmapLesson(ref,courses={}){
  const found=course.topics.flatMap(topic=>(Array.isArray(topic.lessons)?topic.lessons:[]).filter(lesson=>lesson.id===ref.lessonId).map(lesson=>({subject,topic,lesson})));
  return found.length===1?{...found[0],href:lessonPath(found[0].topic,found[0].lesson,'understand',subject.root)}:null;
 }
-function remedial(ref,courses){
- const found=roadmapLesson(ref,courses);
- return found?`<a href="${esc(found.href)}">${esc(found.lesson.title)}</a>：${esc(ref.why)}`:`<span>補救內容暫未載入：${esc(ref.why)}</span>`;
+function remedial(ref,courses,pathId=null){
+ const found=roadmapLesson(ref,courses),href=found&&pathId?decoratePath(found.href,pathId,courses):found?.href;
+ return found?`<a href="${esc(href)}">${esc(found.lesson.title)}</a>：${esc(ref.why)}`:`<span>補救內容暫未載入：${esc(ref.why)}</span>`;
 }
 export function renderStudyRoadmap(courses={}){
  return `<section class="study-roadmap" aria-labelledby="study-roadmap-title"><h2 id="study-roadmap-title">從哪裡開始？先用自己的話判斷</h2><p>已有農化背景，可先回答下面的診斷問題。能分清概念並說出條件者可直接進入遷移；不確定時，補指定單元。這裡不按點擊、看過範例或已有作答判定學會。</p><div class="study-starts">${CORE_STARTS.map(start=>{
@@ -29,9 +30,9 @@ export function renderProteinPathIntroduction(path,courses={}){
  if(path?.id!=='protein-evidence-chain')return '';
  return `<section class="study-core-intro" aria-labelledby="protein-chain-title"><h2 id="protein-chain-title">先判斷，再決定從哪一站補起</h2><p>先回答：「蛋白含量較高、凝膠較強、胺基酸供給較符合需求，能互相推出嗎？」若能各指出量測、理由與限制，可直接到<button type="button" data-protein-path-focus>整合推理與混配遷移</button>；否則沿下列六站補缺。</p><ol><li><strong>定義：</strong>題目評的是含量、營養品質，還是加工功能？</li><li><strong>條件與機制：</strong>分子結構、分析方法、蛋白分母和參考對象是否對齊？</li><li><strong>觀察與推論：</strong>組成比、消化資料與功能量測各支持到哪裡？</li><li><strong>作答：</strong>寫出判斷 → 題設與計算／理由 → 適用條件 → 尚缺的資料。</li></ol><p>下方先看一個示範，再用可選提示作答，最後進入沒有提示按鈕的新題。核對只是對照題設和自評準則，不把自由文字或3D觀看當掌握證據。</p></section>`;
 }
-export function renderStationReasoning(station,courses={}){
+export function renderStationReasoning(station,courses={},pathId=null){
  if(!station?.why)return '';
- return `<div class="study-station-reasoning"><p><strong>銜接理由：</strong>${esc(station.why)}</p><p><strong>可跳過／前進的依據：</strong>${esc(station.ready)}</p>${station.remedies?.length?`<details><summary>卡住時補哪裡？</summary><ul>${station.remedies.map(r=>`<li>${remedial(r,courses)}</li>`).join('')}</ul></details>`:''}</div>`;
+ return `<div class="study-station-reasoning"><p><strong>銜接理由：</strong>${esc(station.why)}</p><p><strong>可跳過／前進的依據：</strong>${esc(station.ready)}</p>${station.remedies?.length?`<details><summary>卡住時補哪裡？</summary><ul>${station.remedies.map(r=>`<li>${remedial(r,courses,pathId)}</li>`).join('')}</ul></details>`:''}</div>`;
 }
 
 export function renderDryingPathIntroduction(path,courses={}){
