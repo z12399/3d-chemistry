@@ -3,7 +3,7 @@ import {LESSON_PRINCIPLES,principleFor} from './lesson-principles.js';
 import {LESSON_FIGURES} from './lesson-figures.js';
 import {renderStudyGuide,renderHomeWorkbenches} from './study-guide.js';
 import {renderExamStartNavigation} from './exam-start-navigation.js';
-import {renderTopicStart} from './topic-start-navigation.js';
+import {renderTopicStart,renderTopicFollowup} from './topic-start-navigation.js';
 import {mountLactaseLab} from './lactase-lab.js';
 import {mountSugarChairLab} from './sugar-chair-lab.js';
 import {mountProteinStructureLab} from './protein-structure-lab.js';
@@ -508,7 +508,7 @@ export class LearningStudio {
       const nextLink=`<a class="${this.pathContext?'button-primary learning-primary path-next':'learning-back'}" href="${esc(next.href)}">${esc(next.label)} →</a>`;
       const original=`${enzymeEvidenceEntry}${thermalRoleEntry}${lesson.id==='micro-process-validation'?'<p class="learning-kicker">有限抽樣分支：以下僅檢查漏檢模型，不代表已掌握證據三角色。</p>':''}${this.isLactoseNote(lesson)?this.lactosePractice(lesson,record):renderPractice(lesson.practice,record.practice)}<details class="learning-quickcheck"><summary>再做一題概念辨析</summary>${this.quickCheck(lesson,record)}</details>`;
       if(lesson.id==='pigment-flavonoid-structure'&&this.subject.id==='chemistry')return "<details id=\"flavonoid-retrieval-details\" class=\"learning-example-more foundation-entry\"><summary>收起名稱與提示，獨立判讀八張結構圖</summary><p>重用本課固定代表圖，先以自己的話命名與說明結構依據，再自行核對。不是未見分子盲測；已看過與未知曝光會分別保留。原導讀與兩例遷移仍可選用。</p><div id=\"flavonoid-retrieval-lab\"></div></details>"+'<details id="flavonoid-original-practice" class="learning-example-more"><summary>原有短答與兩例近遷移（開啟會記錄參考曝光）</summary>'+original+'</details>'+nextLink;
-      return original+nextLink;
+      return original+renderTopicFollowup({subject:this.subject,topic:this.route?.topic,lesson,courses:this.courses,pathContext:this.pathContext})+nextLink;
     }
     const next=this.pathContext?this.nextAction(lesson):null;
     return this.quickCheck(lesson,record)+(next?`<a class="button-primary learning-primary path-next" href="${esc(next.href)}">${esc(next.label)} →</a>`:'');

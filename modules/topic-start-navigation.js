@@ -28,3 +28,26 @@ export function renderTopicStart({subject, topic, courses={}, rows=STUDY_ROADMAP
   }).join('');
   return `<section class="study-roadmap topic-start" aria-label="本主題建議起點"><h2>第一次讀，可從這裡開始</h2><p><a href="${esc(start.href)}">${esc(start.lesson.title)} →</a></p><p>${esc(row.why ?? '')}</p>${remedy?`<details><summary>需要時回補先備</summary><ul>${remedy}</ul></details>`:''}<p>可以依問題自由跳讀；下方編號是目錄位置，不是硬性先備順序。</p></section>`;
 }
+
+// Optional next readings complement the directory sequence; they never replace a path's next station.
+const TOPIC_FOLLOWUPS = Object.freeze({
+  carbohydrates: {start: 'carb-chair-foundations', lessons: ['carb-ring-chain']},
+  proteins: {start: 'protein-peptide-backbone', lessons: ['protein-denaturation', 'protein-networks']}
+});
+export function renderTopicFollowup({subject, topic, lesson, courses={}, pathContext=null, rows=STUDY_ROADMAP}={}) {
+  if (pathContext || subject?.id !== 'chemistry' || !safeId(topic?.id) || !safeId(lesson?.id) || !Array.isArray(rows)) return '';
+  const plan = Object.hasOwn(TOPIC_FOLLOWUPS,topic.id) ? TOPIC_FOLLOWUPS[topic.id] : null;
+  const course = courses?.chemistry;
+  if (!plan || lesson.id !== plan.start || !Array.isArray(course?.topics) ||
+      (course.routeRoot !== undefined && course.routeRoot !== LEARNING_SUBJECTS.chemistry.root) ||
+      course.topics.filter(t=>t?.id===topic.id).length !== 1) return '';
+  const matches = rows.filter(r=>r?.subject==='chemistry' && r?.topicId===topic.id);
+  if (matches.length !== 1 || matches[0].startLessonId !== plan.start) return '';
+  const start = roadmapLesson({subject:'chemistry',lessonId:plan.start},courses);
+  if (!start || start.topic.id !== topic.id) return '';
+  const links = plan.lessons.map(lessonId=>roadmapLesson({subject:'chemistry',lessonId},courses))
+    .filter(found=>found && found.topic.id===topic.id && safeId(found.topic.id) && safeId(found.lesson.id) &&
+      typeof found.lesson.title==='string' && found.lesson.title.trim())
+    .map(found=>`<li><a href="${esc(found.href)}">${esc(found.lesson.title)} →</a></li>`).join('');
+  return links ? `<aside class="study-remedy" aria-label="可選後續閱讀"><h2>接著可讀</h2><p>完成這題後，可依問題選讀；下方下一題依目錄順序。</p><ul>${links}</ul></aside>` : '';
+}
