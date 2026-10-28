@@ -1,0 +1,963 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed-frozen-source-data",
+  "aminoAcidKeys": [
+    "HIS",
+    "ILE",
+    "LEU",
+    "LYS",
+    "MET",
+    "PHE",
+    "THR",
+    "TRP",
+    "VAL",
+    "ALA",
+    "ARG",
+    "ASP",
+    "CYS",
+    "GLU",
+    "GLY",
+    "PRO",
+    "SER",
+    "TYR"
+  ],
+  "groups": [
+    "HIS",
+    "ILE",
+    "LEU",
+    "LYS",
+    "SAA",
+    "AAA",
+    "THR",
+    "TRP",
+    "VAL"
+  ],
+  "samples": [
+    {
+      "id": "tm-blanched",
+      "label": "黃粉蟲幼蟲・汆燙",
+      "taxon": "Tenebrio molitor larvae",
+      "processing": "汆燙後整蟲真空包裝，−18°C儲存；汆燙條件為至少88°C水浴90秒。",
+      "sourceId": "hammer2023",
+      "table": "Table 2",
+      "pdfPage": 7,
+      "sourceColumn": "TM blanched",
+      "aminoAcidBasis": "g_per_100g_dry_substrate",
+      "molecularBasis": "free_amino_acid_molar_mass",
+      "aminoAcids": {
+        "HIS": {
+          "mean": 1.8,
+          "sd": 0.1,
+          "sourceCell": "1.8 (±0.1)"
+        },
+        "ILE": {
+          "mean": 2.6,
+          "sd": 0.2,
+          "sourceCell": "2.6 (±0.2)"
+        },
+        "LEU": {
+          "mean": 4.2,
+          "sd": 0.1,
+          "sourceCell": "4.2 (±0.1)"
+        },
+        "LYS": {
+          "mean": 3.2,
+          "sd": 0.2,
+          "sourceCell": "3.2 (±0.2)"
+        },
+        "MET": {
+          "mean": 0.8,
+          "sd": 0.0,
+          "sourceCell": "0.8 (±0.0)"
+        },
+        "PHE": {
+          "mean": 2.2,
+          "sd": 0.1,
+          "sourceCell": "2.2 (±0.1)"
+        },
+        "THR": {
+          "mean": 2.3,
+          "sd": 0.1,
+          "sourceCell": "2.3 (±0.1)"
+        },
+        "TRP": {
+          "mean": 0.6,
+          "sd": 0.0,
+          "sourceCell": "0.6 (±0.0)"
+        },
+        "VAL": {
+          "mean": 3.8,
+          "sd": 0.1,
+          "sourceCell": "3.8 (±0.1)"
+        },
+        "ALA": {
+          "mean": 4.2,
+          "sd": 0.2,
+          "sourceCell": "4.2 (±0.2)"
+        },
+        "ARG": {
+          "mean": 3.1,
+          "sd": 0.2,
+          "sourceCell": "3.1 (±0.2)"
+        },
+        "ASP": {
+          "mean": 4.2,
+          "sd": 0.0,
+          "sourceCell": "4.2 (±0.0)"
+        },
+        "CYS": {
+          "mean": 0.6,
+          "sd": 0.0,
+          "sourceCell": "0.6 (±0.0)"
+        },
+        "GLU": {
+          "mean": 6.0,
+          "sd": 0.1,
+          "sourceCell": "6.0 (±0.1)"
+        },
+        "GLY": {
+          "mean": 3.1,
+          "sd": 0.1,
+          "sourceCell": "3.1 (±0.1)"
+        },
+        "PRO": {
+          "mean": 3.8,
+          "sd": 0.1,
+          "sourceCell": "3.8 (±0.1)"
+        },
+        "SER": {
+          "mean": 2.6,
+          "sd": 0.1,
+          "sourceCell": "2.6 (±0.1)"
+        },
+        "TYR": {
+          "mean": 3.0,
+          "sd": 0.9,
+          "sourceCell": "3.0 (±0.9)"
+        }
+      },
+      "dryMatterPercent": {
+        "mean": 37.61,
+        "sd": 1.47,
+        "sourceCell": "37.61 (±1.47)a"
+      },
+      "proteinDenominators": {
+        "crude": {
+          "mean": 52.8,
+          "sd": 2.9,
+          "sourceCell": "52.8 (±2.9)a"
+        },
+        "anhydrous": {
+          "mean": 44.46,
+          "sd": 0.89,
+          "sourceCell": "44.46 (±0.89)"
+        }
+      },
+      "proteinDenominatorUnit": "g_per_100g_dry_substrate",
+      "digestibilityEvidenceId": "hammer-infogest",
+      "missingAminoAcids": [],
+      "missingDataReason": null
+    },
+    {
+      "id": "ad-blanched",
+      "label": "家蟋蟀・汆燙",
+      "taxon": "Acheta domesticus",
+      "processing": "汆燙後整蟲真空包裝，−18°C儲存；汆燙條件為93°C水浴150秒。",
+      "sourceId": "hammer2023",
+      "table": "Table 2",
+      "pdfPage": 7,
+      "sourceColumn": "AD blanched",
+      "aminoAcidBasis": "g_per_100g_dry_substrate",
+      "molecularBasis": "free_amino_acid_molar_mass",
+      "aminoAcids": {
+        "HIS": {
+          "mean": 1.7,
+          "sd": 0.1,
+          "sourceCell": "1.7 (±0.1)"
+        },
+        "ILE": {
+          "mean": 2.9,
+          "sd": 0.1,
+          "sourceCell": "2.9 (±0.1)"
+        },
+        "LEU": {
+          "mean": 4.9,
+          "sd": 0.2,
+          "sourceCell": "4.9 (±0.2)"
+        },
+        "LYS": {
+          "mean": 4.2,
+          "sd": 0.2,
+          "sourceCell": "4.2 (±0.2)"
+        },
+        "MET": {
+          "mean": 1.1,
+          "sd": 0.0,
+          "sourceCell": "1.1 (±0.0)"
+        },
+        "PHE": {
+          "mean": 2.5,
+          "sd": 0.1,
+          "sourceCell": "2.5 (±0.1)"
+        },
+        "THR": {
+          "mean": 2.7,
+          "sd": 0.1,
+          "sourceCell": "2.7 (±0.1)"
+        },
+        "TRP": {
+          "mean": 0.6,
+          "sd": 0.0,
+          "sourceCell": "0.6 (±0.0)"
+        },
+        "VAL": {
+          "mean": 4.2,
+          "sd": 0.2,
+          "sourceCell": "4.2 (±0.2)"
+        },
+        "ALA": {
+          "mean": 6.0,
+          "sd": 0.2,
+          "sourceCell": "6.0 (±0.2)"
+        },
+        "ARG": {
+          "mean": 4.6,
+          "sd": 0.2,
+          "sourceCell": "4.6 (±0.2)"
+        },
+        "ASP": {
+          "mean": 5.0,
+          "sd": 0.2,
+          "sourceCell": "5.0 (±0.2)"
+        },
+        "CYS": {
+          "mean": 0.8,
+          "sd": 0.0,
+          "sourceCell": "0.8 (±0.0)"
+        },
+        "GLU": {
+          "mean": 7.2,
+          "sd": 0.3,
+          "sourceCell": "7.2 (±0.3)"
+        },
+        "GLY": {
+          "mean": 3.8,
+          "sd": 0.2,
+          "sourceCell": "3.8 (±0.2)"
+        },
+        "PRO": {
+          "mean": 4.1,
+          "sd": 0.1,
+          "sourceCell": "4.1 (±0.1)"
+        },
+        "SER": {
+          "mean": 2.9,
+          "sd": 0.1,
+          "sourceCell": "2.9 (±0.1)"
+        },
+        "TYR": {
+          "mean": 2.6,
+          "sd": 0.1,
+          "sourceCell": "2.6 (±0.1)"
+        }
+      },
+      "dryMatterPercent": {
+        "mean": 25.69,
+        "sd": 0.57,
+        "sourceCell": "25.69 (±0.57)d"
+      },
+      "proteinDenominators": {
+        "crude": {
+          "mean": 70.0,
+          "sd": 5.5,
+          "sourceCell": "70.0 (±5.5)d"
+        },
+        "anhydrous": {
+          "mean": 52.67,
+          "sd": 0.53,
+          "sourceCell": "52.67 (±0.53)"
+        }
+      },
+      "proteinDenominatorUnit": "g_per_100g_dry_substrate",
+      "digestibilityEvidenceId": "hammer-infogest",
+      "missingAminoAcids": [],
+      "missingDataReason": null
+    },
+    {
+      "id": "ad-oven-dried",
+      "label": "家蟋蟀・烘乾",
+      "taxon": "Acheta domesticus",
+      "processing": "汆燙後90°C烘乾至65%乾燥失重，真空包裝；汆燙條件為93°C水浴150秒。",
+      "sourceId": "hammer2023",
+      "table": "Table 2",
+      "pdfPage": 7,
+      "sourceColumn": "AD oven-dried",
+      "aminoAcidBasis": "g_per_100g_dry_substrate",
+      "molecularBasis": "free_amino_acid_molar_mass",
+      "aminoAcids": {
+        "HIS": {
+          "mean": 1.5,
+          "sd": 0.0,
+          "sourceCell": "1.5 (±0.0)"
+        },
+        "ILE": {
+          "mean": 2.5,
+          "sd": 0.1,
+          "sourceCell": "2.5 (±0.1)"
+        },
+        "LEU": {
+          "mean": 4.2,
+          "sd": 0.4,
+          "sourceCell": "4.2 (±0.4)"
+        },
+        "LYS": {
+          "mean": 3.3,
+          "sd": 0.1,
+          "sourceCell": "3.3 (±0.1)"
+        },
+        "MET": {
+          "mean": 0.9,
+          "sd": 0.2,
+          "sourceCell": "0.9 (±0.2)"
+        },
+        "PHE": {
+          "mean": 2.1,
+          "sd": 0.1,
+          "sourceCell": "2.1 (±0.1)"
+        },
+        "THR": {
+          "mean": 2.2,
+          "sd": 0.1,
+          "sourceCell": "2.2 (±0.1)"
+        },
+        "TRP": {
+          "mean": 0.6,
+          "sd": 0.0,
+          "sourceCell": "0.6 (±0.0)"
+        },
+        "VAL": {
+          "mean": 3.6,
+          "sd": 0.2,
+          "sourceCell": "3.6 (±0.2)"
+        },
+        "ALA": {
+          "mean": 5.1,
+          "sd": 0.8,
+          "sourceCell": "5.1 (±0.8)"
+        },
+        "ARG": {
+          "mean": 3.9,
+          "sd": 0.3,
+          "sourceCell": "3.9 (±0.3)"
+        },
+        "ASP": {
+          "mean": 4.6,
+          "sd": 1.0,
+          "sourceCell": "4.6 (±1.0)"
+        },
+        "CYS": {
+          "mean": 0.7,
+          "sd": 0.0,
+          "sourceCell": "0.7 (±0.0)"
+        },
+        "GLU": {
+          "mean": 6.2,
+          "sd": 0.4,
+          "sourceCell": "6.2 (±0.4)"
+        },
+        "GLY": {
+          "mean": 3.3,
+          "sd": 0.4,
+          "sourceCell": "3.3 (±0.4)"
+        },
+        "PRO": {
+          "mean": 3.5,
+          "sd": 0.2,
+          "sourceCell": "3.5 (±0.2)"
+        },
+        "SER": {
+          "mean": 2.6,
+          "sd": 0.4,
+          "sourceCell": "2.6 (±0.4)"
+        },
+        "TYR": {
+          "mean": 2.7,
+          "sd": 0.5,
+          "sourceCell": "2.7 (±0.5)"
+        }
+      },
+      "dryMatterPercent": {
+        "mean": 90.39,
+        "sd": 0.25,
+        "sourceCell": "90.39 (±0.25)e"
+      },
+      "proteinDenominators": {
+        "crude": {
+          "mean": 65.1,
+          "sd": 3.4,
+          "sourceCell": "65.1 (±3.4)bd"
+        },
+        "anhydrous": {
+          "mean": 45.63,
+          "sd": 1.45,
+          "sourceCell": "45.63 (±1.45)"
+        }
+      },
+      "proteinDenominatorUnit": "g_per_100g_dry_substrate",
+      "digestibilityEvidenceId": "hammer-infogest",
+      "missingAminoAcids": [],
+      "missingDataReason": null
+    },
+    {
+      "id": "chicken-cooked",
+      "label": "雞胸肉・熟製對照",
+      "taxon": "Chicken breast",
+      "processing": "平底鍋烹調10分鐘，真空包裝後−18°C儲存",
+      "sourceId": "hammer2023",
+      "table": "Table 2",
+      "pdfPage": 7,
+      "sourceColumn": "Chicken breast",
+      "aminoAcidBasis": "g_per_100g_dry_substrate",
+      "molecularBasis": "free_amino_acid_molar_mass",
+      "aminoAcids": {
+        "HIS": {
+          "mean": 2.9,
+          "sd": 0.1,
+          "sourceCell": "2.9 (±0.1)"
+        },
+        "ILE": {
+          "mean": 4.8,
+          "sd": 0.1,
+          "sourceCell": "4.8 (±0.1)"
+        },
+        "LEU": {
+          "mean": 7.3,
+          "sd": 0.2,
+          "sourceCell": "7.3 (±0.2)"
+        },
+        "LYS": {
+          "mean": 8.4,
+          "sd": 0.3,
+          "sourceCell": "8.4 (±0.3)"
+        },
+        "MET": {
+          "mean": 2.8,
+          "sd": 0.0,
+          "sourceCell": "2.8 (±0.0)"
+        },
+        "PHE": {
+          "mean": 3.7,
+          "sd": 0.1,
+          "sourceCell": "3.7 (±0.1)"
+        },
+        "THR": {
+          "mean": 4.2,
+          "sd": 0.1,
+          "sourceCell": "4.2 (±0.1)"
+        },
+        "TRP": {
+          "mean": 1.2,
+          "sd": 0.0,
+          "sourceCell": "1.2 (±0.0)"
+        },
+        "VAL": {
+          "mean": 5.1,
+          "sd": 0.1,
+          "sourceCell": "5.1 (±0.1)"
+        },
+        "ALA": {
+          "mean": 5.2,
+          "sd": 0.1,
+          "sourceCell": "5.2 (±0.1)"
+        },
+        "ARG": {
+          "mean": 6.1,
+          "sd": 0.1,
+          "sourceCell": "6.1 (±0.1)"
+        },
+        "ASP": {
+          "mean": 8.0,
+          "sd": 0.2,
+          "sourceCell": "8.0 (±0.2)"
+        },
+        "CYS": {
+          "mean": 1.0,
+          "sd": 0.1,
+          "sourceCell": "1.0 (±0.1)"
+        },
+        "GLU": {
+          "mean": 11.9,
+          "sd": 0.2,
+          "sourceCell": "11.9 (±0.2)"
+        },
+        "GLY": {
+          "mean": 3.9,
+          "sd": 0.1,
+          "sourceCell": "3.9 (±0.1)"
+        },
+        "PRO": {
+          "mean": 3.3,
+          "sd": 0.1,
+          "sourceCell": "3.3 (±0.1)"
+        },
+        "SER": {
+          "mean": 3.5,
+          "sd": 0.1,
+          "sourceCell": "3.5 (±0.1)"
+        },
+        "TYR": {
+          "mean": 2.2,
+          "sd": 0.1,
+          "sourceCell": "2.2 (±0.1)"
+        }
+      },
+      "dryMatterPercent": {
+        "mean": 28.36,
+        "sd": 0.0,
+        "sourceCell": "28.36 (±0.00)d"
+      },
+      "proteinDenominators": {
+        "crude": {
+          "mean": 94.4,
+          "sd": 0.2,
+          "sourceCell": "94.4 (±0.2)e"
+        },
+        "anhydrous": {
+          "mean": 73.3,
+          "sd": 0.49,
+          "sourceCell": "73.30 (±0.49)"
+        }
+      },
+      "proteinDenominatorUnit": "g_per_100g_dry_substrate",
+      "digestibilityEvidenceId": "hammer-infogest",
+      "missingAminoAcids": [],
+      "missingDataReason": null
+    },
+    {
+      "id": "ulva-dried",
+      "label": "石蓴屬・乾燥",
+      "taxon": "Ulva spp.",
+      "processing": "2023年12月採自智利Coquimbo；40°C乾燥，研磨過0.22 mm篩",
+      "sourceId": "seaweed2025",
+      "table": "Table 1",
+      "sourceColumn": "Ulva spp.",
+      "aminoAcidBasis": "g_per_100g_crude_protein",
+      "molecularBasis": "reported_AA_mass",
+      "aminoAcids": {
+        "ASP": {
+          "mean": 7.2,
+          "sd": 0.19,
+          "sourceCell": "7.2 ± 0.19"
+        },
+        "SER": {
+          "mean": 5.96,
+          "sd": 0.7,
+          "sourceCell": "5.96 ± 0.7 c"
+        },
+        "GLU": {
+          "mean": 5.13,
+          "sd": 0.23,
+          "sourceCell": "5.13 ± 0.23 a"
+        },
+        "GLY": {
+          "mean": 6.37,
+          "sd": 1.01,
+          "sourceCell": "6.37 ± 1.01 b"
+        },
+        "HIS": {
+          "mean": 1.0,
+          "sd": 0.01,
+          "sourceCell": "1.0 ± 0.01 a"
+        },
+        "ARG": {
+          "mean": 3.44,
+          "sd": 0.1,
+          "sourceCell": "3.44 ± 0.1 a"
+        },
+        "THR": {
+          "mean": 3.54,
+          "sd": 0.14,
+          "sourceCell": "3.54 ± 0.14"
+        },
+        "ALA": {
+          "mean": 5.49,
+          "sd": 0.06,
+          "sourceCell": "5.49 ± 0.06 a"
+        },
+        "PRO": {
+          "mean": 5.85,
+          "sd": 0.47,
+          "sourceCell": "5.85 ± 0.47"
+        },
+        "TYR": {
+          "mean": 3.11,
+          "sd": 0.55,
+          "sourceCell": "3.11 ± 0.55 b"
+        },
+        "VAL": {
+          "mean": 3.96,
+          "sd": 0.11,
+          "sourceCell": "3.96 ± 0.11 a"
+        },
+        "MET": {
+          "mean": 1.42,
+          "sd": 0.03,
+          "sourceCell": "1.42 ± 0.03 a"
+        },
+        "LYS": {
+          "mean": 2.91,
+          "sd": 0.05,
+          "sourceCell": "2.91 ± 0.05 a"
+        },
+        "ILE": {
+          "mean": 2.54,
+          "sd": 0.06,
+          "sourceCell": "2.54 ± 0.06 a"
+        },
+        "LEU": {
+          "mean": 4.28,
+          "sd": 0.01,
+          "sourceCell": "4.28 ± 0.01 a"
+        },
+        "PHE": {
+          "mean": 3.54,
+          "sd": 0.03,
+          "sourceCell": "3.54 ± 0.03 a"
+        },
+        "CYS": null,
+        "TRP": null
+      },
+      "dryMatterPercent": null,
+      "proteinDenominators": {
+        "crude": {
+          "mean": 20.9,
+          "sd": 1.79,
+          "sourceCell": "20.9 ± 1.79 b"
+        },
+        "anhydrous": null
+      },
+      "proteinDenominatorUnit": "g_per_100g_dry_substrate",
+      "digestibilityEvidenceId": "seaweed-megazyme",
+      "missingAminoAcids": [
+        "CYS",
+        "TRP"
+      ],
+      "missingDataReason": "僅用 Table 1：本表未列 Cys、Trp，未報殘基加總蛋白分母。Table 2 有單位及部分數值衝突，不用它補值。未列不等於零。",
+      "pdfPage": 3
+    }
+  ],
+  "patterns": [
+    {
+      "id": "infant",
+      "label": "出生至6個月",
+      "sourceId": "fao2013",
+      "table": "Table 5",
+      "printedPage": 29,
+      "pdfPage": 38,
+      "unit": "mg_per_g_protein",
+      "values": {
+        "HIS": 21,
+        "ILE": 55,
+        "LEU": 96,
+        "LYS": 69,
+        "SAA": 33,
+        "AAA": 94,
+        "THR": 44,
+        "TRP": 17,
+        "VAL": 55
+      }
+    },
+    {
+      "id": "young-child",
+      "label": "6個月至3歲",
+      "sourceId": "fao2013",
+      "table": "Table 5",
+      "printedPage": 29,
+      "pdfPage": 38,
+      "unit": "mg_per_g_protein",
+      "values": {
+        "HIS": 20,
+        "ILE": 32,
+        "LEU": 66,
+        "LYS": 57,
+        "SAA": 27,
+        "AAA": 52,
+        "THR": 31,
+        "TRP": 8.5,
+        "VAL": 43
+      }
+    },
+    {
+      "id": "older",
+      "label": "較大兒童、青少年與成人",
+      "sourceId": "fao2013",
+      "table": "Table 5",
+      "printedPage": 29,
+      "pdfPage": 38,
+      "unit": "mg_per_g_protein",
+      "values": {
+        "HIS": 16,
+        "ILE": 30,
+        "LEU": 61,
+        "LYS": 48,
+        "SAA": 23,
+        "AAA": 41,
+        "THR": 25,
+        "TRP": 6.6,
+        "VAL": 40
+      }
+    }
+  ],
+  "formulas": {
+    "dryBasis": "AA(g/100g dry)/protein(g/100g dry)*1000",
+    "crudeProteinBasis": "AA(g/100g crude protein)*10",
+    "score": "100*min(complete nine group mg/g values / corresponding pattern)"
+  },
+  "notes": [
+    "組成計算只用來源表的四捨五入均值；原SD保留查閱，不作無原始共變異資料的誤差推播。",
+    "AA自由分子質量與蛋白脫水殘基質量遵循Hammer Table 2腳註；切換的是蛋白分母。",
+    "完整組成分數不是PDCAAS或DIAAS；作者報告值固定其原本模式與分母。"
+  ],
+  "digestibilityEvidence": [
+    {
+      "id": "hammer-infogest",
+      "label": "INFOGEST 體外消化與作者估計分數",
+      "sourceIds": [
+        "hammer2023"
+      ],
+      "method": "靜態 INFOGEST；胃相 pH 3、37°C、2 小時，腸相 pH 7、37°C、2 小時。以蛋白質空白餅乾扣除酵素背景，甲醇分離短肽／自由胺基酸與較大蛋白片段，再分析各胺基酸。",
+      "observed": "來源測量試管內消化後的分餾結果；作者以各胺基酸的體外消化比例估計 in vitro DIAAS。至少 3 次獨立消化實驗；主文分數使用 6 個月至 3 歲模式與 TN×6.25 分母。",
+      "canConclude": "可判读本研究樣本在這套體外方法下的組成及消化表現，並檢查加工狀態與蛋白分母如何影響解讀。",
+      "cannotConclude": "不是人體或動物迴腸實測；不能直接證明人體吸收量、肌肉生長或健康效果。不可把作者體外分數接到目前組成比值再乘一次，也不以跨方法數字排原料名次。",
+      "reportedResults": [
+        {
+          "sampleId": "tm-blanched",
+          "label": "作者 in vitro DIAAS；6 個月至 3 歲、TN×6.25",
+          "value": 89.1,
+          "sd": 0.1,
+          "unit": "score_percent",
+          "locator": "Hammer 2023 §3.5, PDF p8"
+        },
+        {
+          "sampleId": "ad-blanched",
+          "label": "作者 in vitro DIAAS；6 個月至 3 歲、TN×6.25",
+          "value": 91.8,
+          "sd": 11.1,
+          "unit": "score_percent",
+          "locator": "Hammer 2023 §3.5, PDF p8"
+        },
+        {
+          "sampleId": "ad-oven-dried",
+          "label": "作者 in vitro DIAAS；6 個月至 3 歲、TN×6.25",
+          "value": 64.2,
+          "sd": 27.5,
+          "unit": "score_percent",
+          "locator": "Hammer 2023 §3.5, PDF p8"
+        },
+        {
+          "sampleId": "chicken-cooked",
+          "label": "作者 in vitro DIAAS；6 個月至 3 歲、TN×6.25",
+          "value": 113.3,
+          "sd": 1.2,
+          "unit": "score_percent",
+          "locator": "Hammer 2023 §3.5, PDF p8"
+        }
+      ]
+    },
+    {
+      "id": "seaweed-megazyme",
+      "label": "酵素試劑盒與 OPA 體外測量",
+      "sourceIds": [
+        "seaweed2025"
+      ],
+      "method": "Megazyme 體外腸胃消化試劑盒；OPA 法量測水解所產生的游離胺基。",
+      "observed": "Table 3 報告 Ulva spp. 的 OPA 體外消化率；這與 Hammer 的分餾後各胺基酸測量不同。",
+      "canConclude": "能查看這個石蓴樣本在所述試劑盒／OPA 方法下的作者報告值。",
+      "cannotConclude": "不能把 OPA 游離胺基訊號視為逐項胺基酸的真迴腸消化率，也不能與另一方法的昆蟲數值直接排吸收優劣。本工具不採此文衝突的 Table 2 數據拼成完整模式。",
+      "reportedResults": [
+        {
+          "sampleId": "ulva-dried",
+          "label": "作者 OPA 體外消化率",
+          "value": 0.52,
+          "sd": 0.03,
+          "unit": "fraction",
+          "locator": "Landeta-Salgado 2025 Table 3, PDF p7, Ulva spp. row"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "pq-composition",
+      "text": "先把樣本胺基酸含量化成每克指定蛋白分母，再逐群除以明示年齡模式；完整九群才可求組成最低比值。未校正消化的組成比值不是 PDCAAS 或 DIAAS。",
+      "sourceIds": [
+        "fao2013",
+        "hammer2023"
+      ],
+      "locator": "FAO 2013 printed pp19-23, Table 5 p29; Hammer 2023 Table 2 footnote and §2.2.1"
+    },
+    {
+      "id": "pq-denominator",
+      "text": "Hammer 同一張表的個別胺基酸以自由胺基酸摩爾質量計算；Total AA 以脫水殘基質量加總。TN×6.25 與此加總是兩種明示的蛋白分母，切換不代表樣本實際增減營養。",
+      "sourceIds": [
+        "hammer2023"
+      ],
+      "locator": "Hammer 2023 Table 2, PDF p7; §4.2 PDF p10"
+    },
+    {
+      "id": "pq-processing",
+      "text": "本研究的汆燙與烘乾是特定樣本狀態；加工會同時影響組成和試驗消化表現，不能由一個研究把所有同種原料定為同一數值。",
+      "sourceIds": [
+        "hammer2023"
+      ],
+      "locator": "Hammer 2023 Table 1; §3.4-3.5 PDF p8; §4.4 PDF p11"
+    },
+    {
+      "id": "pq-missing",
+      "text": "海藻 Table 1 的 Ulva 欄未列 Cys 與 Trp，且未提供殘基加總蛋白分母；這些缺項不補零。Table 2 單位、部分 His 與 Table 1 存疑，不跨表補成完整分數。",
+      "sourceIds": [
+        "seaweed2025"
+      ],
+      "locator": "Landeta-Salgado 2025 Table 1 PDF pp3-4; Table 2 PDF p6"
+    },
+    {
+      "id": "pq-digestion",
+      "text": "FAO 2013 的核心方法建議是各必需胺基酸的真迴腸消化率；報告也明列資料不足期間用糞便粗蛋白消化率的暫行處理。這不把本批試管測量變成真迴腸實測，也不證明當前全球法規均已採用 DIAAS。",
+      "sourceIds": [
+        "fao2013",
+        "hammer2023"
+      ],
+      "locator": "FAO 2013 printed pp3-5; Hammer 2023 §2.3.3-2.3.4, §4.4"
+    },
+    {
+      "id": "pq-official-scope",
+      "text": "官方題目要求評估替代蛋白營養價值的因素；完整資料正規化與模式比值是本課有來源的操作延伸，原題沒有指定必須計算 AAS、PDCAAS 或 DIAAS。",
+      "sourceIds": [
+        "ntu115foodq9"
+      ],
+      "locator": "115 學年度碩士班食品化學（239），第9題，第1頁"
+    }
+  ],
+  "limits": [
+    "本工具計算公開表格平均值的組成比值，不是消化校正分數。",
+    "表格均值已四捨五入；保留原SD供查閱，不在沒有原始資料與共變異資訊時推算分數SD或顯著性。",
+    "缺任一必要胺基酸或選定蛋白分母時，完整分數與限制胺基酸保留資料不足；已知最低比值不是完整限制胺基酸。",
+    "不同研究、來源、加工與方法的數值不支持原料全面排名。",
+    "蛋白營養評估還要問攝取量、食物組合、消化與可利用性、加工和抗營養因子；過敏或其他食品安全證據也不能從組成分數推得。",
+    "年齡選項用來比較研究參考模式，不提供個人膳食處方，也不代表嬰幼兒食用適用性。"
+  ],
+  "sources": [
+    {
+      "id": "fao2013",
+      "title": "Dietary protein quality evaluation in human nutrition: Report of an FAO Expert Consultation (2013)",
+      "publisher": "FAO",
+      "locator": "Table 5 printed p29; core method and interim recommendation printed pp3-5; composition scoring pp19-23",
+      "url": "https://www.fao.org/4/i3124e/i3124e.pdf",
+      "localPath": "output/next-food-capability-2026-10-13/protein-source-feasibility/fao2013-01.pdf",
+      "sha256": "a37e6136bfb6a014aa98151ebe2d9decdb67d5fedfa03c507620e7f4fe8f78d4",
+      "files": [
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/fao2013-01.pdf.receipt.json",
+          "sha256": "5520d56e91b84dd456f7227281959698bcef1ecacd65bc113722fe989f09ca71"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/fao2013-table5-38.png",
+          "sha256": "4529b09c446766a067d26a23e91dbfd4587a8b68839ab99309ea6d7313a1f9e6"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/fao2013-interim-14.png",
+          "sha256": "5fec42469122597651a8befbba3e1b6a68cf62824c6e05a41420c5c55bb07089"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/fao2013-interim-15.png",
+          "sha256": "89a77a6829f84acf2c676f530dc13bad129b5f82015ec2711777dd92407b2402"
+        }
+      ]
+    },
+    {
+      "id": "hammer2023",
+      "title": "Mealworm larvae (Tenebrio molitor) and crickets (Acheta domesticus) show high total protein in vitro digestibility and can provide good-to-excellent protein quality as determined by in vitro DIAAS",
+      "publisher": "Frontiers in Nutrition",
+      "locator": "Table 1 / methods pp2-5; Table 2 and footnote p7; author-reported in vitro DIAAS §3.5 p8; limitations §4.4 p11",
+      "url": "https://doi.org/10.3389/fnut.2023.1150581",
+      "localPath": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-01.pdf",
+      "sha256": "707a8f4b0ec9364f8cf6d2cda05230f4ddef276abbec47f405810f29256914eb",
+      "files": [
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-01.pdf.receipt.json",
+          "sha256": "598bb8c12549b20f113d7b025da84197fc271e65f8e023bac669016a2ba1dd92"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-01.xml",
+          "sha256": "6bc904f59e06fb48d008fa18b53c6f1d00e34a2188a71fa9292ebb4bb45c260a"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-01.xml.receipt.json",
+          "sha256": "581b095b1908f5680881d6e3a6365e5ce66ee89ca4e1c9618cf53f45724b17f0"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-table2-07.png",
+          "sha256": "95e9350f95fde1c0fcddaabf1a109462be9cd6411f2eb38f6982748daa3ae1b3"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/hammer2023-results-08.png",
+          "sha256": "ea9da55880539ac51d4a6174f219876ed10925221c3b7ad88529b2bf981a5a58"
+        }
+      ]
+    },
+    {
+      "id": "seaweed2025",
+      "title": "In Vitro Bioaccessibility of Edible Seaweed Proteins from the Chilean Coast and Proteins from the Novel Seaweed-Derived Mycoprotein",
+      "publisher": "Molecules / MDPI",
+      "locator": "Table 1 pp3-4 (Ulva only); Table 2 p6 excluded due to conflicts; Table 3 p7 OPA only; Methods §3.1-3.2 pp11-12",
+      "url": "https://doi.org/10.3390/molecules30010165",
+      "localPath": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-04.pdf",
+      "sha256": "660928f434ab74d2e93f4a49d847f57cd2af4687e09e84883745e8e6636ceb64",
+      "files": [
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-04.pdf.receipt.json",
+          "sha256": "9dcc556e49773cc8952c5c06e01d500c7f53e76a7f1c3b15f0197d8a771ba9f2"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-01.xml",
+          "sha256": "11c305cd06296510f4e39a2b9c570b811e6f3f40dc3ca06f974cae259db417f9"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-01.xml.receipt.json",
+          "sha256": "a14d05409118622d2c1e5663c0d66b351876885c6e0dc24b5b2bb255e57f0719"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-table-review-03.png",
+          "sha256": "2cd0332e36e0c0953022398d45fa3b2612295a33ab2fb132c3c73c453d9f780b"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-table-review-04.png",
+          "sha256": "be5a3ae7bc56d6afa96c5efbee79371bc88801cd9384cb5950d4a8ee9ae75e17"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-table-review-06.png",
+          "sha256": "e691750ac3ae455022bc694d9f1f76c24501c524cd21f26392c9a213902b6a81"
+        },
+        {
+          "path": "output/next-food-capability-2026-10-13/protein-source-feasibility/seaweed2025-table-review-07.png",
+          "sha256": "112268f51758eb7dcabd9769ee80804cdaca66b4ae27207d0b19fdb1b0807285"
+        }
+      ]
+    },
+    {
+      "id": "ntu115foodq9",
+      "title": "國立臺灣大學115學年度碩士班招生考試：食品化學239第9題",
+      "publisher": "國立臺灣大學",
+      "locator": "第1頁第9題（5分）；已實看完整2頁原卷；僅供題意定位，無官方答案",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf",
+      "localPath": "output/next-food-capability-2026-10-13/official-gap-review/sources/ntu-115-239-live.pdf",
+      "sha256": "c8c9a9260a9bd8aeb07630872d041f81a68c7bbd44b8d2c34827c7245e7a6f5f",
+      "files": [
+        {
+          "path": "output/next-food-capability-2026-10-13/official-gap-review/sources/ntu-115-239-live.pdf",
+          "sha256": "c8c9a9260a9bd8aeb07630872d041f81a68c7bbd44b8d2c34827c7245e7a6f5f"
+        }
+      ]
+    }
+  ]
+}

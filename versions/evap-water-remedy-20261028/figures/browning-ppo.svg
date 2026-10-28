@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">切開後，原本分隔的成分接觸</title>
+<desc id="figure-desc">組織受損增加多酚氧化酶、合適酚類與氧接觸，形成醌後仍可繼續反應而褐變。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">切開後，原本分隔的成分接觸</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">PPO 催化合適酚類的氧化，生成可再反應的醌</tspan></text>
+<rect x="35" y="128" width="206" height="205" rx="16" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="138" y="157" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="138" dy="0">原本分隔</tspan></text>
+<path d="M 138 176 L 138 310" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="87" cy="240" r="36" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="87" y="247" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="87" dy="0">PPO</tspan></text>
+<circle cx="190" cy="240" r="36" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<text x="190" y="247" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="190" dy="0">酚類</tspan></text>
+<path d="M 252 240 L 298 240" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="276" y="180" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="276" dy="0">組織</tspan><tspan x="276" dy="25">受損</tspan></text>
+<rect x="311" y="128" width="216" height="205" rx="16" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="419" y="157" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="419" dy="0">接觸機會增加</tspan></text>
+<circle cx="372" cy="244" r="34" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="372" y="252" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="372" dy="0">PPO</tspan></text>
+<circle cx="462" cy="244" r="34" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="462" y="252" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="462" dy="0">酚類</tspan></text>
+<text x="419" y="199" font-size="21" fill="#6f8fb5" text-anchor="middle"><tspan x="419" dy="0">＋ 氧</tspan></text>
+<path d="M 538 240 L 572 240" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<circle cx="626" cy="240" r="41" fill="#f6f7f8" stroke="#b8902a" stroke-width="2"/>
+<text x="626" y="249" font-size="26" fill="#b8902a" text-anchor="middle"><tspan x="626" dy="0">醌</tspan></text>
+<path d="M 626 293 L 626 357" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-gold)"/>
+<rect x="481" y="376" width="199" height="57" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="580.5" y="411.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="580.5" dy="0">後續再反應 → 褐變</tspan></text>
+<text x="37" y="383" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="37" dy="0">PPO 作用之後的色素生成</tspan><tspan x="37" dy="29">仍包含非酵素反應</tspan></text>
+<text x="32" y="480" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">分隔與接觸為概念示意，不指定細胞內部位置。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

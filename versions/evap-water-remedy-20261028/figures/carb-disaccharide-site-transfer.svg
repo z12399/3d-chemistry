@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">雙糖的兩個異頭端，作用不同</title>
+<desc id="desc">麥芽糖或乳糖的 A 端固定在糖苷橋，B 還原端可開環而保留橋；水解才分開兩糖。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="520" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">雙糖的兩個異頭端，作用不同</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">限定麥芽糖／乳糖這類還原性雙糖</tspan></text>
+<text x="30" y="145" font-size="19" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">起始</tspan></text>
+<text x="30" y="275" font-size="19" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">只開 B 端</tspan></text>
+<text x="30" y="405" font-size="19" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">水解橋鍵</tspan></text>
+<path d="M207 124L235 106L263 124L263 156L235 174L207 156Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="235" y="147" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="235" dy="0">A</tspan></text>
+<path d="M447 124L475 106L503 124L503 156L475 174L447 156Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="475" y="147" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="475" dy="0">B</tspan></text>
+<path d="M265 140L442 140" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="355" y="121" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="355" dy="0">A-C1 — O — B-C4</tspan></text>
+<text x="235" y="196" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="235" dy="0">糖苷異頭端</tspan></text>
+<text x="475" y="196" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="475" dy="0">B-C1：游離半縮醛</tspan></text>
+<path d="M235 211L235 227" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M475 211L475 227" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M207 254L235 236L263 254L263 286L235 304L207 286Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="235" y="277" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="235" dy="0">A</tspan></text>
+<path d="M264 270L407 270" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="408" y="235" width="220" height="76" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="518.0" y="266.5" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="518.0" dy="0">B 開鏈</tspan><tspan x="518.0" dy="27">橋仍接在 B-C4</tspan></text>
+<text x="324" y="309" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="324" dy="0">橋仍相連</tspan></text>
+<path d="M30 335L690 335" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M207 384L235 366L263 384L263 416L235 434L207 416Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="235" y="407" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="235" dy="0">A</tspan></text>
+<text x="355" y="408" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="355" dy="0">＋</tspan></text>
+<path d="M447 384L475 366L503 384L503 416L475 434L447 416Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="475" y="407" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="475" dy="0">B</tspan></text>
+<text x="355" y="371" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="355" dy="0">＋H₂O → 兩個單糖</tspan></text>
+<text x="30" y="480" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">A 端糖苷的 α／β，與 B 還原端配置分開讀。</tspan></text>
+<text x="688" y="504" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

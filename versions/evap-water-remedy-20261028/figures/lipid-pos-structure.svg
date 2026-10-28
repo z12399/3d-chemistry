@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">β-POS：中位接 O，外位接 P 與 S</title>
+<desc id="figure-desc">甘油三個位置分別經酯鍵連接棕櫚醯、油醯與硬脂醯；另把分子連接位置與晶體 β2/V 排列分開。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">β-POS：中位接 O，外位接 P 與 S</tspan></text>
+<rect x="72" y="113" width="125" height="255" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="135" y="146" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="135" dy="0">甘油</tspan></text>
+<path d="M 195 180 L 345 180" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 195 255 L 345 255" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 195 330 L 345 330" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="270" y="165" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="270" dy="0">酯鍵</tspan></text>
+<text x="270" y="240" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="270" dy="0">酯鍵</tspan></text>
+<text x="270" y="315" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="270" dy="0">酯鍵</tspan></text>
+<text x="135" y="187" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="135" dy="0">外位</tspan></text>
+<text x="135" y="262" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="135" dy="0">中位</tspan></text>
+<text x="135" y="337" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="135" dy="0">外位</tspan></text>
+<rect x="355" y="149" width="333" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="521.5" y="187.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="521.5" dy="0">P：棕櫚醯（16:0）</tspan></text>
+<rect x="355" y="224" width="333" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="521.5" y="262.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="521.5" dy="0">O：油醯（18:1，cis-Δ9）</tspan></text>
+<rect x="355" y="299" width="333" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="521.5" y="337.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="521.5" dy="0">S：硬脂醯（18:0）</tspan></text>
+<rect x="32" y="410" width="656" height="63" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="448.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">分子接鏈位置　≠　β₂／V 型的晶體排列</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,54 @@
+.sorption-lab { max-width: 900px; container-type: inline-size; }
+.sorption-layout,.sorption-panel { min-width: 0; }
+.sorption-stage { padding: 14px 4px 20px; }
+.sorption-views { display: flex; gap: 7px; margin-bottom: 17px; }
+.sorption-views button,.sorption-actions button { font: inherit; font-size: 16px; color: var(--exp-muted); border: 1px solid #cfd6dc; background: transparent; padding: 9px 12px; min-height: 44px; border-radius: 8px; cursor: pointer; }
+.sorption-views button[aria-pressed=true] { color: var(--exp-accent); background: #e7f1ee; border-color: #14665d; }
+.sorption-lab .food-exp-figure text { font-size: 16px; }
+.sorption-point { fill: #47675a; stroke: #f9f6ee; stroke-width: 1.5; }
+.sorption-point.is-selected { stroke: #b9543a; stroke-width: 2; }
+.sorption-errorbar,.sorption-stem { fill:none; stroke:#718c7d; stroke-width:1.6; }
+.sorption-legend,.sorption-context { color:var(--exp-muted); font-size:16px; line-height:1.65; }
+.sorption-legend { text-align:center; margin:14px 0; }
+.sorption-equation { font:16px/1.65 'Cambria Math','Segoe UI',sans-serif; border-top:1px solid var(--exp-line); padding-top:12px; text-align:center; overflow-wrap:anywhere; }
+.sorption-panel > .food-exp-result { display:block; }
+.sorption-panel .food-exp-result-label { display:block; margin-top:7px; font-size:16px; }
+.sorption-context { margin:8px 0 24px; }
+.sorption-actions { display:flex; flex-wrap:wrap; gap:8px; }
+.sorption-actions button:first-child { color:var(--exp-accent); }
+.sorption-feedback { min-height:3.5em; font-size:16px; line-height:1.65; margin:14px 0 18px; color:var(--exp-muted); }
+.sorption-point-select { display:flex; flex-direction:column; align-items:stretch; gap:8px; font-size:16px; }
+.sorption-point-select select { padding:9px 8px; font:inherit; border:1px solid #cfd6dc; background:#fff; color:var(--exp-ink); border-radius:8px; min-height:42px; }
+.sorption-readings { margin:12px 0 20px; padding-top:10px; border-top:1px solid var(--exp-line); font-size:16px; }
+.sorption-readings > div { display:flex; justify-content:space-between; gap:15px; margin:6px 0; }
+.sorption-readings dt { color:var(--exp-muted); }
+.sorption-readings dd { margin:0; font-variant-numeric:tabular-nums; }
+.sorption-readings .sorption-reading-unit { display:block; color:var(--exp-muted); font-size:16px; text-align:right; }
+.sorption-table-wrap { margin-top:30px; border-top:1px solid var(--exp-line); }
+.sorption-lab .sorption-table-wrap summary { padding:17px 0; cursor:pointer; font-size:16px; }
+.sorption-table-wrap > p { font-size:16px; color:var(--exp-muted); }
+.sorption-table-scroll { overflow-x:auto; overscroll-behavior-x:contain; }
+.sorption-table-scroll table { width:100%; border-collapse:collapse; font-size:16px; min-width:560px; }
+.sorption-table-scroll th,.sorption-table-scroll td { text-align:right; padding:10px 12px; border-bottom:1px solid var(--exp-line); font-variant-numeric:tabular-nums; }
+.sorption-table-scroll th { font-weight:500; }
+.sorption-table-scroll caption { padding:0 0 12px; color:var(--exp-muted); text-align:left; font-size:16px; }
+.sorption-table-scroll tr.is-selected { background:#e7f1ee; }
+.sorption-source { margin-top:18px; }
+.sorption-source p { color:var(--exp-muted); font-size:16px; line-height:1.65; }
+.sorption-source a { overflow-wrap:anywhere; }
+.sorption-lab :is(button,select,.sorption-table-scroll,.sorption-plot):focus-visible { outline:3px solid var(--exp-accent); outline-offset:3px; }
+.sorption-lab .food-exp-control-label,.sorption-lab .food-exp-details summary,.sorption-lab .food-exp-assumptions,.sorption-lab .food-exp-caption,.sorption-lab .food-exp-hint { font-size:16px; }
+.sorption-lab .food-exp-kicker { font-size:14px; }
+.sorption-lab .food-exp-details summary { min-height:44px; }
+.sorption-lab .sorption-plot { max-width:none; overflow-x:auto; overscroll-behavior-x:contain; }
+.sorption-lab .sorption-plot svg { min-width:420px; overflow:hidden; }
+.sorption-point-select select { min-width:0; max-width:100%; }
+@container (min-width:780px) {
+  .sorption-layout { display:grid; grid-template-columns:minmax(0,1.2fr) minmax(0,1fr); gap:30px; align-items:start; }
+  .sorption-stage { position:sticky; top:96px; }
+}
+@media(max-width:480px) {
+  .sorption-stage { position:static; }
+  .sorption-lab .food-exp-result { padding-inline:0; }
+  .sorption-actions button { padding-inline:9px; }
+}

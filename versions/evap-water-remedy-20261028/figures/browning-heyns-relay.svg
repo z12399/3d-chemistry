@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">Heyns 重排：氮留在 C2，C1 成醛</title>
+<desc id="desc">三階段追蹤 C1 與 C2：C2 亞胺、C1=C2 烯胺醇、C1 醛與 C2 胺基；末段重新建立 C2 配置。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="540" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">Heyns 重排：氮留在 C2，C1 成醛</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">原子位置固定追蹤，不用箭頭假定產物比例</tspan></text>
+<rect x="30" y="105" width="190" height="244" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125" y="140" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="125" dy="0">C2 亞胺</tspan></text>
+<rect x="265" y="105" width="190" height="244" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="140" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">烯胺醇</tspan></text>
+<rect x="500" y="105" width="190" height="244" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="595" y="140" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="595" dy="0">2-胺基醛糖</tspan></text>
+<text x="125" y="199" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="125" dy="0">C1：HO–CH₂</tspan><tspan x="125" dy="39">│</tspan><tspan x="125" dy="39">C2：C=N–R</tspan></text>
+<text x="360" y="199" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">C1：HO–CH</tspan><tspan x="360" dy="39">║</tspan><tspan x="360" dy="39">C2：C–NH–R</tspan></text>
+<text x="595" y="199" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="595" dy="0">C1：O=CH</tspan><tspan x="595" dy="39">│</tspan><tspan x="595" dy="39">C2：CH–NH–R</tspan></text>
+<text x="125" y="324" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="125" dy="0">│ 其餘碳鏈 A</tspan></text>
+<text x="360" y="324" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">│ 其餘碳鏈 A</tspan></text>
+<text x="595" y="324" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="595" dy="0">│ 其餘碳鏈 A</tspan></text>
+<path d="M232 225L253 225" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M467 225L488 225" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="30" y="395" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">O1 留在 C1 建立醛基；N 不搬到 C1。</tspan></text>
+<text x="30" y="434" font-size="20" fill="#14665d" text-anchor="start"><tspan x="30" dy="0">C2 經平面階段後，須重新建立配置。</tspan></text>
+<text x="30" y="498" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">D-gluco 與 D-manno 是配置差異；不是 α／β，比例未預測。</tspan></text>
+<text x="688" y="524" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

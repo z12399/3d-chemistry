@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">澱粉的四種問題，需要不同證據</title>
+<desc id="desc">熱轉變、糊體流動、貫通網路和重新有序化分成四格，分別指向對應量測。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="520" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">澱粉的四種問題，需要不同證據</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">不能把一個峰或一個比值，當成所有性質</tspan></text>
+<rect x="30" y="102" width="315" height="155" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="132" font-size="21" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="48" dy="0">熱轉變</tspan></text>
+<text x="48" y="234" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="48" dy="0">DSC：量熱</tspan></text>
+<rect x="375" y="102" width="315" height="155" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="393" y="132" font-size="21" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="393" dy="0">糊體流動</tspan></text>
+<text x="393" y="234" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="393" dy="0">RVA：黏度</tspan></text>
+<rect x="30" y="283" width="315" height="155" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="313" font-size="21" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="48" dy="0">貫通網路</tspan></text>
+<text x="48" y="415" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="48" dy="0">流變等網路證據</tspan></text>
+<rect x="375" y="283" width="315" height="155" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="393" y="313" font-size="21" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="393" dy="0">重新有序化</tspan></text>
+<text x="393" y="415" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="393" dy="0">回熱焓／繞射證據</tspan></text>
+<path d="M85 195q-10 -12 0 -24q10 -12 0 -24" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<path d="M150 195q-10 -12 0 -24q10 -12 0 -24" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<path d="M215 195q-10 -12 0 -24q10 -12 0 -24" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<path d="M421 168L630 168" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-blue)"/>
+<path d="M421 189L630 189" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-blue)"/>
+<path d="M421 210L630 210" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-blue)"/>
+<path d="M80 341L155 368" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M155 368L235 337" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80 341L110 397" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110 397L155 368" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M155 368L245 397" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M235 337L245 397" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="80" cy="341" r="6" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="155" cy="368" r="6" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="235" cy="337" r="6" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="110" cy="397" r="6" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="245" cy="397" r="6" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M417 337L500 337" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M535 337L625 337" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M417 357L500 357" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M535 357L625 357" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M417 377L500 377" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M535 377L625 377" fill="none" stroke="#b8902a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="482" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">回熱焓比不直接等於硬度、析水量或所有鏈段的回凝比例。</tspan></text>
+<text x="688" y="504" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

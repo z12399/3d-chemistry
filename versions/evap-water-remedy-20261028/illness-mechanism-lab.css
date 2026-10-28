@@ -1,0 +1,48 @@
+/* Infection vs intoxication sorter with onset chart and reheat check. */
+.illness-lab { --im-ink: var(--ink, #1c2732); --im-muted: var(--muted, #53606d); --im-line: var(--line, #dfe4e8); --im-accent: var(--mint, #14665d); color: var(--im-ink); font-size: 1rem; line-height: 1.7; }
+.im-head { margin-bottom: 14px; }
+.im-kicker { margin: 0; color: var(--im-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.illness-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.illness-lab h4 { margin: 0 0 10px; font-size: 1.0625rem; }
+.im-hint { margin: 0; color: var(--im-muted); }
+.im-list { margin: 0; padding: 0; list-style: none; border: 1px solid var(--im-line); border-radius: 12px; }
+.im-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 300px); gap: 6px 16px; align-items: center; padding: 12px 16px; border-top: 1px solid #eef1f3; }
+.im-row:first-child { border-top: 0; }
+.im-row[data-im-state="right"] { background: #f2f8f6; }
+.im-row[data-im-state="wrong"] { background: #fdf5f0; }
+.im-name { display: grid; }
+.im-name i { color: var(--im-muted); font-size: .875rem; }
+.im-pick select { width: 100%; min-height: 44px; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; color: inherit; }
+.im-feedback { grid-column: 1 / -1; margin: 0; font-size: .9375rem; }
+.im-cite { display: block; color: var(--im-muted); font-size: .875rem; }
+.im-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 12px 0 18px; }
+.im-actions button, .im-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--im-accent); border-radius: 10px; background: var(--im-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.im-actions span { font-weight: 600; }
+[data-im-reheat-result][data-im-state="wrong"] { color: #8a4b12; }
+[data-im-reheat-result][data-im-state="right"] { color: #0e4f48; }
+.im-onset { margin-bottom: 20px; padding: 14px 16px; border: 1px solid var(--im-line); border-radius: 12px; }
+.im-chart { display: block; width: 100%; height: auto; }
+.im-chart text { fill: var(--im-ink); font: 13px var(--font, sans-serif); }
+.im-chart .im-unit { fill: var(--im-muted); font-size: 13px; }
+.im-grid { stroke: #eef1f3; }
+.im-bar.im-preformed, .im-sw.im-preformed { fill: #b4692e; background: #b4692e; }
+.im-bar.im-gut, .im-sw.im-gut { fill: #b8902a; background: #b8902a; }
+.im-bar.im-infection, .im-sw.im-infection { fill: #6f8fb5; background: #6f8fb5; }
+.im-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 6px 0 0; color: var(--im-muted); font-size: .875rem; }
+.im-sw { display: inline-block; width: 14px; height: 14px; margin-right: 6px; border-radius: 3px; vertical-align: -2px; }
+.im-insight { margin: 10px 0 0; font-size: .9375rem; }
+.im-reheat { padding: 14px 16px; border-radius: 12px; background: var(--chrome, #f6f7f8); }
+.im-checks { display: flex; flex-wrap: wrap; gap: 8px; }
+.im-check { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 14px; border: 1px solid #cfd6dc; border-radius: 22px; background: #fff; cursor: pointer; }
+.im-check span { white-space: nowrap; }
+.im-check:has(input:checked) { border-color: var(--im-accent); background: var(--tint, #e7f1ee); }
+.im-check input { flex: 0 0 18px; width: 18px; height: 18px; margin: 0; }
+.illness-lab details { padding: 4px 0; border-top: 1px solid var(--im-line); }
+.illness-lab details:first-of-type { margin-top: 18px; }
+.illness-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--im-muted); }
+.illness-lab details[open] > summary { color: var(--im-ink); }
+.illness-lab details p, .illness-lab details li { font-size: .9375rem; }
+.illness-lab a { color: var(--im-accent); text-decoration: underline; text-underline-offset: 3px; }
+.im-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 4px 0 14px; }
+.im-save span { color: var(--im-muted); font-size: .9375rem; }
+@media (max-width: 700px) { .im-row { grid-template-columns: minmax(0, 1fr); } .im-chart.im-narrow text { font-size: 15px; } }

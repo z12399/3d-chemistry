@@ -1,0 +1,60 @@
+.dna-repair-evidence{container-type:inline-size;color:#1c2732;font-size:16px;line-height:1.65;max-width:100%;min-width:0;--dr-accent:#14665d;--dr-muted:#53606d;--dr-line:#d4dedb;--dr-soft:#f4f8f7}
+.dna-repair-evidence *{box-sizing:border-box}.dna-repair-evidence [hidden]{display:none!important}
+.dna-repair-evidence .dr-sr-only{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.dna-repair-evidence p{margin:10px 0;overflow-wrap:anywhere}.dna-repair-evidence p:empty{display:none}
+.dna-repair-evidence label{display:flex;flex-direction:column;gap:6px;min-width:0;font-size:16px;font-weight:600}
+.dna-repair-evidence select,.dna-repair-evidence textarea,.dna-repair-evidence button{font:inherit;font-size:16px;color:inherit;border:1px solid #aebdb8;border-radius:8px;background:#fff;min-height:44px;max-width:100%}
+.dna-repair-evidence select{width:100%;padding:8px 30px 8px 11px;min-width:0}
+.dna-repair-evidence button{padding:9px 15px;cursor:pointer;line-height:1.45}
+.dna-repair-evidence button:disabled{cursor:default;opacity:.64}.dna-repair-evidence select:disabled{background:#f4f6f5}
+.dna-repair-evidence textarea{width:100%;padding:10px 12px;resize:vertical;font-weight:400;line-height:1.7;overflow-wrap:anywhere}
+.dna-repair-evidence textarea[readonly]{background:#f5f7f6}
+.dna-repair-evidence :is(button,select,textarea,summary,a,[tabindex]):focus-visible{outline:3px solid var(--dr-accent);outline-offset:3px}
+.dna-repair-evidence .dr-primary{background:var(--dr-accent);border-color:var(--dr-accent);color:#fff}
+.dna-repair-evidence .dr-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:14px;margin:0 0 12px}
+.dna-repair-evidence .dr-caption,.dna-repair-evidence .dr-diagram-key{color:var(--dr-muted);font-size:16px;font-weight:400}
+.dna-repair-evidence .dr-workarea{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;margin:16px 0 20px}
+.dna-repair-evidence .dr-figure-area{min-width:0}.dna-repair-evidence .dr-initial{display:flex;flex-direction:column;align-items:stretch;gap:12px;padding:15px 0;border-top:1px solid var(--dr-line)}
+.dna-repair-evidence .dr-initial p{margin:0}.dna-repair-evidence .dr-boundary{border-left:3px solid var(--dr-accent);padding:8px 0 8px 12px;background:transparent;font-size:16px}
+.dna-repair-evidence .dr-awaiting{padding:14px 0;color:var(--dr-muted)}
+.dna-repair-evidence .dr-actions,.dna-repair-evidence .dr-phase-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}.dna-repair-evidence .dr-phase-actions:has([data-dr-phase]:empty){display:none}.dna-repair-evidence .dr-phase-actions>span{margin-right:auto}
+.dna-repair-evidence details{border:0;border-top:1px solid var(--dr-line);border-radius:0;background:transparent;padding:0;margin-top:12px}
+.dna-repair-evidence[data-dr-ready] summary{cursor:pointer;min-height:48px;padding:12px 0;font-size:16px;line-height:1.5;font-weight:600}
+.dna-repair-evidence details>label{margin:14px 0}.dna-repair-evidence h3{font-size:16px;line-height:1.6;margin:14px 0 6px}.dna-repair-evidence ul{padding-left:24px}.dna-repair-evidence li{margin:10px 0;overflow-wrap:anywhere}
+.dna-repair-evidence dl{display:grid;grid-template-columns:minmax(85px,.3fr) minmax(0,1fr);gap:10px 18px}.dna-repair-evidence dt{font-weight:600}.dna-repair-evidence dd{margin:0;overflow-wrap:anywhere}
+.dna-repair-evidence pre{font:inherit;font-size:16px;white-space:pre-wrap;overflow-wrap:anywhere;background:var(--dr-soft);padding:12px;border-radius:8px}
+.dna-repair-evidence code{font-size:16px;white-space:normal;overflow-wrap:anywhere}.dna-repair-evidence a{color:var(--dr-accent);text-underline-offset:3px}
+.dna-repair-evidence .dr-source-links a{display:inline-flex;align-items:center;min-height:44px}.dna-repair-evidence .dr-source-links{list-style:none;padding:0}.dna-repair-evidence .dr-source-links li{margin:4px 0}
+.dna-repair-evidence .dr-mechanism{margin:0;max-width:100%;border:1px solid var(--dr-line);border-radius:8px;padding:14px;background:#fff}
+.dna-repair-evidence figcaption{font-size:16px;font-weight:600;line-height:1.6;margin-bottom:14px}
+.dna-repair-evidence .dr-duplex{max-width:460px;margin:0 auto;display:grid;justify-items:stretch;gap:0}
+.dna-repair-evidence .dr-strand{display:flex;flex-direction:column;align-items:center;min-width:0}
+.dna-repair-evidence .dr-backbone-object{width:100%;height:86px;position:relative;border:1px solid transparent;border-radius:6px;padding:0;background:transparent;display:block;opacity:1!important;color:#1c2732}
+.dna-repair-evidence .dr-backbone-object[aria-pressed="true"]{border:2px solid var(--dr-accent);background:#f0f7f5}
+.dna-repair-evidence .dr-backbone-label{position:absolute;top:0;left:0;right:0;text-align:center;font-size:16px;font-weight:500}
+.dna-repair-evidence .dr-backbone-line{position:absolute;height:3px;left:9%;right:9%;top:58px;background:#536b66}
+.dna-repair-evidence .dr-sugar{position:absolute;top:38px;width:42px;height:42px;background:#eaf3f0;border:1px solid #7b9991;border-radius:50%;display:flex;align-items:center;justify-content:center;transform:translateX(-50%);font-size:16px;font-weight:500;color:#1c2732}
+.dna-repair-evidence .dr-sugar-left{left:12%}.dna-repair-evidence .dr-sugar-center{left:50%}.dna-repair-evidence .dr-sugar-right{left:88%}
+.dna-repair-evidence .dr-phosphate{position:absolute;top:44px;width:28px;height:28px;border:1px solid #8c9c98;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;transform:translateX(-50%);font-size:16px;color:#1c2732}
+.dna-repair-evidence .dr-phosphate-left{left:31%}.dna-repair-evidence .dr-phosphate-right{left:69%}
+.dna-repair-evidence .dr-sugar-ap{border:2px solid #765111;background:#fcf4e4}.dna-repair-evidence .dr-ap-badge{position:absolute;left:50%;top:42px;transform:translateX(-50%);font-size:16px;line-height:22px;color:#684607;white-space:nowrap}
+.dna-repair-evidence .dr-glycosidic-bond{width:3px;height:20px;background:#536b66;display:block;flex:none}.dna-repair-evidence .dr-bond-absent{background:transparent}
+.dna-repair-evidence .dr-base-object{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;min-width:106px;font-size:20px;font-weight:600;border:1px solid #81978f;background:#f3f8f6;opacity:1!important;color:#1c2732}
+.dna-repair-evidence .dr-base-object[aria-pressed="true"]{outline:3px solid var(--dr-accent);outline-offset:2px}
+.dna-repair-evidence .dr-base-damaged{background:#fcf4e4;border-color:#a77b2b}.dna-repair-evidence .dr-damage-label{font-size:16px;font-weight:500;color:#684607}
+.dna-repair-evidence .dr-base-gap{min-height:44px;display:flex;align-items:center;justify-content:center;font-size:16px;color:#684607}
+.dna-repair-evidence .dr-pairing{text-align:center;min-height:34px;padding:4px 0;font-size:16px;color:var(--dr-muted);border:0;background:transparent}
+.dna-repair-evidence .dr-strand-bottom .dr-backbone-label{top:auto;bottom:0}.dna-repair-evidence .dr-strand-bottom .dr-backbone-line{top:23px}.dna-repair-evidence .dr-strand-bottom .dr-sugar{top:3px}.dna-repair-evidence .dr-strand-bottom .dr-phosphate{top:9px}
+.dna-repair-evidence .dr-release{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:12px;font-size:16px}.dna-repair-evidence .dr-released-pill{border:1px solid var(--dr-accent);border-radius:8px;padding:5px 15px;font-size:20px;color:var(--dr-accent);background:#fff}
+.dna-repair-evidence .dr-diagram-key{margin:12px 0 0;text-align:center}
+.dna-repair-evidence .dr-cell-figure{margin:0;padding:14px 20px 12px 12px;border:1px solid var(--dr-line);border-radius:8px}
+.dna-repair-evidence .dr-plot{height:245px;position:relative;margin:22px 16px 18px 42px;border-left:1px solid #9caaa5;border-bottom:1px solid #9caaa5}
+.dna-repair-evidence .dr-ticks{position:absolute;inset:0}.dna-repair-evidence .dr-ticks span{position:absolute;left:-42px;width:34px;text-align:right;transform:translateY(-50%);font-size:16px}
+.dna-repair-evidence .dr-lanes{position:absolute;inset:0;display:grid;grid-template-columns:1fr 1fr}.dna-repair-evidence .dr-lane{position:relative}
+.dna-repair-evidence .dr-point{position:absolute;left:50%;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--dr-accent);color:#fff;font-size:16px;font-weight:600}
+.dna-repair-evidence .dr-pair-labels{display:grid;grid-template-columns:1fr 1fr;margin-left:42px;text-align:center;font-size:16px}
+.dna-repair-evidence .dr-readings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:10px}.dna-repair-evidence .dr-readings section{min-width:0}.dna-repair-evidence .dr-readings h3{overflow-wrap:anywhere}.dna-repair-evidence .dr-value{font-size:18px;line-height:1.65}
+.dna-repair-evidence .dr-table-scroll{max-width:100%;overflow:auto;border:1px solid var(--dr-line);border-radius:8px;margin:12px 0;overscroll-behavior-x:contain}
+.dna-repair-evidence table{border-collapse:collapse;min-width:800px;width:100%;font-size:16px;background:#fff}.dna-repair-evidence caption{text-align:left;padding:14px;font-size:16px;line-height:1.65}.dna-repair-evidence th,.dna-repair-evidence td{padding:12px 14px;border:1px solid var(--dr-line);text-align:left;vertical-align:top;font-size:16px;white-space:normal}.dna-repair-evidence thead{background:var(--dr-soft)}
+@container(min-width:760px){.dna-repair-evidence .dr-workarea{grid-template-columns:minmax(0,1.6fr) minmax(250px,1fr);gap:25px}.dna-repair-evidence .dr-initial{border-top:0;border-left:1px solid var(--dr-line);padding:14px 0 14px 24px;align-self:start}}
+@container(max-width:480px){.dna-repair-evidence .dr-controls{grid-template-columns:minmax(0,1fr)}.dna-repair-evidence .dr-readings{grid-template-columns:minmax(0,1fr);gap:0}.dna-repair-evidence .dr-mechanism{padding:10px}.dna-repair-evidence .dr-actions>button{flex:1 1 150px}.dna-repair-evidence dl{grid-template-columns:minmax(0,1fr);gap:4px}.dna-repair-evidence dd{margin-bottom:12px}.dna-repair-evidence .dr-cell-figure{padding-right:12px}}

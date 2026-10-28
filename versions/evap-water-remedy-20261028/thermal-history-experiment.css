@@ -1,0 +1,129 @@
+/* Extends food-experiments.css; two shared-time plots and progressive controls. */
+.history-experiment { container-type: inline-size; max-width: 940px; }
+.history-experiment .history-boundary { margin: -3px 0 22px; border-left: 2px solid var(--exp-line); padding-left: 12px; color: var(--exp-muted); font-size: 13px; line-height: 1.75; }
+.history-experiment .history-layout, .history-experiment .history-panel { min-width: 0; }
+.history-experiment .history-stage { position: static; padding: 15px 10px 14px; }
+.history-experiment .history-figure { max-width: 520px; }
+.history-experiment .history-figure text { font-size: 13px; }
+.history-experiment .history-figure .history-small { font-size: 11px; }
+.history-experiment .history-figure .history-plot-title { fill: var(--exp-ink); font-size: 14px; font-weight: 600; }
+.history-experiment .history-figure .history-plot-reading { fill: var(--exp-accent); font-size: 15px; font-variant-numeric: tabular-nums; }
+.history-experiment .history-grid { fill: none; stroke: #dedfd6; stroke-width: 1; }
+.history-experiment .history-stage-guide { stroke-dasharray: 3 5; }
+.history-experiment .history-reference { fill: none; stroke: #95a19a; stroke-width: 1.2; stroke-dasharray: 4 4; }
+.history-experiment .history-temperature { fill: none; stroke: #b9543a; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.history-experiment .history-cumulative { fill: none; stroke: #587e74; stroke-width: 2.6; stroke-linecap: round; stroke-linejoin: round; }
+.history-experiment .history-area { fill: #91b5a7; fill-opacity: .22; }
+.history-experiment .history-cursor { fill: none; stroke: #897466; stroke-width: 1.4; stroke-dasharray: 3 4; }
+.history-experiment .history-dot { fill: #fffdf8; stroke: var(--exp-accent); stroke-width: 2; }
+.history-experiment .history-cursor-control { margin: 14px 6px 0; }
+.history-experiment .history-cursor-control .food-exp-control { margin-bottom: 10px; }
+.history-experiment .history-cursor-control .food-exp-endpoints { display: none; }
+.history-experiment .history-cursor-control .food-exp-control-label { font-size: 13px; }
+.history-experiment .history-formula { margin: 14px 6px 8px; padding-top: 13px; border-top: 1px solid var(--exp-line); text-align: center; font: 17px/1.9 'Cambria Math', 'Segoe UI', sans-serif; overflow-wrap: anywhere; }
+.history-experiment .history-formula small { display: block; margin-top: 3px; color: var(--exp-muted); font: 13px/1.7 'Segoe UI', sans-serif; }
+.history-experiment .history-panel > .food-exp-result { display: block; margin: 0 0 25px; }
+.history-experiment .history-value { display: block; font-size: clamp(29px,3vw,38px); }
+.history-experiment .history-label { display: block; margin-top: 6px; }
+.history-experiment .history-contributions { margin: 2px 0 16px; padding: 15px 0 0; border-top: 1px solid var(--exp-line); }
+.history-experiment .history-contributions > p { margin: 0 0 11px; color: var(--exp-muted); font-size: 13px; }
+.history-experiment .history-readings { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; margin: 0; font-size: 13px; }
+.history-experiment .history-readings dt { color: var(--exp-muted); }
+.history-experiment .history-readings dd { margin: 5px 0 0; font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.history-experiment .history-stage-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; }
+.history-experiment .history-stage-heating { background: #d79b77; }
+.history-experiment .history-stage-holding { background: #b9543a; }
+.history-experiment .history-stage-cooling { background: #8caaa2; }
+.history-experiment .history-observation { min-height: 0; font-size: 13px; line-height: 1.8; }
+.history-experiment .history-note { margin: 1px 0 18px; color: var(--exp-muted); font-size: 13px; line-height: 1.85; }
+.history-experiment .history-quality-result { margin: 5px 0 22px; }
+.history-experiment .history-quality-value { display: block; color: #53606d; font-size: 28px; font-variant-numeric: tabular-nums; }
+.history-experiment .history-quality-label { display: block; margin-top: 5px; color: var(--exp-muted); font-size: 13px; }
+.history-experiment .history-quality-formula { margin: 15px 0 11px; font: 16px/1.9 'Cambria Math', 'Segoe UI', sans-serif; overflow-wrap: anywhere; }
+.history-experiment .history-reset { margin-top: 18px; padding: 8px 16px; border: 1px solid var(--exp-line); border-radius: 6px; background: transparent; color: var(--exp-muted); font: inherit; font-size: 13px; cursor: pointer; }
+.history-experiment .history-reset:hover { border-color: var(--exp-accent); color: var(--exp-accent); }
+.history-experiment .history-reset:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+.history-experiment .history-presets { margin: 4px 0 18px; padding: 13px 0 0; border-top: 1px solid var(--exp-line); }
+.history-experiment .history-presets p { margin: 0 0 10px; color: var(--exp-muted); font-size: 13px; line-height: 1.8; }
+.history-experiment .history-presets > div { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.history-experiment .history-presets button { padding: 8px 10px; border: 1px solid #cfd6dc; border-radius: 8px; background: #fff; color: var(--exp-ink); font: inherit; font-size: 13px; cursor: pointer; }
+.history-experiment .history-presets button:hover { border-color: var(--exp-accent); }
+.history-experiment .history-presets button:focus-visible { outline: 3px solid var(--exp-accent); outline-offset: 3px; }
+.history-experiment input:disabled { opacity: .5; cursor: default; }
+@container (min-width: 620px) {
+  .history-experiment .history-layout { display: grid; grid-template-columns: minmax(0,1.24fr) minmax(0,1fr); gap: 28px; align-items: start; }
+  .history-experiment .history-stage { position: sticky; top: 96px; margin-bottom: 0; }
+  .history-experiment .history-panel > .food-exp-result { min-height: 77px; }
+  .history-experiment .food-exp-control-label { font-size: 13px; }
+}
+@media (max-width: 480px) {
+  .history-experiment .history-stage { position: static; top: auto; padding-inline: 3px; }
+  .history-experiment .history-figure text { font-size: 15px; }
+  .history-experiment .history-figure .history-small { font-size: 14px; }
+  .history-experiment .history-figure .history-plot-title,
+  .history-experiment .history-figure .history-plot-reading { font-size: 16px; }
+  .history-experiment .history-panel > .food-exp-result { padding-inline: 0; }
+  .history-experiment .history-formula { font-size: 16px; }
+}
+/* Put the shared-time plots and current controls before the supporting explanation. */
+.history-experiment .history-identity { margin:0 0 10px;color:var(--exp-muted);font-size:13px;line-height:1.7; }
+.history-experiment .history-layout { display:grid;grid-template-columns:minmax(0,1fr);gap:16px;align-items:start; }
+.history-experiment .history-stage { padding:10px;margin:0; }
+.history-experiment .history-figure svg { height:340px; }
+.history-experiment .history-figure text { font-size:18px; }
+.history-experiment .history-figure .history-small { font-size:16px; }
+.history-experiment .history-figure .history-plot-title { font-size:20px; }
+.history-experiment .history-figure .history-plot-reading { font-size:21px; }
+.history-experiment .history-stage .food-exp-caption { margin:6px 0 0; }
+.history-experiment .history-main-controls { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px; }
+.history-experiment .history-main-controls .food-exp-control { margin-bottom:8px; }
+.history-experiment .history-panel > .food-exp-result { min-height:0;margin:0 0 10px; }
+.history-experiment .history-label { margin-top:3px; }
+.history-experiment .history-cursor-control { margin:0 0 8px; }
+.history-experiment .history-cursor-control .food-exp-control { margin-bottom:0; }
+.history-experiment .history-contributions { margin:0 0 8px;padding-top:8px; }
+.history-experiment .history-contributions > p { margin:0 0 6px; }
+.history-experiment .history-reset { margin:4px 0 0;min-height:38px; }
+.history-experiment .history-observation { margin:12px 0; }
+.history-experiment .history-explanation { margin-top:10px; }
+.history-experiment .history-explanation .food-exp-heading { margin-bottom:14px; }
+.history-experiment .history-explanation .history-boundary { margin:0 0 14px; }
+.history-experiment .history-explanation .history-formula { margin:0 0 10px; }
+.history-experiment .history-extensions { margin-top:12px; }
+@container (min-width:620px) {
+ .history-experiment .history-layout { grid-template-columns:minmax(0,1.24fr) minmax(0,1fr);gap:28px; }
+}
+@container (max-width:619px) {
+ .history-experiment .history-panel { grid-row:1; }
+ .history-experiment .history-stage { grid-row:2;position:static; }
+}
+/* Preserve the original diagrams while keeping their scaled text readable. */
+.history-experiment :is(.food-exp-control-label,.food-exp-control-label label,.food-exp-control-label output,.food-exp-endpoints,.food-exp-details summary,.food-exp-kicker,.food-exp-hint,.food-exp-caption,.food-exp-result-label,.food-exp-assumptions,.food-exp-sources li,.history-identity,.history-boundary,.history-contributions > p,.history-readings,.history-observation,.history-note,.history-quality-label,.history-presets p,.history-presets button,.history-reset) { font-size:16px; }
+.history-experiment .history-formula small { font-size:16px; }
+.history-experiment .food-exp-details summary { min-height:44px; }
+.history-experiment .history-reset,.history-experiment .history-presets button { min-height:44px; }
+.history-experiment .history-layout { grid-template-columns:minmax(0,1fr);gap:20px; }
+.history-experiment .history-stage { min-width:0;padding:12px;position:static;grid-row:auto; }
+.history-experiment .history-panel { grid-row:auto; }
+.history-experiment .history-figure { width:100%;max-width:none;min-width:0;overflow-x:auto; }
+.history-experiment .history-figure:focus-visible { outline:3px solid var(--exp-accent);outline-offset:2px; }
+.history-experiment .history-figure svg { width:100%;min-width:400px;height:auto;padding:0 32px 8px; }
+.history-experiment .history-figure text { font-size:22px; }
+.history-experiment .history-figure .history-small { font-size:20px; }
+.history-experiment .history-figure .history-plot-title { font-size:24px; }
+.history-experiment .history-figure .history-plot-reading { font-size:25px; }
+.history-experiment .history-main-controls { column-gap:16px; }
+.history-experiment .history-readings { gap:8px; }
+@container (min-width:800px) {
+ .history-experiment .history-layout { grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:24px; }
+}
+@container (max-width:799px) {
+ .history-experiment .history-panel { grid-row:1; }
+ .history-experiment .history-stage { grid-row:2; }
+}
+@media (max-width:480px) {
+ .history-experiment .history-main-controls { grid-template-columns:minmax(0,1fr);gap:8px; }
+ .history-experiment .history-readings { grid-template-columns:minmax(0,1fr); }
+ .history-experiment .history-readings > div { display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px; }
+ .history-experiment .history-readings dd { margin:0; }
+}

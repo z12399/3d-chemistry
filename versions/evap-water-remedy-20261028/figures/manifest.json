@@ -1,0 +1,1634 @@
+{
+  "version": 1,
+  "figures": [
+    {
+      "lessonId": "water-migration",
+      "file": "water-migration.svg",
+      "alt": "密封包裝中的高水活性內餡以箭頭指向低水活性餅乾。",
+      "caption": "若內餡 a_w 較高，水仍可能移入餅乾；密封不會阻止食品內部水分交換。",
+      "basis": "同溫下，水傾向由高 a_w 區域移向低 a_w 區域。"
+    },
+    {
+      "lessonId": "water-freezing",
+      "file": "water-freezing.svg",
+      "alt": "結冰前分散的溶質，在部分結冰後集中於冰晶外的未凍結相。",
+      "caption": "冰晶通常排斥溶質，未凍結相因而更濃；圖中面積與符號不代表定量比例。",
+      "basis": "冰晶通常排斥溶質，留下較濃的未凍結相。"
+    },
+    {
+      "lessonId": "lipid-shape",
+      "file": "lipid-shape.svg",
+      "alt": "較直鏈與 cis 彎折鏈的排列對照，顯示彎折影響緊密堆積。",
+      "caption": "cis 彎折通常降低相近鏈長分子的緊密堆積能力；油脂軟硬仍受多項條件影響。",
+      "basis": "雙鍵配置改變鏈形狀；熔點還受鏈長、組成與晶型影響。"
+    },
+    {
+      "lessonId": "lipid-autoxidation",
+      "file": "lipid-autoxidation.svg",
+      "alt": "脂質自由基經過氧自由基生成 LOOH 與新自由基，新的自由基回到傳播迴路。",
+      "caption": "傳播步驟生成新的 L•，讓反應鏈延續；LOOH 還可進一步分解成異味產物。",
+      "basis": "傳播步驟生成新的脂質自由基，讓反應鏈延續。"
+    },
+    {
+      "lessonId": "lipid-cocoa-tempering",
+      "file": "lipid-cocoa-tempering.svg",
+      "alt": "調溫四步驟下方，以兩個不同晶體網絡顯示同為 V 型也可有結構差異。",
+      "caption": "調溫除了選擇晶型，也管理晶體大小與網絡；只驗出 V 型不足以保證好質地。",
+      "basis": "調溫選擇晶型並管理晶體大小與網絡；分子組成相同，排列與質地仍可不同。"
+    },
+    {
+      "lessonId": "protein-denaturation",
+      "file": "protein-denaturation.svg",
+      "alt": "蛋白質連續肽鏈由摺疊變成展開，並以虛線箭頭連到可能的分子聚集。",
+      "caption": "變性主要改變高階結構，肽鏈主要序列通常仍在；聚集是可能的後續變化。",
+      "basis": "變性主要改變高階結構，通常保留肽鏈的主要序列。"
+    },
+    {
+      "lessonId": "protein-networks",
+      "file": "protein-networks.svg",
+      "alt": "多個蛋白質符號由概念連線組成網絡，旁列可參與的作用並附可能的二硫鍵交換式。",
+      "caption": "蛋白網絡可由多種分子間作用支撐，不能把所有凝膠都歸因於二硫鍵。",
+      "basis": "許多分子間作用共同形成網路，二硫鍵只是其中一種。"
+    },
+    {
+      "lessonId": "enzyme-catalysis",
+      "file": "enzyme-catalysis.svg",
+      "alt": "相同起點與終點的兩條定性能量曲線中，酵素途徑的能障較低。",
+      "caption": "酵素提供較低能障的途徑，讓系統較快接近平衡，但不改變同條件下的平衡常數。",
+      "basis": "催化劑降低反應能障，不改變同條件下的平衡常數。"
+    },
+    {
+      "lessonId": "browning-ppo",
+      "file": "browning-ppo.svg",
+      "alt": "原本分隔的 PPO 與酚類，在組織受損後與氧接觸形成醌，醌再反應導向褐變。",
+      "caption": "切開使原本分隔的成分更易接觸；PPO 生成醌後，後續色素形成仍包含非酵素反應。",
+      "basis": "組織受損使酵素、酚類與氧接觸，形成可再反應的醌。"
+    },
+    {
+      "lessonId": "pigment-chlorophyll",
+      "file": "pigment-chlorophyll.svg",
+      "alt": "葉綠素大環概念符號中的 Mg，在酸性條件下被兩個氫取代並釋出 Mg²⁺。",
+      "caption": "酸性條件可促進葉綠素脫鎂，形成脫鎂葉綠素；結構改變可能使色調偏橄欖色。",
+      "basis": "葉綠素中央的鎂被取代，會改變色素結構與顏色。"
+    },
+    {
+      "lessonId": "pigment-anthocyanin",
+      "file": "pigment-anthocyanin.svg",
+      "alt": "AH⁺ 與 A 加 H⁺ 以雙向箭頭表示一個酸鹼平衡，旁註低 pH 與其他顏色影響。",
+      "caption": "花青素形式比例可改變而不必先改變總量；實際顏色還受其他作用與降解影響。",
+      "basis": "酸鹼平衡能改變色素形式，不必先改變總量。"
+    },
+    {
+      "lessonId": "pigment-carotenoid",
+      "file": "pigment-carotenoid.svg",
+      "alt": "共軛鏈片段連到可見光吸收與色調，並在下方分列異構化和氧化裂解。",
+      "caption": "共軛系統影響可見光吸收；異構化與氧化裂解是不同的結構變化，可能改變色澤。",
+      "basis": "共軛電子系統影響可見光吸收；結構改變就可能改變色澤。"
+    },
+    {
+      "lessonId": "pigment-myoglobin",
+      "file": "pigment-myoglobin.svg",
+      "alt": "肌紅蛋白氧合與鐵氧化分列比較，氧合後鐵仍以 Fe²⁺ 表示，氧化後為 Fe³⁺。",
+      "caption": "先分清「結合氧」與「失去電子」；兩者不是同一化學改變。",
+      "basis": "結合氧與鐵被氧化，是兩種不同的化學改變。"
+    },
+    {
+      "lessonId": "vitamin-c-redox",
+      "file": "vitamin-c-redox.svg",
+      "alt": "抗壞血酸先氧化成仍可有活性的脫氫抗壞血酸，後續不可逆降解會減少活性。",
+      "caption": "追蹤氧化後的去向，才能分清維生素 C 的氧化與活性流失。",
+      "basis": "抗壞血酸提供電子後會被氧化，還要追蹤後續降解。"
+    },
+    {
+      "lessonId": "minerals-calcium-gel",
+      "file": "minerals-calcium-gel.svg",
+      "alt": "鈣與果膠鏈上適當分布的羧酸根作用，形成鏈間連接區。",
+      "caption": "圖中鈣代表鏈間連接的概念，不表示兩個羧基就是完整配位結構。",
+      "basis": "鈣能與適當分布的羧酸根作用，形成鏈間連接區。"
+    },
+    {
+      "lessonId": "colloid-emulsion",
+      "file": "colloid-emulsion.svg",
+      "alt": "油包水與水包油兩種乳液分別以液滴和連續相表示，液滴外圈表示界面成分吸附。",
+      "caption": "乳化讓一相成為液滴；界面成分幫助延緩重新合併。",
+      "basis": "乳化把一相分成液滴，界面成分幫助延緩重新合併。"
+    },
+    {
+      "lessonId": "colloid-creaming",
+      "file": "colloid-creaming.svg",
+      "alt": "獨立前後對照顯示，上浮移動液滴位置，合併才使液滴個體成為較大液滴。",
+      "caption": "看到分層先判斷液滴去了哪裡，再看液滴是否融合。",
+      "basis": "乳油上浮改變滴的空間分布；合併才改變滴的個體。"
+    },
+    {
+      "lessonId": "colloid-foam",
+      "file": "colloid-foam.svg",
+      "alt": "氣泡由蛋白質界面保護層包圍，泡沫中的液體仍會往下排流。",
+      "caption": "界面形成與排液同時存在；起泡能力和泡沫穩定性要分開看。",
+      "basis": "氣泡界面的薄膜與液體排流，一起決定泡沫穩定性。"
+    },
+    {
+      "lessonId": "colloid-gels",
+      "file": "colloid-gels.svg",
+      "alt": "鏈段連接區逐漸增多並形成連通網路，液體保留在網路中。",
+      "caption": "辨認凝膠要看能否形成限制流動的連通網路，而不只看黏稠程度。",
+      "basis": "凝膠需要能限制流動的連通網路；高黏度本身不夠。"
+    },
+    {
+      "lessonId": "processing-glass",
+      "file": "processing-glass.svg",
+      "alt": "含水量增加時玻璃轉移溫度定性下降；固定儲存溫度可能高於轉移區間，使材料活動性增加。",
+      "caption": "水作為塑化劑，能讓無定形食品在同一儲存條件下更柔軟或黏。",
+      "basis": "水能當塑化劑，降低無定形食品的玻璃轉移溫度。"
+    },
+    {
+      "lessonId": "proc-vacuum-evaporation",
+      "file": "proc-vacuum-evaporation.svg",
+      "alt": "降低絕對壓力會降低水的沸點，蒸發槽仍需供熱並排出蒸氣。",
+      "caption": "真空改變沸騰條件；低溫本身不能保證品質最佳或能耗最低。",
+      "basis": "真空改變沸騰條件；產品熱歷程與系統能耗仍須另外計算。"
+    },
+    {
+      "lessonId": "proc-multiple-effects",
+      "file": "proc-multiple-effects.svg",
+      "alt": "蒸氣從前效引向後效凝結供熱，後效通常在較低壓力與沸點操作。",
+      "caption": "熱可以逐級重用，但實際蒸汽經濟性仍須用蒸發水與外供蒸汽計算。",
+      "basis": "多效重用蒸氣的熱；效數與蒸汽經濟性有關，但不會自動相等。"
+    },
+    {
+      "lessonId": "proc-drying-rate",
+      "file": "proc-drying-rate.svg",
+      "alt": "無數字的乾基水分對時間曲線逐漸變平，相同時間內的水分下降可能越來越小。",
+      "caption": "先讀時間序列；後段變慢時，不能把前段斜率直接外推到終點。",
+      "basis": "乾燥速率會隨表面供水與內部傳質改變；先讀時間序列，才決定能否用恆速近似。"
+    },
+    {
+      "lessonId": "proc-freeze-drying",
+      "file": "proc-freeze-drying.svg",
+      "alt": "一次乾燥讓冰昇華，冰去除後二次乾燥脫附殘留吸附水，兩者都標出供熱和水蒸氣移除。",
+      "caption": "真空之外，供熱、蒸氣移除與產品狀態要配合；兩階段去除的水不同。",
+      "basis": "凍乾同時需要供熱、蒸氣移除與產品狀態控制；一次乾燥與二次乾燥處理的水不同。"
+    },
+    {
+      "lessonId": "proc-freezing-front",
+      "file": "proc-freezing-front.svg",
+      "alt": "定性凍結曲線經過過冷後短暫回升，再隨逐漸成冰與未凍相濃縮而下降。",
+      "caption": "成核釋放潛熱可造成局部回升；成冰後溶質留在未凍相，凍結點繼續下降。",
+      "basis": "過冷、成核放熱與未凍相濃縮共同塑造曲線；凍結進度不能只看一個溫度。"
+    },
+    {
+      "lessonId": "proc-modified-atmosphere",
+      "file": "proc-modified-atmosphere.svg",
+      "alt": "氧氣可穿越包膜進出，包內蔬果呼吸消耗氧並產生二氧化碳，因此氣體比例持續改變。",
+      "caption": "包膜交換與呼吸持續進行；裝填量和溫度改變後，包內氣體的後續狀態也可能不同。",
+      "basis": "包內組成由氣體交換、食品呼吸與其他反應共同改變；氣調不是固定不變的無菌環境。"
+    },
+    {
+      "lessonId": "proc-aseptic-chain",
+      "file": "proc-aseptic-chain.svg",
+      "alt": "產品處理與包材處理分兩條路徑，於受控系統中充填封口，設備與無菌界面需一併維持。",
+      "caption": "產品曾加熱不能替代下游設備、包材、充填界面與封口的整體證據。",
+      "basis": "產品處理、設備與包材處理、無菌界面維持和封口必須共同成立。"
+    },
+    {
+      "lessonId": "proc-temperature-history",
+      "file": "proc-temperature-history.svg",
+      "alt": "食品內測點 A、B 對應不同升溫曲線，外部加熱介質的曲線不能直接代替食品熱歷程。",
+      "caption": "先辨認介質與食品測點，再比較完整熱歷程；冷點位置仍需產品與配置證據。",
+      "basis": "先辨認測點，再比較完整食品熱歷程；冷點位置要由產品與配置的證據支持。"
+    },
+    {
+      "lessonId": "proc-oil-degumming",
+      "file": "proc-oil-degumming.svg",
+      "alt": "可水合磷脂加水水合，部分金屬結合磷脂需調整結合及後續處理，再分離膠質或吸附相。",
+      "caption": "磷脂的可水合性不同；去除效果應比較油品量乘磷濃度，而非只看磷濃度。",
+      "basis": "磷脂的可水合性不同；脫膠要考慮金屬結合與相分離，並用磷的總量衡算辨別去除效果。"
+    },
+    {
+      "lessonId": "proc-oil-deodorization",
+      "file": "proc-oil-deodorization.svg",
+      "alt": "低壓油相中蒸汽向上通過，目標揮發成分進入氣相移出，有用成分也可能隨汽提減少。",
+      "caption": "汽提有成分選擇性，也有保留的代價；比較流程須對齊去除、保留和回收目標。",
+      "basis": "低壓蒸汽汽提利用揮發性移除目標成分，也可能帶走有用成分；比較流程須先對齊品質目標。"
+    },
+    {
+      "lessonId": "micro-cells-viruses",
+      "file": "micro-cells-viruses.svg",
+      "alt": "細菌是可分裂的原核細胞，真菌是真核細胞；病毒的新粒子在合適宿主細胞內複製組裝。",
+      "caption": "細菌與真菌屬細胞，病毒須依靠合適宿主製造新粒子，不能套用細菌倍增模型。",
+      "basis": "細菌與真菌是細胞；病毒的新粒子須依靠合適宿主細胞製造，不能套用細菌倍增模型。"
+    },
+    {
+      "lessonId": "micro-growth-cycle",
+      "file": "micro-growth-cycle.svg",
+      "alt": "定性 CFU 曲線依序呈現遲滯、對數、穩定與下降階段；穩定期仍可能有代謝。",
+      "caption": "族群曲線需先說明縱軸；淨數量接近平臺，不代表全部細胞停止活動。",
+      "basis": "遲滯、對數、穩定與下降階段描述指定條件下的族群；曲線形狀不等於每個細胞的狀態。"
+    },
+    {
+      "lessonId": "micro-plate-count",
+      "file": "micro-plate-count.svg",
+      "alt": "單細胞與細胞團分別都可能形成一個可見菌落，表示 CFU 不能直接當作細胞總數。",
+      "caption": "CFU 是指定條件下的菌落形成單位；聚集及方法回收使它不同於總細胞數。",
+      "basis": "CFU 是特定條件下的菌落形成單位；細胞聚集、受傷與不可培養狀態會讓它不同於總細胞數。"
+    },
+    {
+      "lessonId": "micro-contamination-chain",
+      "file": "micro-contamination-chain.svg",
+      "alt": "前段處理後仍有後續接觸與包裝，原料、環境或人員經接觸面的虛線箭頭表示待查污染路徑。",
+      "caption": "處理降低原有微生物與後段防止再引入須分開分析，末端陽性不能單獨認定來源。",
+      "basis": "污染可出現在食品鏈的多個節點；減少原有微生物與防止再引入，需要分開分析。"
+    },
+    {
+      "lessonId": "micro-z-temperature",
+      "file": "micro-z-temperature.svg",
+      "alt": "兩條假想 logD 對溫度直線在同一參考 D 交會；較大 z 的線較緩，交會點兩側排序不同。",
+      "caption": "z 描述 D 對溫度的敏感度；仍須參考 D、比較溫度與適用區間才能解讀。",
+      "basis": "z 要和參考 D 一起解讀；它描述 D 隨溫度改變的幅度，不能單獨排名所有溫度的耐受性。"
+    },
+    {
+      "lessonId": "water-activity",
+      "file": "water-activity.svg",
+      "alt": "以同溫食品與純水上方的平衡蒸氣壓之比說明水活性。",
+      "caption": "a_w 比較的是同溫平衡蒸氣壓；糖、鹽與結構改變水的狀態，含水量沒有固定換算。",
+      "basis": "水活性 a_w＝食品上方平衡水蒸氣壓 ÷ 同溫純水蒸氣壓，描述水的熱力學狀態（能被利用的程度）；含水量只說明水有多少，兩者不能互換。"
+    },
+    {
+      "lessonId": "water-buffer",
+      "file": "water-buffer.svg",
+      "alt": "用相同 HA／A⁻ 比例、不同總量的兩組粒子，比較 pH 與緩衝容量。",
+      "caption": "酸鹼比例對應 pH，能消耗加入酸鹼的總量影響緩衝容量。",
+      "basis": "緩衝液由弱酸與其共軛鹼組成，能消耗少量加入的酸或鹼；pH 由兩者的比例決定，緩衝容量由兩者的總量決定。"
+    },
+    {
+      "lessonId": "water-sorption-comparison",
+      "file": "water-sorption-comparison.svg",
+      "alt": "兩條定性等溫線在同一水活性上，對應不同的平衡含水量。",
+      "caption": "等溫線屬於指定材料與條件；同一 a_w 不代表相同平衡含水量。",
+      "basis": "吸濕等溫線描述同一溫度下平衡含水量與水活性的關係；曲線依材料組成、溫度及吸濕或脫濕的方向（遲滯）而不同。"
+    },
+    {
+      "lessonId": "carb-ring-chain",
+      "file": "carb-ring-chain.svg",
+      "alt": "α 環狀糖經平面的開鏈羰基形式，再閉環成 β，構成可逆平衡。",
+      "caption": "α／β 的互變須經環鏈互變；觀看角度或一般單鍵旋轉不會改變配置。",
+      "basis": "變旋：環狀糖先開環成帶羰基的開鏈形，再從羰基另一面閉環，使 α 與 β 異頭物互變直到平衡；單鍵旋轉不會改變 α／β 配置。"
+    },
+    {
+      "lessonId": "carb-reducing-end",
+      "file": "carb-reducing-end.svg",
+      "alt": "乳糖與蔗糖的概念連接圖，對照異頭中心是否仍能開環。",
+      "caption": "乳糖保留游離還原端；蔗糖的兩個異頭中心皆參與糖苷鍵。",
+      "basis": "還原糖必須保有能開環成游離羰基的半縮醛（游離異頭碳）；若所有異頭碳都用於糖苷鍵（如蔗糖），就不具還原性。"
+    },
+    {
+      "lessonId": "carb-hydrolysis",
+      "file": "carb-hydrolysis.svg",
+      "alt": "乳糖的連接鍵在水與乳糖酶作用下拆開，兩端補回 H 與 OH，得到兩種單糖。",
+      "caption": "水解淨消耗一分子水；糖單位拆分，並不等於無糖。",
+      "basis": "糖苷鍵水解消耗一分子水，鍵兩端各補回 H 與 OH 而得到兩個糖；水解酵素對鍵型與立體構型具專一性。"
+    },
+    {
+      "lessonId": "carb-starch-texture",
+      "file": "carb-starch-texture.svg",
+      "alt": "三個澱粉排列圖對照糊化與回凝，另以斷開鏈段表示水解。",
+      "caption": "糊化與老化改變有序排列；水解才切斷糖苷鍵。",
+      "basis": "糊化是水與熱破壞澱粉顆粒的有序結構，老化（回凝）是冷卻後鏈段重新排列；兩者都是物理變化，只有水解才切斷糖苷鍵。"
+    },
+    {
+      "lessonId": "carb-hfcs-process",
+      "file": "carb-hfcs-process.svg",
+      "alt": "三個製程步驟以長鏈、短鏈、葡萄糖與部分果糖呈現不同酵素角色。",
+      "caption": "液化、糖化與異構化作用不同；果糖由最後一步部分轉換而來。",
+      "basis": "果糖糖漿三步驟：α-澱粉酶切內部 α-1,4 鍵使澱粉液化 → 葡萄糖澱粉酶（加普魯蘭酶切 α-1,6 分支）糖化成葡萄糖 → 葡萄糖異構酶把部分葡萄糖轉為果糖。"
+    },
+    {
+      "lessonId": "carb-starch-architecture",
+      "file": "carb-starch-architecture.svg",
+      "alt": "上方畫 α-1,4 主鏈與 α-1,6 分支，下方畫鏈段組成局部雙螺旋、有序區與澱粉顆粒。",
+      "caption": "共價連接決定主鏈與分支；鏈段再組織成有序區與顆粒，排列破壞不等於切斷共價鍵。",
+      "basis": "直鏈澱粉主要由 α-1,4 鍵連成，支鏈澱粉另有 α-1,6 分支點；共價連接決定分子形狀，鏈段再組成雙螺旋與有序區，堆成澱粉顆粒。"
+    },
+    {
+      "lessonId": "lipid-fatty-acid-guide",
+      "file": "lipid-fatty-acid-guide.svg",
+      "alt": "拆解亞油酸標記並比較兩端計數方向，另以彎折鏈和雙烯丙位說明堆積與氧化。",
+      "caption": "碳數、雙鍵數、位置與配置須分開讀；n／ω 從甲基端計數。",
+      "basis": "脂肪酸以「碳數:雙鍵數」標示，雙鍵位置可由羧基端（Δ）或甲基端（n／ω）計數；順式雙鍵使鏈彎折、不易緊密堆積，多不飽和鏈的雙烯丙位容易氧化。"
+    },
+    {
+      "lessonId": "lipid-reaction-map",
+      "file": "lipid-reaction-map.svg",
+      "alt": "以反應部位將酯鍵變化、雙鍵變化與熔化結晶分為三條路徑。",
+      "caption": "先追反應部位，再區分酯鍵反應、雙鍵反應與只改變排列的物理變化。",
+      "basis": "依反應部位分類脂質變化：酯鍵 → 水解、皂化、酯交換；碳碳雙鍵 → 氧化、氫化（可能伴隨異構化）；熔化與結晶只改變分子排列，不是共價反應。"
+    },
+    {
+      "lessonId": "lipid-hydrolysis",
+      "file": "lipid-hydrolysis.svg",
+      "alt": "以三條酯化臂逐一減少，呈現 TAG 到 DAG、MAG、甘油及每步釋出一個脂肪酸。",
+      "caption": "每水解一個酯位淨消耗一分子水；完全水解得到甘油與三個脂肪酸。",
+      "basis": "水解酸敗：脂肪酶或酸鹼使三酸甘油酯的酯鍵逐一水解（TAG → DAG → MAG → 甘油），每斷一個酯鍵耗一分子水並釋出一個游離脂肪酸；短鏈脂肪酸帶來異味。"
+    },
+    {
+      "lessonId": "lipid-antioxidants",
+      "file": "lipid-antioxidants.svg",
+      "alt": "AH 供氫給 LOO 自由基，生成 LOOH 與較穩定 A 自由基，以截斷連鎖。",
+      "caption": "斷鏈抗氧化劑延緩新反應；它不會移除已生成的氧化產物。",
+      "basis": "斷鏈抗氧化劑把氫給過氧自由基，自己變成較穩定的自由基而中斷連鎖；它只能延緩新的氧化，不能移除已經生成的氧化產物。"
+    },
+    {
+      "lessonId": "lipid-oxidation-pathways",
+      "file": "lipid-oxidation-pathways.svg",
+      "alt": "比較自由基自氧化的主要 9、13 位產物，與 II 型光敏氧化增加的 10、12 位產物。",
+      "caption": "9、13 位是兩途徑共有的位置；需連同條件與其他產物判讀。",
+      "basis": "亞油酸夾在兩個雙鍵之間的 C11（雙烯丙位）的氫最容易被奪；自由基離域後加氧，主要生成 9- 與 13-氫過氧化物。單重態氧則直接加到雙鍵碳上，還會生成 10、12 位產物。"
+    },
+    {
+      "lessonId": "lipid-oxidation-indicators",
+      "file": "lipid-oxidation-indicators.svg",
+      "alt": "初級產物先升後降、次級產物持續累積的定性曲線，旁列酸價的不同量測對象。",
+      "caption": "PV、p-AV、酸價量測不同類產物；單一低 PV 不能區分初期與後期。",
+      "basis": "過氧化價量氫過氧化物（初級產物），會先升後降；對茴香胺價量醛類（次級產物）；酸價量游離脂肪酸。判斷氧化程度必須合看多項指標。"
+    },
+    {
+      "lessonId": "protein-isoelectric",
+      "file": "protein-isoelectric.svg",
+      "alt": "比較 pI 兩側的帶電分散與接近 pI 時的聚集，保留正負基團以表示淨電荷。",
+      "caption": "比較 pI 兩側的帶電分散與接近 pI 時的聚集，保留正負基團以表示淨電荷。",
+      "basis": "蛋白質淨電荷由各可解離基團隨 pH 的質子化程度加總而成；等電點 pI 是平均淨電荷為零的 pH，此時分子間靜電排斥最弱，最容易聚集沉澱。"
+    },
+    {
+      "lessonId": "protein-salt-ph",
+      "file": "protein-salt-ph.svg",
+      "alt": "將 pH 的電荷效應與低鹽屏蔽、高鹽爭水兩種條件分開呈現。",
+      "caption": "將 pH 的電荷效應與低鹽屏蔽、高鹽爭水兩種條件分開呈現。",
+      "basis": "pH 偏離 pI 時淨電荷增加、排斥增強，有利溶解；低濃度鹽屏蔽電荷可促進溶解（鹽溶），高濃度鹽則與蛋白爭奪水而使其析出（鹽析）。"
+    },
+    {
+      "lessonId": "protein-peptide-backbone",
+      "file": "protein-peptide-backbone.svg",
+      "alt": "在正常 α 肽骨架中標出真正的羰基 C–N 肽鍵，並以 N→C 方向連結共振與轉動限制。",
+      "caption": "在正常 α 肽骨架中標出真正的羰基 C–N 肽鍵，並以 N→C 方向連結共振與轉動限制。",
+      "basis": "肽鍵是前一殘基的羰基碳與下一殘基的胺基氮所成的醯胺 C–N 鍵；因共振帶部分雙鍵性，不能自由旋轉，肽骨架以 N–Cα–C(=O) 重複。"
+    },
+    {
+      "lessonId": "enzyme-saturation",
+      "file": "enzyme-saturation.svg",
+      "alt": "用飽和初速曲線及半最大初速的輔助線，定位 Km 並呈現有限活性位的速率上限。",
+      "caption": "用飽和初速曲線及半最大初速的輔助線，定位 Km 並呈現有限活性位的速率上限。",
+      "basis": "酵素活性位有限：底物少時速率隨 [S] 近似線性上升，底物多時活性位飽和，速率趨近 Vmax；Km 是速率達 Vmax 一半時的底物濃度。"
+    },
+    {
+      "lessonId": "enzyme-inhibition",
+      "file": "enzyme-inhibition.svg",
+      "alt": "並排比較競爭與純非競爭抑制的定性曲線、平台及表觀 Km。",
+      "caption": "並排比較競爭與純非競爭抑制的定性曲線、平台及表觀 Km。",
+      "basis": "競爭性抑制劑與底物爭奪活性位，表觀 Km 上升、Vmax 不變；非競爭性抑制劑結合在別處，使 Vmax 降低、Km 不變。"
+    },
+    {
+      "lessonId": "enzyme-specificity",
+      "file": "enzyme-specificity.svg",
+      "alt": "以糖鏈串珠比較鏈內切鍵與從非還原端切下麥芽糖，保留外切產物的雙單元形狀。",
+      "caption": "以糖鏈串珠比較鏈內切鍵與從非還原端切下麥芽糖，保留外切產物的雙單元形狀。",
+      "basis": "酵素依鍵型與作用方式切割：內切酶（如 α-澱粉酶）隨機切斷鏈內部的 α-1,4 鍵，外切酶（如 β-澱粉酶）從非還原端逐次切下麥芽糖。"
+    },
+    {
+      "lessonId": "browning-maillard",
+      "file": "browning-maillard.svg",
+      "alt": "將糖羰基與胺基的起始縮合、含氮中間體及後續色素和香氣分成三階段。",
+      "caption": "將糖羰基與胺基的起始縮合、含氮中間體及後續色素和香氣分成三階段。",
+      "basis": "梅納反應始於還原糖的羰基與胺基縮合（經加成、脫水）成含氮中間體，再經多條路徑生成褐色素與香氣；速率受溫度、pH 與水活性控制。"
+    },
+    {
+      "lessonId": "browning-rearrangement",
+      "file": "browning-rearrangement.svg",
+      "alt": "將醛糖與酮糖分成兩條平行途徑，對照 Amadori 酮胺與 Heyns 胺基醛糖。",
+      "caption": "將醛糖與酮糖分成兩條平行途徑，對照 Amadori 酮胺與 Heyns 胺基醛糖。",
+      "basis": "醛糖與胺縮合後經 Amadori 重排生成 1-胺基-1-去氧-2-酮糖；酮糖則經 Heyns 重排生成 2-胺基-2-去氧醛糖。"
+    },
+    {
+      "lessonId": "browning-caramel",
+      "file": "browning-caramel.svg",
+      "alt": "用四條平行反應分支表達糖的脫水、裂解、異構化與縮合，避免誤認成單一步驟。",
+      "caption": "用四條平行反應分支表達糖的脫水、裂解、異構化與縮合，避免誤認成單一步驟。",
+      "basis": "焦糖化是糖單獨受熱，經脫水、裂解、異構化與縮合生成色素與香氣，不需要胺基參與；HMF 只是其中一種產物。"
+    },
+    {
+      "lessonId": "flavor-partition",
+      "file": "flavor-partition.svg",
+      "alt": "以水、油、氣三個分區及雙向箭頭表示香氣分配，將聞到的部分連到氣相。",
+      "caption": "以水、油、氣三個分區及雙向箭頭表示香氣分配，將聞到的部分連到氣相。",
+      "basis": "香氣分子依分配係數分布在食品的水相、油相與上方氣相；只有進入氣相的部分能被聞到，所以香氣強度取決於釋放量而不只是含量。"
+    },
+    {
+      "lessonId": "flavor-strecker",
+      "file": "flavor-strecker.svg",
+      "alt": "追蹤胺基酸碳骨架：側鏈保留在香氣醛，羧基碳以 CO₂ 離開。",
+      "caption": "追蹤胺基酸碳骨架：側鏈保留在香氣醛，羧基碳以 CO₂ 離開。",
+      "basis": "Strecker 降解：胺基酸與二羰基化合物反應，經脫羧與脫胺生成比原胺基酸少一個碳的醛，側鏈保留在醛中，因此不同胺基酸產生不同香氣醛。"
+    },
+    {
+      "lessonId": "flavor-garlic",
+      "file": "flavor-garlic.svg",
+      "alt": "以完整組織的分隔與切碎後的反應串連，表達蒜胺酸接觸酵素後生成蒜素。",
+      "caption": "以完整組織的分隔與切碎後的反應串連，表達蒜胺酸接觸酵素後生成蒜素。",
+      "basis": "大蒜組織破碎後，蒜胺酸（alliin）與蒜胺酸酶（alliinase）接觸，經次磺酸中間體生成具辛辣氣味的蒜素（allicin）。"
+    },
+    {
+      "lessonId": "flavor-fermentation",
+      "file": "flavor-fermentation.svg",
+      "alt": "從同一糖底物分出同型乳酸、酒精與異型發酵三條路，對照主要酸、醇與氣體產物。",
+      "caption": "從同一糖底物分出同型乳酸、酒精與異型發酵三條路，對照主要酸、醇與氣體產物。",
+      "basis": "微生物代謝途徑決定糖的去向：同型乳酸發酵主要生成乳酸，酒精發酵生成乙醇與 CO₂，異型發酵則同時產生多種酸、醇與氣體。"
+    },
+    {
+      "lessonId": "vitamin-retention",
+      "file": "vitamin-retention.svg",
+      "alt": "重現課文失水例子，以食品質量長條及前後總量對照濃度增加但營養素減少。",
+      "caption": "重現課文失水例子，以食品質量長條及前後總量對照濃度增加但營養素減少。",
+      "basis": "真保留率＝（加工後含量 × 加工後重量）÷（加工前含量 × 加工前重量）× 100%；只比較每 100 g 濃度，會把失水造成的濃縮誤當成增加。"
+    },
+    {
+      "lessonId": "minerals-redox",
+      "file": "minerals-redox.svg",
+      "alt": "以 Fe²⁺ 與 LOOH 的課文反應簡式，串連金屬形態、過氧化物分解、自由基與氧化加速。",
+      "caption": "以 Fe²⁺ 與 LOOH 的課文反應簡式，串連金屬形態、過氧化物分解、自由基與氧化加速。",
+      "basis": "可變價金屬（如 Fe²⁺／Fe³⁺、Cu⁺／Cu²⁺）能催化脂質氫過氧化物分解成自由基，加速氧化；效果取決於金屬的氧化態與配位狀態。"
+    },
+    {
+      "lessonId": "colloid-stokes-separation",
+      "file": "colloid-stokes-separation.svg",
+      "alt": "用三個液滴分區對照位置富集、保留界面的成團與界面消失後的融合。",
+      "caption": "用三個液滴分區對照位置富集、保留界面的成團與界面消失後的融合。",
+      "basis": "乳液失穩分三種：乳析（液滴位置重新分布）、絮凝（液滴成團但界面仍在）與聚結（界面消失、液滴融合）；分層外觀無法區分，須以粒徑與顯微觀察判斷。"
+    },
+    {
+      "lessonId": "colloid-interface-area",
+      "file": "colloid-interface-area.svg",
+      "alt": "用一顆球滴與八顆半直徑球滴對照固定油量下的界面倍增，再連到 ΓA 的需求。",
+      "caption": "用一顆球滴與八顆半直徑球滴對照固定油量下的界面倍增，再連到 ΓA 的需求。",
+      "basis": "固定油體積下，液滴直徑減半，滴數變為 8 倍、總界面積變為 2 倍；總界面積 × 每單位面積吸附量（Γ）＝需要的乳化劑量。"
+    },
+    {
+      "lessonId": "processing-temperature",
+      "file": "processing-temperature.svg",
+      "alt": "兩條定性曲線比較高、低活化能反應對升溫的相對敏感度。",
+      "caption": "較高活化能通常使速率常數對溫度較敏感；曲線比較相對變化，不能用來讀取絕對速率或通用倍數。",
+      "basis": "Arrhenius 方程式 k＝A·e^(−Ea/RT)：活化能 Ea 越高，速率常數對溫度越敏感；不同反應的溫度效應不同，沒有通用的固定倍數。"
+    },
+    {
+      "lessonId": "processing-preservative",
+      "file": "processing-preservative.svg",
+      "alt": "以酸鹼分布與細胞膜箭頭，連結較低 pH、較高 HA 比例及抑菌作用。",
+      "caption": "pH 相對 pKa 降低時，未解離 HA 比例提高；HA 較易穿膜，但化學分布仍不能單獨預測食品的保存效果。",
+      "basis": "弱酸防腐劑的未解離形（HA）較易穿過細胞膜而發揮抑菌作用；pH 越低於 pKa，HA 比例越高，抑菌效果越好。"
+    },
+    {
+      "lessonId": "proc-mass-basis",
+      "file": "proc-mass-basis.svg",
+      "alt": "以果肉組成長條區分濕基與乾基分母，並追蹤乾燥前後不變的乾物質。",
+      "caption": "同一份水除以整份濕料或乾物質，得到不同的含水量表示；只有水離開時，乾物質才可作為守恆追蹤量。",
+      "basis": "濕基水分＝水 ÷ 濕料總重，乾基水分＝水 ÷ 乾物質；乾燥只移除水時，乾物質前後不變，可作為質量衡算的追蹤量（乾基可大於 100%）。"
+    },
+    {
+      "lessonId": "proc-sensible-latent",
+      "file": "proc-sensible-latent.svg",
+      "alt": "並排比較吸熱後溫度上升的顯熱，以及溫度近似不變、相態改變的潛熱。",
+      "caption": "顯熱與潛熱對應不同過程；純物質相變時仍需吸熱。食品熱量需求尚未包含設備、熱損失與效率。",
+      "basis": "顯熱 Q＝m·cp·ΔT 改變溫度；潛熱 Q＝m·L 用於相變（汽化、融化），相變期間純物質溫度近似不變。熱量需求不等於加熱時間或耗電。"
+    },
+    {
+      "lessonId": "proc-air-humidity",
+      "file": "proc-air-humidity.svg",
+      "alt": "以加熱前、加熱後及通過果片後三個狀態，分開追蹤 Y 與 RH 的變化。",
+      "caption": "單純加熱可降低 RH 而不改變 Y；乾燥器中空氣帶走食品的水，才會使出口 Y 高於入口。",
+      "basis": "含濕比 Y＝水蒸氣質量 ÷ 乾空氣質量，表示空氣實際帶多少水；相對濕度 RH＝水蒸氣分壓 ÷ 同溫飽和蒸氣壓，表示接近飽和的程度。空氣加熱時 Y 不變、RH 下降。"
+    },
+    {
+      "lessonId": "proc-drying-characteristic",
+      "file": "proc-drying-characteristic.svg",
+      "alt": "N–X 定性曲線標出恆速、降速與平衡端點，並用向左箭頭標明乾燥方向。",
+      "caption": "Xc 是速率轉折，Xe 是指定環境下的平衡含水量；乾燥時間取決於 1/N 的積分，低速區可能更耗時。",
+      "basis": "乾燥特性曲線以乾基含水量 X 對乾燥速率 N 作圖：臨界含水量 Xc 以上為恆速，以下速率遞減並趨近平衡含水量 Xe；乾燥時間由 ∫dX/N 計算。"
+    },
+    {
+      "lessonId": "proc-refrigeration-cycle",
+      "file": "proc-refrigeration-cycle.svg",
+      "alt": "四設備閉環顯示冷媒的壓力與相態改變，並分出食品側吸熱、功輸入及高溫端排熱。",
+      "caption": "蒸發器讓冷媒吸熱汽化，壓縮機輸入功，冷凝器排熱液化；節流降壓後再回到蒸發器。",
+      "basis": "蒸氣壓縮冷凍循環：蒸發器中低壓冷媒吸熱汽化（冷卻食品）→ 壓縮機輸入功升壓 → 冷凝器向高溫端放熱、冷媒液化 → 節流閥降壓，回到蒸發器。"
+    },
+    {
+      "lessonId": "proc-membrane-driving",
+      "file": "proc-membrane-driving.svg",
+      "alt": "以兩種膜的保留與透過側，對照超濾的分子分流及逆滲透的有效壓差。",
+      "caption": "超濾常保留蛋白質並讓較小成分分流；逆滲透主要透水，須克服滲透壓差。濃差極化與積垢會影響通量。",
+      "basis": "膜分離由跨膜驅動力（壓差）與膜的選擇性決定：超濾依分子大小分離蛋白質與小分子；逆滲透以高於滲透壓差的壓力讓水透過。濃差極化與積垢會降低通量。"
+    },
+    {
+      "lessonId": "proc-equivalent-time",
+      "file": "proc-equivalent-time.svg",
+      "alt": "用課文兩段熱歷程展示較低溫的較長時間，也能產生相同的參考溫度等效貢獻。",
+      "caption": "先把每段溫度轉成相對作用速率，再乘時間並加總成 Fref；不能直接相加原始分鐘，也不能先平均溫度。",
+      "basis": "致死率 L＝10^((T − Tref)/z) 把各溫度換算成參考溫度下的相對速率；F 值＝Σ L·Δt（或 ∫L dt），表示熱歷程相當於在 Tref 加熱多少分鐘；F ÷ D 得到對數減少數。"
+    },
+    {
+      "lessonId": "proc-heat-penetration-profile",
+      "file": "proc-heat-penetration-profile.svg",
+      "alt": "以對流到表面、導熱到中心的路徑，以及三條定性溫度歷程呈現升溫落後。",
+      "caption": "介質、表面與中心在有限對流下不會立即同溫；Bi 比較內部及表面熱阻，小 Bi 也可能是整體升溫緩慢。",
+      "basis": "熱由介質經表面對流傳到表面，再經內部導熱傳到中心，因此介質、表面與中心溫度依序落後；Bi＝h·L/k 比較內部熱阻與表面熱阻。"
+    },
+    {
+      "lessonId": "proc-oil-refining-route",
+      "file": "proc-oil-refining-route.svg",
+      "alt": "用兩條功能流程對照化學中和成皂脫酸與物理汽提脫酸，將冬化列為依需求配置。",
+      "caption": "化學與物理精製主要按脫酸方式分流；物理路線也需要合適的前處理，冬化並非每種油都必須進行。",
+      "basis": "油脂精製依功能分為脫膠、脫酸、脫色、脫臭（必要時加冬化）；化學精製以鹼中和游離脂肪酸成皂，物理精製則在脫臭時以蒸汽汽提移除游離脂肪酸。"
+    },
+    {
+      "lessonId": "micro-spores",
+      "file": "micro-spores.svg",
+      "alt": "以一細胞到一內生孢子再回一細胞的路徑，分開型態轉換與後續繁殖。",
+      "caption": "典型細菌內生孢子是耐受性的休眠型態；形成及萌發本身不增加個體數，與真菌繁殖孢子不同。",
+      "basis": "部分細菌（如 Bacillus、Clostridium）在不利環境下形成內生孢子：一個營養細胞形成一個孢子，萌發後回到一個營養細胞；孢子是耐熱、耐乾的休眠型態，不是繁殖方式。"
+    },
+    {
+      "lessonId": "micro-generation-time",
+      "file": "micro-generation-time.svg",
+      "alt": "以逐次倍增的細胞符號，呈現每經一個代時族群再乘二。",
+      "caption": "固定條件的對數期可用 N＝N₀×2^(t/g) 表示；代時依菌株與環境而變，不能套用到所有生長階段。",
+      "basis": "對數期中每經過一個代時，菌數加倍：N＝N₀·2ⁿ（n＝時間 ÷ 代時）；代時依菌株與環境而變，遲滯期與穩定期不能用此式外推。"
+    },
+    {
+      "lessonId": "micro-hurdles",
+      "file": "micro-hurdles.svg",
+      "alt": "以五種環境限制匯入同一生長結果，呈現多因素共同作用及抑制與殺滅的差別。",
+      "caption": "pH、aw、溫度、氣體及防腐劑會共同改變微生物行為，效果不能直接相加；不增殖也不等於已被消除。",
+      "basis": "柵欄效應：pH、水活性、溫度、氧氣與防腐劑等多個抑制因子同時作用，使每個因子都不必達到極端，就能共同抑制微生物；抑制生長不等於殺滅。"
+    },
+    {
+      "lessonId": "micro-decimal-reduction",
+      "file": "micro-decimal-reduction.svg",
+      "alt": "用三次乘 0.1 的流程，顯示三個 D 後殘存初始量的千分之一。",
+      "caption": "D 是指定條件下減少一個十進位對數所需時間；連續下降依當時殘存量計算，不能把 90% 直接相加。",
+      "basis": "D 值是在固定溫度下使菌數減少 90%（一個對數）所需的時間；加熱 n 個 D 後，殘存菌數為原來的 10⁻ⁿ。"
+    },
+    {
+      "lessonId": "micro-infection-intoxication",
+      "file": "micro-infection-intoxication.svg",
+      "alt": "以攝入前後的三條路徑，區別感染、食品預成毒素中毒及腸內產毒。",
+      "caption": "先辨認攝入的是病原還是已形成的毒素，再追蹤毒素是否在攝入後產生；三種路徑需要不同證據。",
+      "basis": "食因性疾病依致病方式分三類：感染（攝入病原在體內增殖）、中毒（攝入食品中已形成的毒素，如金黃色葡萄球菌腸毒素）與毒素媒介感染（攝入的細菌在腸內產毒，如產氣莢膜梭菌）。"
+    },
+    {
+      "lessonId": "micro-sampling-probability",
+      "file": "micro-sampling-probability.svg",
+      "alt": "將獨立樣品的陰性機率連乘，並對照課文兩種抽樣數仍全陰性的機率。",
+      "caption": "給定 p 且符合獨立與完美檢測假設，才可用 (1−p)^n 算全陰性機率；一次全陰性不能證明 p 為零。",
+      "basis": "若每個樣品單位獨立、污染機率為 p，抽 n 個全為陰性的機率是 (1 − p)ⁿ；全陰性只表示漏檢機率，不能證明污染率為零。"
+    },
+    {
+      "lessonId": "micro-starter-cultures",
+      "file": "micro-starter-cultures.svg",
+      "alt": "用丙酮酸還原成乳酸與 NAD⁺ 回到糖解的循環，說明乳酸發酵如何維持代謝。",
+      "caption": "丙酮酸接受 NADH 的還原當量而形成乳酸，同時再生 NAD⁺ 供糖解持續；發酵種其他品質功能須依菌株判讀。",
+      "basis": "發酵劑（starter culture）負責酸化、產生風味與改變質地；乳酸發酵中丙酮酸接受 NADH 的電子還原成乳酸，同時再生 NAD⁺ 讓糖解持續進行。"
+    },
+    {
+      "lessonId": "carb-dextrose-equivalent",
+      "file": "carb-dextrose-equivalent.svg",
+      "alt": "糖鏈水解增加還原端；DE 彙整還原力而不唯一指定糖組成。",
+      "caption": "糖鏈水解增加還原端；DE 彙整還原力而不唯一指定糖組成。",
+      "basis": "DE＝以葡萄糖計的還原力 ÷ 乾物量 × 100；水解越多、還原端越多，DE 越高，但相同 DE 不代表相同的糖組成。"
+    },
+    {
+      "lessonId": "carb-electron-cyclization",
+      "file": "carb-electron-cyclization.svg",
+      "alt": "以成環前、中間體、半縮醛三階段追蹤 C1–O5 新鍵與原子保留。",
+      "caption": "以成環前、中間體、半縮醛三階段追蹤 C1–O5 新鍵與原子保留。",
+      "basis": "葡萄糖成環是 C5 的羥基氧（O5）對 C1 羰基的分子內親核加成，生成半縮醛；過程沒有脫水，分子式不變。"
+    },
+    {
+      "lessonId": "carb-electron-hydrolysis",
+      "file": "carb-electron-hydrolysis.svg",
+      "alt": "分開追蹤糖苷橋氧 BO4 留在 B 糖、水氧 Ow 進入 A 糖異頭羥基。",
+      "caption": "分開追蹤糖苷橋氧 BO4 留在 B 糖、水氧 Ow 進入 A 糖異頭羥基。",
+      "basis": "酸催化糖苷水解：橋氧先質子化，異頭碳與橋氧的鍵斷開形成氧碳正離子，水再進攻異頭碳並去質子；橋氧留在被釋出的糖，水的氧成為新的異頭羥基。"
+    },
+    {
+      "lessonId": "carb-fructose-ring-choice",
+      "file": "carb-fructose-ring-choice.svg",
+      "alt": "由 C5 或 C6 羥基接到 C2 的分支，對照果糖五員與六員環。",
+      "caption": "由 C5 或 C6 羥基接到 C2 的分支，對照果糖五員與六員環。",
+      "basis": "果糖是酮糖，羰基在 C2；C5 羥基加成形成五員（呋喃）環，C6 羥基加成形成六員（吡喃）環，C2 成為新的異頭碳。"
+    },
+    {
+      "lessonId": "carb-enediol-branching",
+      "file": "carb-enediol-branching.svg",
+      "alt": "以共同平面中間態分出 C2 羰基果糖與 C1 醛基的葡萄糖／甘露糖。",
+      "caption": "以共同平面中間態分出 C2 羰基果糖與 C1 醛基的葡萄糖／甘露糖。",
+      "basis": "鹼性下醛糖與酮糖經共同的烯二醇中間體互變：在 C2 重建羰基得果糖；恢復 C1 醛基時，C2 從平面兩側補氫，可回到葡萄糖或得到其 C2 差向異構物甘露糖。"
+    },
+    {
+      "lessonId": "carb-chair-foundations",
+      "file": "carb-chair-foundations.svg",
+      "alt": "以 C5、環上同異側與軸赤道互換三欄，區分配置與椅式構象。",
+      "caption": "以 C5、環上同異側與軸赤道互換三欄，區分配置與椅式構象。",
+      "basis": "D／L 由編號最高的手性碳（己醛糖為 C5）的 OH 方向決定；α／β 由異頭碳 C1 的 OH 與 C5 的 CH₂OH 是否同側決定；椅式中軸向或赤道向是構象問題，三者彼此獨立。"
+    },
+    {
+      "lessonId": "carb-yogurt-lactose-fate",
+      "file": "carb-yogurt-lactose-fate.svg",
+      "alt": "乳糖分出兩種六碳糖，再各自追蹤菌株利用與殘糖。",
+      "caption": "乳糖分出兩種六碳糖，再各自追蹤菌株利用與殘糖。",
+      "basis": "β-半乳糖苷酶把乳糖水解成葡萄糖與半乳糖，碳仍留在糖中；兩種單糖之後是否被利用取決於菌株，必須分別追蹤。"
+    },
+    {
+      "lessonId": "carb-xylan-xylitol",
+      "file": "carb-xylan-xylitol.svg",
+      "alt": "用兩段反應區分木聚糖水解與 C1 還原，另以晶格／水合收支解釋溶解吸熱。",
+      "caption": "用兩段反應區分木聚糖水解與 C1 還原，另以晶格／水合收支解釋溶解吸熱。",
+      "basis": "木糖醇的來源：木聚糖的 β-1,4 糖苷鍵水解得到木糖，再把木糖 C1 的醛基還原為 CH₂OH；溶解時的吸熱來自晶格破壞與水合的淨能量收支，不是共價鍵斷裂。"
+    },
+    {
+      "lessonId": "lipid-family-atlas",
+      "file": "lipid-family-atlas.svg",
+      "alt": "以骨架圖符對照 TAG、單雙甘油酯、甘油磷脂、固醇與蠟。",
+      "caption": "以骨架圖符對照 TAG、單雙甘油酯、甘油磷脂、固醇與蠟。",
+      "basis": "脂質依骨架分家族：三酸甘油酯（甘油接三個脂肪醯基，疏水）、單／雙甘油酯（留有羥基，具兩親性）、甘油磷脂（極性頭與疏水尾）、固醇（四環）與蠟（長鏈酸與長鏈醇的酯）。"
+    },
+    {
+      "lessonId": "lipid-flavor-origins",
+      "file": "lipid-flavor-origins.svg",
+      "alt": "把 TAG 的油潤口感與水解、氧化生成的氣味來源分成三條路徑。",
+      "caption": "把 TAG 的油潤口感與水解、氧化生成的氣味來源分成三條路徑。",
+      "basis": "純淨的三酸甘油酯幾乎沒有氣味；油脂風味主要來自微量揮發物、水解釋出的短鏈游離脂肪酸與氧化生成的醛酮，脂肪本身則提供潤滑與熔化的口感。"
+    },
+    {
+      "lessonId": "lipid-bloom-diagnosis",
+      "file": "lipid-bloom-diagnosis.svg",
+      "alt": "以兩條物理流程分辨糖霜與脂霜，並把判別連到歷史和成分證據。",
+      "caption": "以兩條物理流程分辨糖霜與脂霜，並把判別連到歷史和成分證據。",
+      "basis": "糖霜是表面受潮使糖溶解、水分散失後再結晶；脂霜涉及脂肪遷移與重新結晶。兩者成因不同，外觀只是線索，需由水分與溫度歷史及成分證據區分。"
+    },
+    {
+      "lessonId": "lipid-pos-structure",
+      "file": "lipid-pos-structure.svg",
+      "alt": "以甘油三個位置的酯鍵分支標出 P、O、S，區分位置命名與晶型。",
+      "caption": "以甘油三個位置的酯鍵分支標出 P、O、S，區分位置命名與晶型。",
+      "basis": "β-POS 是甘油中間位置接油酸、兩外側位置分別接棕櫚酸與硬脂酸的三酸甘油酯；分子的接鏈位置與晶體的晶型（如可可脂的 β₂／V 型）是不同層次的結構。"
+    },
+    {
+      "lessonId": "lipid-oleate-oxidation",
+      "file": "lipid-oleate-oxidation.svg",
+      "alt": "對照單重態氧與自由基路徑的 OOH 位置，並保留 ene 產物的雙鍵移位。",
+      "caption": "對照單重態氧與自由基路徑的 OOH 位置，並保留 ene 產物的雙鍵移位。",
+      "basis": "單重態氧以 ene 反應加到雙鍵碳並使雙鍵移位，油酸（Δ9）主要生成 9- 與 10-氫過氧化物；自由基路徑先從烯丙位 C8 或 C11 奪氫，離域後可生成 8、9、10、11 位產物。"
+    },
+    {
+      "lessonId": "lipid-oxidation-cleavage",
+      "file": "lipid-oxidation-cleavage.svg",
+      "alt": "兩個相鄰斷點各保留醛與自由基兩片段，標出 C9 羰基和自由基去向。",
+      "caption": "兩個相鄰斷點各保留醛與自由基兩片段，標出 C9 羰基和自由基去向。",
+      "basis": "烷氧自由基（C–O•）可經 β-斷裂切斷相鄰的 C–C 鍵：斷鍵的一側形成 C=O（醛），另一側帶走自由基；切在哪一根鍵，決定醛片段的長度與自由基的種類。"
+    },
+    {
+      "lessonId": "protein-hydrolysis",
+      "file": "protein-hydrolysis.svg",
+      "alt": "用切斷的長鏈與新末端，連結水解程度和位置對食品功能的共同影響。",
+      "caption": "用切斷的長鏈與新末端，連結水解程度和位置對食品功能的共同影響。",
+      "basis": "蛋白酶切斷肽鍵產生較短的肽與新的末端；水解程度與切割位置共同決定溶解性、乳化、起泡、凝膠能力與苦味。"
+    },
+    {
+      "lessonId": "protein-amino-forms",
+      "file": "protein-amino-forms.svg",
+      "alt": "以三種整數電荷形態和分率加權，說明平均電荷屬於群體而非單一分子。",
+      "caption": "以三種整數電荷形態和分率加權，說明平均電荷屬於群體而非單一分子。",
+      "basis": "胺基酸在不同 pH 以不同質子化形態存在（如 +1、0、−1）；各形態的比例由 pKa 與 pH 決定，平均淨電荷＝各形態電荷 × 分率的加總。"
+    },
+    {
+      "lessonId": "protein-pi-calculation",
+      "file": "protein-pi-calculation.svg",
+      "alt": "依序列出三種胺基酸電荷，精確標出各自夾住零電荷的兩個 pKa。",
+      "caption": "依序列出三種胺基酸電荷，精確標出各自夾住零電荷的兩個 pKa。",
+      "basis": "pI 是平均淨電荷為零的 pH；把形態依解離順序排列，取淨電荷為零的形態兩側的兩個 pKa 平均，即為 pI。"
+    },
+    {
+      "lessonId": "protein-peptide-termini",
+      "file": "protein-peptide-termini.svg",
+      "alt": "在 Ala–Lys–Asp 骨架上定位兩末端與兩側鏈，排除已形成醯胺的位點。",
+      "caption": "在 Ala–Lys–Asp 骨架上定位兩末端與兩側鏈，排除已形成醯胺的位點。",
+      "basis": "形成肽鍵後，參與連接的 α-胺基與 α-羧基變成醯胺而不再帶電；肽的電荷只來自 N 端、C 端與可解離的側鏈。"
+    },
+    {
+      "lessonId": "protein-hydrolysis-balance",
+      "file": "protein-hydrolysis-balance.svg",
+      "alt": "以三肽兩處加水與三個產物，建立斷鍵數、水量、段數和質量收支。",
+      "caption": "以三肽兩處加水與三個產物，建立斷鍵數、水量、段數和質量收支。",
+      "basis": "每切斷一個肽鍵併入一分子水；n 個殘基的直鏈肽有 n−1 個肽鍵，切斷 k 個肽鍵得 k＋1 段，水解產物總質量＝原肽質量＋併入的水。"
+    },
+    {
+      "lessonId": "protein-structure-hierarchy",
+      "file": "protein-structure-hierarchy.svg",
+      "alt": "用四層圖符由序列走到多鏈組裝，並把鏈內 S–S 與鏈間接觸分開。",
+      "caption": "用四層圖符由序列走到多鏈組裝，並把鏈內 S–S 與鏈間接觸分開。",
+      "basis": "一級結構是胺基酸序列，二級是局部主鏈的 α 螺旋與 β 股，三級是整條鏈的摺疊，四級是多條鏈的組裝；鏈內的雙硫鍵屬於三級結構，並不把兩條鏈連成一條。"
+    },
+    {
+      "lessonId": "protein-yogurt-acid-gel",
+      "file": "protein-yogurt-acid-gel.svg",
+      "alt": "以分散膠束到聚集網路，加上受熱乳清蛋白的輸入，說明酸凝膠受多因素影響。",
+      "caption": "以分散膠束到聚集網路，加上受熱乳清蛋白的輸入，說明酸凝膠受多因素影響。",
+      "basis": "酸化使酪蛋白膠束的電荷減少、膠體磷酸鈣溶出，膠束聚集成網而凝固；熱處理使乳清蛋白變性並與酪蛋白結合，可改變酸凝膠的結構與持水性。"
+    },
+    {
+      "lessonId": "enzyme-steady-state",
+      "file": "enzyme-steady-state.svg",
+      "alt": "以 ES 的形成、解離與產物生成三條通量，解釋 Km 為何包含 kcat。",
+      "caption": "以 ES 的形成、解離與產物生成三條通量，解釋 Km 為何包含 kcat。",
+      "basis": "穩態假設：ES 的生成速率等於其分解（解離回 E＋S 與轉成產物）的總速率，可導出 v＝Vmax[S]/(Km＋[S])；Km＝(k₋₁＋kcat)/k₁，只有 kcat 遠小於 k₋₁ 時才近似解離常數。"
+    },
+    {
+      "lessonId": "enzyme-turnover",
+      "file": "enzyme-turnover.svg",
+      "alt": "用位點量加倍而每位點周轉相同的對照，區分 Vmax 與 kcat。",
+      "caption": "用位點量加倍而每位點周轉相同的對照，區分 Vmax 與 kcat。",
+      "basis": "kcat（周轉數）＝Vmax ÷ 活性位濃度，表示每個活性位每單位時間轉換的底物分子數；Vmax 會隨酵素量改變，kcat 則是酵素本身的性質。"
+    },
+    {
+      "lessonId": "enzyme-mixed-inhibition",
+      "file": "enzyme-mixed-inhibition.svg",
+      "alt": "畫出抑制劑結合 E 與 ES 的兩支路，以 α、α′ 分別連到表觀參數。",
+      "caption": "畫出抑制劑結合 E 與 ES 的兩支路，以 α、α′ 分別連到表觀參數。",
+      "basis": "混合抑制劑同時結合游離酵素（因子 α）與 ES 複合物（因子 α′）：Vmax 一定下降，表觀 Km 依 α 與 α′ 的相對大小而上升或下降；α＝α′ 時即為純非競爭抑制。"
+    },
+    {
+      "lessonId": "enzyme-initial-rate",
+      "file": "enzyme-initial-rate.svg",
+      "alt": "串起扣空白、校正與取斜率，並在定性產物曲線上標出早期線性窗。",
+      "caption": "串起扣空白、校正與取斜率，並在定性產物曲線上標出早期線性窗。",
+      "basis": "初速是反應初期、產物對時間仍呈線性時的斜率；之後底物消耗、產物累積或酵素失活會使曲線彎曲，所以動力學分析使用初速。"
+    },
+    {
+      "lessonId": "browning-ascorbic-pathways",
+      "file": "browning-ascorbic-pathways.svg",
+      "alt": "AA 還原醌而成 DHA，DHA 後續羰基可參與褐變；AA 另有酸熱下的無氧降解支路。",
+      "caption": "還原醌、AA 氧化及後續降解分開追蹤；去除氧不等於完全穩定。",
+      "basis": "抗壞血酸能把醌還原回酚而延緩酵素褐變，自身被氧化成 DHA；DHA 進一步降解生成羰基，反而參與非酵素褐變，酸與熱下 AA 也能經無氧途徑降解。"
+    },
+    {
+      "lessonId": "browning-acrylamide-precursors",
+      "file": "browning-acrylamide-precursors.svg",
+      "alt": "游離 Asn 與羰基經席夫鹼、脫羧等步驟形成丙烯醯胺；酵素水解 Asn 降低前驅物。",
+      "caption": "降低游離 Asn 或還原糖可減少生成；相同烤色無法代替丙烯醯胺定量。",
+      "basis": "丙烯醯胺主要由游離天門冬醯胺與還原糖等羰基在高溫下經梅納反應（席夫鹼、脫羧）生成；降低游離天門冬醯胺（如天門冬醯胺酶）或還原糖可減少生成。"
+    },
+    {
+      "lessonId": "browning-electron-condensation",
+      "file": "browning-electron-condensation.svg",
+      "alt": "由羰基和胺經加成物、胺醇及活化羥基到亞胺，對照加成與脫水的鍵階變化。",
+      "caption": "相同電子箭頭端點不代表相同作用；必須同時讀起始鍵階與質子化形態。",
+      "basis": "胺與羰基的縮合：胺氮孤對加成到羰基碳，經質子轉移成胺醇，羥基質子化後以水離去，氮孤對形成 C=N，最後去質子得到亞胺。"
+    },
+    {
+      "lessonId": "browning-amadori-relay",
+      "file": "browning-amadori-relay.svg",
+      "alt": "三個原子位置卡顯示 C1 亞胺經烯胺醇變成 C2 酮胺，氮與氧的位置保留。",
+      "caption": "重排改變鍵階及質子位置；氮不搬到 C2，且不再淨脫水。",
+      "basis": "Amadori 重排：C1 亞胺經 C1=C2 烯胺醇中間體互變，氮留在 C1、羰基移到 C2，生成 1-胺基-1-去氧-2-酮糖；重排過程不再脫水。"
+    },
+    {
+      "lessonId": "browning-strecker-carbon-map",
+      "file": "browning-strecker-carbon-map.svg",
+      "alt": "用三條分開的來源箭頭追蹤甘胺酸羧碳、α 碳及氮分別進入 CO₂、甲醛與胺基丙酮。",
+      "caption": "Strecker 醛的羰基碳來自胺基酸 α 碳；此圖限定所選 Gly／甲基乙二醛支路。",
+      "basis": "Strecker 降解中，胺基酸的羧基碳成為 CO₂，α 碳成為醛的羰基碳（醛比胺基酸少一個碳），氮則轉移到二羰基化合物形成胺基酮。"
+    },
+    {
+      "lessonId": "pigment-flavonoid-structure",
+      "file": "pigment-flavonoid-structure.svg",
+      "alt": "共用 C6–C3–C6 骨架分支到環與接點、鍵與羰基及 C3 取代的分類線索。",
+      "caption": "依連接與官能基位置分族；OH 數不是人體健康效果的刻度。",
+      "basis": "類黃酮共有 C6–C3–C6 骨架；依 C 環是否閉環、B 環接在 C2 或 C3、C2=C3 是否為雙鍵、C4 是否有羰基與 C3 是否有羥基，分成黃酮、黃酮醇、黃烷酮、異黃酮、花青素等類別。"
+    },
+    {
+      "lessonId": "pigment-chlorophyll-acid",
+      "file": "pigment-chlorophyll-acid.svg",
+      "alt": "四格狀態圖以中央 Mg 與植醇酯兩位置區分葉綠素、脫鎂葉綠素、葉綠酸及脫鎂葉綠酸。",
+      "caption": "酸去鎂與酵素脫植醇是不同變化，酵素失活不會取消酸促進的去鎂。",
+      "basis": "葉綠素有兩個可變位置：酸使中央 Mg 被 H 取代成脫鎂葉綠素；葉綠素酶水解植醇酯得到保留 Mg 的葉綠酸（chlorophyllide）；兩者都發生則成脫鎂葉綠酸（pheophorbide）。"
+    },
+    {
+      "lessonId": "pigment-color-readouts",
+      "file": "pigment-color-readouts.svg",
+      "alt": "a*–b* 向量示出彩度與色相，旁列 L* 明度軸，合併說明 ΔE 的三維距離意義。",
+      "caption": "色差不等於色素減少比例；應拆開座標並保留相同量測條件。",
+      "basis": "CIELAB 色空間中 L* 表明度、a* 表紅綠、b* 表黃藍；彩度是 (a*, b*) 離原點的距離，色相角是其方向；ΔE 是兩色在三維空間的距離，不等於色素濃度的改變。"
+    },
+    {
+      "lessonId": "pigment-anthocyanin-assay",
+      "file": "pigment-anthocyanin-assay.svg",
+      "alt": "同一原樣在兩 pH 各用 520 減 700 nm 訊號，兩者再相減，換算總單體花青素 C3G 當量。",
+      "caption": "四讀值經兩次混濁修正及差減；結果不是全部色素或個別花青素身分。",
+      "basis": "pH 差示法：單體花青素在 pH 1.0 呈有色形、在 pH 4.5 轉為無色形，兩者在 520 nm 的吸光差（各扣 700 nm 濁度）與單體花青素濃度成正比，以 C3G 當量表示。"
+    },
+    {
+      "lessonId": "flavor-odor-activity",
+      "file": "flavor-odor-activity.svg",
+      "alt": "假想 A、B 的濃度及閾值對照說明 B 含量較低卻有較高 OAV，再連到重組與省略驗證。",
+      "caption": "OAV 篩選候選成分；混合物遮蔽與交互作用仍需感官證據。",
+      "basis": "氣味活性值 OAV＝濃度 ÷ 氣味閾值；OAV＞1 的成分可能貢獻香氣，濃度低但閾值更低的成分仍可能很重要。OAV 只用於篩選，混合物中還有遮蔽與交互作用。"
+    },
+    {
+      "lessonId": "flavor-sensory-channels",
+      "file": "flavor-sensory-channels.svg",
+      "alt": "三條平行訊息鏈把味覺、鼻前鼻後嗅覺及化學刺激感匯入整合風味知覺。",
+      "caption": "口腔感受可來自不同通道；甜味、入口香氣與涼感須分別追蹤。",
+      "basis": "風味由多個通道整合：味覺（甜、酸、鹹、苦、鮮，經味蕾受器）、嗅覺（鼻前與鼻後）與化學刺激感（如辣椒素的灼熱、薄荷醇的涼感）。"
+    },
+    {
+      "lessonId": "vitamin-solubility",
+      "file": "vitamin-solubility.svg",
+      "alt": "原料分流至含 B 群及 C 的水相與含 A、D、E、K 的油脂相，標明各自流出途徑。",
+      "caption": "只分析固體可能漏掉湯汁中的部分；溶出與降解是兩種去向。",
+      "basis": "維生素依溶解性分兩類：水溶性（B 群、C）容易溶入烹調水而流失，脂溶性（A、D、E、K）隨油脂分布與流失。"
+    },
+    {
+      "lessonId": "vitamin-light-oxidation",
+      "file": "vitamin-light-oxidation.svg",
+      "alt": "光使 RF 激發，RF* 把能量交給氧生成單重態氧並再生 RF；分開標出遮光與阻氧入口。",
+      "caption": "遮光與阻氧不能互相替代；起始氧與可見光仍須分別檢查。",
+      "basis": "核黃素吸光成為激發態，可把能量傳給氧生成單重態氧，引發感光氧化；遮光控制光的進入、阻氧控制氧的進入，兩者不能互相取代。"
+    },
+    {
+      "lessonId": "vitamin-c-assay-identity",
+      "file": "vitamin-c-assay-identity.svg",
+      "alt": "同一原樣直接測 AA 或先還原 DHA 後測總 C，用假想 42 減 30 示範 DHA 當量的差減估計。",
+      "caption": "先查分析步驟及共同基準；總 C 已含 AA，不可再相加。",
+      "basis": "直接測定只得到還原型 AA；先把 DHA 還原成 AA 再測得到總維生素 C；兩者相減可估算 DHA。"
+    },
+    {
+      "lessonId": "minerals-ash",
+      "file": "minerals-ash.svg",
+      "alt": "以有機成分與無機成分的原樣對照灰化後殘留，將殘留總質量連到灰分定義式。",
+      "caption": "灰分提供總殘留資訊；元素種類、含量與生體可利用性均不能由總量直接推出。",
+      "basis": "灰分是高溫灰化燒去有機物後的無機殘留總量；它不能告訴我們個別元素的含量，也不能反映生體可利用性。"
+    },
+    {
+      "lessonId": "minerals-binding",
+      "file": "minerals-binding.svg",
+      "alt": "金屬與植酸的可逆結合示意，另以加工條件到植酸酶、植酸分解的鏈條說明形態改變。",
+      "caption": "元素含量與利用性不同；配位成分及加工條件會改變可供吸收的形態。",
+      "basis": "植酸等成分會與鋅、鐵、鈣等礦物質結合成不易吸收的錯合物，降低生體可利用性；浸泡、發酵等加工可活化植酸酶分解植酸。"
+    },
+    {
+      "lessonId": "mineral-phytate-processing",
+      "file": "mineral-phytate-processing.svg",
+      "alt": "六個磷酸基的 IP6 經單步水解成 IP5 與無機磷，上游顯示酸化可活化原料植酸酶。",
+      "caption": "圖僅示一個水解步驟；IP6 消失、酵素來源與鐵利用須分開驗證。",
+      "basis": "植酸酶逐步水解植酸（IP6）的磷酸基，生成較低磷酸化的肌醇磷酸與無機磷，減少對礦物質的結合；發酵時的酸化可活化原料本身的植酸酶。"
+    },
+    {
+      "lessonId": "colloid-size-distribution",
+      "file": "colloid-size-distribution.svg",
+      "alt": "等油體積的小球滴群與大球滴對照，強調小滴界面較多並以 d₃₂ 連到總界面積。",
+      "caption": "先確認分布的加權基準；體積平均徑 d₄₃ 未保留計算界面所需的資訊。",
+      "basis": "總界面積由表面積加權平均徑 d₃₂ 決定（面積＝6 × 油體積 ÷ d₃₂）；體積加權平均徑 d₄₃ 反映大滴，兩者不能互換。"
+    },
+    {
+      "lessonId": "colloid-flow-evidence",
+      "file": "colloid-flow-evidence.svg",
+      "alt": "牛頓水平黏度線與剪切稀化下降線在一點交會，顯示單點相同無法代表完整曲線。",
+      "caption": "用多個剪切速率區分流動行為；化學斷鏈等機制仍須另外證據。",
+      "basis": "表觀黏度＝剪切應力 ÷ 剪切速率；牛頓流體的黏度不隨剪切速率改變，剪切稀化流體則隨剪切速率上升而下降，所以單點黏度不能代表整條流動曲線。"
+    },
+    {
+      "lessonId": "processing-glass-plasticization",
+      "file": "processing-glass-plasticization.svg",
+      "alt": "定性 Tg 隨含水量下降曲線與固定觀察溫度相交，對照較硬脆與較易變形的相對位置。",
+      "caption": "吸水塑化改變 T−Tg；模型假設均一非晶相，並未量到實際結塊速率。",
+      "basis": "水的 Tg 很低，混入非晶基質會拉低混合物的 Tg（Gordon–Taylor 方程式以各成分 Tg、質量分率與參數 k 估算）；儲存溫度與 Tg 的差距決定物性變化的快慢。"
+    },
+    {
+      "lessonId": "analysis-calibration-chain",
+      "file": "analysis-calibration-chain.svg",
+      "alt": "五步量測鏈由扣空白、標準比值、回補稀釋到萃取總量，最後除試料質量換算每百克。",
+      "caption": "每個體積只計一次；同測定體積已在樣品／標準比值中抵消。",
+      "basis": "由儀器讀值換算食品含量：扣空白 → 以標準品換成分析液濃度 → 乘稀釋倍數回推萃取液 → 乘萃取體積得總量 → 除以試料質量；每個體積只能算一次。"
+    },
+    {
+      "lessonId": "proc-concentration-balance",
+      "file": "proc-concentration-balance.svg",
+      "alt": "果汁進料分成濃縮液與純水蒸氣，兩側標出相同固形物流量並並列總量與固形物衡算。",
+      "caption": "分母改變使濃度提高；由固形物守恆反推產品量，不把濃度差當除水比例。",
+      "basis": "穩態質量衡算：進料＝濃縮液＋蒸氣；若蒸氣只含水，固形物全部留在濃縮液，進料 × 進料濃度＝產品 × 產品濃度，所以濃度加倍時產品量減半。"
+    },
+    {
+      "lessonId": "proc-heat-transfer",
+      "file": "proc-heat-transfer.svg",
+      "alt": "串聯對流與內部導熱熱阻，再以薄厚食品平板對照 L 增加造成導熱熱阻增加。",
+      "caption": "能量衡算回答熱總量，傳熱模型回答速率；總熱需求相同不保證升溫時間相同。",
+      "basis": "能量衡算決定需要多少熱，傳熱速率決定多快：熱流＝溫差 ÷ 熱阻；平板導熱熱阻＝厚度 ÷（k·A），表面對流熱阻＝1 ÷（h·A），內部熱阻大時，加大外部流速效果有限。"
+    },
+    {
+      "lessonId": "proc-psychrometric-chart",
+      "file": "proc-psychrometric-chart.svg",
+      "alt": "同一濕空氣狀態以水平定 Y 冷卻到露點，或沿絕熱加水路徑到熱力學濕球，兩者分別標示飽和端點。",
+      "caption": "露點沿定含濕比找飽和；濕球須另做含液水焓項的能量平衡。",
+      "basis": "濕空氣圖上：沿定含濕比冷卻到飽和線的溫度是露點；絕熱加水直到飽和的溫度是熱力學濕球溫度，濕球線與等焓線相近但不完全相同。"
+    },
+    {
+      "lessonId": "proc-dryer-air-balance",
+      "file": "proc-dryer-air-balance.svg",
+      "alt": "空氣先經加熱器再經乾燥器，兩段各以乾空氣流率乘焓升或含濕比差。",
+      "caption": "以串聯空氣物流與兩本收支帳，區分加熱器熱負荷和乾燥除水量。",
+      "basis": "乾燥器空氣衡算：除水量＝乾空氣流率 ×（Y出 − Y入）；加熱器熱負荷＝乾空氣流率 ×（h後 − h前）；兩者都以乾空氣為基準。"
+    },
+    {
+      "lessonId": "proc-freezing-load",
+      "file": "proc-freezing-load.svg",
+      "alt": "依序以降溫線段、冰晶和繼續降溫線段表示三段冷凍負荷。",
+      "caption": "以三段圖形加總顯熱與實際結冰潛熱，保留集中相變近似的限制。",
+      "basis": "冷凍負荷分三段：降溫到凍結點的顯熱 → 水結冰的潛熱（依實際結冰量）→ 凍結後繼續降溫的顯熱；溶質使結冰分布在一段溫度範圍內。"
+    },
+    {
+      "lessonId": "proc-refrigeration-cop",
+      "file": "proc-refrigeration-cop.svg",
+      "alt": "冷凍機接收低溫熱和輸入功，將兩者合為高溫排熱，並標示COP。",
+      "caption": "以搬熱與做功兩股輸入，解釋 COP 大於 1 仍符合能量守恆。",
+      "basis": "冷凍效能係數 COP＝冷凍量 ÷ 輸入功；冷凍機是把低溫端的熱搬到高溫端，所以 COP 可以大於 1，並不違反能量守恆。"
+    },
+    {
+      "lessonId": "proc-thermal-quality",
+      "file": "proc-thermal-quality.svg",
+      "alt": "同一微生物F90下，兩組定溫歷程的假想品質保留比例不同。",
+      "caption": "用課文指定模型的兩組保留比例，呈現相同殺菌作用量下的品質差異。",
+      "basis": "微生物與品質成分的 z 值不同；品質成分的 z 通常較大，對溫度較不敏感，所以在相同殺菌值下，高溫短時（HTST）能減少品質損失。"
+    },
+    {
+      "lessonId": "proc-heat-penetration-scale",
+      "file": "proc-heat-penetration-scale.svg",
+      "alt": "兩個平板半厚度為L與2L，同Fo與同Bi時時間為t與4t。",
+      "caption": "以雙厚平板的幾何對照，將四倍時間和相同 Bi 的條件一起呈現。",
+      "basis": "傅立葉數 Fo＝α·t/L²：在相同 Bi 與相同無因次溫度下，Fo 相同，所以厚度加倍、加熱時間變為四倍；若 h 不變而加厚，Bi 也改變，就不能直接套四倍。"
+    },
+    {
+      "lessonId": "proc-residence-time-evidence",
+      "file": "proc-residence-time-evidence.svg",
+      "alt": "入口示蹤流過管道，中心箭頭較長，出口觀察須區分快速邊界與完整平均。",
+      "caption": "以量測鏈和管內速度對照，區分快速通過、完整平均與有限收集窗口。",
+      "basis": "連續流動中停留時間有分布：層流管中心流速為平均流速的兩倍，最快的流體只停留平均時間的一半；熱處理要以最快通過的部分為準，而不是平均停留時間。"
+    },
+    {
+      "lessonId": "proc-canning-headspace",
+      "file": "proc-canning-headspace.svg",
+      "alt": "密封罐冷卻前後保留非凝結氣體，水蒸氣部分凝結，並分列總壓的兩個來源。",
+      "caption": "比較冷卻前後罐頂氣相，呈現水蒸氣凝結與兩種分壓對總壓的貢獻。",
+      "basis": "罐頭排氣後密封，頂隙中的水蒸氣在冷卻時凝結，使罐內壓力低於外界而形成真空；罐內總壓＝殘留非凝結氣體分壓＋該溫度的飽和水蒸氣壓。"
+    },
+    {
+      "lessonId": "proc-oil-neutralization",
+      "file": "proc-oil-neutralization.svg",
+      "alt": "上層由酸價到酸當量再到指定脂肪酸質量，下層中和後分離油與含皂相。",
+      "caption": "把酸價換算鏈與中和分離流程分開，避免混淆酸當量、酸種和實際用鹼量。",
+      "basis": "脫酸：鹼與游離脂肪酸中和成皂再分離；酸價（mg KOH/g 油）表示可滴定酸的當量，指定脂肪酸種類後才能換算游離脂肪酸質量與理論用鹼量。"
+    },
+    {
+      "lessonId": "proc-oil-bleaching",
+      "file": "proc-oil-bleaching.svg",
+      "alt": "油中色素附著於吸附劑，再由濾材截留固體，另提示過氧化物可分解。",
+      "caption": "以吸附表面及過濾分流，說明脫色的物理移除與氧化指標的判讀限制。",
+      "basis": "脫色以活性白土或活性碳吸附色素等雜質，再過濾移除吸附劑；吸附劑也可能促進氫過氧化物分解，因此脫色後過氧化價下降不代表氧化被逆轉。"
+    },
+    {
+      "lessonId": "proc-oil-winterization",
+      "file": "proc-oil-winterization.svg",
+      "alt": "原油冷卻形成晶體後分成澄清液態油與可能夾油的固相。",
+      "caption": "以晶體與兩股出口呈現冬化的相變和固液分離，而非加氫反應。",
+      "basis": "冬化：把油冷卻，使蠟或高熔點成分結晶，再過濾分離，使油在低溫下保持澄清；它是物理分離，不是氫化。"
+    },
+    {
+      "lessonId": "proc-evaporation-balance",
+      "file": "proc-evaporation-balance.svg",
+      "alt": "順流雙效中，第一效熱液進第二效，第一效蒸氣供熱後成凝結水。",
+      "caption": "畫出雙效液流、再用蒸氣與凝結水，將流量能量帳和後續面積計算分開。",
+      "basis": "蒸發器設計先以質量與焓的衡算求出外供蒸汽量，再以 Q＝U·A·ΔT 求傳熱面積；總蒸發量由固形物守恆決定，外供蒸汽量則要逐效做能量衡算。"
+    },
+    {
+      "lessonId": "proc-osmotic-driving",
+      "file": "proc-osmotic-driving.svg",
+      "alt": "正水通量由濃側穿膜至純水側，膜面濃集會提高滲透壓並降低有效驅動。",
+      "caption": "以膜兩側、水流方向與膜面濃差極化，呈現壓差扣除滲透壓的淨驅動力。",
+      "basis": "逆滲透的水通量 J＝Lp（ΔP − Δπ）：施加壓差大於膜面兩側的滲透壓差時，水由濃側流向稀側；稀溶液的滲透壓 π＝cRT，膜面濃度因濃差極化高於主體濃度。"
+    },
+    {
+      "lessonId": "proc-extraction",
+      "file": "proc-extraction.svg",
+      "alt": "含目標成分進料和溶劑經兩相分配後，形成萃取相與殘餘相。",
+      "caption": "以兩進兩出的分配流程，對照目標取出總量與萃取液濃度的不同分母。",
+      "basis": "萃取利用成分在兩相間的分配：回收率表示取出了多少，萃取液濃度還取決於溶劑用量；質量衡算檢查收支，相平衡（分配係數）決定兩相組成。"
+    },
+    {
+      "lessonId": "proc-supercritical-co2",
+      "file": "proc-supercritical-co2.svg",
+      "alt": "固定壓力升溫一面降低二氧化碳密度，一面提高溶質蒸氣壓，兩者競爭。",
+      "caption": "以升溫後的兩條相反效應，解釋不同壓力下可能出現溶解度交叉行為。",
+      "basis": "CO₂ 在臨界點（約 31 °C、7.38 MPa）以上為超臨界流體，溶解力隨密度增加；固定壓力下升溫會降低密度、但提高溶質蒸氣壓，兩效應競爭，使溶解度在不同壓力下隨溫度的變化方向相反（交叉現象）。"
+    },
+    {
+      "lessonId": "proc-extrusion-evidence",
+      "file": "proc-extrusion-evidence.svg",
+      "alt": "螺桿在加熱筒中作用於物料，模口降壓後出現條件式水分汽化與多孔結構。",
+      "caption": "以螺桿和模口圖解熱擠壓，再分列直徑比、乾基比容與比機械能端點。",
+      "basis": "擠壓是以螺桿混合、輸送、壓縮與剪切物料，並經熱與機械能使其熟化，從模口擠出成形；出模時壓力驟降、水分瞬間汽化而形成膨發結構。"
+    },
+    {
+      "lessonId": "micro-phage-evidence",
+      "file": "micro-phage-evidence.svg",
+      "alt": "共同的吸附與DNA進入之後，分成複製組裝裂解及染色體整合傳承兩條路。",
+      "caption": "用兩條具名路徑追蹤溶菌的新粒子形成與溶原的 DNA 傳承。",
+      "basis": "噬菌體感染細菌：吸附受體、注入 DNA，溶菌循環利用宿主機制複製並組裝新粒子後裂解細胞釋出；溶原循環則把基因體整合進宿主並隨宿主分裂傳承。"
+    },
+    {
+      "lessonId": "micro-risk-integration",
+      "file": "micro-risk-integration.svg",
+      "alt": "四步風險框架下，預測濃度乘食用份量形成平均劑量，僅連入暴露評估。",
+      "caption": "把菌量預測接到暴露評估，保留危害、劑量反應和風險特性各自的工作。",
+      "basis": "微生物風險評估包含四步：危害鑑定 → 危害特性描述（劑量反應）→ 暴露評估 → 風險特性描述；預測菌量只是暴露評估的一環。"
+    },
+    {
+      "lessonId": "micro-ros-defense",
+      "file": "micro-ros-defense.svg",
+      "alt": "SOD把超氧轉為氧和過氧化氫，後者再由不耗外加NADH或耗NADH的支路處理。",
+      "caption": "以過氧化氫的兩條去向，區分 SOD 的物種轉換與後續清除的 NADH 成本。",
+      "basis": "超氧歧化酶（SOD）把兩個超氧自由基轉成 O₂ 與 H₂O₂；H₂O₂ 仍是活性氧，需再由過氧化氫酶或過氧化酶分解，才完成解毒。"
+    },
+    {
+      "lessonId": "micro-dna-repair-evidence",
+      "file": "micro-dna-repair-evidence.svg",
+      "alt": "錯配A在MutY作用後游離，原位置成AP；上下骨架與另一股8-oxoG保留。",
+      "caption": "以局部位置圖標出真正被移除的 A，以及仍連續的骨架和保留的 8-oxoG。",
+      "basis": "DNA 中 G 被氧化成 8-oxoG 後容易與 A 錯配；MutY 糖苷酶辨認 A/8-oxoG 錯配並移除錯配的 A（不是受損的 G），留下 AP 位點待後續修復，以防止 G:C→T:A 突變。"
+    },
+    {
+      "lessonId": "micro-injured-cells",
+      "file": "micro-injured-cells.svg",
+      "alt": "同批樣品分別經恢復支持與選擇性方法計數，計數差需依方法與對照判讀。",
+      "caption": "以同批樣品分流到兩種培養條件，呈現受傷細胞可培養性的檢測偏差。",
+      "basis": "亞致死受傷的細胞在選擇性培養基上不易形成菌落，但在非選擇性（修復）條件下可以恢復；兩種方法的計數差反映受傷細胞，不是額外的死亡。"
+    },
+    {
+      "lessonId": "micro-qpcr-evidence",
+      "file": "micro-qpcr-evidence.svg",
+      "alt": "目標序列經循環擴增形成螢光訊號，讀取Cq後以適用校準估計模板量。",
+      "caption": "以量測鏈和模板多寡的條件式對照，區分 Cq、起始模板量與活菌數。",
+      "basis": "PCR 以引子界定並循環放大目標序列；qPCR 即時追蹤螢光，起始模板越多，達到閾值的循環數 Ct 越小，以標準曲線校準後可推估起始量，但不等於活菌數。"
+    },
+    {
+      "lessonId": "micro-fermentation-redox",
+      "file": "micro-fermentation-redox.svg",
+      "alt": "糖解產生丙酮酸、ATP與NADH；乳酸末端還原使NADH回到NAD+並供糖解使用。",
+      "caption": "以完整 NAD⁺／NADH 循環連接糖解與乳酸末端還原，明示 NADH 的來源。",
+      "basis": "糖解每產生一份丙酮酸就把一份 NAD⁺ 還原成 NADH；發酵時丙酮酸（或其衍生物）接受 NADH 的電子生成乳酸或乙醇，再生 NAD⁺，糖解才能持續產生 ATP。"
+    },
+    {
+      "lessonId": "micro-sake-role-network",
+      "file": "micro-sake-role-network.svg",
+      "alt": "米澱粉經麴酵素供糖，酵母產乙醇和二氧化碳，另一列呈現乳酸菌酸化環境。",
+      "caption": "用物質轉化與環境作用兩列，區分清酒並行供糖發酵和生酛系酸化的分工。",
+      "basis": "清酒是並行複發酵：米麴的酵素把米澱粉糖化成葡萄糖，酵母同時把糖發酵成乙醇；生酛系中的乳酸菌先產酸，抑制雜菌，為酵母建立有利環境。"
+    },
+    {
+      "lessonId": "micro-process-validation",
+      "file": "micro-process-validation.svg",
+      "alt": "確效、監測及查核三個工作流共同連到指定產品與條件的製程證據。",
+      "caption": "把確效的科學依據、監測的操作控制和查核的系統紀錄分成三層。",
+      "basis": "製程管理分三層：確效（建立科學證據證明製程能達到目標）、監測（確認每次操作都在控制範圍內）與查核（檢視紀錄與系統是否照設計運作）。"
+    },
+    {
+      "lessonId": "micro-community-metabolism",
+      "file": "micro-community-metabolism.svg",
+      "alt": "上方兩種優格菌互相影響，下方假想A減少但因B降得更多使A比例提高。",
+      "caption": "用互動關係與課文假想組成條帶，分開生物互動、絕對數量與相對比例。",
+      "basis": "混合菌群中各成員會互相影響生長與代謝（如優格中嗜熱鏈球菌與保加利亞乳桿菌的互利共生）；相對豐度是比例，不等於絕對菌數或代謝活性。"
+    },
+    {
+      "lessonId": "water-measured-sorption",
+      "file": "water-measured-sorption.svg",
+      "alt": "已見資料用於擬合與殘差，新資料另與模型預測比較；同批誤差小不等於通用。",
+      "caption": "同一批量測可用來校準並檢查殘差；未見資料才提供另一層預測檢查。",
+      "basis": "先比較同條件資料的殘差，再用新資料檢查預測；擬合誤差小不會自動擴大模型的適用範圍。"
+    },
+    {
+      "lessonId": "carb-ring-opening-transfer",
+      "file": "carb-ring-opening-transfer.svg",
+      "alt": "上排同一葡萄糖由環狀變為開鏈，碳骨架保持相連；下排雙糖加水後分成兩糖。",
+      "caption": "開環只重排同一分子的環鍵與羰基；糖苷水解才淨消耗水並拆開兩糖。",
+      "basis": "半縮醛開環恢復同一分子的羰基；糖苷水解切開兩段並淨消耗水。先看起始官能基與斷鍵位置，再推電子。"
+    },
+    {
+      "lessonId": "carb-disaccharide-site-transfer",
+      "file": "carb-disaccharide-site-transfer.svg",
+      "alt": "麥芽糖或乳糖的 A 端固定在糖苷橋，B 還原端可開環而保留橋；水解才分開兩糖。",
+      "caption": "還原端開環不會拆開兩糖；辨認固定糖苷異頭端與另一端的游離半縮醛。",
+      "basis": "把固定糖苷連接與游離半縮醛分開標記；只開還原端時保留兩糖的橋，水解橋鍵才把它們分開。"
+    },
+    {
+      "lessonId": "carb-starch-pasting-evidence",
+      "file": "carb-starch-pasting-evidence.svg",
+      "alt": "峰值 PV、峰後低值 TV 與程序末值 FV 分列；崩解和兩種回升值用不同差式。",
+      "caption": "PV、TV、FV 各有階段身份；比較 setback 前先確認它由哪個讀值起算。",
+      "basis": "把 peak、trough、final 與明定公式分開比較；每項數值都依賴樣品、水分、加熱與攪拌程序。"
+    },
+    {
+      "lessonId": "carb-starch-state-evidence",
+      "file": "carb-starch-state-evidence.svg",
+      "alt": "熱轉變、糊體流動、貫通網路和重新有序化分成四格，分別指向對應量測。",
+      "caption": "先分辨量測回答的問題，再連結熱轉變、流動、網路與有序結構。",
+      "basis": "熱轉變、糊體流動、網路形成與重新有序化是不同問題；先辨量測身份，再連結食品性質。"
+    },
+    {
+      "lessonId": "lipid-cocoa-evidence",
+      "file": "lipid-cocoa-evidence.svg",
+      "alt": "兩種巧克力處理都判為 V 型，刊載彎曲模數分別為 74.7 和 36.6；晶型不能替代機械量測。",
+      "caption": "同為 V 型的兩組仍有不同 Eᵦ 均值；不由晶型替代機械量測或感官判斷。",
+      "basis": "晶型與熔點不足以替代機械量測；比較同一方法的彈性彎曲模數 Eᵦ，並保留 SE、統計字母與處理歷史。"
+    },
+    {
+      "lessonId": "lipid-frying-metrics",
+      "file": "lipid-frying-metrics.svg",
+      "alt": "油樣分到誘導期、酸價、p-AV、TPC 四種檢測，量測對象不同而不能互相替代。",
+      "caption": "從量測對象分開讀油品指標，單項數字不能代表全部品質。",
+      "basis": "先確認每項量測的對象、單位與條件，再比較數值；不同指標不必給出相同的油品排序。"
+    },
+    {
+      "lessonId": "lipid-frying-baseline",
+      "file": "lipid-frying-baseline.svg",
+      "alt": "大豆油和芥花油的 TPC 起始值與第 20 次值並列，各自除以起點後回答另一個問題。",
+      "caption": "先說比較目前讀值還是相對自己的起點；起點不同，可使兩種排序同時成立。",
+      "basis": "原值回答目前量到多少；起始比回答相對自己的基準改變多少。分母不同，兩種排序可以同時成立。"
+    },
+    {
+      "lessonId": "lipid-frying-evidence",
+      "file": "lipid-frying-evidence.svg",
+      "alt": "炸鍋同時有新油補入與取樣移出；下方分列均值、三次分析的 SD 和同油同欄的統計字母。",
+      "caption": "保留補油與取樣的開放歷程；把分析離散與獨立製程重複分清。",
+      "basis": "把表列均值、分析離散程度與作者的比較範圍分開；補油與重複層級也決定了結論能延伸多遠。"
+    },
+    {
+      "lessonId": "protein-solvent-evidence",
+      "file": "protein-solvent-evidence.svg",
+      "alt": "RNase Sa 在水與 20% 乙醇兩個來源條件中都標為 folded，但溶解度不同；穩定度另需匹配量測。",
+      "caption": "具名案例的溶解量和 folded 標記可以並存；不能由溶解量單獨指定構形或穩定度。",
+      "basis": "溶解量、來源構形標記與匹配穩定度是不同證據；先核對量測階段、條件及分母，再修訂推論。"
+    },
+    {
+      "lessonId": "protein-heat-quality",
+      "file": "protein-heat-quality.svg",
+      "alt": "加熱分出抑制因子失活與聚集、梅納反應兩條可能影響，不能用單一最低活性決定蛋白品質。",
+      "caption": "熱處理可同時帶來改善與損失；以殘餘活性、消化性及胺基酸保留分別判讀。",
+      "basis": "抑制因子失活、蛋白可消化性與必需胺基酸保留是不同曲線；改善與損失可能同時發生。"
+    },
+    {
+      "lessonId": "protein-alternative-quality",
+      "file": "protein-alternative-quality.svg",
+      "alt": "胺基酸含量先換成每克蛋白，再對需求模式；缺值保留未知，體外端點不等於體內迴腸消化率。",
+      "caption": "先核對蛋白分母與需求模式，再看消化終點；缺少必要胺基酸資料時不能給完整分數。",
+      "basis": "先對齊材料、蛋白分母與需求模式，再分開胺基酸組成、消化終點與未知資料；成分比值不能單獨代表人體利用或完整營養品質。"
+    },
+    {
+      "lessonId": "protein-titration-evidence",
+      "file": "protein-titration-evidence.svg",
+      "alt": "在 pH 等於指定 pKa 時相鄰兩形態等量，其他形態可能仍有；緩衝由平均失去質子數的變化判讀。",
+      "caption": "相鄰形態相等與各占一半不同；緩衝量、平均淨電荷及加鹼物料帳各自判讀。",
+      "basis": "相鄰兩形態等量，不保證各占總量一半；緩衝要看平均失去質子數如何隨 pH 改變。"
+    },
+    {
+      "lessonId": "protein-hydrolysis-conditions",
+      "file": "protein-hydrolysis-conditions.svg",
+      "alt": "蛋白分向化學水解與蛋白酶水解；前者需檢查降解消旋，後者需檢查未切肽段，兩者都要核對回收。",
+      "caption": "依目的選水解方式；切割效率與分析損失須同時核對，不能假定任何方法完整無損。",
+      "basis": "先決定要保留肽段，還是測胺基酸組成；再比較切割選擇性、釋出是否完整與分析中可能發生的損失。"
+    },
+    {
+      "lessonId": "protein-bond-evidence",
+      "file": "protein-bond-evidence.svg",
+      "alt": "三列分別呈現連續鏈展開、骨架切斷新增末端，以及 S–S 還原為兩個 SH；需要不同證據。",
+      "caption": "變性、水解與二硫鍵還原改變不同連接；可同時發生，也不能只靠尺寸變化區分。",
+      "basis": "把摺疊、骨架與二硫鍵分別找證據；尺寸改變本身不足以指定哪一種化學反應。"
+    },
+    {
+      "lessonId": "protein-nitrosation-pathways",
+      "file": "protein-nitrosation-pathways.svg",
+      "alt": "上路先亞硝化得到 NPRO 再脫羧，下路先脫羧得到 pyrrolidine 再亞硝化，兩路都交代水與二氧化碳。",
+      "caption": "兩條淨路徑都保留胺氮並交代 CO₂ 去向；HNO₂ 是收支表示，不指認直接基本反應。",
+      "basis": "脯胺酸可沿兩條文獻支持的淨路徑連到 NPYR。追蹤 N1、N2 與羧基 C1，才能分清加上 N–N=O 和移走 CO₂；路徑可行不等於唯一順序或主要分流。"
+    },
+    {
+      "lessonId": "enzyme-human-lactase",
+      "file": "enzyme-human-lactase.svg",
+      "alt": "MCM6 內 enhancer 調控 LCT；兩條含 I–IV 的前驅物各自加工後，以保留 III、IV 的兩條成熟鏈組成二聚體；IV 區催化乳糖水解。",
+      "caption": "兩條前驅物各自加工，成熟鏈保留 III、IV 並形成同源二聚體；單鏈區段數與蛋白鏈數分開。",
+      "basis": "LCT 編碼 LPH；同一條前驅物的 I–IV 與兩鏈組裝不同。成熟 LPH 的 IV 水解乳糖，MCM6 內的 enhancer、發育與蛋白成熟共同影響可用酵素。"
+    },
+    {
+      "lessonId": "enzyme-kinetic-fitting",
+      "file": "enzyme-kinetic-fitting.svg",
+      "alt": "原速率尺度與倒數尺度有不同誤差；低底物範圍主要限制 Vmax/Km，比值不能直接決定兩個參數。",
+      "caption": "尺度轉換改變誤差權重；低底物範圍往往只能限制 Vmax/Km，需要較完整的濃度設計。",
+      "basis": "擬合要交代誤差尺度及受質範圍；原尺度殘差、重複量測與濃度設計，比倒數圖的直線外觀更能揭露參數限制。"
+    },
+    {
+      "lessonId": "enzyme-evidence-limits",
+      "file": "enzyme-evidence-limits.svg",
+      "alt": "酵素量、失活、溫度 pH 和訊號干擾都可造成較小訊號，各解釋須有獨立對照。",
+      "caption": "由觀察出發列出競爭解釋，再用相應對照區分，不能由相似曲線直接命名機構。",
+      "basis": "酵素量、失活、反應條件與訊號靈敏度都能改變曲線；先排除量測與條件差異，再討論抑制模型。"
+    },
+    {
+      "lessonId": "browning-maillard-storage",
+      "file": "browning-maillard-storage.svg",
+      "alt": "指定奶粉在兩組儲存相對濕度與三個溫度下量測，30 天離胺酸損失和作者 k 是不同讀值，RH 不直接當樣品 aw。",
+      "caption": "先保留研究條件與讀值身份；儲存 RH、樣品 aw、端點損失和擬合 k 不互相替代。",
+      "basis": "同溫比較時，52% 儲存 RH 組的報告損失與作者 k 均較高；這是指定奶粉與條件下的結果，不能直接改寫為通用 aw–速率關係。"
+    },
+    {
+      "lessonId": "browning-imine-hydrolysis",
+      "file": "browning-imine-hydrolysis.svg",
+      "alt": "酸催化下亞胺活化後由水加入形成胺醇，再經質子轉移和 C–N 斷裂恢復羰基及胺；不代表整個褐變逆轉。",
+      "caption": "水加入活化 C=N 後可經胺醇恢復羰基與胺；局部可逆不推成整個梅納網路可逆。",
+      "basis": "水可加入已活化的 C=N，經胺醇恢復羰基與胺；這是一個局部可逆步驟，不能替整個梅納網路或食品色澤下結論。"
+    },
+    {
+      "lessonId": "browning-heyns-relay",
+      "file": "browning-heyns-relay.svg",
+      "alt": "三階段追蹤 C1 與 C2：C2 亞胺、C1=C2 烯胺醇、C1 醛與 C2 胺基；末段重新建立 C2 配置。",
+      "caption": "追蹤 C1 羥氧成醛與 C2 留氮；末段重新形成手性，不能沿用前段加成面推定配置。",
+      "basis": "酮糖來源重排將氮留在 C2、恢復 C1 醛，形成 2-胺基-2-去氧醛糖；C2 可分出不同配置，不能直接沿用前段加成面的結果。"
+    },
+    {
+      "lessonId": "pigment-betalain-choice",
+      "file": "pigment-betalain-choice.svg",
+      "alt": "甜菜色素與花青素為不同結構類別，先由色調酸度與熱歷程篩選，再在指定食品基質驗證保色。",
+      "caption": "先訂產品條件再比較特定色素；起始顏色相近，不表示相同化學機制或貨架期。",
+      "basis": "先訂產品的色調、酸度與熱歷程，再比較特定色素在該基質中的保色表現。"
+    },
+    {
+      "lessonId": "flavor-maillard-aroma",
+      "file": "flavor-maillard-aroma.svg",
+      "alt": "羰基片段與含氮物形成中間體後分支，色素與部分吡嗪分開；食品內量、氣相與感知再分別量測。",
+      "caption": "沿反應分支看生成，再分開驗證釋放與感知；深褐色不能代表吡嗪含量或香氣強度。",
+      "basis": "色素與香氣來自分支反應；配方改變生成比例，基質還會改變氣相釋放。"
+    },
+    {
+      "lessonId": "flavor-sulfur-processing",
+      "file": "flavor-sulfur-processing.svg",
+      "alt": "上列先破碎使蒜胺酸與酵素接觸，形成蒜素後仍可熱轉化；下列先使酵素熱失活，後續破碎的生成途徑受限。",
+      "caption": "酵素失活限制後續生成；先前已形成的蒜素仍可轉化。圖不把先加熱等同完全沒有含硫氣味。",
+      "basis": "蒜破碎後，alliin（蒜胺酸）與 alliinase 接觸，先產生次磺酸類中間體，再形成 allicin（蒜素）。若接觸前酵素已因熱失活，這段生成途徑便會受限。"
+    },
+    {
+      "lessonId": "flavor-taste-evidence",
+      "file": "flavor-taste-evidence.svg",
+      "alt": "三列對照偵測閾值、辨認閾值與超閾值強度所回答的問題及研究判準。",
+      "caption": "以研究的操作定義分開讀 DT、RT 與 gLMS；圖不建立個人濃度—強度曲線。",
+      "basis": "Webb 等人的研究包含 65 位女性大學生，18–42 歲，平均 21.5±4 歲。其 DT 為察覺有味但味質未知，RT 需連續兩次正確認出味質；這是該研究的判準。"
+    },
+    {
+      "lessonId": "flavor-threshold-basis",
+      "file": "flavor-threshold-basis.svg",
+      "alt": "食品濃度與閾值先核對基質、相別、單位及呈現條件；單位換算不會改變基質或閾值定義。",
+      "caption": "比較或求比值之前先核對條件。只換算單位，仍不能消除基質、相別與閾值定義的差異。",
+      "basis": "先核對單位、基質、相別、呈現途徑與閾值定義；條件不同，算出比值也未必可比較。"
+    },
+    {
+      "lessonId": "vitamin-light",
+      "file": "vitamin-light.svg",
+      "alt": "可見光或紫外光進入食品使核黃素進入激發態並發生後續反應；低溫、避光與阻氧針對不同因素。",
+      "caption": "將光作為獨立加工條件；低溫不能替代避光，也不能僅以溫度描述光敏反應。",
+      "basis": "核黃素 B₂ 可被可見光與紫外光影響；光照也可能牽動食品中的其他氧化反應。"
+    },
+    {
+      "lessonId": "vitamin-true-retention",
+      "file": "vitamin-true-retention.svg",
+      "alt": "加工前總量作分母；加工後固體與湯汁分別以濃度乘質量，只加總指定食用部分，未回收量需另查原因。",
+      "caption": "先指定食用範圍並完成總量帳，再算保留率；不將全部未回收量稱為熱破壞。",
+      "basis": "先界定要計算的份量，再把各部分濃度乘上質量；未回收量不能直接叫作熱破壞。"
+    },
+    {
+      "lessonId": "vitamin-c-electron-balance",
+      "file": "vitamin-c-electron-balance.svg",
+      "alt": "中性抗壞血酸及單陰離子到同一形式 DHA 的半反應並列，H⁺ 係數不同，但都釋出兩個電子。",
+      "caption": "起始酸鹼形式改變 H⁺ 係數，兩種形式到未水合 DHA 仍是二電子氧化。",
+      "basis": "中性抗壞血酸 AA 與其單陰離子相差一個 H⁺。到同一形式 DHA 時，H⁺ 的係數會不同，但電子仍是兩個；只看分子少了幾個 H，不能直接猜電子數。"
+    },
+    {
+      "lessonId": "vitamin-c-food-fractions",
+      "file": "vitamin-c-food-fractions.svg",
+      "alt": "第1日與第9日各自的刊載 AA 及 DHAA 均值相加，得到推算總 C 濃度；再比較兩日的差值。",
+      "caption": "由兩項刊載均值推算總 C 濃度；AA 下降與 DHAA 上升不能單獨證明全部反應流向。",
+      "basis": "葉菜研究分別刊載 AA 與 DHAA，以 L-AA 標準曲線校正，單位為 mg/g 鮮重。兩項刊載均值相加，可推算總 C 濃度；它不是另一項獨立量測或每袋總量。"
+    },
+    {
+      "lessonId": "mineral-iron-complexation",
+      "file": "mineral-iron-complexation.svg",
+      "alt": "氧化態改變以電子半反應表示；配位圖保持同一形式氧化態，另列總鐵與可溶鐵的量測界線。",
+      "caption": "把氧化態與配位分成兩個維度；總鐵、可溶鐵與人體吸收需要不同證據。",
+      "basis": "Fe²⁺／Fe³⁺ 描述氧化態，配位則描述鐵與周圍配位基的結合；改變配位不必同時改變氧化態。酸消化後的元素分析主要回答總鐵量，不能還原食品原本的配位形態。"
+    },
+    {
+      "lessonId": "colloid-interface-gelation",
+      "file": "colloid-interface-gelation.svg",
+      "alt": "三個小圖分別顯示液滴界面層、連續相增稠與跨越體相的接合網路，下方列出各自適合的量測。",
+      "caption": "從作用發生的位置分開判讀乳化、增稠與成膠；量測證據須與假說相對應。",
+      "basis": "界面吸附、連續相增稠與貫通凝膠網路是不同機制；要用材料特性、觸發條件與量測證據分開判讀。"
+    },
+    {
+      "lessonId": "processing-analysis",
+      "file": "processing-analysis.svg",
+      "alt": "總氮包括蛋白氮與非蛋白氮，經係數換算得粗蛋白；碳水化合物差減法承接其他成分的誤差，不能直接分類糖澱粉纖維。",
+      "caption": "兩條計算途徑各有方法界線：粗蛋白受氮來源與係數影響，差減值承接其他測項誤差。",
+      "basis": "先確認分析方法、換算與基準，再解讀數字。"
+    },
+    {
+      "lessonId": "analysis-sampling-blank",
+      "file": "analysis-sampling-blank.svg",
+      "alt": "取樣與均質先決定代表性，萃取液再進入 GOPOD 測定；試劑空白只扣除它所含背景，並非總糖或所有干擾校正。",
+      "caption": "沿取樣、均質、萃取到顯色追蹤測定範圍；試劑空白只校正其包含的背景。",
+      "basis": "先限定試料與分析物；GOPOD 測 D-glucose，試劑空白只校正它所包含的背景。"
+    },
+    {
+      "lessonId": "analysis-recovery-matrix",
+      "file": "analysis-recovery-matrix.svg",
+      "alt": "兩列分別在萃取前與萃取後加標，顯示前者經過前處理，後者只檢查分析液響應；均需配對未加標對照。",
+      "caption": "加標位置決定涵蓋哪些步驟；回收、重複性與整體不確定度仍要分開判讀。",
+      "basis": "萃取後加標，檢查加入成分在該分析液中的響應；萃取前加標，還經過前處理。兩者都要與等量、等體積的未加標對照比較，才知道增加的訊號對應多少加入量。"
+    },
+    {
+      "lessonId": "analysis-calibration-residuals",
+      "file": "analysis-calibration-residuals.svg",
+      "alt": "單一觀測與模型預測的差用符號列示，再分辨殘差的系統方向變化與散布變大所提出的不同警訊。",
+      "caption": "殘差的方向與散布揭示不同模型問題。圖僅呈現定義與判讀條件，不冒充實測殘差圖。",
+      "basis": "用殘差分辨彎曲與變異改變；自由截距或強迫過零是模型假設，不能只憑 R² 選擇。"
+    },
+    {
+      "lessonId": "analysis-validation-prediction",
+      "file": "analysis-validation-prediction.svg",
+      "alt": "校正點用於估計同日直線，保留驗證樣品則由其響應回推濃度後與標稱比較，不加入原擬合。",
+      "caption": "同日曲線先回推保留樣品，再對照標稱；驗證樣品不可加回擬合後再宣稱驗證改善。",
+      "basis": "讓驗證樣品留在擬合之外，用同日校正先回推，再對照標稱值；相對標稱偏差不等於完整方法真確度。"
+    },
+    {
+      "lessonId": "analysis-calibration-uncertainty",
+      "file": "analysis-calibration-uncertainty.svg",
+      "alt": "校正限定標準不確定度由未知均值、有限校正資料與距中心影響共同構成；增加未知獨立重複只縮小第一項。",
+      "caption": "未知樣品重複次數只影響部分響應變異；取樣、萃取、基質與標準配製等來源並未納入此式。",
+      "basis": "增加獨立重複只縮小部分響應變異；回推不確定度還取決於校正設計，且未涵蓋整個分析方法。"
+    },
+    {
+      "lessonId": "proc-thermal-size",
+      "file": "proc-thermal-size.svg",
+      "alt": "半徑加倍的均質球體積八倍、表面積四倍，在相同換熱條件及初始溫差下初始平均溫變率減半；使用時間常數前兩球都需檢查 Bi。",
+      "caption": "以同邊界條件下的均質實心球說明尺度：功率增加不代表溫變更快，時間常數須先通過近均溫適用檢查。",
+      "basis": "同幾何與邊界下，體積決定儲熱容量、表面積影響換熱；先判斷能否近似均溫，才能用時間常數比較升降溫。"
+    },
+    {
+      "lessonId": "proc-drying-quality",
+      "file": "proc-drying-quality.svg",
+      "alt": "熱風供熱到濕表面，水分蒸發帶走熱，內部水分向表面補充；若表面失水快於補水可能產生硬化層。",
+      "caption": "由表面供熱、蒸發耗熱與內部補水解釋乾燥品質，避免把熱風溫度直接當成食品溫度。",
+      "basis": "水分蒸發會消耗熱，使濕潤表面低於熱風溫度；後段蒸發變慢時，物料可能升溫。表面與中心也可能不同，不能把入口熱風直接代入食品品質反應。"
+    },
+    {
+      "lessonId": "proc-freeze-drying-storage",
+      "file": "proc-freeze-drying-storage.svg",
+      "alt": "時間軸列出研究量測的0、0.5、1、3與9月；同一時點才依原表比較配方，0月是凍乾後而非乾前。",
+      "caption": "研究的乾後與儲藏後讀值屬不同時點；圖只定位採樣與比較範圍，不繪未提供的衰減曲線。",
+      "basis": "凍乾後能量到的可培養菌濃度，不能代替儲藏期間的量測。Bodzen 等以同一株 L. plantarum CNCM I-4459 比較 PBS 中的四種保護配方（以下百分比皆為m/v）：5%蔗糖，或在5%蔗糖中另加5%膠束酪蛋白、乳清蛋白分離物或菊糖。樣品在25°C、避光、真空封瓶條件下儲藏，Table 1記錄0、0.5、1、3、9月復水後的CFU/mL。0月已經凍乾，並非乾前基準。"
+    },
+    {
+      "lessonId": "proc-frozen-storage-quality",
+      "file": "proc-frozen-storage-quality.svg",
+      "alt": "未凍相可持續反應，冰晶可能再結晶或長大，微生物生長受抑不等於殺滅；品質與安全不能用同一指標替代。",
+      "caption": "將未凍相反應、冰晶變化及微生物存活分開判讀；不把滴液單獨歸因於冰刺破細胞。",
+      "basis": "凍濃縮改變未凍相的組成，低溫也不保證所有化學或酵素反應停止。溫度波動可促進冰的部分融化與再長大；再結晶在固定溫度下也可能發生。"
+    },
+    {
+      "lessonId": "proc-freeze-drying-collapse",
+      "file": "proc-freeze-drying-collapse.svg",
+      "alt": "架板供熱影響產品溫度，冰昇華與乾燥層阻力影響水蒸氣移除；材料若在相應時間尺度下易流動鬆弛，可能變形，Tg′與Tc須分別量測。",
+      "caption": "產品溫度、材料狀態與蒸氣移除共同影響結構；Tg′ 與 Tc 不互換，退火也不是通用外形保證。",
+      "basis": "冰晶移除後，凍結濃縮材料形成的骨架需要保住孔道與外形。含水非晶相在相應溫度與時間尺度下若容易流動、鬆弛，就可能發生結構變形；不能只看到「仍在冷凍、仍有真空」便排除崩塌。Tg′ 是最大凍結濃縮相的玻璃轉移，Tc 要連同崩塌的觀察方法與起始定義解讀；兩者不互換，也不能把另一配方的值搬來當界線。肉眼外形、顯微孔壁與乾燥後的功能又是不同問題，外觀完整仍可能有局部微觀變化。"
+    },
+    {
+      "lessonId": "proc-package-barriers",
+      "file": "proc-package-barriers.svg",
+      "alt": "左側對同一膜片分開表示氧氣與水蒸氣傳輸；右側整包示意封口與缺陷也影響表現，底部列出透水量近似式的條件。",
+      "caption": "OTR 與 WVTR 描述不同透過物；膜片數值只涵蓋整包表現的一部分，不能取代封口與缺陷驗證。",
+      "basis": "每種透過物都有自己的量測條件；膜片數值不能取代整包與封口驗證。"
+    },
+    {
+      "lessonId": "proc-meat-map-evidence",
+      "file": "proc-meat-map-evidence.svg",
+      "alt": "氧合保持 Fe²⁺，氧化形成 Fe³⁺；CO₂ 與 N₂ 各有不同包裝角色，肉色不替代安全量測。",
+      "caption": "先分辨氧合與氧化，再把 a*、氧化及微生物端點分開判讀。",
+      "basis": "O₂與肌紅蛋白結合是氧合，形式鐵價仍為Fe²⁺；形成Fe³⁺高鐵肌紅蛋白則涉及氧化。CO₂有抑菌用途，不能視為殺菌或安全保證；N₂在這裡作平衡氣體，不是形成氧合肌紅蛋白的氧配位體。"
+    },
+    {
+      "lessonId": "proc-process-tradeoffs",
+      "file": "proc-process-tradeoffs.svg",
+      "alt": "兩條製程在同一系統邊界達到共同產品終點，再分開比較能源、時間產能與品質。",
+      "caption": "能耗、時間和品質是不同維度；共同產品終點是比較的起點。",
+      "basis": "製程比較要使用相同系統邊界和產品目標，並把各項指標分開。"
+    },
+    {
+      "lessonId": "proc-thermal-validation",
+      "file": "proc-thermal-validation.svg",
+      "alt": "左圖觀測設備裝載的熱分布；右圖觀測指定食品內部的熱穿透，另核對參數、校正及產品條件。",
+      "caption": "不同測點回答不同問題，計算、現場傳熱與量測證據須各自成立。",
+      "basis": "熱分布、熱穿透、參數適用性與量測可靠性各回答不同問題，不能互相替代。"
+    },
+    {
+      "lessonId": "proc-heat-penetration-effects",
+      "file": "proc-heat-penetration-effects.svg",
+      "alt": "在本課平板模型中，表面與中心各有不同熱歷程，必須分別積分得到局部作用與品質響應。",
+      "caption": "中心值不能代替整板；圖中的品質響應是教學假想。",
+      "basis": "同一平板的表面和中心升溫不同，溫度差會累積成作用差。在本輪對稱、單調加熱模型中，中心較冷而累積作用較小；這個位置結論不能套到所有食品。"
+    },
+    {
+      "lessonId": "proc-thermal-process-comparison",
+      "file": "proc-thermal-process-comparison.svg",
+      "alt": "巴氏乳與 UHT 無菌包裝乳有不同控制目標與儲存前提；開封後條件改變，營養成分另需相符資料。",
+      "caption": "將熱處理歷史、完整包裝與開封狀態分開核對，不作全營養或風味排名。",
+      "basis": "營養比較要指定成分、時間點與資料基準。Lalwani 論文 Figure 11 比較各製程原乳與生產日的 B1、B2、B12、E，換算到 3% 脂肪基準；本課只保留作者報告的顯著損失分類，不從圖估百分比。研究各製程對各自原料；是否同一原乳隨機分組未核實，不按單因子實驗解讀；未報顯著損失也不是零損失。儲存方面，本課乳品來源要求巴氏乳冷藏；未開封 UHT 乳的條件還依賴完整包裝與標示。開封後須冷藏於 4°C 或以下並按包裝所載期間使用；熱處理歷史仍成立，原本未開封的儲存前提已改變。"
+    },
+    {
+      "lessonId": "proc-blanching-evidence",
+      "file": "proc-blanching-evidence.svg",
+      "alt": "殺菁有酵素控制、組織氣體與裝填等目的；POD、Vc 及後續微生物控制使用不同證據。",
+      "caption": "酵素結果只回答其對應問題，不能取代後續製程證據。",
+      "basis": "先說要達成哪個目的，再讀相應的酵素、品質或流程證據；一項 POD 指標不能替其他終點或後續商業滅菌作保證。"
+    },
+    {
+      "lessonId": "proc-rice-milling-damage",
+      "file": "proc-rice-milling-damage.svg",
+      "alt": "稻穀經去殼成糙米、碾白成白米，再磨成米粉；粒徑、含水與澱粉損傷率為不同量測。",
+      "caption": "加工層次不同，粉體尺寸與澱粉損傷不能互相代替。",
+      "basis": "去殼、碾白與磨粉處理不同層次；帶水磨可在指定條件下降低損傷，但粒徑、最終含水與損傷率不能互相代替。"
+    },
+    {
+      "lessonId": "proc-fermentation-comparison",
+      "file": "proc-fermentation-comparison.svg",
+      "alt": "液體培養與固體基質培養各自除以本系列最大值，兩個 100% 不代表相同絕對活性。",
+      "caption": "先核對檢定條件與分母，再決定哪些發酵觀察可以比較。",
+      "basis": "自己組出處理與對照，分開已報觀察、計畫中的量測，以及仍不能歸因的差異。"
+    },
+    {
+      "lessonId": "micro-cell-state-evidence",
+      "file": "micro-cell-state-evidence.svg",
+      "alt": "孢子以多層結構示意其耐受相關因素，另一側呈現分離株 Gram 染色僅支持該批細胞的表型。",
+      "caption": "耐受須按壓力與狀態判讀，染色結果不能自行指出原食品狀態或污染原因。",
+      "basis": "先分清營養細胞與孢子，再按壓力連結結構和證據；分離株的 Gram 顏色不能倒推原食品的狀態或事故原因。"
+    },
+    {
+      "lessonId": "micro-growth-estimation",
+      "file": "micro-growth-estimation.svg",
+      "alt": "同一研究時間序列分為選窗內均值與未參與擬合的點，前者估表觀斜率，後者檢查延伸偏差。",
+      "caption": "圖不補造資料點；μ_app 與倍增時間均依選窗及 log₁₀ 解讀成立。",
+      "basis": "斜率 b 的單位是 log₁₀(CFU/mL) 每小時；在上述十進位解讀下，μ_app=b ln(10)，b>0 時 g=log₁₀(2)/b。這些是選窗的表觀條件估計，不是作者直接報值、μmax 或單細胞代時。n=3 是同一初始豆奶材料的三份等分，不能當三個獨立製造批次；時間配對、跨批次變異與逐等分值未知。殘差可揭示這條直線未描述的彎曲；同序列未用點仍屬同研究，不是獨立外部驗證。稀疏取樣也不能精確估 lag。"
+    },
+    {
+      "lessonId": "micro-stress-response",
+      "file": "micro-stress-response.svg",
+      "alt": "以有無前次暴露的兩組比較後續同一壓力反應，須對齊起始量與回收，不能由存活差直接推定突變。",
+      "caption": "先前狀態可能影響結果，但較高存活量不證明永久抗性。",
+      "basis": "菌株與先前狀態都會影響壓力反應；較高存活量本身不證明突變或永久抗性。"
+    },
+    {
+      "lessonId": "micro-pcr-viability",
+      "file": "micro-pcr-viability.svg",
+      "alt": "細胞失去增殖能力後仍可能保留可被 PCR 檢出的 DNA；PMA 的膜相關訊號也不能代替可培養性證據。",
+      "caption": "核酸訊號、可培養性、感染性與毒素是不同分析對象。",
+      "basis": "PCR 主要回答目標核酸是否被此方法檢出；生存、感染性與毒素各需要對應證據。"
+    },
+    {
+      "lessonId": "micro-count-represented-sample",
+      "file": "micro-count-represented-sample.svg",
+      "alt": "原樣等效濃度、稀釋比例及接種體積共同決定每盤代表的原樣量，合併菌落數後除以總代表量。",
+      "caption": "零菌落不是原樣濃度為零；單一 CFU 的換算刻度也不是方法檢出限。",
+      "basis": "同樣一個盤，所代表的原樣量可能不同。以均質液的原樣等效濃度乘後續稀釋比例與記錄體積，再合併菌落數；不能把各盤換算濃度直接等權平均。"
+    },
+    {
+      "lessonId": "micro-pcr-control-evidence",
+      "file": "micro-pcr-control-evidence.svg",
+      "alt": "取樣、萃取與 PCR 流程顯示萃取空白、無模板對照、外部陽性及萃取後內控各自檢查的範圍。",
+      "caption": "控制通過的範圍限制陰性主張；內控在萃取後加入，不涵蓋取樣或萃取回收。",
+      "basis": "本活動的外源內部擴增控制在萃取後加入。它可檢查該管反應，但不能證明取樣與萃取回收；目標與內控制都失敗時，不能直接當作有效陰性。"
+    },
+    {
+      "lessonId": "micro-isolate-confirmation",
+      "file": "micro-isolate-confirmation.svg",
+      "alt": "食品樣份分為核酸訊號與培養候選兩條證據，身分確認必須沿追溯連到同一挑選分離株。",
+      "caption": "培養加上同一分離株的有效確認，才支持該樣份中有可培養目標。",
+      "basis": "培養提供可培養性的證據，身分確認要落在同一分離株；不能把樣品 PCR 陽性貼到所有菌落身上。"
+    },
+    {
+      "lessonId": "micro-outbreak-evidence",
+      "file": "micro-outbreak-evidence.svg",
+      "alt": "基因體、病例暴露、產品追溯與時間四條證據共同支持有範圍的來源主張，不能只由基因距離下結論。",
+      "caption": "四條證據不是加總分數；同廠關聯與最初污染入口是不同層次。",
+      "basis": "把基因體、暴露、追溯和時間分開核對，再提出範圍清楚的來源主張。同廠相關產品可牽涉兩個基因群；基因距離本身不能指定工廠、最初污染入口或傳播方向。"
+    },
+    {
+      "lessonId": "micro-fermented-milk-evidence",
+      "file": "micro-fermented-milk-evidence.svg",
+      "alt": "實際三菌組合與配方連到冷藏品質的 pH、自然離水及持水性，圖中保留菌株別生長與代謝交換未量測。",
+      "caption": "產品名稱不能代替菌種清單，品質差異也不能直接證明兩菌共生。",
+      "basis": "Table 3 比較冷藏期間的 pH、自然離水與持水性。它沒量各成員生長或代謝交換；要解釋菌株作用，應補能區分成員、功能與配方效果的證據。"
+    },
+    {
+      "lessonId": "micro-soy-fermentation-evidence",
+      "file": "micro-soy-fermentation-evidence.svg",
+      "alt": "製麴時產生酵素，加鹽液後水解與耐鹽菌及酵母代謝可並行；研究比較須固定化合物與萃取法。",
+      "caption": "一般製程角色與本研究的大豆製麴資料分開，揮發物訊號不等於偏好或安全。",
+      "basis": "製麴時，麴菌在含水原料上生長並產生酵素；加鹽液後，酵素水解與耐鹽菌、酵母代謝可並行。日本式釀造示例另有大豆與小麥、固態製麴、鹽液醪、壓榨及後處理；水解、代謝和分離是不同作用。"
+    },
+    {
+      "lessonId": "micro-biotics-evidence",
+      "file": "micro-biotics-evidence.svg",
+      "alt": "互補型合生元要求成分各自成立且組合有宿主效益；協同型成分不必各自成立，但須相符的四條件研究。",
+      "caption": "協同型不能簡化成兩個已成立身分相加，也不以自訂算術超加成分數判定。",
+      "basis": "本課依ISAPP框架分開檢查材料、作用與目標宿主結果。Probiotic需活微生物在適當用量下有宿主效益；prebiotic需基質被宿主微生物選擇性利用而帶來效益。Complementary synbiotic需兩成分各自成立、提供相符用量，且組合本身有目標宿主效益。Synergistic synbiotic的基質為同時施用的菌而選；成分不必各自已成立，但同一目標宿主研究需以組合、菌單用、基質單用與對照四條件，支持選擇性利用與健康效益相對各單成分及對照的比較；不是自訂算術超加成分數。Postbiotic則需有意失活的微生物及／或其組件製備物，以及相符的宿主效益。"
+    },
+    {
+      "lessonId": "micro-enzyme-evidence",
+      "file": "micro-enzyme-evidence.svg",
+      "alt": "產酵素的 K. lactis 與接種 starter 角色分開，乳糖酶水解乳糖生成葡萄糖和半乳糖，糖與菌數端點各別判讀。",
+      "caption": "糖組成改變不保證所有 starter 更快生長；CFU 與產酸功能須分開量測。",
+      "basis": "乳糖酶／β-galactosidase 可水解乳糖的 β(1→4) 糖苷鍵，生成 D-葡萄糖與 D-半乳糖，降低乳基的乳糖並改變可利用糖。所選研究使用 GODO-YNL；製造商列產製來源為酵母 Kluyveromyces lactis。產酵素酵母與接種的發酵菌是不同角色，人體 LPH 也不能充作這份微生物製劑的身分或結構證據。"
+    },
+    {
+      "lessonId": "micro-natto-ammonia",
+      "file": "micro-natto-ammonia.svg",
+      "alt": "主發酵前已建立不同菌株，發酵取樣後分別量測容器氣相釋氨與食品尿素庫存，不能由殘餘訊號命名新途徑。",
+      "caption": "兩種量測的物件與起始狀態不同；殘餘釋氨保留為尚未解釋的訊號。",
+      "basis": "文獻的氨讀值來自各次取樣後，在指定容器與量測條件下釋出的氣體；尿素則由食品樣品萃取分析。兩者的量測層級不同。尿素比較在二次發酵起始點就有差距，因此末端差值不能直接當成處理期間新增或消耗的量。"
+    },
+    {
+      "lessonId": "micro-spoilage-indicators",
+      "file": "micro-spoilage-indicators.svg",
+      "alt": "同一食品以感官、生菌數與特定危害三種量測回答不同問題，外觀正常或一般菌數低都不能排除特定危害。",
+      "caption": "品質指標不能代替危害檢測，腐敗與危害也不是永遠互斥的分類。",
+      "basis": "感官劣變、一般菌數和特定危害回答不同問題；不應讓其中一個指標代替全部結論。"
+    },
+    {
+      "lessonId": "pigment-glycoside-absorption",
+      "file": "pigment-glycoside-absorption.svg",
+      "candidateFile": "figure-candidate.svg",
+      "width": 720,
+      "height": 560,
+      "alt": "四張卡片分開槲皮素糖苷的糖基形式、水解、進入與結合代謝、血漿量測，沒有把它們串成必然吸收箭頭。量測卡強調酸水解後的槲皮素當量不同於游離苷元或完整糖苷濃度。",
+      "caption": "糖與鍵型影響酵素辨識；去醣釋出較疏水苷元後被動入胞，是 Day 等提出的可能機制。圖以槲皮素 O-糖苷為例，水解、跨膜、結合代謝與全身暴露仍需分開。",
+      "minimumFontSize": 16,
+      "externalImages": false,
+      "scope": "候選概念圖；Q–O–糖基是連接示意，不是完整分子結構、反應動力學或定量路徑。",
+      "sourceIds": [
+        "glycoside-source-day2000-lph",
+        "glycoside-source-nemeth2003",
+        "glycoside-source-hollman1997",
+        "glycoside-source-day2001-metabolites",
+        "glycoside-source-amaretti2015"
+      ]
+    },
+    {
+      "lessonId": "browning-mechanism-comparison",
+      "file": "browning-mechanism-comparison.svg",
+      "candidateFile": "figure-candidate.svg",
+      "width": 720,
+      "height": 600,
+      "alt": "四列比較 PPO、梅納、糖焦糖化及抗壞血酸降解的不同入口與後續反應；酵素先生成醌，後續顯色仍包含非酵素反應。",
+      "caption": "先找必要反應物和催化條件，再選控制位置。共同的褐色結果不表示唯一機制，控制一條入口也不會自動移除既有產物。",
+      "minimumFontSize": 16,
+      "scope": "代表路徑概念圖，沒有反應速率、顏色數值或路徑貢獻預測。",
+      "externalImages": false
+    },
+    {
+      "lessonId": "lipid-unsaponifiable-fraction",
+      "file": "lipid-unsaponifiable-fraction.svg",
+      "alt": "甾醇酯和蠟酯的酯鍵被水解；釋出的甾醇與長鏈醇通往有機萃取相，脂肪酸鹽通往含水醇皂液。TAG 的甘油則通往含水醇相。",
+      "caption": "原酯有反應，釋出的疏水醇端仍可進不皂化分段；示意採未酸化、完成皂化與洗滌分相的條件。",
+      "basis": "依 AOCS 甾醇分析、FSSAI 分段定義與酯水解化學整理；僅表示片段身分與理想去向，不表示實測回收率或完整分子構型。"
+    },
+    {
+      "lessonId": "micro-poultry-contamination",
+      "file": "micro-poultry-contamination.svg",
+      "width": 720,
+      "height": 620,
+      "alt": "受污染生禽肉分出三路：經有效加熱的路徑在處理點被排除，生肉砧板到熟肉及沖洗水花到即食配菜的路徑仍開啟。",
+      "caption": "原創起始情境：有效加熱已成立，但熟肉再碰生肉砧板，水花也碰到即食配菜。後兩條接觸繞過禽肉加熱；箭頭不表示菌量或感染機率。",
+      "basis": "加熱作用於通過該處理的食品；器具再引入與飛濺至即食菜須分別控制。"
+    }
+  ]
+}

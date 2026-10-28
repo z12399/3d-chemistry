@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">溶得較少，不等於一定展開</title>
+<desc id="desc">RNase Sa 在水與 20% 乙醇兩個來源條件中都標為 folded，但溶解度不同；穩定度另需匹配量測。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">溶得較少，不等於一定展開</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">RNase Sa：25°C、近 pI 的來源報告案例</tspan></text>
+<path d="M100 132V218H250V132" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="104" y="175" width="142" height="39" rx="0" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="175" y="112" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="175" dy="0">水</tspan></text>
+<text x="175" y="258" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="175" dy="0">2.05 ± 0.11 mg/mL</tspan></text>
+<rect x="90" y="281" width="170" height="54" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="175.0" y="315.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="175.0" dy="0">作者標記 folded</tspan></text>
+<path d="M440 132V218H590V132" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="444" y="175" width="142" height="39" rx="0" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="515" y="112" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="515" dy="0">20% ethanol</tspan></text>
+<text x="515" y="258" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="515" dy="0">0.09 ± 0.01 mg/mL</tspan></text>
+<rect x="430" y="281" width="170" height="54" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="515.0" y="315.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="515.0" dy="0">作者標記 folded</tspan></text>
+<path d="M30 369L690 369" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="410" font-size="21" fill="#14665d" text-anchor="start"><tspan x="30" dy="0">低溶解度 ≠ 已證明展開 ≠ 匹配穩定度量測</tspan></text>
+<text x="30" y="460" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">20% 的基準、± 種類及匹配 ΔG／Tm 未提供；未知不補零。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
