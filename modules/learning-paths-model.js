@@ -1,5 +1,6 @@
 import {LEARNING_PATHS} from './learning-paths-data.js';
 import {LEARNING_SUBJECTS} from './learning-subjects.js';
+import {quizRecordState} from './learning-model.js';
 
 export {LEARNING_PATHS};
 export const PATH_POSITIONS_KEY='food-science-path-positions-v1';
@@ -79,10 +80,12 @@ const ownProse=attempt=>object(attempt)&&['response','revision','transfer'].some
 export function pathAnswerStatus(station,progresses={}){
   if(!station?.available||!station.lesson||!subjectMeta(station.subject))return false;
   const progress=progresses?.[station.subject],records=progress?.data?.records??progress?.records;
-  if(!object(records)||!Object.hasOwn(records,station.lesson.id))return false;
+  if(!object(records))return false;
+  const quiz=quizRecordState(station.subject,station.lesson,records);
   const record=records[station.lesson.id];
+  if(quiz.special)return Number.isInteger(quiz.record.answer)||ownProse(record?.practice)||(Array.isArray(record?.practice?.history)&&record.practice.history.some(ownProse));
   if(!object(record))return false;
-  return Number.isInteger(record.answer)||ownProse(record.practice)||(Array.isArray(record.practice?.history)&&record.practice.history.some(ownProse));
+  return Number.isInteger(quiz.record.answer)||ownProse(record.practice)||(Array.isArray(record.practice?.history)&&record.practice.history.some(ownProse));
 }
 
 function positionData(value){

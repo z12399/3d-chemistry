@@ -4,6 +4,20 @@ export const LEARNING_KEY = 'food-chemistry-learning-v1';
 export const LEARNING_SCHEMA = 'food-chemistry-learning/v1';
 export const MAX_LEARNING_IMPORT_BYTES = 32 * 1024 * 1024;
 export const LESSON_STEPS = ['understand', 'observe', 'check'];
+// This one revised question uses a separate answer identity; old lesson data stays intact.
+// The marker is internal, not a lesson note. Unknown occupied records are never interpreted.
+export const WATER_QUIZ_V2_KEY = 'water-activity-quiz-v2-20261028';
+export const WATER_QUIZ_V2_MARKER = '__internal_water_activity_quiz_v2_20261028__';
+export function quizRecordState(subjectId, lesson, records = {}) {
+  const special = subjectId === 'chemistry' && lesson?.id === 'water-activity';
+  const key = special ? WATER_QUIZ_V2_KEY : lesson?.id;
+  const map = records && typeof records === 'object' && !Array.isArray(records) ? records : {};
+  if (!special) return {special:false, key, blocked:false, record:map[key] || {}};
+  const present = Object.hasOwn(map,key), candidate = map[key];
+  const owned = present && candidate && typeof candidate === 'object' && !Array.isArray(candidate)
+    && candidate.note === WATER_QUIZ_V2_MARKER && candidate.starred === false && candidate.practice === undefined;
+  return {special:true, key, blocked:present && !owned, record:owned ? candidate : {}};
+}
 const safeId = value => typeof value === 'string' && /^[a-z0-9-]{1,100}$/.test(value);
 export const allLessons = course => (course?.topics || []).flatMap(topic => topic.lessons.map(lesson => ({topic, lesson})));
 export const lessonPath = (topic, lesson, step = 'understand', root = 'learn') => {
@@ -41,8 +55,10 @@ export function validateLearningProgress(value, subjectId='chemistry') {
 }
 export function learningSummary(course, progress) {
   const lessons = allLessons(course);
-  const passed = lessons.filter(({lesson}) => progress.records[lesson.id]?.answer === lesson.quiz.answer);
-  const retry = lessons.filter(({lesson}) => progress.records[lesson.id]?.answer !== undefined && progress.records[lesson.id].answer !== lesson.quiz.answer);
+  const subjectId=subjectForCourse(course).id;
+  const answer=lesson=>quizRecordState(subjectId,lesson,progress.records).record.answer;
+  const passed = lessons.filter(({lesson}) => answer(lesson) === lesson.quiz.answer);
+  const retry = lessons.filter(({lesson}) => answer(lesson) !== undefined && answer(lesson) !== lesson.quiz.answer);
   return {total:lessons.length, passed, retry};
 }
 
@@ -148,6 +164,16 @@ export class LearningProgress {
     const latest=this.readLatest();if(latest===null)return false;
     let next;
     try {
+      // The new question's key is reserved only after this instance creates it.
+      // Check the same latest snapshot that the merge will use; an unknown key
+      // inserted after UI refresh must not be absorbed as our marker record.
+      if(this.subject.id==='chemistry' && (this.pendingIntents.has(`${WATER_QUIZ_V2_KEY}:answer`) || this.pendingIntents.has(`${WATER_QUIZ_V2_KEY}:note`)) && Object.hasOwn(latest.records,WATER_QUIZ_V2_KEY)) {
+        const state=quizRecordState('chemistry',{id:'water-activity'},latest.records);
+        if(!Object.hasOwn(this.base.records,WATER_QUIZ_V2_KEY) || state.blocked) {
+          const error=new Error('題目記錄位置已被既有資料使用；未覆寫，請先匯出紀錄。');
+          error.code='WATER_QUIZ_OCCUPIED';throw error;
+        }
+      }
       this.checkIntents(latest);
       next=reconcileProgress(this.base,this.data,latest,this.subject.id);
     }
@@ -174,7 +200,7 @@ export class LearningProgress {
       const saved=this.save();
       if(!saved&&!retainOnFailure){this.data=previous;this.pendingIntents=previousIntents;}
       return saved;
-    } catch(error) {if(!retainOnFailure){this.data=previous;this.pendingIntents=previousIntents;}throw error;}
+    } catch(error) {if(!retainOnFailure||error.code==='WATER_QUIZ_OCCUPIED'){this.data=previous;this.pendingIntents=previousIntents;}throw error;}
   }
   merge(value) {
     const incoming = validateLearningProgress(value,this.subject.id);
@@ -183,6 +209,16 @@ export class LearningProgress {
     let current;
     try {this.checkIntents(latest);current=reconcileProgress(this.base,this.data,latest,this.subject.id);}
     catch(error){this.error=error.message;throw error;}
+    // Import cannot represent two unrelated records under this one reserved
+    // question key. Reject before writing instead of silently mixing the data.
+    if(this.subject.id==='chemistry' && Object.hasOwn(current.records,WATER_QUIZ_V2_KEY) && Object.hasOwn(incoming.records,WATER_QUIZ_V2_KEY)) {
+      const currentQuiz=quizRecordState('chemistry',{id:'water-activity'},current.records);
+      const incomingQuiz=quizRecordState('chemistry',{id:'water-activity'},incoming.records);
+      if(currentQuiz.blocked || incomingQuiz.blocked) {
+        this.error='匯入檔與現有資料佔用相同的題目記錄位置；本次未合併，現有紀錄與匯入檔均保留。';
+        throw new Error(this.error);
+      }
+    }
     const records={...incoming.records,...current.records};
     // Existing prose and answers win; a newly introduced practice can still be imported.
     for(const [id,local] of Object.entries(current.records)) {

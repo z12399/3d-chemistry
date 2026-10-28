@@ -172,7 +172,7 @@ import {subjectForCourse,subjectNavigation,LEARNING_SUBJECTS,SUBJECT_CONNECTIONS
 import {processingOverview} from './processing-overview.js';
 import {microbiologyOverview} from './microbiology-overview.js';
 import {renderPractice,bindPractice,practiceReviewEntries} from './learning-practice.js';
-import {allLessons, lessonPath as makeLessonPath, resolveLearningRoute, learningSummary, LESSON_STEPS, MAX_LEARNING_IMPORT_BYTES} from './learning-model.js';
+import {allLessons, lessonPath as makeLessonPath, resolveLearningRoute, learningSummary, quizRecordState, WATER_QUIZ_V2_MARKER, LESSON_STEPS, MAX_LEARNING_IMPORT_BYTES} from './learning-model.js';
 import {learningNoteDraft,learningNoteDraftEntries,learningNoteMessage,learningNoteStatus,saveLearningNote,appendLearningNoteSummary} from './learning-note-model.js';
 
 const arrow = '<span aria-hidden="true">↗</span>';
@@ -302,13 +302,13 @@ export class LearningStudio {
   }
   unitRow(topic, lesson, i, subject=this.subject, showQuestion=i===undefined) {
     const record=this.progresses[subject.id]?.data.records[lesson.id];
-    const passed=record?.answer===lesson.quiz.answer;
+    const passed=quizRecordState(subject.id,lesson,this.progresses[subject.id]?.data.records).record.answer===lesson.quiz.answer;
     const href=subject.id===this.subject.id?this.lessonPath(topic,lesson):makeLessonPath(topic,lesson,'understand',subject.root);
     return `<a class="learning-unit" href="${href}"><span class="learning-index ${passed?'is-passed':''}" ${passed?'aria-label="自測通過"':'aria-hidden="true"'}>${passed?'✓':i!==undefined?String(i+1).padStart(2,'0'):'→'}</span><div>${i===undefined?`<span class="study-result-location">${esc(subject.title)} / ${esc(topic.title)}</span>`:''}<h3>${esc(lesson.title)}${record?.starred?'<small class="study-unit-saved">已收藏</small>':''}</h3>${showQuestion?`<p>${esc(lesson.question)}</p>`:''}</div>${arrow}</a>`;
   }
   topic() {
     const {topic}=this.route;
-    const passed=topic.lessons.filter(l=>this.progress.data.records[l.id]?.answer===l.quiz.answer).length;
+    const passed=topic.lessons.filter(l=>quizRecordState(this.subject.id,l,this.progress.data.records).record.answer===l.quiz.answer).length;
     return `${this.topbar(topic.title)}<header class="learning-heading"><h1>${esc(topic.title)}</h1><p>${esc(topic.summary)}</p></header>${renderTopicStart({subject:this.subject,topic,courses:this.courses})}<div class="learning-topic-progress"><span>${passed} / ${topic.lessons.length} 個單元自測通過</span><div><i style="width:${passed/topic.lessons.length*100}%"></i></div></div><div class="study-view-tabs" role="tablist" aria-label="主題瀏覽方式"><button type="button" role="tab" id="study-tab-principles" aria-controls="study-topic-principles" aria-selected="true" data-topic-view="principles">原理總覽</button><button type="button" role="tab" id="study-tab-units" aria-controls="study-topic-unitview" aria-selected="false" data-topic-view="units" tabindex="-1">單元列表</button></div><section id="study-topic-principles" role="tabpanel" aria-labelledby="study-tab-principles" class="study-principles"><p class="study-principles-hint">每個細項的核心原理一次看完；點「說明」看要點、公式與常見誤解。</p><ol>${topic.lessons.map((lesson,i)=>`<li class="study-principle"><span class="study-principle-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><div><p class="study-principle-text">${esc(principleFor(lesson))}</p><p class="study-principle-source">${esc(lesson.title)}</p>${lesson.equation?`<p class="study-principle-formula">${esc(lesson.equation.text)}</p>`:''}</div><a class="study-principle-open" href="${this.lessonPath(topic,lesson,'understand')}" aria-label="${esc(lesson.title)}：原理說明">說明 <span aria-hidden="true">→</span></a></li>`).join('')}</ol></section><section id="study-topic-unitview" role="tabpanel" aria-labelledby="study-tab-units" hidden><label class="study-topic-search" for="study-topic-search"><span>單元搜尋</span><input id="study-topic-search" type="search" placeholder="輸入課名或關鍵字" maxlength="120"></label><div id="study-topic-units" class="learning-unit-list">${topic.lessons.map((lesson,i)=>this.unitRow(topic,lesson,i)).join('')}</div></section><a class="learning-back" href="${this.base}/map">← 返回知識目錄</a>`;
   }
   retentionSizeEntry(lesson) {
@@ -517,7 +517,9 @@ export class LearningStudio {
     return this.quickCheck(lesson,record)+(next?`<a class="button-primary learning-primary path-next" href="${esc(next.href)}">${esc(next.label)} →</a>`:'');
   }
   quickCheck(lesson, record) {
-    return `<div class="learning-check"><p class="learning-kicker">用一題確認關鍵差別</p><h2>${esc(lesson.quiz.question)}</h2><div class="learning-options">${lesson.quiz.options.map((option,i) => `<button data-quiz-answer="${i}" aria-pressed="${record.answer === i}"><span>${String.fromCharCode(65+i)}</span>${esc(option)}</button>`).join('')}</div><div id="learning-answer" aria-live="polite">${this.answerFeedback(lesson,record)}</div>
+    const quiz=quizRecordState(this.subject.id,lesson,this.progress.data.records);
+    const updateNotice=quiz.blocked?'題目記錄位置已被既有資料使用；未讀取或覆寫，請先匯出紀錄。':quiz.special&&record.answer!==undefined&&quiz.record.answer===undefined?'題目已更新，請重新作答；舊題作答記錄保留。':'';
+    return `<div class="learning-check"><p class="learning-kicker">用一題確認關鍵差別</p><h2>${esc(lesson.quiz.question)}</h2>${updateNotice?`<p role="status">${esc(updateNotice)}</p>`:''}<div class="learning-options">${lesson.quiz.options.map((option,i) => `<button data-quiz-answer="${i}" aria-pressed="${quiz.record.answer === i}" ${quiz.blocked?'disabled':''}><span>${String.fromCharCode(65+i)}</span>${esc(option)}</button>`).join('')}</div><div id="learning-answer" aria-live="polite">${this.answerFeedback(lesson,quiz.record)}</div>
     <details class="learning-misconception"><summary>容易混淆的地方</summary><p><strong>${esc(lesson.misconception.claim)}</strong></p><p>${esc(lesson.misconception.correction)}</p></details>${this.isFocusedCarb(lesson)?this.carbNote(record):this.lessonNote(lesson,record)}</div>`;
   }
   answerFeedback(lesson,record) {
@@ -1075,15 +1077,27 @@ export class LearningStudio {
       this.root.querySelectorAll('[data-quiz-answer]').forEach(el => el.onclick = () => {
         if(focusedCarb&&!liveCarb())return;
         if(!liveLesson())return;
-        if(this.recordLesson(lesson.id,{answer:Number(el.dataset.quizAnswer)})===null)return;
+        let quiz=quizRecordState(this.subject.id,lesson,this.progress.data.records);
+        if(quiz.special){
+          if(!this.progress.refresh()&&!this.progress.locked){this.storageStatus();return;}
+          quiz=quizRecordState(this.subject.id,lesson,this.progress.data.records);
+          if(quiz.blocked){this.onToast('題目記錄位置已被既有資料使用；未覆寫。');return;}
+        }
+        if(this.recordLesson(quiz.key,quiz.special?{answer:Number(el.dataset.quizAnswer),note:WATER_QUIZ_V2_MARKER}:{answer:Number(el.dataset.quizAnswer)})===null)return;
         this.root.querySelectorAll('[data-quiz-answer]').forEach(b => b.setAttribute('aria-pressed',String(b===el)));
-        $('#learning-answer').innerHTML=this.answerFeedback(lesson,this.progress.data.records[lesson.id]); this.storageStatus();
+        $('#learning-answer').innerHTML=this.answerFeedback(lesson,quizRecordState(this.subject.id,lesson,this.progress.data.records).record); this.storageStatus();
       });
       if ($('#learning-answer')) $('#learning-answer').onclick = e => {
         if(focusedCarb&&!liveCarb())return;
         if(!liveLesson())return;
         if (!e.target.closest('[data-reset-answer]')) return;
-        if(this.recordLesson(lesson.id,{answer:undefined})===null)return;
+        let quiz=quizRecordState(this.subject.id,lesson,this.progress.data.records);
+        if(quiz.special){
+          if(!this.progress.refresh()&&!this.progress.locked){this.storageStatus();return;}
+          quiz=quizRecordState(this.subject.id,lesson,this.progress.data.records);
+          if(quiz.blocked){this.onToast('題目記錄位置已被既有資料使用；未覆寫。');return;}
+        }
+        if(this.recordLesson(quiz.key,{answer:undefined})===null)return;
         this.root.querySelectorAll('[data-quiz-answer]').forEach(b=>b.setAttribute('aria-pressed','false'));
         $('#learning-answer').innerHTML='';this.storageStatus();
         this.root.querySelector('[data-quiz-answer]')?.focus();
