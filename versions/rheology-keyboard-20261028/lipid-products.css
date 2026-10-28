@@ -1,0 +1,53 @@
+.learning-structure-extension { margin-top:34px; border-top:1px solid var(--line); }
+.learning-structure-extension > summary { padding:20px 0; font-size:16px; color:#14665d; cursor:pointer; }
+.lipid-products { padding:8px 0 12px; line-height:1.8; max-width:870px; }
+.lipid-products h3 { margin:0 0 12px; font-size:25px; font-weight:550; }
+.lipid-product-intro { color:#53606d; font-size:15px; max-width:42em; }
+.lipid-product-target { display:block; font-size:13px; margin:24px 0 12px; }
+.lipid-product-target select { display:block; width:100%; max-width:490px; margin-top:8px; }
+.lipid-products select { font:inherit; color:var(--ink); border:1px solid #cfd6dc; border-radius:8px; background:#fff; padding:10px 12px; min-height:44px; }
+.lipid-product-scope,.lipid-product-reference { color:var(--muted); font-size:13px; line-height:1.9; }
+.lipid-diagram-toggle { display:flex; align-items:center; gap:9px; font-size:13px; margin-top:22px; }
+.lipid-diagram-toggle input { width:18px; height:18px; accent-color:#14665d; }
+.lipid-product-figure { margin:20px 0 8px; padding:16px 10px 0; background:#f1f3f5; border-radius:8px; }
+.lipid-product-figure figcaption { padding:0 8px; color:#14665d; font-size:13px; }
+.lipid-diagram-scroll { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+.lipid-diagram-scroll img { display:block; width:100%; min-width:620px; height:auto; max-width:none; }
+.lipid-diagram-scroll img[width="1100"] { min-width:820px; }
+.lipid-diagram-hint { display:none; font-size:13px; color:var(--muted); text-align:center; padding-bottom:10px; }
+.lipid-product-answer .lipid-product-figure { background:#f2e9dd; }
+.lipid-bond-builder { margin:26px 0 20px; padding:0; border:0; }
+.lipid-bond-builder legend { font-size:17px; font-weight:500; margin-bottom:15px; }
+.lipid-bond-row { display:grid; grid-template-columns:38px minmax(170px,1fr) 125px; gap:16px; align-items:center; max-width:520px; margin:14px 0; }
+.lipid-bond-row > span { font:23px Georgia,serif; color:#687480; }
+.lipid-bond-row label { font-size:13px; color:var(--muted); }
+.lipid-bond-row select { display:block; width:100%; margin-top:6px; font-size:15px; }
+.lipid-product-actions { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.lipid-product-actions button { min-height:44px; }
+.lipid-product-reset { border:0; background:transparent; color:var(--muted); font-size:13px; cursor:pointer; text-decoration:underline; text-underline-offset:4px; }
+.lipid-product-feedback { font-size:14px; color:#985334; min-height:1.8em; margin:18px 0; max-width:46em; }
+.lipid-product-feedback[data-correct=true] { color:#14665d; }
+.lipid-product-answer { margin-top:24px; padding-top:22px; border-top:1px solid var(--line); }
+.lipid-product-answer h4 { font-size:18px; font-weight:550; margin:0 0 10px; overflow-wrap:anywhere; }
+.lipid-product-bond-summary,.lipid-product-net { color:#14665d; font-size:16px; line-height:1.9; }
+.lipid-product-answer > p:last-child { font-size:14px; color:var(--muted); }
+.lipid-product-more { margin-top:25px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
+.lipid-product-more summary { padding-top:16px; cursor:pointer; }
+.lipid-product-more p { margin:14px 0; }
+.lipid-product-more a { overflow-wrap:anywhere; }
+.lipid-diagram-error { color:#a24a32; font-size:13px; padding:8px; }
+.lipid-products :is(select,input,button,summary,.lipid-diagram-scroll):focus-visible { outline:3px solid var(--copper); outline-offset:3px; }
+.lipid-products [hidden] { display:none!important; }
+@media(max-width:600px) {
+  .lipid-products h3 { font-size:22px; }
+  .lipid-bond-row { grid-template-columns:25px minmax(130px,1fr) 90px; gap:8px; }
+  .lipid-products select { padding:10px 8px; }
+  .lipid-product-figure { padding-inline:0; }
+  .lipid-product-actions { gap:8px; }
+  .lipid-product-actions .button-primary,.lipid-product-actions .button-secondary { flex:1; font-size:13px; }
+  .lipid-diagram-scroll img { min-width:580px; }
+  .lipid-diagram-scroll img[width="1100"] { min-width:950px; }
+  .lipid-diagram-hint { display:block; }
+}
+
+.lipid-products details :is(label,textarea,select){display:block;width:100%;max-width:100%;box-sizing:border-box}.lipid-products details label{margin:.65rem 0}.lipid-products details :is(textarea,select){font:inherit;line-height:1.5;color:#1c2732;background:#fff;border:1px solid #cfd6dc;border-radius:8px;padding:.5rem}.lipid-products details textarea{resize:vertical}.lipid-products [data-product-review]{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;background:#f6f7f8;border-radius:6px;padding:.7rem;max-width:100%}.lipid-products [data-product-save-status]{white-space:pre-wrap;overflow-wrap:anywhere}

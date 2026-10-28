@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">LPH：基因調控、蛋白組裝與催化</title>
+<desc id="desc">MCM6 內 enhancer 調控 LCT；兩條含 I–IV 的前驅物各自加工後，以保留 III、IV 的兩條成熟鏈組成二聚體；IV 區催化乳糖水解。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="560" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">LPH：基因調控、蛋白組裝與催化</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">I–IV 是一條鏈的區段，不是四條蛋白鏈</tspan></text>
+<rect x="30" y="96" width="210" height="66" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="135.0" y="122.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="135.0" dy="0">MCM6 內</tspan><tspan x="135.0" dy="27">enhancer</tspan></text>
+<path d="M255 129L318 129" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="285" y="109" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="285" dy="0">調控</tspan></text>
+<rect x="332" y="96" width="126" height="66" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="395.0" y="136.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="395.0" dy="0">LCT</tspan></text>
+<path d="M473 129L520 129" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="536" y="96" width="154" height="66" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="613.0" y="136.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="613.0" dy="0">LPH 前驅物</tspan></text>
+<rect x="37" y="211" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="68.0" y="239.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="68.0" dy="0">I</tspan></text>
+<rect x="107" y="211" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="138.0" y="239.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="138.0" dy="0">II</tspan></text>
+<rect x="177" y="211" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="208.0" y="239.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="208.0" dy="0">III</tspan></text>
+<rect x="247" y="211" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="278.0" y="239.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="278.0" dy="0">IV</tspan></text>
+<rect x="37" y="272" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="68.0" y="300.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="68.0" dy="0">I</tspan></text>
+<rect x="107" y="272" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="138.0" y="300.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="138.0" dy="0">II</tspan></text>
+<rect x="177" y="272" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="208.0" y="300.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="208.0" dy="0">III</tspan></text>
+<rect x="247" y="272" width="62" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="278.0" y="300.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="278.0" dy="0">IV</tspan></text>
+<text x="173" y="348" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="173" dy="0">兩條前驅物，各自加工</tspan></text>
+<path d="M338 261L393 261" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="420" y="211" width="73" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="456.5" y="239.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="456.5" dy="0">III</tspan></text>
+<rect x="501" y="211" width="73" height="43" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="537.5" y="239.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="537.5" dy="0">IV</tspan></text>
+<path d="M578 233L643 233" fill="none" stroke="#14665d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="420" y="272" width="73" height="43" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="456.5" y="300.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="456.5" dy="0">III</tspan></text>
+<rect x="501" y="272" width="73" height="43" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="537.5" y="300.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="537.5" dy="0">IV</tspan></text>
+<path d="M578 294L643 294" fill="none" stroke="#14665d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="547" y="348" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="547" dy="0">兩條成熟鏈：同源二聚體</tspan></text>
+<path d="M30 371L690 371" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="412" font-size="20" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="30" dy="0">成熟 LPH 的 IV 區</tspan></text>
+<text x="30" y="453" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">乳糖 ＋ H₂O → D-葡萄糖 ＋ β-D-半乳糖（初生）</tspan></text>
+<text x="30" y="520" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">調控變異具有族群與模型範圍；不能單靠基因型判斷個人症狀。</tspan></text>
+<text x="688" y="544" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">接成肽後：重新清點可解離位點</title>
+<desc id="figure-desc">以未封閉 Ala–Lys–Asp 的骨架表示 N 端、C 端、Lys 側鏈胺和 Asp 側鏈羧酸四個可解離位點，肽鍵另列為醯胺。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">接成肽後：重新清點可解離位點</tspan></text>
+<text x="360" y="102" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">未封閉 Ala–Lys–Asp 模型</tspan></text>
+<path d="M 140 250 L 580 250" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="205" cy="250" r="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="205" y="300" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="205" dy="0">Ala</tspan></text>
+<circle cx="360" cy="250" r="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="360" y="300" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">Lys</tspan></text>
+<circle cx="515" cy="250" r="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="545" y="300" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="545" dy="0">Asp</tspan></text>
+<rect x="32" y="219" width="105" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="84.5" y="257.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="84.5" dy="0">N 端</tspan></text>
+<rect x="583" y="219" width="105" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="635.5" y="257.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="635.5" dy="0">C 端</tspan></text>
+<path d="M 360 235 L 360 182" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="260" y="120" width="200" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="157.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Lys 側鏈胺</tspan></text>
+<path d="M 515 265 L 515 338" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="405" y="341" width="220" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="515.0" y="378.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="515.0" dy="0">Asp 側鏈羧酸</tspan></text>
+<text x="235" y="206" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="235" dy="0">肽鍵</tspan></text>
+<text x="439" y="206" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="439" dy="0">肽鍵</tspan></text>
+<text x="360" y="447" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">共 4 位點；醯胺不算自由胺／羧酸。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

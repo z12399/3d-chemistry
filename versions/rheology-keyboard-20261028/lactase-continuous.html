@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>乳糖酶 · 連續分子 3D</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./lactase-molecular.css">
+  <link rel="stylesheet" href="./lactase-reaction-player.css">
+  <style>body{margin:0;background:#f5f2eb;color:#293f42;font-family:system-ui,sans-serif}.lph-standalone{max-width:1080px;margin:0 auto;padding:28px}.lph-standalone>a{color:#2c645a}.lph-standalone h1{font-size:1.5rem;margin:.8rem 0}.lph-standalone>p{line-height:1.7;font-size:.9rem;color:#52695f}@media(max-width:620px){.lph-standalone{padding:16px}}</style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body><main class="lph-standalone">
+  <a href="./?lphview=reaction#learn/enzymes/enzyme-human-lactase/observe">← 回到乳糖酶課程與蛋白質 3D</a>
+  <h1>乳糖酶的作用 · 連續分子 3D</h1>
+  <p>讓同一組原子連續走過乳糖水解；按播放、暫停，或拖曳進度回看。這是分子機構教學示意，催化端基以有限片段類比表示。</p>
+  <div id="lph-continuous-lab"></div>
+  <noscript>請啟用 JavaScript 來操作三維分子。</noscript>
+</main>
+<script type="module">
+  import {mountLactaseCatalyticLab} from './modules/lactase-catalytic-lab.js';
+  const dispose=mountLactaseCatalyticLab(document.getElementById('lph-continuous-lab'));
+  window.addEventListener('pagehide',dispose,{once:true});
+</script></body>
+</html>

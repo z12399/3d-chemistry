@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 515" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">同樣油量，滴變小會增加界面</title>
+<desc id="figure-desc">固定油體積下直徑減半使滴數增加八倍、總界面積增加兩倍；乳化劑需求為總界面積乘指定單位面積吸附量。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="515" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">同樣油量，滴變小會增加界面</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">等大球滴；固定分散油相總體積</tspan></text>
+<rect x="32" y="109" width="260" height="259" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="410" y="109" width="278" height="259" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="162" y="144" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="162" dy="0">直徑 d</tspan></text>
+<text x="549" y="144" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="549" dy="0">直徑 d / 2</tspan></text>
+<circle cx="162" cy="228" r="55" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="443" cy="204" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="443" cy="269" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="508" cy="204" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="508" cy="269" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="573" cy="204" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="573" cy="269" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="638" cy="204" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="638" cy="269" r="27.5" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<path d="M 301 239 L 400 239" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="350" y="211" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="350" dy="0">同油量</tspan></text>
+<text x="162" y="330" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="162" dy="0">滴數 N；面積 A</tspan></text>
+<text x="549" y="330" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="549" dy="0">滴數 8N；面積 2A</tspan></text>
+<rect x="71" y="395" width="578" height="53" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="428.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">乳化劑需求 = Γ × 總界面積</tspan></text>
+<text x="32" y="484" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">預算足夠 ≠ 吸附完成，也不保證乳液穩定。</tspan></text>
+<text x="688" y="497" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

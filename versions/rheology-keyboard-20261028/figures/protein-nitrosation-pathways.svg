@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">脯胺酸到 NPYR：兩條淨路徑</title>
+<desc id="desc">上路先亞硝化得到 NPRO 再脫羧，下路先脫羧得到 pyrrolidine 再亞硝化，兩路都交代水與二氧化碳。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="540" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">脯胺酸到 NPYR：兩條淨路徑</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">這是淨轉換收支，不是食品中唯一的基本機構</tspan></text>
+<rect x="30" y="207" width="135" height="76" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="97.5" y="238.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="97.5" dy="0">Pro</tspan><tspan x="97.5" dy="27">脯胺酸</tspan></text>
+<rect x="286" y="107" width="158" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="365.0" y="146.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="365.0" dy="0">NPRO</tspan></text>
+<rect x="270" y="349" width="190" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="365.0" y="388.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="365.0" dy="0">pyrrolidine</tspan></text>
+<rect x="555" y="207" width="135" height="76" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="622.5" y="252.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="622.5" dy="0">NPYR</tspan></text>
+<path d="M100 197V140H272" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="70" y="96" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="70" dy="0">＋HNO₂</tspan><tspan x="70" dy="25">−H₂O</tspan></text>
+<path d="M458 140H622V192" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="510" y="105" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="510" dy="0">−CO₂</tspan></text>
+<path d="M100 297V381H256" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<text x="150" y="347" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="150" dy="0">−CO₂</tspan></text>
+<path d="M474 381H622V298" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<text x="515" y="427" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="515" dy="0">＋HNO₂</tspan><tspan x="515" dy="25">−H₂O</tspan></text>
+<text x="30" y="477" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">N1 保留在環上；亞硝化加入 N2，脫羧移走羧基 C1。</tspan><tspan x="30" dy="25">兩路可行不等於已知順序、分流比例或食品中的主路徑。</tspan></text>
+<text x="688" y="524" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">配方含量，不等於氣相香氣</title>
+<desc id="figure-desc">香氣分子分配於水相、油相與氣相；氣相送達與感知證據分開，平衡分配也不同於瞬間釋放速率。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">配方含量，不等於氣相香氣</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">香氣分子在不同相之間分配</tspan></text>
+<rect x="32" y="172" width="180" height="158" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122" y="208" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="122" dy="0">水相</tspan></text>
+<circle cx="75" cy="263" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="124" cy="288" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="169" cy="254" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<rect x="270" y="172" width="180" height="158" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="208" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">油相</tspan></text>
+<circle cx="313" cy="263" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="362" cy="288" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="407" cy="254" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<rect x="508" y="172" width="180" height="158" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598" y="208" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="598" dy="0">氣相</tspan></text>
+<circle cx="551" cy="263" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="600" cy="288" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="645" cy="254" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 220 260 L 262 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 262 280 L 220 280" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 458 260 L 500 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 500 280 L 458 280" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 598 162 L 598 116" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="598" y="102" font-size="21" fill="#b4692e" text-anchor="middle"><tspan x="598" dy="0">氣相送達</tspan></text>
+<text x="360" y="376" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">K氣／液 = C氣 / C液</tspan></text>
+<text x="32" y="424" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">氣／液濃度需使用相同單位、相同溫度。</tspan><tspan x="32" dy="25">平衡分配 ≠ 瞬間釋放速率；氣相濃度 ≠ 感知強度。</tspan></text>
+<text x="688" y="462" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

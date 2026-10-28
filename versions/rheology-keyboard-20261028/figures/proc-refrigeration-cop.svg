@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">冷凍機把熱搬到高溫端</title>
+<desc id="figure-desc">冷凍效能係數 COP＝冷凍量 ÷ 輸入功；冷凍機是把低溫端的熱搬到高溫端，所以 COP 可以大於 1，並不違反能量守恆。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">冷凍機把熱搬到高溫端</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">低溫端原有的熱 ＋ 投入的功 ＝ 高溫端排熱</tspan></text>
+<rect x="32" y="150" width="170" height="110" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="117.0" y="198.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="117.0" dy="0">低溫端</tspan><tspan x="117.0" dy="28">移出熱 QL</tspan></text>
+<rect x="278" y="150" width="164" height="110" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="212.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">冷凍機</tspan></text>
+<rect x="518" y="150" width="170" height="110" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="603.0" y="198.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="603.0" dy="0">高溫端</tspan><tspan x="603.0" dy="28">排熱 QH</tspan></text>
+<path d="M 210 205 L 268 205" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 450 205 L 508 205" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="278" y="330" width="164" height="64" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="369.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">輸入功 W</tspan></text>
+<path d="M 360 320 L 360 270" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="125" y="355" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="125" dy="0">COP = QL / W</tspan><tspan x="125" dy="32">可大於 1</tspan></text>
+<text x="573" y="355" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="573" dy="0">QH = QL + W</tspan><tspan x="573" dy="32">熱量仍守恆</tspan></text>
+<text x="32" y="453" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">軸功、電力與全廠能耗，須各自定義邊界。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
