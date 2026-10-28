@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">微生物途徑決定糖的去向</title>
+<desc id="figure-desc">相同糖底物可依微生物代謝途徑形成乳酸，或乙醇與二氧化碳，或多種酸、醇及氣體。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">微生物途徑決定糖的去向</tspan></text>
+<rect x="32" y="218" width="120" height="88" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="92.0" y="269.0" font-size="27" fill="#1c2732" text-anchor="middle"><tspan x="92.0" dy="0">糖</tspan></text>
+<path d="M 160 262 L 193 262" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 198 145 L 198 375" fill="none" stroke="#14665d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 198 145 L 242 145" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="250" y="115" width="180" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="340.0" y="152.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="340.0" dy="0">同型乳酸發酵</tspan></text>
+<path d="M 438 145 L 492 145" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="500" y="115" width="188" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="152.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="594.0" dy="0">乳酸為主</tspan></text>
+<path d="M 198 260 L 242 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="250" y="230" width="180" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="340.0" y="267.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="340.0" dy="0">酒精發酵</tspan></text>
+<path d="M 438 260 L 492 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="500" y="230" width="188" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="267.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="594.0" dy="0">乙醇 ＋ CO₂</tspan></text>
+<path d="M 198 375 L 242 375" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="250" y="345" width="180" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="340.0" y="382.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="340.0" dy="0">異型發酵</tspan></text>
+<path d="M 438 375 L 492 375" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="500" y="337" width="188" height="76" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="368.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="594.0" dy="0">多種酸、醇</tspan><tspan x="594.0" dy="28">與氣體</tspan></text>
+<text x="32" y="449" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">簡化主要產物；食品中仍有副產物與微生物生長。</tspan><tspan x="32" dy="25">不能由這些簡式涵蓋全部風味或安全條件。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

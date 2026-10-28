@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">兩形態等量，不表示各占總量一半</title>
+<desc id="desc">在 pH 等於指定 pKa 時相鄰兩形態等量，其他形態可能仍有；緩衝由平均失去質子數的變化判讀。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="480" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">兩形態等量，不表示各占總量一半</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">順序宏觀解離模型</tspan></text>
+<rect x="30" y="111" width="190" height="94" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125.0" y="151.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="125.0" dy="0">前一形態</tspan><tspan x="125.0" dy="27">αⱼ₋₁</tspan></text>
+<text x="258" y="170" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="258" dy="0">＝</tspan></text>
+<rect x="300" y="111" width="190" height="94" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="395.0" y="151.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="395.0" dy="0">後一形態</tspan><tspan x="395.0" dy="27">αⱼ</tspan></text>
+<rect x="530" y="111" width="160" height="94" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="610.0" y="151.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="610.0" dy="0">其他形態</tspan><tspan x="610.0" dy="27">可能仍存在</tspan></text>
+<text x="260" y="247" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="260" dy="0">條件：pH＝pKaⱼ</tspan></text>
+<path d="M30 278L690 278" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="322" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">緩衝：看 n̄ 隨 pH 改變得多快</tspan></text>
+<text x="30" y="360" font-size="23" fill="#14665d" text-anchor="start"><tspan x="30" dy="0">β胺基酸＝Cₜ × d n̄／d pH</tspan></text>
+<text x="30" y="416" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">pI 只要求平均淨電荷為零，並不是同一個問題。</tspan><tspan x="30" dy="25">平衡分率圖沒有滴定液體積，不能直接換成加鹼量。</tspan></text>
+<text x="688" y="464" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

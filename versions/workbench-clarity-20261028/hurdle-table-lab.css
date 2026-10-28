@@ -1,0 +1,48 @@
+/* pH × aw interaction table workbench. */
+.hurdle-lab { --ht-ink: var(--ink, #1c2732); --ht-muted: var(--muted, #53606d); --ht-line: var(--line, #dfe4e8); --ht-accent: var(--mint, #14665d); color: var(--ht-ink); font-size: 1rem; line-height: 1.7; }
+.ht-head { margin-bottom: 14px; }
+.ht-kicker { margin: 0; color: var(--ht-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.hurdle-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.ht-hint { margin: 0; color: var(--ht-muted); }
+.ht-example { display: grid; gap: 4px; margin-bottom: 14px; font-weight: 600; font-size: .9375rem; }
+.ht-example select { min-height: 44px; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; font-weight: 400; color: inherit; width: 100%; }
+.ht-flow { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-bottom: 16px; }
+.ht-q { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0; padding: 10px 14px; border: 1px solid var(--ht-line); border-radius: 12px; }
+.ht-q legend { float: left; width: 100%; margin-bottom: 6px; padding: 0; font-weight: 600; font-size: .9375rem; }
+.ht-q.ht-muted { opacity: .55; }
+.ht-choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 16px; border: 1px solid #cfd6dc; border-radius: 22px; background: #fff; cursor: pointer; }
+.ht-choice span { white-space: nowrap; }
+.ht-choice:has(input:checked) { border-color: var(--ht-accent); background: var(--tint, #e7f1ee); }
+.ht-choice input { flex: 0 0 18px; width: 18px; height: 18px; margin: 0; }
+.ht-main { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 22px; align-items: start; }
+.ht-sliders { display: grid; gap: 12px; min-width: 0; }
+.ht-sliders label { display: grid; gap: 4px; font-weight: 600; }
+.ht-sliders output { color: var(--ht-accent); font-variant-numeric: tabular-nums; }
+.ht-sliders input[type="range"] { width: 100%; min-height: 32px; }
+.ht-verdict { margin: 4px 0 0; padding: 12px 16px; border-left: 4px solid var(--ht-accent); border-radius: 0 12px 12px 0; background: var(--tint, #e7f1ee); }
+.ht-verdict[data-ht-result="PA"] { border-left-color: #b4692e; background: #fbeee6; }
+.ht-hurdle { margin: 0; padding: 10px 14px; border-radius: 10px; background: #fbf5e2; color: #6f5310; font-weight: 600; font-size: .9375rem; }
+.ht-example-note { margin: 0; color: var(--ht-muted); font-size: .9375rem; }
+.ht-table-wrap { min-width: 0; overflow-x: auto; }
+.ht-grid { width: 100%; border-collapse: separate; border-spacing: 4px; font-size: .9375rem; text-align: center; }
+.ht-grid caption { padding-bottom: 6px; text-align: left; font-weight: 650; }
+.ht-grid th { padding: 6px; color: var(--ht-muted); font-weight: 600; font-size: .875rem; }
+.ht-grid td { padding: 12px 6px; border-radius: 8px; font-weight: 600; }
+.ht-grid td.ht-ntcs { background: #e7f1ee; color: #0e4f48; }
+.ht-grid td.ht-pa { background: #fbeee6; color: #8a4b12; }
+.ht-grid td.ht-here { outline: 3px solid var(--ht-ink); outline-offset: -3px; }
+.ht-limits { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+.ht-limits th, .ht-limits td { padding: 6px 8px; border-top: 1px solid #eef1f3; text-align: left; vertical-align: top; }
+.ht-limits th { font-weight: 500; }
+.hurdle-lab details { padding: 4px 0; border-top: 1px solid var(--ht-line); }
+.hurdle-lab details:first-of-type { margin-top: 18px; }
+.hurdle-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--ht-muted); }
+.hurdle-lab details[open] > summary { color: var(--ht-ink); }
+.hurdle-lab details p, .hurdle-lab details li { font-size: .9375rem; }
+.hurdle-lab a { color: var(--ht-accent); text-decoration: underline; text-underline-offset: 3px; }
+.ht-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 4px 0 14px; }
+.ht-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--ht-accent); border-radius: 10px; background: var(--ht-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.ht-save span { color: var(--ht-muted); font-size: .9375rem; }
+@media (max-width: 860px) { .ht-main { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 480px) { .ht-grid { font-size: .8125rem; border-spacing: 2px; } .ht-grid td { padding: 10px 2px; } .ht-grid th { padding: 4px 2px; font-size: .875rem; } }
+.hurdle-lab sub { font-size: .95em; line-height: 0; vertical-align: -.2em; }

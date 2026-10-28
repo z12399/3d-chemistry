@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">讀值到食品含量：逐步回推</title>
+<desc id="figure-desc">扣空白後以標準訊號比換算分析液濃度，再乘樣品稀釋倍數與萃取體積，最後以試料質量換算每百克含量。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">讀值到食品含量：逐步回推</tspan></text>
+<rect x="32" y="112" width="170" height="91" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="117.0" y="150.5" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="117.0" dy="0">讀值扣空白</tspan><tspan x="117.0" dy="28">A樣−B；A標−B</tspan></text>
+<path d="M 214 157 L 263 157" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="238" y="101" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="238" dy="0">比值 × c標</tspan></text>
+<rect x="276" y="112" width="168" height="91" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="150.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">分析液濃度</tspan><tspan x="360.0" dy="28">c分析</tspan></text>
+<path d="M 456 157 L 505 157" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="480" y="101" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="480" dy="0">× F</tspan></text>
+<rect x="518" y="112" width="170" height="91" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="603.0" y="150.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="603.0" dy="0">萃取液濃度</tspan><tspan x="603.0" dy="28">c分析 × F</tspan></text>
+<path d="M 603 215 L 603 280" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="584" y="251" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="584" dy="0">× 萃取定容 V</tspan></text>
+<rect x="518" y="292" width="170" height="91" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="603.0" y="330.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="603.0" dy="0">原萃取液總量</tspan><tspan x="603.0" dy="28">濃度 × V</tspan></text>
+<path d="M 505 337 L 355 337" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="430" y="315" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="430" dy="0">÷ m ×100</tspan></text>
+<rect x="32" y="292" width="311" height="91" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187.5" y="330.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="187.5" dy="0">食品含量</tspan><tspan x="187.5" dy="28">mg／100 g</tspan></text>
+<text x="32" y="453" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">F：測定前樣品稀釋；V：萃取最後定容。</tspan><tspan x="32" dy="25">樣品與標準相同測定體積已抵消，不再乘一次。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

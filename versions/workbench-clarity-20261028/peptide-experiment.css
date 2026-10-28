@@ -1,0 +1,70 @@
+.peptide-experiment { container-type:inline-size; max-width:1000px; color:#53606d; font-size:16px; line-height:1.6; }
+.peptide-experiment .food-exp-heading { margin:0 0 12px; }
+.peptide-experiment .food-exp-heading h3 { font-size:22px; line-height:1.4; color:#1c2732; }
+.peptide-experiment button,.peptide-experiment select { font:inherit; cursor:pointer; }
+.peptide-experiment button:focus-visible,.peptide-experiment input:focus-visible,.peptide-experiment select:focus-visible { outline:3px solid #14665d; outline-offset:3px; }
+.peptide-toolbar { display:flex; align-items:center; justify-content:space-between; gap:8px 20px; flex-wrap:wrap; margin:0 0 16px; }
+.peptide-toolbar label { display:flex; align-items:center; gap:12px; font-size:16px; }
+.peptide-toolbar select,.peptide-bond-picker select { color:#53606d; border:1px solid #cfd6dc; background:#fff; padding:8px 12px; border-radius:8px; font-size:16px; max-width:100%; min-height:44px; }
+.peptide-toolbar>span { font-size:16px; color:#53606d; }
+.peptide-visual { min-width:0; border:1px solid #dfe4e8; background:radial-gradient(ellipse at 40% 40%,#fdfdf6,#f0f3e7); border-radius:14px; padding:16px; }
+.peptide-scene-head { display:flex; justify-content:space-between; font-size:16px; gap:12px; flex-wrap:wrap; }
+.peptide-scene-head>span+span { font-family:Georgia,serif; font-size:16px; color:#14665d; }
+.peptide-viewer { height:260px; width:100%; position:relative; touch-action:none; }
+.peptide-viewer canvas { display:block; width:100%; height:100%; }
+.peptide-viewer #atom-labels { position:absolute; inset:0; pointer-events:none; overflow:hidden; }
+.peptide-viewer .atom-label { font-size:16px; }
+.peptide-loading { position:absolute; inset:35% 8% auto; font-size:16px; color:#53606d; line-height:1.7; text-align:center; }
+.peptide-camera { display:flex; justify-content:space-between; align-items:center; gap:8px; flex-wrap:wrap; font-size:16px; margin:0 0 10px; }
+.peptide-camera button { border:1px solid #cfd6dc; background:#ffffff60; border-radius:8px; color:#53606d; font-size:16px; padding:7px 10px; min-height:40px; }
+.peptide-fragments { display:flex; flex-wrap:wrap; gap:7px; }
+.peptide-fragments button { border:1px solid #cfd6dc; border-radius:8px; font-size:16px; color:#53606d; padding:7px 10px; min-height:40px; background:#ffffff60; }
+.peptide-fragments button small { font-size:16px; margin-left:7px; color:#53606d; }
+.peptide-fragments button[aria-pressed=true] { background:#e7f1ee; border-color:#14665d; color:#14665d; }
+.peptide-display { border-top:1px solid #dfe4e8; padding-top:10px; margin-top:12px; font-size:16px; }
+.peptide-display summary { cursor:pointer; font-size:16px; }
+.peptide-display label { display:flex; align-items:center; gap:8px; margin:10px 0; }
+.peptide-display input { width:18px; height:18px; flex:0 0 18px; accent-color:#14665d; }
+.peptide-display p { font-size:16px; line-height:1.7; margin:12px 0 0; }
+.peptide-step-caption { display:flex; gap:10px; align-items:baseline; margin:0 0 10px; }
+.peptide-step-caption>span { font:16px Georgia,serif; color:#53606d; }
+.peptide-step-caption h4 { font-size:18px; font-weight:600; color:#14665d; margin:0; }
+.peptide-chain { display:flex; align-items:center; justify-content:space-between; gap:2px; margin:12px 0 8px; }
+.peptide-residue { display:flex; flex-direction:column; align-items:center; gap:2px; min-width:0; }
+.peptide-residue b { font:20px Georgia,serif; color:#14665d; }
+.peptide-residue small { font-size:16px; color:#53606d; }
+.peptide-chain button { border:0; border-bottom:2px solid #cfd6dc; background:none; padding:9px 3px; border-radius:0; font-size:16px; color:#53606d; min-height:42px; }
+.peptide-chain button[aria-pressed=true] { color:#14665d; border-color:#14665d; background:#e7f1ee; }
+.peptide-chain button:disabled { border-color:transparent; opacity:.8; font-size:20px; }
+.peptide-direction { font-size:16px; color:#53606d; line-height:1.6; margin:0 0 12px; }
+.peptide-bond-picker { font-size:16px; margin:12px 0 20px; }
+.peptide-bond-picker summary { cursor:pointer; font-size:16px; }
+.peptide-bond-picker label { display:block; margin:12px 0 6px; }
+.peptide-bond-picker select { width:100%; }
+.peptide-bond-picker p { font-size:16px; line-height:1.7; margin:10px 0; }
+.peptide-selected { font-size:16px; min-height:26px; margin:0 0 10px; line-height:1.6; }
+.peptide-water-choices { padding:0; margin:0; border:0; min-width:0; }
+.peptide-water-choices label { display:flex; align-items:center; gap:8px; font-size:16px; margin:12px 0; }
+.peptide-experiment .peptide-water-choices input[type=radio] { accent-color:#14665d; width:18px; height:18px; flex:0 0 18px; margin:0; padding:0; }
+.peptide-apply { width:100%; border:1px solid #cfd6dc; background:#e9edf0; color:#1c2732; border-radius:7px; margin:10px 0; padding:11px; font-size:16px!important; min-height:46px; }
+.peptide-apply:disabled { opacity:.55; cursor:default; }
+.peptide-feedback { color:#53606d; font-size:16px; line-height:1.7; min-height:54px; margin:8px 0; }
+.peptide-history { display:flex; gap:12px; flex-wrap:wrap; margin-top:10px; }
+.peptide-history button { border:1px solid #cfd6dc; border-radius:8px; padding:8px 10px; min-height:42px; font-size:16px; color:#53606d; background:transparent; }
+.peptide-result { margin:10px 0 0; }
+.peptide-net-equation { font:20px/1.65 'Cambria Math',Georgia,serif; color:#53606d; margin:10px 0; overflow-wrap:anywhere; }
+.peptide-ledger { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:12px 0 0; padding:10px 0; border-top:1px solid #dfe4e8; border-bottom:1px solid #dfe4e8; }
+.peptide-ledger span { font-size:16px; display:block; color:#14665d; }
+.peptide-ledger strong { display:block; font:26px Georgia,serif; color:#14665d; margin-top:4px; }
+.peptide-ledger small { font:16px system-ui,sans-serif; color:#53606d; margin-left:4px; }
+.peptide-note { font-size:16px; color:#53606d; line-height:1.8; margin:12px 0; }
+.peptide-atom-table { width:100%; border-collapse:collapse; font-size:16px; color:#53606d; font-variant-numeric:tabular-nums; }
+.peptide-atom-table caption { text-align:left; margin:15px 0 8px; color:#14665d; }
+.peptide-atom-table td,.peptide-atom-table th { text-align:left; padding:9px; border-bottom:1px solid #dfe4e8; font-weight:400; }
+.peptide-experiment .food-exp-details { margin-top:14px; }
+.peptide-experiment .food-exp-details summary,.peptide-experiment .food-exp-sources { font-size:16px; }
+.peptide-sr { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+.peptide-fragments button:hover,.peptide-apply:not(:disabled):hover { background:#dfe4e8; border-color:#cfd6dc; }
+@container (min-width:680px) { .peptide-layout { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:26px; align-items:start; }.peptide-actions { padding-top:4px; } }
+@container (max-width:679px) { .peptide-actions { margin-top:24px; }.peptide-viewer { height:260px; } }
+@media (max-width:480px) { .peptide-visual { padding:13px 10px; }.peptide-toolbar label { flex-wrap:wrap; gap:7px; }.peptide-ledger { gap:4px; }.peptide-ledger span { line-height:1.5; }.peptide-camera { gap:5px; }.peptide-history { gap:8px; }.peptide-residue b { font-size:18px; }.peptide-chain button { padding:9px 2px; } }

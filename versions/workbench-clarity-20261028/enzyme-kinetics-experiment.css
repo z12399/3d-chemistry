@@ -1,0 +1,58 @@
+.enzyme-experiment { max-width:1140px; container-type:inline-size; color:#53606d; display:grid; grid-template-columns:minmax(0,2.1fr) minmax(0,1fr); grid-template-areas:"heading heading" "toolbar toolbar" "stage controls" "metrics controls" "observation observation" "formula formula" "more more"; gap:16px 24px; font-size:16px; }
+.enzyme-experiment > * { min-width:0; }
+.enzyme-experiment > .food-exp-heading { grid-area:heading; }
+.enzyme-experiment .food-exp-kicker { font-size:16px; margin:0 0 8px; }
+.enzyme-experiment .food-exp-heading h3 { font-size:24px; line-height:1.45; margin:0 0 8px; }
+.enzyme-experiment .food-exp-hint { font-size:16px; line-height:1.65; margin:0; }
+.enzyme-experiment button,.enzyme-experiment input,.enzyme-experiment select { font:inherit; }
+.enzyme-toolbar { grid-area:toolbar; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px 20px; margin:0; font-size:16px; line-height:1.6; color:#53606d; }
+.enzyme-tag { font-size:16px; color:#8d5f40; }
+.enzyme-stage { grid-area:stage; align-self:start; background:#fff; border:1px solid #dfe4e8; border-radius:12px; padding:14px 12px 12px; }
+.enzyme-plot,[data-enzyme-residual-chart] { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+.enzyme-chart { display:block; width:100%; min-width:540px; overflow:visible; }
+.enzyme-chart text { font:22px system-ui,sans-serif; fill:#667562; }
+.enzyme-chart .enzyme-axis-title { font-size:22px; fill:#52694f; }
+.enzyme-grid { stroke:#e5e9dd; stroke-width:1; }
+.enzyme-axis { fill:none; stroke:#aebda7; stroke-width:1; }
+.enzyme-line { fill:none; stroke:#4f7861; stroke-width:2.8; }
+.enzyme-baseline { fill:none; stroke:#9ca592; stroke-width:1.5; stroke-dasharray:6 5; }
+.enzyme-fit-line { fill:none; stroke:#b86b42; stroke-width:3; }
+.enzyme-window { fill:#dce8d3; opacity:.65; }
+.enzyme-point { fill:#bd704c; stroke:#fafaf4; stroke-width:1.6; }
+.enzyme-point.excluded { fill:#c6cbbf; stroke:#fafaf4; }
+.enzyme-residual { fill:none; stroke:#b7c8aa; stroke-width:1.5; }
+.enzyme-chart-caption { font-size:16px; color:#53606d; line-height:1.65; margin:12px 4px 0; }
+.enzyme-controls { grid-area:controls; align-self:start; margin:0; }
+.enzyme-control-grid { display:grid; grid-template-columns:1fr; gap:14px; margin:18px 0 0; }
+.enzyme-range { display:block; color:#53606d; font-size:16px; line-height:1.6; min-width:0; }
+.enzyme-range output { float:right; color:#14665d; font-size:16px; font-variant-numeric:tabular-nums; }
+.enzyme-experiment input[type=range] { width:100%; display:block; margin:5px 0 0; height:32px; accent-color:#14665d; padding:0; }
+.enzyme-window-presets { display:flex; flex-wrap:wrap; gap:8px; }
+.enzyme-window-presets button { flex:1 1 130px; min-height:44px; border:1px solid #cfd6dc; border-radius:8px; padding:9px 12px; font-size:16px; line-height:1.4; color:#53606d; background:transparent; }
+.enzyme-window-presets button:hover,.enzyme-window-presets button[aria-pressed=true] { background:#e7f1ee; border-color:#9fb191; }
+.enzyme-fit-options { display:flex; flex-direction:column; gap:14px; }
+.enzyme-select { display:flex; flex-direction:column; align-items:stretch; gap:7px; font-size:16px; line-height:1.5; color:#53606d; min-width:0; }
+.enzyme-select select { background:#f6f7f8; border:1px solid #cfd6dc; color:#53606d; border-radius:8px; padding:10px 12px; min-height:44px; width:100%; max-width:100%; font-size:16px; }
+.enzyme-binding { border-left:2px solid #cfd6dc; padding:9px 12px; font-size:16px; color:#53606d; line-height:1.65; margin:18px 0 0; }
+.enzyme-metrics { grid-area:metrics; display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; padding:14px 0; border-top:1px solid #dfe4e8; border-bottom:1px solid #dfe4e8; }
+.enzyme-metrics span { display:block; font-size:16px; line-height:1.5; color:#53606d; }
+.enzyme-metrics strong { display:block; font:28px/1.35 Georgia,serif; color:#14665d; margin:5px 0; overflow-wrap:anywhere; }
+.enzyme-metrics small { color:#53606d; font-size:16px; line-height:1.5; overflow-wrap:anywhere; }
+.enzyme-observation { grid-area:observation; font-size:16px; line-height:1.75; color:#53606d; margin:0; max-width:900px; }
+.enzyme-formula { grid-area:formula; margin:0; padding:12px 16px; background:#f6f7f8; border-radius:8px; font-size:16px; line-height:1.75; }
+.enzyme-formula p { margin:5px 0; }
+.enzyme-formula .enzyme-equation { font-size:22px; overflow-wrap:anywhere; }
+.enzyme-more { grid-area:more; }
+.enzyme-details { border-top:1px solid #dfe4e8; padding:0; margin:0; }
+.enzyme-details summary { padding:14px 0; min-height:44px; box-sizing:border-box; font-size:16px; line-height:1.5; color:#14665d; cursor:pointer; }
+.enzyme-details>div { padding:0 0 14px; }
+.enzyme-details p { font-size:16px; line-height:1.8; color:#14665d; margin:9px 0 17px; max-width:900px; }
+.enzyme-details a { font-size:16px; line-height:1.7; color:#14665d; text-decoration:underline; text-underline-offset:3px; overflow-wrap:anywhere; }
+.enzyme-table-wrap { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+.enzyme-details table { width:100%; min-width:540px; border-collapse:collapse; font-size:16px; font-variant-numeric:tabular-nums; }
+.enzyme-details caption { text-align:left; margin:9px 0; font-size:16px; line-height:1.6; color:#53606d; }
+.enzyme-details th,.enzyme-details td { border-bottom:1px solid #dfe4e8; text-align:left; padding:10px 8px; font-weight:400; }
+.enzyme-loading { min-height:180px; display:grid; place-items:center; color:#53606d; font-size:16px; line-height:1.7; }
+.enzyme-experiment :is(button,input,select,summary,[tabindex]):focus-visible { outline:2px solid #14665d; outline-offset:4px; }
+@container (max-width:860px) { .enzyme-experiment > .enzyme-stage,.enzyme-experiment > .enzyme-controls,.enzyme-experiment > .enzyme-metrics { grid-column:1 / -1; }.enzyme-stage { grid-row:3; }.enzyme-controls { grid-row:4; }.enzyme-metrics { grid-row:5; }.enzyme-observation { grid-row:6; }.enzyme-formula { grid-row:7; }.enzyme-more { grid-row:8; }.enzyme-control-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px 24px; }.enzyme-fit-options { flex-direction:row; flex-wrap:wrap; }.enzyme-fit-options > * { flex:1 1 240px; } }
+@container (max-width:480px) { .enzyme-stage { padding:10px 6px; }.enzyme-control-grid { grid-template-columns:1fr; gap:14px; }.enzyme-metrics { gap:10px; }.enzyme-metrics strong { font-size:24px; }.enzyme-formula { padding:12px; }.enzyme-toolbar > * { max-width:100%; }.enzyme-toolbar .enzyme-select { width:100%; } }

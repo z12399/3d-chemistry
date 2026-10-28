@@ -1,0 +1,81 @@
+.microbial-enzyme-lab { --me-ink:#1c2732;--me-muted:#53606d;--me-line:#dfe4e8;--me-before:#a04b2d;--me-after:#286b7d;color:var(--me-ink);font-size:16px;line-height:1.6;width:100%;max-width:1140px;min-width:0;margin:0 auto; }
+.microbial-enzyme-lab *,.microbial-enzyme-lab *::before,.microbial-enzyme-lab *::after { box-sizing:border-box; }
+.microbial-enzyme-lab [hidden] { display:none!important; }
+.microbial-enzyme-lab h2 { font-size:23px;font-weight:550;line-height:1.4;margin:0; }
+.microbial-enzyme-lab h3 { font-size:18px;font-weight:550;line-height:1.5;margin:0 0 8px; }
+.microbial-enzyme-lab p { margin:8px 0 12px; }
+.me-header { display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 18px;margin-bottom:12px; }
+.me-header p { color:var(--me-muted);margin:0; }
+.microbial-enzyme-lab button { color:var(--me-ink);background:#f1f3f5;border:1px solid #cfd6dc;border-radius:8px;min-height:44px;max-width:100%;padding:8px 13px;font:inherit;font-size:16px;line-height:1.5;cursor:pointer; }
+.microbial-enzyme-lab button[aria-pressed="true"] { border-color:#14665d;box-shadow:inset 0 0 0 1px #14665d;background:#e7f1ee;color:#14665d; }
+.microbial-enzyme-lab button:disabled { opacity:.5;cursor:default; }
+.microbial-enzyme-lab button.me-primary { background:#14665d;border-color:#14665d;color:#fff; }
+.microbial-enzyme-lab label { display:block;font-size:16px;color:var(--me-muted);min-width:0; }
+.microbial-enzyme-lab :is(select,textarea) { width:100%;min-width:0;max-width:100%;min-height:44px;margin:5px 0 0;padding:8px 10px;color:var(--me-ink);background:#fff;border:1px solid #cfd6dc;border-radius:8px;font:inherit;font-size:16px; }
+.microbial-enzyme-lab textarea { display:block;resize:vertical;min-height:120px;line-height:1.65; }
+.microbial-enzyme-lab textarea[readonly] { background:#f6f7f8; }
+.me-tabs { display:flex;gap:10px;margin:0 0 16px;border-bottom:1px solid var(--me-line);padding-bottom:12px; }
+.me-tabs button { flex:1; }
+.me-reaction { display:grid;grid-template-columns:minmax(150px,1fr) auto minmax(150px,1fr);gap:16px;align-items:center;text-align:center;background:#fff;border:1px solid var(--me-line);padding:18px;border-radius:5px; }
+.me-reaction-side { display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px; }
+.me-reaction-side strong { display:block;padding:9px 14px;border:1px solid #cfd6dc;background:#f6f7f8;border-radius:5px;font-size:20px;font-weight:500; }
+.me-reaction-arrow { font-size:28px;line-height:1.4; }
+.me-reaction-arrow span { display:block;font-size:16px; }
+.me-producer { margin:10px 0 14px!important;color:var(--me-muted); }
+.me-flow-scroll,.me-chart-scroll,.me-table-scroll { width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain; }
+.me-flow { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;min-width:600px;padding:3px; }
+.me-flow button { position:relative;text-align:left;padding:10px; }
+.me-flow button span { display:block;color:var(--me-muted); }
+.me-flow button:not(:last-child)::after { content:'→';position:absolute;right:-16px;top:32px;color:var(--me-muted); }
+.me-step-reading { border-left:3px solid #cfd6dc;background:#f1f3f5;padding:12px 18px;margin:14px 0; }
+.microbial-enzyme-lab .me-caption { color:var(--me-muted);font-size:16px;line-height:1.6; }
+.me-controls { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:12px;max-width:560px; }
+.me-controls.me-cell-controls { grid-template-columns:minmax(190px,1.5fr) 1fr 1fr;max-width:700px; }
+.me-comparison-grid { display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:20px;align-items:start; }
+.me-plot-column,.me-pair { min-width:0; }
+.me-chart-scroll { border:1px solid var(--me-line);border-radius:5px;background:#fff; }
+.me-chart-scroll svg { display:block;width:100%;min-width:500px;height:auto;aspect-ratio:5/3; }
+.me-chart-scroll svg text { font:16px sans-serif;fill:var(--me-muted); }
+.me-chart-scroll svg .me-point-label { fill:var(--me-ink);font-weight:700; }
+.me-gridline { stroke:#e1e5da;stroke-width:1; }
+.me-axis { stroke:#98a68e;stroke-width:1; }
+.me-dot { fill:#7c8b70;stroke:#fffdf8;stroke-width:1; }
+.me-before { fill:var(--me-before);stroke:var(--me-before); }
+.me-after { fill:var(--me-after);stroke:var(--me-after); }
+.me-ring { fill:none;stroke:#33493c;stroke-width:2; }
+.me-threshold { fill:#fffdf8;stroke-width:2; }
+.me-chart-scroll [data-me-point] { cursor:pointer; }
+.me-chart-scroll [data-me-point]:focus-visible { outline:none; }
+.me-chart-scroll [data-me-point]:focus-visible :is(circle,polygon) { stroke:#172e27;stroke-width:4; }
+.me-legend { display:flex;flex-wrap:wrap;gap:6px 16px;color:var(--me-muted);margin:8px 0; }
+.me-legend span::before { content:'●';margin-right:6px;color:var(--me-before); }
+.me-legend span:nth-child(2)::before { color:var(--me-after); }
+.me-pair { border-left:1px solid var(--me-line);padding-left:18px; }
+.me-values { display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0 4px; }
+.me-values > div { min-width:0; }
+.me-values span,.me-delta span { display:block;color:var(--me-muted); }
+.me-values strong { display:block;font-size:27px;font-weight:500;line-height:1.3;font-variant-numeric:tabular-nums;overflow-wrap:anywhere; }
+.me-values > div:first-child strong { color:var(--me-before); }
+.me-values > div:last-child strong { color:var(--me-after); }
+.me-delta { margin:12px 0; }
+.me-delta strong { display:block;font-size:22px;font-weight:500;line-height:1.4;overflow-wrap:anywhere; }
+.me-unit { color:var(--me-muted);font-size:16px; }
+.me-boundary { border-top:1px solid var(--me-line);padding-top:10px;color:var(--me-muted); }
+.microbial-enzyme-lab details { border-top:1px solid var(--me-line);padding:6px 0;margin:0; }
+.microbial-enzyme-lab summary { min-height:44px;padding:8px 0;cursor:pointer;color:var(--me-muted);font-size:16px; }
+.me-detail-body { padding:8px 0 12px; }
+.me-detail-body article { padding:12px 0;border-bottom:1px solid var(--me-line); }
+.me-detail-body article:last-child { border-bottom:0; }
+.me-raw { font:inherit;font-size:16px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;margin:12px 0; }
+.me-table-scroll table { width:100%;min-width:900px;border-collapse:collapse;font-size:16px;font-variant-numeric:tabular-nums; }
+.me-table-scroll caption { text-align:left;color:var(--me-muted);margin:8px 0; }
+.me-table-scroll th,.me-table-scroll td { text-align:left;padding:10px;border-bottom:1px solid var(--me-line);font-weight:400; }
+.me-table-scroll thead th { color:var(--me-muted);background:#f6f7f8; }
+.me-record-bar,.me-buttons,.me-save { display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:14px 0; }
+.me-record-bar span,.me-save p { color:var(--me-muted); }
+.me-save p { margin:0; }
+.me-save a { margin-left:auto; }
+.microbial-enzyme-lab a { color:#14665d;overflow-wrap:anywhere; }
+.microbial-enzyme-lab :is(button,select,textarea,summary,a,[tabindex]):focus-visible { outline:3px solid #14665d;outline-offset:3px; }
+@media(max-width:1080px) { .me-comparison-grid { grid-template-columns:1fr;gap:12px; } .me-pair { border-left:0;border-top:1px solid var(--me-line);padding:12px 0 0; } .me-values { max-width:480px; } }
+@media(max-width:540px) { .me-tabs { flex-direction:column;gap:8px; } .me-tabs button { padding:8px; } .me-reaction { grid-template-columns:1fr;gap:8px;padding:14px; } .me-reaction-arrow { transform:none; } .me-reaction-arrow::after { content:'↓'; } .me-reaction-arrow b { display:none; } .me-controls,.me-controls.me-cell-controls { grid-template-columns:1fr; } .me-save a { margin-left:0; } .me-flow { min-width:0;grid-template-columns:1fr;gap:12px; } .me-flow button span { display:inline;margin-right:8px; } .me-flow button:not(:last-child)::after { content:'↓';left:26px;right:auto;top:auto;bottom:-18px; } }

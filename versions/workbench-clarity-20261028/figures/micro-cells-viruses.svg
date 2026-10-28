@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">細胞分裂與宿主內製造要分清</title>
+<desc id="figure-desc">上方區分細菌與真菌的細胞類型，下方把病毒複製與組裝放在合適宿主細胞內。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">細胞分裂與宿主內製造要分清</tspan></text>
+<rect x="35" y="100" width="305" height="175" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="380" y="100" width="305" height="175" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="188" y="133" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="188" dy="0">細菌：原核細胞</tspan></text>
+<rect x="65" y="166" width="62" height="44" rx="22" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 141 188 L 196 188" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="213" y="153" width="54" height="35" rx="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="252" y="197" width="54" height="35" rx="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="188" y="255" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="188" dy="0">細胞 → 分裂</tspan></text>
+<text x="532" y="133" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="532" dy="0">真菌：真核細胞</tspan></text>
+<circle cx="467" cy="194" r="34" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="467" cy="194" r="10" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<rect x="532" y="165" width="92" height="58" rx="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="578" cy="194" r="10" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="532" y="255" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="532" dy="0">包含酵母與黴菌</tspan></text>
+<text x="35" y="318" font-size="22" fill="#b4692e" text-anchor="start"><tspan x="35" dy="0">病毒</tspan></text>
+<circle cx="103" cy="379" r="17" fill="#ffffff" stroke="#b4692e" stroke-width="3"/>
+<path d="M 135 379 L 216 379" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="230" y="321" width="270" height="116" rx="28" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="365" y="351" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="365" dy="0">合適宿主細胞內</tspan></text>
+<text x="365" y="394" font-size="22" fill="#14665d" text-anchor="middle"><tspan x="365" dy="0">複製／組裝</tspan></text>
+<path d="M 512 379 L 566 379" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<circle cx="598" cy="359" r="13" fill="#ffffff" stroke="#b4692e" stroke-width="3"/>
+<circle cx="643" cy="380" r="13" fill="#ffffff" stroke="#b4692e" stroke-width="3"/>
+<circle cx="605" cy="408" r="13" fill="#ffffff" stroke="#b4692e" stroke-width="3"/>
+<text x="615" y="443" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="615" dy="0">新病毒粒子</tspan></text>
+<text x="32" y="483" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">驗出病毒核酸，不等於食品中已發生複製。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

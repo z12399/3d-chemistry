@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 505" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">D／L、α／β、椅式：各問一件事</title>
+<desc id="figure-desc">三欄分別以 Fischer 的 C5、異頭羥基與 CH2OH 同異側，以及翻椅前後的軸赤道互換表示三種不同問題。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="505" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">D／L、α／β、椅式：各問一件事</tspan></text>
+<rect x="32" y="105" width="194" height="318" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="263" y="105" width="194" height="318" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="494" y="105" width="194" height="318" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="129" y="140" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="129" dy="0">D／L</tspan></text>
+<text x="129" y="172" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="129" dy="0">Fischer 的 C5</tspan></text>
+<path d="M 129 201 L 129 218" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 129 267 L 129 285" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 92 243 L 109 243" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 149 243 L 166 243" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="129" y="250" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="129" dy="0">C5</tspan></text>
+<text x="72" y="250" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="72" dy="0">H</tspan></text>
+<text x="190" y="250" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">OH</tspan></text>
+<text x="129" y="336" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="129" dy="0">OH 向右：D</tspan><tspan x="129" dy="32">OH 向左：L</tspan></text>
+<text x="360" y="140" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="360" dy="0">α／β</tspan></text>
+<text x="360" y="172" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">C1–OH 對 CH₂OH</tspan></text>
+<path d="M 300 270 L 300 211" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 337 270 L 337 211" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="371" y="244" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="371" dy="0">同側＝β</tspan></text>
+<path d="M 300 323 L 300 382" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 337 382 L 337 323" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="371" y="360" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="371" dy="0">異側＝α</tspan></text>
+<text x="591" y="140" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="591" dy="0">椅式構象</tspan></text>
+<text x="591" y="172" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="591" dy="0">翻椅</tspan></text>
+<rect x="519" y="205" width="144" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="591.0" y="238.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="591.0" dy="0">軸向</tspan></text>
+<path d="M 579 266 L 579 301" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 603 301 L 603 266" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="519" y="310" width="144" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="591.0" y="343.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="591.0" dy="0">赤道向</tspan></text>
+<text x="591" y="397" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="591" dy="0">上／下保留</tspan></text>
+<text x="32" y="467" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">翻椅與換視角都不會改變 D／L 或 α／β。</tspan></text>
+<text x="688" y="487" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

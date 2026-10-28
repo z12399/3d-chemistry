@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">CFU：菌落形成單位，不是細胞數</title>
+<desc id="figure-desc">一個細胞或一團細胞都可能在選定方法下形成一個可見菌落，所以不能一對一換算成細胞數。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">CFU：菌落形成單位，不是細胞數</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">以下箭頭僅示意特定方法與條件下的可能結果</tspan></text>
+<text x="125" y="134" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="125" dy="0">一個細胞</tspan></text>
+<circle cx="125" cy="184" r="16" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<path d="M 175 184 L 315 184" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="237" y="166" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="237" dy="0">可能形成</tspan></text>
+<circle cx="363" cy="184" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<text x="450" y="191" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="450" dy="0">一個可見菌落</tspan></text>
+<text x="125" y="272" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="125" dy="0">一團細胞</tspan></text>
+<circle cx="100" cy="316" r="14" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="125" cy="306" r="14" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="145" cy="324" r="14" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="120" cy="335" r="14" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<path d="M 175 322 L 315 322" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="237" y="303" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="237" dy="0">也可能形成</tspan></text>
+<circle cx="363" cy="322" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<text x="450" y="329" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="450" dy="0">一個可見菌落</tspan></text>
+<rect x="35" y="391" width="650" height="59" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="429" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">CFU 不能一對一換成細胞數</tspan></text>
+<text x="32" y="477" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">某些仍有活性的細胞，在選定方法下不形成菌落。</tspan><tspan x="32" dy="25">未檢出也不代表整批食品絕對為零。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

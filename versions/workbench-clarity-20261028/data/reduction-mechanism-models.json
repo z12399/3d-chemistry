@@ -1,0 +1,5293 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": [
+    {
+      "reactionId": "glucose-sorbitol-reduction",
+      "variantId": "sorbitol",
+      "variantLabel": "葡萄糖 → 山梨糖醇",
+      "title": "葡萄糖 → 山梨糖醇：追蹤轉移氫與原羰基氧",
+      "kind": "atom-mapped teaching mechanism",
+      "isTrajectory": false,
+      "isElementaryStepSequence": false,
+      "intro": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+      "states": [
+        {
+          "id": "glucose-sorbitol-reduction-sorbitol-state-0",
+          "name": "開鏈羰基糖 + BH₄⁻ + 記帳水",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -2.201151,
+                1.435158,
+                1.087239
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -2.018808,
+                0.028957,
+                0.544895
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.563028,
+                -0.448524,
+                0.649326
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.441561,
+                0.428635,
+                -0.126133
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                1.826174,
+                -0.22599,
+                -0.336651
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                2.510875,
+                -0.647327,
+                0.964623
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -2.984824,
+                1.689203,
+                2.000808
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -2.820563,
+                -0.909857,
+                1.283296
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -0.512852,
+                -1.80638,
+                0.148345
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                -0.108433,
+                0.732371,
+                -1.420415
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                1.698217,
+                -1.349271,
+                -1.220182
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                2.612317,
+                0.448177,
+                1.865013
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1",
+              "element": "H",
+              "position": [
+                -1.633516,
+                2.234652,
+                0.583191
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC2",
+              "element": "H",
+              "position": [
+                -2.382027,
+                0.00247,
+                -0.487168
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -0.265042,
+                -0.506586,
+                1.702958
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                0.564162,
+                1.384594,
+                0.394153
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                2.462551,
+                0.499763,
+                -0.857029
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                3.512689,
+                -1.043553,
+                0.763169
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                1.960043,
+                -1.453604,
+                1.459536
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "position": [
+                -3.512689,
+                -0.378296,
+                1.730958
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                -1.310547,
+                -2.234652,
+                0.532566
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                0.167136,
+                -0.009489,
+                -2.000808
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                0.991935,
+                -1.917441,
+                -0.834249
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                3.401538,
+                0.959313,
+                1.609248
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -2.205801,
+                -6.417942,
+                -0.23945
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -2.209141,
+                -6.111924,
+                0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -1.232465,
+                -7.062422,
+                -0.476124
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -2.204061,
+                -5.434652,
+                -0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -3.177535,
+                -7.062776,
+                -0.481675
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                2.209535,
+                -6.371652,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                3.177535,
+                -6.371652,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.967535,
+                -5.434652,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "HC1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[BH4-]",
+            "inchi": "InChI=1S/C6H12O6.BH4.H2O/c7-1-3(9)5(11)6(12)4(10)2-8;;/h1,3-6,8-12H,2H2;1H4;1H2/q;-1;/t3-,4+,5+,6+;;/m0../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.54277,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "glucose-sorbitol-reduction-sorbitol-state-1",
+          "name": "氫轉移／O–B 捕獲後的代表烷氧硼物種",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -2.033367,
+                0.986178,
+                0.668616
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -1.888091,
+                0.885704,
+                -0.861788
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.753264,
+                -0.079892,
+                -1.304405
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.65225,
+                0.369222,
+                -0.816821
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                1.775176,
+                -0.576031,
+                -1.315093
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                3.14599,
+                -0.140474,
+                -0.766902
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -3.177177,
+                1.755742,
+                0.976163
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -3.110601,
+                0.487922,
+                -1.433636
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -0.748224,
+                -0.172799,
+                -2.70817
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                0.912675,
+                1.699641,
+                -1.19601
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                1.501046,
+                -1.888024,
+                -0.8914
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                4.156463,
+                -0.996951,
+                -1.226782
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1",
+              "element": "H",
+              "position": [
+                -2.122541,
+                -0.045308,
+                1.085057
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC2",
+              "element": "H",
+              "position": [
+                -1.660462,
+                1.902416,
+                -1.249686
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -0.959461,
+                -1.084605,
+                -0.86334
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                0.664199,
+                0.324312,
+                0.293084
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                1.809945,
+                -0.533214,
+                -2.429642
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                3.374163,
+                0.906934,
+                -1.068938
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                3.131581,
+                -0.177338,
+                0.34348
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "position": [
+                -3.326075,
+                -0.415366,
+                -1.080822
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                -1.412899,
+                -0.866318,
+                -2.959279
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                0.943644,
+                1.72914,
+                -2.18784
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                1.961805,
+                -2.499974,
+                -1.523057
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                4.314627,
+                -0.763921,
+                -2.178877
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -3.351399,
+                1.840681,
+                2.451047
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -1.122784,
+                1.47736,
+                1.081484
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -4.314627,
+                2.499974,
+                2.687158
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -3.520067,
+                0.755783,
+                2.919556
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -2.407805,
+                2.366475,
+                2.959279
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                -0.363,
+                -6.636974,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                0.605,
+                -6.636974,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                -0.605,
+                -5.699974,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "Bhyd",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.[BH3-]OC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO",
+            "inchi": "InChI=1S/C6H16BO6.H2O/c7-13-2-4(10)6(12)5(11)3(9)1-8;/h3-6,8-12H,1-2H2,7H3;1H2/q-1;/t3-,4+,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 4.375865,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "glucose-sorbitol-reduction-sorbitol-state-2",
+          "name": "山梨糖醇 + 仍含 B–H 的代表硼餘部",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -2.1298,
+                1.281495,
+                1.358816
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -2.237937,
+                0.097755,
+                0.398361
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.902822,
+                -0.627812,
+                0.149291
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.174786,
+                0.262674,
+                -0.508701
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                1.511522,
+                -0.458116,
+                -0.775063
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                2.284126,
+                -0.797686,
+                0.501659
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -3.435513,
+                1.780884,
+                1.650253
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -3.160608,
+                -0.849617,
+                0.983921
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -1.220109,
+                -1.761093,
+                -0.689846
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                -0.331447,
+                0.732199,
+                -1.766929
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                1.271392,
+                -1.682554,
+                -1.49833
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                3.494295,
+                -1.456127,
+                0.120529
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1",
+              "element": "H",
+              "position": [
+                -1.540393,
+                2.09968,
+                0.937647
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC2",
+              "element": "H",
+              "position": [
+                -2.703159,
+                0.412819,
+                -0.542725
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -0.536191,
+                -1.040588,
+                1.095361
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                0.370766,
+                1.146369,
+                0.106642
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                2.1365,
+                0.156554,
+                -1.434288
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                1.726826,
+                -1.491949,
+                1.13678
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                2.533175,
+                0.105047,
+                1.06705
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "position": [
+                -3.075483,
+                -1.644448,
+                0.415871
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                -0.370763,
+                -2.081786,
+                -1.0692
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                -0.486647,
+                -0.067014,
+                -2.309866
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                2.158562,
+                -2.09968,
+                -1.56019
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                3.992726,
+                -1.635814,
+                0.938379
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -0.601599,
+                -6.200886,
+                -0.103635
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -1.683004,
+                0.97403,
+                2.309866
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -0.848522,
+                -6.68357,
+                0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -0.740409,
+                -7.020729,
+                -0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -1.354006,
+                -5.29968,
+                -0.304512
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                0.779996,
+                -5.69184,
+                -0.115243
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                -3.992726,
+                0.98064,
+                1.744465
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.354006,
+                -6.48166,
+                0.055984
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Ow",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "Hw1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO.[BH3-]O",
+            "inchi": "InChI=1S/C6H14O6.BH4O/c7-1-3(9)5(11)6(12)4(10)2-8;1-2/h3-12H,1-2H2;2H,1H3/q;-1/t3-,4+,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 3.450559,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "合併記帳：氫轉移與 O–B 捕獲",
+          "instruction": "由 Bhyd–Hd 鍵提供電子，讓 Hd 加到 C1；一起查看另兩個電子箭頭。",
+          "source": "Bhyd-Hd",
+          "target": "C1",
+          "arrows": [
+            [
+              "Bhyd-Hd",
+              "C1"
+            ],
+            [
+              "C1-O1",
+              "O1"
+            ],
+            [
+              "O1",
+              "Bhyd"
+            ]
+          ],
+          "equation": "官能基記帳：>C=O + BH₄⁻ → >CH–O–BH₃⁻（水在本轉換不變）",
+          "explanation": "Bhyd–Hd 斷開、C1–Hd 形成，C1=O1 變單鍵，原羰基 O1 接 Bhyd。三個箭頭合併氫轉移與 O–B 捕獲；解離、溶劑及質子轉移時序未展開，不能當作已證實的單一步驟或四中心過渡態。葡萄糖 C1 醛基還原為 CH₂OH；原 HC1 與新 Hd 均留在 C1，既有 C2–C5 空間構型保持。",
+          "isComposite": true
+        },
+        {
+          "title": "合併記帳：水交換、質子轉移與糖醇釋放",
+          "instruction": "由水氧 Ow 向 Bhyd 提供電子；一起查看糖氧釋放及 Hw1 轉移的四個箭頭。",
+          "source": "Ow",
+          "target": "Bhyd",
+          "arrows": [
+            [
+              "Ow",
+              "Bhyd"
+            ],
+            [
+              "Bhyd-O1",
+              "O1"
+            ],
+            [
+              "O1",
+              "Hw1"
+            ],
+            [
+              "Ow-Hw1",
+              "Ow"
+            ]
+          ],
+          "equation": "官能基記帳：>CH–O–BH₃⁻ + H₂O → >CH–OH + [BH₃OH]⁻",
+          "explanation": "Bhyd–O1 被 Bhyd–Ow 取代；水的 Hw1 到原羰基 O1，Hw2 留在 Ow。這是水配位置換／質子轉移的合併淨變化，細部時序未建模。[BH₃OH]⁻ 仍有 Hb1/Hb2/Hb3 三個 B–H，代表尚可反應的硼餘部，不是完整後處理終產物，也不宣稱已耗盡全部 NaBH₄。",
+          "isComposite": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+          "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+        },
+        {
+          "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+        },
+        {
+          "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+        },
+        {
+          "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+        }
+      ],
+      "limits": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。葡萄糖 C1 醛基還原為 CH₂OH；原 HC1 與新 Hd 均留在 C1，既有 C2–C5 空間構型保持。",
+      "atomLegend": "C1–C6 與 O1–O6 沿用糖鏈位置；O1 是保留成羥基的原羰基氧。Bhyd 是硼；Hd 從 Bhyd 移到 C1，Hb1/Hb2/Hb3 留在硼上。Ow 是水氧，Hw1 移到 O1，Hw2 留在 Ow；未畫游離 H⁻ 或 BH₃。",
+      "atomMapping": {
+        "carbonylCarbon": "C1",
+        "retainedCarbonylOxygen": "O1",
+        "boron": "Bhyd",
+        "transferredHydrogen": "Hd",
+        "remainingBoronHydrogens": [
+          "Hb1",
+          "Hb2",
+          "Hb3"
+        ],
+        "waterOxygen": "Ow",
+        "transferredWaterHydrogen": "Hw1",
+        "remainingWaterHydrogen": "Hw2",
+        "fixedStereocenters": [
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "newStereocenter": null
+      },
+      "selectedEndpointModels": [
+        "sorbitol"
+      ]
+    },
+    {
+      "reactionId": "fructose-polyol-reduction",
+      "variantId": "sorbitol",
+      "variantLabel": "果糖 → 山梨糖醇（所選進攻面）",
+      "title": "果糖 → 山梨糖醇（所選進攻面）：追蹤轉移氫與原羰基氧",
+      "kind": "atom-mapped teaching mechanism",
+      "isTrajectory": false,
+      "isElementaryStepSequence": false,
+      "intro": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+      "states": [
+        {
+          "id": "fructose-polyol-reduction-sorbitol-state-0",
+          "name": "開鏈羰基糖 + BH₄⁻ + 記帳水",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -0.297019,
+                2.125321,
+                -2.066331
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -0.105063,
+                0.622842,
+                -1.911576
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.662114,
+                -0.032802,
+                -0.641797
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.015995,
+                0.523799,
+                0.614478
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                -0.608377,
+                0.048136,
+                1.937761
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                -0.577186,
+                -1.462328,
+                2.192713
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -0.125791,
+                2.538775,
+                -3.413068
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                0.472953,
+                -0.030062,
+                -2.787825
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -0.492816,
+                -1.44896,
+                -0.72031
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                1.411691,
+                0.18129,
+                0.603511
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                0.140723,
+                0.681102,
+                2.999627
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                -0.995712,
+                -1.68191,
+                3.547864
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                -1.307724,
+                2.399776,
+                -1.75388
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                0.437792,
+                2.647679,
+                -1.448806
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -1.739262,
+                0.163581,
+                -0.615046
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                -0.018824,
+                1.619348,
+                0.606218
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                -1.638132,
+                0.413797,
+                2.023041
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                -1.264286,
+                -2.001919,
+                1.537204
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                0.435001,
+                -1.865974,
+                2.094891
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                0.520156,
+                1.919042,
+                -3.809782
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                0.419364,
+                -1.581878,
+                -1.054325
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                1.739262,
+                0.432502,
+                1.493447
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                -0.14703,
+                0.206582,
+                3.809782
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                -0.996523,
+                -2.647679,
+                3.680029
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -2.205801,
+                -6.830969,
+                -0.23945
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -2.209141,
+                -6.524951,
+                0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -1.232465,
+                -7.475448,
+                -0.476124
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -2.204061,
+                -5.847679,
+                -0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -3.177535,
+                -7.475803,
+                -0.481675
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                2.209535,
+                -6.784679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                3.177535,
+                -6.784679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.967535,
+                -5.847679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 2
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO.[BH4-]",
+            "inchi": "InChI=1S/C6H12O6.BH4.H2O/c7-1-3(9)5(11)6(12)4(10)2-8;;/h3,5-9,11-12H,1-2H2;1H4;1H2/q;-1;/t3-,5-,6-;;/m1../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.54277,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fructose-polyol-reduction-sorbitol-state-1",
+          "name": "氫轉移／O–B 捕獲後的代表烷氧硼物種",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -0.525365,
+                1.163551,
+                -2.943903
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                0.096667,
+                0.217772,
+                -1.900813
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.926193,
+                -0.124992,
+                -0.781324
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                -0.287556,
+                -0.935158,
+                0.382752
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                -1.280073,
+                -1.17346,
+                1.552857
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                -0.608115,
+                -1.950199,
+                2.695911
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -0.860878,
+                2.388606,
+                -2.351799
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                0.510889,
+                -0.976201,
+                -2.548628
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -2.070484,
+                -0.767889,
+                -1.292437
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                0.253039,
+                -2.150421,
+                -0.079457
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                -1.732094,
+                0.058985,
+                2.057223
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                -1.504141,
+                -2.129441,
+                3.759544
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                0.209376,
+                1.343592,
+                -3.759544
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                -1.430987,
+                0.695808,
+                -3.391283
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -1.262619,
+                0.84225,
+                -0.349535
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                0.556406,
+                -0.329709,
+                0.781846
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                -2.139771,
+                -1.785072,
+                1.186703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                -0.243838,
+                -2.94006,
+                2.338263
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                0.270049,
+                -1.380162,
+                3.068156
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                -1.266526,
+                2.94006,
+                -3.070303
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                -1.778771,
+                -1.582243,
+                -1.776398
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                -0.500081,
+                -2.762708,
+                -0.285135
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                -2.600058,
+                0.256694,
+                1.617547
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                -2.137752,
+                -2.84113,
+                3.480461
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                1.969745,
+                -0.969545,
+                -2.850482
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                0.934818,
+                0.770021,
+                -1.40389
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                2.239321,
+                -1.947832,
+                -3.473503
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                2.265893,
+                -0.015496,
+                -3.502922
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                2.600058,
+                -0.984415,
+                -1.837488
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                -0.363,
+                -7.07706,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                0.605,
+                -7.07706,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                -0.605,
+                -6.14006,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "Bhyd",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.[BH3-]O[C@@H](CO)[C@@H](O)[C@H](O)[C@H](O)CO",
+            "inchi": "InChI=1S/C6H16BO6.H2O/c7-13-4(2-9)6(12)5(11)3(10)1-8;/h3-6,8-12H,1-2H2,7H3;1H2/q-1;/t3-,4+,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 3.390991,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fructose-polyol-reduction-sorbitol-state-2",
+          "name": "山梨糖醇 + 仍含 B–H 的代表硼餘部",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -1.353951,
+                -0.266923,
+                -2.587751
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -0.734503,
+                0.340218,
+                -1.32423
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                0.758071,
+                0.014444,
+                -1.195948
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                1.419096,
+                0.593534,
+                0.069633
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                0.822117,
+                0.131592,
+                1.406324
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                0.833281,
+                -1.387765,
+                1.604222
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -2.730183,
+                0.1205,
+                -2.630403
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -0.88336,
+                1.767766,
+                -1.396827
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                1.465759,
+                0.581119,
+                -2.320967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                2.818353,
+                0.229157,
+                0.059022
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                1.603386,
+                0.697871,
+                2.480449
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                0.250721,
+                -1.698913,
+                2.87123
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                -0.878854,
+                0.12025,
+                -3.494429
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                -1.293155,
+                -1.359151,
+                -2.573833
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                0.925809,
+                -1.06653,
+                -1.248717
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                1.416463,
+                1.689826,
+                0.033755
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                -0.195056,
+                0.515083,
+                1.53552
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                0.25224,
+                -1.904851,
+                0.836652
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                1.853065,
+                -1.785291,
+                1.610337
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                -3.112171,
+                -0.286052,
+                -3.429375
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                1.115133,
+                1.492988,
+                -2.410369
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                3.112171,
+                0.380935,
+                -0.863827
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                2.532275,
+                0.644923,
+                2.170842
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                0.629674,
+                -1.045871,
+                3.494429
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -0.601599,
+                -6.006057,
+                -0.103635
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -1.294926,
+                -0.0006,
+                -0.447585
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -0.848522,
+                -6.488741,
+                0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -0.740409,
+                -6.8259,
+                -0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -1.354006,
+                -5.104851,
+                -0.304512
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                0.779996,
+                -5.497011,
+                -0.115243
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                -1.822405,
+                1.904851,
+                -1.645478
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.354006,
+                -6.286831,
+                0.055984
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Ow",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "Hw1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO.[BH3-]O",
+            "inchi": "InChI=1S/C6H14O6.BH4O/c7-1-3(9)5(11)6(12)4(10)2-8;1-2/h3-12H,1-2H2;2H,1H3/q;-1/t3-,4+,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 3.753431,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "合併記帳：氫轉移與 O–B 捕獲",
+          "instruction": "由 Bhyd–Hd 鍵提供電子，讓 Hd 加到 C2；一起查看另兩個電子箭頭。",
+          "source": "Bhyd-Hd",
+          "target": "C2",
+          "arrows": [
+            [
+              "Bhyd-Hd",
+              "C2"
+            ],
+            [
+              "C2-O2",
+              "O2"
+            ],
+            [
+              "O2",
+              "Bhyd"
+            ]
+          ],
+          "equation": "官能基記帳：>C=O + BH₄⁻ → >CH–O–BH₃⁻（水在本轉換不變）",
+          "explanation": "Bhyd–Hd 斷開、C2–Hd 形成，C2=O2 變單鍵，原羰基 O2 接 Bhyd。三個箭頭合併氫轉移與 O–B 捕獲；解離、溶劑及質子轉移時序未展開，不能當作已證實的單一步驟或四中心過渡態。果糖平面 C2 羰基從所選一面接受 Hd，形成與已驗證 D-山梨糖醇一致的新 C2；原 C3–C5 構型保持。兩支是非鏡像異構物，不預測 1:1、主產物或反應面選擇性。",
+          "isComposite": true
+        },
+        {
+          "title": "合併記帳：水交換、質子轉移與糖醇釋放",
+          "instruction": "由水氧 Ow 向 Bhyd 提供電子；一起查看糖氧釋放及 Hw1 轉移的四個箭頭。",
+          "source": "Ow",
+          "target": "Bhyd",
+          "arrows": [
+            [
+              "Ow",
+              "Bhyd"
+            ],
+            [
+              "Bhyd-O2",
+              "O2"
+            ],
+            [
+              "O2",
+              "Hw1"
+            ],
+            [
+              "Ow-Hw1",
+              "Ow"
+            ]
+          ],
+          "equation": "官能基記帳：>CH–O–BH₃⁻ + H₂O → >CH–OH + [BH₃OH]⁻",
+          "explanation": "Bhyd–O2 被 Bhyd–Ow 取代；水的 Hw1 到原羰基 O2，Hw2 留在 Ow。這是水配位置換／質子轉移的合併淨變化，細部時序未建模。[BH₃OH]⁻ 仍有 Hb1/Hb2/Hb3 三個 B–H，代表尚可反應的硼餘部，不是完整後處理終產物，也不宣稱已耗盡全部 NaBH₄。",
+          "isComposite": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+          "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+        },
+        {
+          "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+        },
+        {
+          "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+        },
+        {
+          "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+        }
+      ],
+      "limits": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。果糖平面 C2 羰基從所選一面接受 Hd，形成與已驗證 D-山梨糖醇一致的新 C2；原 C3–C5 構型保持。兩支是非鏡像異構物，不預測 1:1、主產物或反應面選擇性。",
+      "atomLegend": "C1–C6 與 O1–O6 沿用糖鏈位置；O2 是保留成羥基的原羰基氧。Bhyd 是硼；Hd 從 Bhyd 移到 C2，Hb1/Hb2/Hb3 留在硼上。Ow 是水氧，Hw1 移到 O2，Hw2 留在 Ow；未畫游離 H⁻ 或 BH₃。",
+      "atomMapping": {
+        "carbonylCarbon": "C2",
+        "retainedCarbonylOxygen": "O2",
+        "boron": "Bhyd",
+        "transferredHydrogen": "Hd",
+        "remainingBoronHydrogens": [
+          "Hb1",
+          "Hb2",
+          "Hb3"
+        ],
+        "waterOxygen": "Ow",
+        "transferredWaterHydrogen": "Hw1",
+        "remainingWaterHydrogen": "Hw2",
+        "fixedStereocenters": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "newStereocenter": "C2"
+      },
+      "selectedEndpointModels": [
+        "sorbitol"
+      ]
+    },
+    {
+      "reactionId": "fructose-polyol-reduction",
+      "variantId": "mannitol",
+      "variantLabel": "果糖 → 甘露糖醇（另一進攻面）",
+      "title": "果糖 → 甘露糖醇（另一進攻面）：追蹤轉移氫與原羰基氧",
+      "kind": "atom-mapped teaching mechanism",
+      "isTrajectory": false,
+      "isElementaryStepSequence": false,
+      "intro": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+      "states": [
+        {
+          "id": "fructose-polyol-reduction-mannitol-state-0",
+          "name": "開鏈羰基糖 + BH₄⁻ + 記帳水",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                -0.297019,
+                2.125321,
+                -2.066331
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -0.105063,
+                0.622842,
+                -1.911576
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.662114,
+                -0.032802,
+                -0.641797
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.015995,
+                0.523799,
+                0.614478
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                -0.608377,
+                0.048136,
+                1.937761
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                -0.577186,
+                -1.462328,
+                2.192713
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -0.125791,
+                2.538775,
+                -3.413068
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                0.472953,
+                -0.030062,
+                -2.787825
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -0.492816,
+                -1.44896,
+                -0.72031
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                1.411691,
+                0.18129,
+                0.603511
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                0.140723,
+                0.681102,
+                2.999627
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                -0.995712,
+                -1.68191,
+                3.547864
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                -1.307724,
+                2.399776,
+                -1.75388
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                0.437792,
+                2.647679,
+                -1.448806
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -1.739262,
+                0.163581,
+                -0.615046
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                -0.018824,
+                1.619348,
+                0.606218
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                -1.638132,
+                0.413797,
+                2.023041
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                -1.264286,
+                -2.001919,
+                1.537204
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                0.435001,
+                -1.865974,
+                2.094891
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                0.520156,
+                1.919042,
+                -3.809782
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                0.419364,
+                -1.581878,
+                -1.054325
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                1.739262,
+                0.432502,
+                1.493447
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                -0.14703,
+                0.206582,
+                3.809782
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                -0.996523,
+                -2.647679,
+                3.680029
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -2.205801,
+                -6.830969,
+                -0.23945
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -2.209141,
+                -6.524951,
+                0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -1.232465,
+                -7.475448,
+                -0.476124
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -2.204061,
+                -5.847679,
+                -0.911677
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -3.177535,
+                -7.475803,
+                -0.481675
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                2.209535,
+                -6.784679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                3.177535,
+                -6.784679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.967535,
+                -5.847679,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 2
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.O=C(CO)[C@@H](O)[C@H](O)[C@H](O)CO.[BH4-]",
+            "inchi": "InChI=1S/C6H12O6.BH4.H2O/c7-1-3(9)5(11)6(12)4(10)2-8;;/h3,5-9,11-12H,1-2H2;1H4;1H2/q;-1;/t3-,5-,6-;;/m1../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.54277,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fructose-polyol-reduction-mannitol-state-1",
+          "name": "氫轉移／O–B 捕獲後的代表烷氧硼物種",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                0.183833,
+                -0.657208,
+                -2.207754
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                0.094346,
+                0.195484,
+                -0.932102
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                0.604452,
+                -0.607902,
+                0.294828
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                0.503085,
+                0.21116,
+                1.613067
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                0.973602,
+                -0.562885,
+                2.873863
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                0.194096,
+                -1.86938,
+                3.122212
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                -0.264073,
+                0.085367,
+                -3.307769
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -1.266876,
+                0.543327,
+                -0.719137
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                1.919142,
+                -1.065272,
+                0.085403
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                1.252243,
+                1.394638,
+                1.489225
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                2.348227,
+                -0.838003,
+                2.783823
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                -1.189583,
+                -1.641157,
+                3.133287
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                1.237938,
+                -0.967759,
+                -2.383969
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                -0.44392,
+                -1.569865,
+                -2.093176
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -0.051777,
+                -1.499105,
+                0.389855
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                -0.569648,
+                0.477915,
+                1.761729
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                0.795449,
+                0.104599,
+                3.750109
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                0.432355,
+                -2.616345,
+                2.336911
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                0.510971,
+                -2.313262,
+                4.093357
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                -0.197031,
+                -0.517403,
+                -4.093357
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                2.496978,
+                -0.269673,
+                -0.051087
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                0.905131,
+                2.030751,
+                2.168176
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                2.664067,
+                -1.039527,
+                3.703475
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                -1.392883,
+                -1.173115,
+                3.984885
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -1.504315,
+                2.005351,
+                -0.876059
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                0.779639,
+                1.069952,
+                -1.073326
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -2.664067,
+                2.227015,
+                -0.722273
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -0.892933,
+                2.616345,
+                -0.053754
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -1.193846,
+                2.366907,
+                -1.969915
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                -0.363,
+                -6.753345,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                0.605,
+                -6.753345,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                -0.605,
+                -5.816345,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw1",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "Bhyd",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation",
+              "schematic bent water geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "O.[BH3-]O[C@H](CO)[C@@H](O)[C@H](O)[C@H](O)CO",
+            "inchi": "InChI=1S/C6H16BO6.H2O/c7-13-4(2-9)6(12)5(11)3(10)1-8;/h3-6,8-12H,1-2H2,7H3;1H2/q-1;/t3-,4-,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 4.096005,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        },
+        {
+          "id": "fructose-polyol-reduction-mannitol-state-2",
+          "name": "甘露糖醇 + 仍含 B–H 的代表硼餘部",
+          "formula": "C6H18BO7-",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "position": [
+                1.130569,
+                0.994449,
+                -2.304107
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "position": [
+                -0.322998,
+                1.238436,
+                -1.879234
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "position": [
+                -0.7664,
+                0.546055,
+                -0.566991
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "position": [
+                -0.060478,
+                1.072034,
+                0.694729
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "position": [
+                -0.727624,
+                0.605604,
+                2.01236
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C6",
+              "element": "C",
+              "position": [
+                -0.660504,
+                -0.902635,
+                2.294579
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "position": [
+                1.370135,
+                -0.407806,
+                -2.470133
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "position": [
+                -1.159793,
+                0.726045,
+                -2.939612
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "position": [
+                -0.601859,
+                -0.874146,
+                -0.711095
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "position": [
+                1.328869,
+                0.714378,
+                0.696515
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O5",
+              "element": "O",
+              "position": [
+                -0.05858,
+                1.278179,
+                3.09608
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "O6",
+              "element": "O",
+              "position": [
+                0.687203,
+                -1.372546,
+                2.170701
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "position": [
+                1.845847,
+                1.390442,
+                -1.580693
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "position": [
+                1.332375,
+                1.474941,
+                -3.268049
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC3",
+              "element": "H",
+              "position": [
+                -1.845847,
+                0.708227,
+                -0.457521
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC4",
+              "element": "H",
+              "position": [
+                -0.084567,
+                2.168489,
+                0.680038
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC5",
+              "element": "H",
+              "position": [
+                -1.773233,
+                0.930641,
+                2.037805
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6a",
+              "element": "H",
+              "position": [
+                -1.29503,
+                -1.470265,
+                1.609375
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HC6b",
+              "element": "H",
+              "position": [
+                -0.983531,
+                -1.106248,
+                3.321102
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "position": [
+                0.951959,
+                -0.641152,
+                -3.321102
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO3",
+              "element": "H",
+              "position": [
+                0.332855,
+                -1.007633,
+                -0.992023
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO4",
+              "element": "H",
+              "position": [
+                1.380605,
+                -0.20365,
+                1.047848
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO5",
+              "element": "H",
+              "position": [
+                0.888758,
+                1.05831,
+                2.988479
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "HO6",
+              "element": "H",
+              "position": [
+                0.667723,
+                -2.316073,
+                2.417826
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Bhyd",
+              "element": "B",
+              "position": [
+                -0.601599,
+                -6.41728,
+                -0.103635
+              ],
+              "formalCharge": -1,
+              "charge": -1
+            },
+            {
+              "id": "Hd",
+              "element": "H",
+              "position": [
+                -0.506433,
+                2.316073,
+                -1.813125
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb1",
+              "element": "H",
+              "position": [
+                -0.848522,
+                -6.899963,
+                0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb2",
+              "element": "H",
+              "position": [
+                -0.740409,
+                -7.237123,
+                -0.958791
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hb3",
+              "element": "H",
+              "position": [
+                -1.354006,
+                -5.516073,
+                -0.304512
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Ow",
+              "element": "O",
+              "position": [
+                0.779996,
+                -5.908233,
+                -0.115243
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw1",
+              "element": "H",
+              "position": [
+                -1.331731,
+                -0.209557,
+                -2.709119
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "Hw2",
+              "element": "H",
+              "position": [
+                1.354006,
+                -6.698054,
+                0.055984
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "O3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "C6",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "O5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "O6",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "HC3",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "HC4",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "HC5",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6a",
+              "order": 1
+            },
+            {
+              "a": "C6",
+              "b": "HC6b",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O3",
+              "b": "HO3",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "HO4",
+              "order": 1
+            },
+            {
+              "a": "O5",
+              "b": "HO5",
+              "order": 1
+            },
+            {
+              "a": "O6",
+              "b": "HO6",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb1",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb2",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Hb3",
+              "order": 1
+            },
+            {
+              "a": "Ow",
+              "b": "Hw2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "Hd",
+              "order": 1
+            },
+            {
+              "a": "Bhyd",
+              "b": "Ow",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "Hw1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isElementaryStepSequence": false,
+            "geometry": "independent fragment conformers; separated teaching arrangement; angstrom coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 for boron-free sugar fragment; no cross-state energy comparison",
+              "ETKDGv3 + UFF for B-containing fragment; approximate geometry, MMFF unsupported; no reaction-energy interpretation"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[BH3-]O",
+            "inchi": "InChI=1S/C6H14O6.BH4O/c7-1-3(9)5(11)6(12)4(10)2-8;1-2/h3-12H,1-2H2;2H,1H3/q;-1/t3-,4-,5-,6-;/m1./s1",
+            "minimumInterfragmentDistanceAngstrom": 4.396892,
+            "scope": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。",
+            "sources": [
+              {
+                "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+                "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+              },
+              {
+                "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+                "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+              },
+              {
+                "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+                "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+              },
+              {
+                "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+              },
+              {
+                "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "合併記帳：氫轉移與 O–B 捕獲",
+          "instruction": "由 Bhyd–Hd 鍵提供電子，讓 Hd 加到 C2；一起查看另兩個電子箭頭。",
+          "source": "Bhyd-Hd",
+          "target": "C2",
+          "arrows": [
+            [
+              "Bhyd-Hd",
+              "C2"
+            ],
+            [
+              "C2-O2",
+              "O2"
+            ],
+            [
+              "O2",
+              "Bhyd"
+            ]
+          ],
+          "equation": "官能基記帳：>C=O + BH₄⁻ → >CH–O–BH₃⁻（水在本轉換不變）",
+          "explanation": "Bhyd–Hd 斷開、C2–Hd 形成，C2=O2 變單鍵，原羰基 O2 接 Bhyd。三個箭頭合併氫轉移與 O–B 捕獲；解離、溶劑及質子轉移時序未展開，不能當作已證實的單一步驟或四中心過渡態。果糖平面 C2 羰基從另一面接受 Hd，形成與已驗證 D-甘露糖醇一致的新 C2；原 C3–C5 構型保持。兩支是非鏡像異構物，不是外消旋混合物，未預測各支比例。",
+          "isComposite": true
+        },
+        {
+          "title": "合併記帳：水交換、質子轉移與糖醇釋放",
+          "instruction": "由水氧 Ow 向 Bhyd 提供電子；一起查看糖氧釋放及 Hw1 轉移的四個箭頭。",
+          "source": "Ow",
+          "target": "Bhyd",
+          "arrows": [
+            [
+              "Ow",
+              "Bhyd"
+            ],
+            [
+              "Bhyd-O2",
+              "O2"
+            ],
+            [
+              "O2",
+              "Hw1"
+            ],
+            [
+              "Ow-Hw1",
+              "Ow"
+            ]
+          ],
+          "equation": "官能基記帳：>CH–O–BH₃⁻ + H₂O → >CH–OH + [BH₃OH]⁻",
+          "explanation": "Bhyd–O2 被 Bhyd–Ow 取代；水的 Hw1 到原羰基 O2，Hw2 留在 Ow。這是水配位置換／質子轉移的合併淨變化，細部時序未建模。[BH₃OH]⁻ 仍有 Hb1/Hb2/Hb3 三個 B–H，代表尚可反應的硼餘部，不是完整後處理終產物，也不宣稱已耗盡全部 NaBH₄。",
+          "isComposite": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenStax 25.6: reduction of open-chain glucose to D-glucitol (sorbitol)",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "Michigan State University: fructose reduction gives D-glucitol and D-mannitol",
+          "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+        },
+        {
+          "title": "Wigfield and Gowland (1976): experimental evidence against a four-centre borohydride transition state",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S004040390093048X"
+        },
+        {
+          "title": "Ruman et al. (2007): NMR study of hydroxytrihydroborate and its remaining reducing activity",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1387700307002092"
+        },
+        {
+          "title": "Dawber and Green (1986): borate complexes of sorbitol and mannitol studied by 11B NMR",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/1986/f1/f19868203407"
+        }
+      ],
+      "limits": "以 NaBH₄ 還原開鏈羰基的最小教學記帳模型；省略旁觀 Na⁺，全系統電荷為 −1。第一轉換把氫轉移與 O–B 捕獲合併表示，解離、溶劑參與及質子轉移時序未展開；第二轉換把水配位置換與質子轉移合併表示。兩者都不是已解析的 elementary step，也不是已證實的協同四中心過渡態。本資料未直接證明所畫 O–B 物種是未保護糖在溶液中的主要或必經物種。[BH₃OH]⁻ 是仍帶三個 B–H 的代表硼餘部，還可能反應；不是全部 NaBH₄ 消耗後或完整後處理的終產物。只記錄一次羰基接受氫，不代表每分子糖實際消耗一分子 NaBH₄；未展開其他 B–H 的還原或與溶劑的反應。糖與糖醇可有多齒硼絡合，本模型只追蹤一個羰基氧，沒有完整描述溶液物種分布。含硼片段採 UFF 近似幾何；不使用不支援硼的 MMFF 參數。各態為獨立構象，座標補間不是反應軌跡，沒有自由能、速率或產率預測。果糖平面 C2 羰基從另一面接受 Hd，形成與已驗證 D-甘露糖醇一致的新 C2；原 C3–C5 構型保持。兩支是非鏡像異構物，不是外消旋混合物，未預測各支比例。",
+      "atomLegend": "C1–C6 與 O1–O6 沿用糖鏈位置；O2 是保留成羥基的原羰基氧。Bhyd 是硼；Hd 從 Bhyd 移到 C2，Hb1/Hb2/Hb3 留在硼上。Ow 是水氧，Hw1 移到 O2，Hw2 留在 Ow；未畫游離 H⁻ 或 BH₃。",
+      "atomMapping": {
+        "carbonylCarbon": "C2",
+        "retainedCarbonylOxygen": "O2",
+        "boron": "Bhyd",
+        "transferredHydrogen": "Hd",
+        "remainingBoronHydrogens": [
+          "Hb1",
+          "Hb2",
+          "Hb3"
+        ],
+        "waterOxygen": "Ow",
+        "transferredWaterHydrogen": "Hw1",
+        "remainingWaterHydrogen": "Hw2",
+        "fixedStereocenters": [
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "newStereocenter": "C2"
+      },
+      "selectedEndpointModels": [
+        "mannitol"
+      ]
+    }
+  ]
+}

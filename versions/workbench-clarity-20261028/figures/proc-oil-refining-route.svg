@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 485" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">精製路線依脫酸方式分流</title>
+<desc id="figure-desc">化學精製以鹼中和游離脂肪酸成皂再分離；物理精製經適當前處理後以汽提兼脫酸與脫臭，冬化依需求安排。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="485" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">精製路線依脫酸方式分流</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">下圖表示功能，省略輔助操作</tspan></text>
+<text x="32" y="120" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">化學路線</tspan></text>
+<rect x="32" y="142" width="137" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="100.5" y="181.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="100.5" dy="0">前處理</tspan><tspan x="100.5" dy="28">含脫膠</tspan></text>
+<path d="M 180 188 L 206 188" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="218" y="142" width="224" height="92" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="330.0" y="181.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="330.0" dy="0">鹼中和游離脂肪酸</tspan><tspan x="330.0" dy="28">成皂後分離</tspan></text>
+<path d="M 454 188 L 480 188" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="492" y="142" width="196" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="590.0" y="181.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="590.0" dy="0">脫色</tspan><tspan x="590.0" dy="28">再脫臭</tspan></text>
+<text x="32" y="284" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">物理路線</tspan></text>
+<rect x="32" y="305" width="273" height="85" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="168.5" y="340.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="168.5" dy="0">適當前處理</tspan><tspan x="168.5" dy="28">脫膠／脫色</tspan></text>
+<path d="M 321 348 L 386 348" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="404" y="305" width="284" height="85" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="546.0" y="340.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="546.0" dy="0">蒸汽汽提</tspan><tspan x="546.0" dy="28">移除游離脂肪酸兼脫臭</tspan></text>
+<rect x="130" y="421" width="460" height="43" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="449.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">冬化：依低溫澄清需求配置</tspan></text>
+<text x="688" y="467" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

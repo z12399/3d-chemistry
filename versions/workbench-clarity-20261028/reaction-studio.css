@@ -1,0 +1,91 @@
+/* Bounded redesign: only the original glucose mutarotation studio. */
+body[data-reaction-studio] .page-heading { margin-bottom: 18px; }
+body[data-reaction-studio] .page-heading p { font-size: 15px; max-width: 48em; }
+body[data-reaction-studio] .lab-grid { grid-template-columns: minmax(0,1fr) 320px; gap: 22px; }
+body[data-reaction-studio] .viewer-panel { border-radius: 16px; }
+body[data-reaction-studio] .viewer-header { min-height: 58px; padding: 15px 20px; }
+body[data-reaction-studio] .viewer-header h2 { font-size: 18px; line-height: 1.5; }
+body[data-reaction-studio] .viewer-header .formula { font-size: 16px; white-space: nowrap; }
+body[data-reaction-studio] .reaction-guide { grid-template-columns: minmax(0,1fr); padding: 13px 20px 12px; background: #18323d; }
+body[data-reaction-studio] .reaction-guide-progress { font-size: 13px; line-height: 1.6; color: #f1d29e; }
+body[data-reaction-studio] #reaction-guide-pair { font-size: 16px; padding: 0; border: 0; background: transparent; color: #f1f4f0; margin: 4px 0; }
+body[data-reaction-studio] .reaction-guide-arrows { display: block; font-size: 14px; color: #d1e2e1; }
+body[data-reaction-studio] .reaction-guide-note { font-size: 12px; color: #bdcfd3; margin-top: 6px; }
+body[data-reaction-studio] .reaction-current-equation { margin-top: 9px; padding-left: 10px; border-left: 2px solid #d5b889; }
+body[data-reaction-studio] .reaction-current-equation > span { display: block; font-size: 12px; color: #bdcfd3; }
+body[data-reaction-studio] .reaction-current-equation p { color: #eff5f0; font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; }
+body[data-reaction-studio] .reaction-playback { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 12px 18px; background: #102631; border-top: 1px solid #547079; border-bottom: 1px solid #547079; }
+body[data-reaction-studio] .reaction-control-label { font-size: 12px; color: #bfd4d4; width: 100%; }
+body[data-reaction-studio] .reaction-playback-buttons { display: grid; grid-template-columns: auto minmax(150px,1fr) auto; gap: 8px; flex: 1 1 420px; }
+body[data-reaction-studio] .reaction-playback button { min-height: 44px; font-size: 14px; line-height: 1.5; padding: 9px 12px; color: #eff5f0; border-color: #6c858c; background: #203c48; }
+body[data-reaction-studio] .reaction-playback button:hover { background: #2c4d58; }
+body[data-reaction-studio] .reaction-playback button[aria-disabled=true] { opacity: .55; cursor: default; }
+body[data-reaction-studio] .reaction-playback #reaction-guide-next { background: #efcda1; border-color: #efcda1; color: #3e2c1f; font-weight: 700; white-space: normal; }
+body[data-reaction-studio] .reaction-playback #reaction-guide-next:hover { background: #f9deb9; }
+body[data-reaction-studio] .reaction-playback #reaction-demo[aria-pressed=true] { background: #dce9e1; border-color: #dce9e1; color: #203c3b; }
+body[data-reaction-studio] .reaction-playback .reaction-reset { color: #d8e6e4; background: transparent; border-color: #6c858c; }
+body[data-reaction-studio] .viewer-panel #viewer { height: clamp(310px,29vw,420px); }
+body[data-reaction-studio] .reaction-camera-controls { padding: 14px 18px 16px; background: #112632; border-top: 1px solid #45616d; }
+body[data-reaction-studio] .reaction-camera-heading { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; margin-bottom: 9px; }
+body[data-reaction-studio] .reaction-camera-heading > span { font-size: 14px; color: #eff5f0; font-weight: 650; }
+body[data-reaction-studio] .reaction-camera-heading > small { font-size: 12px; color: #bfd1d2; }
+body[data-reaction-studio] .reaction-camera-buttons { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 7px; }
+body[data-reaction-studio] .reaction-camera-buttons button { min-height: 44px; min-width: 0; padding: 9px 5px; font-size: 13px; line-height: 1.5; color: #eff5f0; background: #203c48; border-color: #6c858c; }
+body[data-reaction-studio] .reaction-camera-buttons button:hover { background: #2c4d58; }
+body[data-reaction-studio] .viewer-tools { padding: 12px 18px; gap: 9px 14px; }
+body[data-reaction-studio] .viewer-tools button { min-height: 44px; min-width: 44px; font-size: 13px; padding: 9px 11px; }
+body[data-reaction-studio] .viewer-tools .check { min-height: 44px; font-size: 13px; }
+body[data-reaction-studio] .viewer-tools .check input { width: 18px; height: 18px; }
+body[data-reaction-studio] .viewer-tools .segmented { gap: 2px; }
+body[data-reaction-studio] .viewer-tools .segmented button { min-height: 40px; }
+body[data-reaction-studio] .viewer-caption { font-size: 12px; line-height: 1.7; padding: 12px 18px; color: #bfd1d2; }
+body[data-reaction-studio] .viewer-panel button:focus-visible { outline: 3px solid #f2d39e; outline-offset: 3px; }
+body[data-reaction-studio] .reaction-inspector { padding: 22px; }
+body[data-reaction-studio] .reaction-inspector h2 { color: #203038; font-size: 21px; }
+body[data-reaction-studio] .reaction-task { font-size: 16px; line-height: 1.85; margin-top: 8px; }
+body[data-reaction-studio] .reaction-inspector button, body[data-reaction-studio] .reaction-inspector select { min-height: 44px; font-size: 15px; }
+body[data-reaction-studio] .reaction-inspector label { font-size: 14px; }
+body[data-reaction-studio] .reaction-inspector summary { font-size: 14px; min-height: 36px; padding: 4px 0; }
+body[data-reaction-studio] .reaction-inspector details p { font-size: 14px; line-height: 1.85; }
+body[data-reaction-studio] .reaction-formula p { font-size: 16px; }
+body[data-reaction-studio] .reaction-formula small { font-size: 12px; }
+body[data-reaction-studio] .reaction-advanced-intro { margin: 9px 0 12px; }
+body[data-reaction-studio] .reaction-timeline { padding: 20px; }
+body[data-reaction-studio] .reaction-timeline .section-heading { gap: 9px; flex-wrap: wrap; }
+body[data-reaction-studio] .reaction-timeline .method-badge { color: #58666a; max-width: none; }
+body[data-reaction-studio] .timeline-steps { grid-template-columns: repeat(7,minmax(0,1fr)); }
+body[data-reaction-studio] .timeline-steps button { font-size: 13px; padding: 10px 6px; min-height: 70px; border-color: #c9cabe; color: #58666a; }
+body[data-reaction-studio] .timeline-steps span { color: #58666a; }
+body[data-reaction-studio] .timeline-steps .active { border-color: #b56b50; color: #8b3f2c; background: #f5e7de; }
+body[data-reaction-studio] .timeline-steps .active span { color: #8b3f2c; }
+body[data-reaction-studio] .timeline-note p { font-size: 13px; line-height: 1.85; }
+body[data-reaction-studio] .learning-context-bar { font-size: 14px; padding: 12px 15px; border-radius: 9px; }
+body[data-reaction-studio] .learning-context-bar a { min-height: 44px; display: inline-flex; align-items: center; }
+@media (max-width:1180px) {
+  body[data-reaction-studio] .lab-grid { grid-template-columns: minmax(0,1fr); }
+  body[data-reaction-studio] .main-column { display: contents; }
+  body[data-reaction-studio] .viewer-panel { order: 0; }
+  body[data-reaction-studio] .reaction-inspector { order: 1; }
+  body[data-reaction-studio] .reaction-timeline { order: 2; margin-top: 0; }
+  body[data-reaction-studio] .viewer-panel #viewer { height: 380px; }
+}
+@media (max-width:700px) {
+  body[data-reaction-studio] .page-heading p { font-size: 14px; }
+  body[data-reaction-studio] .viewer-header { padding: 13px 15px; flex-wrap: wrap; gap: 4px 12px; }
+  body[data-reaction-studio] .viewer-header h2 { font-size: 17px; }
+  body[data-reaction-studio] .viewer-header .formula { font-size: 14px; }
+  body[data-reaction-studio] .reaction-guide { padding: 12px 15px; }
+  body[data-reaction-studio] .reaction-playback { padding: 12px; gap: 8px; }
+  body[data-reaction-studio] .reaction-playback-buttons { grid-template-columns: repeat(2,minmax(0,1fr)); flex-basis: 100%; }
+  body[data-reaction-studio] .reaction-playback #reaction-guide-next { grid-column: 1 / -1; grid-row: 1; }
+  body[data-reaction-studio] .reaction-playback .reaction-reset { min-height: 44px; width: 100%; }
+  body[data-reaction-studio] .viewer-panel #viewer { height: 310px; }
+  body[data-reaction-studio] .reaction-camera-controls { padding: 12px; }
+  body[data-reaction-studio] .reaction-camera-buttons { grid-template-columns: repeat(3,minmax(0,1fr)); }
+  body[data-reaction-studio] .viewer-tools { padding: 10px 12px; gap: 7px 10px; }
+  body[data-reaction-studio] .viewer-caption { padding: 11px 13px; }
+  body[data-reaction-studio] .reaction-inspector { padding: 19px; }
+  body[data-reaction-studio] .reaction-timeline { padding: 16px; }
+  body[data-reaction-studio] .timeline-steps { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 7px; }
+  body[data-reaction-studio] .learning-context-bar { align-items: flex-start; flex-direction: column; gap: 2px; }
+}

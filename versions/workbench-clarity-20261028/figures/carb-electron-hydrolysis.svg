@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 475" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">糖苷水解：兩個氧各有去向</title>
+<desc id="figure-desc">酸催化支路中切斷 A-C1 與 BO4，橋氧留在 B 糖；水氧 Ow 接到 A 糖異頭碳，之後去質子並再生酸。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="475" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">糖苷水解：兩個氧各有去向</tspan></text>
+<rect x="32" y="112" width="190" height="175" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="127.0" y="178.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="127.0" dy="0">糖苷鍵起態</tspan><tspan x="127.0" dy="28">A-C1–BO4–B-C4</tspan><tspan x="127.0" dy="28">水氧 Ow 尚未接糖</tspan></text>
+<rect x="265" y="112" width="190" height="175" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="164.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">橋氧先質子化</tspan><tspan x="360.0" dy="28">斷 A-C1–BO4</tspan><tspan x="360.0" dy="28">A：氧碳正離子</tspan><tspan x="360.0" dy="28">B：C4–BO4H</tspan></text>
+<rect x="500" y="112" width="188" height="175" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="164.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="594.0" dy="0">水進攻、去質子</tspan><tspan x="594.0" dy="28">A：C1–OwH</tspan><tspan x="594.0" dy="28">B：C4–BO4H</tspan><tspan x="594.0" dy="28">酸再生</tspan></text>
+<path d="M 226 200 L 257 200" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 459 200 L 492 200" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="32" y="325" width="310" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187.0" y="362.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="187.0" dy="0">BO4 → 留在 B 糖</tspan></text>
+<rect x="378" y="325" width="310" height="60" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="533.0" y="362.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="533.0" dy="0">Ow → A 糖新異頭羥基</tspan></text>
+<text x="32" y="420" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">麥芽糖＋水 ⇌ 兩個葡萄糖</tspan><tspan x="32" dy="25">氧去向限本條映射支路，不延伸至後續交換。</tspan></text>
+<text x="688" y="457" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

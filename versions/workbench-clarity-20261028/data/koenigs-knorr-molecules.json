@@ -1,0 +1,1801 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "acetobromoglucose-alpha",
+      "name": "α-2,3,4,6-四乙醯-D-吡喃葡萄糖基溴化物",
+      "formula": "C14H19BrO9",
+      "atoms": [
+        {
+          "id": "Ac6Me",
+          "element": "C",
+          "position": [
+            -5.815747,
+            1.928646,
+            -0.470397
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac6C",
+          "element": "C",
+          "position": [
+            -4.937307,
+            0.89074,
+            0.157365
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac6O",
+          "element": "O",
+          "position": [
+            -5.328353,
+            0.023192,
+            0.925174
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            -3.652692,
+            1.05299,
+            -0.257864
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -2.723866,
+            0.116867,
+            0.319049
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -1.31492,
+            0.431854,
+            -0.211348
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            -0.318226,
+            -0.662279,
+            0.203413
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            1.113976,
+            -0.265534,
+            -0.204863
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            1.453886,
+            1.147208,
+            0.292313
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            0.366765,
+            2.155754,
+            -0.091829
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            -0.932736,
+            1.717698,
+            0.298823
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Br1",
+          "element": "Br",
+          "position": [
+            0.413679,
+            2.624199,
+            -1.994061
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            2.764366,
+            1.507267,
+            -0.205784
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2C",
+          "element": "C",
+          "position": [
+            3.378443,
+            2.535176,
+            0.437893
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2O",
+          "element": "O",
+          "position": [
+            2.897349,
+            3.163752,
+            1.368545
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2Me",
+          "element": "C",
+          "position": [
+            4.724231,
+            2.794444,
+            -0.164305
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            2.073343,
+            -1.157214,
+            0.426204
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3C",
+          "element": "C",
+          "position": [
+            2.512582,
+            -2.217598,
+            -0.300966
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3O",
+          "element": "O",
+          "position": [
+            2.152068,
+            -2.498262,
+            -1.434841
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3Me",
+          "element": "C",
+          "position": [
+            3.499742,
+            -3.012757,
+            0.49646
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            -0.71048,
+            -1.878447,
+            -0.473669
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4C",
+          "element": "C",
+          "position": [
+            -0.540816,
+            -3.0474,
+            0.200367
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4O",
+          "element": "O",
+          "position": [
+            -0.08826,
+            -3.151365,
+            1.330862
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4Me",
+          "element": "C",
+          "position": [
+            -0.987025,
+            -4.198931,
+            -0.646539
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_Ac6Mea",
+          "element": "H",
+          "position": [
+            -5.805913,
+            1.814269,
+            -1.557174
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_Ac6Meb",
+          "element": "H",
+          "position": [
+            -5.473081,
+            2.926386,
+            -0.18483
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_Ac6Mec",
+          "element": "H",
+          "position": [
+            -6.841731,
+            1.798463,
+            -0.114406
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_C6a",
+          "element": "H",
+          "position": [
+            -3.028797,
+            -0.896999,
+            0.037361
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C6b",
+          "element": "H",
+          "position": [
+            -2.746148,
+            0.225871,
+            1.410146
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            -1.387554,
+            0.486795,
+            -1.304502
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            -0.360077,
+            -0.793207,
+            1.293032
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_C3",
+          "element": "H",
+          "position": [
+            1.238864,
+            -0.316394,
+            -1.293605
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C2",
+          "element": "H",
+          "position": [
+            1.5099,
+            1.088051,
+            1.389378
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_C1",
+          "element": "H",
+          "position": [
+            0.545048,
+            3.116484,
+            0.39921
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_Ac2Mea",
+          "element": "H",
+          "position": [
+            5.214892,
+            3.605682,
+            0.380997
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac2Meb",
+          "element": "H",
+          "position": [
+            5.344541,
+            1.898104,
+            -0.085424
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac2Mec",
+          "element": "H",
+          "position": [
+            4.610543,
+            3.093631,
+            -1.209192
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac3Mea",
+          "element": "H",
+          "position": [
+            3.86289,
+            -3.849393,
+            -0.107202
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac3Meb",
+          "element": "H",
+          "position": [
+            4.351694,
+            -2.383278,
+            0.765495
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac3Mec",
+          "element": "H",
+          "position": [
+            3.017201,
+            -3.411546,
+            1.392163
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac4Mea",
+          "element": "H",
+          "position": [
+            -0.39317,
+            -4.237424,
+            -1.563107
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        },
+        {
+          "id": "H_Ac4Meb",
+          "element": "H",
+          "position": [
+            -2.049747,
+            -4.096796,
+            -0.879942
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        },
+        {
+          "id": "H_Ac4Mec",
+          "element": "H",
+          "position": [
+            -0.838543,
+            -5.132232,
+            -0.095973
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "Ac6Me",
+          "b": "Ac6C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6C",
+          "b": "Ac6O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac6C",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C2",
+          "b": "C1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C1",
+          "b": "O5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C1",
+          "b": "Br1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "Ac2C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2C",
+          "b": "Ac2O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac2C",
+          "b": "Ac2Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "Ac3C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3C",
+          "b": "Ac3O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac3C",
+          "b": "Ac3Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "Ac4C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4C",
+          "b": "Ac4O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac4C",
+          "b": "Ac4Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Mec",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/101776",
+        "sourceDownload": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/101776/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,IUPACName,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "pubchemCid": 101776,
+        "sourceCache": "source/pubchem-koenigs-acetobromoglucose-alpha.json",
+        "sourceCacheSha256": "a83de251c595a9794de99fd3d9dacc91eefb623e57474917547c91de3ea2d227",
+        "sourceCheckedOn": "2026-09-24",
+        "sourceSmiles": "CC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)Br)OC(=O)C)OC(=O)C)OC(=O)C",
+        "sourceInchi": "InChI=1S/C14H19BrO9/c1-6(16)20-5-10-11(21-7(2)17)12(22-8(3)18)13(14(15)24-10)23-9(4)19/h10-14H,5H2,1-4H3/t10-,11-,12+,13-,14+/m1/s1",
+        "sourceInchiKey": "CYAYKKUWALRRPA-RGDJUOJXSA-N",
+        "inchi": "InChI=1S/C14H19BrO9/c1-6(16)20-5-10-11(21-7(2)17)12(22-8(3)18)13(14(15)24-10)23-9(4)19/h10-14H,5H2,1-4H3/t10-,11-,12+,13-,14+/m1/s1",
+        "smiles": "CC(=O)OC[C@H]1O[C@H](Br)[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@@H]1OC(C)=O",
+        "atomRoleMap": {
+          "role": "donor",
+          "sugarPositions": {
+            "C1": "C1",
+            "C2": "C2",
+            "C3": "C3",
+            "C4": "C4",
+            "C5": "C5",
+            "C6": "C6",
+            "O2": "O2",
+            "O3": "O3",
+            "O4": "O4",
+            "O5": "O5",
+            "O6": "O6"
+          },
+          "acetylGroups": {
+            "2": {
+              "sugarO": "O2",
+              "carbonylC": "Ac2C",
+              "carbonylO": "Ac2O",
+              "methylC": "Ac2Me"
+            },
+            "3": {
+              "sugarO": "O3",
+              "carbonylC": "Ac3C",
+              "carbonylO": "Ac3O",
+              "methylC": "Ac3Me"
+            },
+            "4": {
+              "sugarO": "O4",
+              "carbonylC": "Ac4C",
+              "carbonylO": "Ac4O",
+              "methylC": "Ac4Me"
+            },
+            "6": {
+              "sugarO": "O6",
+              "carbonylC": "Ac6C",
+              "carbonylO": "Ac6O",
+              "methylC": "Ac6Me"
+            }
+          },
+          "anomericBond": [
+            "C1",
+            "Br1"
+          ],
+          "c2AcetylCarbonylO": "Ac2O",
+          "anomer": "alpha",
+          "anomerFrom3D": "alpha",
+          "c1SubstituentVersusC2OAc": "cis"
+        },
+        "atomNamingNote": "Sugar and acetyl position names were assigned by topology. Shared local labels across separate molecules aid comparison; they are not experimental atom tracing.",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated neutral computed endpoint; not a measured solution conformation, charged neighboring-group intermediate, reaction trajectory, stereoselectivity or isolated yield.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": 9.751836288441398
+      }
+    },
+    {
+      "id": "methanol-koenigs",
+      "name": "甲醇",
+      "formula": "CH4O",
+      "atoms": [
+        {
+          "id": "Cm",
+          "element": "C",
+          "position": [
+            -0.707867,
+            0.0,
+            -0.0
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            0.707867,
+            0.0,
+            -0.0
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_Cma",
+          "element": "H",
+          "position": [
+            -1.073133,
+            -0.541679,
+            -0.875947
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_Cmb",
+          "element": "H",
+          "position": [
+            -1.063228,
+            1.032403,
+            -0.038515
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_Cmc",
+          "element": "H",
+          "position": [
+            -1.073136,
+            -0.474909,
+            0.913871
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_O1",
+          "element": "H",
+          "position": [
+            0.993627,
+            -0.928765,
+            0.034646
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O1"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "Cm",
+          "b": "O1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cma",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cmb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cmc",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "H_O1",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/887",
+        "sourceDownload": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/887/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,IUPACName,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "pubchemCid": 887,
+        "sourceCache": "source/pubchem-koenigs-methanol.json",
+        "sourceCacheSha256": "e24c773b50c26980a94692b097461f99165e0a45650ec59a9071bf82293e6dbf",
+        "sourceCheckedOn": "2026-09-24",
+        "sourceSmiles": "CO",
+        "sourceInchi": "InChI=1S/CH4O/c1-2/h2H,1H3",
+        "sourceInchiKey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/CH4O/c1-2/h2H,1H3",
+        "smiles": "CO",
+        "atomRoleMap": {
+          "role": "acceptor",
+          "methanolOC": [
+            "O1",
+            "Cm"
+          ]
+        },
+        "atomNamingNote": "Sugar and acetyl position names were assigned by topology. Shared local labels across separate molecules aid comparison; they are not experimental atom tracing.",
+        "method": "RDKit ETKDGv3 4 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated neutral computed endpoint; not a measured solution conformation, charged neighboring-group intermediate, reaction trajectory, stereoselectivity or isolated yield.",
+        "candidateConformers": 1,
+        "convergedConformers": 1,
+        "selectedMmff94EnergyKcalMol": 0.6657707215183515
+      }
+    },
+    {
+      "id": "methyl-tetraacetyl-glucoside-beta",
+      "name": "甲基 2,3,4,6-四乙醯-β-D-吡喃葡萄糖苷",
+      "formula": "C15H22O10",
+      "atoms": [
+        {
+          "id": "Ac6Me",
+          "element": "C",
+          "position": [
+            -5.241153,
+            -0.628064,
+            -1.679498
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac6C",
+          "element": "C",
+          "position": [
+            -4.325508,
+            -0.305596,
+            -0.539028
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac6O",
+          "element": "O",
+          "position": [
+            -4.658879,
+            0.309588,
+            0.463725
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            -3.082035,
+            -0.795313,
+            -0.78866
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -2.11895,
+            -0.519643,
+            0.245441
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -0.754826,
+            -1.088937,
+            -0.181965
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            0.29099,
+            -1.043427,
+            0.949909
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            0.92771,
+            0.34792,
+            1.099636
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            1.405619,
+            0.90328,
+            -0.255292
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            0.293269,
+            0.797991,
+            -1.320992
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            -0.256219,
+            -0.518906,
+            -1.404741
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -0.710442,
+            1.782203,
+            -1.075265
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Cm",
+          "element": "C",
+          "position": [
+            -1.499621,
+            2.03518,
+            -2.231256
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            2.581702,
+            0.153461,
+            -0.650349
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2C",
+          "element": "C",
+          "position": [
+            3.358061,
+            0.724767,
+            -1.608083
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2O",
+          "element": "O",
+          "position": [
+            3.122035,
+            1.784388,
+            -2.168891
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac2Me",
+          "element": "C",
+          "position": [
+            4.54634,
+            -0.141481,
+            -1.890672
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            -0.042431,
+            1.214331,
+            1.726113
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3C",
+          "element": "C",
+          "position": [
+            0.450991,
+            2.332661,
+            2.323113
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3O",
+          "element": "O",
+          "position": [
+            1.635272,
+            2.623678,
+            2.4
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac3Me",
+          "element": "C",
+          "position": [
+            -0.669598,
+            3.157643,
+            2.875821
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            1.354119,
+            -1.989121,
+            0.66978
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4C",
+          "element": "C",
+          "position": [
+            1.088086,
+            -3.288605,
+            0.969267
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4O",
+          "element": "O",
+          "position": [
+            0.041971,
+            -3.699383,
+            1.449691
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "Ac4Me",
+          "element": "C",
+          "position": [
+            2.263499,
+            -4.148614,
+            0.622199
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_Ac6Mea",
+          "element": "H",
+          "position": [
+            -6.237954,
+            -0.230901,
+            -1.467486
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_Ac6Meb",
+          "element": "H",
+          "position": [
+            -5.316327,
+            -1.711673,
+            -1.799767
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_Ac6Mec",
+          "element": "H",
+          "position": [
+            -4.868714,
+            -0.163404,
+            -2.595939
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac6Me"
+        },
+        {
+          "id": "H_C6a",
+          "element": "H",
+          "position": [
+            -2.087692,
+            0.557426,
+            0.419149
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C6b",
+          "element": "H",
+          "position": [
+            -2.449159,
+            -1.016654,
+            1.165623
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            -0.935194,
+            -2.136528,
+            -0.451033
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            -0.178524,
+            -1.314644,
+            1.904979
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_C3",
+          "element": "H",
+          "position": [
+            1.794241,
+            0.237952,
+            1.766993
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C2",
+          "element": "H",
+          "position": [
+            1.681899,
+            1.957602,
+            -0.129638
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_C1",
+          "element": "H",
+          "position": [
+            0.73334,
+            0.993666,
+            -2.304676
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_Cma",
+          "element": "H",
+          "position": [
+            -2.285505,
+            2.744941,
+            -1.959375
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_Cmb",
+          "element": "H",
+          "position": [
+            -1.970573,
+            1.117794,
+            -2.595856
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_Cmc",
+          "element": "H",
+          "position": [
+            -0.886651,
+            2.482269,
+            -3.019762
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Cm"
+        },
+        {
+          "id": "H_Ac2Mea",
+          "element": "H",
+          "position": [
+            4.215398,
+            -1.111167,
+            -2.270863
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac2Meb",
+          "element": "H",
+          "position": [
+            5.138758,
+            -0.266416,
+            -0.980801
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac2Mec",
+          "element": "H",
+          "position": [
+            5.171571,
+            0.337211,
+            -2.649734
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac2Me"
+        },
+        {
+          "id": "H_Ac3Mea",
+          "element": "H",
+          "position": [
+            -1.209572,
+            2.587411,
+            3.635742
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac3Meb",
+          "element": "H",
+          "position": [
+            -0.2608,
+            4.059639,
+            3.33999
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac3Mec",
+          "element": "H",
+          "position": [
+            -1.342422,
+            3.456246,
+            2.067899
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac3Me"
+        },
+        {
+          "id": "H_Ac4Mea",
+          "element": "H",
+          "position": [
+            2.469743,
+            -4.078984,
+            -0.4488
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        },
+        {
+          "id": "H_Ac4Meb",
+          "element": "H",
+          "position": [
+            2.035371,
+            -5.189968,
+            0.866637
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        },
+        {
+          "id": "H_Ac4Mec",
+          "element": "H",
+          "position": [
+            3.135035,
+            -3.836927,
+            1.203229
+          ],
+          "formalCharge": 0,
+          "attachedTo": "Ac4Me"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "Ac6Me",
+          "b": "Ac6C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6C",
+          "b": "Ac6O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac6C",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C2",
+          "b": "C1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C1",
+          "b": "O5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C1",
+          "b": "O1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "Cm",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "Ac2C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2C",
+          "b": "Ac2O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac2C",
+          "b": "Ac2Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "Ac3C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3C",
+          "b": "Ac3O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac3C",
+          "b": "Ac3Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "Ac4C",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4C",
+          "b": "Ac4O",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "Ac4C",
+          "b": "Ac4Me",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac6Me",
+          "b": "H_Ac6Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cma",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cmb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Cm",
+          "b": "H_Cmc",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac2Me",
+          "b": "H_Ac2Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac3Me",
+          "b": "H_Ac3Mec",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Mea",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Meb",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "Ac4Me",
+          "b": "H_Ac4Mec",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/2728821",
+        "sourceDownload": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2728821/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,IUPACName,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "pubchemCid": 2728821,
+        "sourceCache": "source/pubchem-koenigs-methyl-tetraacetyl-glucoside-beta.json",
+        "sourceCacheSha256": "b013d40bb4d1e74760036e060bbb31ac3cd5d0b424dc3b412779c010df662d93",
+        "sourceCheckedOn": "2026-09-24",
+        "sourceSmiles": "CC(=O)OC[C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)OC)OC(=O)C)OC(=O)C)OC(=O)C",
+        "sourceInchi": "InChI=1S/C15H22O10/c1-7(16)21-6-11-12(22-8(2)17)13(23-9(3)18)14(24-10(4)19)15(20-5)25-11/h11-15H,6H2,1-5H3/t11-,12-,13+,14-,15-/m1/s1",
+        "sourceInchiKey": "UYWUMFGDPBMNCA-UXXRCYHCSA-N",
+        "inchi": "InChI=1S/C15H22O10/c1-7(16)21-6-11-12(22-8(2)17)13(23-9(3)18)14(24-10(4)19)15(20-5)25-11/h11-15H,6H2,1-5H3/t11-,12-,13+,14-,15-/m1/s1",
+        "smiles": "CO[C@@H]1O[C@H](COC(C)=O)[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@H]1OC(C)=O",
+        "atomRoleMap": {
+          "role": "product",
+          "sugarPositions": {
+            "C1": "C1",
+            "C2": "C2",
+            "C3": "C3",
+            "C4": "C4",
+            "C5": "C5",
+            "C6": "C6",
+            "O2": "O2",
+            "O3": "O3",
+            "O4": "O4",
+            "O5": "O5",
+            "O6": "O6"
+          },
+          "acetylGroups": {
+            "2": {
+              "sugarO": "O2",
+              "carbonylC": "Ac2C",
+              "carbonylO": "Ac2O",
+              "methylC": "Ac2Me"
+            },
+            "3": {
+              "sugarO": "O3",
+              "carbonylC": "Ac3C",
+              "carbonylO": "Ac3O",
+              "methylC": "Ac3Me"
+            },
+            "4": {
+              "sugarO": "O4",
+              "carbonylC": "Ac4C",
+              "carbonylO": "Ac4O",
+              "methylC": "Ac4Me"
+            },
+            "6": {
+              "sugarO": "O6",
+              "carbonylC": "Ac6C",
+              "carbonylO": "Ac6O",
+              "methylC": "Ac6Me"
+            }
+          },
+          "anomericBond": [
+            "C1",
+            "O1",
+            "Cm"
+          ],
+          "methanolDerivedOC": [
+            "O1",
+            "Cm"
+          ],
+          "anomer": "beta",
+          "anomerFrom3D": "beta",
+          "c1SubstituentVersusC2OAc": "trans"
+        },
+        "atomNamingNote": "Sugar and acetyl position names were assigned by topology. Shared local labels across separate molecules aid comparison; they are not experimental atom tracing.",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated neutral computed endpoint; not a measured solution conformation, charged neighboring-group intermediate, reaction trajectory, stereoselectivity or isolated yield.",
+        "candidateConformers": 11,
+        "convergedConformers": 11,
+        "selectedMmff94EnergyKcalMol": 8.106068660140831
+      }
+    }
+  ]
+}
