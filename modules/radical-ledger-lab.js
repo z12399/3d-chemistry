@@ -100,7 +100,7 @@ export function mountRadicalLedgerLab(container, id = RADICAL_LEDGER_ID, options
   let disposed = false;
 
   container.innerHTML = `<section class="radical-lab" data-rl-lab="${esc(id)}" aria-labelledby="${prefix}-title">
-    <header class="rl-head"><p class="rl-kicker">動手記帳</p><h3 id="${prefix}-title">鐵、生育醇、抗壞血酸棕櫚酸酯，各在哪一步作用？</h3><p class="rl-hint">選起始添加物，再自己一步步執行反應，看每個物種的數量怎麼變。</p></header>
+    <header class="rl-head"><p class="rl-kicker">動手記帳</p><h3 id="${prefix}-title">鐵、生育醇、抗壞血酸棕櫚酸酯，各在哪一步作用？</h3><p class="rl-hint">選起始添加物，再自己一步步執行反應，看每個物種的數量怎麼變。 改變起始添加物會清除反應步驟與目前發現；解釋欄位保留。</p></header>
     <fieldset class="rl-setup"><legend>油裡一開始有什麼（另有 6 LH、2 LOOH，O₂ 不限量）</legend>${Object.entries(SETUP_LABELS).map(([k, v]) => `<label class="rl-toggle"><input type="checkbox" data-rl-setup="${k}"><span>${v}</span></label>`).join('')}</fieldset>
     <div class="rl-main">
       <div class="rl-reactions" data-rl-reactions></div>
