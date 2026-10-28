@@ -13,7 +13,7 @@ function draft(owner,key,startView){
   return fresh();
 }
 
-export function mountLipidAtlas(container,id='lipid-atlas',{startView='classes',onSaveSummary,draftOwner,stateKey=id}={}){
+export function mountLipidAtlas(container,id='lipid-atlas',{startView='classes',onSaveSummary,draftOwner,stateKey=id,currentLessonId=null}={}){
   const state=draft(draftOwner,stateKey,startView),prefix=`lipid-atlas-${++sequence}`;
   // A learner can edit the saved lesson note while this view is unmounted.
   // Retain the comparison draft, but never treat an earlier save as readback.
@@ -75,7 +75,7 @@ export function mountLipidAtlas(container,id='lipid-atlas',{startView='classes',
     const item=reaction();if(!item){content.textContent='目前沒有可顯示的反應。';return;}
     content.innerHTML=`<label class="la-field la-reaction-select" for="${prefix}-reaction">選一種變化<select id="${prefix}-reaction" data-la-select-reaction>${LIPID_REACTIONS.map(entry=>`<option value="${esc(entry.id)}" ${entry.id===item.id?'selected':''}>${esc(entry.name)}</option>`).join('')}</select></label>
       <article class="la-reaction"><h3>${esc(item.name)}</h3><ol class="la-reaction-flow"><li><span>01 · 發生條件</span><p>${esc(item.trigger)}</p></li><li><span>02 · 作用位置</span><p>${esc(item.bond)}</p></li><li><span>03 · 產物與改變</span><p>${esc(item.result)}</p></li></ol>
-      <figure class="la-equation"><figcaption>${item.id==='physical-crystallization'?'相態變化示意（非化學反應）':'代表反應式'}</figcaption><p>${esc(item.equation)}</p></figure><div class="la-sensory-effect"><h4>食品的感官變化</h4><p>${esc(item.flavor)}</p></div><details><summary>判讀時還要注意</summary><p>${esc(item.boundary)}</p>${item.lessonId?`<p><a href="#learn/lipids/${encodeURIComponent(item.lessonId)}/observe">到相關課程繼續觀察 →</a></p>`:''}</details></article>`;
+      <figure class="la-equation"><figcaption>${item.id==='physical-crystallization'?'相態變化示意（非化學反應）':'代表反應式'}</figcaption><p>${esc(item.equation)}</p></figure><div class="la-sensory-effect"><h4>食品的感官變化</h4><p>${esc(item.flavor)}</p></div><details><summary>判讀時還要注意</summary><p>${esc(item.boundary)}</p>${item.lessonId?(item.lessonId===currentLessonId?'<p>這項變化目前就在本課觀察中。</p>':`<p><a href="#learn/lipids/${encodeURIComponent(item.lessonId)}/observe">到相關課程繼續觀察 →</a></p>`):''}</details></article>`;
   }
   function render(){
     container.querySelectorAll('[data-la-view]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.laView===state.view)));

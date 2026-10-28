@@ -808,7 +808,7 @@ export class LearningStudio {
         container.innerHTML='<p role="status">正在載入脂質教材…</p>';
         import('./lipid-atlas.js').then(({mountLipidAtlas})=>{
           if(!liveLesson())return;
-          const dispose=mountLipidAtlas(container,'lipid-atlas',{draftOwner:this.progress,stateKey:lesson.id,startView:lesson.activity.startView,onSaveSummary:saveSummary});
+          const dispose=mountLipidAtlas(container,'lipid-atlas',{draftOwner:this.progress,stateKey:lesson.id,currentLessonId:lesson.id,startView:lesson.activity.startView,onSaveSummary:saveSummary});
           if(typeof dispose==='function')this.disposals.push(dispose);
         }).catch(()=>{
           if(liveLesson())container.innerHTML='<p role="status">脂質教材暫時無法載入，請稍後重新整理。仍可閱讀原理、作答與保存筆記。</p>';

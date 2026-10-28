@@ -31,23 +31,30 @@ export function renderTopicStart({subject, topic, courses={}, rows=STUDY_ROADMAP
 
 // Optional next readings complement the directory sequence; they never replace a path's next station.
 const TOPIC_FOLLOWUPS = Object.freeze({
-  carbohydrates: {start: 'carb-chair-foundations', lessons: ['carb-ring-chain']},
-  proteins: {start: 'protein-peptide-backbone', lessons: ['protein-denaturation', 'protein-networks']}
+  chemistry: {
+    carbohydrates: {start: 'carb-chair-foundations', lessons: ['carb-ring-chain']},
+    proteins: {start: 'protein-peptide-backbone', lessons: ['protein-denaturation', 'protein-networks']}
+  },
+  processing: {
+    'proc-packaging': {start: 'proc-package-functions-evidence', lessons: ['proc-package-barriers']}
+  }
 });
 export function renderTopicFollowup({subject, topic, lesson, courses={}, pathContext=null, rows=STUDY_ROADMAP}={}) {
-  if (pathContext || subject?.id !== 'chemistry' || !safeId(topic?.id) || !safeId(lesson?.id) || !Array.isArray(rows)) return '';
-  const plan = Object.hasOwn(TOPIC_FOLLOWUPS,topic.id) ? TOPIC_FOLLOWUPS[topic.id] : null;
-  const course = courses?.chemistry;
+  if (pathContext || !['chemistry','processing'].includes(subject?.id) || !safeId(topic?.id) || !safeId(lesson?.id) || !Array.isArray(rows)) return '';
+  const plans = TOPIC_FOLLOWUPS[subject.id];
+  const plan = Object.hasOwn(plans,topic.id) ? plans[topic.id] : null;
+  const course = courses?.[subject.id];
   if (!plan || lesson.id !== plan.start || !Array.isArray(course?.topics) ||
-      (course.routeRoot !== undefined && course.routeRoot !== LEARNING_SUBJECTS.chemistry.root) ||
+      (course.routeRoot !== undefined && course.routeRoot !== LEARNING_SUBJECTS[subject.id].root) ||
       course.topics.filter(t=>t?.id===topic.id).length !== 1) return '';
-  const matches = rows.filter(r=>r?.subject==='chemistry' && r?.topicId===topic.id);
+  const matches = rows.filter(r=>r?.subject===subject.id && r?.topicId===topic.id);
   if (matches.length !== 1 || matches[0].startLessonId !== plan.start) return '';
-  const start = roadmapLesson({subject:'chemistry',lessonId:plan.start},courses);
+  const start = roadmapLesson({subject:subject.id,lessonId:plan.start},courses);
   if (!start || start.topic.id !== topic.id) return '';
-  const links = plan.lessons.map(lessonId=>roadmapLesson({subject:'chemistry',lessonId},courses))
+  const links = plan.lessons.map(lessonId=>roadmapLesson({subject:subject.id,lessonId},courses))
     .filter(found=>found && found.topic.id===topic.id && safeId(found.topic.id) && safeId(found.lesson.id) &&
       typeof found.lesson.title==='string' && found.lesson.title.trim())
     .map(found=>`<li><a href="${esc(found.href)}">${esc(found.lesson.title)} →</a></li>`).join('');
-  return links ? `<aside class="study-remedy" aria-label="可選後續閱讀"><h2>接著可讀</h2><p>完成這題後，可依問題選讀；下方下一題依目錄順序。</p><ul>${links}</ul></aside>` : '';
+  const guide = subject.id==='processing'?'完成這題後，可依問題選讀；也可回到本章目錄。':'完成這題後，可依問題選讀；下方下一題依目錄順序。';
+  return links ? `<aside class="study-remedy" aria-label="可選後續閱讀"><h2>接著可讀</h2><p>${guide}</p><ul>${links}</ul></aside>` : '';
 }

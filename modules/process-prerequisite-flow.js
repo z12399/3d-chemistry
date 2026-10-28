@@ -119,6 +119,26 @@ export const PROCESS_PREREQUISITE_REMEDIES=Object.freeze([
     "why": "供熱與移汽需配合；冰面平衡值、氣路水分壓、乾燥層及移除阻力各有角色。有壓差或相變熱帳，仍不能單獨給完成時間或殘水終點。",
     "reason": "Same-temperature qualified ice-interface equilibrium comparison, actual sublimed-ice phase heat, heat/dry-layer/vapor-removal constraints; total chamber pressure is not water partial pressure.",
     "returnHref": "#process/proc-freezing/proc-freeze-drying/observe"
+  },
+  {
+    "token": "freeze-mass-water",
+    "diagnostic": "freeze-mass-water",
+    "subject": "processing",
+    "branch": "freeze-drying",
+    "lessonId": "proc-mass-basis",
+    "topicId": "proc-balances",
+    "route": "#process/proc-balances/proc-mass-basis/understand",
+    "canonicalRoute": "#process/proc-balances/proc-mass-basis/understand",
+    "phase": "understand",
+    "field": "explanation",
+    "target": "explanation",
+    "index": 1,
+    "paragraphIndex": 1,
+    "quote": "若乾燥只移除水，乾物質可作前後不變的追蹤量",
+    "expectedQuote": "若乾燥只移除水，乾物質可作前後不變的追蹤量",
+    "why": "總質量包含乾物與水；依題設固定乾物，才能以總質量減乾物求水量。",
+    "reason": "The total contains dry solids and water; subtract the specified fixed dry solids to obtain remaining water.",
+    "returnHref": "#process/proc-freezing/proc-freeze-drying/observe"
   }
 ].map(item=>Object.freeze(item)));
 const byToken=new Map(PROCESS_PREREQUISITE_REMEDIES.map(item=>[item.token,item]));
