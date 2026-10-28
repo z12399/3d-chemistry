@@ -42,7 +42,7 @@ const points=()=>profile()?.samples.map(p=>({angle:p.angleDeg,energy:p.relativeE
 const snapshot=()=>({...state,mode:state.mode==='notebook'?'explore':state.mode});
 function toast(text){$('toast').textContent=text;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),4000);}
 function saveStatusText(normal){return notebook.locked?'筆記讀取失敗 · 已停止寫入':mechanismLoadErrors.length||moleculeLoadErrors.length?'部分化學資料載入失敗 · 筆記仍可匯出':normal;}
-function persist(){try{localStorage.setItem(SESSION_KEY,JSON.stringify(snapshot()));$('save-status').textContent=saveStatusText('目前狀態已保存');}catch{$('save-status').textContent=saveStatusText('瀏覽器儲存不可用，請匯出筆記');}}
+function persist(){if(!viewer)return;try{localStorage.setItem(SESSION_KEY,JSON.stringify(snapshot()));$('save-status').textContent=saveStatusText('目前狀態已保存');}catch{$('save-status').textContent=saveStatusText('瀏覽器儲存不可用，請匯出筆記');}}
 function log(label){events.push({at:Date.now(),label,state:snapshot()});events=events.slice(-200);persist();}
 function checkpoint(){undo.push(snapshot());undo=undo.slice(-100);redo=[];}
 function stopThermal(){clearInterval(thermalTimer);thermalTimer=null;const b=$('thermal-button');if(b){b.textContent='開始';b.setAttribute('aria-pressed','false');}}
@@ -53,8 +53,9 @@ function dialog(title,html){$('dialog-title').textContent=title;$('dialog-body')
 function libraryStateLabel(s){const route=curriculum.find(r=>r.id===s.reactionId);return `${route?.title||s.reactionId||'知識地圖'} · ${s.libraryView==='mechanism'?mechanismLabel(mechanisms,s)+' · ':''}${s.libraryView==='mechanism'?`機構狀態 ${s.mechanismStep}`:`第 ${(s.libraryStep||0)+1} ${route?.routeKind==='comparison'?'項':'步'}`}`;}
 function updateStateCaption(){if(surface==='learn'){$('state-caption').textContent=(learning?.progress??learningProgress).error||'紀錄儲存於此瀏覽器';return;}const s=state.mode==='reaction'?`機構狀態 ${state.stage}/6 · 糖 + 酸 / 水 · 總電荷 +1`:state.mode==='library'?libraryStateLabel(state):state.mode==='notebook'?notebook.locked?'筆記讀取失敗；原有資料已保留，寫入已停止。':`${notes.length} 篇筆記儲存在此瀏覽器；重要觀察請匯出備份。`:state.mode==='compare'?'α ⇌ 開鏈 ⇌ β · 同一環境的平衡比較':`${names[state.moleculeId]} · ${state.bondId} · ${state.angle.toFixed(1)}°`;$('state-caption').textContent=s;}
 function validRestore(s){return validateRestoreState(s,{catalog,curriculum,mechanisms});}
-function restore(s,{record=true}={}){const restored=validRestore(s);rememberReactionDraft();cancelReactionTransition();stopThermal();stopDemo();state=restored;selected=[];showArrows=restored.mode==='reaction';electronSource='';electronTarget='';feedback='';resetSampling();libraryCatalog=false;learningContext=null;activeReactionOrigin=null;reactionManualOpen=false;renderMode();syncLabHash(!record);viewer.fit();if(record)log('還原保存的狀態');}
+function restore(s,{record=true}={}){if(!viewer)throw new Error('此環境無法啟用 3D，暫時無法還原 3D 狀態');const restored=validRestore(s);rememberReactionDraft();cancelReactionTransition();stopThermal();stopDemo();state=restored;selected=[];showArrows=restored.mode==='reaction';electronSource='';electronTarget='';feedback='';resetSampling();libraryCatalog=false;learningContext=null;activeReactionOrigin=null;reactionManualOpen=false;renderMode();syncLabHash(!record);viewer.fit();if(record)log('還原保存的狀態');}
 function changeMode(mode,{catalogView=false,updateURL=true}={}){
+ if(!viewer&&mode!=='notebook'){if(updateURL)window.location.hash='#lab/'+mode;show3DUnavailable();return;}
  learningReturnEpoch++;
  const key=mode==='reaction'?reactionDraftKey(learningContext):null,sameReaction=surface==='lab'&&state.mode==='reaction'&&activeReactionOrigin===key;
  rememberReactionDraft();cancelReactionTransition();libraryCatalog=catalogView;stopReplay();stopThermal();stopDemo();state.mode=mode;selected=[];
@@ -256,6 +257,7 @@ function showLearning(hash){
  updateStateCaption();window.scrollTo({top:0,left:0,behavior:'auto'});if(returningFromReaction)restoreLearningPosition(hash);
 }
 function openLearningActivity(activity,returnPath){
+ if(!viewer){let notice=$('learning-3d-unavailable');if(!notice){notice=document.createElement('p');notice.id='learning-3d-unavailable';notice.setAttribute('role','status');notice.setAttribute('tabindex','-1');notice.className='note-card';$('alternate-content').prepend(notice);}notice.textContent='這個瀏覽器目前無法建立 3D 畫面；課程與不依賴 3D 的活動仍可使用。可確認瀏覽器是否支援 WebGL，或稍後重新整理再試。';notice.focus({preventScroll:true});notice.scrollIntoView({block:'nearest'});const route=resolveLearningRoute(returnPath,learningContextFor(returnPath).course);if(['carb-hfcs-process','carb-xylan-xylitol'].includes(route.lesson?.id))throw new Error('此瀏覽器無法建立 3D 畫面');return false;}
  learningContext=returnPath;
  if(activity.type==='reaction'){
   if(!curriculum.some(r=>r.id===activity.id)){toast('這條反應資料尚未載入。');return;}
@@ -277,6 +279,14 @@ function applyLocation(){
  changeMode(mode,{catalogView:mode==='library'&&!id,updateURL:false});
 }
 
+function show3DUnavailable(){
+ learningReturnEpoch++;learning?.dispose();learning=null;rememberAtlasCatalog();atlas?.dispose();atlas=null;for(const v of comparisonViewers)v.dispose();comparisonViewers=[];
+ surface='unavailable3d';document.body.dataset.surface='learn';document.body.removeAttribute('data-reaction-studio');$('lab-grid').hidden=true;$('alternate-content').hidden=false;$('snapshot-button').hidden=true;$('learning-context').hidden=true;
+ document.querySelectorAll('[data-mode], [data-learning], [data-subject]').forEach(el=>{el.classList.remove('active');el.removeAttribute('aria-current');});
+ const returnPath=learningReturnPath(learningContext||'');
+ $('alternate-content').className='learning-studio';$('alternate-content').innerHTML=`<section class="learning-empty" aria-labelledby="webgl-unavailable-title"><h1 id="webgl-unavailable-title" tabindex="-1">3D 工具暫時無法顯示</h1><p>這個瀏覽器目前無法建立 3D 畫面。你仍可閱讀課程與使用不依賴 3D 的活動；可確認瀏覽器是否支援 WebGL 或稍後重新整理再試。</p>${returnPath?`<p><a href="${esc(returnPath)}">← 回到原課程</a></p>`:''}<p><a href="#learn">回到學習首頁</a></p></section>`;
+ $('webgl-unavailable-title').focus({preventScroll:true});window.scrollTo({top:0,left:0,behavior:'auto'});
+}
 function reactionDraftKey(path){
  if(!path)return null;
  const canonical=learningReturnPath(path),{course}=learningContextFor(path),route=resolveLearningRoute(canonical||'',course);
@@ -288,6 +298,7 @@ function rememberReactionDraft(){
  reactionDrafts.set(activeReactionOrigin,{stage:state.stage,product:state.product,electronSource,electronTarget,showArrows,feedback:transitioning?'已暫停，保留最後完成的狀態。':feedback,manualOpen:$('reaction-advanced')?.open??reactionManualOpen,showH:viewer.showH,showLabels:viewer.showLabels,renderMode:viewer.renderMode,camera:viewer.cameraState?.()});
 }
 function syncViewerDisplay(){
+ if(!viewer)return;
  $('show-hydrogen').checked=viewer.showH;$('show-labels').checked=viewer.showLabels;
  document.querySelectorAll('[data-render]').forEach(button=>{const active=button.dataset.render===viewer.renderMode;button.classList.toggle('active',active);button.setAttribute('aria-pressed',String(active));});
 }
@@ -378,7 +389,7 @@ async function init(){try{
  ({chemistry:foodCourse,processing:processingCourse,microbiology:microbiologyCourse}=loadedCourses);
  state.reactionId=curriculum[0]?.id||'';state.libraryStep=0;state.angle=wrap(rotor().initialDihedralDeg);
  try{const saved=JSON.parse(localStorage.getItem(SESSION_KEY));if(saved)state=validRestore(validateNotebook({schema:'sugar-lab/v1',notes:[{id:'session',title:'session',state:saved}]}).notes[0].state);}catch{/* A stale session never prevents opening the lab. */}
- viewer=new MoleculeViewer($('viewer'),{onAtom:selectAtom,onBond:b=>{if(state.mode!=='explore')return;const axis=mol().rotatableBonds.find(r=>(r.a===b.a&&r.b===b.b)||(r.a===b.b&&r.b===b.a));if(axis)selectBond(axis.id);else toast('這條鍵沒有獨立旋轉軸；環內鍵或雙鍵不能像一般單鍵自由扭轉。');}});$('viewer-loading').hidden=true;$('main').classList.remove('is-loading');$('app-loading').hidden=true;applyLocation();viewer.fit();window.addEventListener('hashchange',applyLocation);
+ try{viewer=new MoleculeViewer($('viewer'),{onAtom:selectAtom,onBond:b=>{if(state.mode!=='explore')return;const axis=mol().rotatableBonds.find(r=>(r.a===b.a&&r.b===b.b)||(r.a===b.b&&r.b===b.a));if(axis)selectBond(axis.id);else toast('這條鍵沒有獨立旋轉軸；環內鍵或雙鍵不能像一般單鍵自由扭轉。');}});}catch(error){if(!String(error?.message||'').includes('Error creating WebGL context'))throw error;viewer=null;console.warn('3D 工具無法初始化；保留課程入口。',error);}$('viewer-loading').hidden=!!viewer;$('main').classList.remove('is-loading');$('app-loading').hidden=true;applyLocation();viewer?.fit();window.addEventListener('hashchange',applyLocation);
  const loadErrors=[...moleculeLoadErrors,...mechanismLoadErrors];
  if(loadErrors.length){const warning=document.createElement('section');warning.className='note-card';warning.id='data-load-warning';warning.setAttribute('role','alert');warning.style.marginBottom='18px';warning.innerHTML=`<h2>部分化學資料載入失敗</h2><p>${esc(loadErrors.join('；'))}。可繼續使用已載入的內容，也可到「實驗筆記」匯出原有筆記；缺少的代表模型無法顯示，缺失機構分支暫時無法還原。請檢查列出的資料檔後重新整理。</p>`;document.querySelector('main').prepend(warning);}
  bindReactionCameraControls();syncViewerDisplay();$('reset-camera').onclick=()=>{viewer.resize();viewer.fit();};$('show-hydrogen').onchange=e=>{viewer.showH=e.target.checked;state.mode==='reaction'?renderReaction():drawExplore();};$('show-labels').onchange=e=>{viewer.showLabels=e.target.checked;};document.querySelectorAll('[data-render]').forEach(b=>b.onclick=()=>{viewer.renderMode=b.dataset.render;syncViewerDisplay();state.mode==='reaction'?renderReaction():drawExplore();});
@@ -392,6 +403,6 @@ async function init(){try{
  $('energy-chart').onclick=e=>{if(!points().length)return;const svg=e.currentTarget.querySelector('svg');if(!svg)return;const rect=svg.getBoundingClientRect(),x=(e.clientX-rect.left)/rect.width*Number(svg.dataset.viewWidth),left=Number(svg.dataset.plotLeft),right=Number(svg.dataset.plotRight);stopThermal();checkpoint();setAngle(Math.max(0,Math.min(360,(x-left)/(right-left)*360)),{record:true});refreshHistory();};$('capture-button').onclick=()=>{const a=document.createElement('a');a.href=viewer.exportPNG();a.download=`sugar-lab-${state.mode}-${Date.now()}.png`;a.click();toast('已匯出 3D 模型圖片（不含介面與文字標籤）。');};
  const stop=document.createElement('button');stop.id='stop-replay';stop.textContent='■ 停止回放';stop.hidden=true;stop.className='stop-replay';stop.onclick=()=>{stopReplay();persist();toast('已停止回放。');};document.body.append(stop);document.addEventListener('visibilitychange',()=>{if(document.hidden){stopThermal();stopDemo();stopReplay();atlas?.stop();persist();}});document.addEventListener('pointerdown',()=>{if(replayTimer){stopReplay();toast('已停止回放，可繼續自由操作。');}},true);document.addEventListener('keydown',()=>{if(replayTimer)stopReplay();},true);let chartResizeFrame=0;window.addEventListener('resize',()=>{if(state.mode!=='explore')return;cancelAnimationFrame(chartResizeFrame);chartResizeFrame=requestAnimationFrame(()=>{$('energy-chart').innerHTML=energyChart(points(),state.angle,state.temperature,histogram);});});window.addEventListener('beforeunload',persist);log('開啟食品化學實驗室');
  try{if(navigator.modelContext?.registerTool){navigator.modelContext.registerTool({name:'read_sugar_lab_state',description:'Read the current educational molecule, torsion and reaction state.',inputSchema:{type:'object',properties:{}},execute:async()=>({content:[{type:'text',text:JSON.stringify({...snapshot(),energy:profile()?interpolateEnergy(points(),state.angle):null,energyKind:'MMFF94 frozen-geometry potential energy, not free energy'})}]})});}}catch{/* Optional browser integration must not interrupt the lab. */}
- }catch(error){$('main').classList.add('is-loading');$('app-loading').hidden=false;$('app-loading').setAttribute('role','alert');$('app-loading-message').textContent='無法啟動：'+error.message+'。請確認本機服務與資料檔後重新整理。';$('viewer-loading').hidden=false;$('viewer-loading').textContent='無法啟動：'+error.message;toast('啟動未完成：'+error.message+'。請查看錯誤內容並確認本機服務與資料檔。');console.error(error);}}
+ }catch(error){$('main').classList.add('is-loading');$('app-loading').hidden=false;$('app-loading').setAttribute('role','alert');$('app-loading-message').textContent='無法啟動：'+error.message+'。請確認網路連線及網站資料可用後重新整理。';$('viewer-loading').hidden=false;$('viewer-loading').textContent='無法啟動：'+error.message;toast('啟動未完成：'+error.message+'。請查看錯誤內容，確認網路連線及網站資料是否可用。');console.error(error);}}
 document.querySelector('.skip-content')?.addEventListener('click',e=>{e.preventDefault();$('main').focus();$('main').scrollIntoView({block:'start'});});
 init();
