@@ -217,7 +217,7 @@ export class LearningStudio {
   connections(lesson){
     const targets=SUBJECT_CONNECTIONS.flatMap(pair=>{const index=pair.findIndex(([subject,id])=>subject===this.subject.id&&id===lesson.id);return index<0?[]:[pair[1-index]];});
     const links=targets.map(([id,lessonId])=>{const entry=allLessons(this.courses[id]).find(({lesson:l})=>l.id===lessonId);return entry?{...entry,subject:LEARNING_SUBJECTS[id]}:null;}).filter(Boolean);
-    return links.length?`<details class="learning-connections"><summary>串起其他學科</summary><nav aria-label="跨科延伸">${links.map(({topic:t,lesson:l,subject})=>`<a href="${makeLessonPath(t,l,'understand',subject.root)}"><small>${esc(subject.title)}</small>${esc(l.title)} ↗</a>`).join('')}</nav></details>`:'';
+    return links.length?`<details class="learning-connections"><summary>串起其他學科</summary><nav aria-label="跨科延伸">${links.map(({topic:t,lesson:l,subject})=>{const canonical=makeLessonPath(t,l,'understand',subject.root),href=this.pathContext?decoratePath(canonical,this.pathContext.path.id,this.courses):canonical,station=href!==canonical?pathContext(href,this.courses):null;const scope=station?` · 此路徑第 ${station.index+1} 站（可選跳站）`:this.pathContext?' · 一般課程（離開此路徑）':'';return `<a href="${esc(href)}"><small>${esc(subject.title)}${esc(scope)}</small>${esc(l.title)} ↗</a>`;}).join('')}</nav></details>`:'';
   }
   dispose() { disposeThermalRemedyReturn(this.progresses?.microbiology,this.foundationRemedy); this.renderEpoch++; this.disposals.splice(0).forEach(fn => fn()); this.root.removeAttribute?.('data-learning-lesson'); this.root.removeAttribute?.('data-learning-step'); }
   navigate(path) { this.onNavigate(path); }
