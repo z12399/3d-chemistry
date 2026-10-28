@@ -36,7 +36,8 @@ const TOPIC_FOLLOWUPS = Object.freeze({
     proteins: {start: 'protein-peptide-backbone', lessons: ['protein-denaturation', 'protein-networks']}
   },
   processing: {
-    'proc-packaging': {start: 'proc-package-functions-evidence', lessons: ['proc-package-barriers']}
+    'proc-packaging': {start: 'proc-package-functions-evidence', lessons: ['proc-package-barriers']},
+    'proc-fermentation': {start: 'proc-fermentation-physical-state', lessons: ['proc-fermentation-comparison']}
   }
 });
 export function renderTopicFollowup({subject, topic, lesson, courses={}, pathContext=null, rows=STUDY_ROADMAP}={}) {
