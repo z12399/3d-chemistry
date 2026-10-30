@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">β-斷裂：兩邊片段都要留下</title>
+<desc id="figure-desc">給定 C9–O9 自由基起態，對照斷 C8–C9 與 C9–C10 後的醛片段和自由基片段；兩案都形成 C9=O9。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="530" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">β-斷裂：兩邊片段都要留下</tspan></text>
+<rect x="200" y="100" width="320" height="75" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="130.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">給定起態：C9–O9•</tspan><tspan x="360.0" dy="28">烷氧自由基</tspan></text>
+<path d="M 290 179 L 190 235" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 430 179 L 530 235" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="32" y="250" width="315" height="195" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="373" y="250" width="315" height="195" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190" y="284" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="190" dy="0">A：切 C8–C9</tspan></text>
+<text x="190" y="329" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">PC 端八碳片段：C8•</tspan><tspan x="190" dy="37">＋</tspan><tspan x="190" dy="37">十碳醛：原 C9=O9</tspan></text>
+<text x="530" y="284" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="530" dy="0">B：切 C9–C10</tspan></text>
+<text x="530" y="329" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="530" dy="0">PC 端九碳醛：C9=O9</tspan><tspan x="530" dy="37">＋</tspan><tspan x="530" dy="37">九碳烯基片段：C10•</tspan></text>
+<text x="32" y="477" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">C8•：烷基自由基；C10•：烯基自由基。</tspan><tspan x="32" dy="25">保留原子與原有 H，不補 H 或終止反應。</tspan></text>
+<text x="688" y="512" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

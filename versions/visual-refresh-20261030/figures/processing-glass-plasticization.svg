@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">吸水拉低 Tg，改變 T 相對位置</title>
+<desc id="figure-desc">均一非晶相模型中隨含水增加 Tg 下降，固定觀察溫度由低於 Tg 轉成高於 Tg，提供物性變化線索。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">吸水拉低 Tg，改變 T 相對位置</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">均一非晶相的定性模型</tspan></text>
+<path d="M 88 365 L 651 365" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 88 365 L 88 114" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="32" y="103" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">溫度</tspan></text>
+<text x="646" y="397" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="646" dy="0">含水量增加</tspan></text>
+<path d="M 103 236 L 637 236" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5"/>
+<text x="407" y="216" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="407" dy="0">固定觀察溫度 T</tspan></text>
+<path d="M 123 135 C 238 164 274 216 359 257 C 444 298 538 314 628 329" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="564" y="300" font-size="20" fill="#14665d" text-anchor="start"><tspan x="564" dy="0">Tg 下降</tspan></text>
+<text x="125" y="280" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="125" dy="0">T ＜ Tg</tspan></text>
+<text x="125" y="313" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="125" dy="0">較硬脆</tspan></text>
+<text x="400" y="146" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="400" dy="0">T ＞ Tg 時</tspan></text>
+<text x="400" y="177" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="400" dy="0">較易變形或黏結</tspan></text>
+<rect x="48" y="429" width="624" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="462.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Gordon–Taylor：成分 Tg、質量分率與 k 估算</tspan></text>
+<text x="32" y="507" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">物性線索不能單獨決定安全或保存期。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

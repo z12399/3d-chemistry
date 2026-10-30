@@ -1,0 +1,75 @@
+/* Heteroatom-origin workbench: precursor chips on the left, three ring verdicts on the right. */
+.heterocycle-lab { --hc-ink: var(--ink, #1c2732); --hc-muted: var(--muted, #53606d); --hc-line: var(--line, #dfe4e8); --hc-accent: var(--mint, #14665d); color: var(--hc-ink); font-size: 1rem; line-height: 1.7; }
+.heterocycle-lab [hidden] { display: none !important; }
+.hc-head { margin-bottom: 18px; }
+.hc-kicker { margin: 0; color: var(--hc-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.heterocycle-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.hc-hint { margin: 0; color: var(--hc-muted); }
+.hc-main { display: grid; grid-template-columns: minmax(0, 290px) minmax(0, 1fr); gap: 20px; align-items: start; }
+.hc-precursors { display: grid; gap: 8px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.hc-precursors legend { margin-bottom: 8px; padding: 0; font-weight: 600; }
+.hc-chip { display: flex; align-items: flex-start; gap: 12px; min-height: 56px; padding: 10px 14px; border: 1px solid #cfd6dc; border-radius: 10px; background: #fff; cursor: pointer; transition: border-color .12s, background .12s; }
+.hc-chip:hover { border-color: #a9bcb8; background: var(--chrome, #f6f7f8); }
+.hc-chip:has(input:checked) { border-color: var(--hc-accent); background: var(--tint, #e7f1ee); }
+.hc-chip input { flex: 0 0 20px; width: 20px; height: 20px; margin: 3px 0 0; }
+.hc-chip span { display: grid; min-width: 0; }
+.hc-chip small { color: var(--hc-muted); font-size: .875rem; }
+.hc-rings { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; min-width: 0; }
+.hc-card { min-width: 0; padding: 16px; border: 1px solid var(--hc-line); border-radius: 12px; background: #fff; }
+.hc-card-top { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+.hc-ring { flex: 0 0 56px; width: 56px; height: 56px; color: #6b7783; }
+.hc-ring .hc-hetero { fill: #fff; stroke: currentColor; stroke-width: 2; }
+.hc-ring text { fill: currentColor; font: 700 13px var(--font, sans-serif); }
+.hc-card h4 { margin: 0; font-size: 1.125rem; line-height: 1.4; }
+.hc-card h4 span { color: var(--hc-muted); font-size: .875rem; font-weight: 400; }
+.hc-badge { display: inline-block; margin: 4px 0 0; padding: 1px 10px; border-radius: 12px; font-size: .875rem; font-weight: 600; }
+.hc-supported { border-color: #9cc7bc; }
+.hc-supported .hc-ring { color: var(--hc-accent); }
+.hc-supported .hc-badge { background: var(--tint, #e7f1ee); color: #0e4f48; }
+.hc-impossible { background: var(--chrome, #f6f7f8); }
+.hc-impossible .hc-ring { color: #a3adb7; }
+.hc-impossible .hc-badge { background: #eceff2; color: #4b5560; }
+.hc-unverified { border-color: #e2cf97; }
+.hc-unverified .hc-ring { color: #9a7417; }
+.hc-unverified .hc-badge { background: #fbf3d9; color: #6f5310; }
+.hc-carriers { margin: 0 0 6px; font-weight: 600; font-size: .9375rem; }
+.hc-note { margin: 0; color: #2a3642; font-size: .9375rem; }
+.hc-cite { margin: 8px 0 0; font-size: .875rem; color: var(--hc-muted); }
+.heterocycle-lab a { color: var(--hc-accent); text-decoration: underline; text-underline-offset: 3px; }
+.hc-rule { margin: 14px 0 26px; padding: 12px 16px; border-left: 4px solid var(--hc-accent); border-radius: 0 10px 10px 0; background: var(--chrome, #f6f7f8); color: #2a3642; font-size: .9375rem; }
+.hc-process { padding: 18px 20px; border: 1px solid var(--hc-line); border-radius: 12px; }
+.hc-process-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px 20px; }
+.hc-process h4 { margin: 0; font-size: 1.125rem; }
+.hc-select select { min-height: 44px; min-width: 260px; max-width: 100%; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; color: inherit; }
+.hc-points { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.hc-points li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.hc-tag { padding: 1px 10px; border-radius: 12px; background: var(--panel2, #f1f3f5); color: var(--hc-muted); font-size: .8125rem; font-weight: 600; white-space: nowrap; }
+.hc-src { font-size: .875rem; }
+.hc-boundary { margin: 12px 0 0; color: var(--hc-muted); font-size: .875rem; }
+.heterocycle-lab details { margin-top: 0; padding: 4px 0; border-top: 1px solid var(--hc-line); }
+.heterocycle-lab details:first-of-type { margin-top: 22px; }
+.heterocycle-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--hc-muted); }
+.heterocycle-lab details[open] > summary { color: var(--hc-ink); }
+.hc-quality-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; padding-bottom: 14px; }
+.hc-quality-grid article { padding: 14px 16px; border-radius: 10px; background: var(--chrome, #f6f7f8); }
+.hc-quality-grid h5 { margin: 0 0 6px; font-size: 1rem; }
+.hc-quality-grid p { margin: 6px 0 0; font-size: .9375rem; }
+.hc-quality-grid b { display: block; color: var(--hc-muted); font-size: .8125rem; }
+.hc-write label { display: block; margin: 10px 0 6px; font-weight: 600; font-size: .9375rem; }
+.hc-write textarea { display: block; width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid #cfd6dc; border-radius: 10px; background: #fff; font: inherit; line-height: 1.8; resize: vertical; }
+.hc-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 12px 0 14px; }
+.hc-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--hc-accent); border-radius: 10px; background: var(--hc-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.hc-save span { color: var(--hc-muted); font-size: .9375rem; }
+.hc-bounds ul, .hc-sources { margin: 4px 0 14px; padding-left: 22px; font-size: .9375rem; }
+.hc-bounds li + li, .hc-sources li + li { margin-top: 6px; }
+@media (max-width: 980px) {
+  .hc-main { grid-template-columns: minmax(0, 1fr); }
+  .hc-precursors { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hc-precursors legend { grid-column: 1 / -1; }
+}
+@media (max-width: 720px) {
+  .hc-rings, .hc-quality-grid { grid-template-columns: minmax(0, 1fr); }
+  .hc-precursors { grid-template-columns: minmax(0, 1fr); }
+  .hc-select select { min-width: 0; width: 100%; }
+  .hc-process-head label { width: 100%; }
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">冷卻凝結，罐內氣相減少</title>
+<desc id="figure-desc">罐頭排氣後密封，頂隙中的水蒸氣在冷卻時凝結，使罐內壓力低於外界而形成真空；罐內總壓＝殘留非凝結氣體分壓＋該溫度的飽和水蒸氣壓。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">冷卻凝結，罐內氣相減少</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">固定頂隙、密閉剛性罐與足量液水的狀態比較</tspan></text>
+<text x="172" y="122" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="172" dy="0">密封後熱狀態</tspan></text>
+<rect x="72" y="147" width="200" height="205" rx="14" fill="#ffffff" stroke="#53606d" stroke-width="2"/>
+<rect x="74" y="274" width="196" height="75" rx="8" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<path d="M 72 274 L 272 274" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="102" cy="187" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="157" cy="219" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="227" cy="187" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<text x="548" y="122" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="548" dy="0">冷卻後</tspan></text>
+<rect x="448" y="147" width="200" height="205" rx="14" fill="#ffffff" stroke="#53606d" stroke-width="2"/>
+<rect x="450" y="274" width="196" height="75" rx="8" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<path d="M 448 274 L 648 274" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="478" cy="187" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="533" cy="219" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="603" cy="187" r="8" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="112" cy="223" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="147" cy="182" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="187" cy="238" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="221" cy="209" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="241" cy="243" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="166" cy="209" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="500" cy="230" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="580" cy="244" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 295 240 L 425 240" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="360" y="190" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">冷卻</tspan><tspan x="360" dy="26">水蒸氣凝結</tspan></text>
+<text x="172" y="380" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="172" dy="0">氣體分壓分開計算</tspan></text>
+<text x="548" y="380" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="548" dy="0">內壓可低於外壓</tspan></text>
+<circle cx="65" cy="422" r="7" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<text x="84" y="429" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="84" dy="0">非凝結氣體</tspan></text>
+<circle cx="282" cy="422" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="301" y="429" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="301" dy="0">水蒸氣</tspan></text>
+<rect x="46" y="456" width="628" height="50" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="488.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">罐內總壓 ＝ 非凝結氣體分壓 ＋ 飽和水蒸氣壓</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

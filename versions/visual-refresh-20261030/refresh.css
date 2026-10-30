@@ -1,0 +1,310 @@
+/* Refresh layer, loaded after comfort.css: a soft studio shell with white reading sheets.
+   Workbenches keep their own layouts and stay on white; this file restyles shared chrome,
+   the home page, topic and lesson reading surfaces. Remove its <link> to restore the prior look. */
+:root {
+  --bg: #f3f4ef;
+  --shell: #f3f4ef;
+  --panel: #ffffff;
+  --ink: #17232d;
+  --muted: #4f5d69;
+  --faint: #66727d;
+  --line: #e1e4de;
+  --line-strong: #cdd3cc;
+  --mint: #11665a;
+  --copper: #11665a;
+  --mint-strong: #0b4c43;
+  --tint: #e3f1ec;
+  --copper-soft: #e3f1ec;
+  --chrome: #f7f8f5;
+  --amber: #a5520e;
+  --amber-soft: #fbefdf;
+  --subject: #11665a;
+  --subject-soft: #e3f1ec;
+  --subject-line: #cfe6dd;
+  --sheet-shadow: 0 1px 2px #17232d0a, 0 8px 28px #17232d0f;
+  --card-shadow: 0 1px 2px #17232d0d, 0 4px 14px #17232d0a;
+  --lift: 0 2px 4px #17232d0d, 0 12px 28px #17232d14;
+}
+/* Subject colour marks identity (breadcrumb, labels, numbering); every selected or primary control stays teal,
+   matching the workbenches, so two accents never compete for "this is chosen". */
+.learning-processing { --subject: #2b5b9c; --subject-soft: #e6eef9; --subject-line: #cddcf0; }
+.learning-microbiology { --subject: #8a3a7e; --subject-soft: #f6e9f3; --subject-line: #ead3e5; }
+
+body { background: var(--shell); font-family: var(--font); }
+::selection { background: #cbe6dd; }
+
+/* Shell: header and sidebar sit on the page tone; the full column is painted, not just the sticky box. */
+.topbar, body[data-surface=learn] .topbar {
+  min-height: 64px; padding: 10px 24px; border-bottom: 1px solid var(--line);
+  background: #f3f4efe6; backdrop-filter: saturate(1.3) blur(12px);
+}
+.brand { gap: 10px; font-size: 1.0625rem; font-weight: 700; letter-spacing: .02em; }
+.brand-mark { flex-basis: 34px; width: 34px; height: 34px; padding: 6px; border-radius: 10px; background: linear-gradient(140deg, #14806f, #0b4c43); color: #fff; box-shadow: 0 2px 6px #0b4c4333; }
+.help-button { background: #fff; }
+.workspace { background: transparent; }
+.sidebar, body[data-surface=learn] .sidebar { background: transparent; border-right: 0; }
+.sidebar nav { gap: 3px; }
+.sidebar .nav-item, .sidebar .nav-item[data-learning] { color: #3f4c57; font-weight: 500; }
+.sidebar .nav-item:hover, .subject-nav a:hover { background: #e8eae3; color: var(--ink); }
+.sidebar .nav-item.active, .sidebar .nav-item[aria-current=page] {
+  background: #fff; color: var(--mint); font-weight: 650; box-shadow: 0 1px 2px #17232d14, 0 0 0 1px var(--line);
+}
+.sidebar .nav-item.active .nav-icon, .sidebar .nav-item[aria-current=page] .nav-icon { color: var(--mint); }
+.sidebar .nav-subjects, .sidebar .nav-tools, .sidebar-bottom { border-top-color: var(--line); }
+.sidebar .nav-subjects > summary:hover, .sidebar .nav-tools > summary:hover, .sidebar-bottom .text-button:hover { background: #e8eae3; }
+.sidebar .subject-nav a { display: flex; align-items: center; }
+.sidebar .subject-nav a[aria-current], .sidebar .subject-nav a.active { background: #fff; color: var(--mint); box-shadow: 0 0 0 1px var(--line); }
+@media (min-width: 761px) {
+  .sidebar { top: 64px; height: calc(100vh - 64px); padding: 20px 14px 18px; }
+  html { scroll-padding-top: 84px; }
+}
+
+/* Main column: every page except home reads on one white sheet. Sheet insets are sized so the
+   content box stays at least as wide as before the refresh; workbenches use container queries. */
+body[data-surface=learn] main { max-width: calc(var(--column) + 160px); }
+@media (min-width: 1151px) {
+  body[data-surface=learn] main { padding: 28px 24px 32px; }
+}
+.learning-studio:not([data-view=home]) {
+  padding: 36px 32px 40px; border: 1px solid var(--line); border-radius: 22px;
+  background: var(--panel); box-shadow: var(--sheet-shadow);
+}
+/* 3D tool pages: main itself becomes the sheet, keeping the lab's own header/content alignment. */
+body[data-surface=lab] main { width: auto; margin: 24px 20px; border: 1px solid var(--line); border-radius: 22px; background: var(--panel); box-shadow: var(--sheet-shadow); }
+@media (min-width: 1151px) {
+  body[data-surface=lab] main { padding: 36px 40px 28px; }
+}
+@media (min-width: 1600px) {
+  body[data-surface=lab] main { width: 100%; margin: 24px auto; }
+}
+.workspace-footer, body[data-surface=learn] .workspace-footer { margin-top: 32px; padding: 16px 4px 0; border-top: 0; }
+
+/* Headings: subject colour leads the eye; titles get a firmer weight. */
+.learning-studio .learning-heading h1, .learning-studio .study-guide h1, .learning-studio .learning-question h1,
+.path-heading h1, .path-overview-heading h1 { font-size: 2.125rem; font-weight: 750; line-height: 1.35; letter-spacing: .01em; text-wrap: balance; }
+.learning-studio summary { text-wrap: pretty; }
+.study-breadcrumb a { color: var(--muted); }
+.study-breadcrumb a:hover { color: var(--subject); }
+.study-breadcrumb [aria-current] { color: var(--subject); font-weight: 600; }
+.learning-studio .learning-kicker, .eyebrow { color: var(--subject); }
+
+/* Buttons that sat white-on-teal lost their text on the shared grey hover: give them a darker teal instead. */
+.learning-studio .button-primary:hover:not(:disabled), .learning-studio .learning-primary:hover,
+:is(.pc-exam, .pc-save, .hc-save, .rl-save, .ss-save, .mb-try, .mb-save, .da-save, .ht-save, .im-actions, .im-save, .tr-save, .nr-question, .nr-save, .xx-save) button:hover:not(:disabled),
+.ch-save > button:hover:not(:disabled), :is(.protein-quality-axes-lab, .competitive-exclusion-lab, .mn-defense-lab, .aroma-evidence-lab) button:hover:not(:disabled) {
+  border-color: var(--mint-strong); background: var(--mint-strong); color: #fff;
+}
+.learning-studio .learning-primary, .study-search button { border-radius: 12px; box-shadow: 0 1px 2px #0b4c4326, 0 4px 10px #0b4c431f; }
+
+/* ---------- Home ---------- */
+.study-home { display: flex; flex-direction: column; max-width: 1120px; margin: 0 auto; }
+.study-home .study-welcome {
+  position: relative; overflow: hidden; display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+  padding: 44px 48px 92px; border-radius: 26px; color: #fff;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='240' viewBox='0 0 360 240' fill='none' stroke='%23ffffff' stroke-opacity='.16' stroke-width='2'%3E%3Cpath d='M220 40l34 20v40l-34 20-34-20V60z'/%3E%3Cpath d='M254 100l34 20v40l-34 20-34-20v-40z'/%3E%3Cpath d='M288 40l34 20v40l-34 20'/%3E%3Cpath d='M186 100l-34 20v40'/%3E%3Ccircle cx='220' cy='40' r='5' fill='%23ffffff' fill-opacity='.25'/%3E%3Ccircle cx='288' cy='160' r='5' fill='%23ffffff' fill-opacity='.25'/%3E%3Ccircle cx='152' cy='160' r='5' fill='%23ffffff' fill-opacity='.25'/%3E%3Cpath d='M322 100l24 14M152 160l-24 14'/%3E%3C/svg%3E") right -20px center / auto 120% no-repeat,
+    radial-gradient(120% 140% at 0% 0%, #1a8a77 0%, #11665a 45%, #0b4038 100%);
+  box-shadow: 0 10px 30px #0b403833;
+}
+.learning-studio .study-home .study-welcome h1 { font-size: 2.75rem; font-weight: 800; letter-spacing: .04em; color: #fff; }
+.learning-studio .study-home .study-welcome p { margin-top: 8px; font-size: 1.125rem; color: #d7efe8; }
+.study-home .study-welcome::before {
+  content: 'FOOD SCIENCE STUDIO'; display: block; position: absolute; left: 48px; top: 26px;
+  font-size: .75rem; font-weight: 700; letter-spacing: .24em; color: #a7dccd;
+}
+.study-home .study-welcome > div { padding-top: 18px; }
+.learning-studio .study-home .study-guide-link {
+  position: relative; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 18px;
+  border: 1px solid #ffffff59; border-radius: 999px; background: #ffffff1f; color: #fff; font-weight: 600; white-space: nowrap;
+}
+.learning-studio .study-home .study-guide-link:hover { background: #ffffff33; color: #fff; }
+.learning-studio .study-home .study-guide-link > span { color: inherit !important; }
+.study-home .study-search {
+  position: relative; z-index: 1; width: calc(100% - 96px); max-width: 760px; min-height: 64px; margin: -36px 0 0 48px;
+  border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: var(--lift);
+}
+.study-home .study-search:focus-within { border-color: var(--mint); box-shadow: var(--lift), 0 0 0 4px #11665a26; }
+
+/* "這次從哪裡開始" as four short cards. */
+.study-home .exam-start-navigation { max-width: none; margin: 44px 0 0; }
+.learning-studio .study-home .exam-start-navigation > h2,
+.learning-studio .study-home-workbenches h2 { margin-bottom: 16px; font-size: 1.375rem; font-weight: 750; }
+.exam-start-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 0; padding: 0; list-style: none; counter-reset: start-card; }
+.exam-start-cards > li {
+  position: relative; display: flex; flex-direction: column; gap: 8px; padding: 20px 20px 18px;
+  border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: var(--card-shadow); counter-increment: start-card;
+}
+.exam-start-cards > li::before {
+  content: counter(start-card); display: grid; place-items: center; width: 30px; height: 30px; margin-bottom: 4px;
+  border-radius: 10px; background: var(--tint); color: var(--mint); font-weight: 750; font-size: .9375rem;
+}
+.exam-start-cards > li:nth-child(2)::before { background: #e6eef9; color: #2b5b9c; }
+.exam-start-cards > li:nth-child(3)::before { background: var(--amber-soft); color: var(--amber); }
+.exam-start-cards > li:nth-child(4)::before { background: #f6e9f3; color: #8a3a7e; }
+.exam-start-cards strong { font-size: 1.0625rem; font-weight: 700; color: var(--ink); }
+.learning-studio .exam-start-cards p { margin: 0; max-width: none; font-size: .9375rem; line-height: 1.75; color: var(--muted); }
+.learning-studio .exam-start-cards .exam-start-links { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 6px; }
+.learning-studio .exam-start-links > a, .exam-start-links > span {
+  display: inline-flex; align-items: center; min-height: 34px; padding: 4px 12px; border: 1px solid var(--line-strong);
+  border-radius: 999px; background: #fff; color: var(--ink); font-size: .875rem; font-weight: 600; text-decoration: none !important;
+  transition: background .12s, border-color .12s, color .12s;
+}
+.learning-studio .exam-start-links > a:hover { border-color: var(--mint); background: var(--tint); color: var(--mint); }
+.exam-start-how { font-size: .8125rem; color: var(--muted); }
+.exam-start-how > summary { min-height: 32px; display: flex; align-items: center; color: var(--faint); font-weight: 600; }
+.exam-start-how > summary:hover { color: var(--mint); }
+.exam-start-how ul { margin: 4px 0 0; padding-left: 18px; line-height: 1.7; }
+.learning-studio .exam-start-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; max-width: none; margin: 14px 0 0; font-size: .875rem; color: var(--faint); }
+.learning-studio .exam-start-foot .study-path-link {
+  display: inline-flex; gap: 10px; min-height: 48px; margin: 0; padding: 10px 20px; border: 1px solid #bcd9cf;
+  border-radius: 14px; background: var(--tint); color: var(--mint-strong); text-decoration: none;
+}
+.learning-studio .exam-start-foot .study-path-link:hover { border-color: var(--mint); background: #d4ebe3; }
+
+.study-home .study-resume {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 28px; padding: 20px 24px;
+  border: 1px solid var(--line); border-left: 5px solid var(--mint); border-radius: 16px; background: #fff; box-shadow: var(--card-shadow);
+}
+.study-home > .study-subject-grid { margin-top: 36px; gap: 16px; }
+.study-subject-card, .study-workbench-card { border: 1px solid var(--line); border-radius: 20px; background: #fff; box-shadow: var(--card-shadow); }
+.study-subject-card { position: relative; overflow: hidden; padding-top: 30px; }
+.study-subject-card::before { content: ''; position: absolute; inset: 0 0 auto; height: 5px; background: var(--mint); }
+.study-subject-card:nth-child(2)::before { background: #2b5b9c; }
+.study-subject-card:nth-child(3)::before { background: #8a3a7e; }
+.study-subject-card:nth-child(3) .study-subject-icon { color: #8a3a7e; background: #f6e9f3; }
+.study-subject-card:hover, .study-workbench-card:hover { border-color: var(--line-strong); box-shadow: var(--lift); transform: translateY(-2px); }
+.learning-studio .study-subject-card h2 { font-size: 1.3125rem; font-weight: 750; }
+.study-home .study-subject-count { display: inline-block; align-self: flex-start; padding: 1px 10px; border-radius: 999px; background: var(--chrome); font-size: .8125rem; font-weight: 600; }
+.study-home-workbenches { margin-top: 48px; }
+.study-workbench-card { position: relative; padding-left: 26px; }
+.study-workbench-card h3 { font-weight: 700; }
+
+/* ---------- Topic page ---------- */
+.study-roadmap.topic-start {
+  position: relative; margin: 0 0 28px; padding: 22px 26px 18px 26px; border: 1px solid var(--subject-line); border-radius: 18px;
+  background: linear-gradient(135deg, var(--subject-soft), #fff 70%);
+}
+.learning-studio .study-roadmap.topic-start h2 { margin: 0 0 8px; font-size: 1rem; font-weight: 700; color: var(--subject); letter-spacing: .04em; }
+.learning-studio .study-roadmap.topic-start > p { max-width: 60em; margin: 4px 0 0; font-size: .9375rem; line-height: 1.8; color: var(--muted); }
+.learning-studio .study-roadmap.topic-start > p:first-of-type { margin: 0 0 6px; }
+.learning-studio .study-roadmap.topic-start > p:first-of-type > a {
+  display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 8px 18px; border-radius: 12px;
+  background: var(--mint); color: #fff; font-size: 1rem; font-weight: 650; text-decoration: none; text-wrap: balance;
+  box-shadow: 0 1px 2px #17232d26, 0 4px 10px #17232d1a;
+}
+.learning-studio .study-roadmap.topic-start > p:first-of-type > a:hover { filter: brightness(.9); color: #fff; }
+.learning-studio .study-roadmap.topic-start > p:last-of-type { font-size: .8125rem; color: var(--faint); }
+.learning-topic-progress { margin: 4px 0 18px; color: var(--muted); }
+.learning-topic-progress > div { height: 8px !important; border-radius: 999px; background: #e7eae4 !important; overflow: hidden; }
+.learning-topic-progress > div > i { display: block; height: 100%; border-radius: 999px; background: var(--subject) !important; }
+.study-view-tabs { margin-bottom: 18px; border-radius: 14px; background: var(--chrome); }
+.study-view-tabs button[aria-selected="true"] { color: var(--subject); }
+.study-principles ol { display: grid; gap: 10px; border: 0; background: transparent; }
+.study-principle {
+  grid-template-columns: 2.6em minmax(0, 1fr) auto; gap: 4px 16px; padding: 18px 20px;
+  border: 1px solid var(--line); border-radius: 16px; background: #fff; transition: border-color .12s, box-shadow .12s;
+}
+.study-principle:hover { border-color: var(--line-strong); box-shadow: var(--card-shadow); }
+.study-principle + .study-principle, .study-principle:first-child { border-top: 1px solid var(--line); }
+.study-principle-index {
+  display: grid; place-items: center; width: 34px; height: 34px; padding: 0; border-radius: 10px;
+  background: var(--subject-soft); color: var(--subject); font-size: .875rem; font-weight: 750;
+}
+.study-principle > div { display: flex; flex-direction: column; min-width: 0; }
+.learning-studio .study-principle-source { order: -1; margin: 0 0 4px; color: var(--subject); font-size: .9375rem; font-weight: 700; }
+.study-principle-text { font-size: 1rem; font-weight: 450; line-height: 1.8; color: #2a3642; }
+.study-principle-formula { align-self: flex-start; margin-top: 10px; padding: 5px 12px; border: 1px solid var(--line); background: var(--chrome); }
+.learning-studio a.study-principle-open { align-self: center; border: 1px solid var(--line); color: var(--subject); }
+.learning-studio a.study-principle-open:hover { border-color: var(--subject); background: var(--subject-soft); }
+.learning-unit-list { display: grid; gap: 8px; border-top: 0; }
+.learning-studio .learning-unit { padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.learning-studio .learning-unit:hover { border-color: var(--line-strong); background: #fff; box-shadow: var(--card-shadow); }
+.learning-unit > .learning-index, .learning-index { color: var(--subject); }
+.learning-index.is-passed { color: var(--mint); }
+
+/* Course directory and topic tree. */
+.study-topic-tree { border: 1px solid var(--line); border-radius: 18px; background: #fff; overflow: hidden; }
+.study-topic-branch[open] > summary { color: var(--subject); }
+.study-catalog-tabs a[aria-current] { color: var(--subject); }
+
+/* ---------- Lesson page ---------- */
+.study-question-label { background: var(--amber-soft); color: var(--amber); }
+.learning-lesson-meta > button { background: #fff; }
+.learning-steps { gap: 8px; padding: 6px; border-radius: 16px; background: var(--chrome); }
+.learning-steps a { border-radius: 12px; font-weight: 600; }
+.learning-steps a:hover { background: #ebeee8; }
+.learning-steps a[aria-current] { background: var(--mint); color: #fff; box-shadow: 0 1px 2px #17232d26, 0 4px 12px #17232d1f; }
+.learning-steps a[aria-current] > span { border-color: #fff; background: #fff; color: var(--mint); }
+.learning-steps a[aria-current]:hover { background: var(--mint); color: #fff; filter: brightness(.95); }
+.learning-studio .principle-label { display: flex; align-items: center; gap: 10px; color: var(--subject); }
+.learning-studio .principle-label::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+.principle-core { padding: 22px 26px; border: 1px solid var(--subject-line); border-radius: 18px; background: linear-gradient(135deg, var(--subject-soft), #fff 80%); }
+.learning-studio .principle-core .principle-label::after { background: #cfe0da; }
+.principle-core .learning-takeaway { padding: 0; border: 0; background: transparent; color: var(--ink); font-size: 1.1875rem; font-weight: 600; line-height: 1.85; }
+.principle-conclusion { border-top-color: #d3e4de; }
+.principle-list > li::before { background: var(--subject-soft); color: var(--subject); }
+.learning-equation { border-radius: 14px; background: var(--chrome); }
+.principle-figure { border-radius: 16px; }
+.principle-pitfall { border-radius: 16px; }
+.learning-options button { border-radius: 14px; }
+.learning-options button[aria-pressed=true] { border-color: var(--mint); background: var(--tint); }
+.learning-lesson-footer { align-items: center; margin-top: 40px; padding: 18px 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--chrome); }
+.learning-lesson-footer > span { color: var(--faint); }
+/* A footer without a next button (the check step) is just a quiet status line, not an empty panel. */
+.learning-lesson-footer:not(:has(.learning-primary)) { padding: 16px 0 0; border: 0; border-top: 1px solid var(--line); border-radius: 0; background: transparent; }
+.learning-studio > details, .learning-studio > .learning-sources { padding: 2px 0; }
+.learning-studio > details > summary { color: var(--muted); font-weight: 600; }
+
+/* ---------- Guide, review, paths ---------- */
+.study-guide-steps > li, .study-guide-steps > li + li { border-radius: 16px; background: #fff; box-shadow: var(--card-shadow); }
+.study-guide-section { border-radius: 16px; background: #fff; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1100px) {
+  .exam-start-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 1150px) {
+  body[data-surface=learn] main { padding: 24px 12px 28px; }
+  .learning-studio:not([data-view=home]) { padding: 26px 17px 30px; }
+  body[data-surface=lab] main { margin: 16px 12px; padding: 28px 20px 24px; }
+}
+@media (max-width: 760px) {
+  .topbar, body[data-surface=learn] .topbar { position: sticky; top: 0; z-index: 30; min-height: 58px; padding: 8px 16px; }
+  .brand-mark { flex-basis: 30px; width: 30px; height: 30px; padding: 5px; }
+  .sidebar, body[data-surface=learn] .sidebar { background: #fff; border-bottom: 1px solid var(--line); box-shadow: 0 12px 24px #17232d14; }
+  .sidebar .nav-item.active, .sidebar .nav-item[aria-current=page] { background: var(--tint); box-shadow: none; }
+  /* Phones: the sheet goes edge to edge so workbenches keep the full pre-refresh width. */
+  body[data-surface=learn] main { padding: 0 0 24px; }
+  .learning-studio:not([data-view=home]) { padding: 24px 22px 28px; border-width: 0 0 1px; border-radius: 0; box-shadow: none; }
+  .learning-studio[data-view=home] { padding: 16px 14px 0; }
+  body[data-surface=lab] main { margin: 0; padding: 28px 22px 24px; border-width: 0 0 1px; border-radius: 0; box-shadow: none; }
+  .learning-studio .learning-heading h1, .learning-studio .study-guide h1, .learning-studio .learning-question h1,
+  .path-heading h1, .path-overview-heading h1 { font-size: 1.625rem; }
+  .study-home .study-welcome { display: block; padding: 40px 22px 76px; border-radius: 22px; background-size: auto 70%, auto; background-position: right -60px top 10px, 0 0; }
+  .study-home .study-welcome::before { left: 22px; top: 20px; }
+  .learning-studio .study-home .study-welcome h1 { font-size: 2rem; }
+  .learning-studio .study-home .study-welcome p { font-size: 1rem; }
+  .learning-studio .study-home .study-guide-link { margin-top: 14px; min-height: 40px; }
+  .study-home .study-search { width: calc(100% - 28px); margin: -34px 14px 0; min-height: 58px; }
+  .exam-start-cards { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .exam-start-cards > li { padding: 16px 16px 14px; }
+  .learning-studio .exam-start-foot .study-path-link { width: 100%; justify-content: space-between; }
+  .study-roadmap.topic-start { padding: 18px 18px 14px; }
+  .principle-core { padding: 18px 18px; }
+  .principle-core .learning-takeaway { font-size: 1.0625rem; }
+  .learning-steps a[aria-current] { box-shadow: none; }
+  .learning-lesson-footer { padding: 14px 14px; }
+}
+@media (max-width: 420px) {
+  .learning-studio:not([data-view=home]) { padding: 20px 18px 24px; }
+  body[data-surface=lab] main { padding-left: 18px; padding-right: 18px; }
+}
+@media (max-width: 600px) {
+  .study-principle { grid-template-columns: 34px minmax(0, 1fr); gap: 6px 12px; padding: 14px 14px; }
+  .study-principle-index { width: 30px; height: 30px; }
+  .learning-studio a.study-principle-open { grid-column: 2; justify-self: start; align-self: start; padding-left: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .study-subject-card, .study-workbench-card, .study-principle { transition: none !important; transform: none !important; }
+}
+

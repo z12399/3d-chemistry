@@ -1,0 +1,3183 @@
+{
+  "version": 1,
+  "generator": {
+    "rdkit": "2026.03.6",
+    "method": "ETKDGv3; MMFF94 minimization; heavy-atom alignment; six-decimal display coordinates",
+    "geometryType": "isolated display conformers; not measured aqueous structures or proton-transfer trajectories"
+  },
+  "scope": "One common representative protomer per macrocharge class; macroscopic fractions do not determine microscopic site or conformer probabilities. One carboxylate resonance drawing is used; C–O bond localization is not physical. No solvent, counterions or free energy are modeled.",
+  "aminoAcids": {
+    "alanine": {
+      "id": "alanine",
+      "label": "L-丙胺酸",
+      "groups": [
+        {
+          "id": "alpha-amino",
+          "label": "α-胺基",
+          "atoms": [
+            "Nα"
+          ]
+        },
+        {
+          "id": "alpha-carboxyl",
+          "label": "α-羧基",
+          "atoms": [
+            "C1",
+            "O1",
+            "O2"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "amino-alanine-0",
+          "index": 0,
+          "name": "L-丙胺酸 · 代表形態 1",
+          "charge": 1,
+          "formula": "C3H8NO2+",
+          "smiles": "C[C@H]([NH3+])C(=O)O",
+          "condensed": "H₃N⁺–CH(CH₃)–COOH",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -1.140784,
+                -1.474882,
+                -0.127913
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.714142,
+                -0.05036,
+                -0.391486
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.605669,
+                0.864183,
+                0.428638
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.761057,
+                0.116041,
+                -0.037575
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.461327,
+                -0.808705,
+                0.347961
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.238211,
+                1.353722,
+                -0.219625
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.105556,
+                -1.668544,
+                -0.418819
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.035745,
+                -1.704894,
+                0.870452
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.507542,
+                -2.121332,
+                -0.621886
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.844135,
+                0.10543,
+                -1.466592
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.459663,
+                0.705644,
+                1.503089
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.381434,
+                1.915828,
+                0.220642
+              ]
+            },
+            {
+              "id": "H-Cβ-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.663185,
+                0.696493,
+                0.198583
+              ]
+            },
+            {
+              "id": "H-O2-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.193622,
+                1.342084,
+                0.020231
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-3",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "H-O2-1",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-alanine-1",
+          "index": 1,
+          "name": "L-丙胺酸 · 代表形態 2",
+          "charge": 0,
+          "formula": "C3H7NO2",
+          "smiles": "C[C@H]([NH3+])C(=O)[O-]",
+          "condensed": "H₃N⁺–CH(CH₃)–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -1.127048,
+                -1.094293,
+                -0.899104
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.730623,
+                0.217816,
+                -0.243213
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.553518,
+                0.402572,
+                1.013186
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.805868,
+                0.195852,
+                0.005769
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.293873,
+                1.072424,
+                0.746402
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                1.311449,
+                -0.79437,
+                -0.62304
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.41641,
+                -1.803526,
+                -0.223966
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.742977,
+                -1.004951,
+                -1.704491
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.18093,
+                -1.42235,
+                -1.227438
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.951258,
+                0.996261,
+                -0.981087
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.311192,
+                -0.358098,
+                1.763568
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.625295,
+                0.340913,
+                0.797062
+              ]
+            },
+            {
+              "id": "H-Cβ-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.358605,
+                1.381205,
+                1.464371
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-3",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-alanine-2",
+          "index": 2,
+          "name": "L-丙胺酸 · 代表形態 3",
+          "charge": -1,
+          "formula": "C3H6NO2-",
+          "smiles": "C[C@H](N)C(=O)[O-]",
+          "condensed": "H₂N–CH(CH₃)–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 0,
+              "position": [
+                -1.17157,
+                -0.935569,
+                -1.058801
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.770761,
+                0.216641,
+                -0.183654
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.52458,
+                0.143982,
+                1.132886
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.798106,
+                0.2007,
+                0.002358
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.243414,
+                0.75451,
+                1.045212
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                1.42539,
+                -0.380264,
+                -0.938001
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.88173,
+                -1.773487,
+                -0.54875
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.445671,
+                -0.909733,
+                -1.795146
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.029314,
+                1.143272,
+                -0.708197
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.237497,
+                -0.741773,
+                1.710671
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.31553,
+                1.023439,
+                1.751426
+              ]
+            },
+            {
+              "id": "H-Cβ-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.606794,
+                0.107758,
+                0.966874
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-3",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    "aspartic": {
+      "id": "aspartic",
+      "label": "L-天門冬胺酸",
+      "groups": [
+        {
+          "id": "alpha-amino",
+          "label": "α-胺基",
+          "atoms": [
+            "Nα"
+          ]
+        },
+        {
+          "id": "alpha-carboxyl",
+          "label": "α-羧基",
+          "atoms": [
+            "C1",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "id": "side-carboxyl",
+          "label": "側鏈羧基",
+          "atoms": [
+            "Cγ",
+            "O3",
+            "O4"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "amino-aspartic-0",
+          "index": 0,
+          "name": "L-天門冬胺酸 · 代表形態 1",
+          "charge": 1,
+          "formula": "C4H8NO4+",
+          "smiles": "[NH3+][C@@H](CC(=O)O)C(=O)O",
+          "condensed": "H₃N⁺–CH(CH₂COOH)–COOH",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -1.902196,
+                -1.488159,
+                0.012645
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.833795,
+                -0.42481,
+                0.233276
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.52522,
+                -1.03304,
+                -0.07999
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.577741,
+                -0.287723,
+                0.685294
+              ]
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.391306,
+                0.335057,
+                1.714696
+              ]
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                2.793924,
+                -0.42211,
+                0.137626
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.150704,
+                0.763437,
+                -0.675607
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -2.215726,
+                0.872374,
+                -1.266913
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -0.185769,
+                1.684973,
+                -0.761027
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.830086,
+                -1.034748,
+                0.055366
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.877169,
+                -2.238647,
+                0.713039
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.84593,
+                -1.895179,
+                -0.931076
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.963614,
+                -0.112473,
+                1.273787
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.743485,
+                -0.973653,
+                -1.152344
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.579718,
+                -2.081166,
+                0.234884
+              ]
+            },
+            {
+              "id": "H-O4-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.418603,
+                0.077314,
+                0.710577
+              ]
+            },
+            {
+              "id": "H-O2-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.518705,
+                2.418671,
+                -1.328465
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "Cγ",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H-O4-1",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "H-O2-1",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-aspartic-1",
+          "index": 1,
+          "name": "L-天門冬胺酸 · 代表形態 2",
+          "charge": 0,
+          "formula": "C4H7NO4",
+          "smiles": "[NH3+][C@@H](CC(=O)O)C(=O)[O-]",
+          "condensed": "H₃N⁺–CH(CH₂COOH)–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -1.958629,
+                -1.45303,
+                -0.121346
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.851206,
+                -0.459616,
+                0.238167
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.497853,
+                -1.107996,
+                0.007302
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.630118,
+                -0.282736,
+                0.55034
+              ]
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                2.756841,
+                -0.238763,
+                0.084308
+              ]
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.345175,
+                0.317171,
+                1.720242
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.064559,
+                0.819224,
+                -0.621659
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -0.125514,
+                1.632763,
+                -0.715947
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -2.230079,
+                0.772984,
+                -1.141407
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.405511,
+                -1.907712,
+                0.673169
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.705042,
+                -2.085337,
+                -0.882705
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.651128,
+                -0.791451,
+                -0.563666
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.033899,
+                -0.203133,
+                1.286898
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.671475,
+                -1.243337,
+                -1.067068
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.547678,
+                -2.091406,
+                0.488158
+              ]
+            },
+            {
+              "id": "H-O4-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.127105,
+                0.892628,
+                1.873953
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "Cγ",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H-O4-1",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-aspartic-2",
+          "index": 2,
+          "name": "L-天門冬胺酸 · 代表形態 3",
+          "charge": -1,
+          "formula": "C4H6NO4-",
+          "smiles": "[NH3+][C@@H](CC(=O)[O-])C(=O)[O-]",
+          "condensed": "H₃N⁺–CH(CH₂COO⁻)–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -1.207761,
+                -0.724656,
+                0.880873
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.468394,
+                0.394748,
+                0.170169
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.845688,
+                -0.138993,
+                -0.382564
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.670688,
+                -0.729784,
+                0.749113
+              ]
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                1.008399,
+                -1.506077,
+                1.513068
+              ]
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                2.87769,
+                -0.39357,
+                0.802946
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.349125,
+                0.925834,
+                -1.000077
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -2.304949,
+                0.119806,
+                -1.258605
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -1.072236,
+                2.052694,
+                -1.474923
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.498548,
+                -1.355675,
+                1.324111
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.866571,
+                -0.359973,
+                1.560055
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.735821,
+                -1.189463,
+                0.125466
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.306838,
+                1.173579,
+                0.922877
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.403687,
+                0.666708,
+                -0.874161
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.674114,
+                -0.918542,
+                -1.134941
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "Cγ",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-aspartic-3",
+          "index": 3,
+          "name": "L-天門冬胺酸 · 代表形態 4",
+          "charge": -2,
+          "formula": "C4H5NO4-2",
+          "smiles": "N[C@@H](CC(=O)[O-])C(=O)[O-]",
+          "condensed": "H₂N–CH(CH₂COO⁻)–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 0,
+              "position": [
+                -1.570392,
+                -1.625894,
+                -0.74949
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.77124,
+                -0.573068,
+                0.009482
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.712246,
+                -0.873163,
+                -0.18112
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.645963,
+                -0.218504,
+                0.841492
+              ]
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                2.73698,
+                0.225551,
+                0.368031
+              ]
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                1.298014,
+                -0.285296,
+                2.056094
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.19704,
+                0.82156,
+                -0.619794
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -1.73525,
+                1.654233,
+                0.166805
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -1.119282,
+                0.874581,
+                -1.8915
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.366236,
+                -1.370226,
+                -1.726765
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.53771,
+                -1.31584,
+                -0.643103
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.071825,
+                -0.618785,
+                1.061118
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.890083,
+                -1.953022,
+                -0.084966
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.036565,
+                -0.591453,
+                -1.19102
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "Cγ",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    "lysine": {
+      "id": "lysine",
+      "label": "L-離胺酸",
+      "groups": [
+        {
+          "id": "alpha-amino",
+          "label": "α-胺基",
+          "atoms": [
+            "Nα"
+          ]
+        },
+        {
+          "id": "alpha-carboxyl",
+          "label": "α-羧基",
+          "atoms": [
+            "C1",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "id": "side-amino",
+          "label": "側鏈胺基",
+          "atoms": [
+            "Nε"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "amino-lysine-0",
+          "index": 0,
+          "name": "L-離胺酸 · 代表形態 1",
+          "charge": 2,
+          "formula": "C6H16N2O2+2",
+          "smiles": "[NH3+]CCCC[C@H]([NH3+])C(=O)O",
+          "condensed": "H₃N⁺–CH[(CH₂)₄NH₃⁺]–COOH",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -2.787343,
+                0.825508,
+                -0.870953
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.564938,
+                -0.022518,
+                -0.585857
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.36735,
+                0.921485,
+                -0.386946
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.001483,
+                0.211697,
+                -0.295215
+              ]
+            },
+            {
+              "id": "Cδ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.156259,
+                1.220896,
+                -0.176917
+              ]
+            },
+            {
+              "id": "Cε",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                3.48851,
+                0.614357,
+                0.271836
+              ]
+            },
+            {
+              "id": "Nε",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                4.051707,
+                -0.287678,
+                -0.757345
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.828505,
+                -0.933227,
+                0.624007
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -1.004693,
+                -1.581119,
+                1.239941
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -3.14513,
+                -0.969402,
+                0.937449
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -3.625363,
+                0.225855,
+                -0.769049
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.803639,
+                1.239518,
+                -1.810738
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.91684,
+                1.570441,
+                -0.172757
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.439258,
+                -0.657759,
+                -1.468468
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.517812,
+                1.510635,
+                0.527227
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.330474,
+                1.633896,
+                -1.221362
+              ]
+            },
+            {
+              "id": "H-Cγ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.150251,
+                -0.419418,
+                -1.178764
+              ]
+            },
+            {
+              "id": "H-Cγ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.023593,
+                -0.442051,
+                0.581364
+              ]
+            },
+            {
+              "id": "H-Cδ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.284243,
+                1.742096,
+                -1.13356
+              ]
+            },
+            {
+              "id": "H-Cδ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.880959,
+                1.984481,
+                0.561486
+              ]
+            },
+            {
+              "id": "H-Cε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.23231,
+                1.40052,
+                0.433157
+              ]
+            },
+            {
+              "id": "H-Cε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.381416,
+                0.028409,
+                1.189538
+              ]
+            },
+            {
+              "id": "H-Nε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.203644,
+                0.188361,
+                -1.657226
+              ]
+            },
+            {
+              "id": "H-Nε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.477786,
+                -1.123845,
+                -0.922655
+              ]
+            },
+            {
+              "id": "H-Nε-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.977765,
+                -0.630514,
+                -0.457648
+              ]
+            },
+            {
+              "id": "H-O2-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -3.226441,
+                -1.59942,
+                1.697398
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "Cδ",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "Cε",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "Nε",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-1",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-2",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-1",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-2",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-1",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-1",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-3",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "H-O2-1",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-lysine-1",
+          "index": 1,
+          "name": "L-離胺酸 · 代表形態 2",
+          "charge": 1,
+          "formula": "C6H15N2O2+",
+          "smiles": "[NH3+]CCCC[C@H]([NH3+])C(=O)[O-]",
+          "condensed": "H₃N⁺–CH[(CH₂)₄NH₃⁺]–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                -2.901843,
+                0.895326,
+                0.022667
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.640017,
+                0.199083,
+                -0.460507
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.502009,
+                1.219771,
+                -0.563896
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.656105,
+                0.739385,
+                -1.462743
+              ]
+            },
+            {
+              "id": "Cδ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.052043,
+                0.837907,
+                -0.825514
+              ]
+            },
+            {
+              "id": "Cε",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.314035,
+                -0.235532,
+                0.22894
+              ]
+            },
+            {
+              "id": "Nε",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                3.732128,
+                -0.170207,
+                0.664388
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.294461,
+                -0.939108,
+                0.551597
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -2.27348,
+                -1.119159,
+                1.340488
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -0.142501,
+                -1.427467,
+                0.504582
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -3.6149,
+                1.047551,
+                -0.692012
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.73462,
+                1.716016,
+                0.608015
+              ]
+            },
+            {
+              "id": "H-Nα-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -3.273598,
+                0.174155,
+                0.696298
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.898779,
+                -0.239454,
+                -1.429651
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.890347,
+                2.154471,
+                -0.989141
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.132723,
+                1.469134,
+                0.438556
+              ]
+            },
+            {
+              "id": "H-Cγ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.490989,
+                -0.283461,
+                -1.821135
+              ]
+            },
+            {
+              "id": "H-Cγ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.658665,
+                1.369634,
+                -2.36187
+              ]
+            },
+            {
+              "id": "H-Cδ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.195507,
+                1.836217,
+                -0.394439
+              ]
+            },
+            {
+              "id": "H-Cδ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.795004,
+                0.734899,
+                -1.627031
+              ]
+            },
+            {
+              "id": "H-Cε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.177385,
+                -1.242694,
+                -0.171571
+              ]
+            },
+            {
+              "id": "H-Cε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.724469,
+                -0.071496,
+                1.133047
+              ]
+            },
+            {
+              "id": "H-Nε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.893721,
+                -0.89537,
+                1.376431
+              ]
+            },
+            {
+              "id": "H-Nε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.966493,
+                0.736082,
+                1.083882
+              ]
+            },
+            {
+              "id": "H-Nε-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.375368,
+                -0.356813,
+                -0.113584
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "Cδ",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "Cε",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "Nε",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-3",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-1",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-2",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-1",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-2",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-1",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-1",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-3",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-lysine-2",
+          "index": 2,
+          "name": "L-離胺酸 · 代表形態 3",
+          "charge": 0,
+          "formula": "C6H14N2O2",
+          "smiles": "N[C@@H](CCCC[NH3+])C(=O)[O-]",
+          "condensed": "H₂N–CH[(CH₂)₄NH₃⁺]–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 0,
+              "position": [
+                -1.905831,
+                0.197913,
+                -1.635361
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.930946,
+                -0.172033,
+                -0.565566
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.174724,
+                1.090733,
+                -0.154033
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.938671,
+                0.889906,
+                0.881755
+              ]
+            },
+            {
+              "id": "Cδ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                1.956393,
+                -0.215581,
+                0.579853
+              ]
+            },
+            {
+              "id": "Cε",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.537074,
+                -0.220417,
+                -0.824455
+              ]
+            },
+            {
+              "id": "Nε",
+              "element": "N",
+              "charge": 1,
+              "position": [
+                3.139334,
+                1.096444,
+                -1.138061
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.688056,
+                -0.758034,
+                0.676569
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -0.996855,
+                -1.559798,
+                1.365282
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -2.87506,
+                -0.349134,
+                0.814016
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.409494,
+                -0.668223,
+                -1.857485
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.651423,
+                0.689922,
+                -1.110307
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.26744,
+                -0.937156,
+                -0.976788
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.253893,
+                1.557291,
+                -1.049558
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.877457,
+                1.829363,
+                0.25602
+              ]
+            },
+            {
+              "id": "H-Cγ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.470066,
+                1.843347,
+                0.99682
+              ]
+            },
+            {
+              "id": "H-Cγ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.492154,
+                0.689556,
+                1.863458
+              ]
+            },
+            {
+              "id": "H-Cδ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.503643,
+                -1.195754,
+                0.763123
+              ]
+            },
+            {
+              "id": "H-Cδ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.774502,
+                -0.129378,
+                1.306822
+              ]
+            },
+            {
+              "id": "H-Cε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.3396,
+                -0.95963,
+                -0.908443
+              ]
+            },
+            {
+              "id": "H-Cε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                1.796494,
+                -0.420101,
+                -1.60151
+              ]
+            },
+            {
+              "id": "H-Nε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.599891,
+                1.079259,
+                -2.054355
+              ]
+            },
+            {
+              "id": "H-Nε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.411421,
+                1.82218,
+                -1.17583
+              ]
+            },
+            {
+              "id": "H-Nε-3",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                3.824653,
+                1.3738,
+                -0.426509
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "Cδ",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "Cε",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "Nε",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-1",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-2",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-1",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-2",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-1",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-1",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-3",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "id": "amino-lysine-3",
+          "index": 3,
+          "name": "L-離胺酸 · 代表形態 4",
+          "charge": -1,
+          "formula": "C6H13N2O2-",
+          "smiles": "NCCCC[C@H](N)C(=O)[O-]",
+          "condensed": "H₂N–CH[(CH₂)₄NH₂]–COO⁻",
+          "alphaConfiguration": "S",
+          "atoms": [
+            {
+              "id": "Nα",
+              "element": "N",
+              "charge": 0,
+              "position": [
+                -2.500214,
+                1.461679,
+                0.083193
+              ]
+            },
+            {
+              "id": "Cα",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.654248,
+                0.30976,
+                -0.382043
+              ]
+            },
+            {
+              "id": "Cβ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -0.186828,
+                0.745828,
+                -0.371192
+              ]
+            },
+            {
+              "id": "Cγ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                0.74095,
+                -0.284749,
+                -1.027439
+              ]
+            },
+            {
+              "id": "Cδ",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.191605,
+                0.199318,
+                -1.133587
+              ]
+            },
+            {
+              "id": "Cε",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                2.888662,
+                0.290797,
+                0.223283
+              ]
+            },
+            {
+              "id": "Nε",
+              "element": "N",
+              "charge": 0,
+              "position": [
+                4.271056,
+                0.745989,
+                0.055205
+              ]
+            },
+            {
+              "id": "C1",
+              "element": "C",
+              "charge": 0,
+              "position": [
+                -1.858768,
+                -0.889505,
+                0.622004
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "charge": 0,
+              "position": [
+                -2.032132,
+                -0.540172,
+                1.830168
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "charge": -1,
+              "position": [
+                -1.860083,
+                -2.038945,
+                0.100409
+              ]
+            },
+            {
+              "id": "H-Nα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -3.459345,
+                1.106392,
+                0.07166
+              ]
+            },
+            {
+              "id": "H-Nα-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -2.314823,
+                1.475928,
+                1.100197
+              ]
+            },
+            {
+              "id": "H-Cα-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -1.978277,
+                0.027527,
+                -1.389414
+              ]
+            },
+            {
+              "id": "H-Cβ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                -0.087592,
+                1.696639,
+                -0.911167
+              ]
+            },
+            {
+              "id": "H-Cβ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.136976,
+                0.930811,
+                0.660033
+              ]
+            },
+            {
+              "id": "H-Cγ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.715829,
+                -1.230538,
+                -0.474719
+              ]
+            },
+            {
+              "id": "H-Cγ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                0.375254,
+                -0.497018,
+                -2.039687
+              ]
+            },
+            {
+              "id": "H-Cδ-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.216627,
+                1.172174,
+                -1.640483
+              ]
+            },
+            {
+              "id": "H-Cδ-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.742164,
+                -0.50324,
+                -1.772477
+              ]
+            },
+            {
+              "id": "H-Cε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.892859,
+                -0.689079,
+                0.712253
+              ]
+            },
+            {
+              "id": "H-Cε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                2.370766,
+                0.993068,
+                0.883358
+              ]
+            },
+            {
+              "id": "H-Nε-1",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.257213,
+                1.677012,
+                -0.358377
+              ]
+            },
+            {
+              "id": "H-Nε-2",
+              "element": "H",
+              "charge": 0,
+              "position": [
+                4.686548,
+                0.850745,
+                0.979382
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Nα",
+              "b": "Cα",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "Cβ",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "Cγ",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "Cδ",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "Cε",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "Nε",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "C1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-1",
+              "order": 1
+            },
+            {
+              "a": "Nα",
+              "b": "H-Nα-2",
+              "order": 1
+            },
+            {
+              "a": "Cα",
+              "b": "H-Cα-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-1",
+              "order": 1
+            },
+            {
+              "a": "Cβ",
+              "b": "H-Cβ-2",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-1",
+              "order": 1
+            },
+            {
+              "a": "Cγ",
+              "b": "H-Cγ-2",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-1",
+              "order": 1
+            },
+            {
+              "a": "Cδ",
+              "b": "H-Cδ-2",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-1",
+              "order": 1
+            },
+            {
+              "a": "Cε",
+              "b": "H-Cε-2",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-1",
+              "order": 1
+            },
+            {
+              "a": "Nε",
+              "b": "H-Nε-2",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

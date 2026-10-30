@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="vitamin-c-electron-balance-title vitamin-c-electron-balance-desc">
+<title id="vitamin-c-electron-balance-title">酸鹼形式不同，淨電子數仍是 2</title>
+<desc id="vitamin-c-electron-balance-desc">中性抗壞血酸及單陰離子到同一形式 DHA 的半反應並列，H⁺ 係數不同，但都釋出兩個電子。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">酸鹼形式不同，淨電子數仍是 2</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="82" width="656" height="120" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="50" y="113" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">中性 AA → 形式 DHA</text>
+<text x="360" y="157" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="400">C₆H₈O₆ → C₆H₆O₆ ＋ 2 H⁺ ＋ 2 e⁻</text>
+<rect x="32" y="224" width="656" height="120" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="50" y="255" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">AA 單陰離子 → 同一形式 DHA</text>
+<text x="360" y="299" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="400">C₆H₇O₆⁻ → C₆H₆O₆ ＋ H⁺ ＋ 2 e⁻</text>
+<rect x="32" y="375" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="401" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">分開核對元素與總電荷；還需電子受體才是完整反應。</text>
+<text x="46" y="426" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">這是淨半反應帳，不是水相所有物種或逐步機構。</text>
+<text x="680" y="467" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

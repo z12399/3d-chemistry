@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">蛋白水解：切法與程度一起看</title>
+<desc id="figure-desc">長鏈在兩個示意位置切斷後變成較短肽並新增末端，下方列出水解程度與位置共同影響的食品功能。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">蛋白水解：切法與程度一起看</tspan></text>
+<text x="360" y="112" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">原肽鏈</tspan></text>
+<path d="M 132 165 L 168 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 202 165 L 238 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 272 165 L 308 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 342 165 L 378 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 412 165 L 448 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 482 165 L 518 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 552 165 L 588 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="115" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="185" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="255" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="325" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="395" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="465" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="535" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="605" cy="165" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 280 143 L 300 187" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 490 143 L 510 187" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 360 205 L 360 272" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="390" y="245" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="390" dy="0">蛋白酶＋水</tspan></text>
+<path d="M 117 315 L 138 315" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 172 315 L 193 315" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="155" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="210" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 347 315 L 368 315" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 402 315 L 423 315" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="330" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="385" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="440" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 582 315 L 603 315" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="565" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="620" cy="315" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="210" cy="315" r="20" fill="none" stroke="#b4692e" stroke-width="2"/>
+<circle cx="330" cy="315" r="20" fill="none" stroke="#b4692e" stroke-width="2"/>
+<circle cx="440" cy="315" r="20" fill="none" stroke="#b4692e" stroke-width="2"/>
+<circle cx="565" cy="315" r="20" fill="none" stroke="#b4692e" stroke-width="2"/>
+<text x="360" y="368" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">較短肽＋新的末端（橙圈）</tspan></text>
+<rect x="32" y="397" width="656" height="55" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="431.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">水解程度與位置 → 溶解、乳化、凝膠與苦味</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

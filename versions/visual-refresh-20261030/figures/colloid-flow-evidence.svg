@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">同一點黏度相同，曲線仍可不同</title>
+<desc id="figure-desc">牛頓流體的黏度為水平線，剪切稀化流體隨剪切速率增加而下降；兩條定性曲線在一點交會。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">同一點黏度相同，曲線仍可不同</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">模型關係示意，非食品實測資料</tspan></text>
+<path d="M 91 365 L 654 365" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 91 365 L 91 112" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="32" y="102" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">ηapp</tspan></text>
+<text x="652" y="398" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="652" dy="0">剪切速率 γ̇</tspan></text>
+<path d="M 115 255 L 634 255" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 117 135 C 178 187 251 238 347 255 C 432 272 525 290 634 294" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="347" cy="255" r="7" fill="#ffffff" stroke="#53606d" stroke-width="3"/>
+<text x="455" y="219" font-size="20" fill="#14665d" text-anchor="start"><tspan x="455" dy="0">A：牛頓，η 固定</tspan></text>
+<text x="430" y="334" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="430" dy="0">B：剪切稀化，η 下降</tspan></text>
+<text x="196" y="319" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="196" dy="0">單點相同</tspan></text>
+<path d="M 285 309 L 332 269" fill="none" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="50" y="430" width="620" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="464.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">ηapp＝τ／γ̇；補另一剪切速率才能看出差異</tspan></text>
+<text x="32" y="506" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">流動行為本身不獨立證明共價斷鏈或成膠。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

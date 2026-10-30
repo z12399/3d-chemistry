@@ -1,0 +1,32 @@
+.mn-defense-lab{--mn-accent:#22665a;display:grid;gap:1rem;line-height:1.7;max-width:100%;color:inherit}
+.mn-defense-lab [hidden]{display:none!important}
+.mn-defense-lab h3,.mn-defense-lab h4,.mn-defense-lab p{margin:0 0 .65rem}
+.mn-defense-lab label{display:grid;gap:.4rem}
+.mn-defense-lab select,.mn-defense-lab textarea{font:inherit;color:#19372f;width:100%;max-width:100%;box-sizing:border-box;padding:.55rem;border:1px solid #8fa7a1;border-radius:.35rem;background:#fff}
+.mn-defense-lab textarea{resize:vertical;min-height:5rem}
+.mn-defense-lab textarea[readonly]{background:#eef4f1;color:#19372f}
+.mn-defense-lab .mn-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:1.4rem;align-items:start}
+.mn-defense-lab .mn-material,.mn-defense-lab .mn-stage{min-width:0;display:grid;gap:1rem}
+.mn-defense-lab .mn-claim{font-weight:650;border-left:.25rem solid var(--mn-accent);padding:.5rem .8rem;background:#ecf5f0;color:#19372f}
+.mn-defense-lab .mn-origin,.mn-defense-lab .mn-small{font-size:.9rem}
+.mn-defense-lab fieldset{border:1px solid #8fa7a1;border-radius:.35rem;padding:.65rem;min-width:0;margin:.7rem 0}
+.mn-defense-lab .mn-choice{display:flex;gap:.6rem;align-items:flex-start;padding:.6rem .35rem;cursor:pointer}
+.mn-defense-lab .mn-choice input{margin-top:.45rem;flex:0 0 auto;accent-color:var(--mn-accent)}
+.mn-defense-lab .mn-choice span{overflow-wrap:anywhere}
+.mn-defense-lab button{font:inherit;border:1px solid var(--mn-accent);border-radius:.35rem;padding:.6rem .85rem;min-height:2.75rem;color:#fff;background:var(--mn-accent);cursor:pointer}
+.mn-defense-lab button:disabled{opacity:.55;cursor:default}
+.mn-defense-lab :focus-visible{outline:3px solid #b26510;outline-offset:3px}
+.mn-defense-lab .mn-actions{display:flex;gap:.7rem;align-items:center;flex-wrap:wrap}
+.mn-defense-lab .mn-table-scroll{overflow-x:auto;max-width:100%}
+.mn-defense-lab table{border-collapse:collapse;width:100%;font-size:.94rem;margin:.6rem 0}
+.mn-defense-lab caption{text-align:left;font-size:.85rem;padding:.35rem}
+.mn-defense-lab th,.mn-defense-lab td{text-align:left;vertical-align:top;padding:.5rem;border:1px solid #9eafa9;overflow-wrap:anywhere}
+.mn-defense-lab .mn-evidence,.mn-defense-lab .mn-feedback{border-top:2px solid var(--mn-accent);padding-top:.8rem}
+.mn-defense-lab .mn-feedback{margin-top:.8rem}
+.mn-defense-lab details{border-top:1px solid #aebbb6;padding-top:.6rem}
+.mn-defense-lab summary{cursor:pointer;font-weight:600;min-height:2rem}
+.mn-defense-lab .mn-error{color:#8c302a}
+.mn-defense-lab .mn-unrevealed{padding:1rem;background:#f0f2f0;color:#37473d}
+@media(max-width:850px){
+.mn-defense-lab .mn-layout{grid-template-columns:minmax(0,1fr)}
+}

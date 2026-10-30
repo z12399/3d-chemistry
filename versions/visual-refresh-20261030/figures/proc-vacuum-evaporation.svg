@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">真空蒸發：降沸點仍需供熱</title>
+<desc id="figure-desc">左側壓力降低使水的沸點降低；右側蒸發槽仍接受供熱並排出蒸氣。品質與系統能耗不能只看壓力。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">真空蒸發：降沸點仍需供熱</tspan></text>
+<rect x="32" y="128" width="226" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="145.0" y="180.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="145.0" dy="0">絕對壓力降低</tspan></text>
+<path d="M 145 231 L 145 271" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="32" y="285" width="226" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="145.0" y="337.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="145.0" dy="0">水的沸點降低</tspan></text>
+<path d="M 370 158 L 370 375 L 654 375 L 654 158" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="381" y="284" width="262" height="80" rx="3" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="512" y="337" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="512" dy="0">果汁</tspan></text>
+<text x="423" y="193" font-size="20" fill="#53606d" text-anchor="start"><tspan x="423" dy="0">真空</tspan></text>
+<path d="M 301 333 L 359 333" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="329" y="307" font-size="19" fill="#b4692e" text-anchor="middle"><tspan x="329" dy="0">供熱</tspan></text>
+<path d="M 514 275 L 514 143 L 645 143" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="576" y="119" font-size="20" fill="#6f8fb5" text-anchor="middle"><tspan x="576" dy="0">蒸氣排出</tspan></text>
+<text x="32" y="421" font-size="24" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">蒸發仍需潛熱</tspan></text>
+<text x="32" y="459" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">品質還受停留時間、濃度與氧接觸影響。</tspan><tspan x="32" dy="25">冷凝與維持真空也有設備需求。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

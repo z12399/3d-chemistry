@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="proc-drying-quality-title proc-drying-quality-desc">
+<title id="proc-drying-quality-title">熱風設定與食品歷程，分開追蹤</title>
+<desc id="proc-drying-quality-desc">熱風供熱到濕表面，水分蒸發帶走熱，內部水分向表面補充；若表面失水快於補水可能產生硬化層。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">熱風設定與食品歷程，分開追蹤</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<text x="37" y="112" font-size="20" fill="#b4692e" text-anchor="start" font-weight="400">熱風供熱</text>
+<line x1="38" y1="154" x2="223" y2="154" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="238" y="117" width="270" height="186" rx="24" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="374" y="153" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">食品剖面</text>
+<line x1="273" y1="175" x2="273" y2="281" stroke="#b4692e" stroke-width="4"/>
+<text x="278" y="329" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">表面</text>
+<text x="426" y="329" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">中心</text>
+<line x1="424" y1="219" x2="287" y2="219" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="357" y="251" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">內部補水</text>
+<line x1="276" y1="112" x2="276" y2="77" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="330" y1="112" x2="330" y2="77" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="401" y="93" font-size="18" fill="#14665d" text-anchor="start" font-weight="400">水分蒸發 → 耗熱</text>
+<text x="542" y="181" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">濕潤表面</text>
+<text x="542" y="207" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">可低於熱風溫度</text>
+<text x="542" y="233" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">後段蒸發減慢</text>
+<text x="542" y="259" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">物料可能升溫</text>
+<text x="32" y="378" font-size="20" fill="#14665d" text-anchor="start" font-weight="400">表面失水比內部補水快 → 可能形成硬化層</text>
+<rect x="32" y="425" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="451" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">品質需連到食品溫度、水分歷程、結構與配方。</text>
+<text x="46" y="476" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">相同含水量不保證相同 aw；表面與中心也可能不同。</text>
+<text x="680" y="517" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>
