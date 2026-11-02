@@ -1,0 +1,405 @@
+{
+  "schema": "vitamin-c-measured/v1",
+  "id": "zhan-2022-lettuce-rocket-vitamin-c",
+  "label": "萵苣與芝麻葉混合樣品：AA 與 DHAA 刊載均值",
+  "evidence": "published-treatment-means",
+  "source": {
+    "id": "vitamin-c-source-zhan2022",
+    "title": "The Mixing Ratio and Filling-Amount Affect the Tissue Browning and Antioxidant Properties of Fresh-Cut Baby Leaf Lettuce (Lactuca sativa L.) and Rocket (Eruca sativa Mill.) Grown in Floating Growing Systems",
+    "authors": [
+      "Lijuan Zhan",
+      "Roberta Bulgari",
+      "Giuseppe Pignata",
+      "Manuela Casale",
+      "Silvana Nicola"
+    ],
+    "year": 2022,
+    "journal": "Foods",
+    "volume": 11,
+    "article": "3515",
+    "doi": "10.3390/foods11213515",
+    "url": "https://www.mdpi.com/2304-8158/11/21/3515",
+    "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9654129/",
+    "pdfUrl": "https://iris.unito.it/retrieve/fabe6a64-17ae-4233-af0e-6de3b688f7cc/foods-11-03515-v2%20%281%29.pdf",
+    "table": "Table 3",
+    "tableSection": "Mix × Filling amount; AA and DHAA columns",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "copyright": "© 2022 by the authors; Licensee MDPI, Basel, Switzerland.",
+    "adaptation": "以自製欄位轉錄 Table 3 數值事實，保留原精度；未複製或改製原圖。total 僅可標作由兩個刊載均值另算。",
+    "accessEvidence": {
+      "method": "完整原表及方法由出版社與作者大學 PDF 的索引原文核讀；不是僅依摘要或猜圖。",
+      "readSections": [
+        "Table 3 (all rows, headers and footnote)",
+        "2.1 Plant Material and Growing Conditions",
+        "2.2 Processing, Packaging, and Storage Conditions",
+        "2.5 Antioxidant Property Parameter Assay",
+        "2.9 Statistical Analysis",
+        "3.3.3 Ascorbic Acid and Dehydroascorbic Acid Contents",
+        "Copyright and license"
+      ],
+      "pdfPageIn13PageVersion": 6,
+      "visualTableVerified": false,
+      "visualLimitation": "直接 PDF 存取回傳 403；screenshot 因未取得 PDF 內容失敗。未冒稱目視原頁或持有已下載 PDF。"
+    }
+  },
+  "unit": "mg/g FW",
+  "reportingBasis": {
+    "id": "l-ascorbic-acid-calibration-fresh-weight",
+    "label": "L-AA 標準曲線校正基準，鮮重濃度",
+    "sourceSection": "2.5",
+    "aa": "原文報告 AA，以新配 L-ascorbic acid 標準曲線校正。",
+    "dhaa": "原文報告 DHAA，同節明示以 L-ascorbic acid 標準曲線校正；本資料不解讀為未水合 DHA 的純物種實際質量。",
+    "notEquivalentTo": [
+      "每袋總量或 true retention",
+      "未水合 DHA 分子量的質量記帳",
+      "直接 LC-MS 物種鑑定",
+      "未測 DKG 的含量"
+    ]
+  },
+  "conditions": {
+    "lettuce": "Lactuca sativa L. var. crispa cv. Lollo Bionda (LB)",
+    "rocket": "Eruca sativa Mill. (RO)",
+    "mixingBasis": "fresh vegetable mass fractions",
+    "temperatureC": 4,
+    "lighting": "dark",
+    "packaging": "0.25 × 0.35 m polypropylene bags; 20 µm film; thermos-sealed",
+    "days": [
+      1,
+      9
+    ],
+    "dayBasis": "儲藏第 1 與第 9 日；d1 不是採收當日 d0。",
+    "interpretation": "研究觀測條件，不是製造、貯存期限或食品安全建議。"
+  },
+  "replication": {
+    "design": "randomized complete block design",
+    "blocks": 3,
+    "treatmentCombinations": 6,
+    "totalPackagedSamples": 36,
+    "designStatement": "3 mixing ratios × 2 filling amounts × 3 blocks; d1 and d9 measurements",
+    "replicateLevel": "experimental blocks, not automatically analytical repeats",
+    "individualReplicatesAvailable": false,
+    "temporalPairing": "破壞性葉片分析；不能稱同一包袋的重複追蹤，也不從表內均值重建配對重複。"
+  },
+  "methods": [
+    "依 §2.5，用 10 g 葉片，採 Kampfenkel 等 1995 引用方法分析 AA 與 DHAA。",
+    "原文明示以新配 L-ascorbic acid 標準曲線校正，結果為 mg/g fresh weight；光度分析使用 Beckman DU-65。",
+    "原表只有 AA 與 DHAA 分項，本草案不把另算和冒稱原研究的第三項獨立量測。",
+    "未讀 Kampfenkel 原方法全文；不補造試劑配方、回收率或操作細節。"
+  ],
+  "uncertainty": {
+    "perTreatmentReported": false,
+    "cellNullMeaning": "null 代表原表未提供逐格 SD、SE 或組合字母，絕不代表誤差為零。",
+    "columnSeScope": "原表另列整欄 SE 行；不配給各處理點，不轉成 SD。",
+    "timeSignificanceAvailable": false,
+    "statisticsLimit": "表註與 §2.9 對 F-test/Tukey 用於哪些因子描述不完全一致；不搬邊際均值字母到組合，也不由同日因子比較推導時間顯著性。"
+  },
+  "publishedColumnStatistics": [
+    {
+      "metricId": "aa",
+      "day": 1,
+      "mean": 0.285,
+      "meanText": "0.285",
+      "se": 0.006,
+      "seText": "0.006"
+    },
+    {
+      "metricId": "aa",
+      "day": 9,
+      "mean": 0.183,
+      "meanText": "0.183",
+      "se": 0.011,
+      "seText": "0.011"
+    },
+    {
+      "metricId": "dhaa",
+      "day": 1,
+      "mean": 0.035,
+      "meanText": "0.035",
+      "se": 0.003,
+      "seText": "0.003"
+    },
+    {
+      "metricId": "dhaa",
+      "day": 9,
+      "mean": 0.072,
+      "meanText": "0.072",
+      "se": 0.005,
+      "seText": "0.005"
+    }
+  ],
+  "derivedTotal": {
+    "id": "aa-plus-dhaa-mean-sum",
+    "formula": "aa.mean + dhaa.mean",
+    "label": "由刊載均值另算的 AA + DHAA 濃度和（L-AA 校正基準）",
+    "reportedColumn": false,
+    "uncertainty": null,
+    "boundary": "不是原文獨立 total 欄；沒有協方差或原始重複，不生成 SD/SE、顯著性或連續曲線；不能從濃度和直接推每包總量留存。"
+  },
+  "defaults": {
+    "treatmentId": "lb50-f125",
+    "comparisonTreatmentId": "lb100-f250",
+    "fromDay": 1,
+    "toDay": 9
+  },
+  "treatments": [
+    {
+      "id": "lb100-f250",
+      "label": "100 LB × F250",
+      "lettucePercent": 100,
+      "rocketPercent": 0,
+      "fillingMassG": 250,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.227,
+            "meanText": "0.227",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.035,
+            "meanText": "0.035",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.111,
+            "meanText": "0.111",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.072,
+            "meanText": "0.072",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "lb100-f125",
+      "label": "100 LB × F125",
+      "lettucePercent": 100,
+      "rocketPercent": 0,
+      "fillingMassG": 125,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.211,
+            "meanText": "0.211",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.025,
+            "meanText": "0.025",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.12,
+            "meanText": "0.120",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.065,
+            "meanText": "0.065",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "lb75-f250",
+      "label": "75 LB × F250",
+      "lettucePercent": 75,
+      "rocketPercent": 25,
+      "fillingMassG": 250,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.324,
+            "meanText": "0.324",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.035,
+            "meanText": "0.035",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.146,
+            "meanText": "0.146",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.062,
+            "meanText": "0.062",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "lb75-f125",
+      "label": "75 LB × F125",
+      "lettucePercent": 75,
+      "rocketPercent": 25,
+      "fillingMassG": 125,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.29,
+            "meanText": "0.290",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.035,
+            "meanText": "0.035",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.183,
+            "meanText": "0.183",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.066,
+            "meanText": "0.066",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "lb50-f250",
+      "label": "50 LB × F250",
+      "lettucePercent": 50,
+      "rocketPercent": 50,
+      "fillingMassG": 250,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.337,
+            "meanText": "0.337",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.037,
+            "meanText": "0.037",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.254,
+            "meanText": "0.254",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.079,
+            "meanText": "0.079",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "lb50-f125",
+      "label": "50 LB × F125",
+      "lettucePercent": 50,
+      "rocketPercent": 50,
+      "fillingMassG": 125,
+      "points": [
+        {
+          "day": 1,
+          "aa": {
+            "mean": 0.323,
+            "meanText": "0.323",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.043,
+            "meanText": "0.043",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        },
+        {
+          "day": 9,
+          "aa": {
+            "mean": 0.288,
+            "meanText": "0.288",
+            "sd": null,
+            "se": null,
+            "letters": null
+          },
+          "dhaa": {
+            "mean": 0.087,
+            "meanText": "0.087",
+            "sd": null,
+            "se": null,
+            "letters": null
+          }
+        }
+      ]
+    }
+  ]
+}

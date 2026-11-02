@@ -1,0 +1,3465 @@
+{
+  "schemaVersion": 1,
+  "bankVersion": "2026-11-02.3",
+  "title": "115學年度三科歷屆原題：作答與參考自評",
+  "scope": {
+    "exam": "ntu-food-science-masters",
+    "referenceYears": [
+      115
+    ],
+    "statement": "先依官方原題自行作答，再展開作答步驟及參考要點。原題文字經目視轉錄；作答步驟、解答與細項評分由本專案編寫。",
+    "scoringMode": "self-assessment",
+    "scoreLabel": "教學參考分配，非官方評分標準",
+    "notCovered": [
+      "完整納入115學年度三專業科31題；尚不代表其他年度或未來命題範圍。",
+      "自評分數尚未經教師批改、難度校準或考場表現驗證。",
+      "科技英文不在本題庫範圍。",
+      "原題轉錄整理了換行、空白與排版字元；原卷圖像及細節仍可由官方題本核對。"
+    ],
+    "officialAnswersAvailable": false
+  },
+  "papers": [
+    {
+      "id": "ntu-115-239",
+      "subject": "chemistry",
+      "year": 115,
+      "totalQuestions": 14,
+      "totalPoints": 100,
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf",
+      "questionInventory": [
+        {
+          "number": 1,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-239-q1"
+        },
+        {
+          "number": 2,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-239-q2"
+        },
+        {
+          "number": 3,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-239-q3"
+        },
+        {
+          "number": 4,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-239-q4"
+        },
+        {
+          "number": 5,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q5"
+        },
+        {
+          "number": 6,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q6"
+        },
+        {
+          "number": 7,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q7"
+        },
+        {
+          "number": 8,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q8"
+        },
+        {
+          "number": 9,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q9"
+        },
+        {
+          "number": 10,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q10"
+        },
+        {
+          "number": 11,
+          "page": 2,
+          "originalPoints": 6,
+          "questionId": "ntu-115-239-q11"
+        },
+        {
+          "number": 12,
+          "page": 2,
+          "originalPoints": 8,
+          "questionId": "ntu-115-239-q12"
+        },
+        {
+          "number": 13,
+          "page": 2,
+          "originalPoints": 5,
+          "questionId": "ntu-115-239-q13"
+        },
+        {
+          "number": 14,
+          "page": 2,
+          "originalPoints": 6,
+          "questionId": "ntu-115-239-q14"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-240",
+      "subject": "processing",
+      "year": 115,
+      "totalQuestions": 10,
+      "totalPoints": 100,
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf",
+      "questionInventory": [
+        {
+          "number": 1,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-240-q1"
+        },
+        {
+          "number": 2,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-240-q2"
+        },
+        {
+          "number": 3,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-240-q3"
+        },
+        {
+          "number": 4,
+          "page": 1,
+          "originalPoints": 5,
+          "questionId": "ntu-115-240-q4"
+        },
+        {
+          "number": 5,
+          "page": 1,
+          "originalPoints": 20,
+          "questionId": "ntu-115-240-q5"
+        },
+        {
+          "number": 6,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-240-q6"
+        },
+        {
+          "number": 7,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-240-q7"
+        },
+        {
+          "number": 8,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-240-q8"
+        },
+        {
+          "number": 9,
+          "page": 1,
+          "originalPoints": 7,
+          "questionId": "ntu-115-240-q9"
+        },
+        {
+          "number": 10,
+          "page": 1,
+          "originalPoints": 8,
+          "questionId": "ntu-115-240-q10"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-241",
+      "subject": "microbiology",
+      "year": 115,
+      "totalQuestions": 7,
+      "totalPoints": 100,
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf",
+      "questionInventory": [
+        {
+          "number": 1,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q1"
+        },
+        {
+          "number": 2,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q2"
+        },
+        {
+          "number": 3,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q3"
+        },
+        {
+          "number": 4,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q4"
+        },
+        {
+          "number": 5,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q5"
+        },
+        {
+          "number": 6,
+          "page": 1,
+          "originalPoints": 10,
+          "questionId": "ntu-115-241-q6"
+        },
+        {
+          "number": 7,
+          "page": 1,
+          "originalPoints": 15,
+          "questionId": "ntu-115-241-q7"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "ntu-115-239-q1",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "梅納反應機制與相對水蒸氣壓",
+      "prompt": "說明食品非酵素性梅納褐變的反應機制，並解釋儲存期間食品的相對水蒸氣壓（Relative Vapor Pressure，RVP）如何影響反應速率。請把早期反應、後續產物路徑與水分效應連起來。可用反應式或文字流程輔助，不必假設一個所有食品共用的速率極大值。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第1題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "梅納反應機制與相對水蒸氣壓",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q1-r1",
+          "label": "指出還原糖羰基與可反應胺基",
+          "points": 2,
+          "evidenceHint": "標出你寫的兩類反應基團與一個食品來源。",
+          "explanation": "完整蛋白不是必要條件；游離胺基酸等合適胺基也可參與。",
+          "remediationLessonIds": [
+            "browning-maillard"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q1-r2",
+          "label": "連起早期加成、脫水與重排",
+          "points": 2,
+          "evidenceHint": "找出由初期縮合到Amadori或Heyns路徑的文字/式子。",
+          "explanation": "醛糖與酮糖路徑應分清；不只寫「加熱就褐變」。",
+          "remediationLessonIds": [
+            "browning-maillard",
+            "browning-rearrangement"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q1-r3",
+          "label": "描述後續反應形成顏色或風味",
+          "points": 2,
+          "evidenceHint": "指出至少兩種後續變化及與褐色/風味的關聯。",
+          "explanation": "可包括脫水、裂解、二羰基、Strecker及縮合；不是單一固定總反應。",
+          "remediationLessonIds": [
+            "flavor-strecker",
+            "flavor-maillard-aroma"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q1-r4",
+          "label": "正確定義RVP並連到水活性",
+          "points": 2,
+          "evidenceHint": "圈出同溫蒸氣壓比及平衡條件。",
+          "explanation": "RVP=p/p₀，對應水活性；環境RH須同溫平衡才可換算。",
+          "remediationLessonIds": [
+            "water-activity"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q1-r5",
+          "label": "用競爭效應解釋速率及適用界線",
+          "points": 2,
+          "evidenceHint": "指出低水分的移動/溶解限制與較高水分的稀釋，以及範圍限制。",
+          "explanation": "常見中間水活性較快的概念可用，但極大值依基質、溫度、相態與觀測指標而變。",
+          "remediationLessonIds": []
+        }
+      ],
+      "referenceAnswer": [
+        "梅納反應可由還原糖開鏈羰基與胺基的加成開始，經脫水形成糖胺/Schiff base相關中間體。醛糖來源可經Amadori重排，酮糖來源可經Heyns重排；早期反應不一定已有肉眼可見的褐色。",
+        "後續經烯醇化、脫水與裂解等生成活性羰基；部分可與胺基酸發生Strecker反應、形成揮發性風味前驅物，再經多條縮合/聚合途徑產生有色產物。條件與原料會改變產物分布，不能以一條式子代表所有褐色物。",
+        "RVP指食品平衡水蒸氣壓p與同溫純水p₀的比值，可用aw=p/p₀表示。它與含水百分比不同；儲存環境RH也只有在同溫且樣品達平衡時才可寫為aw=ERH/100。",
+        "在某些乾燥系統，極低水分限制反應物溶解與分子移動，適度增加水分可促進接觸；更高水分又可能稀釋反應物、改變反應平衡，因此常見先增後減的速率示意。基質、保濕劑、相態、溫度及所量的褐色/離胺酸等指標會改變這個關係；不能把固定aw數字當成普遍最大值。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "browning-maillard",
+          "title": "梅納反應從哪裡開始",
+          "href": "#learn/browning/browning-maillard/understand"
+        },
+        {
+          "lessonId": "browning-rearrangement",
+          "title": "Amadori 與 Heyns",
+          "href": "#learn/browning/browning-rearrangement/understand"
+        },
+        {
+          "lessonId": "browning-maillard-storage",
+          "title": "奶粉存了 30 天，離胺酸少了多少？",
+          "href": "#learn/browning/browning-maillard-storage/understand"
+        },
+        {
+          "lessonId": "water-activity",
+          "title": "含水量不等於水活性",
+          "href": "#learn/water/water-activity/understand"
+        },
+        {
+          "lessonId": "flavor-strecker",
+          "title": "胺基酸如何變成香氣醛",
+          "href": "#learn/flavor/flavor-strecker/understand"
+        },
+        {
+          "lessonId": "flavor-maillard-aroma",
+          "title": "同樣烤褐，香氣為何不同？",
+          "href": "#learn/flavor/flavor-maillard-aroma/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Hodge（1953）：Chemistry of Browning Reactions in Model Systems",
+          "url": "https://pubs.acs.org/doi/abs/10.1021/jf60015a004"
+        },
+        {
+          "title": "OpenStax：胺對羰基加成與亞胺生成",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation"
+        },
+        {
+          "title": "FDA：Water Activity (aw) in Foods",
+          "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods"
+        },
+        {
+          "title": "Sherwin與Labuza：水分、溶劑相與梅納反應速率",
+          "url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1365-2621.2003.tb05715.x"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。原題沒有附RVP曲線；RVP不是reaction rate plot。參考速率形狀是條件化解釋，不是從原卷讀出的實測曲線。",
+      "originalPrompt": "請說明食品非酵素褐變梅納反應的機制，並描述貯藏期間食品相對水蒸氣壓(Relative Vapor Pressure, RVP)如何影響其反應速率？(10分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-239-q2",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "由半纖維素製備五碳糖醇",
+      "prompt": "以化學分子結構說明：如何由合適的半纖維素原料，經水解與還原製得具有甜味、晶體溶解時吸熱的五碳糖醇？請辨認原料代表、糖與糖醇，標出糖苷連接及還原前後官能基的改變。可用Fischer投影的文字排列描述或清楚的縮寫結構作答。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第2題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "由半纖維素製備五碳糖醇",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q2-r1",
+          "label": "辨認木聚糖、木糖與木糖醇",
+          "points": 1,
+          "evidenceHint": "找出原料、單糖及產品的名稱。",
+          "explanation": "木聚糖是半纖維素的一類，不能把全部半纖維素當作純木聚糖。",
+          "remediationLessonIds": [
+            "carb-xylan-xylitol"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q2-r2",
+          "label": "結構與糖苷連接正確",
+          "points": 2,
+          "evidenceHint": "標出五碳骨架、β(1→4)主鏈及木糖的立體身分。",
+          "explanation": "結構縮寫須配合立體描述，不能只用分子式辨認所有五碳糖醇。",
+          "remediationLessonIds": [
+            "carb-xylan-xylitol"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q2-r3",
+          "label": "說清水解處理的鍵",
+          "points": 2,
+          "evidenceHint": "指出水解糖苷鍵並消耗水，釋出木糖。",
+          "explanation": "水解與還原是不同轉換，不會只靠加水把醛基變成醇。",
+          "remediationLessonIds": [
+            "carb-xylan-xylitol"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q2-r4",
+          "label": "寫對醛基還原與守恆",
+          "points": 3,
+          "evidenceHint": "標出C1由CHO變CH₂OH，並核對五個碳和分子式。",
+          "explanation": "C₅H₁₀O₅+H₂→C₅H₁₂O₅；保留骨架與原有相對立體排列。",
+          "remediationLessonIds": [
+            "carb-xylan-xylitol"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q2-r5",
+          "label": "完整表達木糖醇結構與相對立體排列",
+          "points": 2,
+          "evidenceHint": "檢查五碳骨架兩端都是CH₂OH，原木糖相對立體排列清楚，與還原前結構一致。",
+          "explanation": "甜味與結晶溶解吸熱是原題提示；可留在解說，不以另寫感官或熱力學證據作滿分門檻。",
+          "remediationLessonIds": [
+            "carb-xylan-xylitol"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "可選半纖維素中的木聚糖，主鏈含β(1→4)相連的D-木糖基。原料可能另有支鏈或其他糖，須先界定所選原料；不是所有半纖維素水解都只產木糖。",
+        "酸或酵素水解切斷糖苷連接，形成木糖。D-木糖開鏈可寫OHC–CH(OH)–CH(OH)–CH(OH)–CH₂OH；若以CHO在上、CH₂OH在下的Fischer投影表示，C2、C3、C4的OH依序右、左、右。環狀半縮醛與開鏈醛式可互變。",
+        "還原使C1醛基變為CH₂OH，得到木糖醇HOCH₂–CH(OH)–CH(OH)–CH(OH)–CH₂OH。淨式C₅H₁₀O₅+H₂→C₅H₁₂O₅，五碳骨架保留；水解糖苷鍵與還原羰基須分開表示。",
+        "木糖醇有甜味，其晶體在指定條件下溶解呈淨吸熱，可帶來冷感；晶格、溶劑重排與水合共同決定淨熱效應，不是切斷糖醇內共價鍵。甜度與溶解熱需相符量測，不能由結構式直接給出通用數值。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "carb-xylan-xylitol",
+          "title": "從木聚糖到木糖醇：結構、甜味與溶解吸熱",
+          "href": "#learn/carbohydrates/carb-xylan-xylitol/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Simmons等：木聚糖主鏈與植物細胞壁中的構形",
+          "url": "https://www.nature.com/articles/ncomms13902"
+        },
+        {
+          "title": "Liu等：木糖氫化製備木糖醇",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31912039/"
+        },
+        {
+          "title": "Wouters與Van Meervelt：糖醇晶體與溶解熱",
+          "url": "https://journals.iucr.org/e/issues/2022/09/00/pk2668/pk2668.pdf"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。不要求執行化學製程，也不補造催化劑、壓力、產率或相對甜度數值；結構可用文字投影清楚表達。",
+      "originalPrompt": "請以化學分子結構說明生產具有甜味且結晶溶解時會有吸熱現象之五碳糖醇過程，包括半纖維素(hemicelluloses)的水解與還原反應。(10分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "referenceFigures": [
+        {
+          "src": "assets/exam/reference-xylitol.svg",
+          "alt": "D-木糖Fischer投影的C2、C3、C4羥基依序右、左、右；還原將C1醛基變為CH₂OH，得到木糖醇。",
+          "caption": "木聚糖水解與木糖還原的連接示意。"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-239-q3",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "由9、10位氫過氧化物推論氧化途徑",
+      "originalPrompt": "某油脂樣品經氧化後，分析結果顯示主要生成的脂質氫過氧化物為 9-ROOH 及 10-ROOH。(1) 請畫出此油脂中主要的不飽和脂肪酸結構。(2) 依據過氧化物生成的反應位置與產物選擇性，推論此油脂最可能的氧化反應途徑為何。(3) 若改以自由基反應為主，產物分布將如何改變？(15分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "先畫出一個與9、10位主要產物相容的常見脂肪酸代表，標清碳編號與雙鍵。再將主要過氧位置和單重態氧途徑連起來；最後列出該代表物在自由基途徑可達的過氧位置。原題線索可支持推論，但不等於唯一鑑定所有結構細節。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第3題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "由9、10位氫過氧化物推論氧化途徑",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q3-r1",
+          "label": "代表脂肪酸結構與編號",
+          "points": 5,
+          "evidenceHint": "畫出油酸18:1(9Z)或其他清楚自洽的代表假設，檢查羧基、碳數與Δ9雙鍵。",
+          "explanation": "不把脂肪酸分子式當完整結構；油酸是常見合理作答，不宣稱兩個過氧位置能唯一鑑定。",
+          "remediationLessonIds": [
+            "lipid-oleate-oxidation"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q3-r2",
+          "label": "由選擇性提出氧化途徑",
+          "points": 3,
+          "evidenceHint": "指出單重態氧/ene型途徑並連到主要9、10位。",
+          "explanation": "只寫「氧化」未回應途徑；也不可聲稱自由基完全不能形成9/10。",
+          "remediationLessonIds": [
+            "lipid-oleate-oxidation"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q3-r3",
+          "label": "用產物選擇性支持途徑推論",
+          "points": 2,
+          "evidenceHint": "將主要集中在9、10位的情況，與自由基可達較廣位置集合對照。",
+          "explanation": "能用位置選擇性支持推論即可；9-OOH配Δ10、10-OOH配Δ8可作圖式補充，不強制另畫兩個產物才可得分。若作圖仍須符合價數與雙鍵移動。",
+          "remediationLessonIds": [
+            "lipid-oleate-oxidation"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q3-r4",
+          "label": "自由基可達產物與理由",
+          "points": 5,
+          "evidenceHint": "由C8、C11抽氫及離域說明8、9、10、11位分布。",
+          "explanation": "不要求等比例或所有E/Z、R/S細節；共振式是同一中間體的表達，不是依序兩物種。",
+          "remediationLessonIds": [
+            "lipid-oleate-oxidation"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）以油酸為常見代表假設：18:1(9Z)，縮寫為HOOC–(CH₂)₇–CH=CH–(CH₂)₇–CH₃，C9=C10為cis。從羧基碳C1編號；畫圖須保留18個碳與正確雙鍵位置。9、10位資訊本身不唯一決定碳鏈總長、原始幾何或脂肪酸在樣品中是游離態或酯化態。",
+        "（2）對此Δ9單不飽和代表物，主要9-ROOH與10-ROOH可由單重態氧的ene型反應合理解釋。生成9-OOH時伴隨雙鍵移到Δ10；生成10-OOH時伴隨雙鍵移到Δ8。可用光敏劑將能量轉給氧而產生¹O₂的情境說明，但原題沒有提供照光或光敏劑量測，故寫「支持此途徑」較適當。",
+        "（3）若自由基氧化占優，可從烯丙位C8或C11抽氫。C8分支的自由基在C8/C10離域，C11分支在C11/C9離域；加氧與再取得氫後，可形成8、9、10、11位ROOH。因此相較只以9/10為主的情況，位置分布較廣，且9、10位也仍在自由基可達集合內。四位置不表示等量；雙鍵幾何、二次分解與分析條件會影響實測分布。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "lipid-oleate-oxidation",
+          "title": "9、10 位過氧化物透露哪條氧化路徑？",
+          "href": "#learn/lipids/lipid-oleate-oxidation/understand"
+        },
+        {
+          "lessonId": "lipid-autoxidation",
+          "title": "氧化的連鎖反應",
+          "href": "#learn/lipids/lipid-autoxidation/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Determination of acrolein generation pathways from linoleic acid and linolenic acid: increment by photo irradiation",
+          "url": "https://doi.org/10.1038/s41538-022-00138-2"
+        },
+        {
+          "title": "Analysis of autoxidized fats by gas chromatography-mass spectrometry: V. Photosensitized oxidation",
+          "url": "https://doi.org/10.1007/BF02533431"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。",
+      "supportsDrawing": true,
+      "referenceFigures": [
+        {
+          "src": "assets/exam/reference-oleic-oxidation.svg",
+          "alt": "以cis-Δ9油酸為代表：C9與C10的雙鍵兩側碳鏈同側；單重態氧與自由基途徑可達的ROOH位置分開列出。",
+          "caption": "油酸是常見相容代表，不是只憑兩個位置就能唯一鑑定的結論。"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-239-q4",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "POS結構、調溫與脂霜",
+      "originalPrompt": "可可脂中主要三酸甘油酯之一為 β-POS，在適當調溫製程(tempering)後可形成具有良好入口即融的結晶結構。然而，在低溫或不當儲存條件下，巧克力表面容易產生白色脂肪霜(fat bloom)。(1) 請說明 β-POS 的結構特徵。(2) 依據三酸甘油酯的結晶特性，說明 fat bloom 形成的機制。(10分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "先用甘油骨架與三條脂醯鏈說明POS，分清分子結構與晶型。再用晶體排列、部分熔融/脂肪遷移及再結晶等合理途徑，解釋儲存條件如何使表面出現脂霜。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第4題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "POS結構、調溫與脂霜",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q4-r1",
+          "label": "POS三脂醯鏈與甘油酯鍵",
+          "points": 3,
+          "evidenceHint": "辨認P、O、S並畫/說甘油三酯連接，中間為油醯基。",
+          "explanation": "保留油醯鏈cis雙鍵；P與S的飽和碳鏈長度不同。",
+          "remediationLessonIds": [
+            "lipid-pos-structure"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q4-r2",
+          "label": "分清分子結構與β晶體排列",
+          "points": 2,
+          "evidenceHint": "說出同種TAG可有不同晶體排列，與調溫選擇晶種的關係。",
+          "explanation": "純POS的β亞型與可可脂混合物V/VI命名不宜機械地一一等同。",
+          "remediationLessonIds": [
+            "lipid-cocoa-tempering"
+          ],
+          "remediationScopeNotes": {
+            "lipid-cocoa-tempering": "用於分子連接與晶體排列的區分；不把純POS的β亞型直接等同混合可可脂V／VI，也不把另一課的甘油位置β前綴套成題目的唯一意思。"
+          }
+        },
+        {
+          "id": "ntu-115-239-q4-r3",
+          "label": "結晶變化與表面泛白作用鏈",
+          "points": 3,
+          "evidenceHint": "從不穩定晶體轉換、部分熔融/遷移或再結晶，連到表面晶體及光散射。",
+          "explanation": "可採合理不同途徑，不強制所有樣品都先V→VI。",
+          "remediationLessonIds": [
+            "lipid-bloom-diagnosis"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q4-r4",
+          "label": "將儲存條件連到合理形成途徑",
+          "points": 2,
+          "evidenceHint": "交代不當調溫、溫度歷史或配方接觸如何促進上述變化。",
+          "explanation": "只有列「脂肪氧化」或「變白」未說明本題結晶機制。",
+          "remediationLessonIds": [
+            "lipid-bloom-diagnosis"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）POS代表甘油三酯含棕櫚醯基P（16:0）、油醯基O（18:1 cisΔ9）、硬脂醯基S（18:0）。常用結構寫為1-palmitoyl-2-oleoyl-3-stearoylglycerol：甘油的三個羥基均形成酯鍵，O位於中間位置，兩側為P與S。可依序畫三行並將左側甘油碳相連：CH₂–O–C(=O)–(CH₂)₁₄–CH₃；CH–O–C(=O)–(CH₂)₇–CH=CH–(CH₂)₇–CH₃；CH₂–O–C(=O)–(CH₂)₁₆–CH₃。油醯鏈的雙鍵標cis。",
+        "在此調溫／結晶脈絡中，β指POS的三斜晶排列家族；O在甘油中間位置屬分子連接資訊，與晶型命名分開。β家族仍有不同亞型，不能只憑β就唯一指定可可脂的V或VI型。可可脂混合物有多晶型；調溫管理成核、成長與晶種，常以具有合適熔融和質地特性的V型為產品目標。",
+        "（2）儲存溫度波動、部分脂肪熔融與遷移，或較不穩定晶體向較穩定形式轉換，可造成脂肪重新分配並在表面成長成較大晶體，改變光散射而泛白。V→VI轉換是可能相關的途徑，但脂霜也可能涉及夾心油脂遷移和再結晶；晶型變化與肉眼白霜並非一一對應。",
+        "原卷提到低溫，作答可說明其伴隨的儲存/回溫歷史；不能推成所有低溫儲存都必定脂霜。若結露使糖溶解後再結晶，那是糖霜的另一機制，需與本題脂霜分開。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "lipid-cocoa-tempering",
+          "title": "巧克力調溫是在改變哪種結構？",
+          "href": "#learn/lipids/lipid-cocoa-tempering/understand"
+        },
+        {
+          "lessonId": "lipid-bloom-diagnosis",
+          "title": "巧克力白霜：糖還是脂肪？",
+          "href": "#learn/lipids/lipid-bloom-diagnosis/understand"
+        },
+        {
+          "lessonId": "lipid-pos-structure",
+          "title": "β-POS 的三條鏈怎麼接？",
+          "href": "#learn/lipids/lipid-pos-structure/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Ghazani與Marangoni（2018）：POS的β晶型原始研究",
+          "url": "https://doi.org/10.1021/acs.cgd.8b00598"
+        },
+        {
+          "title": "Ghazani與Marangoni：POS與可可脂三斜晶多型的原始研究",
+          "url": "https://doi.org/10.1021/acs.cgd.8b00973"
+        },
+        {
+          "title": "ESRF：以同步輻射繞射釐清巧克力結構",
+          "url": "https://www.esrf.fr/UsersAndScience/Publications/Highlights/2004/SCM/SCM8"
+        },
+        {
+          "title": "Tempering of cocoa butter and chocolate using minor lipidic components",
+          "url": "https://www.nature.com/articles/s41467-021-25206-1"
+        },
+        {
+          "title": "Bloom on chocolate chips baked in cookies",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0963996912001743"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。",
+      "supportsDrawing": true,
+      "referenceFigures": [
+        {
+          "src": "assets/exam/reference-pos.svg",
+          "alt": "POS的三個酯鍵及棕櫚醯、油醯、硬脂醯支鏈；油醯基位在甘油中間位置，雙鍵為cis。",
+          "caption": "POS連接示意；未指定末端sn-1/sn-3立體方向，也不是晶胞圖。"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-239-q5",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "金屬促氧化與維生素斷鏈作用",
+      "originalPrompt": "油脂系統中常同時存在維生素與礦物質，可能影響油脂氧化反應。(1) 請說明為何某些金屬離子會促進油脂氧化？(2) 請指出一個常用於油脂的維生素，並說明其抗氧化的機制。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "選一種具有氧化還原活性的金屬說明如何產生/再生自由基，再選適合油脂的維生素，寫出它阻斷鏈反應的步驟。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第5題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "金屬促氧化與維生素斷鏈作用",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 6,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q5-r1",
+          "label": "可變價金屬與自由基來源",
+          "points": 2,
+          "evidenceHint": "具名舉Fe或Cu等，連到LOOH分解/自由基生成及鏈反應。",
+          "explanation": "不將所有金屬都當同等促氧化劑。",
+          "remediationLessonIds": [
+            "minerals-redox"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q5-r2",
+          "label": "合理維生素例子",
+          "points": 1,
+          "evidenceHint": "例如維生素E/生育醇；其他例須符合油脂情境。",
+          "explanation": "只寫維生素名稱但用途不明不足。",
+          "remediationLessonIds": [
+            "lipid-antioxidants"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q5-r3",
+          "label": "抗氧化步驟與鏈傳播",
+          "points": 2,
+          "evidenceHint": "解釋供氫給過氧自由基、較穩定的抗氧化劑自由基及鏈傳播減少。",
+          "explanation": "可用文字或式子；不要把供H原子只寫成沒有電子的酸鹼解離。",
+          "remediationLessonIds": [
+            "lipid-antioxidants"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）Fe、Cu等可變價金屬參與氧化還原循環，促進已有脂質氫過氧化物LOOH分解，產生能引發或延續氧化的自由基。例如Fe²⁺+LOOH→Fe³⁺+LO•+OH⁻；LO•可再抽取脂質的氫，使鏈反應繼續。這說明為何痕量金屬可能加速氧化，但效應仍受金屬形態、螯合、界面及過氧化物等條件影響，並非所有礦物離子都有相同作用。",
+        "（2）例如維生素E的生育醇。其酚羥基可向脂質過氧自由基供氫：LOO•+TocOH→LOOH+TocO•。生成的生育醇自由基較穩定，較不容易像原過氧自由基那樣繼續抽取脂質氫，因而抑制鏈傳播。",
+        "這是延緩新的氧化，不會把所有既有氫過氧化物、醛或異味自動消除；劑量與配方會影響實際效果。其他合理的油脂用維生素衍生物可作答，但需說明其相容性與正確作用步驟。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "lipid-antioxidants",
+          "title": "抗氧化與品質指標",
+          "href": "#learn/lipids/lipid-antioxidants/understand"
+        },
+        {
+          "lessonId": "lipid-autoxidation",
+          "title": "氧化的連鎖反應",
+          "href": "#learn/lipids/lipid-autoxidation/understand"
+        },
+        {
+          "lessonId": "minerals-redox",
+          "title": "金屬也會加速氧化",
+          "href": "#learn/minerals/minerals-redox/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "The mechanism of Fe2+-initiated lipid peroxidation in liposomes: the dual function of ferrous ions, the roles of the pre-existing lipid peroxides and the lipid peroxyl radical",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1221429/"
+        },
+        {
+          "title": "Direct observation of a free radical interaction between vitamin E and vitamin C",
+          "url": "https://doi.org/10.1038/278737a0"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-239-q6",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "用酸鹼平衡解釋pI與淨電荷",
+      "prompt": "一個蛋白質的等電點pI為6。請運用Henderson–Hasselbalch關係，解釋它置於pH 5環境時的平均淨電荷是偏正或偏負。說明你的推理，並交代僅有pI與pH是否足以算出精確淨電荷。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第6題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "用酸鹼平衡解釋pI與淨電荷",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 6,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q6-r1",
+          "label": "明確判斷平均淨電荷偏正",
+          "points": 1,
+          "evidenceHint": "找出你的正負判斷。",
+          "explanation": "pH低於pI，典型酸鹼解離下相對較質子化。",
+          "remediationLessonIds": [
+            "protein-isoelectric"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q6-r2",
+          "label": "寫出適當H-H形式",
+          "points": 2,
+          "evidenceHint": "標出pH=pKa+log([去質子化]/[質子化])或等價形式。",
+          "explanation": "對酸性基團可寫[A⁻]/[HA]，對鹼性基團可寫[B]/[BH⁺]。",
+          "remediationLessonIds": [
+            "protein-isoelectric"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q6-r3",
+          "label": "連結質子化與總淨電荷",
+          "points": 2,
+          "evidenceHint": "說出正電基團與負電基團如何隨pH下降改變。",
+          "explanation": "不能把pI直接當每一個基團的pKa；總電荷是各可解離基團的合計。",
+          "remediationLessonIds": [
+            "protein-isoelectric"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "平均淨電荷通常偏正。pI=6表示在所述條件附近，所有可解離基團的平均正負電荷合計為零。",
+        "對酸性基團，pH=pKa+log([A⁻]/[HA])；對鹼性基團，pH=pKa+log([B]/[BH⁺])。在相符條件下，降低pH使去質子化/質子化的比值降低。",
+        "所以pH由pI降至5時，酸性基團較少帶負電，鹼性基團較多保留正電，合計淨電荷偏正。這是總體方向判斷；沒有序列和各基團pKa，不能算出精確電荷，更不能把一個pH單位當作一個電子電荷。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "protein-isoelectric",
+          "title": "等電點與聚集",
+          "href": "#learn/proteins/protein-isoelectric/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "OpenStax：pI與Henderson–Hasselbalch關係",
+          "url": "https://openstax.org/books/organic-chemistry/pages/26-2-amino-acids-and-the-henderson-hasselbalch-equation-isoelectric-points"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。 精確淨電荷所需資料是補充界線，不列為原題滿分的額外條件。",
+      "originalPrompt": "請以 Henderson-Hasselbach equation 解釋一個 PI 值為 6 的蛋白質在 pH 為 5 的環境裏淨電荷是帶正電或負電。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-239-q7",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "解讀加熱、抑制活性與PER雙軸圖",
+      "originalPrompt": "請解釋以下圖表的意義：(5分)，註：PER：protein efficiency ratio",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "請閱讀原題附圖。分別辨認橫軸、左右縱軸與符號；描述圖內的兩條趨勢，再說明大豆加熱、胰蛋白酶抑制作用與蛋白品質指標之間的合理連結。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第7題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "解讀加熱、抑制活性與PER雙軸圖",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 7,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q7-r1",
+          "label": "正確對應兩軸與兩符號",
+          "points": 1.5,
+          "evidenceHint": "標出溫度、左軸抑制活性、右軸PER及○/□的對應。",
+          "explanation": "兩個Y軸不能混成同一量；原圖沒有新增數據或誤差條。",
+          "remediationLessonIds": [
+            "protein-heat-quality"
+          ],
+          "remediationScopeNotes": {
+            "protein-heat-quality": "活動是另組原創四點資料；原卷兩符號及讀值仍須回原題圖核對。"
+          }
+        },
+        {
+          "id": "ntu-115-239-q7-r2",
+          "label": "讀出圖示範圍的變化",
+          "points": 1.5,
+          "evidenceHint": "說明溫度上升時抑制活性下降、PER上升。",
+          "explanation": "不要編造圖外高溫的實測折返點。",
+          "remediationLessonIds": [
+            "protein-heat-quality"
+          ],
+          "remediationScopeNotes": {
+            "protein-heat-quality": "不代替原卷圖上各點，且不把活動概念曲線移植成原卷實測。"
+          }
+        },
+        {
+          "id": "ntu-115-239-q7-r3",
+          "label": "連結抑制因子失活與蛋白品質",
+          "points": 2,
+          "evidenceHint": "說出熱處理降低對胰蛋白酶的抑制，有助消化/利用；PER是生長試驗指標。",
+          "explanation": "不用提出原卷未要求的完整實驗設計；不把趨勢當無限外推保證。",
+          "remediationLessonIds": [
+            "protein-heat-quality"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "橫軸是Toasting temperature（°C）；左軸是每克大豆粉可抑制的胰蛋白酶質量（mg trypsin inhibited/g soy flour），右軸是PER。下降的空心圓曲線對應左軸的抑制活性；上升的空心方形曲線對應右軸PER。兩軸量綱和尺度不同，不能把兩條曲線交點當成兩者數值相等。",
+        "在圖示測試範圍內，加熱溫度升高伴隨胰蛋白酶抑制作用降低；方形資料所示的PER則提高。大豆含胰蛋白酶抑制因子，適當熱處理可使其失活，減少對消化蛋白酶的抑制，因而可對蛋白利用產生正向影響。",
+        "PER是試驗動物體重增加量除以攝取蛋白質量，並非抑制活性、體外消化率或人體吸收率。這張圖支持所示範圍的趨勢與合理機制解釋，不能由此斷言無限加熱都會繼續改善營養品質，也不能從圖中求得未提供的時間或最適製程。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "protein-heat-quality",
+          "title": "加熱多久，蛋白品質才算變好？",
+          "href": "#learn/proteins/protein-heat-quality/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Methods of Estimating Protein Quality",
+          "url": "https://www.fao.org/4/ae906e/ae906e24.htm"
+        },
+        {
+          "title": "The effect of radiofrequency heat treatment on trypsin inhibitor activity and in vitro digestibility of soybean varieties (Glycine max. (L.) Merr.)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9525500/"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。 題圖為官方原卷第1頁第7題裁切，保留原軸、刻度、單位與符號；未重繪或補造數據。",
+      "originalFigure": {
+        "src": "assets/exam/115-239-q7.png",
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "page": 1,
+        "alt": "原卷第7題雙Y軸圖；橫軸為烘烤溫度，左軸為胰蛋白酶抑制活性，右軸為PER，含空心圓與空心方形資料。",
+        "caption": "臺大115食品化學第1頁第7題原圖裁切。",
+        "required": true
+      }
+    },
+    {
+      "id": "ntu-115-239-q8",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "由胺基酸與亞硝酸鹽說明亞硝胺形成",
+      "originalPrompt": "請任舉一個胺基酸作說明，在腌肉時加上 NaNO₂ 時，是如何產生 Nitrosoamine 的化學反應過程。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "選一種適當胺基酸，標出可反應的氮。說明亞硝酸鹽提供亞硝化物種的化學前提，並用具名中間體/淨反應表達N–N=O如何形成；需要時交代脫羧。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第8題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "由胺基酸與亞硝酸鹽說明亞硝胺形成",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 7,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q8-r1",
+          "label": "適當胺基酸與可反應氮",
+          "points": 1,
+          "evidenceHint": "例如proline，清楚指出二級胺氮；其他例須反應正確。",
+          "explanation": "不可只因分子含氮就視為同一亞硝化反應。",
+          "remediationLessonIds": [
+            "protein-nitrosation-pathways"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q8-r2",
+          "label": "亞硝酸鹽與亞硝化前提",
+          "points": 1.5,
+          "evidenceHint": "由NO₂⁻/HNO₂及適當條件說明亞硝化物種來源。",
+          "explanation": "不把NaNO₂整分子當成未解離的直接加成基團。",
+          "remediationLessonIds": [
+            "protein-nitrosation-pathways"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q8-r3",
+          "label": "N-nitroso成鍵與具名產物",
+          "points": 1.5,
+          "evidenceHint": "畫/寫原胺N與新增N成鍵，得到N–N=O。",
+          "explanation": "亞硝酸根氮與原胺氮不同；若只寫「氧化」不足以表達。",
+          "remediationLessonIds": [
+            "protein-nitrosation-pathways"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q8-r4",
+          "label": "所選路徑與反應收支一致",
+          "points": 1,
+          "evidenceHint": "若止於NPRO，說清亞硝化收支即可；若續到NPYR，再交代脫羧及CO₂。",
+          "explanation": "NPRO已是N-nitroso產物，不強制繼續脫羧。先亞硝化或先脫羧的合理路徑均可；不強制同時列兩路。",
+          "remediationLessonIds": [
+            "protein-nitrosation-pathways"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "可選脯胺酸（proline）：其環上的氮是二級胺氮，與一般一級胺基酸的反應行為不同。NaNO₂解離為Na⁺與NO₂⁻；在酸性條件下NO₂⁻可質子化成HNO₂，進而產生能進行N-亞硝化的物種。Na⁺不是接到有機氮上的基團。",
+        "一條可表達的淨路徑為：proline+HNO₂→N-nitrosoproline（NPRO）+H₂O；接著NPRO→N-nitrosopyrrolidine（NPYR）+CO₂。亞硝化使原胺氮與來自亞硝酸鹽的氮成鍵，形成R₂N–N=O；NPRO本身已是N-nitroso化合物。",
+        "也可先將proline脫羧成pyrrolidine，再N-亞硝化形成NPYR。這些是用具名化合物整理的淨轉換；食品中的活性物種與主要先後順序取決於條件，原題未提供產率或能唯一分辨兩路的資料。不能宣稱所有胺基酸都形成相同穩定亞硝胺。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "protein-nitrosation-pathways",
+          "title": "脯胺酸如何形成亞硝胺？",
+          "href": "#learn/proteins/protein-nitrosation-pathways/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Pathways of formation of N-nitrosopyrrolidine in fried bacon",
+          "url": "https://doi.org/10.1111/j.1365-2621.1976.tb00742_41_4.x"
+        },
+        {
+          "title": "Formation of N-nitrosopyrrolidine from proline and collagen",
+          "url": "https://doi.org/10.1111/j.1365-2621.1975.tb12510.x"
+        },
+        {
+          "title": "Guidelines for Canadian Drinking Water Quality: Nitrate and Nitrite — technical document",
+          "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-nitrate-nitrite/page-4-guidelines-canadian-drinking-water-quality-guideline-technical-document-nitrate-nitrite.html"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。",
+      "supportsDrawing": true,
+      "referenceFigures": [
+        {
+          "src": "assets/exam/reference-nitrosoproline.svg",
+          "alt": "脯胺酸環上的二級胺氮由N-H變為N-N=O，生成N-亞硝基脯胺酸，五元環與羧基保留。",
+          "caption": "以具名分子表達N-亞硝化淨轉換，省略立體資訊。"
+        }
+      ]
+    },
+    {
+      "id": "ntu-115-239-q9",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "替代蛋白的營養評估",
+      "prompt": "在蛋白供應需求增加的情境下，昆蟲蛋白、海藻蛋白等可作為新興蛋白來源。從營養學角度，使用這些替代蛋白前應評估哪些重要因素？請說明各項因素如何影響判斷，而非只列名稱。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第9題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "替代蛋白的營養評估",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 7,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q9-r1",
+          "label": "蛋白量與分母可比較",
+          "points": 1,
+          "evidenceHint": "說明含量、份量、乾濕基或非蛋白氮等至少一項量測問題。",
+          "explanation": "高粗蛋白數字不自動等於每份可利用蛋白質較多。",
+          "remediationLessonIds": [
+            "protein-alternative-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q9-r2",
+          "label": "必需胺基酸與限制胺基酸",
+          "points": 1.5,
+          "evidenceHint": "將胺基酸組成連到目標族群需求及可能互補。",
+          "explanation": "需選適當需求模式；不能只比較總氮。",
+          "remediationLessonIds": [
+            "protein-alternative-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q9-r3",
+          "label": "消化與利用證據",
+          "points": 1,
+          "evidenceHint": "區分成分、體外消化與人體/迴腸利用的證據層。",
+          "explanation": "成分分數或體外估計不可逕稱實測DIAAS/人體吸收率。",
+          "remediationLessonIds": [
+            "protein-alternative-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q9-r4",
+          "label": "原料及加工造成的營養限制",
+          "points": 0.75,
+          "evidenceHint": "舉出抗營養因素、加工影響、可利用胺基酸或致敏風險並解釋。",
+          "explanation": "應依具名材料與製程評估，不概括所有昆蟲或海藻。",
+          "remediationLessonIds": [
+            "protein-heat-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q9-r5",
+          "label": "放回實際飲食與對象",
+          "points": 0.75,
+          "evidenceHint": "說明目標族群、攝取量、配伍或伴隨營養素的影響。",
+          "explanation": "單一原料品質不等於整體飲食營養一定改善。",
+          "remediationLessonIds": [
+            "protein-alternative-quality"
+          ],
+          "remediationScopeNotes": {
+            "protein-alternative-quality": "直接補目標族群／需求模式這一可接受切入點；未完整教每份攝取量、混合膳食配伍或伴隨營養素評估。"
+          }
+        }
+      ],
+      "referenceAnswer": [
+        "先確認蛋白含量的量測與表達方式，例如乾基/濕基、每份實際攝取量，以及總氮換算中非蛋白氮的影響。原料物種、培養/飼養條件與加工方式應明確，不能以「昆蟲」「海藻」一概而論。",
+        "分析必需胺基酸組成，依目標年齡的參考模式找出可能的限制胺基酸，並評估與其他食材搭配的互補。總蛋白量高仍可能存在某必需胺基酸不足。",
+        "再看消化與可利用性：成分、體外消化和各必需胺基酸的迴腸利用不是同一證據。採用蛋白品質指標時要說清方法與前提，不能把一個整體體外消化百分比當作完整的人體利用率。",
+        "還要檢查抗營養成分、致敏性與加工對可利用胺基酸的影響，並把脂肪、纖維、礦物質等伴隨成分、實際攝取量及整體飲食需求一起評估。不同目標族群或不同加工產品可能有不同結果。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "protein-alternative-quality",
+          "title": "替代蛋白：含量、胺基酸與消化證據",
+          "href": "#learn/proteins/protein-alternative-quality/understand"
+        },
+        {
+          "lessonId": "protein-heat-quality",
+          "title": "加熱多久，蛋白品質才算變好？",
+          "href": "#learn/proteins/protein-heat-quality/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FAO（2013）：Dietary protein quality evaluation in human nutrition",
+          "url": "https://www.fao.org/4/i3124e/i3124e.pdf"
+        },
+        {
+          "title": "Hammer等：黃粉蟲與蟋蟀的體外消化及蛋白品質研究",
+          "url": "https://doi.org/10.3389/fnut.2023.1150581"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。",
+      "originalPrompt": "世界人口迅速成長，面對未來糧食可能不足的狀況，有許多新興蛋白質來源被發掘，例如昆蟲蛋白、海藻蛋白等等。請說明在使用這些替代蛋白時，從營養學的角度應評估哪些重要因素？(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-239-q10",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "有機溶劑對蛋白穩定度與溶解度",
+      "originalPrompt": "請說明有機溶劑對蛋白質結構的穩定度以及溶解度的影響。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "把蛋白的摺疊穩定度和溶解量分成兩個問題。以水—有機溶劑的相互作用解釋可能變化，並用條件化例子說明兩個指標不必同步。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第10題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+        "promptSummary": "有機溶劑對蛋白穩定度與溶解度",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 7,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q10-r1",
+          "label": "分別界定穩定度與溶解度",
+          "points": 1,
+          "evidenceHint": "指出摺疊/展開與可溶量是不同問題。",
+          "explanation": "變性、聚集與沉澱可能相關，但不能視為同義。",
+          "remediationLessonIds": [
+            "protein-solvent-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q10-r2",
+          "label": "說明影響構形穩定度的相互作用",
+          "points": 2,
+          "evidenceHint": "把水合、氫鍵、介電性或疏水作用改變連到蛋白構形。",
+          "explanation": "至少有一條合理機理鏈；不必背所有術語。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-239-q10-r3",
+          "label": "說明溶解度可能改變的原因",
+          "points": 1.5,
+          "evidenceHint": "將溶劑化與蛋白間作用連到溶解/沉澱。",
+          "explanation": "不只列「變低」而沒有原因。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-239-q10-r4",
+          "label": "交代條件而不作全稱斷言",
+          "points": 0.5,
+          "evidenceHint": "提到溶劑種類/比例或蛋白條件會影響結果。",
+          "explanation": "不用重現RNase數值或另設完整實驗才可得分。",
+          "remediationLessonIds": [
+            "protein-solvent-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "蛋白摺疊穩定度比較原生態與展開態的自由能；溶解度描述在指定介質中可溶的量，並受蛋白—蛋白與蛋白—溶劑作用影響。不能直接用溶解度下降取代變性證據。",
+        "加入乙醇等水可混溶有機溶劑，會改變介電性、蛋白表面水合、氫鍵競爭及疏水基團的溶劑化，因而改變維持二級/三級構形的作用力；某些條件下促進展開或聚集。但方向與程度依溶劑、濃度、蛋白、pH、溫度及含水量而異，不能把所有有機溶劑都視為同一種變性劑。",
+        "在許多醇/水情境中，表面帶電/極性基團的有效溶劑化變差、蛋白間作用增加，溶解度可下降並出現沉澱；非極性介質常難以溶解完整蛋白。保留部分摺疊構形不等於仍高溶解或原有活性。",
+        "例如Pace等的指定RNase Sa資料，在水與20%乙醇均標為folded，但25°C、近等電點條件的溶解度不同。這說明低溶解度可與摺疊狀態並存；實際評估可分別用相符結構/可逆展開證據與溶解量量測，不把兩者混成單一指標。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "protein-solvent-evidence",
+          "title": "溶得少，就代表蛋白展開了嗎？",
+          "href": "#learn/proteins/protein-solvent-evidence/understand"
+        },
+        {
+          "lessonId": "protein-denaturation",
+          "title": "變性不等於斷肽鍵",
+          "href": "#learn/proteins/protein-denaturation/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Protein structure, stability and solubility in water and other solvents",
+          "url": "https://malone.bioquant.uni-heidelberg.de/teaching/BPC_lectures/pdf-files_teaching/papers/05-3_Pace.pdf"
+        },
+        {
+          "title": "Structural changes and exposed amino acids of ethanol-modified whey proteins isolates promote its antioxidant potential",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468495/"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-239-q11",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "配醣體去醣與腸道吸收",
+      "originalPrompt": "許多植化素在植物中是以「配醣體」形式存在。請解釋為何它們通常需在腸道轉化為「去醣基」形式，才能被有效吸收？其機制為何？(6分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "用一類具名O-糖苷為例，連結糖基、親水性與膜通透，再交代腸道酵素/微生物的去醣位置。說明原題「通常」的條件，不把所有配醣體都套成唯一吸收路徑。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第11題",
+        "page": 2,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=2",
+        "promptSummary": "配醣體去醣與腸道吸收",
+        "originalPoints": 6,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 8,
+      "maxScore": 6,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q11-r1",
+          "label": "糖基與溶解/穿膜差異",
+          "points": 2,
+          "evidenceHint": "說明親水糖基可能限制脂質膜分配，去醣後苷元更易跨膜。",
+          "explanation": "親水性與吸收率不是同義；可用合適具名例子限定。",
+          "remediationLessonIds": [
+            "pigment-glycoside-absorption"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q11-r2",
+          "label": "去醣酵素及作用位置",
+          "points": 2,
+          "evidenceHint": "說明刷狀緣水解或腸菌糖苷酶等合理路徑。",
+          "explanation": "若寫胞內酵素，須有入口；不必強制列所有酵素名稱。",
+          "remediationLessonIds": [
+            "pigment-glycoside-absorption"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q11-r3",
+          "label": "從水解到入胞的因果鏈",
+          "points": 2,
+          "evidenceHint": "連起糖苷鍵斷裂、苷元釋出及吸收，並保留底物差異。",
+          "explanation": "後續結合代謝可作補充，並非額外必背的所有滿分門檻。",
+          "remediationLessonIds": [
+            "pigment-glycoside-absorption"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "以部分類黃酮O-葡萄糖苷為例，糖基增加極性與水溶性，卻可能降低直接穿過脂質膜的能力。糖苷鍵水解後釋出的苷元較疏水，可較容易分配進入腸上皮細胞膜；「易溶於腸液」與「易穿膜」是不同步驟。",
+        "例如小腸刷狀緣的lactase-phlorizin hydrolase（LPH）能水解部分合適糖苷，在腸腔側釋出苷元。尚未在小腸處理的某些糖苷，可由腸道微生物的糖苷酶進一步轉化；糖的種類、鍵結與位置會改變酵素是否能作用。",
+        "細胞內β-glucosidase也可參與特定糖苷代謝，但先要有底物進入細胞的路徑，不能因存在胞內酵素就推定所有完整糖苷都能穿膜。入胞後的苷元常再經葡萄糖醛酸化、硫酸化或甲基化，血中測得的形式不必是原始苷元。",
+        "因此這是一類常見吸收機制；不是每種植化素都必須完全先去醣，也不是去醣後就保證高生體可用率。不同底物、腸段、運輸方式與代謝會改變結果。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "pigment-glycoside-absorption",
+          "title": "配醣體吸收：從糖苷鍵到血中量測",
+          "href": "#learn/pigments/pigment-glycoside-absorption/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Dietary flavonoid and isoflavone glycosides are hydrolysed by the lactase site of lactase phlorizin hydrolase",
+          "url": "https://febs.onlinelibrary.wiley.com/doi/10.1016/S0014-5793%2800%2901211-4"
+        },
+        {
+          "title": "Deglycosylation by small intestinal epithelial cell β-glucosidases is a critical step in the absorption and metabolism of dietary flavonoid glycosides in humans",
+          "url": "https://link.springer.com/article/10.1007/s00394-003-0397-3"
+        },
+        {
+          "title": "Human metabolism of dietary flavonoids: identification of plasma metabolites of quercetin",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11811545/"
+        },
+        {
+          "title": "Hydrolysis of the Rutinose-Conjugates Flavonoids Rutin and Hesperidin by the Gut Microbiota and Bifidobacteria",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4425173/"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-239-q12",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "白藜蘆醇分類與兩條作用機制",
+      "originalPrompt": "「法國悖論（French Paradox）」是指法國人攝取高脂肪飲食，但心血管疾病發生率卻相對較低，學者推測這與紅酒中的白藜蘆醇（Resveratrol）有關。請說明白藜蘆醇屬於哪一類的植化素（化學分類）？並列舉其兩項主要的生理功效（例如：抗氧化或其他機制）來說明它如何保護心血管健康。(8分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "先以分子骨架分類白藜蘆醇，再選兩項不同作用機制，寫出起點、作用環節與可能連到血管保護的理由。將機制研究與疾病預防的結論層級分清。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第12題",
+        "page": 2,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=2",
+        "promptSummary": "白藜蘆醇分類與兩條作用機制",
+        "originalPoints": 8,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 10,
+      "maxScore": 8,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q12-r1",
+          "label": "化學分類",
+          "points": 2,
+          "evidenceHint": "寫二苯乙烯類（stilbene/stilbenoid）多酚，未錯列類黃酮。",
+          "explanation": "兩芳環與C₂橋是結構補充，不是額外得分門檻；不必完整畫出結構。",
+          "remediationLessonIds": [
+            "pigment-resveratrol-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q12-r2",
+          "label": "第一條作用機制",
+          "points": 3,
+          "evidenceHint": "例如酚類攔截自由基，說明如何可能減少氧化損害。",
+          "explanation": "只寫「抗氧化」而未說作用步驟不足以拿滿此項。",
+          "remediationLessonIds": [
+            "pigment-resveratrol-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q12-r3",
+          "label": "第二條不同作用機制",
+          "points": 3,
+          "evidenceHint": "例如內皮eNOS/NO與血管功能；需與第一條不同。",
+          "explanation": "接受有依據的替代機制；機制與人體疾病預防的證據層級要相稱。",
+          "remediationLessonIds": [
+            "pigment-resveratrol-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "白藜蘆醇屬二苯乙烯類（stilbene/stilbenoid）多酚，具C₆–C₂–C₆骨架與3、5、4′酚羥基。它不是以C₆–C₃–C₆為典型骨架的類黃酮；本例通常討論trans-resveratrol。",
+        "第一項可談抗氧化：酚羥基參與供氫/自由基反應，攔截鏈傳播的脂質過氧自由基，可用LOO•+ArOH→LOOH+ArO•概括。特定脂質體與水溶液研究支持此化學反應；減少氧化傷害是它與血管保護的候選連結。",
+        "第二項可談內皮NO路徑：培養人內皮細胞研究中，白藜蘆醇可增加eNOS表達/活性相關的NO生成。NO參與血管舒張與血管功能，因此提供可能的保護機制。這與第一項直接自由基反應是不同作用層次。",
+        "上述機制不能單獨證明飲紅酒或補充白藜蘆醇可預防心血管疾病；口服暴露、代謝、人體試驗終點與其他混雜因素仍要考慮。原題的法國悖論是提出問題的歷史脈絡，不是白藜蘆醇單獨因果效果的證明。其他有可靠依據的兩條不同機制亦可合理作答。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "pigment-resveratrol-evidence",
+          "title": "白藜蘆醇：從骨架分類到研究能支持的主張",
+          "href": "#learn/pigments/pigment-resveratrol-evidence/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "ChEBI：resveratrol 27881 與 trans-resveratrol 45713 的分類及結構",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:27881"
+        },
+        {
+          "title": "Stojanović 等（2001）：自由基脂質體氧化與白藜蘆醇類似物",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11414688/"
+        },
+        {
+          "title": "Wallerath 等（2002）：培養人內皮細胞的 eNOS 表達及 NO 研究",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12270858/"
+        },
+        {
+          "title": "van der Made 等（2017）：四週隨機交叉試驗的 FMD 未見顯著差異",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28604618/"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-239-q13",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "酸性飲料與中性烘焙的紅色色素",
+      "originalPrompt": "花青素與甜菜紅素皆呈紅色。欲開發「酸性飲料」與「中性烘焙食品」，應分別選用何者？請依 pH 穩定性說明原因。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "在題目指定的pH比較下，先為兩種食品選候選色素並說明原因。另把pH適配與烘焙耐熱分開，避免由一個條件就宣稱配方已通過。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第13題",
+        "page": 2,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=2",
+        "promptSummary": "酸性飲料與中性烘焙的紅色色素",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 6,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q13-r1",
+          "label": "酸性飲料選擇及pH理由",
+          "points": 2.5,
+          "evidenceHint": "選花青素並連到酸性下紅色形態較有利。",
+          "explanation": "只說天然或較健康未回答pH理由。",
+          "remediationLessonIds": [
+            "pigment-anthocyanin"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q13-r2",
+          "label": "中性食品選擇及pH理由",
+          "points": 2.5,
+          "evidenceHint": "選甜菜紅素作相對較合適候選並說其較寬的低酸/近中性保色範圍。",
+          "explanation": "勿將pH比較寫成無條件耐高熱；不要求另做完整配方試驗才給分。",
+          "remediationLessonIds": [
+            "pigment-betalain-choice"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "若依題目要求，以維持紅色且比較pH適用性為主，酸性飲料通常先選花青素；較酸條件較有利於紅色flavylium形態。pH升高後會出現其他結構平衡，可能使紅色減弱或色調改變，實際結果隨花青素種類與共色等因素而異。",
+        "中性烘焙食品則可把甜菜紅素（betacyanin，如betanin）列為兩者之間較合適的pH候選；它可在較低酸至接近中性的範圍呈紅紫色，不依靠花青素同樣的強酸紅色平衡。",
+        "但「中性pH較合適」不等於耐烘焙高熱。甜菜紅素也會受熱、氧與光而降解，仍須看成品pH、熱歷程及配方；若烘焙條件造成嚴重褪色，不能只憑這個pH比較保證成品紅色。此補充不改變原題的兩候選選擇邏輯。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "pigment-anthocyanin",
+          "title": "花青素的酸鹼變色",
+          "href": "#learn/pigments/pigment-anthocyanin/understand"
+        },
+        {
+          "lessonId": "pigment-betalain-choice",
+          "title": "同樣要紅色，配方會選誰？",
+          "href": "#learn/pigments/pigment-betalain-choice/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "von Elbe等（1974）：betanin的pH與熱穩定性原始研究",
+          "url": "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1365-2621.1974.tb02888.x"
+        },
+        {
+          "title": "Natural Pigments of Anthocyanin and Betalain for Coloring Soy-Based Yogurt Alternative",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7353562/"
+        },
+        {
+          "title": "Color stability and change in bioactive compounds of red beet juice concentrate stored at different temperatures",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6828920/"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-239-q14",
+      "version": 1,
+      "subject": "chemistry",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "切蒜如何啟動蒜素生成",
+      "originalPrompt": "為什麼完整的整顆大蒜聞起來沒有強烈的辛辣味，必須經過「拍碎」或「切碎」後才會產生蒜味？請用酵素（Enzyme）與基質（Substrate）的「空間區隔」概念，解釋大蒜素（Allicin）的生成反應機制。(6分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。",
+      "prompt": "先說明完整組織中酵素與底物為何不易接觸，再把組織破壞連到alliin、alliinase與allicin。以中間體或淨反應表達生成過程。",
+      "examRef": {
+        "year": 115,
+        "paperId": "239",
+        "question": "第14題",
+        "page": 2,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=2",
+        "promptSummary": "切蒜如何啟動蒜素生成",
+        "originalPoints": 6,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 8,
+      "maxScore": 6,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-239-q14-r1",
+          "label": "空間區隔與破壞後接觸",
+          "points": 2,
+          "evidenceHint": "指出alliin與alliinase在完整組織受分隔，切碎後得以接觸。",
+          "explanation": "不強制背特定細胞器名稱；須超過「表面積增加」。",
+          "remediationLessonIds": [
+            "flavor-garlic"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q14-r2",
+          "label": "辨認酵素和底物",
+          "points": 1,
+          "evidenceHint": "alliinase是酵素，alliin是底物，allicin是後續產物。",
+          "explanation": "三名稱與角色不能互換。",
+          "remediationLessonIds": [
+            "flavor-garlic"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q14-r3",
+          "label": "酵素反應與含硫中間體",
+          "points": 2,
+          "evidenceHint": "說明alliin裂解形成次磺酸等中間體，不是單純揮發。",
+          "explanation": "可用清楚文字或反應式，不要求完整PLP逐電子機構。",
+          "remediationLessonIds": [
+            "flavor-garlic"
+          ]
+        },
+        {
+          "id": "ntu-115-239-q14-r4",
+          "label": "由中間體生成allicin",
+          "points": 1,
+          "evidenceHint": "兩份次磺酸縮合形成allicin，或等價清楚表述。",
+          "explanation": "不將全部後續反應都歸為alliinase直接一步催化。",
+          "remediationLessonIds": [
+            "flavor-garlic"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "完整蒜組織把含硫底物alliin與酵素alliinase分隔在不同的細胞/亞細胞位置，限制接觸；拍碎或切碎破壞這個區隔，使兩者混合，迅速啟動反應。因此變強的氣味不只是原有揮發物逸散，也包含新化合物生成。",
+        "Alliinase是以PLP為輔因子的裂解酵素，可由alliin產生allylsulfenic acid（烯丙基次磺酸）及aminoacrylate相關中間體。後者可再與水反應生成丙酮酸和氨；這個支線與含硫中間體的去向要分開。",
+        "兩分子的烯丙基次磺酸可自發縮合生成allicin（烯丙基硫代亞磺酸酯）並釋出水：2 R–SOH→R–S(=O)–S–R+H₂O，其中R為烯丙基。Allicin還會有後續轉化，故不能把alliin直接標成原來就已存在的大量蒜素。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "flavor-garlic",
+          "title": "切蒜為什麼改變氣味",
+          "href": "#learn/flavor/flavor-garlic/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "EC 4.4.1.4: alliin lyase",
+          "url": "https://enzyme.expasy.org/EC/4.4.1.4"
+        },
+        {
+          "title": "Two Structures of Alliinase from Alliium sativum L.: Apo Form and Ternary Complex with Aminoacrylate Reaction Intermediate Covalently Bound to the PLP Cofactor",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022283606015816"
+        },
+        {
+          "title": "Garlic Revisited: Antimicrobial Activity of Allicin-Containing Garlic Extracts against Burkholderia cepacia Complex — Fig. 1",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0112726"
+        }
+      ],
+      "limitations": "原題依官方題本目視轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分，細項分配屬教學自評，並非官方評分標準。可接受科學上合理且回應原題的替代論證，不強制使用本頁的固定例子或所有補充說明。"
+    },
+    {
+      "id": "ntu-115-240-q1",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "濕空氣圖如何支援熱風乾燥",
+      "prompt": "說明濕空氣圖描述哪些狀態性質、如何用已知條件定位一個空氣狀態，再連到熱風乾燥中的加熱、吸濕與熱量／用氣量分析。可畫示意圖或用文字描述；原卷未提供指定數值圖，也未要求計算某一組讀值。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第1題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "濕空氣圖如何支援熱風乾燥",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q1-r1",
+          "label": "濕空氣圖的對象與狀態條件",
+          "points": 2,
+          "evidenceHint": "指出乾空氣—水蒸氣混合物的性質圖，並說明所用總壓力。",
+          "explanation": "含濕比的基準為乾空氣質量；不是食品的含水率。",
+          "remediationLessonIds": [
+            "proc-psychrometric-chart"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q1-r2",
+          "label": "辨認圖上的主要性質與線群",
+          "points": 3,
+          "evidenceHint": "說明乾球、含濕比、相對濕度／飽和邊界，並辨認濕球、露點、焓或比容等相關量。",
+          "explanation": "接受等價圖式；濕球線與等焓線接近但非完全同一線。",
+          "remediationLessonIds": [
+            "proc-psychrometric-chart"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q1-r3",
+          "label": "說明狀態定位與讀取方法",
+          "points": 2,
+          "evidenceHint": "說明固定總壓力下由兩個適當獨立性質定位，再讀其他性質。",
+          "explanation": "例如乾球＋相對濕度或乾球＋濕球；不需自編數值。",
+          "remediationLessonIds": [
+            "proc-psychrometric-chart"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q1-r4",
+          "label": "把圖用在熱風乾燥",
+          "points": 3,
+          "evidenceHint": "把空氣加熱／吸濕路徑或進出口性質差連到水分移除、乾空氣需求或供熱量。",
+          "explanation": "不僅列出量名；應說明這些量如何幫助分析乾燥。",
+          "remediationLessonIds": [
+            "proc-dryer-air-balance"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "濕空氣圖把乾空氣與水蒸氣混合物在指定總壓力下的性質畫在同一張圖上。常用圖可依乾球溫度與含濕比定位，另有相對濕度曲線、飽和邊界，以及濕球溫度、比焓、比容等線群；含濕比通常以 kg水/kg乾空氣表示。露點可由同一含濕比向飽和邊界讀取。",
+        "給定兩個適當的獨立性質及總壓力，例如乾球與相對濕度，可找出狀態點並讀取其他量。圖線配置會隨圖型而異，濕球線與等焓線也不是完全相同。",
+        "熱風在加熱器中若只加顯熱、不加水，含濕比近似不變，溫度與焓增加、相對濕度下降。空氣在乾燥器帶走食品水分後含濕比上升；若作近似絕熱分析，還須納入食品、水與空氣的能量收支，不能把所有乾燥器都畫成精確等焓線。",
+        "利用進出口含濕比差可接水分衡算：穩態、無漏風等假設下，移水率=乾空氣質量流率×(出口含濕比−入口含濕比)。焓差可接加熱器負荷或乾燥器能量衡算，並用圖檢查排氣是否接近飽和及空氣再循環的影響。這些公式是用途示例，不要求原題不存在的數值。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-psychrometric-chart",
+          "title": "在濕空氣圖上分清三種溫度",
+          "href": "#process/proc-drying/proc-psychrometric-chart/understand"
+        },
+        {
+          "lessonId": "proc-dryer-air-balance",
+          "title": "先算乾空氣，再算加熱器",
+          "href": "#process/proc-drying/proc-dryer-air-balance/understand"
+        },
+        {
+          "lessonId": "proc-air-humidity",
+          "title": "相對濕度低，不等於水蒸氣變少",
+          "href": "#process/proc-drying/proc-air-humidity/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "ASHRAE Fundamentals：Psychrometrics，圖線與濕空氣過程",
+          "url": "https://handbook.ashrae.org/Handbooks/F21/SI/F21_Ch01/F21_Ch01_si.aspx"
+        },
+        {
+          "title": "LearnChemE：濕空氣圖的物性與讀圖用途",
+          "url": "https://learncheme.com/quiz-yourself/interactive-self-study-modules/humidity-and-water-air-vle-psychrometric-chart/humidity-and-water-air-vle-summary/"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。原題是描述與用途題，不是指定圖表讀數題；不要求補畫原卷沒有的圖。圖線與衡算都須有壓力和過程條件。",
+      "originalPrompt": "(10%) 請描述使用於熱風乾燥之 Psychrometric chart，並說明其用途。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q2",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "蒸發用途與單效、多效比較",
+      "prompt": "舉出食品加工中利用蒸發的實例，說明蒸發技術在該製程的作用。再比較單效與多效蒸發的能量使用效率，解釋差異來源及影響實際表現的條件。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第2題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "蒸發用途與單效、多效比較",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q2-r1",
+          "label": "具體食品實例與蒸發目的",
+          "points": 2,
+          "evidenceHint": "寫出食品、被移除的溶劑與得到的產品改變。",
+          "explanation": "例如牛乳/乳清濃縮可減少後續乾燥負荷；不能只寫「加熱食品」。",
+          "remediationLessonIds": [
+            "proc-evaporation-balance"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q2-r2",
+          "label": "說清單效與多效的供熱路徑",
+          "points": 3,
+          "evidenceHint": "畫出或文字描述新鮮蒸汽與二次蒸氣的去向。",
+          "explanation": "多效把前效二次蒸氣拿去後效凝結供熱。",
+          "remediationLessonIds": [
+            "proc-multiple-effects"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q2-r3",
+          "label": "說明壓力、沸點和傳熱溫差",
+          "points": 2,
+          "evidenceHint": "解釋後效如何在較低沸點下利用前效蒸氣。",
+          "explanation": "熱要有溫差才能傳遞，並非水自動不需汽化熱。",
+          "remediationLessonIds": [
+            "proc-multiple-effects"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q2-r4",
+          "label": "有界比較效率與實際限制",
+          "points": 3,
+          "evidenceHint": "定義比較指標並提到進料、熱損失、沸點升高或效數取捨。",
+          "explanation": "可以說通常減少新鮮蒸汽需求；不可只憑效數給出保證節能百分比。",
+          "remediationLessonIds": [
+            "proc-multiple-effects"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "例如將牛乳或乳清送入蒸發器，利用間接供熱移除部分水而提高固形物濃度，降低運輸或後續乾燥的水分負荷。濃縮液仍須注意黏度、熱敏感成分與停留時間。",
+        "單效蒸發主要以外來蒸汽在換熱面凝結供熱，產品蒸出的二次蒸氣若直接冷凝排熱，其能量只利用一次。多效配置則讓前效的二次蒸氣在後效的加熱側凝結，繼續提供汽化所需的能量。",
+        "為維持傳熱溫差，後效通常在較低壓力、較低沸點下運轉。可用蒸汽經濟＝總蒸發水量/新鮮蒸汽用量比較；在合適條件下，多效可提高這個質量比，但不表示能量轉換效率超過100%。",
+        "實際結果受進料溫度、產品沸點升高、可用總溫差、熱損失、結垢及設備配置影響。效數增加有設備與操作成本，不能把「有n效」直接當成精確節能比例；若有蒸氣再壓縮，也應另交代能源邊界。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-multiple-effects",
+          "title": "讓上一效的蒸氣繼續供熱",
+          "href": "#process/proc-evaporation/proc-multiple-effects/understand"
+        },
+        {
+          "lessonId": "proc-evaporation-balance",
+          "title": "蒸氣用了兩次，外供蒸汽省在哪裡？",
+          "href": "#process/proc-evaporation/proc-evaporation-balance/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Tetra Pak Dairy Processing Handbook：Evaporators",
+          "url": "https://dairyprocessinghandbook.tetrapak.com/chapter/evaporators"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。",
+      "originalPrompt": "(10%) 請舉例說明蒸發技術如何應用於食品加工製程？並請解釋單效與多效蒸發（single & multiple effect evaporation）的設計與能量使用效率差別。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q3",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "肉湯汁與肉醬罐頭的冷點",
+      "prompt": "以肉湯汁罐頭與肉醬罐頭為例，說明加熱殺菌時的冷點概念，並比較兩類產品可能出現的差異。請把食品的傳熱方式與冷點位置連起來，說明哪些位置只是候選、哪些判斷仍須產品量測。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第3題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "肉湯汁與肉醬罐頭的冷點",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 7,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q3-r1",
+          "label": "解釋冷點/慢熱區的意義",
+          "points": 1,
+          "evidenceHint": "指出它與食品內部最不利受熱區的關係。",
+          "explanation": "不是加熱介質設定點，也不是只挑外表最低讀值。",
+          "remediationLessonIds": [
+            "proc-temperature-history"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q3-r2",
+          "label": "分清流動對流與導熱占優的產品",
+          "points": 2,
+          "evidenceHint": "比較肉湯可流動性與肉醬黏度/固形結構如何改變傳熱。",
+          "explanation": "依條件論述，不必宣稱所有肉湯或所有肉醬完全相同。",
+          "remediationLessonIds": [
+            "proc-temperature-history"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q3-r3",
+          "label": "提出有條件的位置比較",
+          "points": 1,
+          "evidenceHint": "指出導熱情境常以幾何中心作候選，液態對流可能出現偏移。",
+          "explanation": "不要把固定高度或中心位置無條件套到所有食品。",
+          "remediationLessonIds": [
+            "proc-temperature-history"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q3-r4",
+          "label": "說明熱穿透確認與變因",
+          "points": 1,
+          "evidenceHint": "列出需核對的產品/容器條件及時間—溫度量測。",
+          "explanation": "較黏、顆粒、填充和攪動都可能改變冷區；完整殺菌作用還要看時間歷程。",
+          "remediationLessonIds": [
+            "proc-thermal-validation"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "冷點是製程評估中需特別關注的慢熱或最不利受熱區域。食品內部升溫會落後於加熱介質，不能把設備設定溫度當成所有位置的食品溫度。",
+        "若肉湯能形成自然對流，流體運動會改變內部熱量分配，慢熱區可偏離幾何中心、在常見直立靜置配置中可能偏向較下方。若肉醬黏稠、流動受限而以導熱為主，幾何中心附近常是候選慢熱區。這些是依傳熱模式提出的預期，不是通用定位規則。",
+        "實際產品還受罐形、尺寸、固形物、粒徑、黏度、填充、初始溫度及攪動等影響，應做相符的冷點定位和熱穿透量測。若要比較整段殺菌作用，還須看該位置的時間—溫度歷程；某一瞬間最低溫不保證就是全程累積作用最小的位置。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-temperature-history",
+          "title": "加熱介質與食品冷點",
+          "href": "#process/proc-thermal-processing/proc-temperature-history/understand"
+        },
+        {
+          "lessonId": "proc-heat-transfer",
+          "title": "熱需求相同，升溫速度仍可不同",
+          "href": "#process/proc-energy/proc-heat-transfer/understand"
+        },
+        {
+          "lessonId": "proc-thermal-validation",
+          "title": "從計算結果走到製程證據",
+          "href": "#process/proc-thermal-processing/proc-thermal-validation/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FDA：熱分布與熱穿透",
+          "url": "https://www.fda.gov/guide-inspections-low-acid-canned-food-22"
+        },
+        {
+          "title": "FDA：Stock Rotomat熱分布與產品冷點",
+          "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/stock-rotomat"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。",
+      "originalPrompt": "(5%) 請用肉湯汁罐頭與肉醬罐頭為案例，說明加熱殺菌加工時的冷點(cold point)與兩者差異。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q4",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "物體變大，升降溫為何變慢",
+      "prompt": "在相同材料、相似形狀、初始條件及外界換熱條件下，說明放大尺寸如何改變熱容量、換熱面積或內部傳熱距離，並連到達到同一目標溫度的時間。可用文字、收支或適用的時間尺度說明，不必同時使用所有模型。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第4題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "物體變大，升降溫為何變慢",
+        "originalPoints": 5,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 6,
+      "maxScore": 5,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q4-r1",
+          "label": "提出合理的尺寸—傳熱機制",
+          "points": 3,
+          "evidenceHint": "用熱容量相對換熱面積、或內部傳導距離，說明大物體的限制。",
+          "explanation": "接受表面積／體積比或傳導尺度等相符推理；不能只說熱量較多而不連到傳熱速率。",
+          "remediationLessonIds": [
+            "proc-thermal-size"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q4-r2",
+          "label": "由機制推出升降溫時間變長",
+          "points": 2,
+          "evidenceHint": "明確連到較小溫變率或較長達標時間，並讓比較條件一致。",
+          "explanation": "可用 τ∝V/A 或 t∝L²/α 的適用模型；原題不要求一個普遍倍數。",
+          "remediationLessonIds": [
+            "proc-thermal-size",
+            "proc-heat-penetration-scale"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "以相似形狀、同材料及相同外界換熱條件比較，線尺寸增大時，需改變溫度的物料量與熱容量隨體積增加，對外換熱面積卻只隨面積增加，單位熱容量分到的表面換熱能力下降。因此雖然大物體的總熱流可能較大，平均溫度改變仍可能較慢。",
+        "若內部可近似同溫，能量式為 ρcpV·dT/dt=hA(T∞−T)，時間常數 τ=ρcpV/(hA)。相似物體的 V/A 隨尺寸增加，達到相同相對溫差所需時間就增加。這個集總模型必須先有內部溫差可忽略的條件。",
+        "若內部傳導是重要限制，表面到中心的熱傳距離也隨尺寸增加；在相符形狀、物性及邊界條件下，擴散時間尺度可寫 t∼L²/α。兩種描述都說明放大常使升降溫變慢，但不能混成無條件的固定倍數；更換形狀、攪拌或換熱係數可能改變比較結果。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-thermal-size",
+          "title": "大物體升降溫慢，慢在哪裡？",
+          "href": "#process/proc-energy/proc-thermal-size/understand"
+        },
+        {
+          "lessonId": "proc-heat-transfer",
+          "title": "熱需求相同，升溫速度仍可不同",
+          "href": "#process/proc-energy/proc-heat-transfer/understand"
+        },
+        {
+          "lessonId": "proc-heat-penetration-scale",
+          "title": "厚度加倍，先說固定什麼",
+          "href": "#process/proc-thermal-processing/proc-heat-penetration-scale/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "MIT Unified Engineering §18.3：暫態加熱／冷卻與時間常數",
+          "url": "https://web.mit.edu/course/16/16.unified/www/FALL/thermodynamics/notes/node129.html"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。原卷沒有指定罐頭、球形或數值；球模型與時間尺度僅用來說明，不能當原題唯一答法。",
+      "originalPrompt": "(5%) 為什麼體積越大降溫或升溫達一定溫度所需的時間會越久？",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q5",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "乾濕基定義與稻穀乾燥計算",
+      "prompt": "（a）說明乾基（db）與濕基（wb）含水量各自的分母與意義，並說明兩者如何換算。（原卷本小題8分）\n\n（b）一批200 kg稻穀收穫時含水30% wb，需乾燥至0.125 db才能達到題設入庫條件。乾燥機按題設每小時去除5 kg水，求所需小時數。請列出乾物質、初末水量和計算過程；以只除水且乾物質保留為衡算前提。（原卷本小題12分）",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第5題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "乾濕基定義與稻穀乾燥計算",
+        "originalPoints": 20,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 22,
+      "maxScore": 20,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q5-r1",
+          "label": "濕基定義與分母",
+          "points": 4,
+          "evidenceHint": "寫出w=m水/(m水+m乾物質)，區分分率與百分比。",
+          "explanation": "30% wb應先寫成0.30質量分率。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q5-r2",
+          "label": "乾基定義與換算",
+          "points": 4,
+          "evidenceHint": "寫出X=m水/m乾物質，以及X=w/(1−w)或等價換算。",
+          "explanation": "0.125 db在本題是kg水/kg乾物質，不是0.125%或12.5% wb。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q5-r3",
+          "label": "初始乾物質與水量",
+          "points": 3,
+          "evidenceHint": "列出乾物質140 kg、初始水60 kg。",
+          "explanation": "兩者須加回原料200 kg。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q5-r4",
+          "label": "終點水量",
+          "points": 3,
+          "evidenceHint": "利用不變乾物質算出140×0.125=17.5 kg水。",
+          "explanation": "不可沿用200 kg當終點乾基分母。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q5-r5",
+          "label": "移除水量與收支",
+          "points": 3,
+          "evidenceHint": "算出42.5 kg，並以成品質量157.5 kg交叉核對。",
+          "explanation": "200=157.5+42.5，60=17.5+42.5。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q5-r6",
+          "label": "時間、單位與定速題設",
+          "points": 3,
+          "evidenceHint": "算出42.5/5=8.5 h並註明此率為題設。",
+          "explanation": "真實乾燥速率可變，原題的固定移水率是本題計算前提。",
+          "remediationLessonIds": [
+            "proc-mass-basis"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（a）濕基w=m水/(m水+m乾物質)，乾基X=m水/m乾物質。以質量分率表示時X=w/(1−w)，w=X/(1+X)；若寫百分比，需先除100再帶入。乾基可以大於1，這不違反質量守恆。",
+        "（b）初始乾物質=200×(1−0.30)=140 kg，初始水=60 kg。假設乾燥只移除水，乾物質保持140 kg。",
+        "終點X=0.125 kg水/kg乾物質，所以終點水=140×0.125=17.5 kg，成品質量157.5 kg。需除水60−17.5=42.5 kg，所需時間42.5÷5=8.5 h。",
+        "核對：200=157.5+42.5，且60=17.5+42.5。0.125 db相當於約11.11% wb；本頁採原卷給定入庫條件，不把它當成任何稻穀的通用安全儲藏門檻。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-mass-basis",
+          "title": "先把乾基與濕基分清楚",
+          "href": "#process/proc-balances/proc-mass-basis/understand"
+        },
+        {
+          "lessonId": "proc-drying-rate",
+          "title": "為什麼越乾，後面的水越慢離開？",
+          "href": "#process/proc-drying/proc-drying-rate/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FAO：Grain Drying／乾濕基水分",
+          "url": "https://www.fao.org/4/s1250e/S1250E0u.htm"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。原題(a)8分、(b)12分總和保留；本頁對(b)再拆的小項是教學分配。原卷入庫含水條件不是本專案提出的通用安全建議。",
+      "originalPrompt": "(20%) 請回答下面問題：\na. 說明乾基(dry base, db)和濕基(wet base, wb)水分含量的意義。(8%)\nb. 稻穀採收時(濕穀)水分含量是 30 wb%，進穀倉收藏(乾穀)的儲存條件是 0.125 db。某乾燥機每小時能去除 5 公斤水分。請問重 200 公斤的濕穀，需時多久(小時)才可以乾燥至達到進倉庫的條件？(12%)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q6",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "乾燥的保存作用、移水機制與品質變化",
+      "prompt": "(a) 把乾燥的目的連到水活性、微生物生長或其他劣變作用。(5分)\n(b) 說明你採用的分類，再解釋兩種水分移除機制；例如按相變分蒸發／昇華，或按傳質層次分內部遷移／表面移出。(5分)\n(c) 選兩種具體品質變化，各說明現象與造成它的物理或化學原因。(5分)",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第6題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "乾燥的保存作用、移水機制與品質變化",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q6-r1",
+          "label": "乾燥目的",
+          "points": 2,
+          "evidenceHint": "說明延長保存或降低水分負荷、重量／體積等合理目的。",
+          "explanation": "原題核心是保存；運輸與產品形態可作補充。",
+          "remediationLessonIds": [
+            "proc-drying-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q6-r2",
+          "label": "將水分狀態連到保存效果",
+          "points": 3,
+          "evidenceHint": "解釋降低水活性如何限制微生物增殖或部分劣變反應。",
+          "explanation": "不把失水當作殺死全部微生物；其他正確的保存機制可接受。",
+          "remediationLessonIds": [
+            "proc-drying-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q6-r3",
+          "label": "第一種移水機制",
+          "points": 2.5,
+          "evidenceHint": "交代機制、驅動或相態變化，並標明所採分類。",
+          "explanation": "可選蒸發，或內部擴散／毛細遷移等合理傳質描述。",
+          "remediationLessonIds": [
+            "proc-drying-rate"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q6-r4",
+          "label": "第二種移水機制及其區別",
+          "points": 2.5,
+          "evidenceHint": "說清另一機制，與前項在同一分類框架內有可辨別差異。",
+          "explanation": "可選凍水昇華，或表面蒸發及外部傳質；不把同一機制換名重複計分。",
+          "remediationLessonIds": [
+            "proc-freeze-drying"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q6-r5",
+          "label": "品質變化一與成因",
+          "points": 2.5,
+          "evidenceHint": "選一現象並寫出造成它的作用鏈。",
+          "explanation": "例如收縮／表面硬化、褐變、營養成分降解、香氣逸散、氧化等；不強制本例。",
+          "remediationLessonIds": [
+            "proc-drying-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q6-r6",
+          "label": "品質變化二與成因",
+          "points": 2.5,
+          "evidenceHint": "再選一個不同現象，說明相符原因。",
+          "explanation": "只有列名稱而無成因不足；不同正確例子可接受。",
+          "remediationLessonIds": [
+            "proc-drying-quality"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "(a) 乾燥移除部分水，常可降低水活性，使多數腐敗或致病微生物不易增殖，並減緩部分需要水的劣變作用；也可減輕重量、縮小體積及形成所需產品形態。保存效果取決於終點狀態和後續吸濕，低水活性不能直接等同無活菌或無毒素。",
+        "(b) 若依移除水時的相變分類：蒸發是液態水吸收汽化潛熱成為水蒸氣，再由空氣或真空系統帶走；熱風、真空乾燥可用此概念。昇華是已凍結的冰直接轉為水蒸氣，是冷凍乾燥一次乾燥的核心；後續殘餘吸附水的去除還涉及解吸。",
+        "若教材以傳質層次分類，也可完整說明：內部水分藉液／蒸氣擴散、毛細作用等移到蒸發界面；界面水分汽化後，水蒸氣穿過外部邊界層並被乾燥介質帶走。這是另一種兩層描述，應標明分類而不與相變分類混算。原卷未指定分類，能自洽解釋兩個合理機制的答案可接受。",
+        "(c) 例一是收縮或表面硬化：失水使結構收縮，表面失水快於內部補水時，可能形成較緻密硬層，影響質地和後續移水。例二是褐變：適當水分、溫度及時間下，還原糖與胺基可進行梅納反應，改變色澤／風味。也可改答氧化、維生素降解或香氣揮發，只要將變化連到正確原因；不是所有品質變化都隨乾燥程度單調增加。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-drying-rate",
+          "title": "為什麼越乾，後面的水越慢離開？",
+          "href": "#process/proc-drying/proc-drying-rate/understand"
+        },
+        {
+          "lessonId": "proc-drying-quality",
+          "title": "熱風溫度不是食品的溫度",
+          "href": "#process/proc-drying/proc-drying-quality/understand"
+        },
+        {
+          "lessonId": "proc-freeze-drying",
+          "title": "凍乾不是把冷凍食品一直抽真空",
+          "href": "#process/proc-freezing/proc-freeze-drying/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FAO：食品乾燥、水分與熱質傳",
+          "url": "https://www.fao.org/4/V5030E/V5030E0b.htm"
+        },
+        {
+          "title": "NPTEL：Physical Mechanism of Drying",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/103103027/module4/lec1/2.html"
+        },
+        {
+          "title": "FDA：Lyophilization，凍結、昇華與解吸的原理",
+          "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/lyophilization-parenteral-793"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。原卷未指定(b)的兩機制分類。參考解答分開相變與傳質層次，不將單一教材分類冒充官方唯一標準。FDA凍乾來源僅採相變原理，不移植藥品製程條件。",
+      "originalPrompt": "(15%) 食品乾燥 (food drying) 是最古老且最重要的食品保存技術之一。請依據食品工程與食品保存原理，回答下列問題：\n(a) 說明食品乾燥的主要目的，以及它如何幫助食品達到保存效果。(5%)\n(b) 說明食品在乾燥過程中，水分被移除的兩種主要機制。(5%)\n(c) 請舉出並說明乾燥過程中可能發生的兩種食品品質變化，並解釋其發生原因。(5%)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q7",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "益生菌產品設計與加工後存活",
+      "prompt": "(a) 選兩個不同設計因素，各說明為何影響菌的作用或產品使用。(4分)\n(b) 選一種技術，說清它的原理，以及製程和儲藏期間如何影響活菌保存與產品穩定性。(6分)\n可選凍乾、微膠囊化或其他相符技術；不需假設所有菌株有相同的存活改善幅度。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第7題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "益生菌產品設計與加工後存活",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q7-r1",
+          "label": "設計因素一與理由",
+          "points": 2,
+          "evidenceHint": "提出菌株功能／安全、產品基質、有效用量、感官接受或儲藏條件等一個因素並解釋。",
+          "explanation": "不強制只能選本示例的兩因素；要和產品設計有直接關係。",
+          "remediationLessonIds": [
+            "proc-freeze-drying-storage"
+          ],
+          "remediationScopeNotes": {
+            "proc-freeze-drying-storage": "不把各組差異當成已識別的單一保護機理；其他設計因素也可作答。"
+          }
+        },
+        {
+          "id": "ntu-115-240-q7-r2",
+          "label": "設計因素二與理由",
+          "points": 2,
+          "evidenceHint": "提出不同於前項的關鍵因素並解釋。",
+          "explanation": "同一因素換句話說不能算兩個；基質、包裝、感官與保存皆可合理連結。",
+          "remediationLessonIds": [
+            "proc-freeze-drying-storage"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q7-r3",
+          "label": "所選技術與原理",
+          "points": 2,
+          "evidenceHint": "辨認技術並描述它對菌體／食品造成的物理處理。",
+          "explanation": "如凍結後昇華去冰、微膠囊形成保護介質，不能只列技術名。",
+          "remediationLessonIds": [
+            "proc-freeze-drying"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q7-r4",
+          "label": "對菌存活的影響機制",
+          "points": 2,
+          "evidenceHint": "說明保護作用或可能損傷，與所選菌株及材料相符。",
+          "explanation": "凍結、滲透與脫水可能傷菌；保護配方可能降低損傷。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-240-q7-r5",
+          "label": "對儲藏與產品穩定性的影響",
+          "points": 2,
+          "evidenceHint": "把殘餘水分／水活性、氧氣、包裝、溫度或基質連到後續穩定性。",
+          "explanation": "出廠菌數與保存終點不同；不要求額外完整驗證試驗才給分。",
+          "remediationLessonIds": [
+            "proc-freeze-drying-storage"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "(a) 一個因素是菌株與預期功能是否相符：先確認身分、安全及所述健康效益的證據，決定需在產品中維持的活菌用量。另一因素是產品基質與儲藏環境，例如酸度、氧氣、可利用營養、感官需求及包裝，會共同影響發酵表現、存活和消費者接受。也可選其他兩項有清楚理由的設計因素。",
+        "(b) 以冷凍乾燥為例：先凍結，再在適當壓力與供熱下使冰昇華，後段去除較難移除的水。較低水分狀態可降低代謝與某些劣變，但凍結、濃縮的溶質及脫水本身也會損傷菌體。適合的糖或蛋白保護配方可減少部分損傷，效果仍依菌株、配方及處理而變。",
+        "凍乾後須考慮吸濕、氧氣、溫度與包裝，因為保存期間仍可能失去可培養性。原研究在同一 L. plantarum 菌株看到不同保護配方的儲藏結果不同，支持「配方與儲藏需共同設計」；不能由此替其他菌株保證改善幅度。若改答微膠囊化，可說包覆材料提供物理保護，但也會影響釋放、傳質或感官，須和產品需求相符。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-freeze-drying-storage",
+          "title": "凍乾後的菌濃度，能代表儲藏後的結果嗎？",
+          "href": "#process/proc-drying/proc-freeze-drying-storage/understand"
+        },
+        {
+          "lessonId": "proc-freeze-drying",
+          "title": "凍乾不是把冷凍食品一直抽真空",
+          "href": "#process/proc-freezing/proc-freeze-drying/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Bodzen 等（2021）：凍乾保護配方與儲藏存活原研究",
+          "url": "https://link.springer.com/article/10.1186/s12896-021-00726-2"
+        },
+        {
+          "title": "ISAPP（2014）原共識：probiotic 的範圍、活菌與健康效益證據",
+          "url": "https://doi.org/10.1038/nrgastro.2014.66"
+        },
+        {
+          "title": "FDA：Lyophilization，凍結、昇華與解吸的原理",
+          "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/lyophilization-parenteral-793"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。健康效益、菌株存活與產品感官是不同端點；本題不提供任何產品的健康宣稱或保存期限保證。",
+      "originalPrompt": "(10%) 在開發一項益生菌食品 (probiotic product) 時，產品設計必須與加工製程密切配合，才能確保益生菌的活性、產品品質與市場競爭力。請回答下列問題：\n(a) 在益生菌產品的設計階段中，請說明必須特別考量的兩個關鍵因素。(4%)\n(b) 請舉出一種常用於益生菌產品的加工或製程技術 (例如冷凍乾燥、微膠囊化等)，並說明它如何影響益生菌的存活率與產品穩定性。(6%)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q8",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "巴氏殺菌與食品滅菌的四面向比較",
+      "prompt": "用四個面向比較：熱處理溫度及時間、主要目標微生物、營養影響、儲藏條件與包裝前提。可用乳品作同一食品例子，但須說明是例子；食品加工中的商業無菌和任何條件下完全無生命並不相同。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第8題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "巴氏殺菌與食品滅菌的四面向比較",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q8-r1",
+          "label": "加熱條件比較",
+          "points": 2.5,
+          "evidenceHint": "比較通常較溫和的巴氏處理與較強的食品滅菌，並將溫度和時間一起考慮。",
+          "explanation": "可舉正確且有食品身分的條件；不強制一個所有食品共用的溫度。",
+          "remediationLessonIds": [
+            "proc-thermal-process-comparison"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q8-r2",
+          "label": "目標微生物與達成狀態",
+          "points": 2.5,
+          "evidenceHint": "說明巴氏處理多針對病原營養細胞，食品商業滅菌另處理正常儲藏下可生長的微生物及芽孢。",
+          "explanation": "巴氏處理不代表芽孢全被消除；商業無菌也非任意條件下的絕對無菌。",
+          "remediationLessonIds": [
+            "proc-thermal-process-comparison"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q8-r3",
+          "label": "營養影響比較",
+          "points": 2.5,
+          "evidenceHint": "把熱敏感營養成分變化連到食品和完整熱歷程。",
+          "explanation": "較高溫但更短時未必損失較大，不能只按最高溫度排序。",
+          "remediationLessonIds": [
+            "proc-thermal-quality"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q8-r4",
+          "label": "儲藏條件與包裝前提",
+          "points": 2.5,
+          "evidenceHint": "比較典型巴氏乳冷藏與商業無菌產品完整未開封時可常溫保存的條件。",
+          "explanation": "若選其他食品，接受符合酸度、其他障礙及包裝的儲藏解釋，不把乳品規則無條件外推；開封後變化可補充，但不是額外滿分門檻。",
+          "remediationLessonIds": [
+            "proc-thermal-process-comparison"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "以液態乳作共同例子，巴氏處理通常採較溫和的熱歷程，主要降低相關病原營養細胞及部分腐敗菌；典型參照如 63°C 30分鐘或 72°C 15秒。這些是特定乳品條件，配方改變須重新對齊，不能照搬成所有食品的操作排程。",
+        "食品的商業滅菌一般採更強的熱歷程，目的是使產品在正常非冷藏儲藏條件下不因仍可生長的微生物／芽孢而失穩。可由封裝後加熱，或高溫短時處理配合無菌充填達成；UHT乳常見溫度約135–150°C，但時間、設備與無菌包裝須成套評估。商業無菌不等於在任何條件下不存在任何活物。",
+        "營養方面，熱敏感維生素、蛋白質與其他成分的改變取決於成分、食品基質及時間—溫度歷程。通常較大的總熱負荷增加某些損失，但不能只看最高溫度；較高溫短時可能比長時處理保留較多某成分。用具體成分比較比說「滅菌把營養全部破壞」更準確。",
+        "典型巴氏乳仍須冷藏並控制後段污染；達商業無菌且包裝完整的未開封產品可依其設計條件常溫保存。開封後接觸新微生物，原本未開封的儲藏前提改變，應按產品標示冷藏使用。酸性飲料等另有酸度及其他障礙，不能僅由名稱推定所有巴氏產品一律需同樣儲藏。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-thermal-process-comparison",
+          "title": "同樣受過熱，為什麼保存條件不同？",
+          "href": "#process/proc-thermal-processing/proc-thermal-process-comparison/understand"
+        },
+        {
+          "lessonId": "proc-thermal-quality",
+          "title": "相同等效時間，品質會相同嗎？",
+          "href": "#process/proc-thermal-processing/proc-thermal-quality/understand"
+        },
+        {
+          "lessonId": "proc-aseptic-chain",
+          "title": "無菌充填要看整條路徑",
+          "href": "#process/proc-process-design/proc-aseptic-chain/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Codex CXP 57：乳品巴氏處理與商業滅菌",
+          "url": "https://www.fao.org/input/download/standards/10087/CXP_057e.pdf"
+        },
+        {
+          "title": "香港食安中心：UHT Milk—處理及儲藏條件",
+          "url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_236_04.html"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。熱處理數值僅為來源中的乳品對照，不是實際產品的確效排程或法規判定；其他食品可採合理例子完整比較。",
+      "originalPrompt": "(10%) 巴氏殺菌 (pasteurization) 與滅菌 (sterilization) 皆為常見之熱加工方法。試從加熱溫度、殺滅微生物種類、食品營養與儲藏條件等面向，比較上述兩種方法之差異。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q9",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "固態與液態發酵：差異、取捨與實例",
+      "prompt": "先分清基質的物理狀態與自由液相，再比較各自對傳熱、傳質、混合／控制或產物回收的優缺點。各舉一個具名食品或製程階段，說明為何屬於所列類型；含水原料不等於必是液態發酵。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第9題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "固態與液態發酵：差異、取捨與實例",
+        "originalPoints": 7,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 8,
+      "maxScore": 7,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q9-r1",
+          "label": "物理狀態的差異",
+          "points": 2,
+          "evidenceHint": "比較濕潤固體支撐且缺少自由流動液相，與有連續液相的系統。",
+          "explanation": "固態並非完全無水；液相中也可以有懸浮固體。",
+          "remediationLessonIds": [
+            "proc-fermentation-physical-state"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q9-r2",
+          "label": "固態的優點與代價",
+          "points": 1.5,
+          "evidenceHint": "至少把一個可能優點和一個限制連到實際物理狀態。",
+          "explanation": "例如較少用水／產物較不稀，但熱、濕度或取樣均勻性難控制；方向依產品而定。",
+          "remediationLessonIds": [
+            "proc-fermentation-physical-state"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q9-r3",
+          "label": "液態的優點與代價",
+          "points": 1.5,
+          "evidenceHint": "至少把一個可能優點和一個限制連到實際物理狀態。",
+          "explanation": "例如混合／pH與溫度控制較方便，但稀釋、氣液傳質或後續回收可能增加負擔。",
+          "remediationLessonIds": [
+            "proc-fermentation-physical-state"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q9-r4",
+          "label": "固態實例與說明",
+          "points": 1,
+          "evidenceHint": "給出一個食品製程階段並連回其物理狀態。",
+          "explanation": "例米麴的製麴階段；不能把後來加液的整條流程一律叫固態。",
+          "remediationLessonIds": [
+            "proc-fermentation-physical-state"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q9-r5",
+          "label": "液態實例與說明",
+          "points": 1,
+          "evidenceHint": "給出一個不同的液態食品發酵例並說明連續液相。",
+          "explanation": "例澄清葡萄汁酒精發酵；不強制本例，也不把液態等同一律厭氧。",
+          "remediationLessonIds": [
+            "proc-fermentation-physical-state"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "固態發酵通常指微生物在含水固體基質／支撐上生長，沒有大量自由流動水；液態發酵有連續可流動的液相，基質可溶解或懸浮。分類重點是系統物理狀態，不是看到穀物就判固態、看到菌絲就排除液態。",
+        "固態可利用固體原料、減少用水，某些用途的產物較不被大量液體稀釋；但堆層內溫度、水分及氣體供應可能不均，散熱、混合、取樣與放大控制較難。優勢須對應所選微生物和產物，不表示所有固態製程成本或產率都較佳。",
+        "液態通常較容易攪拌、輸送、取樣與調整pH和溫度；但需要較多水，目標物可能較稀，後續分離與廢液處理可能增加負擔。需氧系統還有氣液傳質與攪拌能量的取捨；液態不代表完全均勻，也不等於必然厭氧。",
+        "固態例子可用 Aspergillus oryzae 在蒸熟米粒上的製麴階段，菌在濕潤固體上生長產酵素。液態例子可用酵母在澄清葡萄汁中的酒精發酵，糖在連續液相中供利用。若改以其他食品或特定階段為例，只要說清系統狀態與微生物角色，同樣可接受。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-fermentation-physical-state",
+          "title": "發酵物理狀態：支撐、傳遞與條件性取捨",
+          "href": "#process/proc-fermentation/proc-fermentation-physical-state/understand"
+        },
+        {
+          "lessonId": "proc-fermentation-comparison",
+          "title": "怎樣設計一組可比較的發酵試驗？",
+          "href": "#process/proc-fermentation/proc-fermentation-comparison/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Smits（1998）作者論文：Solid-State Fermentation，物理狀態與傳遞",
+          "url": "https://edepot.wur.nl/200086"
+        },
+        {
+          "title": "FAO：Products of Yeast Fermentation，澄清葡萄汁發酵例",
+          "url": "https://www.fao.org/4/x0560e/x0560e09.htm"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。不同文獻對liquid-state與submerged的分類可能不同；本題採自由液相與支撐狀態說明，不把兩英文名詞在所有來源中直接等同。",
+      "originalPrompt": "(7%) 食品發酵 (food fermentation) 為一項歷史悠久的加工技術，其起源可追溯至新石器時代。依據基質的不同，可分為固態發酵 (solid-state fermentation) 與液態發酵 (liquid-state fermentation)。試比較上述兩種方法之差異及其優缺點，並各舉一個實例加以說明。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-240-q10",
+      "version": 1,
+      "subject": "processing",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "以同一食品說明包裝四功能",
+      "prompt": "食品包裝同時關係加工、保存與使用。請從容裝（containment）、保護（protection）、便利（convenience）與資訊傳遞（communication）四個面向，說明包裝目的及功能。可選同一食品，將每項功能連到具體設計或使用情境。",
+      "examRef": {
+        "year": 115,
+        "paperId": "240",
+        "question": "第10題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf#page=1",
+        "promptSummary": "以同一食品說明包裝四功能",
+        "originalPoints": 8,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 10,
+      "maxScore": 8,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-240-q10-r1",
+          "label": "容裝功能",
+          "points": 2,
+          "evidenceHint": "說明如何承裝、固定或集合該食品，並連到形態。",
+          "explanation": "不僅是材料名稱，要回答如何讓食品可搬運/分配。",
+          "remediationLessonIds": [
+            "proc-package-functions-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q10-r2",
+          "label": "保護功能",
+          "points": 2,
+          "evidenceHint": "說明一項需防的物理、化學或微生物影響及設計作用。",
+          "explanation": "材料與封口都可能影響整包，不能把目的當已證性能。",
+          "remediationLessonIds": [
+            "proc-package-functions-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q10-r3",
+          "label": "便利功能",
+          "points": 2,
+          "evidenceHint": "連到開啟、取用、份量、再封或處理的使用需求。",
+          "explanation": "便利性依使用者和情境而異。",
+          "remediationLessonIds": [
+            "proc-package-functions-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-240-q10-r4",
+          "label": "資訊傳遞功能",
+          "points": 2,
+          "evidenceHint": "說明標示如何支援辨認、保存、使用或購買判斷。",
+          "explanation": "一項特徵可兼具多種功能，分類不必互斥。",
+          "remediationLessonIds": [
+            "proc-package-functions-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "以乾脆餅乾為例，容裝功能讓餅乾集中在一個可運送、分配的包件，托盤可協助定位與減少散落。",
+        "保護功能可針對吸濕失脆、氧化與壓碎等問題，選擇相符阻隔材料、封口及支撐結構；是否達到保存目標仍須以整包與產品條件驗證。",
+        "便利功能可透過好辨認的開啟位置、適當施力方式、份量安排或再封設計支持取用；不同年齡和使用情境需要實測，不能只憑設計宣稱對所有人方便。",
+        "資訊傳遞包括品名、成分與過敏原、保存與使用方法、有效日期或批號等適用資訊，使人能辨識產品與採取正確行動。具體法定項目應另查適用地區規範；本題在解釋功能，不是法規清單測驗。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "proc-package-functions-evidence",
+          "title": "同一食品的包裝四功能：用途、取捨與證據",
+          "href": "#process/proc-packaging/proc-package-functions-evidence/understand"
+        },
+        {
+          "lessonId": "proc-package-barriers",
+          "title": "阻氧、阻濕與封口是不同檢查",
+          "href": "#process/proc-packaging/proc-package-barriers/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "Oklahoma State University：食品包裝四功能",
+          "url": "https://extension.okstate.edu/fact-sheets/sustainable-food-packaging-options"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。",
+      "originalPrompt": "(8%) 食品包裝（food packaging）不僅是加工製程的最後步驟，更是行銷活動的起點。請試從 containment, protection, convenience, communication 等四個層面，論述食品包裝之目的及功能。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q1",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "健康訴求發酵飲品的菌株選擇",
+      "prompt": "以要開發的飲品與目標消費者為背景，說明菌株選擇的幾個不同面向，並讓每項因素都有理由。將「菌的身分與安全」「符合訴求的效益證據」「產品中可送達的活菌與加工適性」連起來，不只列出高菌數或耐酸等單一特徵。",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第1題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "健康訴求發酵飲品的菌株選擇",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q1-r1",
+          "label": "菌株身分與可追溯性",
+          "points": 2,
+          "evidenceHint": "說明為何需要明確的菌種／菌株或菌株組合身分。",
+          "explanation": "不能只用「乳酸菌」類別名稱替代特定材料的證據。",
+          "remediationLessonIds": [
+            "micro-biotics-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q1-r2",
+          "label": "與健康訴求相符的效果證據",
+          "points": 4,
+          "evidenceHint": "把目標族群、可測健康結果與菌株／組合、劑量及產品條件連起來。",
+          "explanation": "體外耐酸或抑菌可支持篩選，不能單獨證明人體健康效益；合理共有功能證據亦可論述。",
+          "remediationLessonIds": [
+            "micro-biotics-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q1-r3",
+          "label": "安全與不良特性的評估",
+          "points": 3,
+          "evidenceHint": "說明病原／產毒、可轉移抗藥性、污染或目標族群安全等相符考量。",
+          "explanation": "可選合理項目說明，不要求背完一張檢驗清單；「乳酸菌」不自動保證所有株安全。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-241-q1-r4",
+          "label": "活性、用量與實際送達",
+          "points": 3,
+          "evidenceHint": "說明發酵、加工與儲藏後能否維持相符活菌用量，以及與預期作用途徑的關係。",
+          "explanation": "需要時可談酸／膽鹽耐受；永久定殖不是所有益生菌效益的必要條件。",
+          "remediationLessonIds": [
+            "micro-biotics-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q1-r5",
+          "label": "食品加工與品質適性",
+          "points": 3,
+          "evidenceHint": "把菌株產酸、風味、質地、與其他starter相容性或儲藏穩定性連到飲品。",
+          "explanation": "具健康證據仍需能製成穩定可接受的產品；不同合理技術因素可接受。",
+          "remediationLessonIds": [
+            "micro-starter-cultures"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "先確認菌株或菌株組合的身分與可追溯性，因為「乳酸菌」包含許多不同材料，產酸或高活菌數只描述部分性質，不能直接支持所要標示的健康結果。",
+        "將「有助腸道健康」變成可評估的結果，核對相符人群、用量、菌株／組合及產品條件的研究。部分有根據的共有功能可合理外推，特定健康宣稱則須有相應證據；不能把每株一律要求同一試驗，也不能只憑體外耐酸、附著或抑菌結果保證人體效果。",
+        "安全評估須配合材料與用途，例如排查不適當的毒力／產毒特性、可轉移抗藥性及污染，並考慮預定使用族群。製程中使用過某類菌的歷史，有助評估但不代替新菌株及產品條件的判斷。",
+        "同時考慮發酵、加工及保存末期是否能維持有證據支持的活菌量；若作用途徑需要通過胃腸，酸、膽鹽及產品基質的影響可納入選擇。存活與永久定殖不同，並非所有有效菌都必須永久定殖。",
+        "最後要能形成合適飲品：產酸速度、風味、質地、和原有starter或配料的相容性，以及冷藏／包裝期間的穩定性都影響可用性。選株應把功能、安全與食品技術表現連起來，高菌數本身不是完整的選擇理由。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-biotics-evidence",
+          "title": "加了菌，健康效益的證據就夠了嗎？",
+          "href": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+        },
+        {
+          "lessonId": "micro-starter-cultures",
+          "title": "發酵種要完成什麼工作？",
+          "href": "#micro/micro-fermentation/micro-starter-cultures/understand"
+        },
+        {
+          "lessonId": "micro-fermented-milk-evidence",
+          "title": "這份發酵乳研究，能說到哪裡？",
+          "href": "#micro/micro-fermentation/micro-fermented-milk-evidence/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "ISAPP（2014）原共識：probiotic 的範圍、活菌與健康效益證據",
+          "url": "https://doi.org/10.1038/nrgastro.2014.66"
+        },
+        {
+          "title": "FAO／WHO：Probiotics in Food，菌株、安全與產品評估指引",
+          "url": "https://www.fao.org/4/a0512e/a0512e00.pdf"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。原卷「重要重點」冗詞保留。此題討論選株原則，不替任何實際產品核准健康宣稱或對個人提供醫療效果保證。",
+      "originalPrompt": "某食品公司計畫開發一款標榜「有助於腸道健康」的乳酸菌發酵飲品。研發人員在產品設計時發現，僅提高產品中的乳酸菌菌數，並不一定能確保具有良好的健康效果，因此必須重新審慎評估乳酸菌菌株的選擇。請說明在開發具有健康訴求的乳酸菌發酵食品時，選擇乳酸菌菌株應考量哪些重要重點，並簡要說明其理由。(15分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q2",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "PCR/qPCR與跨國污染溯源",
+      "prompt": "以2022年巧克力相關跨國沙門氏菌污染事件為情境：多國病例的病菌分離株具有高度相似性，調查者懷疑共同污染來源。\n\n（1）說明PCR與即時PCR（qPCR）在此類事件的主要用途及優點。（原卷8分）\n\n（2）解釋為何還需要分子或基因體檢測做菌株比對與溯源，以及單靠傳統培養法為何不足。請說明培養與分子證據如何互補。（原卷7分）",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第2題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "PCR/qPCR與跨國污染溯源",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q2-r1",
+          "label": "PCR的目標與用途",
+          "points": 3,
+          "evidenceHint": "指出目標核酸檢出/擴增與食品或病例檢測。",
+          "explanation": "核酸陽性不自動等於活菌數、毒素或來源定論。",
+          "remediationLessonIds": [
+            "micro-qpcr-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q2-r2",
+          "label": "qPCR的即時訊號與條件定量",
+          "points": 3,
+          "evidenceHint": "說明隨循環追蹤訊號，定量需校正與方法條件。",
+          "explanation": "Cq不能不加條件換成原食品CFU/g，增菌也會改變起始量。",
+          "remediationLessonIds": [
+            "micro-qpcr-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q2-r3",
+          "label": "相較傳統流程的優點",
+          "points": 2,
+          "evidenceHint": "說出速度、目標專一性或適當驗證下的敏感度，並交代控制。",
+          "explanation": "不能只寫「一定比較好」；前處理、抑制與對照仍重要。",
+          "remediationLessonIds": [
+            "micro-qpcr-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q2-r4",
+          "label": "分子/基因體的菌株區辨",
+          "points": 3,
+          "evidenceHint": "說明同種內仍需更高解析度比較，如WGS。",
+          "explanation": "培養外觀或物種名稱相同不代表同一菌株。",
+          "remediationLessonIds": [
+            "micro-outbreak-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q2-r5",
+          "label": "培養的角色與不足",
+          "points": 2,
+          "evidenceHint": "寫出分離株/可培養證據的價值，以及單靠它不能完成遺傳比對。",
+          "explanation": "不是宣布培養法無用；可先培養後進行基因體分析。",
+          "remediationLessonIds": [
+            "micro-outbreak-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q2-r6",
+          "label": "溯源須整合其他資料",
+          "points": 2,
+          "evidenceHint": "把相似群集連到病例暴露、時間及產品追溯。",
+          "explanation": "分子相似性不能單獨唯一定位污染工廠。",
+          "remediationLessonIds": [
+            "micro-outbreak-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）PCR可針對經驗證的目標序列快速篩檢樣本是否含相關病原核酸；qPCR還可在擴增過程追蹤螢光訊號，於校正範圍、效率、對照與樣本前處理等條件適合時進行條件化定量。相較完整傳統培養鑑定流程，分子方法可縮短取得目標訊息的時間，並有依靶標設計的專一性和敏感度。",
+        "核酸檢出不等於存活；若先增菌，Cq更不能直接回算原食品活菌數。萃取、抑制、陰陽性對照、確認試驗與方法適用性仍須處理。",
+        "（2）培養與基本生化鑑定可提供可培養菌及分離株，卻未必能在同種之內區分近緣菌株。WGS等分子方法比較遺傳特徵，有助辨認跨地區群集及檢驗共同來源假說；不同菌種/方法不能共用任意距離門檻。",
+        "培養可為後續分型和其他分析提供材料，與分子方法互補。即使基因體高度相似，仍要結合採樣時間、病人食物暴露、產品批次及供應鏈追溯，才可支持來源關聯；不能僅憑同種或一個PCR陽性就判定同廠污染。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-qpcr-evidence",
+          "title": "PCR：從循環訊號到模板量",
+          "href": "#micro/micro-measurement/micro-qpcr-evidence/understand"
+        },
+        {
+          "lessonId": "micro-outbreak-evidence",
+          "title": "菌株相似，能判定共同來源嗎？",
+          "href": "#micro/micro-measurement/micro-outbreak-evidence/understand"
+        },
+        {
+          "lessonId": "micro-pcr-viability",
+          "title": "驗到 DNA，還缺哪一段證據？",
+          "href": "#micro/micro-measurement/micro-pcr-viability/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FDA：食品與環境沙門氏菌qPCR篩檢方法",
+          "url": "https://www.fda.gov/media/168834/download"
+        },
+        {
+          "title": "CDC：食源性疫情調查流程",
+          "url": "https://www.cdc.gov/foodborne-outbreaks/outbreak-basics/investigation-steps.html"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。保留歷史事件情境，但不把題幹中的相似性直接當已證實的唯一來源；原卷分子問題的兩小題完整保留。",
+      "originalPrompt": "某跨國巧克力品牌於 2022 年發生沙門氏菌污染事件，疫情波及多國，且多數感染者為兒童。後續調查顯示，不同國家的病例菌株在基因特徵上高度相似，推測可能來自同一污染來源。在此類跨國食品安全事件中，主管機關與食品工廠往往優先使用「快速微生物檢測與分子／基因學檢測方法」，而非僅依賴傳統培養法。請問答下列問題：\n1）請說明 PCR、即時 PCR（qPCR）在此類事件中的主要用途與優點。(8分)\n2）請說明為何需搭配分子／基因學檢測進行菌株比對與溯源分析，而傳統培養法無法滿足此需求。(7分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q3",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "加熱不足、芽孢狀態與革蘭氏染色",
+      "prompt": "某即食熟食品在包裝前須加熱殺菌，原料可能受沙門氏菌與芽孢桿菌污染；某批實際加熱時間不足，儲存後出現污染。\n\n（1）哪類細菌較可能在這次不足的加熱後殘存？說明依據。（5分）\n\n（2）選擇其中一種細菌，從一項結構、組成或代謝/生理狀態特徵，解釋其在加熱不足時仍可能存活的機制。（5分）\n\n（3）分離出你所討論的細菌後，進行革蘭氏染色。說明基本原理與預期結果，並標明你討論的是孢子或營養細胞。（5分）",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第3題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "加熱不足、芽孢狀態與革蘭氏染色",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q3-r1",
+          "label": "提出芽孢桿菌/內生孢子存留假說",
+          "points": 3,
+          "evidenceHint": "寫出候選菌及狀態，不只寫革蘭氏陽性。",
+          "explanation": "Bacillus可形成內生孢子，Salmonella不形成；不能因此確定具體種或排除別的污染。",
+          "remediationLessonIds": [
+            "micro-cell-state-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q3-r2",
+          "label": "以產孢能力解釋相對耐受判斷",
+          "points": 2,
+          "evidenceHint": "明確比較芽孢桿菌可形成耐熱內生孢子，沙門氏菌不形成內生孢子。",
+          "explanation": "本題判斷依據是原料細菌及其可能狀態；未要求另寫一套再污染調查。詳細存活條件仍可留在解說。",
+          "remediationLessonIds": [
+            "micro-spores"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q3-r3",
+          "label": "以一項具體特徵解釋耐受",
+          "points": 5,
+          "evidenceHint": "把結構/組成/狀態連到受損或保護機理。",
+          "explanation": "可選低核心含水與濕熱耐受等；只列Ca-DPA、SASP名詞不夠，且不同壓力的機制須區分。",
+          "remediationLessonIds": [
+            "micro-cell-state-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q3-r4",
+          "label": "以細胞壁差異解釋革蘭氏染色原理",
+          "points": 3,
+          "evidenceHint": "把結晶紫—碘複合物、脫色與肽聚醣層差異連起來；步驟服務於原理解釋。",
+          "explanation": "典型陽性菌較厚肽聚醣在脫色後較能保留複合物；典型陰性菌外膜受影響且薄層保留較弱，再接受對比染色。",
+          "remediationLessonIds": [
+            "micro-cell-state-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q3-r5",
+          "label": "預期顏色與測量對象",
+          "points": 2,
+          "evidenceHint": "依所選菌種與細胞狀態，給出典型Bacillus營養細胞紫色，或典型Salmonella營養細胞粉紅/紅色。",
+          "explanation": "分離後營養細胞的Gram結果不能倒推原食品中一定有孢子，也非唯一物種鑑定。",
+          "remediationLessonIds": [
+            "micro-cell-state-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）若原料中的Bacillus已形成內生孢子，它是加熱不足後殘存的合理候選；Salmonella不形成內生孢子。實際存活仍取決於菌株、原始狀態、基質和完整熱歷程，也須檢查加熱後再污染，不能由題幹直接鎖定某個Bacillus種。",
+        "（2）例如選孢子的低核心含水：皮層與Ca-DPA等有助維持孢子核心的特殊狀態，低核心含水與濕熱耐受有關，降低關鍵成分受熱損傷的機會。不是只靠外被厚度把熱隔絕。若選SASP保護DNA，須說明其證據與壓力類型，避免把乾熱DNA保護概括成所有濕熱存活的唯一原因。",
+        "（3）若檢查分離培養後的典型Bacillus營養細胞，先以結晶紫染色、加碘形成複合物，再脫色並以番紅等對比染色。典型革蘭氏陽性菌較厚的肽聚醣層在酒精脫色時脫水、降低通透性，較能保留結晶紫—碘複合物，因此呈紫色；典型陰性菌的外膜脂質受脫色劑影響，較薄的肽聚醣層保留複合物能力較弱，脫色後再染成粉紅/紅色。這是典型Bacillus與Salmonella營養細胞的預期差異。",
+        "革蘭氏染色反映本次受測細胞及方法條件；孢子宜用相符染色另查。細胞老化或技術因素可能造成變異，單一顏色不證明原食品時點的孢子狀態、物種或事故原因。",
+        "原卷第(2)問可選其中一種細菌。若改以Salmonella的特定應激/受基質保護狀態提出符合題設的存活機制，第(3)問可接續寫其典型營養細胞的革蘭氏陰性結果；不必為配合本示例而一律選Bacillus。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-cell-state-evidence",
+          "title": "細胞狀態、包膜與染色證據",
+          "href": "#micro/micro-identity/micro-cell-state-evidence/understand"
+        },
+        {
+          "lessonId": "micro-spores",
+          "title": "內生孢子是存活型態，不是多生一個後代",
+          "href": "#micro/micro-identity/micro-spores/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FDA：Bad Bug Book，第2版",
+          "url": "https://www.fda.gov/media/83271/download"
+        },
+        {
+          "title": "Popham等：孢子核心含水與耐熱",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC167661/"
+        },
+        {
+          "title": "ASM：Gram Stain Protocols",
+          "url": "https://asm.org/protocols/gram-stain-protocols"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。",
+      "originalPrompt": "某食品工廠生產即食熟食產品，產品於包裝前需經過一道加熱殺菌製程。根據原料特性與製程評估，該產品在生產過程中可能受到下列兩種細菌污染：沙門氏桿菌與芽孢桿菌。某次品管稽核中發現，加熱殺菌製程的實際處理時間短於原先設計之規定時間，導致整體殺菌強度不足。後續在產品的儲存與流通期間，部分產品被檢出微生物污染。\n請回答下列問題：\n1. 在此情境下，哪一種細菌較可能在加熱殺菌製程失效後仍存活，並成為食品污染的主要來源？請說明判斷依據。(5分)\n2. 請根據第一小題所做的判斷結果，進一步說明其中一種細菌在加熱處理條件不足時仍較可能存活的生理機制。說明時請著重於該細菌特性的結構、組成或代謝狀態，並解釋這些因子如何提升細菌對熱處理的耐受性。(5分)\n3. 自受污染產品中分離出該細菌後，進行革蘭氏染色分析。請說明革蘭氏染色的基本原理，並指出該細菌於染色後預期呈現的顏色。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q4",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "無乳糖發酵乳中的微生物酵素",
+      "prompt": "製作無乳糖牛乳發酵食品時，可使用微生物產製的酵素改善製程或品質。\n\n（1）選一種可能用到、作用對象為醣類或蛋白質的微生物酵素，說明產製來源及實務目的。（5分）\n\n（2）說明該酵素的作用機制，包含主要基質與反應產物。（5分）\n\n（3）解釋這項酵素處理可能如何影響後續發酵菌的生長或代謝；指出需要哪些條件或資料才能確認。（5分）",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第4題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "無乳糖發酵乳中的微生物酵素",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q4-r1",
+          "label": "選定合適微生物酵素及產製身分",
+          "points": 3,
+          "evidenceHint": "指出適用的微生物產製酵素；可舉來源菌作例證，但不強制寫到特定菌種。",
+          "explanation": "乳糖酶或合理的微生物蛋白酶均可；產酵素菌與後續發酵菌是可區分的角色，不必是同一活菌。",
+          "remediationLessonIds": [
+            "micro-enzyme-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q4-r2",
+          "label": "實務目的",
+          "points": 2,
+          "evidenceHint": "把作用連到乳糖降低、基質調整或合理產品品質目的。",
+          "explanation": "蛋白酶若用作替代例，不能宣稱它直接水解乳糖。",
+          "remediationLessonIds": [
+            "micro-enzyme-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q4-r3",
+          "label": "主要基質與作用鍵",
+          "points": 2,
+          "evidenceHint": "指出反應基質與鍵結/官能基變化。",
+          "explanation": "乳糖酶處理乳糖β(1→4)糖苷鍵，不能混成蔗糖。",
+          "remediationLessonIds": [
+            "micro-enzyme-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q4-r4",
+          "label": "產物正確且與機制一致",
+          "points": 3,
+          "evidenceHint": "寫出D-葡萄糖與D-半乳糖，或你所選酵素的合理產物。",
+          "explanation": "水解產物與後續發酵終產物分開。",
+          "remediationLessonIds": [
+            "micro-enzyme-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q4-r5",
+          "label": "提出菌株生長/代謝的可能作用鏈",
+          "points": 5,
+          "evidenceHint": "由可利用基質改變連到菌株的運輸或代謝能力。",
+          "explanation": "說清可利用基質如何改變、菌株能否攝取/代謝及其可能後果。方向不必一律增加；額外實驗設計不是原題滿分的必要條件。",
+          "remediationLessonIds": [
+            "micro-enzyme-evidence"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "（1）可選K. lactis產製的β-galactosidase（乳糖酶），先降低乳基乳糖並調整可利用糖。產酵素的酵母與後續接種的乳酸菌是不同角色，不必是同一活菌。",
+        "（2）乳糖酶水解乳糖的β(1→4)糖苷連接，淨反應為乳糖+水→D-葡萄糖+D-半乳糖。它不是直接把乳糖全部變乳酸；乳酸等是後續菌株代謝的產物。",
+        "（3）處理改變糖的種類與濃度，可影響不同菌株的攝取、產酸或其他代謝，但方向依菌株及製程而定。有些菌能有效利用釋出的糖，另一些未必同樣受益；底物增加也不保證所有菌的生長變快。",
+        "應比較配方、酵素處理與接種量相符的對照，追蹤乳糖/單糖、菌株別菌數與產酸等時間資料。單一端點CFU不足以描述速率；要聲稱無乳糖或健康效益，還需對應的分析、規範及效果證據。原卷明確接受醣類或蛋白質酵素；例如微生物蛋白酶釋出胜肽/胺基酸，影響發酵菌可利用氮源，是另一合理路徑。這不表示蛋白酶直接水解乳糖，也不要求為本題再寫整套去乳糖製程。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-enzyme-evidence",
+          "title": "乳糖先水解，兩種發酵菌都會增加嗎？",
+          "href": "#micro/micro-fermentation/micro-enzyme-evidence/understand"
+        },
+        {
+          "lessonId": "micro-community-metabolism",
+          "title": "混合菌群的結果不只是各自相加",
+          "href": "#micro/micro-fermentation/micro-community-metabolism/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "EFSA：K. lactis來源β-galactosidase",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9854175/"
+        },
+        {
+          "title": "Ichimura與Ichiba：乳糖水解與優格菌株端點研究",
+          "url": "https://www.cambridge.org/core/journals/journal-of-dairy-research/article/effects-of-lactose-hydrolysis-on-a-sensory-evaluation-and-the-physical-properties-of-a-nonfat-set-yogurt/F0F7E6AD59C31EFC78AB43CBC4BC28C7"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。 確認方法可作延伸練習，不額外要求完整實驗設計才能取得滿分。",
+      "originalPrompt": "在生產「無乳糖牛乳發酵食品」的過程中，常會添加由微生物產製的酵素，輔助食品加工及提升產品品質。\n請回答下列問題：\n1. 請舉出一種在此食品製程中可能使用到、且作用對象為醣類或蛋白質的微生物產製酵素，以及使用此微生物酵素改變該食品加工或最終產品品質的實務目的。(5分)\n2. 請說明該酵素在此過程中的作用機制，包含其主要基質與反應產物。(5分)\n3. 請說明使用此微生物酵素可能如何影響發酵微生物的生長或代謝。(5分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q5",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "納豆：製程、菌與風味，以及安全疑慮",
+      "prompt": "第一部分依序交代原料、主要製程、發酵微生物，再將風味來源連到其酵素或代謝作用。(9分)\n第二部分說明納豆製程可能遇到的微生物安全疑慮；每項都交代來源／形成條件與為何構成危害。(6分)\n可區分食用starter、污染菌與微生物生成的化學危害；不要只用黏絲或氨味判定安全。",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第5題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "納豆：製程、菌與風味，以及安全疑慮",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q5-r1",
+          "label": "原料與基本產品身分",
+          "points": 2,
+          "evidenceHint": "指出以大豆為主要原料的納豆及其發酵產品身分。",
+          "explanation": "其他豆類變體可補充，但應先對上原題一般納豆。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-241-q5-r2",
+          "label": "主要製程順序與作用",
+          "points": 2,
+          "evidenceHint": "說明浸泡、蒸煮、接種發酵、後熟／冷卻與保存等主要轉換。",
+          "explanation": "順序及作用須合理，不要求原卷沒有的時間／溫度配方。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-241-q5-r3",
+          "label": "參與微生物與角色",
+          "points": 2,
+          "evidenceHint": "辨認典型黏絲納豆的Bacillus subtilis natto發酵角色。",
+          "explanation": "不同納豆類型可具理由說明；不能把B. cereus和食用納豆starter視為同一身分。",
+          "remediationLessonIds": []
+        },
+        {
+          "id": "ntu-115-241-q5-r4",
+          "label": "風味來源與微生物作用",
+          "points": 3,
+          "evidenceHint": "把蛋白水解／胺基酸、產氨或揮發性香氣等連到具體作用。",
+          "explanation": "不要求固定化合物清單；至少能說明味或香氣如何由發酵形成。",
+          "remediationLessonIds": [
+            "micro-natto-ammonia"
+          ],
+          "remediationScopeNotes": {
+            "micro-natto-ammonia": "只補含氮代謝／氨這一途徑；不把較少氨當較好風味，也不涵蓋全部納豆香氣。"
+          }
+        },
+        {
+          "id": "ntu-115-241-q5-r5",
+          "label": "一項微生物安全疑慮與成因",
+          "points": 3,
+          "evidenceHint": "提出一項合理危害並連到原料、處理、starter、污染或儲藏情境。",
+          "explanation": "例產孢病原殘存／增殖或後段污染；只說「有細菌」不足。",
+          "remediationLessonIds": [
+            "micro-spores"
+          ],
+          "remediationScopeNotes": {
+            "micro-spores": "原活動使用其他基質的刊載D值；只能補狀態與存留概念，不能把其溫時搬作納豆處理條件。"
+          }
+        },
+        {
+          "id": "ntu-115-241-q5-r6",
+          "label": "另一項獨立安全疑慮與成因",
+          "points": 3,
+          "evidenceHint": "再說明不同危害，例如微生物產生生物胺，並與品質變化區分。",
+          "explanation": "接受其他有依據的獨立危害；不因沒有使用本例就扣分。",
+          "remediationLessonIds": [
+            "micro-contamination-chain"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "典型黏絲納豆以大豆為主，經清洗、浸泡和蒸煮，使豆粒吸水軟化並處理原料微生物，再在合適條件接種食用Bacillus subtilis natto，進行發酵、後熟／冷卻及冷藏包裝。發酵需要合適的供氧和熱／水分管理；這裡是流程說明，不是家用或工廠操作配方。",
+        "菌的蛋白酶等作用使大豆蛋白分解，游離胺基酸與胜肽改變滋味；代謝可產生吡嗪、酮等揮發性成分，形成特有香氣。二次發酵的氨可與麩胺酸脫胺及尿素降解有關。黏絲主要和聚γ-麩胺酸等有關，屬質地特徵，不能只憑它判斷菌株身分或食品安全。",
+        "一類疑慮是原料帶入的產孢病原或後段污染。例如B. cereus、C. perfringens等若在處理後殘存並遇到可生長條件，可能增殖或造成危害；不適當的冷卻、等待或儲藏，以及器具／包裝接觸，也會改變風險。食用納豆菌成功生長，不代表其他污染菌已全部消失。",
+        "另一類是微生物活動形成生物胺，例如具胺基酸脫羧能力的菌可能產生組織胺或酪胺，含量依菌株、原料與製程而異。台灣市售樣品研究曾檢出不同含量，支持把這類微生物生成物納入危害考量；不能以一般氨味、總菌數或是否拉絲替代分析。參考解答不套用魚類標準作納豆的通用法規門檻。",
+        "噬菌體或雜菌也可能使starter失效或品質異常，但「品質失敗」與「對人有危害」須分清；若以此作安全疑慮，應再說明如何連到失控或病原風險，不能只因風味不同就判定食物中毒。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-natto-ammonia",
+          "title": "少了這條產氨路徑，氨就該歸零嗎？",
+          "href": "#micro/micro-fermentation/micro-natto-ammonia/understand"
+        },
+        {
+          "lessonId": "micro-contamination-chain",
+          "title": "處理後的路徑，也可能引入污染",
+          "href": "#micro/micro-hazards/micro-contamination-chain/understand"
+        },
+        {
+          "lessonId": "micro-spores",
+          "title": "內生孢子是存活型態，不是多生一個後代",
+          "href": "#micro/micro-identity/micro-spores/understand"
+        },
+        {
+          "lessonId": "micro-spoilage-indicators",
+          "title": "腐敗、危害與指標，三件事分開",
+          "href": "#micro/micro-cases/micro-spoilage-indicators/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "BCCDC：Natto，製程背景與食品安全疑慮",
+          "url": "https://www.bccdc.ca/resource-gallery/Documents/Educational%20Materials/EH/FPS/Food/Fermented/Fermented%20Foods%20Guidance%20-%203.8%20Natto.pdf"
+        },
+        {
+          "title": "Kada 等（2008）：納豆二次發酵的兩條主要釋氨反應",
+          "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_article"
+        },
+        {
+          "title": "納豆發酵與熟成的關鍵香氣原研究（2018）",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0963996918304794"
+        },
+        {
+          "title": "Tsai 等（2007）：台灣市售納豆組織胺及產胺菌原研究",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0956713506001770"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。採一般黏絲納豆為示例，沒有將所有發酵大豆產品混作同一製程；菌株、風味與危害分開評估。補救課僅涵蓋其中部分能力，仍以本題完整要求核對。",
+      "originalPrompt": "請說明納豆之製程、原料、風味來源及參與之微生物 (9分)。納豆製程中可能之微生物安全疑慮為何 (6分)。",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q6",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "禽肉微生物危害、來源與控制",
+      "prompt": "以禽肉食品（例如雞肉）為例，舉出兩種重要且常見的微生物危害，說明各自主要污染來源與基本控制措施。請讓「危害—來源—控制」互相對應，並區分原料污染與加熱後再污染。",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第6題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "禽肉微生物危害、來源與控制",
+        "originalPoints": 10,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 12,
+      "maxScore": 10,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q6-r1",
+          "label": "兩種合理的微生物危害",
+          "points": 2,
+          "evidenceHint": "具名辨認兩種相關病原，例如Salmonella與Campylobacter。",
+          "explanation": "原卷未限制細菌，也未指定地區和調查年度；此處以兩種重要細菌為示範，其他有充分依據的微生物危害亦可接受。",
+          "remediationLessonIds": [
+            "micro-poultry-contamination"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q6-r2",
+          "label": "來源具體且與病原相連",
+          "points": 2,
+          "evidenceHint": "分別將兩種危害對應到動物帶菌/腸道、屠宰或接觸鏈等；兩菌來源可重疊。",
+          "explanation": "外觀正常不等於無帶菌；只說「環境髒」不夠具體。",
+          "remediationLessonIds": [
+            "micro-poultry-contamination"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q6-r3",
+          "label": "控制原料/處理中的危害",
+          "points": 3,
+          "evidenceHint": "讓有效加熱、加工衛生等控制作用與兩種危害對應；共同措施不必硬分成互斥方法。",
+          "explanation": "不需憑記憶編安全溫度；處理應有對應食品和目標的證據。",
+          "remediationLessonIds": [
+            "micro-poultry-contamination"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q6-r4",
+          "label": "控制生熟交叉及後段污染",
+          "points": 3,
+          "evidenceHint": "說明器具、手部或汁液等路徑如何控制兩種危害的生熟交叉/後段污染。",
+          "explanation": "前段加熱不能處理未來的新接觸。",
+          "remediationLessonIds": [
+            "micro-poultry-contamination"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "可選沙門氏菌（Salmonella）與彎曲桿菌（Campylobacter，例如C. jejuni）作兩個重要禽肉細菌危害。它們可與禽類腸道帶菌、原料及屠宰加工接觸有關；動物或肉品外觀正常不能排除污染。",
+        "原料與處理階段須控制屠宰/加工衛生、原料汁液和器具接觸，並採對應產品和目標有證據的有效加熱。適當冷藏等管理有助控制部分增殖風險，但不能替代去除已存在病原或處理污染路徑。",
+        "生熟分開、妥善清潔消毒器具及手部管理，處理的是加熱後重新引入污染的機會。避免生肉沖洗飛濺到即食食品也在切斷一條接觸路徑；不能以一次加熱紀錄抵銷之後的生肉砧板接觸。",
+        "C. jejuni的微需氧及環境敏感特性不等於離開腸道即刻消失，也不等於不能轉移。不同病原的生長、存活與轉移要分開考慮；完整控制仍需配合產品、作業和儲存條件，本答案不提供地區盛行率排序或整廠安全保證。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-poultry-contamination",
+          "title": "禽肉已加熱，污染路徑就都切斷了嗎？",
+          "href": "#micro/micro-hazards/micro-poultry-contamination/understand"
+        },
+        {
+          "lessonId": "micro-contamination-chain",
+          "title": "處理後的路徑，也可能引入污染",
+          "href": "#micro/micro-hazards/micro-contamination-chain/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "CDC：Chicken and Food Poisoning",
+          "url": "https://www.cdc.gov/food-safety/foods/chicken.html"
+        },
+        {
+          "title": "CDC：About Campylobacter infection",
+          "url": "https://www.cdc.gov/campylobacter/about/index.html"
+        },
+        {
+          "title": "FDA：Bad Bug Book，第2版",
+          "url": "https://www.fda.gov/media/83271/download"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用可辨識的原題配分；各要點配分由本專案提出，並非官方評分標準。參考答案不是唯一可接受表述；具理由且符合題設的替代答案可納入自評。原卷「最常見」的表述未指定地區、產品與調查年度；本頁採有官方來源支持的兩種重要危害，不偽造排名。 菌種生長差異是延伸說明，不額外要求考生比較微需氧特性才能取得滿分。",
+      "originalPrompt": "請說明家禽類食品（如雞肉）中最常見的兩種微生物危害，並簡述其主要污染來源與基本控制措施。(10分)",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    },
+    {
+      "id": "ntu-115-241-q7",
+      "version": 1,
+      "subject": "microbiology",
+      "type": "text",
+      "sourceKind": "official-transcription",
+      "title": "五個微生物學名詞與食品情境",
+      "prompt": "每個名詞各用一段說明它指什麼、微生物扮演的角色與一個關鍵區別。可加食品例子幫助說明，但不必為每一項另設計實驗。(五項教學分配各3分)",
+      "examRef": {
+        "year": 115,
+        "paperId": "241",
+        "question": "第7題",
+        "page": 1,
+        "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-241.pdf#page=1",
+        "promptSummary": "五個微生物學名詞與食品情境",
+        "originalPoints": 15,
+        "scope": "complete-question-transcription-with-guided-outline"
+      },
+      "suggestedMinutes": 18,
+      "maxScore": 15,
+      "scoreLabel": "教學參考分配，非官方評分標準",
+      "scoringMode": "self-assessment",
+      "rubric": [
+        {
+          "id": "ntu-115-241-q7-r1",
+          "label": "Precision fermentation：目標產物與微生物宿主",
+          "points": 3,
+          "evidenceHint": "說明利用微生物生產指定食品成分，區分宿主與取得的成分。",
+          "explanation": "可用工程化宿主作常見例子；術語未有全球一致定義，不強制說所有情境都基改或都非基改。",
+          "remediationLessonIds": [
+            "micro-precision-fermentation"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q7-r2",
+          "label": "Synbiotics：活菌、可選擇利用基質與宿主效益",
+          "points": 3,
+          "evidenceHint": "說明活微生物與可被宿主微生物選擇性利用的基質所成組合，及其健康效益。",
+          "explanation": "只說把菌和纖維混合不完整；不要求背兩個子類名稱才給分。",
+          "remediationLessonIds": [
+            "micro-biotics-evidence"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q7-r3",
+          "label": "SIMs：受傷未死及可能恢復",
+          "points": 3,
+          "evidenceHint": "說明經非完全致死壓力後的可修復損傷，以及恢復或計數上可能出現的差異。",
+          "explanation": "不是死菌，也不是穩定遺傳突變；選擇性條件可能漏計。",
+          "remediationLessonIds": [
+            "micro-injured-cells"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q7-r4",
+          "label": "Competitive exclusion：群落作用與新來者建立",
+          "points": 3,
+          "evidenceHint": "說明既有微生物透過資源、棲位或拮抗等作用降低競爭者建立。",
+          "explanation": "不是只要有益菌便保證病原歸零；有清楚競爭或定殖阻力機制即可。",
+          "remediationLessonIds": [
+            "micro-competitive-exclusion"
+          ]
+        },
+        {
+          "id": "ntu-115-241-q7-r5",
+          "label": "Hurdle technology：多因子共同控制",
+          "points": 3,
+          "evidenceHint": "說明多個保存因子共同限制微生物生長／存活，並指出其互相影響。",
+          "explanation": "例如pH、aw、溫度、氣體或抑菌成分的組合；不要求作用一定相加或全部完全殺死。",
+          "remediationLessonIds": [
+            "micro-hurdles"
+          ]
+        }
+      ],
+      "referenceAnswer": [
+        "1. Precision fermentation（精準發酵）：常用來指把微生物當生產宿主，在受控發酵中製得指定食品成分，再依用途回收處理，例如取得某種酵素或蛋白。重點是宿主與目標成分的分工，不等於把整份發酵食品或整個菌體都當同一產物。許多應用使用基因工具，但目前沒有國際一致定義，不能僅憑名稱判定所有情境必然基改或非基改。",
+        "2. Synbiotics（合生元／合生質）：含活微生物與可被宿主微生物選擇性利用的基質，且組合能帶來宿主健康效益。可以是各自符合定義的益生菌＋益生元互補，也可以設計基質供共同給予的菌使用；不能把任意活菌加糖或加纖維就叫合生元。",
+        "3. Sublethally injured microorganisms（亞致死受傷微生物）：受到加熱等壓力而有可修復損傷、卻未死亡的微生物。它們可能暫時無法承受選擇性培養條件，但在合適條件下恢復生長，造成檢測或保存判斷偏差；這和死亡或穩定遺傳改變不同。",
+        "4. Competitive exclusion（競爭排除）：既有微生物或群落可透過競爭受限營養／棲位、改變環境或產生拮抗物，降低另一微生物建立與持續存在的機會。在腸道脈絡可討論常駐菌群對新來病原的定殖阻力；不能以某個群落成員存在或相對比例改變，就斷言病原一定被完全消除。",
+        "5. Hurdle technology（障礙技術）：組合多個保存因子，例如較低pH、較低aw、冷藏與適當包裝，讓微生物面對多項限制，以達到特定產品的控制目的並兼顧品質。因子會互相影響，可呈協同、拮抗或其他條件化結果；不生長與被殺死不同，也不是每個因子效果可直接相加。"
+      ],
+      "remediation": [
+        {
+          "lessonId": "micro-precision-fermentation",
+          "title": "微生物是工廠，還是食品本身？",
+          "href": "#micro/micro-fermentation/micro-precision-fermentation/understand"
+        },
+        {
+          "lessonId": "micro-biotics-evidence",
+          "title": "加了菌，健康效益的證據就夠了嗎？",
+          "href": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+        },
+        {
+          "lessonId": "micro-injured-cells",
+          "title": "受傷細胞與檢測恢復偏差",
+          "href": "#micro/micro-measurement/micro-injured-cells/understand"
+        },
+        {
+          "lessonId": "micro-competitive-exclusion",
+          "title": "常駐群在場，就證明競爭排除了嗎？",
+          "href": "#micro/micro-fermentation/micro-competitive-exclusion/understand"
+        },
+        {
+          "lessonId": "micro-hurdles",
+          "title": "多個條件一起看，才叫障礙控制",
+          "href": "#micro/micro-environment/micro-hurdles/understand"
+        }
+      ],
+      "answerSources": [
+        {
+          "title": "FAO（2025）：Precision fermentation—術語、目標成分與製程範圍",
+          "url": "https://doi.org/10.4060/cd4448en"
+        },
+        {
+          "title": "FAO：精準發酵官方說明—目標成分、宿主與定義範圍",
+          "url": "https://www.fao.org/food-safety/news/detail/Can-precision-fermentation-offer-a-safe-and-sustainable-future-for-food-production-/en"
+        },
+        {
+          "title": "ISAPP（2020）原共識：Synbiotics 定義與兩種成立路徑",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32826966/"
+        },
+        {
+          "title": "Espina 等（2016）：亞致死受傷、恢復與選擇性計數原研究",
+          "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/full"
+        },
+        {
+          "title": "Lee 等（2023）：禽類競爭排除產品與 Salmonella 原研究",
+          "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2022.1043383/full"
+        },
+        {
+          "title": "Leistner（2000）：障礙技術、多重保存因子與微生物反應",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10791741/"
+        }
+      ],
+      "limitations": "原題依官方題本轉錄；作答步驟與參考解答由本專案編寫，原卷未附答案。總分沿用原題配分；細項為教學參考分配，非官方評分標準。參考答案不是唯一可接受表述；以原題核心要求核對，等價推理、適當替代例子和不同合理分類均可接受。補充的證據界線不是額外必得分項。每項3分是教學分配，原卷僅列本題總分15。原題只要求名詞解釋，不強制現代子分類、研究數值或完整試驗設計。",
+      "originalPrompt": "請以微生物學角度解釋下列名詞：(15分)\n1. Precision fermentation\n2. Synbiotics\n3. Sublethally injured microorganisms (SIMs)\n4. Competitive exclusion\n5. Hurdle technology",
+      "originalPromptNote": "依官方原卷目視轉錄；僅整理換行、空白與排版字元，保留原卷用語。"
+    }
+  ]
+}

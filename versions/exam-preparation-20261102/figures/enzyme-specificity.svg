@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">內切與外切：切的位置不同</title>
+<desc id="figure-desc">α-澱粉酶在可及的鏈內 α(1→4) 鍵內切；β-澱粉酶從非還原端逐步釋出麥芽糖。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">內切與外切：切的位置不同</tspan></text>
+<rect x="32" y="91" width="656" height="151" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="52" y="124" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="52" dy="0">α-澱粉酶：鏈內 α(1→4) 內切</tspan></text>
+<path d="M 118 191 L 162 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 198 191 L 242 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="180" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 278 191 L 322 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="260" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 358 191 L 402 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="340" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 438 191 L 482 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="420" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 518 191 L 562 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="500" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 598 191 L 642 191" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="580" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="660" cy="191" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 284 191 L 316 191" fill="none" stroke="#b4692e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 300 145 L 300 173" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="338" y="159" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="338" dy="0">鏈內切點</tspan></text>
+<rect x="32" y="263" width="656" height="172" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="52" y="295" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="52" dy="0">β-澱粉酶：從非還原端釋出麥芽糖</tspan></text>
+<path d="M 117 357 L 143 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="357" r="17" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<path d="M 177 357 L 223 357" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4"/>
+<circle cx="160" cy="357" r="17" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<path d="M 257 357 L 283 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="240" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 317 357 L 343 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="300" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 377 357 L 403 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="360" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 437 357 L 463 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="420" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 497 357 L 523 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="480" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 557 357 L 583 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="540" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 617 357 L 643 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="600" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="660" cy="357" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="75" y="329" font-size="17" fill="#53606d" text-anchor="start"><tspan x="75" dy="0">非還原端</tspan></text>
+<path d="M 77 382 L 77 391 L 183 391 L 183 382" fill="none" stroke="#b4692e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="130" y="418" font-size="19" fill="#b4692e" text-anchor="middle"><tspan x="130" dy="0">麥芽糖</tspan></text>
+<text x="32" y="477" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">鏈段示意；分支、鏈長與酵素種類仍會限制作用。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

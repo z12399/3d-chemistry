@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">清酒：供糖與酒精發酵可並行</title>
+<desc id="figure-desc">清酒是並行複發酵：米麴的酵素把米澱粉糖化成葡萄糖，酵母同時把糖發酵成乙醇；生酛系中的乳酸菌先產酸，抑制雜菌，為酵母建立有利環境。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="550" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">清酒：供糖與酒精發酵可並行</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">麴酵素、酵母與生酛系乳酸菌各有分工</tspan></text>
+<rect x="32" y="145" width="170" height="100" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="117.0" y="202.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="117.0" dy="0">米澱粉</tspan></text>
+<rect x="275" y="145" width="170" height="100" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="202.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">葡萄糖</tspan></text>
+<rect x="518" y="145" width="170" height="100" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="603.0" y="188.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="603.0" dy="0">乙醇</tspan><tspan x="603.0" dy="28">＋ CO₂</tspan></text>
+<path d="M 212 195 L 265 195" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="238" y="126" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="238" dy="0">麴酵素</tspan></text>
+<path d="M 455 195 L 508 195" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="481" y="126" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="481" dy="0">清酒酵母</tspan></text>
+<text x="360" y="287" font-size="22" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">同槽可持續供糖並進行酒精發酵</tspan></text>
+<rect x="32" y="355" width="170" height="96" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="117.0" y="396.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="117.0" dy="0">生酛系</tspan><tspan x="117.0" dy="28">乳酸菌產乳酸</tspan></text>
+<rect x="275" y="355" width="170" height="96" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="396.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">乳酸酸化</tspan><tspan x="360.0" dy="28">環境改變</tspan></text>
+<rect x="518" y="355" width="170" height="96" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="603.0" y="396.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="603.0" dy="0">抑制部分</tspan><tspan x="603.0" dy="28">不耐酸微生物</tspan></text>
+<path d="M 212 403 L 265 403" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 455 403 L 508 403" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="32" y="497" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">酸化間接改變環境，不把米澱粉變成酒精。</tspan><tspan x="32" dy="25">速釀直接加乳酸；酸化不等於滅菌。</tspan></text>
+<text x="688" y="532" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
