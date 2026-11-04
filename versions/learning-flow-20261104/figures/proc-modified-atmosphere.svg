@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">氣調包裝：封袋後仍在改變</title>
+<desc id="figure-desc">包膜兩向氣體交換與包內蔬果呼吸共同改變氧氣及二氧化碳組成。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">氣調包裝：封袋後仍在改變</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">初始氣體比例只是起點</tspan></text>
+<rect x="210" y="115" width="380" height="245" rx="25" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="400" y="150" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="400" dy="0">包內 O₂、CO₂</tspan></text>
+<path d="M 217 174 L 580 174" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 6"/>
+<text x="629" y="194" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="629" dy="0">包膜</tspan></text>
+<path d="M 592 202 L 614 202" fill="none" stroke="#14665d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 87 211 L 275 211" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="80" y="193" font-size="20" fill="#6f8fb5" text-anchor="start"><tspan x="80" dy="0">O₂ 進入</tspan></text>
+<path d="M 273 309 L 87 309" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="80" y="339" font-size="20" fill="#6f8fb5" text-anchor="start"><tspan x="80" dy="0">O₂ 離開</tspan></text>
+<circle cx="402" cy="265" r="46" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 402 219 L 408 204" fill="none" stroke="#14665d" stroke-width="2" stroke-linecap="round"/>
+<path d="M 408 211 Q 419 198 433 205 Q 424 217 408 211 Z" fill="#e7f1ee" stroke="#14665d" stroke-width="2" stroke-linejoin="round"/>
+<text x="402" y="259" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="402" dy="0">蔬果</tspan></text>
+<text x="402" y="287" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="402" dy="0">呼吸</tspan></text>
+<path d="M 299 265 L 346 265" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="287" y="241" font-size="18" fill="#6f8fb5" text-anchor="start"><tspan x="287" dy="0">耗 O₂</tspan></text>
+<path d="M 457 265 L 550 265" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="466" y="241" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="466" dy="0">產生 CO₂</tspan></text>
+<text x="400" y="337" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="400" dy="0">裝填量、溫度也影響後續狀態</tspan></text>
+<text x="360" y="410" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">O₂ 變化＝進入－離開－呼吸耗氧</tspan></text>
+<text x="32" y="451" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">此圖為呼吸與包膜交換的簡化收支。</tspan><tspan x="32" dy="25">氣調不等於殺菌，不能只看低氧外觀判安全。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,103 @@
+.micro-evidence-lab { --me-ink:#1c2732; --me-muted:#53606d; --me-paper:#fff; --me-line:#dfe4e8; --me-accent:#14665d; color:var(--me-ink); max-width:850px; margin:0 auto; font-size:15px; line-height:1.65; overflow-wrap:anywhere; }
+.micro-evidence-lab * { box-sizing:border-box; }
+.micro-evidence-lab [hidden] { display:none !important; }
+.micro-evidence-lab p { margin:.7rem 0; }
+.me-header { margin-bottom:1.4rem; }
+.micro-evidence-lab .me-kicker { color:var(--me-accent); font-size:13px; letter-spacing:.045em; margin:0 0 .35rem; }
+.micro-evidence-lab h2 { margin:0; font-size:22px; line-height:1.35; font-weight:650; }
+.micro-evidence-lab .me-muted { color:var(--me-muted); font-size:13px; }
+.me-steps { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin-bottom:1.4rem; }
+.micro-evidence-lab button { font:inherit; color:#1c2732; background:#f1f3f5; border:1px solid #cfd6dc; border-radius:9px; min-height:46px; padding:10px 14px; text-align:center; cursor:pointer; line-height:1.45; white-space:normal; }
+.micro-evidence-lab button:hover:not(:disabled) { background:#e9edf0; }
+.micro-evidence-lab button[aria-pressed="true"] { color:#14665d; border:2px solid #14665d; background:#e7f1ee; padding:9px 13px; }
+.micro-evidence-lab button:disabled { cursor:default; color:#53606d; background:#f1f3f5; border-color:#cfd6dc; }
+.micro-evidence-lab .me-primary { color:#fff; background:#14665d; border-color:#14665d; }
+.micro-evidence-lab .me-primary:hover:not(:disabled) { background:#0e4f48; }
+.micro-evidence-lab .me-primary:disabled { color:#53606d; background:#f1f3f5; border-color:#cfd6dc; }
+.micro-evidence-lab :is(button,input,select,textarea,a,summary):focus-visible { outline:3px solid #14665d; outline-offset:3px; }
+.micro-evidence-lab .me-heading { font-size:21px; line-height:1.45; margin:0 0 1.2rem; scroll-margin-top:110px; }
+.me-field { display:flex; flex-direction:column; gap:7px; font-size:14px; margin:1.1rem 0; min-width:0; }
+.micro-evidence-lab :is(select,input[type="text"],textarea), .learning-studio .micro-evidence-lab :is(select,input[type="text"],textarea) { width:100%; min-width:0; max-width:100%; min-height:46px; padding:11px 12px; color:#1c2732; background:#fff; border:1px solid #7b8775; border-radius:8px; font:inherit; line-height:1.5; }
+.micro-evidence-lab textarea { resize:vertical; }
+.micro-evidence-lab input[aria-invalid="true"], .learning-studio .micro-evidence-lab input[aria-invalid="true"] { border:2px solid #91452f; }
+.me-plates { border:0; padding:0; margin:1rem 0; min-width:0; }
+.me-plates legend { font-size:13px; color:var(--me-muted); padding:0 0 .5rem; }
+.me-plate { display:grid; grid-template-columns:24px 1fr auto; gap:8px; align-items:center; min-height:56px; padding:10px 5px; border-bottom:1px solid var(--me-line); cursor:pointer; }
+.micro-evidence-lab .me-plate input { width:20px; height:20px; margin:0; accent-color:#14665d; }
+.me-plate .me-muted { text-align:right; }
+.me-equation { border-left:3px solid #a16a4b; padding:4px 0 4px 16px; margin:1.2rem 0; font-size:15px; }
+.me-equation p { margin:.3rem 0; }
+.me-choices { display:grid; gap:8px; }
+.me-choices button { text-align:left; }
+.me-actions { display:flex; gap:8px; flex-wrap:wrap; margin:1rem 0; }
+.me-feedback { font-size:14px; }
+.me-feedback:empty { display:none; }
+.me-result { padding:13px 16px; background:#f1f3f5; border-left:3px solid #14665d; margin:1rem 0; }
+.me-controls { display:grid; grid-template-columns:1fr 1fr; gap:9px; margin:1rem 0; }
+.me-controls button { display:flex; flex-direction:column; align-items:flex-start; text-align:left; gap:5px; }
+.me-controls strong { font-size:13px; font-weight:500; }
+.micro-evidence-lab details { margin:1rem 0; border-top:1px solid var(--me-line); padding-top:.25rem; }
+.micro-evidence-lab summary { min-height:44px; padding:11px 2px; color:var(--me-muted); font-size:14px; cursor:pointer; }
+.micro-evidence-lab details > p, .micro-evidence-lab details li { font-size:13px; }
+.me-table-wrap { max-width:100%; overflow-x:auto; }
+.micro-evidence-lab table { width:100%; border-collapse:collapse; font-size:13px; }
+.micro-evidence-lab :is(th,td) { padding:7px 8px; border-bottom:1px solid var(--me-line); text-align:left; }
+.micro-evidence-lab caption { text-align:left; font-size:13px; color:var(--me-muted); padding:8px; }
+.me-subheading { font-size:15px; margin:1.6rem 0 .7rem; scroll-margin-top:110px; }
+.me-evidence-options > div { display:grid; gap:8px; }
+.me-evidence-options button { display:flex; flex-direction:column; text-align:left; gap:3px; }
+.me-finding { padding:14px 16px; border-left:3px solid #9c4d32; background:#fbf1e5; }
+.me-own-text { white-space:pre-wrap; }
+.me-bottom-nav { display:flex; justify-content:space-between; gap:12px; margin:1.6rem 0; padding-top:1rem; border-top:1px solid var(--me-line); }
+.micro-evidence-lab a { color:#14665d; text-underline-offset:3px; }
+.micro-evidence-lab a:hover, .micro-evidence-lab a:focus-visible, .learning-studio .micro-evidence-lab a:hover, .learning-studio .micro-evidence-lab a:focus-visible { color:#14665d; }
+@media (max-width:600px) {
+  .micro-evidence-lab { font-size:14px; }
+  .micro-evidence-lab h2 { font-size:21px; }
+  .micro-evidence-lab .me-heading { font-size:19px; }
+  .me-steps { gap:5px; }
+  .micro-evidence-lab .me-steps button { font-size:13px; padding:9px 4px; }
+  .me-plate { grid-template-columns:24px 1fr; gap:2px 7px; min-height:65px; }
+  .me-plate input { grid-row:1 / 3; }
+  .me-plate .me-muted { grid-column:2; text-align:left; font-size:13px; }
+  .me-controls { gap:7px; }
+  .me-controls button { padding:10px; font-size:13px; }
+  .me-actions > button { flex:1 1 140px; }
+}
+
+/* Keep the decision and its evidence together; longer records stay expandable. */
+.micro-evidence-lab .me-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+.micro-evidence-lab .me-header { margin:0 0 8px; }
+.micro-evidence-lab .me-kicker { font-size:13px; margin:0; }
+.micro-evidence-lab .me-steps { margin-bottom:12px; }
+.micro-evidence-lab .me-heading { margin-bottom:10px; font-size:21px; }
+.micro-evidence-lab .me-case-bar { display:grid; grid-template-columns:minmax(180px,.7fr) minmax(0,1.3fr); gap:20px; align-items:center; margin-bottom:12px; }
+.micro-evidence-lab .me-case-bar .me-field { margin:0; }
+.micro-evidence-lab .me-case-bar p { margin:3px 0; }
+.micro-evidence-lab .me-work-grid { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:22px; align-items:start; }
+.micro-evidence-lab .me-work-grid > * { min-width:0; }
+.micro-evidence-lab .me-judgment { background:#f6f7f8; border:1px solid var(--me-line); border-radius:12px; padding:14px 16px; }
+.micro-evidence-lab .me-judgment > :first-child { margin-top:0; }
+.micro-evidence-lab .me-judgment .me-field { margin:0 0 12px; font-size:15px; }
+.micro-evidence-lab .me-judgment .me-actions { margin:10px 0; }
+.micro-evidence-lab .me-judgment .me-equation { margin:0 0 12px; padding-left:12px; }
+.micro-evidence-lab .me-plates, .micro-evidence-lab .me-controls { margin:0; }
+.micro-evidence-lab .me-plate { grid-template-columns:24px 1fr; gap:0 8px; padding:8px 3px; min-height:58px; }
+.micro-evidence-lab .me-plate input { grid-row:1 / 3; }
+.micro-evidence-lab .me-plate .me-muted { grid-column:2; text-align:left; font-size:13px; }
+.micro-evidence-lab .me-controls button { min-height:88px; padding:12px; font-size:15px; }
+.micro-evidence-lab .me-controls strong { font-size:14px; }
+.micro-evidence-lab .me-subheading { margin:0 0 8px; font-size:15px; }
+.micro-evidence-lab .me-finding { margin:10px 0; font-size:14px; }
+.micro-evidence-lab .me-bottom-nav { margin:14px 0 8px; padding-top:10px; }
+.micro-evidence-lab details { margin:10px 0; }
+.micro-evidence-lab summary { font-size:14px; }
+@media (max-width:1000px) {
+  .micro-evidence-lab .me-work-grid { grid-template-columns:minmax(0,1fr); gap:16px; }
+  .micro-evidence-lab .me-case-bar { grid-template-columns:minmax(0,1fr); gap:8px; }
+}
+@media (max-width:600px) {
+  .micro-evidence-lab { font-size:15px; }
+  .micro-evidence-lab .me-steps button { font-size:14px; padding:9px 6px; }
+  .micro-evidence-lab .me-judgment { padding:12px; }
+}

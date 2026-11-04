@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "id": "r-puromycin",
+  "title": "歷史酵素初速資料 · R Puromycin",
+  "kind": "published-measurements",
+  "units": {
+    "substrate": "ppm",
+    "velocity": "counts/min/min"
+  },
+  "groups": [
+    {
+      "id": "treated",
+      "label": "treated 組 · 12 筆"
+    },
+    {
+      "id": "untreated",
+      "label": "untreated 組 · 11 筆"
+    }
+  ],
+  "provenance": {
+    "rawUrl": "https://svn.r-project.org/R/trunk/src/library/datasets/data/Puromycin.R",
+    "documentationUrl": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/Puromycin.html",
+    "retrieved": "2026-09-27",
+    "rawSha256": "87a14de98652c3f861d4477752d3293c7943045d6492b59c1d5c0939932feab8",
+    "originalStudy": "Treloar MA (1974), Effects of Puromycin on Galactosyltransferase in Golgi Membranes, University of Toronto master thesis.",
+    "secondaryReference": "Bates and Watts (1988), Nonlinear Regression Analysis and Its Applications, Appendix A1.3.",
+    "readingScope": "R official documentation and all 23 raw rows read; original thesis not independently accessed."
+  },
+  "scope": [
+    "保留 R 發布的初速數值與重複量測；沒有補點、平均或模擬雜訊。",
+    "原始速率是放射產物訊號的 counts/min/min；未提供訊號到莫耳的校正和活性位濃度，不能據此算 kcat。",
+    "兩組各自擬合；沒有一整套抑制劑濃度與控制條件，不能以兩条曲線宣判抑制機制。",
+    "濃度範圍選擇與手動曲線是本平台的教學操作；數值不外推食品酵素或製程。"
+  ],
+  "points": [
+    {
+      "id": 1,
+      "substrate": 0.02,
+      "velocity": 76,
+      "group": "treated"
+    },
+    {
+      "id": 2,
+      "substrate": 0.02,
+      "velocity": 47,
+      "group": "treated"
+    },
+    {
+      "id": 3,
+      "substrate": 0.06,
+      "velocity": 97,
+      "group": "treated"
+    },
+    {
+      "id": 4,
+      "substrate": 0.06,
+      "velocity": 107,
+      "group": "treated"
+    },
+    {
+      "id": 5,
+      "substrate": 0.11,
+      "velocity": 123,
+      "group": "treated"
+    },
+    {
+      "id": 6,
+      "substrate": 0.11,
+      "velocity": 139,
+      "group": "treated"
+    },
+    {
+      "id": 7,
+      "substrate": 0.22,
+      "velocity": 159,
+      "group": "treated"
+    },
+    {
+      "id": 8,
+      "substrate": 0.22,
+      "velocity": 152,
+      "group": "treated"
+    },
+    {
+      "id": 9,
+      "substrate": 0.56,
+      "velocity": 191,
+      "group": "treated"
+    },
+    {
+      "id": 10,
+      "substrate": 0.56,
+      "velocity": 201,
+      "group": "treated"
+    },
+    {
+      "id": 11,
+      "substrate": 1.1,
+      "velocity": 207,
+      "group": "treated"
+    },
+    {
+      "id": 12,
+      "substrate": 1.1,
+      "velocity": 200,
+      "group": "treated"
+    },
+    {
+      "id": 13,
+      "substrate": 0.02,
+      "velocity": 67,
+      "group": "untreated"
+    },
+    {
+      "id": 14,
+      "substrate": 0.02,
+      "velocity": 51,
+      "group": "untreated"
+    },
+    {
+      "id": 15,
+      "substrate": 0.06,
+      "velocity": 84,
+      "group": "untreated"
+    },
+    {
+      "id": 16,
+      "substrate": 0.06,
+      "velocity": 86,
+      "group": "untreated"
+    },
+    {
+      "id": 17,
+      "substrate": 0.11,
+      "velocity": 98,
+      "group": "untreated"
+    },
+    {
+      "id": 18,
+      "substrate": 0.11,
+      "velocity": 115,
+      "group": "untreated"
+    },
+    {
+      "id": 19,
+      "substrate": 0.22,
+      "velocity": 131,
+      "group": "untreated"
+    },
+    {
+      "id": 20,
+      "substrate": 0.22,
+      "velocity": 124,
+      "group": "untreated"
+    },
+    {
+      "id": 21,
+      "substrate": 0.56,
+      "velocity": 144,
+      "group": "untreated"
+    },
+    {
+      "id": 22,
+      "substrate": 0.56,
+      "velocity": 158,
+      "group": "untreated"
+    },
+    {
+      "id": 23,
+      "substrate": 1.1,
+      "velocity": 160,
+      "group": "untreated"
+    }
+  ]
+}
