@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="analysis-recovery-matrix-title analysis-recovery-matrix-desc">
+<title id="analysis-recovery-matrix-title">加標放在哪裡，就檢查哪些步驟</title>
+<desc id="analysis-recovery-matrix-desc">兩列分別在萃取前與萃取後加標，顯示前者經過前處理，後者只檢查分析液響應；均需配對未加標對照。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">加標放在哪裡，就檢查哪些步驟</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<text x="32" y="95" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">萃取前加標</text>
+<rect x="32" y="115" width="168" height="70" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="116.0" y="156.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">樣品 ＋ 加標</text>
+<line x1="202" y1="150" x2="263" y2="150" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="270" y="115" width="168" height="70" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="354.0" y="156.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">前處理／萃取</text>
+<line x1="440" y1="150" x2="501" y2="150" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="508" y="115" width="180" height="70" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="156.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">分析液響應</text>
+<text x="32" y="234" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">萃取後加標</text>
+<rect x="32" y="254" width="168" height="70" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="116.0" y="295.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">樣品</text>
+<line x1="202" y1="289" x2="263" y2="289" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="270" y="254" width="168" height="70" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="354.0" y="295.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">前處理／萃取</text>
+<line x1="440" y1="289" x2="501" y2="289" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="508" y="254" width="180" height="70" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="295.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">分析液 ＋ 加標</text>
+<text x="360" y="371" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">回收率 ＝ (加標測得量 − 未加標測得量) / 已加入量</text>
+<text x="360" y="398" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">換成百分比時再 × 100%</text>
+<rect x="32" y="432" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="458" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">兩組皆須等量、等體積的未加標對照。</text>
+<text x="46" y="483" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">外加成分不一定像原生成分；高回收不等於排除所有偏差。</text>
+<text x="680" y="517" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">擬合酵素參數：先查尺度與範圍</title>
+<desc id="desc">原速率尺度與倒數尺度有不同誤差；低底物範圍主要限制 Vmax/Km，比值不能直接決定兩個參數。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">擬合酵素參數：先查尺度與範圍</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">圖很直，不能補上缺少的濃度設計</tspan></text>
+<rect x="30" y="100" width="315" height="162" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="375" y="100" width="315" height="162" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187" y="136" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="187" dy="0">原速率尺度</tspan></text>
+<text x="532" y="136" font-size="21" fill="#b4692e" text-anchor="middle"><tspan x="532" dy="0">倒數尺度</tspan></text>
+<text x="187" y="181" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="187" dy="0">v 對 [S]</tspan><tspan x="187" dy="27">比較預測與初速殘差</tspan></text>
+<text x="532" y="181" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="532" dy="0">1/v 對 1/[S]</tspan><tspan x="532" dy="27">低速率誤差被放大</tspan></text>
+<text x="360" y="303" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">等權倒數回歸 ≠ 等權原尺度回歸</tspan></text>
+<rect x="30" y="337" width="230" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="145.0" y="376.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="145.0" dy="0">全部 [S] ≪ Km</tspan></text>
+<path d="M275 369L317 369" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="332" y="337" width="358" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="511.0" y="363.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="511.0" dy="0">v₀ ≈ (Vmax/Km)[S]</tspan><tspan x="511.0" dy="27">主要限制比值</tspan></text>
+<text x="30" y="460" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">要安排跨越彎曲區的濃度與重複量測，並交代誤差模型。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

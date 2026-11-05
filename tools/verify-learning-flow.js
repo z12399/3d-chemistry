@@ -1,11 +1,11 @@
 // End-to-end check of the exam → lesson → exam learning flow for one site version.
 // Usage (from the repository root):
 //   python3 -m http.server 8765 --bind 127.0.0.1
-//   VER=learning-flow-20261104 node tools/verify-learning-flow.js
+//   VER=gap-lessons-20261105 node tools/verify-learning-flow.js
 // Needs the `playwright` package and a Chromium it can launch. Exit code 1 on any failed check.
 // SITE_ORIGIN overrides the server origin; SHOT_DIR sets where screenshots go (default: OS temp dir).
 const {chromium}=require('playwright');
-const VER=process.env.VER||'learning-flow-20261104';
+const VER=process.env.VER||'gap-lessons-20261105';
 const base=`${process.env.SITE_ORIGIN||'http://127.0.0.1:8765'}/versions/${VER}/`;
 const out=require('path').join(process.env.SHOT_DIR||require('os').tmpdir(),VER+'-');
 const results=[];
@@ -47,7 +47,7 @@ async function waitFor(page,sel,timeout=8000){try{await page.waitForSelector(sel
  check('B focus banner appears on the understand step',await waitFor(page,'.exam-lesson-focus'));
  const focusB=await textOf(page,'.exam-lesson-focus');
  check('B banner names the self-assessed gap and level',focusB.includes('連起早期加成、脫水與重排')&&focusB.includes('部分寫到'),focusB.replace(/\n+/g,' | ').slice(0,200));
- check('B banner shows queue position 1 of 5',focusB.includes('補課清單第 1／5 課'));
+ check('B banner shows queue position 1 of 6',focusB.includes('補課清單第 1／6 課'));
  const backB=await page.$eval('.exam-lesson-focus .exam-focus-actions a',a=>a.getAttribute('href'));
  check('B return link targets the same attempt',backB===`#exam/written?question=ntu-115-239-q1&attempt=${encodeURIComponent(attemptId)}`,backB);
  check('B no apply box before the check step',!(await has(page,'.exam-lesson-bridge')));
@@ -65,11 +65,11 @@ async function waitFor(page,sel,timeout=8000){try{await page.waitForSelector(sel
  check('D check step keeps the context',hash.includes('/check?')&&hash.includes('examAttempt='+attemptId),hash);
  check('D apply box appears after the lesson',await waitFor(page,'.exam-lesson-bridge.exam-lesson-next'));
  const queue=await page.$$eval('.exam-remedy-queue li',lis=>lis.map(li=>({current:li.getAttribute('aria-current'),text:li.innerText.replace(/\n+/g,' | ')})));
- check('D queue lists the 5 gap lessons',queue.length===5,JSON.stringify(queue.map(q=>q.text.slice(0,24))));
+ check('D queue lists the 6 gap lessons (every gap point has a lesson)',queue.length===6&&queue[5].text.includes('水活性越高'),JSON.stringify(queue.map(q=>q.text.slice(0,24))));
  check('D current lesson is marked in the queue',queue[0]?.current==='step'&&queue[0].text.includes('梅納反應從哪裡開始'));
  const nextD=await page.$eval('.exam-next-actions .exam-next-primary',a=>({text:a.textContent,href:a.getAttribute('href')})).catch(()=>null);
  check('D primary action is the next gap lesson with context',nextD&&nextD.text.includes('下一課：Amadori 與 Heyns')&&nextD.href.startsWith('#learn/browning/browning-rearrangement/understand?')&&nextD.href.includes('examAttempt='+attemptId),JSON.stringify(nextD));
- check('D unmapped gap is called out',(await textOf(page,'.exam-lesson-next')).includes('「用競爭效應解釋速率及適用界線」沒有對應課程'));
+ check('D no gap is left without a lesson',!(await textOf(page,'.exam-lesson-next')).includes('沒有對應課程'));
  const order=await page.evaluate(()=>{const f=document.querySelector('.learning-lesson-footer'),b=document.querySelector('.exam-lesson-next');return !!(f&&b&&(f.compareDocumentPosition(b)&Node.DOCUMENT_POSITION_FOLLOWING));});
  check('D apply box sits after the lesson footer',order);
  await page.click('[data-quiz-answer="0"]');await settle(page);
@@ -82,7 +82,7 @@ async function waitFor(page,sel,timeout=8000){try{await page.waitForSelector(sel
  await page.click('.exam-next-actions .exam-next-primary');await settle(page);
  check('E next lesson shows focus banner',await waitFor(page,'.exam-lesson-focus'));
  const focusE=await textOf(page,'.exam-lesson-focus');
- check('E banner shows position 2 of 5',focusE.includes('補課清單第 2／5 課'),focusE.replace(/\n+/g,' | ').slice(0,160));
+ check('E banner shows position 2 of 6',focusE.includes('補課清單第 2／6 課'),focusE.replace(/\n+/g,' | ').slice(0,160));
  // Step nav link (not footer) also keeps context.
  await page.click('.learning-steps a:has-text("檢查理解")');await settle(page);
  hash=await hashOf(page);

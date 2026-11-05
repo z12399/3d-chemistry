@@ -2,16 +2,17 @@
 // in one site version. Reports steps that never rendered, remedy links without the
 // exam focus banner, and page/console errors.
 // Usage (from the repository root, with the same local server as verify-learning-flow.js):
-//   VER=learning-flow-20261104 node tools/smoke-lessons.js
+//   VER=gap-lessons-20261105 node tools/smoke-lessons.js
 const {chromium}=require('playwright');
 const fs=require('fs');
-const VER=process.env.VER||'learning-flow-20261104';
+const VER=process.env.VER||'gap-lessons-20261105';
 const root=require('path').join(__dirname,'..','versions',VER)+'/';
 const base=`${process.env.SITE_ORIGIN||'http://127.0.0.1:8765'}/versions/${VER}/`;
 const curricula=[['learn','food-curriculum.json'],['process','processing-curriculum.json'],['micro','microbiology-curriculum.json']];
 const lessons=[];
 for(const [r,f] of curricula)for(const t of JSON.parse(fs.readFileSync(root+'data/'+f,'utf8')).topics)for(const l of t.lessons)lessons.push({hash:`#${r}/${t.id}/${l.id}`,title:l.title,id:l.id});
-const remedies=[];
+const remedies=[];const unmappedCriteria=[];
+for(const q of JSON.parse(fs.readFileSync(root+'data/exam-written-bank.json','utf8')).questions)for(const c of q.rubric)if(!(c.remediationLessonIds||[]).length)unmappedCriteria.push(c.id);
 for(const f of ['exam-bank.json','exam-written-bank.json'])for(const q of JSON.parse(fs.readFileSync(root+'data/'+f,'utf8')).questions)for(const r of q.remediation||[])remedies.push({q:q.id,href:r.href});
 (async()=>{
  const browser=await chromium.launch();
@@ -33,7 +34,7 @@ for(const f of ['exam-bank.json','exam-written-bank.json'])for(const q of JSON.p
   const ok=await go(hash,{fn:()=>!!document.querySelector('.exam-lesson-focus'),arg:null});
   if(!ok)noFocus.push(hash);
  }
- console.log(JSON.stringify({version:VER,lessonSteps:lessons.length*3,unrendered:missing.length,unrenderedSample:missing.slice(0,8),remedyLinks:remedies.length,remedyWithoutFocus:noFocus.length,remedySample:noFocus.slice(0,5),errors:errors.length,errorSample:[...new Set(errors)].slice(0,12)},null,1));
+ console.log(JSON.stringify({version:VER,lessonSteps:lessons.length*3,unrendered:missing.length,unrenderedSample:missing.slice(0,8),remedyLinks:remedies.length,rubricPointsWithoutLesson:unmappedCriteria.length,remedyWithoutFocus:noFocus.length,remedySample:noFocus.slice(0,5),errors:errors.length,errorSample:[...new Set(errors)].slice(0,12)},null,1));
  await browser.close();
- process.exit(missing.length||noFocus.length||errors.length?1:0);
+ process.exit(missing.length||noFocus.length||errors.length||unmappedCriteria.length?1:0);
 })();

@@ -1,0 +1,4262 @@
+{
+  "schemaVersion": 1,
+  "molecules": [
+    {
+      "id": "amylose-fragment",
+      "kind": "amylose",
+      "name": "無分枝的 α-D-麥芽五糖",
+      "formula": "C30H52O26",
+      "atoms": [
+        {
+          "id": "aC6",
+          "element": "C",
+          "position": [
+            -9.973972,
+            -0.402769,
+            -1.928805
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -9.008834,
+            -1.526243,
+            -1.524507
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -9.665685,
+            -2.535955,
+            -0.562986
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -8.56845,
+            -3.269291,
+            0.202954
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            -7.747554,
+            -2.284325,
+            1.039356
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            -7.737351,
+            -0.876037,
+            0.397258
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            -7.775113,
+            -0.970222,
+            -1.02341
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO4",
+          "element": "O",
+          "position": [
+            -6.551386,
+            -0.210052,
+            0.843634
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC4",
+          "element": "C",
+          "position": [
+            -6.426687,
+            1.124577,
+            0.321785
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "bC5",
+          "element": "C",
+          "position": [
+            -5.403942,
+            1.108909,
+            -0.835076
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bO5",
+          "element": "O",
+          "position": [
+            -4.064564,
+            0.891641,
+            -0.342798
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC1",
+          "element": "C",
+          "position": [
+            -3.621663,
+            1.87877,
+            0.579625
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bC2",
+          "element": "C",
+          "position": [
+            -4.502215,
+            1.862618,
+            1.8447
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bC3",
+          "element": "C",
+          "position": [
+            -5.97984,
+            2.04485,
+            1.476832
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bO3",
+          "element": "O",
+          "position": [
+            -6.221213,
+            3.412269,
+            1.118192
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO2",
+          "element": "O",
+          "position": [
+            -4.328553,
+            0.640273,
+            2.57866
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO4",
+          "element": "O",
+          "position": [
+            -2.285183,
+            1.562973,
+            0.999452
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC4",
+          "element": "C",
+          "position": [
+            -1.339175,
+            1.580675,
+            -0.083113
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "cC5",
+          "element": "C",
+          "position": [
+            -0.584269,
+            0.234509,
+            -0.197105
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cO5",
+          "element": "O",
+          "position": [
+            0.471511,
+            0.308653,
+            -1.175323
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC1",
+          "element": "C",
+          "position": [
+            1.437803,
+            1.320945,
+            -0.897905
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cC2",
+          "element": "C",
+          "position": [
+            0.776511,
+            2.706223,
+            -0.840678
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cC3",
+          "element": "C",
+          "position": [
+            -0.327364,
+            2.698793,
+            0.213604
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cO3",
+          "element": "O",
+          "position": [
+            -0.970615,
+            3.987123,
+            0.208894
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO2",
+          "element": "O",
+          "position": [
+            1.735027,
+            3.736568,
+            -0.535995
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO4",
+          "element": "O",
+          "position": [
+            2.087824,
+            1.04088,
+            0.345469
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC4",
+          "element": "C",
+          "position": [
+            3.43042,
+            0.563497,
+            0.204185
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "dC5",
+          "element": "C",
+          "position": [
+            3.742106,
+            -0.354224,
+            1.40493
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dO5",
+          "element": "O",
+          "position": [
+            5.14805,
+            -0.477154,
+            1.702671
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC1",
+          "element": "C",
+          "position": [
+            5.982192,
+            -0.263565,
+            0.563012
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dC2",
+          "element": "C",
+          "position": [
+            5.887331,
+            1.22848,
+            0.17452
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dC3",
+          "element": "C",
+          "position": [
+            4.431,
+            1.733282,
+            0.210371
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dO3",
+          "element": "O",
+          "position": [
+            4.213378,
+            2.583479,
+            -0.924412
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO2",
+          "element": "O",
+          "position": [
+            6.679893,
+            2.01177,
+            1.10278
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO4",
+          "element": "O",
+          "position": [
+            7.316644,
+            -0.600518,
+            0.947477
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC4",
+          "element": "C",
+          "position": [
+            8.200187,
+            -0.82755,
+            -0.159323
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "eC5",
+          "element": "C",
+          "position": [
+            8.594806,
+            -2.317208,
+            -0.217635
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eO5",
+          "element": "O",
+          "position": [
+            9.555065,
+            -2.542865,
+            -1.263966
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC1",
+          "element": "C",
+          "position": [
+            10.774329,
+            -1.835118,
+            -1.052448
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "eC2",
+          "element": "C",
+          "position": [
+            10.529544,
+            -0.321346,
+            -0.993218
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eC3",
+          "element": "C",
+          "position": [
+            9.465921,
+            0.01628,
+            0.055544
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eO3",
+          "element": "O",
+          "position": [
+            9.189619,
+            1.422867,
+            -0.064251
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO2",
+          "element": "O",
+          "position": [
+            11.748339,
+            0.364507,
+            -0.663296
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO1",
+          "element": "O",
+          "position": [
+            11.42197,
+            -2.276827,
+            0.134943
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC6",
+          "element": "C",
+          "position": [
+            7.392411,
+            -3.222653,
+            -0.507443
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO6",
+          "element": "O",
+          "position": [
+            6.779853,
+            -2.853663,
+            -1.745129
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC6",
+          "element": "C",
+          "position": [
+            3.163134,
+            -1.761024,
+            1.202085
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO6",
+          "element": "O",
+          "position": [
+            3.43712,
+            -2.562756,
+            2.35168
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC6",
+          "element": "C",
+          "position": [
+            -1.490734,
+            -0.934972,
+            -0.612029
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO6",
+          "element": "O",
+          "position": [
+            -2.494363,
+            -1.225687,
+            0.350814
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC6",
+          "element": "C",
+          "position": [
+            -5.50912,
+            2.352268,
+            -1.737833
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO6",
+          "element": "O",
+          "position": [
+            -4.576242,
+            2.254311,
+            -2.814023
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            -6.422685,
+            -2.833699,
+            1.169109
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            -9.161231,
+            -4.272138,
+            1.044771
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -10.465544,
+            -3.472386,
+            -1.293134
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO6",
+          "element": "O",
+          "position": [
+            -10.388441,
+            0.358255,
+            -0.793467
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_aC6a",
+          "element": "H",
+          "position": [
+            -9.477193,
+            0.287655,
+            -2.61814
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC6"
+        },
+        {
+          "id": "H_aC6b",
+          "element": "H",
+          "position": [
+            -10.865296,
+            -0.814465,
+            -2.412953
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC6"
+        },
+        {
+          "id": "H_aC5",
+          "element": "H",
+          "position": [
+            -8.737041,
+            -2.048728,
+            -2.450468
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "H_aC4",
+          "element": "H",
+          "position": [
+            -10.338756,
+            -2.044181,
+            0.149319
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "H_aC3",
+          "element": "H",
+          "position": [
+            -7.931121,
+            -3.817865,
+            -0.502634
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "H_aC2",
+          "element": "H",
+          "position": [
+            -8.128328,
+            -2.207453,
+            2.06423
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "H_aC1",
+          "element": "H",
+          "position": [
+            -8.602746,
+            -0.309843,
+            0.759852
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "H_bC4",
+          "element": "H",
+          "position": [
+            -7.398256,
+            1.475321,
+            -0.051369
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC4"
+        },
+        {
+          "id": "H_bC5",
+          "element": "H",
+          "position": [
+            -5.588367,
+            0.235603,
+            -1.470412
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC5"
+        },
+        {
+          "id": "H_bC1",
+          "element": "H",
+          "position": [
+            -3.616645,
+            2.873852,
+            0.122376
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC1"
+        },
+        {
+          "id": "H_bC2",
+          "element": "H",
+          "position": [
+            -4.170565,
+            2.667803,
+            2.510583
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC2"
+        },
+        {
+          "id": "H_bC3",
+          "element": "H",
+          "position": [
+            -6.600317,
+            1.818994,
+            2.353666
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC3"
+        },
+        {
+          "id": "H_bO3",
+          "element": "H",
+          "position": [
+            -6.315449,
+            3.909199,
+            1.95294
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO3"
+        },
+        {
+          "id": "H_bO2",
+          "element": "H",
+          "position": [
+            -3.443616,
+            0.293953,
+            2.338127
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO2"
+        },
+        {
+          "id": "H_cC4",
+          "element": "H",
+          "position": [
+            -1.833604,
+            1.810214,
+            -1.037187
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC4"
+        },
+        {
+          "id": "H_cC5",
+          "element": "H",
+          "position": [
+            -0.159786,
+            -0.0207,
+            0.783199
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC5"
+        },
+        {
+          "id": "H_cC1",
+          "element": "H",
+          "position": [
+            2.155409,
+            1.318578,
+            -1.72572
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC1"
+        },
+        {
+          "id": "H_cC2",
+          "element": "H",
+          "position": [
+            0.344142,
+            2.952315,
+            -1.818408
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC2"
+        },
+        {
+          "id": "H_cC3",
+          "element": "H",
+          "position": [
+            0.098381,
+            2.587249,
+            1.218824
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC3"
+        },
+        {
+          "id": "H_cO3",
+          "element": "H",
+          "position": [
+            -1.570842,
+            3.980095,
+            0.977324
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cO3"
+        },
+        {
+          "id": "H_cO2",
+          "element": "H",
+          "position": [
+            1.188486,
+            4.525472,
+            -0.336622
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cO2"
+        },
+        {
+          "id": "H_dC4",
+          "element": "H",
+          "position": [
+            3.523455,
+            -0.004144,
+            -0.731781
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC4"
+        },
+        {
+          "id": "H_dC5",
+          "element": "H",
+          "position": [
+            3.289427,
+            0.058647,
+            2.315418
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC5"
+        },
+        {
+          "id": "H_dC1",
+          "element": "H",
+          "position": [
+            5.646655,
+            -0.919044,
+            -0.248146
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC1"
+        },
+        {
+          "id": "H_dC2",
+          "element": "H",
+          "position": [
+            6.341841,
+            1.391834,
+            -0.808162
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC2"
+        },
+        {
+          "id": "H_dC3",
+          "element": "H",
+          "position": [
+            4.265693,
+            2.359942,
+            1.096224
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC3"
+        },
+        {
+          "id": "H_dO3",
+          "element": "H",
+          "position": [
+            3.445221,
+            3.158771,
+            -0.70522
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO3"
+        },
+        {
+          "id": "H_dO2",
+          "element": "H",
+          "position": [
+            6.516731,
+            1.623707,
+            1.986437
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO2"
+        },
+        {
+          "id": "H_eC4",
+          "element": "H",
+          "position": [
+            7.740274,
+            -0.509851,
+            -1.104474
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC4"
+        },
+        {
+          "id": "H_eC5",
+          "element": "H",
+          "position": [
+            9.014471,
+            -2.639695,
+            0.744036
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC5"
+        },
+        {
+          "id": "H_eC1",
+          "element": "H",
+          "position": [
+            11.448497,
+            -2.065471,
+            -1.883826
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC1"
+        },
+        {
+          "id": "H_eC2",
+          "element": "H",
+          "position": [
+            10.201608,
+            0.040198,
+            -1.975658
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC2"
+        },
+        {
+          "id": "H_eC3",
+          "element": "H",
+          "position": [
+            9.85992,
+            -0.123983,
+            1.069619
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC3"
+        },
+        {
+          "id": "H_eO3",
+          "element": "H",
+          "position": [
+            8.430826,
+            1.629821,
+            0.525895
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO3"
+        },
+        {
+          "id": "H_eO2",
+          "element": "H",
+          "position": [
+            11.473495,
+            1.292754,
+            -0.508886
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO2"
+        },
+        {
+          "id": "H_eO1",
+          "element": "H",
+          "position": [
+            12.077921,
+            -1.57743,
+            0.329222
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO1"
+        },
+        {
+          "id": "H_eC6a",
+          "element": "H",
+          "position": [
+            7.706978,
+            -4.268004,
+            -0.595935
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC6"
+        },
+        {
+          "id": "H_eC6b",
+          "element": "H",
+          "position": [
+            6.638841,
+            -3.15716,
+            0.282599
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC6"
+        },
+        {
+          "id": "H_eO6",
+          "element": "H",
+          "position": [
+            7.465112,
+            -3.009862,
+            -2.424449
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO6"
+        },
+        {
+          "id": "H_dC6a",
+          "element": "H",
+          "position": [
+            2.079959,
+            -1.732301,
+            1.051967
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC6"
+        },
+        {
+          "id": "H_dC6b",
+          "element": "H",
+          "position": [
+            3.625459,
+            -2.259091,
+            0.343936
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC6"
+        },
+        {
+          "id": "H_dO6",
+          "element": "H",
+          "position": [
+            4.35914,
+            -2.365404,
+            2.607437
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO6"
+        },
+        {
+          "id": "H_cC6a",
+          "element": "H",
+          "position": [
+            -0.883055,
+            -1.838121,
+            -0.738622
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC6"
+        },
+        {
+          "id": "H_cC6b",
+          "element": "H",
+          "position": [
+            -1.961576,
+            -0.74517,
+            -1.5839
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC6"
+        },
+        {
+          "id": "H_cO6",
+          "element": "H",
+          "position": [
+            -3.252007,
+            -0.645733,
+            0.124375
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cO6"
+        },
+        {
+          "id": "H_bC6a",
+          "element": "H",
+          "position": [
+            -5.288687,
+            3.280585,
+            -1.207797
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC6"
+        },
+        {
+          "id": "H_bC6b",
+          "element": "H",
+          "position": [
+            -6.515439,
+            2.424969,
+            -2.163431
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC6"
+        },
+        {
+          "id": "H_bO6",
+          "element": "H",
+          "position": [
+            -4.732459,
+            3.014743,
+            -3.400221
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO6"
+        },
+        {
+          "id": "H_aO2",
+          "element": "H",
+          "position": [
+            -5.829347,
+            -2.059036,
+            1.275691
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "H_aO3",
+          "element": "H",
+          "position": [
+            -8.409875,
+            -4.687991,
+            1.513223
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "H_aO4",
+          "element": "H",
+          "position": [
+            -10.602132,
+            -4.220184,
+            -0.674842
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "H_aO6",
+          "element": "H",
+          "position": [
+            -11.05385,
+            0.993122,
+            -1.114506
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO6"
+        }
+      ],
+      "bonds": [
+        {
+          "id": "aC6-aC5",
+          "a": "aC6",
+          "b": "aC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC5-aC4",
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC4-aC3",
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC3-aC2",
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC2-aC1",
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC1-aO5",
+          "a": "aC1",
+          "b": "aO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC1-bO4",
+          "a": "aC1",
+          "b": "bO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO4-bC4",
+          "a": "bO4",
+          "b": "bC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC4-bC5",
+          "a": "bC4",
+          "b": "bC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC5-bO5",
+          "a": "bC5",
+          "b": "bO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bO5-bC1",
+          "a": "bO5",
+          "b": "bC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC1-bC2",
+          "a": "bC1",
+          "b": "bC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC2-bC3",
+          "a": "bC2",
+          "b": "bC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC3-bO3",
+          "a": "bC3",
+          "b": "bO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC2-bO2",
+          "a": "bC2",
+          "b": "bO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC1-cO4",
+          "a": "bC1",
+          "b": "cO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO4-cC4",
+          "a": "cO4",
+          "b": "cC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC4-cC5",
+          "a": "cC4",
+          "b": "cC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC5-cO5",
+          "a": "cC5",
+          "b": "cO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cO5-cC1",
+          "a": "cO5",
+          "b": "cC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC1-cC2",
+          "a": "cC1",
+          "b": "cC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC2-cC3",
+          "a": "cC2",
+          "b": "cC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC3-cO3",
+          "a": "cC3",
+          "b": "cO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC2-cO2",
+          "a": "cC2",
+          "b": "cO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC1-dO4",
+          "a": "cC1",
+          "b": "dO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO4-dC4",
+          "a": "dO4",
+          "b": "dC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC4-dC5",
+          "a": "dC4",
+          "b": "dC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC5-dO5",
+          "a": "dC5",
+          "b": "dO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dO5-dC1",
+          "a": "dO5",
+          "b": "dC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC1-dC2",
+          "a": "dC1",
+          "b": "dC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC2-dC3",
+          "a": "dC2",
+          "b": "dC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC3-dO3",
+          "a": "dC3",
+          "b": "dO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC2-dO2",
+          "a": "dC2",
+          "b": "dO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC1-eO4",
+          "a": "dC1",
+          "b": "eO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO4-eC4",
+          "a": "eO4",
+          "b": "eC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC4-eC5",
+          "a": "eC4",
+          "b": "eC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC5-eO5",
+          "a": "eC5",
+          "b": "eO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eO5-eC1",
+          "a": "eO5",
+          "b": "eC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC1-eC2",
+          "a": "eC1",
+          "b": "eC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC2-eC3",
+          "a": "eC2",
+          "b": "eC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC3-eO3",
+          "a": "eC3",
+          "b": "eO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC2-eO2",
+          "a": "eC2",
+          "b": "eO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC1-eO1",
+          "a": "eC1",
+          "b": "eO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC5-eC6",
+          "a": "eC5",
+          "b": "eC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-eO6",
+          "a": "eC6",
+          "b": "eO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC5-dC6",
+          "a": "dC5",
+          "b": "dC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-dO6",
+          "a": "dC6",
+          "b": "dO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC5-cC6",
+          "a": "cC5",
+          "b": "cC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-cO6",
+          "a": "cC6",
+          "b": "cO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC5-bC6",
+          "a": "bC5",
+          "b": "bC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-bO6",
+          "a": "bC6",
+          "b": "bO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC2-aO2",
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC3-aO3",
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC4-aO4",
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC6-aO6",
+          "a": "aC6",
+          "b": "aO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO5-aC5",
+          "a": "aO5",
+          "b": "aC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC3-bC4",
+          "a": "bC3",
+          "b": "bC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC3-cC4",
+          "a": "cC3",
+          "b": "cC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC3-dC4",
+          "a": "dC3",
+          "b": "dC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC3-eC4",
+          "a": "eC3",
+          "b": "eC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC6-H_aC6a",
+          "a": "aC6",
+          "b": "H_aC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC6-H_aC6b",
+          "a": "aC6",
+          "b": "H_aC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC5-H_aC5",
+          "a": "aC5",
+          "b": "H_aC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC4-H_aC4",
+          "a": "aC4",
+          "b": "H_aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC3-H_aC3",
+          "a": "aC3",
+          "b": "H_aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC2-H_aC2",
+          "a": "aC2",
+          "b": "H_aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC1-H_aC1",
+          "a": "aC1",
+          "b": "H_aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC4-H_bC4",
+          "a": "bC4",
+          "b": "H_bC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC5-H_bC5",
+          "a": "bC5",
+          "b": "H_bC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC1-H_bC1",
+          "a": "bC1",
+          "b": "H_bC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC2-H_bC2",
+          "a": "bC2",
+          "b": "H_bC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC3-H_bC3",
+          "a": "bC3",
+          "b": "H_bC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO3-H_bO3",
+          "a": "bO3",
+          "b": "H_bO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO2-H_bO2",
+          "a": "bO2",
+          "b": "H_bO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC4-H_cC4",
+          "a": "cC4",
+          "b": "H_cC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC5-H_cC5",
+          "a": "cC5",
+          "b": "H_cC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC1-H_cC1",
+          "a": "cC1",
+          "b": "H_cC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC2-H_cC2",
+          "a": "cC2",
+          "b": "H_cC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC3-H_cC3",
+          "a": "cC3",
+          "b": "H_cC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO3-H_cO3",
+          "a": "cO3",
+          "b": "H_cO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO2-H_cO2",
+          "a": "cO2",
+          "b": "H_cO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC4-H_dC4",
+          "a": "dC4",
+          "b": "H_dC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC5-H_dC5",
+          "a": "dC5",
+          "b": "H_dC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC1-H_dC1",
+          "a": "dC1",
+          "b": "H_dC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC2-H_dC2",
+          "a": "dC2",
+          "b": "H_dC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC3-H_dC3",
+          "a": "dC3",
+          "b": "H_dC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO3-H_dO3",
+          "a": "dO3",
+          "b": "H_dO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO2-H_dO2",
+          "a": "dO2",
+          "b": "H_dO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC4-H_eC4",
+          "a": "eC4",
+          "b": "H_eC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC5-H_eC5",
+          "a": "eC5",
+          "b": "H_eC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC1-H_eC1",
+          "a": "eC1",
+          "b": "H_eC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC2-H_eC2",
+          "a": "eC2",
+          "b": "H_eC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC3-H_eC3",
+          "a": "eC3",
+          "b": "H_eC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO3-H_eO3",
+          "a": "eO3",
+          "b": "H_eO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO2-H_eO2",
+          "a": "eO2",
+          "b": "H_eO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO1-H_eO1",
+          "a": "eO1",
+          "b": "H_eO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-H_eC6a",
+          "a": "eC6",
+          "b": "H_eC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-H_eC6b",
+          "a": "eC6",
+          "b": "H_eC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO6-H_eO6",
+          "a": "eO6",
+          "b": "H_eO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-H_dC6a",
+          "a": "dC6",
+          "b": "H_dC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-H_dC6b",
+          "a": "dC6",
+          "b": "H_dC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO6-H_dO6",
+          "a": "dO6",
+          "b": "H_dO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-H_cC6a",
+          "a": "cC6",
+          "b": "H_cC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-H_cC6b",
+          "a": "cC6",
+          "b": "H_cC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO6-H_cO6",
+          "a": "cO6",
+          "b": "H_cO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-H_bC6a",
+          "a": "bC6",
+          "b": "H_bC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-H_bC6b",
+          "a": "bC6",
+          "b": "H_bC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO6-H_bO6",
+          "a": "bO6",
+          "b": "H_bO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO2-H_aO2",
+          "a": "aO2",
+          "b": "H_aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO3-H_aO3",
+          "a": "aO3",
+          "b": "H_aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO4-H_aO4",
+          "a": "aO4",
+          "b": "H_aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO6-H_aO6",
+          "a": "aO6",
+          "b": "H_aO6",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "residues": [
+        {
+          "id": "A",
+          "positions": {
+            "C1": "aC1",
+            "C2": "aC2",
+            "C3": "aC3",
+            "C4": "aC4",
+            "C5": "aC5",
+            "C6": "aC6",
+            "O1": "bO4",
+            "O2": "aO2",
+            "O3": "aO3",
+            "O4": "aO4",
+            "O6": "aO6",
+            "O5": "aO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "B",
+          "positions": {
+            "C1": "bC1",
+            "C2": "bC2",
+            "C3": "bC3",
+            "C4": "bC4",
+            "C5": "bC5",
+            "C6": "bC6",
+            "O1": "cO4",
+            "O2": "bO2",
+            "O3": "bO3",
+            "O4": "bO4",
+            "O6": "bO6",
+            "O5": "bO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "C",
+          "positions": {
+            "C1": "cC1",
+            "C2": "cC2",
+            "C3": "cC3",
+            "C4": "cC4",
+            "C5": "cC5",
+            "C6": "cC6",
+            "O1": "dO4",
+            "O2": "cO2",
+            "O3": "cO3",
+            "O4": "cO4",
+            "O6": "cO6",
+            "O5": "cO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "D",
+          "positions": {
+            "C1": "dC1",
+            "C2": "dC2",
+            "C3": "dC3",
+            "C4": "dC4",
+            "C5": "dC5",
+            "C6": "dC6",
+            "O1": "eO4",
+            "O2": "dO2",
+            "O3": "dO3",
+            "O4": "dO4",
+            "O6": "dO6",
+            "O5": "dO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "E",
+          "positions": {
+            "C1": "eC1",
+            "C2": "eC2",
+            "C3": "eC3",
+            "C4": "eC4",
+            "C5": "eC5",
+            "C6": "eC6",
+            "O1": "eO1",
+            "O2": "eO2",
+            "O3": "eO3",
+            "O4": "eO4",
+            "O6": "eO6",
+            "O5": "eO5"
+          },
+          "anomer": "alpha"
+        }
+      ],
+      "links": [
+        {
+          "id": "A-B",
+          "donor": "A",
+          "acceptor": "B",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "aC1",
+          "bridgeO": "bO4",
+          "acceptorAtom": "bC4"
+        },
+        {
+          "id": "B-C",
+          "donor": "B",
+          "acceptor": "C",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "bC1",
+          "bridgeO": "cO4",
+          "acceptorAtom": "cC4"
+        },
+        {
+          "id": "C-D",
+          "donor": "C",
+          "acceptor": "D",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "cC1",
+          "bridgeO": "dO4",
+          "acceptorAtom": "dC4"
+        },
+        {
+          "id": "D-E",
+          "donor": "D",
+          "acceptor": "E",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "dC1",
+          "bridgeO": "eO4",
+          "acceptorAtom": "eC4"
+        }
+      ],
+      "metadata": {
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "isNaturalWholeMolecule": false,
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/13489094",
+        "sourceCache": "assets-work/source/pubchem-maltopentaose-alpha.json",
+        "sourceCacheSha256": "b97dfd73cb3dc0612e57e06c212881f2d572f1dd116f5d81aa527592d895e131",
+        "sourceInchi": "InChI=1S/C30H52O26/c31-1-6-11(36)12(37)18(43)27(49-6)54-23-8(3-33)51-29(20(45)14(23)39)56-25-10(5-35)52-30(21(46)16(25)41)55-24-9(4-34)50-28(19(44)15(24)40)53-22-7(2-32)48-26(47)17(42)13(22)38/h6-47H,1-5H2/t6-,7-,8-,9-,10-,11-,12+,13-,14-,15-,16-,17-,18-,19-,20-,21-,22-,23-,24-,25-,26+,27-,28-,29-,30-/m1/s1",
+        "inchi": "InChI=1S/C30H52O26/c31-1-6-11(36)12(37)18(43)27(49-6)54-23-8(3-33)51-29(20(45)14(23)39)56-25-10(5-35)52-30(21(46)16(25)41)55-24-9(4-34)50-28(19(44)15(24)40)53-22-7(2-32)48-26(47)17(42)13(22)38/h6-47H,1-5H2/t6-,7-,8-,9-,10-,11-,12+,13-,14-,15-,16-,17-,18-,19-,20-,21-,22-,23-,24-,25-,26+,27-,28-,29-,30-/m1/s1",
+        "smiles": "OC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O[C@H]3[C@H](O)[C@@H](O)[C@@H](O[C@H]4[C@H](O)[C@@H](O)[C@@H](O[C@H]5[C@H](O)[C@@H](O)[C@@H](O)O[C@@H]5CO)O[C@@H]4CO)O[C@@H]3CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O",
+        "graphScope": "PubChem-matched alpha-D-maltopentaose fragment",
+        "method": "RDKit ETKDGv3 seeded candidates; lowest converged MMFF94 conformer; proper rigid orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "generatedOn": "2026-10-09",
+        "limitations": "One neutral computed short-fragment conformer; not the whole natural starch molecule, measured solution conformation, thermal state or trajectory. The alpha reducing end is a chosen representative.",
+        "candidateConformers": 8,
+        "convergedConformers": 8,
+        "selectedMmff94EnergyKcalMol": 458.54771058781705
+      }
+    },
+    {
+      "id": "amylopectin-fragment",
+      "kind": "amylopectin",
+      "name": "含一個 α(1→6) 分枝的五糖模型",
+      "formula": "C30H52O26",
+      "atoms": [
+        {
+          "id": "aC6",
+          "element": "C",
+          "position": [
+            -0.182214,
+            -4.786235,
+            1.938634
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aC5",
+          "element": "C",
+          "position": [
+            -0.561313,
+            -4.310497,
+            0.529124
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC4",
+          "element": "C",
+          "position": [
+            -0.46364,
+            -5.459699,
+            -0.494018
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC3",
+          "element": "C",
+          "position": [
+            -0.436698,
+            -4.859919,
+            -1.89685
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aC2",
+          "element": "C",
+          "position": [
+            0.785879,
+            -3.948746,
+            -2.064781
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "aC1",
+          "element": "C",
+          "position": [
+            1.305541,
+            -3.439003,
+            -0.697657
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "aO5",
+          "element": "O",
+          "position": [
+            0.208675,
+            -3.155332,
+            0.163636
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO4",
+          "element": "O",
+          "position": [
+            9.118826,
+            2.094464,
+            -1.510294
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC4",
+          "element": "C",
+          "position": [
+            7.965961,
+            1.972103,
+            -0.660008
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "bC5",
+          "element": "C",
+          "position": [
+            7.098878,
+            0.769147,
+            -1.080302
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bO5",
+          "element": "O",
+          "position": [
+            5.722939,
+            0.871131,
+            -0.683111
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC1",
+          "element": "C",
+          "position": [
+            5.525719,
+            1.704109,
+            0.457323
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bC2",
+          "element": "C",
+          "position": [
+            5.853103,
+            3.170132,
+            0.096119
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "bC3",
+          "element": "C",
+          "position": [
+            7.158327,
+            3.273284,
+            -0.703091
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "bO3",
+          "element": "O",
+          "position": [
+            7.974386,
+            4.336296,
+            -0.180395
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO2",
+          "element": "O",
+          "position": [
+            4.791211,
+            3.721674,
+            -0.714309
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO4",
+          "element": "O",
+          "position": [
+            4.159183,
+            1.665282,
+            0.882786
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC4",
+          "element": "C",
+          "position": [
+            3.728502,
+            0.349241,
+            1.270344
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "cC5",
+          "element": "C",
+          "position": [
+            2.880102,
+            -0.251977,
+            0.12825
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cO5",
+          "element": "O",
+          "position": [
+            1.587416,
+            0.383208,
+            0.028324
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC1",
+          "element": "C",
+          "position": [
+            0.816963,
+            0.310019,
+            1.226362
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cC2",
+          "element": "C",
+          "position": [
+            1.525014,
+            1.04353,
+            2.378704
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cC3",
+          "element": "C",
+          "position": [
+            2.933807,
+            0.473451,
+            2.586148
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "cO3",
+          "element": "O",
+          "position": [
+            2.856479,
+            -0.817366,
+            3.208345
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO2",
+          "element": "O",
+          "position": [
+            1.592319,
+            2.4555,
+            2.126572
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO4",
+          "element": "O",
+          "position": [
+            -0.415955,
+            0.991835,
+            0.972078
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC4",
+          "element": "C",
+          "position": [
+            -1.325994,
+            0.181474,
+            0.209072
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "dC5",
+          "element": "C",
+          "position": [
+            -1.961472,
+            1.028841,
+            -0.913453
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dO5",
+          "element": "O",
+          "position": [
+            -3.023514,
+            0.323845,
+            -1.581
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC1",
+          "element": "C",
+          "position": [
+            -4.06345,
+            -0.093586,
+            -0.705287
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dC2",
+          "element": "C",
+          "position": [
+            -3.522892,
+            -1.040144,
+            0.375524
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dC3",
+          "element": "C",
+          "position": [
+            -2.40654,
+            -0.353562,
+            1.161443
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "dO3",
+          "element": "O",
+          "position": [
+            -1.83854,
+            -1.297874,
+            2.08893
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO2",
+          "element": "O",
+          "position": [
+            -4.552809,
+            -1.457823,
+            1.287894
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO4",
+          "element": "O",
+          "position": [
+            -4.676588,
+            1.028052,
+            -0.065379
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC4",
+          "element": "C",
+          "position": [
+            -5.638609,
+            1.703453,
+            -0.902392
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "eC5",
+          "element": "C",
+          "position": [
+            -5.635829,
+            3.20092,
+            -0.502956
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eO5",
+          "element": "O",
+          "position": [
+            -6.752439,
+            3.559199,
+            0.330934
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC1",
+          "element": "C",
+          "position": [
+            -7.007928,
+            2.630429,
+            1.372361
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "eC2",
+          "element": "C",
+          "position": [
+            -7.457601,
+            1.25728,
+            0.807556
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eC3",
+          "element": "C",
+          "position": [
+            -7.021482,
+            1.067418,
+            -0.658649
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "eO3",
+          "element": "O",
+          "position": [
+            -8.026272,
+            1.548543,
+            -1.551946
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO2",
+          "element": "O",
+          "position": [
+            -6.907382,
+            0.198974,
+            1.626364
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO1",
+          "element": "O",
+          "position": [
+            -5.8822,
+            2.515904,
+            2.235518
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eC6",
+          "element": "C",
+          "position": [
+            -5.711011,
+            4.110464,
+            -1.737532
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "eO6",
+          "element": "O",
+          "position": [
+            -6.849931,
+            3.772619,
+            -2.535913
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dC6",
+          "element": "C",
+          "position": [
+            -0.931829,
+            1.410651,
+            -1.991957
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "dO6",
+          "element": "O",
+          "position": [
+            0.077145,
+            2.288501,
+            -1.514822
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cC6",
+          "element": "C",
+          "position": [
+            2.752533,
+            -1.783426,
+            0.217141
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "cO6",
+          "element": "O",
+          "position": [
+            2.056948,
+            -2.25021,
+            -0.947645
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bC6",
+          "element": "C",
+          "position": [
+            7.68125,
+            -0.559037,
+            -0.571145
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "bO6",
+          "element": "O",
+          "position": [
+            7.712921,
+            -0.59006,
+            0.855423
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO2",
+          "element": "O",
+          "position": [
+            0.39523,
+            -2.855163,
+            -2.919042
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO3",
+          "element": "O",
+          "position": [
+            -0.411022,
+            -5.923388,
+            -2.860702
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO4",
+          "element": "O",
+          "position": [
+            -1.561964,
+            -6.362497,
+            -0.339299
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "aO6",
+          "element": "O",
+          "position": [
+            -1.038138,
+            -5.815428,
+            2.423027
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_aC6a",
+          "element": "H",
+          "position": [
+            -0.222051,
+            -3.948708,
+            2.643336
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC6"
+        },
+        {
+          "id": "H_aC6b",
+          "element": "H",
+          "position": [
+            0.848206,
+            -5.157755,
+            1.954787
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC6"
+        },
+        {
+          "id": "H_aC5",
+          "element": "H",
+          "position": [
+            -1.607802,
+            -3.982743,
+            0.575632
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC5"
+        },
+        {
+          "id": "H_aC4",
+          "element": "H",
+          "position": [
+            0.444642,
+            -6.054825,
+            -0.336037
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC4"
+        },
+        {
+          "id": "H_aC3",
+          "element": "H",
+          "position": [
+            -1.371,
+            -4.314232,
+            -2.081006
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC3"
+        },
+        {
+          "id": "H_aC2",
+          "element": "H",
+          "position": [
+            1.601897,
+            -4.453789,
+            -2.593802
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC2"
+        },
+        {
+          "id": "H_aC1",
+          "element": "H",
+          "position": [
+            1.958525,
+            -4.189744,
+            -0.233343
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aC1"
+        },
+        {
+          "id": "H_bC4",
+          "element": "H",
+          "position": [
+            8.360437,
+            1.839434,
+            0.354395
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC4"
+        },
+        {
+          "id": "H_bC5",
+          "element": "H",
+          "position": [
+            7.088338,
+            0.706023,
+            -2.175496
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC5"
+        },
+        {
+          "id": "H_bC1",
+          "element": "H",
+          "position": [
+            6.157327,
+            1.375286,
+            1.291275
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC1"
+        },
+        {
+          "id": "H_bC2",
+          "element": "H",
+          "position": [
+            5.878193,
+            3.778995,
+            1.006729
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC2"
+        },
+        {
+          "id": "H_bC3",
+          "element": "H",
+          "position": [
+            6.953156,
+            3.546307,
+            -1.745641
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC3"
+        },
+        {
+          "id": "H_bO3",
+          "element": "H",
+          "position": [
+            8.857156,
+            4.231196,
+            -0.58328
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO3"
+        },
+        {
+          "id": "H_bO2",
+          "element": "H",
+          "position": [
+            3.964459,
+            3.371743,
+            -0.320386
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO2"
+        },
+        {
+          "id": "H_cC4",
+          "element": "H",
+          "position": [
+            4.60244,
+            -0.291655,
+            1.448805
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC4"
+        },
+        {
+          "id": "H_cC5",
+          "element": "H",
+          "position": [
+            3.354715,
+            -0.023284,
+            -0.832454
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC5"
+        },
+        {
+          "id": "H_cC1",
+          "element": "H",
+          "position": [
+            0.620477,
+            -0.728238,
+            1.510098
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC1"
+        },
+        {
+          "id": "H_cC2",
+          "element": "H",
+          "position": [
+            0.925273,
+            0.924126,
+            3.288542
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC2"
+        },
+        {
+          "id": "H_cC3",
+          "element": "H",
+          "position": [
+            3.491596,
+            1.130928,
+            3.264975
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC3"
+        },
+        {
+          "id": "H_cO3",
+          "element": "H",
+          "position": [
+            2.551547,
+            -0.67172,
+            4.123979
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cO3"
+        },
+        {
+          "id": "H_cO2",
+          "element": "H",
+          "position": [
+            0.797495,
+            2.666071,
+            1.595179
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cO2"
+        },
+        {
+          "id": "H_dC4",
+          "element": "H",
+          "position": [
+            -0.805601,
+            -0.67103,
+            -0.247787
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC4"
+        },
+        {
+          "id": "H_dC5",
+          "element": "H",
+          "position": [
+            -2.351688,
+            1.962676,
+            -0.487471
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC5"
+        },
+        {
+          "id": "H_dC1",
+          "element": "H",
+          "position": [
+            -4.811696,
+            -0.637826,
+            -1.292408
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC1"
+        },
+        {
+          "id": "H_dC2",
+          "element": "H",
+          "position": [
+            -3.124622,
+            -1.949379,
+            -0.090351
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC2"
+        },
+        {
+          "id": "H_dC3",
+          "element": "H",
+          "position": [
+            -2.805696,
+            0.45861,
+            1.781466
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC3"
+        },
+        {
+          "id": "H_dO3",
+          "element": "H",
+          "position": [
+            -2.603243,
+            -1.744636,
+            2.505405
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO3"
+        },
+        {
+          "id": "H_dO2",
+          "element": "H",
+          "position": [
+            -5.117955,
+            -0.674648,
+            1.464644
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO2"
+        },
+        {
+          "id": "H_eC4",
+          "element": "H",
+          "position": [
+            -5.336273,
+            1.604481,
+            -1.952436
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC4"
+        },
+        {
+          "id": "H_eC5",
+          "element": "H",
+          "position": [
+            -4.718557,
+            3.452828,
+            0.043789
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC5"
+        },
+        {
+          "id": "H_eC1",
+          "element": "H",
+          "position": [
+            -7.820787,
+            3.038821,
+            1.981442
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC1"
+        },
+        {
+          "id": "H_eC2",
+          "element": "H",
+          "position": [
+            -8.551173,
+            1.197292,
+            0.870456
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC2"
+        },
+        {
+          "id": "H_eC3",
+          "element": "H",
+          "position": [
+            -6.953104,
+            -0.01,
+            -0.846881
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC3"
+        },
+        {
+          "id": "H_eO3",
+          "element": "H",
+          "position": [
+            -7.783973,
+            2.459177,
+            -1.837409
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO3"
+        },
+        {
+          "id": "H_eO2",
+          "element": "H",
+          "position": [
+            -7.499599,
+            -0.56947,
+            1.506011
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO2"
+        },
+        {
+          "id": "H_eO1",
+          "element": "H",
+          "position": [
+            -5.6334,
+            1.573581,
+            2.198418
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO1"
+        },
+        {
+          "id": "H_eC6a",
+          "element": "H",
+          "position": [
+            -5.815585,
+            5.157452,
+            -1.434129
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC6"
+        },
+        {
+          "id": "H_eC6b",
+          "element": "H",
+          "position": [
+            -4.815151,
+            4.001311,
+            -2.356712
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eC6"
+        },
+        {
+          "id": "H_eO6",
+          "element": "H",
+          "position": [
+            -6.921052,
+            4.466918,
+            -3.217697
+          ],
+          "formalCharge": 0,
+          "attachedTo": "eO6"
+        },
+        {
+          "id": "H_dC6a",
+          "element": "H",
+          "position": [
+            -1.442129,
+            1.913975,
+            -2.820846
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC6"
+        },
+        {
+          "id": "H_dC6b",
+          "element": "H",
+          "position": [
+            -0.458615,
+            0.518833,
+            -2.419369
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dC6"
+        },
+        {
+          "id": "H_dO6",
+          "element": "H",
+          "position": [
+            0.663924,
+            1.755421,
+            -0.936741
+          ],
+          "formalCharge": 0,
+          "attachedTo": "dO6"
+        },
+        {
+          "id": "H_cC6a",
+          "element": "H",
+          "position": [
+            3.744237,
+            -2.248785,
+            0.222866
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC6"
+        },
+        {
+          "id": "H_cC6b",
+          "element": "H",
+          "position": [
+            2.230021,
+            -2.092994,
+            1.125455
+          ],
+          "formalCharge": 0,
+          "attachedTo": "cC6"
+        },
+        {
+          "id": "H_bO4",
+          "element": "H",
+          "position": [
+            8.809981,
+            2.325948,
+            -2.405691
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO4"
+        },
+        {
+          "id": "H_bC6a",
+          "element": "H",
+          "position": [
+            8.699673,
+            -0.705326,
+            -0.944761
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC6"
+        },
+        {
+          "id": "H_bC6b",
+          "element": "H",
+          "position": [
+            7.054084,
+            -1.393856,
+            -0.900588
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bC6"
+        },
+        {
+          "id": "H_bO6",
+          "element": "H",
+          "position": [
+            8.144231,
+            -1.42537,
+            1.109767
+          ],
+          "formalCharge": 0,
+          "attachedTo": "bO6"
+        },
+        {
+          "id": "H_aO2",
+          "element": "H",
+          "position": [
+            0.953834,
+            -2.099602,
+            -2.635078
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO2"
+        },
+        {
+          "id": "H_aO3",
+          "element": "H",
+          "position": [
+            -0.419235,
+            -5.486433,
+            -3.735416
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO3"
+        },
+        {
+          "id": "H_aO4",
+          "element": "H",
+          "position": [
+            -1.599791,
+            -6.864342,
+            -1.181227
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO4"
+        },
+        {
+          "id": "H_aO6",
+          "element": "H",
+          "position": [
+            -1.422163,
+            -6.287293,
+            1.654425
+          ],
+          "formalCharge": 0,
+          "attachedTo": "aO6"
+        }
+      ],
+      "bonds": [
+        {
+          "id": "aC6-aC5",
+          "a": "aC6",
+          "b": "aC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC5-aC4",
+          "a": "aC5",
+          "b": "aC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC4-aC3",
+          "a": "aC4",
+          "b": "aC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC3-aC2",
+          "a": "aC3",
+          "b": "aC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC2-aC1",
+          "a": "aC2",
+          "b": "aC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC1-aO5",
+          "a": "aC1",
+          "b": "aO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bO4-bC4",
+          "a": "bO4",
+          "b": "bC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC4-bC5",
+          "a": "bC4",
+          "b": "bC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC5-bO5",
+          "a": "bC5",
+          "b": "bO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bO5-bC1",
+          "a": "bO5",
+          "b": "bC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC1-bC2",
+          "a": "bC1",
+          "b": "bC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC2-bC3",
+          "a": "bC2",
+          "b": "bC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC3-bO3",
+          "a": "bC3",
+          "b": "bO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC2-bO2",
+          "a": "bC2",
+          "b": "bO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC1-cO4",
+          "a": "bC1",
+          "b": "cO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO4-cC4",
+          "a": "cO4",
+          "b": "cC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC4-cC5",
+          "a": "cC4",
+          "b": "cC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC5-cO5",
+          "a": "cC5",
+          "b": "cO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cO5-cC1",
+          "a": "cO5",
+          "b": "cC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC1-cC2",
+          "a": "cC1",
+          "b": "cC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC2-cC3",
+          "a": "cC2",
+          "b": "cC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC3-cO3",
+          "a": "cC3",
+          "b": "cO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC2-cO2",
+          "a": "cC2",
+          "b": "cO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC1-dO4",
+          "a": "cC1",
+          "b": "dO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO4-dC4",
+          "a": "dO4",
+          "b": "dC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC4-dC5",
+          "a": "dC4",
+          "b": "dC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC5-dO5",
+          "a": "dC5",
+          "b": "dO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dO5-dC1",
+          "a": "dO5",
+          "b": "dC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC1-dC2",
+          "a": "dC1",
+          "b": "dC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC2-dC3",
+          "a": "dC2",
+          "b": "dC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC3-dO3",
+          "a": "dC3",
+          "b": "dO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC2-dO2",
+          "a": "dC2",
+          "b": "dO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC1-eO4",
+          "a": "dC1",
+          "b": "eO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO4-eC4",
+          "a": "eO4",
+          "b": "eC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC4-eC5",
+          "a": "eC4",
+          "b": "eC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC5-eO5",
+          "a": "eC5",
+          "b": "eO5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eO5-eC1",
+          "a": "eO5",
+          "b": "eC1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC1-eC2",
+          "a": "eC1",
+          "b": "eC2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC2-eC3",
+          "a": "eC2",
+          "b": "eC3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC3-eO3",
+          "a": "eC3",
+          "b": "eO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC2-eO2",
+          "a": "eC2",
+          "b": "eO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC1-eO1",
+          "a": "eC1",
+          "b": "eO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC5-eC6",
+          "a": "eC5",
+          "b": "eC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-eO6",
+          "a": "eC6",
+          "b": "eO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC5-dC6",
+          "a": "dC5",
+          "b": "dC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-dO6",
+          "a": "dC6",
+          "b": "dO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC5-cC6",
+          "a": "cC5",
+          "b": "cC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-cO6",
+          "a": "cC6",
+          "b": "cO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC5-bC6",
+          "a": "bC5",
+          "b": "bC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-bO6",
+          "a": "bC6",
+          "b": "bO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC2-aO2",
+          "a": "aC2",
+          "b": "aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC3-aO3",
+          "a": "aC3",
+          "b": "aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC4-aO4",
+          "a": "aC4",
+          "b": "aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC6-aO6",
+          "a": "aC6",
+          "b": "aO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO5-aC5",
+          "a": "aO5",
+          "b": "aC5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "bC3-bC4",
+          "a": "bC3",
+          "b": "bC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "cC3-cC4",
+          "a": "cC3",
+          "b": "cC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "dC3-dC4",
+          "a": "dC3",
+          "b": "dC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "eC3-eC4",
+          "a": "eC3",
+          "b": "eC4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "id": "aC6-H_aC6a",
+          "a": "aC6",
+          "b": "H_aC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC6-H_aC6b",
+          "a": "aC6",
+          "b": "H_aC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC5-H_aC5",
+          "a": "aC5",
+          "b": "H_aC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC4-H_aC4",
+          "a": "aC4",
+          "b": "H_aC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC3-H_aC3",
+          "a": "aC3",
+          "b": "H_aC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC2-H_aC2",
+          "a": "aC2",
+          "b": "H_aC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC1-H_aC1",
+          "a": "aC1",
+          "b": "H_aC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC4-H_bC4",
+          "a": "bC4",
+          "b": "H_bC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC5-H_bC5",
+          "a": "bC5",
+          "b": "H_bC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC1-H_bC1",
+          "a": "bC1",
+          "b": "H_bC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC2-H_bC2",
+          "a": "bC2",
+          "b": "H_bC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC3-H_bC3",
+          "a": "bC3",
+          "b": "H_bC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO3-H_bO3",
+          "a": "bO3",
+          "b": "H_bO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO2-H_bO2",
+          "a": "bO2",
+          "b": "H_bO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC4-H_cC4",
+          "a": "cC4",
+          "b": "H_cC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC5-H_cC5",
+          "a": "cC5",
+          "b": "H_cC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC1-H_cC1",
+          "a": "cC1",
+          "b": "H_cC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC2-H_cC2",
+          "a": "cC2",
+          "b": "H_cC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC3-H_cC3",
+          "a": "cC3",
+          "b": "H_cC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO3-H_cO3",
+          "a": "cO3",
+          "b": "H_cO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cO2-H_cO2",
+          "a": "cO2",
+          "b": "H_cO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC4-H_dC4",
+          "a": "dC4",
+          "b": "H_dC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC5-H_dC5",
+          "a": "dC5",
+          "b": "H_dC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC1-H_dC1",
+          "a": "dC1",
+          "b": "H_dC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC2-H_dC2",
+          "a": "dC2",
+          "b": "H_dC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC3-H_dC3",
+          "a": "dC3",
+          "b": "H_dC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO3-H_dO3",
+          "a": "dO3",
+          "b": "H_dO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO2-H_dO2",
+          "a": "dO2",
+          "b": "H_dO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC4-H_eC4",
+          "a": "eC4",
+          "b": "H_eC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC5-H_eC5",
+          "a": "eC5",
+          "b": "H_eC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC1-H_eC1",
+          "a": "eC1",
+          "b": "H_eC1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC2-H_eC2",
+          "a": "eC2",
+          "b": "H_eC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC3-H_eC3",
+          "a": "eC3",
+          "b": "H_eC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO3-H_eO3",
+          "a": "eO3",
+          "b": "H_eO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO2-H_eO2",
+          "a": "eO2",
+          "b": "H_eO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO1-H_eO1",
+          "a": "eO1",
+          "b": "H_eO1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-H_eC6a",
+          "a": "eC6",
+          "b": "H_eC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eC6-H_eC6b",
+          "a": "eC6",
+          "b": "H_eC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "eO6-H_eO6",
+          "a": "eO6",
+          "b": "H_eO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-H_dC6a",
+          "a": "dC6",
+          "b": "H_dC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dC6-H_dC6b",
+          "a": "dC6",
+          "b": "H_dC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "dO6-H_dO6",
+          "a": "dO6",
+          "b": "H_dO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-H_cC6a",
+          "a": "cC6",
+          "b": "H_cC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "cC6-H_cC6b",
+          "a": "cC6",
+          "b": "H_cC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-H_bC6a",
+          "a": "bC6",
+          "b": "H_bC6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bC6-H_bC6b",
+          "a": "bC6",
+          "b": "H_bC6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO6-H_bO6",
+          "a": "bO6",
+          "b": "H_bO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO2-H_aO2",
+          "a": "aO2",
+          "b": "H_aO2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO3-H_aO3",
+          "a": "aO3",
+          "b": "H_aO3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO4-H_aO4",
+          "a": "aO4",
+          "b": "H_aO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aO6-H_aO6",
+          "a": "aO6",
+          "b": "H_aO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "aC1-cO6",
+          "a": "aC1",
+          "b": "cO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "id": "bO4-H_bO4",
+          "a": "bO4",
+          "b": "H_bO4",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "residues": [
+        {
+          "id": "A",
+          "positions": {
+            "C1": "aC1",
+            "C2": "aC2",
+            "C3": "aC3",
+            "C4": "aC4",
+            "C5": "aC5",
+            "C6": "aC6",
+            "O1": "cO6",
+            "O2": "aO2",
+            "O3": "aO3",
+            "O4": "aO4",
+            "O6": "aO6",
+            "O5": "aO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "B",
+          "positions": {
+            "C1": "bC1",
+            "C2": "bC2",
+            "C3": "bC3",
+            "C4": "bC4",
+            "C5": "bC5",
+            "C6": "bC6",
+            "O1": "cO4",
+            "O2": "bO2",
+            "O3": "bO3",
+            "O4": "bO4",
+            "O6": "bO6",
+            "O5": "bO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "C",
+          "positions": {
+            "C1": "cC1",
+            "C2": "cC2",
+            "C3": "cC3",
+            "C4": "cC4",
+            "C5": "cC5",
+            "C6": "cC6",
+            "O1": "dO4",
+            "O2": "cO2",
+            "O3": "cO3",
+            "O4": "cO4",
+            "O6": "cO6",
+            "O5": "cO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "D",
+          "positions": {
+            "C1": "dC1",
+            "C2": "dC2",
+            "C3": "dC3",
+            "C4": "dC4",
+            "C5": "dC5",
+            "C6": "dC6",
+            "O1": "eO4",
+            "O2": "dO2",
+            "O3": "dO3",
+            "O4": "dO4",
+            "O6": "dO6",
+            "O5": "dO5"
+          },
+          "anomer": "alpha"
+        },
+        {
+          "id": "E",
+          "positions": {
+            "C1": "eC1",
+            "C2": "eC2",
+            "C3": "eC3",
+            "C4": "eC4",
+            "C5": "eC5",
+            "C6": "eC6",
+            "O1": "eO1",
+            "O2": "eO2",
+            "O3": "eO3",
+            "O4": "eO4",
+            "O6": "eO6",
+            "O5": "eO5"
+          },
+          "anomer": "alpha"
+        }
+      ],
+      "links": [
+        {
+          "id": "A-C",
+          "donor": "A",
+          "acceptor": "C",
+          "donorCarbon": 1,
+          "acceptorCarbon": 6,
+          "linkage": "α(1→6)",
+          "donorC1": "aC1",
+          "bridgeO": "cO6",
+          "acceptorAtom": "cC6"
+        },
+        {
+          "id": "B-C",
+          "donor": "B",
+          "acceptor": "C",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "bC1",
+          "bridgeO": "cO4",
+          "acceptorAtom": "cC4"
+        },
+        {
+          "id": "C-D",
+          "donor": "C",
+          "acceptor": "D",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "cC1",
+          "bridgeO": "dO4",
+          "acceptorAtom": "dC4"
+        },
+        {
+          "id": "D-E",
+          "donor": "D",
+          "acceptor": "E",
+          "donorCarbon": 1,
+          "acceptorCarbon": 4,
+          "linkage": "α(1→4)",
+          "donorC1": "dC1",
+          "bridgeO": "eO4",
+          "acceptorAtom": "eC4"
+        }
+      ],
+      "metadata": {
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "isNaturalWholeMolecule": false,
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/13489094",
+        "sourceCache": "assets-work/source/pubchem-maltopentaose-alpha.json",
+        "sourceCacheSha256": "b97dfd73cb3dc0612e57e06c212881f2d572f1dd116f5d81aa527592d895e131",
+        "sourceInchi": "InChI=1S/C30H52O26/c31-1-6-11(36)12(37)18(43)27(49-6)54-23-8(3-33)51-29(20(45)14(23)39)56-25-10(5-35)52-30(21(46)16(25)41)55-24-9(4-34)50-28(19(44)15(24)40)53-22-7(2-32)48-26(47)17(42)13(22)38/h6-47H,1-5H2/t6-,7-,8-,9-,10-,11-,12+,13-,14-,15-,16-,17-,18-,19-,20-,21-,22-,23-,24-,25-,26+,27-,28-,29-,30-/m1/s1",
+        "inchi": "InChI=1S/C30H52O26/c31-1-6-11(35)13(37)19(43)27(50-6)48-5-10-25(56-28-20(44)14(38)12(36)7(2-32)51-28)17(41)22(46)30(53-10)55-24-9(4-34)52-29(21(45)16(24)40)54-23-8(3-33)49-26(47)18(42)15(23)39/h6-47H,1-5H2/t6-,7-,8-,9-,10-,11-,12-,13+,14+,15-,16-,17-,18-,19-,20-,21-,22-,23-,24-,25-,26+,27+,28-,29-,30-/m1/s1",
+        "smiles": "OC[C@H]1O[C@H](OC[C@H]2O[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@@H](O[C@H]4[C@H](O)[C@@H](O)[C@@H](O)O[C@@H]4CO)O[C@@H]3CO)[C@H](O)[C@@H](O)[C@@H]2O[C@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "graphScope": "constructed branched alpha-D-glucan fragment",
+        "method": "RDKit ETKDGv3 seeded candidates; lowest converged MMFF94 conformer; proper rigid orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "generatedOn": "2026-10-09",
+        "limitations": "One neutral computed short-fragment conformer; not the whole natural starch molecule, measured solution conformation, thermal state or trajectory. The alpha reducing end is a chosen representative.",
+        "candidateConformers": 8,
+        "convergedConformers": 8,
+        "selectedMmff94EnergyKcalMol": 475.2759708936899
+      }
+    }
+  ],
+  "validation": {
+    "status": "PASS",
+    "checkedOn": "2026-10-09",
+    "checks": [
+      {
+        "id": "amylose-fragment",
+        "formula": "C30H52O26",
+        "atomCount": 108,
+        "ringCount": 5,
+        "bondCount": 112,
+        "alpha1To4Count": 4,
+        "alpha1To6Count": 0,
+        "allFiveAlphaDGlucopyranose": true,
+        "explicitHydrogenValence": true,
+        "roundTrip3DStereo": true,
+        "bondLengthRangeAngstrom": [
+          0.972774,
+          1.547795
+        ]
+      },
+      {
+        "id": "amylopectin-fragment",
+        "formula": "C30H52O26",
+        "atomCount": 108,
+        "ringCount": 5,
+        "bondCount": 112,
+        "alpha1To4Count": 3,
+        "alpha1To6Count": 1,
+        "allFiveAlphaDGlucopyranose": true,
+        "explicitHydrogenValence": true,
+        "roundTrip3DStereo": true,
+        "bondLengthRangeAngstrom": [
+          0.97389,
+          1.55137
+        ]
+      }
+    ],
+    "scope": "Molecular graph, explicit-H valence, alpha-D pyranose positions, bridges and computed 3D stereochemistry; no experimental conformation claim."
+  }
+}

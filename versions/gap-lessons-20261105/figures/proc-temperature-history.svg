@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">辨認測點，再比較完整熱歷程</title>
+<desc id="figure-desc">食品內兩個示例測點對應不同定性溫度曲線，介質曲線不能替代食品各位置的熱歷程。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">辨認測點，再比較完整熱歷程</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">相同設備設定，不保證食品各處同溫</tspan></text>
+<rect x="45" y="145" width="230" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="160" y="131" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="160" dy="0">加熱介質</tspan></text>
+<rect x="80" y="190" width="160" height="130" rx="22" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="160" y="217" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="160" dy="0">食品</tspan></text>
+<path d="M 33 252 L 75 252" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 288 252 L 245 252" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<circle cx="120" cy="255" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="104" y="290" font-size="20" fill="#14665d" text-anchor="start"><tspan x="104" dy="0">A</tspan></text>
+<circle cx="203" cy="286" r="7" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<text x="216" y="291" font-size="20" fill="#6f8fb5" text-anchor="start"><tspan x="216" dy="0">B</tspan></text>
+<path d="M 340 350 L 675 350" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 340 350 L 340 157" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="340" y="139" font-size="18" fill="#53606d" text-anchor="start"><tspan x="340" dy="0">溫度（定性）</tspan></text>
+<text x="675" y="379" font-size="18" fill="#53606d" text-anchor="end"><tspan x="675" dy="0">時間</tspan></text>
+<path d="M 355 330 C 382 195 427 180 600 180" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6"/>
+<path d="M 355 330 C 405 315 433 221 600 223" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 355 330 C 410 332 453 279 600 270" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="610" y="186" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="610" dy="0">介質</tspan></text>
+<text x="610" y="229" font-size="20" fill="#14665d" text-anchor="start"><tspan x="610" dy="0">A</tspan></text>
+<text x="610" y="276" font-size="20" fill="#6f8fb5" text-anchor="start"><tspan x="610" dy="0">B</tspan></text>
+<text x="360" y="417" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">瞬間最冷 ≠ 整段累積作用最小</tspan></text>
+<text x="32" y="458" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">各位置要使用自己的 T(x,t)；曲線僅為定性。</tspan><tspan x="32" dy="25">測點位置只是示例，中心不預設為所有食品冷點。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">摺疊、骨架、二硫鍵：三種改變</title>
+<desc id="desc">三列分別呈現連續鏈展開、骨架切斷新增末端，以及 S–S 還原為兩個 SH；需要不同證據。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="540" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">摺疊、骨架、二硫鍵：三種改變</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">外觀或單一條帶，不能直接替反應命名</tspan></text>
+<text x="30" y="133" font-size="21" fill="#14665d" text-anchor="start"><tspan x="30" dy="0">變性</tspan></text>
+<path d="M170 115C240 70 285 165 210 165C155 165 185 95 285 132" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M330 135L395 135" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M445.0 126L475.8333333333333 144" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M475.8333333333333 144L506.6666666666667 126" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M506.6666666666667 126L537.5 144" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M537.5 144L568.3333333333334 126" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.3333333333334 126L599.1666666666666 144" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M599.1666666666666 144L630.0 126" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="445.0" cy="126" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="475.8333333333333" cy="144" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="506.6666666666667" cy="126" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="537.5" cy="144" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="568.3333333333334" cy="126" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="599.1666666666666" cy="144" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="630.0" cy="126" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="445" y="178" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="445" dy="0">骨架仍連續</tspan></text>
+<path d="M30 202L690 202" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="254" font-size="21" fill="#b4692e" text-anchor="start"><tspan x="30" dy="0">肽水解</tspan></text>
+<path d="M172.0 243L198.66666666666666 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M198.66666666666666 261L225.33333333333334 243" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M225.33333333333334 243L252.0 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M252.0 261L278.6666666666667 243" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M278.6666666666667 243L305.33333333333337 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M305.33333333333337 261L332.0 243" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="172.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="198.66666666666666" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="225.33333333333334" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="252.0" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="278.6666666666667" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="305.33333333333337" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="332.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<path d="M362 252L410 252" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<path d="M448.0 243L478.0 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M478.0 261L508.0 243" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M508.0 243L538.0 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M568.0 243L598.0 261" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M598.0 261L628.0 243" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="448.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="478.0" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="508.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="538.0" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="568.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="598.0" cy="261" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="628.0" cy="243" r="5" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="445" y="297" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="445" dy="0">切骨架，新增末端</tspan></text>
+<path d="M30 321L690 321" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="30" y="374" font-size="21" fill="#14665d" text-anchor="start"><tspan x="30" dy="0">S–S 還原</tspan></text>
+<text x="190" y="374" font-size="23" fill="#1c2732" text-anchor="start"><tspan x="190" dy="0">R–S–S–R′</tspan></text>
+<path d="M356 365L416 365" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="443" y="374" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="443" dy="0">R–SH ＋ R′–SH</tspan></text>
+<text x="190" y="419" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="190" dy="0">二硫鍵斷開，不必新增 N／C 末端</tspan></text>
+<text x="30" y="495" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">分別找構形、骨架切割與還原前後連接的證據。</tspan></text>
+<text x="688" y="524" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

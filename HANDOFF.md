@@ -1,6 +1,6 @@
 # 交接說明
 
-最後更新：2026-11-04（Claude 接手 GPT 的進度）
+最後更新：2026-11-05（Claude 接續 11/04 的交接，補完 8 個無對應課程的評分要點）
 
 ## 這個專案
 
@@ -16,7 +16,8 @@
   - 10/28–29：`water-v3`、`assessment-five`、`workbench-clarity`、`rheology-keyboard`、`evap-water-remedy`
   - 10/30：`visual-refresh-20261030`（Claude，視覺更新）
   - 11/02：`exam-preparation-20261102`（GPT，備考工作區）
-  - 11/04：`learning-flow-20261104`（Claude，本次，補完學習流程）
+  - 11/04：`learning-flow-20261104`（Claude，補完學習流程）
+  - 11/05：`gap-lessons-20261105`（Claude，本次，補 5 課，涵蓋原本沒有課程的 8 個評分要點；現行公開版本）
 
 ## 接手時的狀態
 
@@ -55,6 +56,31 @@ GPT 最後完成 `exam-preparation-20261102`：歷屆原題作答、封存原稿
 - **學習路徑（`?path=`）和備考情境互斥**：`pathContext()` 要求網址只有 `path` 一個參數，所以在路徑裡就不加備考參數。
 - **補課清單不標「已讀」**：這個專案一貫的立場是「讀過不等於學會」，只有重寫並重新自評才會改變備考進度；備考總覽會拿最新自評和首次獨立原稿逐項比較。
 
+## 11/05 補課內容（`versions/gap-lessons-20261105`）
+
+以 `learning-flow-20261104` 為基礎複製。學習流程程式碼沒有改動；只新增資料與 5 個簡式課程（無互動活動，體例同 `protein-denaturation`：說明、等式、例子、迷思、一題測驗、來源）：
+
+| 新課程 | 所在主題 | 補上的評分要點 |
+| --- | --- | --- |
+| `browning-maillard-water` 水活性越高，梅納反應就越快嗎？ | 食化／褐變，在 `browning-maillard-storage` 之前 | 食化 115 第1題「用競爭效應解釋速率及適用界線」 |
+| `protein-solvent-mechanism` 乙醇加進水溶液，穩定度與溶解度為何不一定同向？ | 食化／蛋白質，在 `protein-solvent-evidence` 之前 | 食化 115 第10題「說明影響構形穩定度的相互作用」「說明溶解度可能改變的原因」 |
+| `proc-probiotic-dry-damage` 凍乾為何會傷菌？保護配方又在保護什麼？ | 食加／冷凍，緊接 `proc-freeze-drying` | 食加 115 第7題「對菌存活的影響機制」 |
+| `micro-probiotic-safety`「乳酸菌」三個字，能代替菌株安全評估嗎？ | 食微／發酵，緊接 `micro-biotics-evidence` | 食微 115 第1題「安全與不良特性的評估」 |
+| `micro-natto-process` 納豆是發酵過的大豆，所有發酵豆都算納豆嗎？ | 食微／發酵，在 `micro-natto-ammonia` 之前 | 食微 115 第5題「原料與基本產品身分」「主要製程順序與作用」「參與微生物與角色」 |
+
+連動修改：
+- `data/*-curriculum.json`：新增課程與來源（`proc-source-crowe-1998`、`proc-source-isapp-probiotic-2014`、`micro-source-fao-who-probiotics-food`、`natto-source-bccdc`）。
+- `data/exam-written-bank.json`：上述 8 個要點補上 `remediationLessonIds` 與 `remediationScopeNotes`，各題 `remediation` 加入新課。現在每個評分要點都有對應課程。
+- `modules/lesson-principles.js`：5 條核心原理。
+- `tools/`：兩支驗證腳本改為預設驗證新版本；`verify-learning-flow.js` 原本把「第1題 r5 沒有課程」寫死，已改為補課清單 6 課、且不得出現「沒有對應課程」；`smoke-lessons.js` 新增「評分要點沒有課程的數量必須為 0」。
+
+### 這批內容的限制（請接手者知道）
+
+- **來源核對程度不一**：Crowe 1998 以 DOI 書目與摘要層級核對，沒有逐頁核對全文。FAO／WHO *Probiotics in Food* 與 BCCDC *Natto* 沿用歷屆題參考來源清單，編寫時雲端環境無法連線，**沒有重新開啟核對頁次**；課文只用一般性的面向與順序，不引用其中的頁次、時間、溫度或數字，來源條目的 `note` 也已註明。有網路時建議補核對。
+- 5 課都**沒有互動活動與插圖**（`lesson-figures.js` 未新增項目；目前仍有 13 課沒有圖，屬既有狀態）。
+- 課文是教學整理，不是官方答案；每課 `examRefs` 的 note 已寫明只補哪一部分。
+- 未做的內容：`micro-natto-process` 沒有涵蓋納豆的變體（其他豆類／地區）與組織胺的細節（屬 q5 的安全疑慮，仍由 `micro-spores`、`micro-contamination-chain` 負責）。
+
 ## 驗證方式
 
 ```bash
@@ -62,23 +88,18 @@ python3 -m http.server 8765 --bind 127.0.0.1
 ```
 
 ```bash
-VER=learning-flow-20261104 node tools/verify-learning-flow.js
+VER=gap-lessons-20261105 node tools/verify-learning-flow.js
 ```
 
 ```bash
-VER=learning-flow-20261104 node tools/smoke-lessons.js
+VER=gap-lessons-20261105 node tools/smoke-lessons.js
 ```
 
-需要 `playwright`。本次結果：端到端 53/53 項通過；243 課 × 3 步驟共 729 頁全部渲染；126 個補救連結都會出現補課焦點；console 0 錯誤。主要頁面（備考總覽、診斷、歷屆題、整卷、首頁、課程目錄、路徑、複習、說明、3D 反應目錄）都正常載入。
+需要 `playwright`。11/05 結果：端到端 53/53 項通過；248 課 × 3 步驟共 744 頁全部渲染；131 個補救連結都會出現補課焦點；0 個評分要點沒有課程；console 0 錯誤。（11/04 版本為 53/53、729 頁、126 連結。）主要頁面（備考總覽、診斷、歷屆題、整卷、首頁、課程目錄、路徑、複習、說明、3D 反應目錄）都正常載入。
 
 ## 已知限制與建議的下一步
 
-1. **8 個評分要點沒有對應課程**（課程頁會提示「回原題對照參考解說」），是內容缺口：
-   - 食化 115 第1題「用競爭效應解釋速率及適用界線」
-   - 食化 115 第10題「說明影響構形穩定度的相互作用」、「說明溶解度可能改變的原因」
-   - 食加 115 第7題「對菌存活的影響機制」
-   - 食微 115 第1題「安全與不良特性的評估」
-   - 食微 115 第5題「原料與基本產品身分」、「主要製程順序與作用」、「參與微生物與角色」
+1. ~~8 個評分要點沒有對應課程~~：11/05 已補（見上）。
 2. 基礎診斷（選擇題）的補救連結沒有帶作答 id（`exam-room.js` 只傳題目 id），所以只能回到那一題，不是那一次作答。
 3. 如果之後想讓補課清單顯示進度，建議用「重寫後該要點的自評有改善」當作完成依據，而不是「開過頁面」。
 4. 根目錄的舊工作副本可以考慮清掉，只留 `index.html`；動手前先確認 GitHub Pages 的發布來源設定。

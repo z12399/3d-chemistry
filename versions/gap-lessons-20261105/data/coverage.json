@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "scope": "知識取向、所有主要糖類反應家族；本報告是目前覆蓋情況，不是全面完成宣告。",
+  "paths": [
+    {
+      "id": "glucose-mutarotation",
+      "title": "葡萄糖變旋：α ⇌ 開鏈 ⇌ β",
+      "family": "環鏈平衡",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [
+        {
+          "id": "original",
+          "label": "酸催化變旋（α／β 端點選擇）",
+          "states": 7,
+          "moves": 6
+        }
+      ],
+      "mechanismStates": 7,
+      "mechanismMoves": 6,
+      "models": [
+        "glucose-alpha",
+        "glucose-open",
+        "glucose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-hemiacetal",
+      "title": "醛糖形成環狀半縮醛",
+      "family": "環鏈平衡",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "葡萄糖半縮醛成環：羥基進攻醛基",
+          "states": 4,
+          "moves": 3
+        }
+      ],
+      "mechanismStates": 4,
+      "mechanismMoves": 3,
+      "models": [
+        "glucose-open",
+        "glucose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "fructose-hemiketal",
+      "title": "酮糖形成環狀半縮酮",
+      "family": "環鏈平衡",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "果糖形成半縮酮：五員環分支",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "alpha-furanose",
+          "label": "α-D-呋喃",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "alpha-pyranose",
+          "label": "α-D-吡喃",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "beta-pyranose",
+          "label": "β-D-吡喃",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "beta-furanose-ring-opening",
+          "label": "β-D-呋喃 · 開環",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "alpha-furanose-ring-opening",
+          "label": "α-D-呋喃 · 開環",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "alpha-pyranose-ring-opening",
+          "label": "α-D-吡喃 · 開環",
+          "states": 4,
+          "moves": 3
+        },
+        {
+          "id": "beta-pyranose-ring-opening",
+          "label": "β-D-吡喃 · 開環",
+          "states": 4,
+          "moves": 3
+        }
+      ],
+      "mechanismStates": 32,
+      "mechanismMoves": 24,
+      "models": [
+        "fructose-open",
+        "fructose-furanose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "methyl-glucoside-formation",
+      "title": "糖苷形成：把異頭OH換成OR",
+      "family": "糖苷與水解",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "甲基糖苷形成：追蹤醇氧與離去水",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "glucose-alpha",
+        "methyl-alpha-glucoside"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis",
+      "title": "糖苷水解：恢復游離還原端",
+      "family": "糖苷與水解",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "甲基糖苷水解：恢復游離異頭羥基",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "methyl-alpha-glucoside",
+        "glucose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-bromine-oxidation",
+      "title": "醛基氧化：葡萄糖 → 葡萄糖酸",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open",
+        "gluconic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-oxidase-lactone-network",
+      "title": "葡萄糖氧化酶：β-葡萄糖 → δ-內酯 → 葡萄糖酸",
+      "family": "氧化與還原",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-beta",
+        "glucono-delta-lactone",
+        "gluconic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-tollens-test",
+      "title": "銀鏡：糖還原銀，自己被氧化",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-copper-test",
+      "title": "Benedict／Fehling：銅(II) → 氧化亞銅",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-c6-oxidation",
+      "title": "C6選擇性氧化：醣醛酸",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open",
+        "glucuronic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-double-oxidation",
+      "title": "雙端氧化：葡萄糖二酸",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open",
+        "glucaric-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-sorbitol-reduction",
+      "title": "醛糖還原：葡萄糖 → 山梨糖醇",
+      "family": "氧化與還原",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "sorbitol",
+          "label": "葡萄糖 → 山梨糖醇",
+          "states": 3,
+          "moves": 2
+        }
+      ],
+      "mechanismStates": 3,
+      "mechanismMoves": 2,
+      "models": [
+        "glucose-open",
+        "sorbitol"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "fructose-polyol-reduction",
+      "title": "酮糖還原：果糖 → 兩種糖醇",
+      "family": "氧化與還原",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "sorbitol",
+          "label": "果糖 → 山梨糖醇（所選進攻面）",
+          "states": 3,
+          "moves": 2
+        },
+        {
+          "id": "mannitol",
+          "label": "果糖 → 甘露糖醇（另一進攻面）",
+          "states": 3,
+          "moves": 2
+        }
+      ],
+      "mechanismStates": 6,
+      "mechanismMoves": 4,
+      "models": [
+        "fructose-open",
+        "sorbitol",
+        "mannitol"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-fructose-isomerization",
+      "title": "醛糖–酮糖異構化：烯二醇路徑",
+      "family": "異構化與差向異構化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "葡萄糖到果糖：羰基位置如何改變",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "glucose-open",
+        "glucose-enediol",
+        "fructose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-mannose-epimerization",
+      "title": "C2差向異構化：葡萄糖 ⇌ 甘露糖",
+      "family": "異構化與差向異構化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "葡萄糖到甘露糖：平面中間體再建立手性",
+          "states": 3,
+          "moves": 2
+        }
+      ],
+      "mechanismStates": 3,
+      "mechanismMoves": 2,
+      "models": [
+        "glucose-open",
+        "glucose-enediol",
+        "mannose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-acetylation",
+      "title": "酯化：葡萄糖五乙酸酯",
+      "family": "羥基衍生化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "pyridine-acyl-transfer",
+          "label": "吡啶醯基轉移：五個羥基的完整乙醯化",
+          "states": 26,
+          "moves": 25
+        }
+      ],
+      "mechanismStates": 26,
+      "mechanismMoves": 25,
+      "models": [
+        "glucose-alpha"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-etherification",
+      "title": "醚化：糖羥基的O-烷基化",
+      "family": "羥基衍生化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [
+        {
+          "id": "permethylation",
+          "label": "全 O-甲基化：五次去質子化／SN2",
+          "states": 11,
+          "moves": 10
+        },
+        {
+          "id": "anomeric-hydrolysis",
+          "label": "異頭糖苷水解：四個普通甲醚保留",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 16,
+      "mechanismMoves": 14,
+      "models": [
+        "glucose-alpha",
+        "glucose-penta-o-methyl",
+        "glucose-tetra-o-methyl"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-phosphorylation",
+      "title": "酵素磷酸化：葡萄糖-6-磷酸",
+      "family": "羥基衍生化",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-beta",
+        "glucose-6-phosphate"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "hexose-hmf-dehydration",
+      "title": "己糖脫水：形成HMF",
+      "family": "脫水與熱反應",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "fructose-furanose",
+        "hmf"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "pentose-furfural-dehydration",
+      "title": "戊糖脫水：木糖 → 糠醛",
+      "family": "脫水與熱反應",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "xylose-open",
+        "furfural"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "hmf-rehydration",
+      "title": "HMF再水合：乙醯丙酸 + 甲酸",
+      "family": "脫水與熱反應",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "hmf",
+        "levulinic-acid",
+        "formic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-schiff-base",
+      "title": "梅納早期：胺加成與Schiff鹼",
+      "family": "梅納反應",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "梅納早期：羰基加成、脫水與 Schiff 鹼",
+          "states": 7,
+          "moves": 6
+        }
+      ],
+      "mechanismStates": 7,
+      "mechanismMoves": 6,
+      "models": [
+        "glucose-open",
+        "glucose-glycine-imine"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-amadori",
+      "title": "Amadori重排：醛糖早期產物變成酮胺",
+      "family": "梅納反應",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "Amadori 重排：從 C1 亞胺到 C2 酮胺",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "glucose-glycine-imine",
+        "amadori-glycine"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-heyns",
+      "title": "Heyns重排：酮糖早期產物形成胺基醛糖",
+      "family": "梅納反應",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "果糖到 Heyns 產物：C2 縮合與 C1 醛形成",
+          "states": 11,
+          "moves": 10
+        }
+      ],
+      "mechanismStates": 11,
+      "mechanismMoves": 10,
+      "models": [
+        "fructose-open",
+        "heyns-glycine"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-strecker",
+      "title": "Strecker降解：胺基酸少一個碳的醛",
+      "family": "梅納反應",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [
+        {
+          "id": "oxazolidinone-path-a",
+          "label": "甘胺酸＋MGO：五員環 Path A",
+          "states": 7,
+          "moves": 6
+        }
+      ],
+      "mechanismStates": 7,
+      "mechanismMoves": 6,
+      "models": [
+        "methylglyoxal"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-late-network",
+      "title": "梅納後期：裂解、香氣與褐色網路",
+      "family": "梅納反應",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "amadori-glycine",
+        "methylglyoxal"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "caramelization-network",
+      "title": "焦糖化：糖本身的熱反應網路",
+      "family": "脫水與熱反應",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "sucrose",
+        "hmf"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "sucrose-inversion",
+      "title": "蔗糖轉化：水解成葡萄糖與果糖",
+      "family": "糖苷與水解",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [
+        {
+          "id": "default",
+          "label": "蔗糖的酸催化水解：追蹤兩個糖與水氧",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "sucrose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "starch-hydrolysis",
+      "title": "澱粉水解：長鏈到葡萄糖",
+      "family": "糖苷與水解",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "maltotriose",
+        "isomaltose",
+        "maltose",
+        "glucose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "cellulose-hydrolysis",
+      "title": "纖維素水解：β(1→4)鍵",
+      "family": "糖苷與水解",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "cellobiose",
+        "glucose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "lactose-hydrolysis",
+      "title": "乳糖水解：半乳糖 + 葡萄糖",
+      "family": "糖苷與水解",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [
+        {
+          "id": "default",
+          "label": "乳糖的酸催化水解：追蹤兩個糖與水氧",
+          "states": 5,
+          "moves": 4
+        },
+        {
+          "id": "lacz-retaining-hydrolysis",
+          "label": "LacZ 保留型酵素水解",
+          "states": 3,
+          "moves": 2
+        }
+      ],
+      "mechanismStates": 8,
+      "mechanismMoves": 6,
+      "models": [
+        "lactose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maltose-hydrolysis",
+      "title": "麥芽糖水解：α(1→4) → 兩個葡萄糖",
+      "family": "糖苷與水解",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "麥芽糖的酸催化水解：追蹤兩個糖與水氧",
+          "states": 5,
+          "moves": 4
+        },
+        {
+          "id": "glucoamylase-inverting-hydrolysis",
+          "label": "Glucoamylase 反轉型酵素水解",
+          "states": 2,
+          "moves": 1
+        }
+      ],
+      "mechanismStates": 7,
+      "mechanismMoves": 5,
+      "models": [
+        "maltose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "gluconic-acid-lactonization",
+      "title": "葡萄糖酸與δ-內酯：成環、失水與水解",
+      "family": "羥基衍生化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [
+        {
+          "id": "lactonization",
+          "label": "內酯化：酸 → 環酯",
+          "states": 7,
+          "moves": 6
+        },
+        {
+          "id": "hydrolysis",
+          "label": "水解：環酯 → 酸",
+          "states": 7,
+          "moves": 6
+        },
+        {
+          "id": "acid-dissociation",
+          "label": "酸解離：酸 → 酸根",
+          "states": 2,
+          "moves": 1
+        }
+      ],
+      "mechanismStates": 16,
+      "mechanismMoves": 13,
+      "models": [
+        "gluconic-acid",
+        "glucono-delta-lactone"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "periodate-cleavage",
+      "title": "高碘酸鹽裂解：鄰二醇的C–C鍵",
+      "family": "氧化與還原",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "cm-cyclic-cleavage",
+          "label": "乙二醇＋HIO₄：所選 CM 五員環支路",
+          "states": 5,
+          "moves": 4
+        }
+      ],
+      "mechanismStates": 5,
+      "mechanismMoves": 4,
+      "models": [
+        "ethylene-glycol"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "osazone-formation",
+      "title": "糖脎形成：C1與C2共同衍生化",
+      "family": "羰基衍生化",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "ester-hydrolysis",
+      "title": "糖乙酸酯水解：解除羥基保護",
+      "family": "羥基衍生化",
+      "level": "mapped",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [
+        {
+          "id": "default",
+          "label": "五個乙酸酯位點的鹼性水解",
+          "states": 16,
+          "moves": 15
+        }
+      ],
+      "mechanismStates": 16,
+      "mechanismMoves": 15,
+      "models": [
+        "glucose-pentaacetate",
+        "glucose-alpha"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "enzymatic-transglycosylation",
+      "title": "酵素轉糖基：蔗糖轉成果寡糖",
+      "family": "糖苷與水解",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "sucrose",
+        "1-kestose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "kiliani-fischer-glucose",
+      "title": "Kiliani–Fischer 增碳：D-阿拉伯糖 → D-葡萄糖",
+      "family": "碳骨架增減",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "arabinose-open",
+        "glucononitrile",
+        "gluconic-acid",
+        "glucono-delta-lactone",
+        "glucose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "kiliani-fischer-mannose",
+      "title": "Kiliani–Fischer 增碳：D-阿拉伯糖 → D-甘露糖",
+      "family": "碳骨架增減",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "arabinose-open",
+        "mannononitrile",
+        "mannonic-acid",
+        "mannono-gamma-lactone",
+        "mannose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "wohl-glucose-arabinose",
+      "title": "Wohl–Zemplén 縮鏈：D-葡萄糖 → D-阿拉伯糖",
+      "family": "碳骨架增減",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open",
+        "glucose-oxime-e-open",
+        "penta-o-acetyl-glucononitrile",
+        "glucononitrile",
+        "arabinose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "cellobiose-reducing-end-mutarotation",
+      "title": "纖維二糖的還原端：α ⇌ 開鏈 ⇌ β",
+      "family": "環鏈平衡",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "cellobiose",
+        "cellobiose-open",
+        "cellobiose-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "cellobiose-reducing-end-reduction",
+      "title": "纖維二糖還原端還原：纖維二糖醇",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "cellobiose",
+        "cellobiose-open",
+        "cellobiitol"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "cellobiose-bromine-cellobionic-acid",
+      "title": "纖維二糖溴水氧化：內酯 → 纖維二糖酸",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "cellobiose-beta",
+        "cellobionic-lactone",
+        "cellobionic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "reducing-disaccharide-end-comparison",
+      "title": "麥芽糖／乳糖／蔗糖：還原端結構比較",
+      "family": "糖苷與水解",
+      "level": "comparison",
+      "routeKind": "comparison",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "maltose",
+        "lactose",
+        "sucrose"
+      ],
+      "hasUnmodeledChemistry": false
+    },
+    {
+      "id": "starch-alpha-amylase-g5-single-cut",
+      "title": "α-amylase 內切：G5 → α-G3 + α-G2",
+      "family": "糖苷與水解",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "maltopentaose-alpha",
+        "maltose",
+        "maltotriose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "starch-beta-amylase-g5-single-cut",
+      "title": "β-amylase 外切：G5 → β-G2 + α-G3",
+      "family": "糖苷與水解",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 3,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "maltopentaose-alpha",
+        "maltose-beta",
+        "maltotriose"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "koenigs-knorr-neighboring-group-participation",
+      "title": "Koenigs–Knorr：C2 乙醯基參與與 1,2-trans 糖苷",
+      "family": "糖苷與水解",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "acetobromoglucose-alpha",
+        "methanol-koenigs",
+        "methyl-tetraacetyl-glucoside-beta"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "udp-glucose-6-dehydrogenase",
+      "title": "UDP-葡萄糖 C6 氧化：UGDH 的兩次脫氫",
+      "family": "氧化與還原",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "udp-glucose-alpha-dianion",
+        "udp-glucuronate-alpha-trianion"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "udp-galactose-4-epimerase",
+      "title": "UDP-半乳糖 C4 差向異構化：GALE 與暫時氧化還原",
+      "family": "異構化與差向異構化",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "udp-galactose-alpha-dianion",
+        "udp-glucose-alpha-dianion"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "glucose-isomerase-metal-hydride-transfer",
+      "title": "葡萄糖異構酶：雙鎂位協助的醛酮異構化",
+      "family": "異構化與差向異構化",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-alpha",
+        "glucose-open",
+        "fructose-open"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "hmf-acid-humin-parallel-network",
+      "title": "HMF 酸性轉化的分流：乙醯丙酸、甲酸與 humin",
+      "family": "脫水與熱反應",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "hmf",
+        "levulinic-acid",
+        "formic-acid"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "sucrose-synthase-udp-glucose-transfer",
+      "title": "UDP-葡萄糖轉移：AtSus1 保留構型合成蔗糖",
+      "family": "糖苷與水解",
+      "level": "representative",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "udp-glucose-alpha-dianion",
+        "fructose-furanose",
+        "sucrose",
+        "udp-trianion"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "maillard-amadori-deoxyosone-network",
+      "title": "Amadori 產物的去氧酮糖分流：初始 pH 改變路徑權重",
+      "family": "梅納反應",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 4,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "amadori-glycine",
+        "maillard-3-deoxyosone",
+        "maillard-1-deoxyosone",
+        "glycine"
+      ],
+      "hasUnmodeledChemistry": true
+    },
+    {
+      "id": "alkaline-glucose-lactate-network",
+      "title": "鹼性葡萄糖裂解：果糖、三碳片段與乳酸根",
+      "family": "碳骨架增減",
+      "level": "network",
+      "routeKind": "reaction",
+      "teachingStages": 5,
+      "variants": [],
+      "mechanismStates": 0,
+      "mechanismMoves": 0,
+      "models": [
+        "glucose-open",
+        "fructose-open",
+        "alkaline-lactate-r",
+        "alkaline-lactate-s"
+      ],
+      "hasUnmodeledChemistry": true
+    }
+  ],
+  "backlog": [
+    {
+      "id": "kiliani-fischer-chain-extension",
+      "title": "Kiliani–Fischer 碳鏈延長與新生立體中心",
+      "family": "碳骨架增減",
+      "whyNeeded": "已有 D-阿拉伯糖延長成 D-葡萄糖／D-甘露糖的兩張代表網路卡、五個新增 3D 端點及 C1／C2 碳位置映射；兩個腈、酸、不同內酯與醛己糖分開顯示。氰醇加成、腈水解、內酯化與鈉汞齊還原尚未建完整試劑／副產物／電荷及逐原子電子流；歷史路線與現代部分還原路線仍須分開。",
+      "prerequisites": [
+        "開鏈醛糖、羰基親核加成與 Fischer 投影",
+        "已建立兩個 C2 差向異構氰醇腈與所選歷史路線的代表端點；尚須建立帶電反應物及副產物的完整場景",
+        "已核對碳映射與形式總式；升級逐原子機構前須查證水解和還原微步，不把不同歷史路線拼接"
+      ],
+      "sourceUrls": [
+        "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides",
+        "https://nvlpubs.nist.gov/nistpubs/jres/048/3/V48.N03.A01.pdf"
+      ],
+      "status": "representative-network",
+      "implementedRouteIds": [
+        "kiliani-fischer-glucose",
+        "kiliani-fischer-mannose"
+      ]
+    },
+    {
+      "id": "wohl-chain-shortening",
+      "title": "Wohl 降解：移除醛糖鏈端的一個碳",
+      "family": "碳骨架增減",
+      "whyNeeded": "已有選定 Wohl–Zemplén D-葡萄糖→D-阿拉伯糖代表路線，顯示開鏈葡萄糖、所選 E-肟、五乙醯基葡萄糖酸腈、形式去保護腈及阿拉伯糖五個 3D 端點，並追蹤原 C1 離去、原 C2 成新 C1。乙醯化、甲醇解與縮鏈仍只有分階段形式式；尚未建立完整試劑／副產物／酸鹼態與逐原子電子流，也未涵蓋 Wohl 原銀鹽方法。",
+      "prerequisites": [
+        "醛與羥胺生成肟、羥基衍生化與消除的概念",
+        "已建立所選糖肟、受保護腈與縮鏈糖的 3D 代表端點；須再核對肟的其他環鏈／E/Z 形與反應微態",
+        "已以形式式核對失去的碳與含氮片段；逐原子機構仍須完整試劑、質量、電荷與質子來源"
+      ],
+      "sourceUrls": [
+        "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides",
+        "https://www.orgsyn.org/Content/pdfs/procedures/CV3P0690.pdf",
+        "https://www.orgsyn.org/demo.aspx?prep=CV3P0101"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "wohl-glucose-arabinose"
+    },
+    {
+      "id": "koenigs-knorr-neighboring-group-participation",
+      "title": "Koenigs–Knorr 糖苷化與 C2 酰基鄰基參與",
+      "family": "糖苷形成與立體控制",
+      "whyNeeded": "已有 α-四乙醯溴葡萄糖、甲醇與所選 β-甲基四乙醯葡萄糖苷的三個 3D 端點和四階段代表卡；用 C2 乙醯鄰基參與解釋 1,2-trans 方向。橋式離子是有來源的教學機構概念，未在本甲醇／Ag2CO3 溶液中直接量得，也沒有 3D 中間體或逐原子電子流；不能推廣成所有條件均只得 β。",
+      "prerequisites": [
+        "異頭配置、糖苷鍵與羥基酰化",
+        "查證受保護糖基鹵化物、C2 酰基參與的環狀離子及受體產物",
+        "區分共振表示、可討論的中間體與過渡態，限定在選定的 1,2-trans 糖苷化例"
+      ],
+      "sourceUrls": [
+        "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "koenigs-knorr-neighboring-group-participation",
+      "remainingGap": "已提供甲醇／Ag2CO3 代表端點與 C2 乙醯鄰基參與教學概念；橋式帶電物種、銀鹽與質子去向、跨模型完整原子映射及逐原子箭頭未建。α 與 orthoester 旁支、產率及條件依賴仍待分開查證。"
+    },
+    {
+      "id": "activated-nucleotide-sugar-transfer",
+      "title": "活化核苷酸糖供體與糖基轉移酵素",
+      "family": "酵素糖苷合成",
+      "whyNeeded": "已以 AtSus1／EC 2.4.1.13 建立 UDP-α-D-glucose(2−)+D-fructose ⇌ sucrose+UDP(3−)+H+ 的五階段保留型代表卡，含四個獨立驗證的 3D 端點與 Rhea:55095 帶電記帳。活性位的 S_Ni-like 解釋仍是文獻機構提案。",
+      "prerequisites": [
+        "糖磷酸、核苷酸糖與異頭配置",
+        "選定具供體／受體結構資料的酵素案例與正確底物，不以一般蛋白外形代替活性中心",
+        "核對所選家族的機構證據，分開標示直接觀察、計算結果與機構提案"
+      ],
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC314010/",
+        "https://onlinelibrary.wiley.com/doi/full/10.1002/ange.201504617"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "sucrose-synthase-udp-glucose-transfer",
+      "remainingGap": "尚缺具供體/受體結構證據的反轉型糖基轉移酵素比較；AtSus1 的兩底物同場景、蛋白活性位、離子對/H+ 微觀態、逐原子電子流與跨端點映射也未建。"
+    },
+    {
+      "id": "glycosidase-retaining-inverting-mechanisms",
+      "title": "糖苷水解酵素的保留型與反轉型機構",
+      "family": "酵素糖苷水解",
+      "whyNeeded": "乳糖頁已有指定大腸桿菌 LacZ 的保留型局部活性中心分支，麥芽糖頁已有指定 A. awamori glucoamylase 的反轉型局部分支；兩者分別檢查 Glu537–Gal 共價中間體／兩次翻轉與水直接進攻／一次反轉。原酸水解支路仍為各頁預設。未建完整蛋白、催化位溶劑再生、產物後續變旋及轉糖基競爭出口，不可把選定結果外推至所有水解酵素。",
+      "prerequisites": [
+        "酸鹼催化、異頭配置與水解後的變旋",
+        "已建 LacZ Glu461／Glu537 及 glucoamylase Glu179／Glu400 與水的所選映射、形式質子化態；後續須補催化位再生與競爭出口",
+        "兩個局部活性中心只用有限羧酸側鏈；不可把氧碳正離子樣過渡態宣稱為可分離的游離中間體，也不可把相關菌種的變異研究當成同一實驗"
+      ],
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/9718293/",
+        "https://pubmed.ncbi.nlm.nih.gov/27688023/",
+        "https://pubmed.ncbi.nlm.nih.gov/1350782/",
+        "https://pubmed.ncbi.nlm.nih.gov/11732897/",
+        "https://pubmed.ncbi.nlm.nih.gov/8952477/",
+        "https://doi.org/10.1021/bi972232p"
+      ],
+      "status": "mapped-selected-branches",
+      "implementedBranches": [
+        {
+          "routeId": "lactose-hydrolysis",
+          "variantId": "lacz-retaining-hydrolysis"
+        },
+        {
+          "routeId": "maltose-hydrolysis",
+          "variantId": "glucoamylase-inverting-hydrolysis"
+        }
+      ]
+    },
+    {
+      "id": "reducing-disaccharide-end-chemistry",
+      "title": "還原性雙醣的自由端：開環、變旋、氧化與還原",
+      "family": "寡醣反應位點",
+      "whyNeeded": "纖維二糖已有三張三階段代表卡：α→開鏈→β 變旋、游離端還原成纖維二糖醇，以及 β 端溴水氧化先形成 δ-內酯再水解成纖維二糖酸。五個新增 3D 端點都保留 β(1→4) 糖苷橋，並以固定 ID 追蹤還原端 C1。仍須以麥芽糖、乳糖的對照及酸鹼／溴／硼完整原子記帳深化；蔗糖兩端異頭碳均被佔用，不可直接套用。這些代表卡未建逐原子電子機構。",
+      "prerequisites": [
+        "半縮醛與縮醛的區別，以及糖位／糖殘基的可靠原子命名",
+        "已建立纖維二糖還原端 α、開鏈、β、糖醇、δ-內酯與酸的所選 3D 端點，保留另一糖殘基及 β(1→4) 糖苷鍵；須再建立麥芽糖／乳糖的條件對照",
+        "升級端基氧化或還原的逐原子機構時，須核對緩衝鹽、溴、硼、水與酸鹼微觀態的質量和電荷，不把整個雙醣誤畫成完全水解的單醣"
+      ],
+      "sourceUrls": [
+        "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides",
+        "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202201875",
+        "https://nvlpubs.nist.gov/nistpubs/jres/8/jresv8n5p615_A2b.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4537572/"
+      ],
+      "status": "representative-network",
+      "implementedRouteIds": [
+        "cellobiose-reducing-end-mutarotation",
+        "cellobiose-reducing-end-reduction",
+        "cellobiose-bromine-cellobionic-acid"
+      ]
+    },
+    {
+      "id": "polysaccharide-endo-exo-debranching",
+      "title": "多醣水解的內切、外切與去分枝差異",
+      "family": "多醣與分枝反應",
+      "whyNeeded": "將澱粉簡化為最後生成葡萄糖，會隱去不同酵素的切點、主要片段與分枝限制。以 α-amylase、β-amylase 與 isoamylase 的明確反應範圍比較 α-(1→4) 內切、從非還原端釋出麥芽糖及 α-(1→6) 去分枝；酵素名稱中的 α／β 不能直接當作所切糖苷鍵的配置。",
+      "prerequisites": [
+        "還原端／非還原端、α-(1→4) 與 α-(1→6) 鍵的位置",
+        "建立足夠長且含明確分枝節點的片段；異麥芽糖本身不是完整分枝節點",
+        "按各 EC 定義限制酵素作用範圍，追蹤每次切割後片段及新生還原端"
+      ],
+      "sourceUrls": [
+        "https://enzyme.expasy.org/EC/3.2.1.1",
+        "https://enzyme.expasy.org/EC/3.2.1.2",
+        "https://enzyme.expasy.org/EC/3.2.1.68"
+      ],
+      "status": "representative-network",
+      "implementedRouteIds": [
+        "starch-alpha-amylase-g5-single-cut",
+        "starch-beta-amylase-g5-single-cut"
+      ],
+      "remainingGap": "α(1→6) 真分枝底物及 isoamylase 去分枝端點尚未建模；兩張卡只有線性 G5 的單次切割，沒有逐原子酵素機構。"
+    },
+    {
+      "id": "glucose-oxidase-lactone-redox-cycle",
+      "title": "葡萄糖氧化酵素：內酯、FAD 與氧的角色",
+      "family": "酵素氧化還原",
+      "whyNeeded": "已新增 GOx 氧化與後續內酯水解的三節點代表網路，並將 β-D-葡萄糖、δ-內酯、中性葡萄糖酸分開展示。FAD 氧化還原態、O2/H2O2、蛋白質子載體及帶電葡萄糖酸根仍缺同一套逐原子機構；目前形式 2 電子帳本不代表實測活性中心微步。",
+      "prerequisites": [
+        "已驗證三個有機代表端點；下一步需將 C1/H/O 的固定映射與 FAD／蛋白質子載體接成全系統記帳",
+        "建立 FAD 氧化／還原微態、O2、H2O2、帶電葡萄糖酸根的具名原子與電荷模型",
+        "選定具體 GOx 與質子化條件，區分原始動力學證據、結構模型及活性中心機構提案"
+      ],
+      "sourceUrls": [
+        "https://iubmb.qmul.ac.uk/enzyme/EC1/1/3/4.html",
+        "https://www.rhea-db.org/rhea/11428",
+        "https://www.rhea-db.org/rhea/10440",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC404145/"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "glucose-oxidase-lactone-network"
+    },
+    {
+      "id": "uronic-acid-substrate-specific-oxidation",
+      "title": "醣醛酸形成：UDP-糖酵素氧化與化學選擇性",
+      "family": "選擇性氧化與醣醛酸",
+      "whyNeeded": "已以 UGDH／EC 1.1.1.22 建立 UDP-α-D-glucose(2−) → UDP-α-D-glucuronate(3−) 的四階段代表卡，含 2 NAD+、H2O、2 NADH、3 H+ 的 Rhea 帶電記帳及兩個已核對的 UDP-糖 3D 端點。中段以底物作位置參考，並非醛或硫酯的 3D；TEMPO 纖維素氧化仍需獨立底物與路線。",
+      "prerequisites": [
+        "伯醇→醛→羧酸的氧化態，以及游離糖與 UDP-糖的區別",
+        "建立 UDP-葡萄糖／UDP-葡萄糖醛酸與輔酶記帳，核對 pH 對產物電荷的影響",
+        "化學對照限定所研究底物、可接近表面與副反應；不給出跨底物通用選擇性承諾"
+      ],
+      "sourceUrls": [
+        "https://enzyme.expasy.org/EC/1.1.1.22",
+        "https://pubmed.ncbi.nlm.nih.gov/15360314/"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "udp-glucose-6-dehydrogenase",
+      "remainingGap": "酵素束縛醛、半硫縮醛、硫酯與 NAD/水/質子等參與者未建 3D 或逐步原子電子機構；TEMPO／NaBr／NaClO 纖維素表面 C6 氧化需另卡，不能套用 UDP-糖端點。"
+    },
+    {
+      "id": "glucose-isomerase-metal-hydride-transfer",
+      "title": "葡萄糖／木糖異構酵素的金屬協助氫負離子轉移",
+      "family": "酵素醛酮異構化",
+      "whyNeeded": "已以 S. olivochromogenes XI／EC 5.3.1.5 建立葡萄糖→果糖的四階段代表卡；α 環狀、開鏈葡萄糖與開鏈果糖 3D 端點顯示開環和醛酮鍵級變化。1994 年雙 Mg 結構與低溶劑 H 交換支持 hydride-shift 模型，但精確 H 路徑未直接解析。",
+      "prerequisites": [
+        "既有鹼催化烯二醇路徑與質子／氫負離子區別",
+        "選定結構研究中的酵素、金屬及底物，正確描述其與葡萄糖異構酵素名稱的關係",
+        "金屬配位採明示的示意或經驗證方法，不能沿用中性小分子 MMFF 就宣稱活性中心已驗證"
+      ],
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/2319597/",
+        "https://pubmed.ncbi.nlm.nih.gov/8415575/"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "glucose-isomerase-metal-hydride-transfer",
+      "remainingGap": "蛋白活性位、兩個 Mg²⁺、催化水及酵素束縛底物的 3D 幾何尚未建；C2→C1 精確 H 路徑、中間體、所有參與者的原子映射與逐步電子箭頭也未建。第三階段只重用未反應開鏈葡萄糖。"
+    },
+    {
+      "id": "udp-galactose-c4-epimerization",
+      "title": "UDP-葡萄糖／半乳糖的 C4 氧化還原式差向異構化",
+      "family": "酵素差向異構化",
+      "whyNeeded": "已以 GalE／EC 5.1.3.2 建立完整 UDP-α-D-galactose(2−) ⇌ UDP-α-D-glucose(2−) 四階段代表卡，並用兩個獨立核對的 UDP-糖 3D 端點顯示 C4 配置差異。酵素結合 NAD 在機構中暫時還原再生，不是外部淨消耗。",
+      "prerequisites": [
+        "UDP-糖、輔酶氧化還原與局部手性中心",
+        "查證 UDP-葡萄糖、UDP-半乳糖及 4-酮階段的結構與原子映射",
+        "區分氧化還原循環造成的總體差向異構化與淨氧化還原，保留輔酶的去向"
+      ],
+      "sourceUrls": [
+        "https://enzyme.expasy.org/EC/5.1.3.2",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2143289/"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "udp-galactose-4-epimerase",
+      "remainingGap": "酵素結合 4-酮 UDP-糖、NAD+/NADH、活性位 Tyr149／Ser124 與糖部重新定向尚無可操作 3D 或跨全部參與者的逐步原子電子映射；端點獨立構象不代表酵素中實測軌跡。"
+    },
+    {
+      "id": "alkaline-fragmentation-saccharinic-acids",
+      "title": "鹼性糖降解：逆醛醇裂解與糖精酸類分支",
+      "family": "鹼性降解與碳骨架重排",
+      "whyNeeded": "已以 Li 等 2017 的 Ba(OH)₂／N₂／25°C 葡萄糖實驗建立五階段競爭網路卡，顯示葡萄糖、實測果糖、提出的 C3 裂解位置及兩個已驗證但未指派產率的 R/S 乳酸根可能端點。反應液另有實測甘油醛；沒有把混合物壓成唯一總式。",
+      "prerequisites": [
+        "烯二醇、逆醛醇裂解、羰基與有機酸的碳映射",
+        "先選一組有明確條件與鑑定產物的研究，區分保留 C6 的重排與碳鏈裂解",
+        "逐一查證選定分支的機構，不用單一總式或單個糖精酸結構代表複雜混合物"
+      ],
+      "sourceUrls": [
+        "https://www.sciencedirect.com/science/article/pii/0008621595002944",
+        "https://pubs.acs.org/doi/10.1021/acscatal.5b00316"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "alkaline-glucose-lactate-network",
+      "remainingGap": "C6 糖精酸仍需另一組明確條件、身分與 3D 端點；所選 Ba 系統的二羥基丙酮、丙酮醛、Ba 配位、R/S 產率及完整逐原子機構未建或未量。"
+    },
+    {
+      "id": "maillard-deoxyosone-ph-branches",
+      "title": "Amadori 產物的 1,2／2,3 烯醇化與去氧酮糖分支",
+      "family": "梅納中期反應",
+      "whyNeeded": "已以 Martins 等 2003 的 DFG 水相研究建立 1,2 烯醇化→3-DG 與 2,3 烯醇化→1-DG 的四階段平行代表網路；兩個 C6 去氧酮糖開鏈 3D 端點經獨立身分驗證，兩條合併形式式各自 C/H/N/O 守恆。",
+      "prerequisites": [
+        "已建 Amadori 產物、羰基編號、烯醇化與 Strecker 的二羰基需求",
+        "建立所選去氧酮糖的開鏈／環狀代表，標示未確定的互變異構形式",
+        "根據同一模型系統的實測條件查證分支，不把單一濃度或顏色變化等同完整機構"
+      ],
+      "sourceUrls": [
+        "https://www.sciencedirect.com/science/article/pii/S0008621503001733",
+        "https://edepot.wur.nl/121418"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "maillard-amadori-deoxyosone-network",
+      "remainingGap": "烯醇化、水／酸鹼微觀態、甘胺酸離去與 DFG→去氧酮糖的跨模型逐原子電子機構未建；methylglyoxal 等下游裂解與不同條件的分支比例也未建。"
+    },
+    {
+      "id": "acid-dehydration-humin-network",
+      "title": "酸性糖脫水的 humin 縮合與聚合旁路",
+      "family": "酸性降解與複雜網路",
+      "whyNeeded": "已將 HMF 的酸性水相再水合支路與 humin 固體旁路分開：HMF+2H2O→乙醯丙酸+甲酸有三個各自 3D 端點與中性式記帳；DHH／醇醛縮合保留為來源分層的候選網路，不給 humin 固定分子式。",
+      "prerequisites": [
+        "HMF／糠醛生成、羰基縮合與再水合的既有知識",
+        "先選可查證的代表縮合反應作機構例，其餘使用明確標示的網路示意",
+        "區分 humin、焦糖化混合物與梅納後期產物，禁止以一個分子式宣稱整體配平"
+      ],
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23836679/"
+      ],
+      "status": "representative-network",
+      "implementedRouteId": "hmf-acid-humin-parallel-network",
+      "remainingGap": "DHH、候選醇醛二聚體及條件依賴的高聚物未有可檢核 3D／逐原子模型；固體無單一固定鍵圖或分子式，其他酸、溶劑與進料支路仍需獨立案例。"
+    },
+    {
+      "id": "fructose-ring-size-anomer-network",
+      "title": "果糖環大小與異頭物的完整有限分支圖",
+      "family": "環鏈與異頭平衡",
+      "whyNeeded": "開鏈與 α／β 呋喃、α／β 吡喃五種形式已有四條正向成環及四條反向開環的所選酸催化教學支路，並核對環形端點立體身分。不同溶劑／溫度的族群比例、酸鹼競爭路徑及動力學仍待擴充；不能把單一 D₂O 量測比例當成所有條件的常數。",
+      "prerequisites": [
+        "已建立 C2 異頭中心及 O5／O6 成環／開環的八條教學分支，並完成逆向原子、電荷、立體身分與電子流驗證；需再評估其他酸鹼微觀路徑",
+        "已取得四個環形的獨立立體身分；仍需將不同條件的平衡觀察明確對照模型範圍",
+        "若加入比例，須逐項標示溶劑、溫度與量測條件，不用 MMFF 勢能推算溶液族群"
+      ],
+      "sourceUrls": [
+        "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers",
+        "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation",
+        "https://pubmed.ncbi.nlm.nih.gov/22129837/"
+      ],
+      "status": "mapped-selected-branches",
+      "implementedRouteId": "fructose-hemiketal"
+    }
+  ],
+  "counts": {
+    "paths": 54,
+    "teachingStages": 188,
+    "representativeMolecules": 65,
+    "comparisonPaths": 1,
+    "mappedRoutes": 21,
+    "mappedBranches": 34
+  }
+}
