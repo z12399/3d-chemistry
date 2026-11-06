@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">結合形態會改變礦物質利用</title>
+<desc id="figure-desc">金屬離子與植酸可形成錯合物；加工活化植酸酶可改變植酸，影響依原料、酵素及條件而異。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">結合形態會改變礦物質利用</tspan></text>
+<circle cx="97" cy="167" r="43" fill="#f6f7f8" stroke="#b4692e" stroke-width="2"/>
+<text x="97" y="174" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="97" dy="0">Zn 等</tspan></text>
+<text x="162" y="176" font-size="27" fill="#1c2732" text-anchor="start"><tspan x="162" dy="0">＋</tspan></text>
+<circle cx="236" cy="167" r="47" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="236" y="174" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="236" dy="0">植酸</tspan></text>
+<path d="M 299 153 L 405 153" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 405 183 L 299 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="429" y="107" width="259" height="123" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<circle cx="481" cy="169" r="27" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<path d="M 511 169 L 537 169" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="571" cy="169" r="31" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="639" y="176" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="639" dy="0">錯合物</tspan></text>
+<text x="360" y="269" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">部分情況：可供吸收的形態減少</tspan></text>
+<rect x="32" y="327" width="172" height="74" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="118.0" y="357.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="118.0" dy="0">浸泡／發酵</tspan><tspan x="118.0" dy="28">加工條件</tspan></text>
+<path d="M 216 364 L 260 364" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="273" y="327" width="180" height="74" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="363.0" y="357.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="363.0" dy="0">可活化</tspan><tspan x="363.0" dy="28">植酸酶</tspan></text>
+<path d="M 465 364 L 509 364" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="522" y="327" width="166" height="74" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="605.0" y="357.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="605.0" dy="0">植酸分解</tspan><tspan x="605.0" dy="28">結合改變</tspan></text>
+<text x="32" y="456" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">配位示意不指定配位數；影響依條件而異。</tspan><tspan x="32" dy="25">不能由單一結合機制否定整種食品的營養價值。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

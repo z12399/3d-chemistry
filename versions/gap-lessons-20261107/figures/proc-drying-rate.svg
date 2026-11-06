@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乾燥：後段除水可能變慢</title>
+<desc id="figure-desc">果片乾燥的定性水分曲線逐漸變平，表示相同時間內除水可能變少；不能只憑形狀判定單一控制機制。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乾燥：後段除水可能變慢</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">果片乾燥的定性例子；不是通用曲線</tspan></text>
+<path d="M 85 372 L 85 121" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 85 372 L 652 372" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="32" y="111" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">乾基水分</tspan></text>
+<text x="652" y="406" font-size="19" fill="#1c2732" text-anchor="end"><tspan x="652" dy="0">時間</tspan></text>
+<path d="M 116 142 C 152 230, 220 287, 305 312 S 486 346, 625 351" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 116 142 L 116 285" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 222 285 L 116 285" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 480 344 L 480 352" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 586 351 L 480 351" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 116 388 L 222 388" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 480 388 L 586 388" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="169" y="420" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="169" dy="0">相同時間</tspan></text>
+<text x="533" y="420" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="533" dy="0">相同時間</tspan></text>
+<text x="186" y="178" font-size="20" fill="#53606d" text-anchor="start"><tspan x="186" dy="0">前段水分</tspan><tspan x="186" dy="27">下降較大</tspan></text>
+<text x="460" y="247" font-size="20" fill="#53606d" text-anchor="start"><tspan x="460" dy="0">後段水分</tspan><tspan x="460" dy="27">下降可能較小</tspan></text>
+<text x="32" y="462" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">速率隨供水與傳質改變，未必有恆速期。</tspan><tspan x="32" dy="25">曲線本身不能判定單一變慢機制。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

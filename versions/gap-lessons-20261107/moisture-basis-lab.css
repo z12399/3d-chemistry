@@ -1,0 +1,50 @@
+/* Moisture-basis ledger: inputs and a self-check on top, step ledger + stacked bars below. */
+.moisture-lab { --mb-ink: var(--ink, #1c2732); --mb-muted: var(--muted, #53606d); --mb-line: var(--line, #dfe4e8); --mb-accent: var(--mint, #14665d); color: var(--mb-ink); font-size: 1rem; line-height: 1.7; }
+.mb-head { margin-bottom: 14px; }
+.mb-kicker { margin: 0; color: var(--mb-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.moisture-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.mb-hint { margin: 0; color: var(--mb-muted); }
+.moisture-lab select, .moisture-lab input[type="number"] { min-height: 44px; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; color: inherit; box-sizing: border-box; max-width: 100%; }
+.moisture-lab input[type="number"] { width: 7.5em; font-variant-numeric: tabular-nums; }
+.mb-preset { display: grid; gap: 4px; margin-bottom: 14px; font-weight: 600; font-size: .9375rem; }
+.mb-preset select { width: 100%; font-weight: 400; }
+.mb-inputs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; margin-bottom: 16px; }
+.mb-field { display: grid; gap: 4px; min-width: 0; font-weight: 600; font-size: .9375rem; }
+.mb-input { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-weight: 400; }
+.mb-input small { color: var(--mb-muted); font-size: .875rem; }
+.mb-try { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 18px; padding: 14px 18px; border: 1px solid var(--mb-line); border-radius: 12px; background: var(--chrome, #f6f7f8); }
+.mb-try label { font-weight: 600; }
+.mb-try button, .mb-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--mb-accent); border-radius: 10px; background: var(--mb-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.mb-try p { flex-basis: 100%; margin: 0; }
+.mb-try p:empty { display: none; }
+.mb-fb-right { color: #0e4f48; font-weight: 600; }
+.mb-fb-slip, .mb-fb-wrong { color: #8a4b12; font-weight: 600; }
+.mb-main { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.mb-steps { margin: 0; padding: 0; list-style: none; counter-reset: mb; border: 1px solid var(--mb-line); border-radius: 12px; background: #fff; }
+.mb-steps li { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: 10px; padding: 9px 16px; border-top: 1px solid #eef1f3; font-size: .9375rem; counter-increment: mb; }
+.mb-steps li:first-child { border-top: 0; }
+.mb-steps li > span:first-child { color: var(--mb-muted); }
+.mb-steps li > span:first-child::before { content: counter(mb) ". "; color: var(--mb-accent); font-weight: 600; }
+.mb-steps strong { font-variant-numeric: tabular-nums; }
+.mb-steps li:last-child { background: var(--tint, #e7f1ee); border-radius: 0 0 12px 12px; }
+.mb-steps li:last-child strong { font-size: 1.25rem; color: #0e4f48; }
+.mb-plot { min-width: 0; padding: 12px 14px; border: 1px solid var(--mb-line); border-radius: 12px; background: #fff; }
+.mb-chart { display: block; width: 100%; height: auto; }
+.mb-chart text { fill: var(--mb-muted); font: 14px var(--font, sans-serif); }
+.mb-chart .mb-in { fill: #fff; font-weight: 700; }
+.mb-axis { stroke: #8590a0; }
+.mb-solid { fill: #b4692e; background: #b4692e; }
+.mb-water { fill: #6f8fb5; background: #6f8fb5; }
+.mb-key { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 6px 0 0; color: var(--mb-muted); font-size: .875rem; }
+.mb-sw { display: inline-block; width: 14px; height: 14px; border-radius: 3px; margin-right: -8px; }
+.mb-error { margin: 12px 0 0; padding: 10px 14px; border-radius: 10px; background: #fbeee6; color: #8a4b12; }
+.moisture-lab details { padding: 4px 0; border-top: 1px solid var(--mb-line); }
+.moisture-lab details:first-of-type { margin-top: 18px; }
+.moisture-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--mb-muted); }
+.moisture-lab details[open] > summary { color: var(--mb-ink); }
+.moisture-lab details p, .moisture-lab details li { font-size: .9375rem; }
+.moisture-lab a { color: var(--mb-accent); text-decoration: underline; text-underline-offset: 3px; }
+.mb-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 4px 0 14px; }
+.mb-save span { color: var(--mb-muted); font-size: .9375rem; }
+@media (max-width: 860px) { .mb-main { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .mb-inputs { grid-template-columns: minmax(0, 1fr); } .mb-steps li { grid-template-columns: minmax(0, 1fr); gap: 0; } .mb-chart text { font-size: 18px; } }

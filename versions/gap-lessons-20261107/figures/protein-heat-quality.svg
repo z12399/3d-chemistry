@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">加熱蛋白：改善與損失分開查</title>
+<desc id="desc">加熱分出抑制因子失活與聚集、梅納反應兩條可能影響，不能用單一最低活性決定蛋白品質。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="470" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">加熱蛋白：改善與損失分開查</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">大豆蛋白品質：單一指標不決定最佳條件</tspan></text>
+<rect x="270" y="94" width="180" height="66" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="120.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">加熱</tspan><tspan x="360.0" dy="27">時間與溫度</tspan></text>
+<path d="M360 161V185H190V218" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M360 185H535V218" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<rect x="40" y="232" width="300" height="95" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190.0" y="273.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="190.0" dy="0">可能降低</tspan><tspan x="190.0" dy="27">胰蛋白酶抑制因子活性</tspan></text>
+<rect x="385" y="232" width="300" height="95" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="535.0" y="273.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="535.0" dy="0">可能聚集／梅納反應</tspan><tspan x="535.0" dy="27">可利用離胺酸可能降低</tspan></text>
+<text x="190" y="366" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="190" dy="0">另查可消化性</tspan></text>
+<text x="535" y="366" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="535" dy="0">另查胺基酸保留</tspan></text>
+<text x="30" y="414" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">品種與抑制因子的耐熱性不同；不能只看設定溫度。</tspan><tspan x="30" dy="25">抑制因子更低，不等於整體蛋白品質一定更高。</tspan></text>
+<text x="688" y="454" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "mechanisms": 1,
+  "states": 11,
+  "checks": [
+    {
+      "id": "maillard-heyns-state-0",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 1.945
+    },
+    {
+      "id": "maillard-heyns-state-1",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.601
+    },
+    {
+      "id": "maillard-heyns-state-2",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 6.063
+    },
+    {
+      "id": "maillard-heyns-state-3",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.677
+    },
+    {
+      "id": "maillard-heyns-state-4",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 5.252
+    },
+    {
+      "id": "maillard-heyns-state-5",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.685
+    },
+    {
+      "id": "maillard-heyns-state-6",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.669
+    },
+    {
+      "id": "maillard-heyns-state-7",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.685
+    },
+    {
+      "id": "maillard-heyns-state-8",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.305
+    },
+    {
+      "id": "maillard-heyns-state-9",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.697
+    },
+    {
+      "id": "maillard-heyns-state-10",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 5.184
+    }
+  ]
+}

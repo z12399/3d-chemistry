@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">葉綠素遇酸：中央鎂被取代</title>
+<desc id="figure-desc">大環概念符號中的鎂被氫取代並釋出鎂離子，形成脫鎂葉綠素，色調可能改變。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">葉綠素遇酸：中央鎂被取代</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">大環概念符號；不是完整化學結構</tspan></text>
+<circle cx="177" cy="227" r="82" fill="#ffffff" stroke="#14665d" stroke-width="4"/>
+<circle cx="177" cy="227" r="50" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="177" y="237" font-size="33" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="177" dy="0">Mg</tspan></text>
+<circle cx="543" cy="227" r="82" fill="#ffffff" stroke="#b8902a" stroke-width="4"/>
+<circle cx="543" cy="227" r="50" fill="#e7f1ee" stroke="#b8902a" stroke-width="2"/>
+<text x="543" y="237" font-size="33" fill="#b8902a" text-anchor="middle" font-weight="600"><tspan x="543" dy="0">2 H</tspan></text>
+<text x="177" y="124" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="177" dy="0">葉綠素</tspan></text>
+<text x="543" y="124" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="543" dy="0">脫鎂葉綠素</tspan></text>
+<text x="177" y="349" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="177" dy="0">鮮綠色調</tspan></text>
+<text x="543" y="349" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="543" dy="0">可能轉為橄欖色調</tspan></text>
+<path d="M 279 227 L 441 227" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="182" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">酸性條件</tspan></text>
+<text x="360" y="211" font-size="22" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">＋ 2 H⁺</tspan></text>
+<path d="M 361 244 L 361 290" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-gold)"/>
+<text x="361" y="323" font-size="25" fill="#b8902a" text-anchor="middle"><tspan x="361" dy="0">Mg²⁺</tspan></text>
+<text x="32" y="424" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">中央鎂離子被兩個氫取代，改變色素結構。</tspan><tspan x="32" dy="25">加熱與食品環境影響速度；色調以文字標示。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
