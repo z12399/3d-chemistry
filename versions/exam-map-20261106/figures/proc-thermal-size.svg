@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="proc-thermal-size-title proc-thermal-size-desc">
+<title id="proc-thermal-size-title">球放大：儲熱與換熱的比例不同</title>
+<desc id="proc-thermal-size-desc">半徑加倍的均質球體積八倍、表面積四倍，在相同換熱條件及初始溫差下初始平均溫變率減半；使用時間常數前兩球都需檢查 Bi。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">球放大：儲熱與換熱的比例不同</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<circle cx="150" cy="195" r="44" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<line x1="150" y1="195" x2="194" y2="195" stroke="#14665d" stroke-width="2"/>
+<text x="150" y="269" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">半徑 R</text>
+<circle cx="402" cy="195" r="88" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<line x1="402" y1="195" x2="490" y2="195" stroke="#14665d" stroke-width="2"/>
+<text x="402" y="307" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">半徑 2R</text>
+<text x="534" y="126" font-size="16" fill="#1c2732" text-anchor="start" font-weight="400">同幾何、同物性</text>
+<text x="534" y="152" font-size="16" fill="#1c2732" text-anchor="start" font-weight="400">同 h、同初始溫差</text>
+<text x="534" y="205" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">儲熱容量 × 8</text>
+<text x="534" y="231" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">初始熱流率 × 4</text>
+<text x="534" y="257" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">初始平均溫變率</text>
+<text x="534" y="283" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">× ½</text>
+<rect x="32" y="340" width="656" height="81" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="371" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">兩球各自檢查：Lc ＝ R/3；Bi ＝ hLc/k</text>
+<text x="360" y="399" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">Bi ＜ 0.1 且其餘假設成立 → τ ＝ ρcpV/(hA)</text>
+<rect x="32" y="439" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="465" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">初始平均溫變率不是球心溫變率；放大後 Bi 也會改變。</text>
+<text x="46" y="490" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">近均溫模型適用時，同 h 下半徑加倍使 τ 加倍。</text>
+<text x="680" y="527" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

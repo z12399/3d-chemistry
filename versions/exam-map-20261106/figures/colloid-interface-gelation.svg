@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="colloid-interface-gelation-title colloid-interface-gelation-desc">
+<title id="colloid-interface-gelation-title">三種作用位置，三類驗證</title>
+<desc id="colloid-interface-gelation-desc">三個小圖分別顯示液滴界面層、連續相增稠與跨越體相的接合網路，下方列出各自適合的量測。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">三種作用位置，三類驗證</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="85" width="208" height="296" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="136" y="116" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">界面吸附</text>
+<rect x="256" y="85" width="208" height="296" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="116" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">連續相增稠</text>
+<rect x="480" y="85" width="208" height="296" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="584" y="116" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">貫通網路</text>
+<circle cx="136" cy="207" r="48" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<circle cx="193.0" cy="207.0" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="185.363448015713" cy="235.5" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="164.5" cy="256.363448015713" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="136.0" cy="264.0" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="107.50000000000001" cy="256.363448015713" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="86.636551984287" cy="235.5" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="79.0" cy="207.0" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="86.636551984287" cy="178.5" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="107.49999999999997" cy="157.636551984287" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="136.0" cy="150.0" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="164.5" cy="157.636551984287" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="185.363448015713" cy="178.49999999999997" r="5" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="136" y="214" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">油滴</text>
+<text x="136" y="307" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">表面層改變</text>
+<text x="136" y="333" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">顯微影像／粒徑</text>
+<path d="M275 153 Q298 141 321 153 T367 153 T413 153 T442 153" fill="none" stroke="#6f8fb5" stroke-width="2"/>
+<path d="M275 190 Q298 178 321 190 T367 190 T413 190 T442 190" fill="none" stroke="#6f8fb5" stroke-width="2"/>
+<path d="M275 227 Q298 215 321 227 T367 227 T413 227 T442 227" fill="none" stroke="#6f8fb5" stroke-width="2"/>
+<path d="M275 264 Q298 252 321 264 T367 264 T413 264 T442 264" fill="none" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="311" cy="171" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="400" cy="242" r="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="360" y="307" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">流動阻力改變</text>
+<text x="360" y="333" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">流動曲線／黏度</text>
+<path d="M496 161 L541 195 L593 156 L667 191" fill="none" stroke="#14665d" stroke-width="3"/>
+<path d="M499 249 L541 195 L604 248 L666 207" fill="none" stroke="#14665d" stroke-width="3"/>
+<path d="M519 143 L541 195 L528 274" fill="none" stroke="#14665d" stroke-width="3"/>
+<path d="M593 156 L604 248 L661 274" fill="none" stroke="#14665d" stroke-width="3"/>
+<circle cx="541" cy="195" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="593" cy="156" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="604" cy="248" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="584" y="307" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">鏈間接合</text>
+<text x="584" y="333" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">受控流變量測</text>
+<rect x="32" y="407" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="433" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">材料名稱或變稠外觀，不能單獨指定成膠機制。</text>
+<text x="46" y="458" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">網路形成仍取決於濃度、相互作用與製程歷史。</text>
+<text x="680" y="497" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

@@ -1,0 +1,34 @@
+.precision-fermentation-lab{font-size:1rem;line-height:1.65;max-width:76rem;margin:1.25rem auto;padding:1.1rem;border:1px solid #c4d7d6;border-radius:.8rem;background:#fbfdfc;color:#173337}
+.precision-fermentation-lab *{box-sizing:border-box}
+.precision-fermentation-lab [hidden]{display:none!important}
+.precision-fermentation-lab h3{font-size:1.35rem;line-height:1.4;margin:0 0 .6rem}
+.precision-fermentation-lab h4{font-size:1.1rem;line-height:1.5;margin:0 0 .8rem}
+.precision-fermentation-lab p{margin:.55rem 0}
+.precision-fermentation-lab label{display:block}
+.precision-fermentation-lab select,.precision-fermentation-lab textarea{display:block;width:100%;max-width:100%;margin:.35rem 0 .75rem;padding:.55rem;border:1px solid #78989b;border-radius:.35rem;background:#fff;color:#173337;font:inherit}
+.precision-fermentation-lab textarea{resize:vertical;min-height:5rem}
+.precision-fermentation-lab button{min-height:2.75rem;padding:.6rem .9rem;border:1px solid #27646a;border-radius:.4rem;background:#e8f3f0;color:#143e43;font:inherit;cursor:pointer}
+.precision-fermentation-lab button:disabled{opacity:.65;cursor:default}
+.precision-fermentation-lab :focus-visible{outline:3px solid #b25e0c;outline-offset:3px}
+.precision-fermentation-lab fieldset{border:0;padding:0;margin:.8rem 0}
+.precision-fermentation-lab legend{font-weight:600;margin-bottom:.4rem}
+.precision-fermentation-lab .pfr-choice{display:flex;align-items:flex-start;gap:.6rem;padding:.6rem .7rem;margin:.4rem 0;border:1px solid #c2d5d3;border-radius:.4rem;background:#fff;cursor:pointer}
+.precision-fermentation-lab .pfr-choice input{flex:0 0 auto;margin-top:.42rem;min-width:1.05rem;min-height:1.05rem}
+.precision-fermentation-lab .pfr-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem;margin:.9rem 0}
+.precision-fermentation-lab .pfr-origin{padding:.7rem .85rem;border-left:4px solid #4c7775;background:#eff6f3}
+.precision-fermentation-lab .pfr-table-scroll{overflow-x:auto;margin:1rem 0}
+.precision-fermentation-lab table{width:100%;border-collapse:collapse;background:#fff}
+.precision-fermentation-lab caption{text-align:left;font-weight:600;padding:.3rem 0 .5rem}
+.precision-fermentation-lab th,.precision-fermentation-lab td{text-align:left;vertical-align:top;border:1px solid #bfd1d1;padding:.65rem .75rem;overflow-wrap:anywhere}
+.precision-fermentation-lab th{width:11rem;background:#eef5f3}
+.precision-fermentation-lab .pfr-stage{margin:1.25rem 0;padding:1rem;border:1px solid #c4d7d6;border-radius:.6rem;background:#fff}
+.precision-fermentation-lab .pfr-feedback{margin-top:1rem;padding:1rem;border-left:4px solid #366d6d;background:#f0f6f4}
+.precision-fermentation-lab details{margin:.85rem 0;padding:.7rem .8rem;border:1px solid #c4d7d6;border-radius:.4rem}
+.precision-fermentation-lab summary{font-size:1rem;font-weight:600;cursor:pointer}
+.precision-fermentation-lab details[open]>summary{margin-bottom:.65rem}
+.precision-fermentation-lab a{color:#145b70;text-decoration:underline;overflow-wrap:anywhere}
+.precision-fermentation-lab .pfr-save-row{margin-top:1.1rem}
+.precision-fermentation-lab .pfr-small{color:#3b5559;font-size:1rem}
+.precision-fermentation-lab .pfr-relation{padding:.8rem;border-left:4px solid #4c7775;background:#eff6f3}
+@media(min-width:1100px){.precision-fermentation-lab .pfr-task{max-width:45rem}}
+@media(max-width:600px){.precision-fermentation-lab{padding:.8rem}.precision-fermentation-lab .pfr-controls{grid-template-columns:minmax(0,1fr)}.precision-fermentation-lab th{width:7rem}.precision-fermentation-lab .pfr-stage{padding:.75rem}}

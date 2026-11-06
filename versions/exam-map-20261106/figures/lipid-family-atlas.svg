@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脂質家族：先找骨架與官能基</title>
+<desc id="figure-desc">以甘油與脂肪醯鏈、極性頭疏水尾、四環及長鏈酯的圖符，比較五種脂質家族。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脂質家族：先找骨架與官能基</tspan></text>
+<rect x="32" y="100" width="194" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="263" y="100" width="194" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="494" y="100" width="194" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="145" y="320" width="194" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="381" y="320" width="194" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="129" y="133" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="129" dy="0">三酸甘油酯</tspan></text>
+<path d="M 77 165 L 77 239" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 170 L 106 170 L 122 162 L 139 170 L 156 162 L 175 170" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 200 L 106 200 L 122 192 L 139 200 L 156 192 L 175 200" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 230 L 106 230 L 122 222 L 139 230 L 156 222 L 175 230" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="129" y="270" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="129" dy="0">三條醯鏈；偏疏水</tspan></text>
+<text x="360" y="133" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="360" dy="0">單／雙甘油酯</tspan></text>
+<path d="M 309 166 L 309 230" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 309 175 L 339 175 L 355 167 L 372 175 L 389 167 L 408 175" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 309 204 L 339 204 L 355 196 L 372 204 L 389 196 L 408 204" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="321" y="244" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="321" dy="0">OH</tspan></text>
+<text x="360" y="270" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">留有羥基；兩親性</tspan></text>
+<text x="591" y="133" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="591" dy="0">甘油磷脂</tspan></text>
+<circle cx="591" cy="176" r="20" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 579 197 L 571 214 L 581 231 L 571 247" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 602 197 L 612 214 L 602 231 L 612 247" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="591" y="270" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="591" dy="0">極性頭＋疏水尾</tspan></text>
+<text x="242" y="353" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="242" dy="0">固醇</tspan></text>
+<path d="M 212.0 406.0 L 200.0 426.8 L 176.0 426.8 L 164.0 406.0 L 176.0 385.2 L 200.0 385.2 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 248.0 385.2 L 236.0 406.0 L 212.0 406.0 L 200.0 385.2 L 212.0 364.4 L 236.0 364.4 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 284.0 406.0 L 272.0 426.8 L 248.0 426.8 L 236.0 406.0 L 248.0 385.2 L 272.0 385.2 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 272 385.2 L 284 406 L 307.5 401 L 310 377.1 L 288.1 367.4 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="242" y="481" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="242" dy="0">相連四環骨架</tspan></text>
+<text x="478" y="353" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="478" dy="0">蠟</tspan></text>
+<path d="M 402 405 L 420 395 L 438 405 L 452 397" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="480" y="412" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="480" dy="0">酯</tspan></text>
+<path d="M 507 397 L 524 405 L 542 395 L 558 405" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="478" y="460" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="478" dy="0">長鏈酸＋長鏈醇</tspan><tspan x="478" dy="26">形成酯</tspan></text>
+<text x="32" y="537" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">圖符只表示家族骨架，不是完整結構式。</tspan></text>
+<text x="688" y="542" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
