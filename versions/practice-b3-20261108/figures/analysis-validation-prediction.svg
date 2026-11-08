@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="analysis-validation-prediction-title analysis-validation-prediction-desc">
+<title id="analysis-validation-prediction-title">先留在擬合之外，再回推驗證</title>
+<desc id="analysis-validation-prediction-desc">校正點用於估計同日直線，保留驗證樣品則由其響應回推濃度後與標稱比較，不加入原擬合。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">先留在擬合之外，再回推驗證</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="83" width="656" height="105" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="48" y="99" width="208" height="72" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="152.0" y="141.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">同日校正點</text>
+<line x1="259" y1="135" x2="317" y2="135" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="324" y="99" width="348" height="72" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="498.0" y="141.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">估計 a、b：y ＝ a ＋ bx</text>
+<text x="32" y="232" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">保留驗證樣品（沒有參與擬合）</text>
+<rect x="32" y="260" width="176" height="85" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="120.0" y="295.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">驗證響應平均</text>
+<text x="120.0" y="321.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">ȳᵤ</text>
+<line x1="211" y1="302" x2="263" y2="302" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="270" y="260" width="202" height="85" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="371.0" y="295.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">回推濃度</text>
+<text x="371.0" y="321.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">x̂ ＝ (ȳᵤ − a)/b</text>
+<line x1="475" y1="302" x2="523" y2="302" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="530" y="260" width="158" height="85" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="609.0" y="295.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">對照</text>
+<text x="609.0" y="321.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">標稱濃度</text>
+<path d="M500 190 V218 H371 V254" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="396" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="422" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">相對標稱偏差 ＝ (x̂ − x標稱) / x標稱 × 100%。</text>
+<text x="46" y="447" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">擬合內符合不是獨立驗證；此偏差也不是完整方法真確度。</text>
+<text x="680" y="487" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "mechanisms": 3,
+  "states": 15,
+  "checks": [
+    {
+      "id": "maltose-hydrolysis-acid-state-0",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.921
+    },
+    {
+      "id": "maltose-hydrolysis-acid-state-1",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.815
+    },
+    {
+      "id": "maltose-hydrolysis-acid-state-2",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.236
+    },
+    {
+      "id": "maltose-hydrolysis-acid-state-3",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.226
+    },
+    {
+      "id": "maltose-hydrolysis-acid-state-4",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.263
+    },
+    {
+      "id": "lactose-hydrolysis-acid-state-0",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.539
+    },
+    {
+      "id": "lactose-hydrolysis-acid-state-1",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.883
+    },
+    {
+      "id": "lactose-hydrolysis-acid-state-2",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.246
+    },
+    {
+      "id": "lactose-hydrolysis-acid-state-3",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.35
+    },
+    {
+      "id": "lactose-hydrolysis-acid-state-4",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.429
+    },
+    {
+      "id": "sucrose-inversion-acid-state-0",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.921
+    },
+    {
+      "id": "sucrose-inversion-acid-state-1",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.434
+    },
+    {
+      "id": "sucrose-inversion-acid-state-2",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.7
+    },
+    {
+      "id": "sucrose-inversion-acid-state-3",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.517
+    },
+    {
+      "id": "sucrose-inversion-acid-state-4",
+      "atoms": 52,
+      "formula": "C12H27O13+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.584
+    }
+  ]
+}

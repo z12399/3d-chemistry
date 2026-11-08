@@ -1,0 +1,39 @@
+/* 名詞解釋集（tm-）與畫結構練習（sd-）共用；建立在 exam-map.css 的變數與 gap-lessons.css 的徽章之上。 */
+.tm-controls{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;justify-content:space-between;margin:0 0 14px}
+.tm-controls .em-tabs{margin:0}
+.tm-actions{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.tm-only{font-size:.92rem;color:var(--em-mute);display:inline-flex;gap:.3rem;align-items:center}
+.tm-term{background:var(--em-sheet);border:1px solid var(--em-line);border-radius:12px;padding:.2rem .9rem;margin:0 0 .6rem;scroll-margin-top:12px}
+.tm-term[open]{padding-bottom:.6rem}
+.tm-term>summary{display:flex;flex-wrap:wrap;gap:.4rem .8rem;align-items:center;justify-content:space-between;padding:.55rem 0;font-weight:500;color:var(--em-ink)}
+.tm-term>summary::-webkit-details-marker{display:none}
+.tm-term>summary::before{content:"▸";color:var(--em-teal);margin-right:.2rem}
+.tm-term[open]>summary::before{content:"▾"}
+.tm-name{flex:1 1 260px}
+.tm-name b{color:var(--em-teal)}
+.tm-zh{color:var(--em-mute);margin-left:.3rem}
+.tm-meta{display:flex;gap:.35rem;flex-wrap:wrap;align-items:center}
+.tm-asked{font-size:.76rem;border-radius:999px;padding:.1rem .55rem;background:var(--em-teal-soft);color:var(--em-teal);white-space:nowrap}
+.tm-asked-extra{background:transparent;color:var(--em-mute);border:1px dashed var(--em-line)}
+.tm-body{border-top:1px solid var(--em-line);padding-top:.5rem}
+.tm-row{display:grid;grid-template-columns:4.5em 1fr;gap:.5rem;margin:.35rem 0}
+.tm-row p{margin:0}
+.tm-key{font-weight:600;color:var(--em-teal);font-size:.9rem;padding-top:.1rem}
+.tm-lesson{margin:.5rem 0 0;font-size:.92rem}
+@media (max-width:480px){.tm-row{grid-template-columns:1fr}.tm-key{font-size:.82rem}}
+
+.sd-drill{scroll-margin-top:12px}
+.sd-reveal>summary{font-size:1rem}
+.sd-figures{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:.8rem 0}
+.sd-figure{margin:0;border:1px solid var(--em-line);border-radius:10px;padding:8px;background:#fff}
+.sd-figure img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain}
+.sd-figure figcaption{font-size:.86rem;color:var(--em-mute);margin-top:.4rem}
+.sd-check{list-style:none;padding:0;margin:.3rem 0}
+.sd-check li{margin:.35rem 0}
+.sd-check label{display:flex;gap:.5rem;align-items:flex-start;cursor:pointer}
+.sd-check input{margin-top:.25rem;flex-shrink:0}
+.sd-progress{font-size:.9rem;color:var(--em-teal);font-weight:600;margin:.3rem 0 .8rem}
+.sd-links{display:flex;flex-wrap:wrap;gap:.4rem}
+.sd-links .em-chip{text-decoration:none}
+@media (prefers-color-scheme:dark){.sd-figure{background:#f4f7f6}}
+@media print{.em-header,.em-footer,.em-tabs,.tm-controls{display:none}.tm-term,.sd-reveal{open:true}}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">擬合得好，還要另查預測</title>
+<desc id="desc">已見資料用於擬合與殘差，新資料另與模型預測比較；同批誤差小不等於通用。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="480" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">擬合得好，還要另查預測</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">校準與驗證：資料的角色不同</tspan></text>
+<rect x="30" y="100" width="660" height="148" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="50" y="129" font-size="19" fill="#53606d" text-anchor="start"><tspan x="50" dy="0">已見資料</tspan></text>
+<rect x="50" y="151" width="155" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="127.5" y="177.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="127.5" dy="0">量測值</tspan><tspan x="127.5" dy="27">保持不變</tspan></text>
+<path d="M220 183L280 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="295" y="151" width="160" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="375.0" y="177.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="375.0" dy="0">調整參數</tspan><tspan x="375.0" dy="27">GAB 模型</tspan></text>
+<path d="M470 183L515 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="530" y="151" width="140" height="65" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="600.0" y="177.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="600.0" dy="0">逐點殘差</tspan><tspan x="600.0" dy="27">RMSE</tspan></text>
+<rect x="30" y="270" width="660" height="125" rx="12" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<rect x="50" y="294" width="180" height="72" rx="12" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="140.0" y="323.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="140.0" dy="0">未參與擬合</tspan><tspan x="140.0" dy="27">的新資料</tspan></text>
+<path d="M246 330L290 330" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="305" y="294" width="165" height="72" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="387.5" y="323.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="387.5" dy="0">模型預測</tspan><tspan x="387.5" dy="27">與量測比較</tspan></text>
+<path d="M486 330L525 330" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="550" y="323" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="550" dy="0">檢查預測</tspan><tspan x="550" dy="27">適用條件</tspan></text>
+<text x="30" y="438" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">換溫度、材料或吸濕歷史，需要相應的新資料。</tspan></text>
+<text x="688" y="464" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
