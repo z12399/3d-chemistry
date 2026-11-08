@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">色度座標描述外觀，不是含量</title>
+<desc id="figure-desc">a*–b* 平面中向量長度是彩度、方向是色相；L* 另表明度，ΔE 是兩色三維座標的距離。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">色度座標描述外觀，不是含量</tspan></text>
+<text x="180" y="92" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">a*–b* 平面</tspan></text>
+<path d="M 63 291 L 370 291" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 178 355 L 178 112" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="364" y="322" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="364" dy="0">a* 紅</tspan></text>
+<text x="63" y="322" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="63" dy="0">綠</tspan></text>
+<text x="192" y="125" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="192" dy="0">b* 黃</tspan></text>
+<text x="192" y="355" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="192" dy="0">藍</tspan></text>
+<circle cx="294" cy="188" r="6" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<path d="M 178 291 L 294 188" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="278" y="233" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="278" dy="0">彩度 C*</tspan></text>
+<path d="M 224 291 A 46 46 0 0 0 212 260" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="237" y="278" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="237" dy="0">色相 h</tspan></text>
+<text x="156" y="315" font-size="16" fill="#1c2732" text-anchor="end"><tspan x="156" dy="0">中性</tspan></text>
+<rect x="424" y="105" width="264" height="258" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 467 303 L 467 148" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="486" y="155" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="486" dy="0">L* 明度</tspan></text>
+<text x="486" y="191" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="486" dy="0">較明</tspan></text>
+<text x="486" y="300" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="486" dy="0">較暗</tspan></text>
+<text x="556" y="342" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="556" dy="0">另有明度方向</tspan></text>
+<rect x="44" y="400" width="632" height="56" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="435.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">ΔE：兩色在 L*、a*、b* 三維空間的距離</tspan></text>
+<text x="32" y="483" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同樣色差可來自不同方向；沒有直接給出色素濃度。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

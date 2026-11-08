@@ -1,0 +1,64 @@
+.lipid-atlas{--la-ink:#1c2732;--la-muted:#53606d;--la-line:#dfe4e8;--la-paper:#fff;max-width:900px;margin:0 auto;color:var(--la-ink);font-size:15px;line-height:1.75;overflow-wrap:anywhere}
+.lipid-atlas *{box-sizing:border-box;min-width:0}
+.lipid-atlas [hidden]{display:none!important}
+.lipid-atlas p{margin:.5rem 0}
+.lipid-atlas .la-header{margin-bottom:20px}
+.lipid-atlas .la-kicker{font-size:13px;letter-spacing:.11em;color:#14665d;margin:0 0 5px}
+.lipid-atlas .la-header h2{font-size:26px;line-height:1.45;font-weight:600;margin:4px 0 9px}
+.lipid-atlas .la-intro,.lipid-atlas .la-muted{color:var(--la-muted);font-size:13px}
+.lipid-atlas .la-views{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;margin:0 0 22px}
+.lipid-atlas button{font:inherit;line-height:1.5;min-height:44px;padding:9px 12px;border:1px solid #cfd6dc;border-radius:8px;color:var(--la-ink);background:#f6f7f8;white-space:normal;cursor:pointer}
+.lipid-atlas button:hover:not(:disabled){background:#e9edf0}
+.lipid-atlas button[aria-pressed=true]{background:#e7f1ee;border-color:#14665d;color:#14665d;box-shadow:inset 0 -2px #14665d}
+.lipid-atlas .la-primary{background:#14665d;border-color:#14665d;color:#fff}
+.lipid-atlas .la-primary:hover:not(:disabled){background:#0e4f48}
+.lipid-atlas button:disabled{cursor:default;opacity:.65}
+.lipid-atlas :is(button,select,textarea,a,summary):focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.lipid-atlas .la-selectors,.lipid-atlas .la-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.lipid-atlas .la-selectors{margin:16px 0 12px}
+.lipid-atlas .la-field{display:block;font-size:13px;font-weight:550;margin:10px 0}
+.lipid-atlas :is(select,textarea){display:block;width:100%;max-width:100%;min-height:44px;font:inherit;font-size:14px;color:var(--la-ink);background:#fff;border:1px solid #cfd6dc;border-radius:8px;padding:10px;margin-top:5px;box-shadow:none}
+.lipid-atlas textarea{resize:vertical;line-height:1.7;font-weight:400}
+.lipid-atlas .la-card{border:1px solid var(--la-line);border-radius:9px;padding:20px;background:var(--la-paper)}
+.lipid-atlas .la-card>header{display:flex;gap:12px;align-items:flex-start;min-height:70px}
+.lipid-atlas .la-letter{flex:0 0 28px;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#e9edf0;font-size:13px;color:#53606d;margin-top:4px}
+.lipid-atlas h3{font-size:20px;font-weight:600;line-height:1.45;margin:0}
+.lipid-atlas .la-english{font-size:13px;color:var(--la-muted);margin:3px 0}
+.lipid-atlas .la-structure{margin:14px 0 18px;padding:15px;background:#f1f3f5;border-radius:6px;border-left:3px solid #c39c65}
+.lipid-atlas figcaption{font-size:13px;color:var(--la-muted);letter-spacing:.04em;margin-bottom:5px}
+.lipid-atlas .la-structure strong{font-size:20px;line-height:1.5;display:block;font-weight:550}
+.lipid-atlas .la-structure p{font-size:13px;line-height:1.75}
+.lipid-atlas dl{margin:0}
+.lipid-atlas dt{font-size:13px;color:#7c5137;margin:15px 0 5px;font-weight:600}
+.lipid-atlas dd{margin:0;font-size:14px;line-height:1.85}
+.lipid-atlas details{border-top:1px solid var(--la-line);margin-top:20px;padding-top:5px}
+.lipid-atlas summary{cursor:pointer;font-size:14px;font-weight:550;min-height:44px;padding:10px 0;line-height:1.8}
+.lipid-atlas details>p,.lipid-atlas details>ul{font-size:13px}
+.lipid-atlas .la-reaction-links{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 4px}
+.lipid-atlas .la-reaction-links button{font-size:13px;padding:8px 10px}
+.lipid-atlas .la-senses{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--la-line);border-radius:7px;background:#f1f3f5}
+.lipid-atlas .la-senses>div{padding:14px 16px}
+.lipid-atlas .la-senses>div+div{border-left:1px solid var(--la-line)}
+.lipid-atlas .la-senses strong{display:block;font-size:17px;font-weight:550}
+.lipid-atlas .la-senses span{display:block;font-size:13px;color:var(--la-muted);margin-top:4px}
+.lipid-atlas .la-flavor-note{font-size:13px;max-width:65em;margin:13px 0 20px}
+.lipid-atlas .la-reaction-select{max-width:430px;margin-bottom:20px}
+.lipid-atlas .la-reaction{padding:22px;border:1px solid var(--la-line);background:var(--la-paper);border-radius:9px}
+.lipid-atlas .la-reaction-flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;list-style:none;padding:0;margin:24px 0}
+.lipid-atlas .la-reaction-flow li{border-top:3px solid #cfd6dc;padding-top:10px}
+.lipid-atlas .la-reaction-flow li+li{border-color:#cba47b}
+.lipid-atlas .la-reaction-flow li:last-child{border-color:#a78562}
+.lipid-atlas .la-reaction-flow span{display:block;font-size:13px;color:var(--la-muted)}
+.lipid-atlas .la-reaction-flow p{font-size:14px;line-height:1.8;margin-top:8px}
+.lipid-atlas .la-equation{margin:15px 0;padding:17px;background:#f1f3f5;border-radius:6px}
+.lipid-atlas .la-equation p{font-size:17px;line-height:1.85;white-space:pre-wrap}
+.lipid-atlas .la-sensory-effect{margin:20px 0 10px}
+.lipid-atlas h4{font-size:13px;font-weight:600;color:#7c5137;margin:0 0 7px}
+.lipid-atlas .la-sensory-effect p{font-size:15px}
+.lipid-atlas .la-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+.lipid-atlas .la-status{font-size:13px;color:#7c5137}
+.lipid-atlas .la-status:empty{display:none}
+.lipid-atlas .la-sources ul{padding-left:20px;line-height:1.9}
+.lipid-atlas a{color:#14665d;text-underline-offset:3px}
+@media(max-width:640px){.lipid-atlas .la-comparison{grid-template-columns:minmax(0,1fr)}.lipid-atlas .la-selectors{gap:10px}.lipid-atlas .la-card{padding:17px}.lipid-atlas .la-card>header{min-height:0}.lipid-atlas .la-reaction-flow{grid-template-columns:minmax(0,1fr);gap:10px;margin:20px 0}.lipid-atlas .la-reaction-flow li{padding:8px 0}.lipid-atlas .la-reaction-flow p{margin:4px 0}.lipid-atlas .la-reaction{padding:17px}.lipid-atlas .la-header h2{font-size:22px}}
+@media(max-width:420px){.lipid-atlas .la-views{grid-template-columns:repeat(2,minmax(0,1fr))}.lipid-atlas .la-senses{grid-template-columns:minmax(0,1fr)}.lipid-atlas .la-senses>div{padding:11px 14px;display:flex;align-items:baseline;gap:15px}.lipid-atlas .la-senses>div+div{border-left:0;border-top:1px solid var(--la-line)}.lipid-atlas .la-senses strong{flex-shrink:0}.lipid-atlas .la-senses span{margin:0}.lipid-atlas .la-equation{padding:12px}.lipid-atlas .la-equation p{font-size:15px}}
