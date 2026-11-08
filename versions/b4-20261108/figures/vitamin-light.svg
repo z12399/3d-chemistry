@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="vitamin-light-title vitamin-light-desc">
+<title id="vitamin-light-title">低溫以外，還要看光能否進入</title>
+<desc id="vitamin-light-desc">可見光或紫外光進入食品使核黃素進入激發態並發生後續反應；低溫、避光與阻氧針對不同因素。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">低溫以外，還要看光能否進入</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<text x="36" y="91" font-size="20" fill="#b8902a" text-anchor="start" font-weight="400">可見光</text>
+<text x="36" y="117" font-size="20" fill="#b8902a" text-anchor="start" font-weight="400">／紫外光</text>
+<path d="M35 153 l25 -10 l25 20 l25 -20 l25 10 H162" fill="none" stroke="#b8902a" stroke-width="2"/>
+<path d="M35 191 l25 -10 l25 20 l25 -20 l25 10 H162" fill="none" stroke="#b8902a" stroke-width="2"/>
+<path d="M35 229 l25 -10 l25 20 l25 -20 l25 10 H162" fill="none" stroke="#b8902a" stroke-width="2"/>
+<rect x="171" y="84" width="230" height="170" rx="22" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="286" y="116" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">食品中核黃素 B₂</text>
+<rect x="201" y="143" width="170" height="75" rx="12" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="286.0" y="173.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">吸光</text>
+<text x="286.0" y="199.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">→ 激發態</text>
+<line x1="405" y1="169" x2="454" y2="169" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="477" y="152" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">後續反應</text>
+<text x="477" y="178" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">也可能牽動</text>
+<text x="477" y="204" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">其他氧化反應</text>
+<rect x="32" y="294" width="208" height="75" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="136" y="324" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">低溫</text>
+<text x="136" y="351" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">控制溫度</text>
+<rect x="256" y="294" width="208" height="75" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="324" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">避光</text>
+<text x="360" y="351" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">減少光進入</text>
+<rect x="480" y="294" width="208" height="75" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="584" y="324" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">阻氧</text>
+<text x="584" y="351" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">限制氧氣傳輸</text>
+<rect x="32" y="397" width="656" height="43" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="423" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">判斷包材：同時看光的通過與照射時間。</text>
+<text x="680" y="457" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

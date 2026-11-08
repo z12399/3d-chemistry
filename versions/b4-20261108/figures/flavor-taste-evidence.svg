@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="flavor-taste-evidence-title flavor-taste-evidence-desc">
+<title id="flavor-taste-evidence-title">「察覺」「辨認」「多強」分開量</title>
+<desc id="flavor-taste-evidence-desc">三列對照偵測閾值、辨認閾值與超閾值強度所回答的問題及研究判準。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">「察覺」「辨認」「多強」分開量</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="82" width="656" height="80" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="116" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">DT 偵測閾值</text>
+<text x="302" y="114" font-size="20" fill="#1c2732" text-anchor="start" font-weight="400">察覺有味道</text>
+<text x="302" y="142" font-size="16" fill="#53606d" text-anchor="start" font-weight="400">尚未認出味質</text>
+<rect x="32" y="180" width="656" height="80" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="214" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">RT 辨認閾值</text>
+<text x="302" y="212" font-size="20" fill="#1c2732" text-anchor="start" font-weight="400">認出是什麼味</text>
+<text x="302" y="240" font-size="16" fill="#53606d" text-anchor="start" font-weight="400">研究要求連續兩次正確</text>
+<rect x="32" y="278" width="656" height="80" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="312" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">超閾值強度</text>
+<text x="302" y="310" font-size="20" fill="#1c2732" text-anchor="start" font-weight="400">感覺有多強</text>
+<text x="302" y="338" font-size="16" fill="#53606d" text-anchor="start" font-weight="400">另以 gLMS 量表評定</text>
+<rect x="32" y="385" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="411" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">Webb 研究：65 位女性大學生；判準與族群須一併保留。</text>
+<text x="46" y="436" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">群體閾值或強度摘要，不能當每個人的通用甜度曲線。</text>
+<text x="680" y="467" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

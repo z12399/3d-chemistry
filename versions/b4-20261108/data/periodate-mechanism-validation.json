@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "mechanisms": 1,
+  "states": 5,
+  "checks": [
+    {
+      "id": "periodate-cleavage-cm-cyclic-cleavage-state-0",
+      "atoms": 16,
+      "formula": "C2H7IO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.405,
+      "displayLewisGraphValidated": true,
+      "identityBasis": "RDKit-normalized copy; display bonds and formal charges checked separately",
+      "normalizedIodineOxygenBonds": [
+        [
+          "Ip",
+          "Op1"
+        ],
+        [
+          "Ip",
+          "Op2"
+        ],
+        [
+          "Ip",
+          "Op3"
+        ]
+      ]
+    },
+    {
+      "id": "periodate-cleavage-cm-cyclic-cleavage-state-1",
+      "atoms": 16,
+      "formula": "C2H7IO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 100,
+      "displayLewisGraphValidated": true,
+      "identityBasis": "RDKit-normalized copy; display bonds and formal charges checked separately",
+      "normalizedIodineOxygenBonds": [
+        [
+          "Ip",
+          "Op2"
+        ],
+        [
+          "Ip",
+          "Op3"
+        ]
+      ]
+    },
+    {
+      "id": "periodate-cleavage-cm-cyclic-cleavage-state-2",
+      "atoms": 16,
+      "formula": "C2H7IO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 100,
+      "displayLewisGraphValidated": true,
+      "identityBasis": "RDKit-normalized copy; display bonds and formal charges checked separately",
+      "normalizedIodineOxygenBonds": [
+        [
+          "Ip",
+          "Op3"
+        ]
+      ]
+    },
+    {
+      "id": "periodate-cleavage-cm-cyclic-cleavage-state-3",
+      "atoms": 16,
+      "formula": "C2H7IO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.141,
+      "displayLewisGraphValidated": true,
+      "identityBasis": "RDKit-normalized copy; display bonds and formal charges checked separately",
+      "normalizedIodineOxygenBonds": [
+        [
+          "Ip",
+          "Op3"
+        ]
+      ]
+    },
+    {
+      "id": "periodate-cleavage-cm-cyclic-cleavage-state-4",
+      "atoms": 16,
+      "formula": "C2H7IO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.036,
+      "displayLewisGraphValidated": true,
+      "identityBasis": "RDKit-normalized copy; display bonds and formal charges checked separately",
+      "normalizedIodineOxygenBonds": [
+        [
+          "Ip",
+          "Op1"
+        ],
+        [
+          "Ip",
+          "Op3"
+        ]
+      ]
+    }
+  ]
+}

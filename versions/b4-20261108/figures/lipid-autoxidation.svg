@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脂質氧化的傳播迴路</title>
+<desc id="figure-desc">兩個傳播步驟產生新的脂質自由基，並顯示氫過氧化物可進一步分解。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脂質氧化的傳播迴路</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">新的 L• 讓反應鏈延續；L 代表脂質殘基</tspan></text>
+<circle cx="127" cy="166" r="44" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="127" y="175" font-size="30" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="127" dy="0">L•</tspan></text>
+<circle cx="518" cy="166" r="57" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="518" y="175" font-size="28" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="518" dy="0">LOO•</tspan></text>
+<path d="M 190 166 L 438 166" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="312" y="137" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="312" dy="0">＋ O₂</tspan></text>
+<text x="312" y="201" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="312" dy="0">形成過氧自由基</tspan></text>
+<path d="M 518 235 L 518 292" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="487" y="263" font-size="22" fill="#1c2732" text-anchor="end"><tspan x="487" dy="0">＋ LH</tspan></text>
+<text x="548" y="263" font-size="18" fill="#53606d" text-anchor="start"><tspan x="548" dy="0">取氫</tspan></text>
+<rect x="434" y="313" width="168" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="518.0" y="351.0" font-size="27" fill="#1c2732" text-anchor="middle"><tspan x="518.0" dy="0">LOOH</tspan></text>
+<circle cx="219" cy="344" r="47" fill="#e7f1ee" stroke="#b8902a" stroke-width="2"/>
+<text x="219" y="353" font-size="29" fill="#b8902a" text-anchor="middle" font-weight="600"><tspan x="219" dy="0">L•</tspan></text>
+<text x="348" y="353" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="348" dy="0">＋</tspan></text>
+<text x="219" y="412" font-size="20" fill="#b8902a" text-anchor="middle"><tspan x="219" dy="0">新脂質自由基</tspan></text>
+<path d="M 163 344 L 73 344 L 73 166 L 79 166" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-gold)"/>
+<text x="80" y="300" font-size="18" fill="#b8902a" text-anchor="start"><tspan x="80" dy="0">延續</tspan></text>
+<path d="M 518 386 L 518 419" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="518" y="447" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="518" dy="0">可分解成醛等異味產物</tspan></text>
+<text x="360" y="484" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">LOO• ＋ LH → LOOH ＋ L•</tspan></text>
+<text x="32" y="522" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">僅畫傳播及後續分解；不代表全部氧化路徑。</tspan></text>
+<text x="688" y="542" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">奶粉儲存：端點、速率參數與濕度分開</title>
+<desc id="desc">指定奶粉在兩組儲存相對濕度與三個溫度下量測，30 天離胺酸損失和作者 k 是不同讀值，RH 不直接當樣品 aw。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="520" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">奶粉儲存：端點、速率參數與濕度分開</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">限定研究：30 天、30／32.5／35°C</tspan></text>
+<rect x="30" y="104" width="290" height="78" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="175.0" y="136.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="175.0" dy="0">43% 儲存 RH</tspan><tspan x="175.0" dy="27">起始濕基水分 4.00%</tspan></text>
+<rect x="400" y="104" width="290" height="78" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="545.0" y="136.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="545.0" dy="0">52% 儲存 RH</tspan><tspan x="545.0" dy="27">起始濕基水分 2.96%</tspan></text>
+<text x="360" y="219" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">相同溫度下比較兩組</tspan></text>
+<path d="M175 230V247H545V230" fill="none" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M240 248L240 278" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M485 248L485 278" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="90" y="291" width="270" height="88" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="225.0" y="328.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="225.0" dy="0">30 天報告損失</tspan><tspan x="225.0" dy="27">端點變化</tspan></text>
+<rect x="390" y="291" width="270" height="88" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="525.0" y="328.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="525.0" dy="0">作者一階 k</tspan><tspan x="525.0" dy="27">時間資料的擬合參數</tspan></text>
+<text x="30" y="420" font-size="21" fill="#b4692e" text-anchor="start"><tspan x="30" dy="0">儲存 RH ≠ 已確認的同溫平衡樣品 aw</tspan></text>
+<text x="30" y="465" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">兩組初始水分不同；不能稱為只改變 aw。</tspan><tspan x="30" dy="25">離胺酸指標不直接代表褐色深淺或全部梅納產物。</tspan></text>
+<text x="688" y="504" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
