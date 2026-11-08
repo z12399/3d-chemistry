@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">擠壓：螺桿、模口與條件式膨發</title>
+<desc id="figure-desc">擠壓是以螺桿混合、輸送、壓縮與剪切物料，並經熱與機械能使其熟化，從模口擠出成形；出模時壓力驟降、水分瞬間汽化而形成膨發結構。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">擠壓：螺桿、模口與條件式膨發</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">熱與剪切作用於物料；出模降壓可使水分汽化</tspan></text>
+<rect x="45" y="173" width="393" height="110" rx="5" fill="#f6f7f8" stroke="#53606d" stroke-width="2"/>
+<path d="M 65 228 L 422 228" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 70 200 L 110 256 L 150 200 L 190 256 L 230 200 L 270 256 L 310 200 L 350 256 L 390 200" fill="none" stroke="#14665d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="240" y="319" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="240" dy="0">螺桿：混合、輸送、壓縮／剪切</tspan></text>
+<path d="M 85 138 L 85 163" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="85" y="117" font-size="19" fill="#b4692e" text-anchor="middle"><tspan x="85" dy="0">供熱</tspan></text>
+<path d="M 270 138 L 270 163" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="270" y="117" font-size="19" fill="#b4692e" text-anchor="middle"><tspan x="270" dy="0">機械能</tspan></text>
+<path d="M 461 163 L 461 214" fill="none" stroke="#53606d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 461 242 L 461 293" fill="none" stroke="#53606d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 475 228 L 520 228" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 525 211 Q 560 168 590 190 Q 635 172 679 205 L 679 255 Q 628 290 590 270 Q 555 286 525 245 Z" fill="#e7f1ee" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="557" cy="224" r="9" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="591" cy="244" r="11" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="622" cy="210" r="10" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<circle cx="653" cy="244" r="9" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="461" y="326" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="461" dy="0">模口</tspan></text>
+<path d="M 590 167 L 590 117" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="590" y="95" font-size="19" fill="#6f8fb5" text-anchor="middle"><tspan x="590" dy="0">水分汽化</tspan></text>
+<text x="600" y="319" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">條件適合才膨發</tspan></text>
+<rect x="32" y="380" width="180" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122.0" y="419.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="122.0" dy="0">直徑比</tspan><tspan x="122.0" dy="28">E = D / d</tspan></text>
+<rect x="270" y="380" width="180" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="419.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">乾基比容</tspan><tspan x="360.0" dy="28">SV = V / m乾</tspan></text>
+<rect x="508" y="380" width="180" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="419.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="598.0" dy="0">比機械能</tspan><tspan x="598.0" dy="28">SMEC</tspan></text>
+<text x="32" y="508" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">三種端點與分母不同，不能都稱為同一種膨脹。</tspan><tspan x="32" dy="25">SMEC 不等於全製程電耗。</tspan></text>
+<text x="688" y="542" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

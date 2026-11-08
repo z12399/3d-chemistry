@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">含量排名不等於 OAV 排名</title>
+<desc id="figure-desc">教材假想成分 A 與 B 的濃度及閾值條形對照，低含量 B 因更低閾值而有更高 OAV，之後仍需感官驗證。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">含量排名不等於 OAV 排名</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">教材假想；C、T 同為 μg/L 且比較基準相容</tspan></text>
+<text x="43" y="159" font-size="25" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="43" dy="0">A</tspan></text>
+<text x="89" y="128" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="89" dy="0">濃度 C＝100</tspan></text>
+<rect x="89" y="141" width="310.0" height="18" rx="2" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="89" y="197" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="89" dy="0">閾值 T＝50</tspan></text>
+<rect x="89" y="212" width="155.0" height="18" rx="2" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<rect x="469" y="143" width="206" height="72" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="572.0" y="186.0" font-size="25" fill="#1c2732" text-anchor="middle"><tspan x="572.0" dy="0">OAV＝2</tspan></text>
+<path d="M 416 179 L 455 179" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="43" y="306" font-size="25" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="43" dy="0">B</tspan></text>
+<text x="89" y="275" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="89" dy="0">濃度 C＝20</tspan></text>
+<rect x="89" y="288" width="62.0" height="18" rx="2" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="89" y="344" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="89" dy="0">閾值 T＝2</tspan></text>
+<rect x="89" y="359" width="6.2" height="18" rx="2" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<rect x="469" y="290" width="206" height="72" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="572.0" y="333.0" font-size="25" fill="#1c2732" text-anchor="middle"><tspan x="572.0" dy="0">OAV＝10</tspan></text>
+<path d="M 416 326 L 455 326" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="38" y="423" width="175" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125.5" y="457.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="125.5" dy="0">OAV 篩選</tspan></text>
+<path d="M 225 450 L 258 450" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="270" y="423" width="190" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="365.0" y="457.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="365.0" dy="0">重組／省略比較</tspan></text>
+<path d="M 472 450 L 505 450" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="517" y="423" width="164" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="599.0" y="457.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="599.0" dy="0">感官證據</tspan></text>
+<text x="32" y="502" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">OAV＝C／T；不是強度比，也不能相加成整體香氣。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

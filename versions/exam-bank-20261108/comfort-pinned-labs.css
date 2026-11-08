@@ -1,0 +1,249 @@
+/* Comfort overrides for workbench stylesheets whose bytes are pinned by tests. Imported first by comfort.css; generated from the same palette rules as the edited lab files. */
+/* evaporation-balance-lab.css */
+.evaporation-balance-lab{--eb-ink:#1c2732;--eb-muted:#53606d;--eb-line:#dfe4e8;--eb-a:#246b75;--eb-b:#a76636;color:var(--eb-ink);font-size:16px;line-height:1.6}
+.evaporation-balance-lab h2{font-size:1.55rem;line-height:1.4}
+.evaporation-balance-lab h3{font-size:1.1rem;line-height:1.5}
+.evaporation-balance-lab .eb-caption{color:var(--eb-muted)}
+.evaporation-balance-lab button,.evaporation-balance-lab input,.evaporation-balance-lab textarea,.evaporation-balance-lab label,.evaporation-balance-lab summary,.evaporation-balance-lab output{font:inherit;font-size:16px;color:inherit}
+.evaporation-balance-lab button,.evaporation-balance-lab input[type=number]{border:1px solid #cfd6dc;border-radius:9px;background:#fff}
+.evaporation-balance-lab button[aria-pressed=true],.evaporation-balance-lab .eb-primary{background:#14665d;border-color:#14665d;color:#fff}
+.evaporation-balance-lab :is(button,input,textarea,summary,[tabindex]):focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.evaporation-balance-lab input[type=range]{accent-color:var(--eb-a)}
+.evaporation-balance-lab output{font-weight:600;font-variant-numeric:tabular-nums}
+.evaporation-balance-lab .eb-condition{border-bottom:1px solid var(--eb-line)}
+.evaporation-balance-lab .eb-sphere-card{border:1px solid var(--eb-line);border-radius:12px;background:#fff}
+.evaporation-balance-lab .eb-sphere{border:2px solid currentColor;border-radius:50%}
+.evaporation-balance-lab .eb-color-0{color:var(--eb-a);background:radial-gradient(circle at 33% 27%,#f3fbfb,#92b9be)}
+.evaporation-balance-lab .eb-color-1{color:var(--eb-b);background:radial-gradient(circle at 33% 27%,#fff8f0,#d1a581)}
+.evaporation-balance-lab .eb-ratio-grid article{border-left:3px solid #cfd6dc;background:#f6f7f8}
+.evaporation-balance-lab .eb-ratio-grid strong{font-size:1.5rem}
+.evaporation-balance-lab .eb-boundary{border-left:3px solid #af9359;background:#f6f7f8}
+.evaporation-balance-lab .eb-temperature-card{border:1px solid var(--eb-line);border-left:4px solid var(--eb-a);border-radius:10px}
+.evaporation-balance-lab .eb-temperature-card:nth-child(2){border-left-color:var(--eb-b)}
+.evaporation-balance-lab .eb-result{font-size:1.25rem;font-weight:600}
+.evaporation-balance-lab figure{border:1px solid var(--eb-line);border-radius:12px;background:#fff}
+.evaporation-balance-lab figcaption{font-weight:600}
+.evaporation-balance-lab .eb-question{border:1px solid var(--eb-line);border-radius:12px}
+.evaporation-balance-lab .eb-choices button{line-height:1.6}
+.evaporation-balance-lab>details{border-top:1px solid var(--eb-line)}
+.evaporation-balance-lab summary{line-height:1.7}
+.evaporation-balance-lab textarea{border:1px solid #cfd6dc;border-radius:8px;background:#fff;line-height:1.6}
+.evaporation-balance-lab .eb-preserved,.evaporation-balance-lab .eb-record-text{font:inherit}
+.evaporation-balance-lab .eb-preserved{border-left:3px solid #cfd6dc}
+.evaporation-balance-lab .eb-equation{line-height:1.9}
+.evaporation-balance-lab .eb-readings article{border-left:3px solid #14665d;background:#f6f7f8}
+.evaporation-balance-lab .eb-readings strong{font-size:1.8rem;font-variant-numeric:tabular-nums}
+.evaporation-balance-lab .eb-readings span{color:var(--eb-muted)}
+.evaporation-balance-lab .eb-flow-scroll{border:1px solid var(--eb-line);border-radius:12px;background:#fff}
+.evaporation-balance-lab .eb-flow text{font:16px system-ui,sans-serif}
+.evaporation-balance-lab .eb-flow .eb-bold{font-weight:700;font-size:18px}
+.evaporation-balance-lab .eb-equipment article{border:1px solid var(--eb-line);border-radius:12px}
+.evaporation-balance-lab .eb-area-result{font-size:1.4rem;font-weight:600}
+.evaporation-balance-lab .eb-bar-row{font-variant-numeric:tabular-nums}
+.evaporation-balance-lab .eb-bar-row>div{background:#f1f3f5}
+.evaporation-balance-lab .eb-bar-row i{background:#a45b23}
+.evaporation-balance-lab .eb-bar-row i.eb-available{background:#286d83}
+.evaporation-balance-lab pre{font-size:16px}
+.evaporation-balance-lab [data-eb-numbers]>details{border-top:1px solid var(--eb-line)}
+.evaporation-balance-lab table{border-collapse:collapse;font-variant-numeric:tabular-nums}
+.evaporation-balance-lab th,.evaporation-balance-lab td{border-bottom:1px solid var(--eb-line)}
+.evaporation-balance-lab th{background:#f6f7f8}
+/* learning.css */
+.lactose-site-lab{border:1px solid #dfe4e8;border-radius:12px;background:#fff;color:var(--ink)}
+.lactose-site-lab header h2{font-size:29px;font-weight:550;line-height:1.5}
+.lactose-site-lab p, .lactose-site-lab li{font-size:15px;line-height:1.9}
+.lactose-site-lab header > p:last-child{color:#53606d}
+.lactose-site-map{border-radius:8px;background:#f1f3f5}
+.lactose-site-map figcaption{font-size:13px;color:#53606d}
+.lactose-site-map span{font-size:13px}
+.lactose-site-map code{font-size:20px;color:#14665d;font-family:ui-monospace,monospace}
+.lactose-site-map small{font-size:13px;line-height:1.8;color:#53606d}
+.lactose-site-tasks{border:0}
+.lactose-site-tasks legend{font-size:13px;color:#53606d}
+.lactose-site-lab button, .lactose-site-lab select{font:inherit;font-size:14px}
+.lactose-site-lab button{border:1px solid #cfd6dc;border-radius:8px;background:#fff;color:#53606d}
+.lactose-site-lab button[aria-pressed=true]{border-color:#14665d;background:#e7f1ee;box-shadow:inset 0 0 0 1px #14665d}
+.lactose-site-lab button:disabled{color:#53606d;background:#f1f3f5;border-color:#cfd6dc}
+.lactose-site-lab .button-primary{color:#fff;background:#14665d;border-color:#14665d}
+.lactose-site-fields label{font-size:14px}
+.lactose-site-fields select{border:1px solid #cfd6dc;border-radius:8px;background:#fff;color:var(--ink)}
+.lactose-site-check-row > span, #lactose-site-save-status{font-size:13px;line-height:1.8;color:#53606d}
+.lactose-site-feedback{background:#f7eadb;border-left:3px solid #b98c5b;border-radius:0 7px 7px 0}
+.lactose-site-feedback.is-correct{background:#f1f3f5;border-color:#14665d}
+.lactose-site-feedback h3{font-size:19px;line-height:1.7}
+.lactose-site-feedback > p{border-top:1px solid #dfe4e8}
+.lactose-site-note, .lactose-site-reference{border-top:1px solid var(--line)}
+.lactose-site-lab summary{font-size:14px;color:#14665d}
+.lactose-site-note label{font-size:14px}
+.lactose-site-lab textarea{border:1px solid #cfd6dc;border-radius:8px;background:#fff;color:var(--ink);font:inherit;font-size:15px;line-height:1.85}
+.lactose-site-lab textarea[readonly]{background:#f6f7f8}
+.lactose-site-lab .lactose-site-draft-note{font-size:13px;color:#53606d}
+.lactose-site-sources a{line-height:1.8}
+.lactose-site-boundary{color:#53606d;border-top:1px solid var(--line)}
+.lactose-site-original > summary{color:#14665d;border:1px solid #dfe4e8;border-radius:7px;background:#f6f7f8;font-size:15px}
+.lactose-endpoint-details{border-top:1px solid var(--line)}
+.lactose-endpoint-studio .lactose-endpoint-scope, .lactose-endpoint-studio .lactose-endpoint-proton{font-size:13px;color:#53606d}
+.lactose-account-details{border-top:1px solid var(--line)}
+.lactose-acid-table-wrap table{border-collapse:collapse;font-size:13px}
+.lactose-acid-table-wrap caption{font-size:13px;color:#53606d}
+.lactose-acid-table-wrap th, .lactose-acid-table-wrap td{border-bottom:1px solid #dfe4e8}
+.lactose-acid-table-wrap thead{background:#f1f3f5}
+.lactose-endpoint-studio .lactose-acid-inference{font-size:13px;color:#53606d;border-left:2px solid #cfd6dc}
+.lactose-endpoint-camera button{font-size:13px}
+@media(max-width:640px){.lactose-endpoint-camera button{font-size:13px}}
+.lactose-site-lab :is(button,select,textarea,summary,a):focus-visible, .lactose-site-original > summary:focus-visible{outline:3px solid #14665d;outline-offset:3px}
+@media(max-width:640px){.lactose-site-lab{border-radius:9px}}
+@media(max-width:640px){.lactose-site-lab header h2{font-size:24px}}
+@media(max-width:640px){.lactose-site-map code{font-size:18px}}
+@media(max-width:640px){.lactose-site-lab p, .lactose-site-lab li{font-size:14px}}
+.lactose-camera-details{border-top:1px solid var(--line)}
+.lactose-observation-cue{border-left:3px solid #cfd6dc;border-radius:0 6px 6px 0;background:#f1f3f5}
+.lactose-observation-cue h3{font-size:18px;line-height:1.6}
+/* protein-quality-lab.css */
+.protein-quality-lab{--pq-ink:#1c2732;--pq-muted:#53606d;--pq-line:#dfe4e8;--pq-a:#246b75;--pq-b:#9f663a;--pq-soft:#f6f7f8;color:var(--pq-ink);font-size:16px;line-height:1.6}
+.protein-quality-lab h2{font-size:1.55rem;line-height:1.4}
+.protein-quality-lab h3{font-size:1.1rem;line-height:1.5}
+.protein-quality-lab .pq-caption{color:var(--pq-muted)}
+.protein-quality-lab button,.protein-quality-lab select,.protein-quality-lab textarea,.protein-quality-lab label,.protein-quality-lab summary{font:inherit;font-size:16px;color:inherit}
+.protein-quality-lab button,.protein-quality-lab select{border:1px solid #cfd6dc;border-radius:9px;background:#fff}
+.protein-quality-lab button[aria-pressed="true"],.protein-quality-lab .pq-primary{background:#14665d;border-color:#14665d;color:#fff}
+.protein-quality-lab button:focus-visible,.protein-quality-lab select:focus-visible,.protein-quality-lab textarea:focus-visible,.protein-quality-lab summary:focus-visible,.protein-quality-lab [tabindex]:focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.protein-quality-lab .pq-sample-a{border-left:4px solid var(--pq-a)}
+.protein-quality-lab .pq-sample-b{border-left:4px solid var(--pq-b)}
+.protein-quality-lab figure{border:1px solid var(--pq-line);border-radius:14px;background:#fff}
+.protein-quality-lab figcaption{font-weight:600}
+.protein-quality-lab .pq-axis{color:var(--pq-muted)}
+.protein-quality-lab button.pq-chart-row{border:1px solid transparent;border-radius:8px;background:#fff;color:var(--pq-ink)}
+.protein-quality-lab button.pq-chart-row:hover{background:#f6f7f8}
+.protein-quality-lab button.pq-chart-row[aria-pressed="true"]{border-color:#14665d;background:#e7f1ee;color:var(--pq-ink)}
+.protein-quality-lab .pq-row-label{line-height:1.35}
+.protein-quality-lab .pq-row-label>span{font-size:16px;color:var(--pq-muted)}
+.protein-quality-lab .pq-bar-track{background:#f6f7f8}
+.protein-quality-lab .pq-bar{border-radius:0 3px 3px 0}
+.protein-quality-lab .pq-bar-0{background:var(--pq-a)}
+.protein-quality-lab .pq-bar-1{background:var(--pq-b)}
+.protein-quality-lab .pq-reference{border-left:1px dashed #cfd6dc}
+.protein-quality-lab .pq-unknown-mark{font-size:16px;background:#fff;line-height:20px}
+.protein-quality-lab .pq-ratio-value{font-variant-numeric:tabular-nums}
+.protein-quality-lab .pq-value-0{color:var(--pq-a)}
+.protein-quality-lab .pq-value-1{color:var(--pq-b)}
+.protein-quality-lab .pq-reading{background:var(--pq-soft);border:1px solid var(--pq-line);border-radius:12px}
+.protein-quality-lab .pq-reading article+article{border-top:1px solid var(--pq-line)}
+.protein-quality-lab .pq-result{font-weight:600}
+.protein-quality-lab .pq-calculation{font-variant-numeric:tabular-nums}
+.protein-quality-lab .pq-pair-results article{border:1px solid var(--pq-line);border-left:4px solid var(--pq-a);border-radius:10px;background:#fff}
+.protein-quality-lab .pq-pair-results article:nth-child(2){border-left-color:var(--pq-b)}
+.protein-quality-lab .pq-evidence-grid article{border:1px solid var(--pq-line);border-radius:12px}
+.protein-quality-lab .pq-evidence-step{background:#f6f7f8;border-left:3px solid #14665d;border-radius:0 8px 8px 0}
+.protein-quality-lab .pq-evidence-step[data-pq-evidence-kind="unknown"]{background:#f6f7f8;border-left-color:#cfd6dc}
+.protein-quality-lab .pq-evidence-step strong{font-weight:600}
+.protein-quality-lab .pq-question{border:1px solid var(--pq-line);border-radius:12px}
+.protein-quality-lab .pq-choices button{line-height:1.6}
+.protein-quality-lab .pq-save-actions{border-top:1px solid var(--pq-line)}
+.protein-quality-lab>details{border-top:1px solid var(--pq-line)}
+.protein-quality-lab summary{line-height:1.7}
+.protein-quality-lab textarea{border:1px solid #cfd6dc;border-radius:8px;background:#fff;line-height:1.6}
+.protein-quality-lab .pq-preserved,.protein-quality-lab .pq-record-text{font:inherit}
+.protein-quality-lab .pq-preserved{border-left:3px solid #cfd6dc}
+.protein-quality-lab table{border-collapse:collapse;font-size:16px}
+.protein-quality-lab th,.protein-quality-lab td{border-bottom:1px solid var(--pq-line)}
+@media(max-width:1250px){.protein-quality-lab .pq-reading article+article{border-top:0}}
+@media(max-width:700px){.protein-quality-lab .pq-reading article+article{border-top:1px solid var(--pq-line)}}
+/* protein-structure-lab.css */
+.protein-structure-lab{--protein-ink:#1c2732;--protein-muted:#53606d;--protein-line:#dfe4e8;--protein-accent:#14665d;color:var(--protein-ink);font-size:1rem;line-height:1.65}
+.protein-structure-lab h2{font-size:1.6rem;line-height:1.4}
+.protein-structure-lab h3{font-size:1.03rem;line-height:1.5}
+.protein-structure-lab .protein-kicker{color:#14665d;font-size:0.8125rem}
+.protein-structure-lab .protein-small{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-steps{border-bottom:1px solid var(--protein-line)}
+.protein-structure-lab button{border:1px solid #cfd6dc;border-radius:8px;background:#f6f7f8;color:var(--protein-ink);font:inherit;font-size:.87rem;line-height:1.4}
+.protein-structure-lab button:hover:not(:disabled){background:#e9edf0}
+.protein-structure-lab .protein-primary{color:#fff;background:#14665d;border-color:#14665d}
+.protein-structure-lab .protein-primary:hover:not(:disabled){background:#0e4f48}
+.protein-structure-lab .protein-steps button{background:transparent;border-color:transparent}
+.protein-steps button span{font-size:0.8125rem;font-variant-numeric:tabular-nums}
+.protein-structure-lab .protein-steps button[aria-selected=true]{background:#e7f1ee;border-color:#14665d;color:#14665d}
+.protein-structure-lab :is(button,input,select,textarea,summary,a):focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.protein-field{font-size:.87rem}
+.protein-structure-lab select,.protein-structure-lab textarea,.learning-studio .protein-structure-lab select,.learning-studio .protein-structure-lab textarea{border:1px solid #cfd6dc;border-radius:8px;background:#fff;color:var(--protein-ink);font:inherit;font-size:.89rem;line-height:1.5}
+.protein-data-status{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-record-actions>span{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-visual-panel{border:1px solid var(--protein-line);border-radius:.75rem;background:#f6f7f8}
+.protein-source-identity{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-viewer{background:radial-gradient(ellipse at 44% 48%,#fffef9 0%,#efeede 90%)}
+.protein-structure-lab .protein-viewer-status{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-legend{font-size:0.8125rem;line-height:1.5}
+.protein-legend i{border-radius:50%}
+.protein-structure-lab .protein-view-actions button{font-size:0.8125rem}
+.protein-structure-lab .protein-camera button{font-size:0.8125rem}
+.protein-structure-lab .protein-camera-details{font-size:0.8125rem}
+.protein-structure-lab .protein-rendering-note{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-selected{border-bottom:1px solid var(--protein-line)}
+.protein-selected>span{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-selected>strong{font-size:1.2rem;line-height:1.5;font-weight:550}
+.protein-structure-lab .protein-selected p{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-level{font-size:.86rem;font-weight:600;color:#795535}
+.protein-evidence-text{font-size:.9rem;line-height:1.7}
+.protein-readings{border-top:1px solid var(--protein-line);font-size:.84rem}
+.protein-readings>div{border-bottom:1px solid var(--protein-line)}
+.protein-readings dt{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-readings dd{font-variant-numeric:tabular-nums;font-weight:550}
+.protein-readings [data-protein-distance]{font-size:1.2rem;line-height:1.4}
+.protein-structure-lab .protein-feedback{font-size:0.8125rem;color:#7d5a35}
+.protein-structure-lab .protein-assembly-scope{font-size:0.8125rem;color:var(--protein-muted);background:#f1f3f5;border-left:3px solid #cfd6dc;border-radius:.2rem}
+.protein-structure-lab details{border-top:1px solid var(--protein-line);font-size:.88rem}
+.protein-structure-lab summary{color:#14665d}
+.protein-structure-lab details p,.protein-structure-lab details li{font-size:.83rem}
+.protein-structure-lab table{border-collapse:collapse;font-size:0.8125rem;line-height:1.55;font-variant-numeric:tabular-nums}
+.protein-structure-lab caption{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-structure-lab th,.protein-structure-lab td{border-bottom:1px solid var(--protein-line)}
+.protein-structure-lab th{font-size:0.8125rem;font-weight:600;background:#f1f3f5}
+.protein-original{border-left:3px solid #cfd6dc;background:#f6f7f8}
+.protein-original p{font-size:.88rem}
+.protein-task{border-bottom:1px solid var(--protein-line)}
+.protein-task label{font-size:.9rem}
+.protein-task p{font-size:.83rem;color:#53606d}
+.protein-summary-details textarea{font-size:.84rem!important}
+.protein-file-hash{font-family:ui-monospace,Consolas,monospace;font-size:0.8125rem;color:var(--protein-muted)}
+.protein-sequence h4{font-size:.86rem;font-weight:550}
+.protein-sequence>div>span{border:1px solid #dfe4e8;background:#fff}
+.protein-sequence small{font-size:0.8125rem;color:var(--protein-muted)}
+.protein-sequence code{font-family:ui-monospace,Consolas,monospace;font-size:.88rem}
+.protein-sequence mark{background:#ead2a1;color:#493b20;outline:1px solid #14665d}
+@media(max-width:690px){.protein-structure-lab h2{font-size:1.35rem}}
+@media(max-width:690px){.protein-structure-lab .protein-steps button{font-size:0.8125rem}}
+@media(max-width:690px){.protein-sequence code{font-size:.82rem}}
+.protein-structure-lab .protein-sr-only{border:0}
+.protein-structure-lab .protein-prediction-details{border-top:0}
+/* thermal-size-lab.css */
+.thermal-size-lab{--ts-ink:#1c2732;--ts-muted:#53606d;--ts-line:#dfe4e8;--ts-a:#246b75;--ts-b:#a76636;color:var(--ts-ink);font-size:16px;line-height:1.6}
+.thermal-size-lab h2{font-size:1.55rem;line-height:1.4}
+.thermal-size-lab h3{font-size:1.1rem;line-height:1.5}
+.thermal-size-lab .ts-caption{color:var(--ts-muted)}
+.thermal-size-lab button,.thermal-size-lab input,.thermal-size-lab textarea,.thermal-size-lab label,.thermal-size-lab summary,.thermal-size-lab output{font:inherit;font-size:16px;color:inherit}
+.thermal-size-lab button,.thermal-size-lab input[type=number]{border:1px solid #cfd6dc;border-radius:9px;background:#fff}
+.thermal-size-lab button[aria-pressed=true],.thermal-size-lab .ts-primary{background:#14665d;border-color:#14665d;color:#fff}
+.thermal-size-lab :is(button,input,textarea,summary,[tabindex]):focus-visible{outline:3px solid #14665d;outline-offset:3px}
+.thermal-size-lab input[type=range]{accent-color:var(--ts-a)}
+.thermal-size-lab output{font-weight:600;font-variant-numeric:tabular-nums}
+.thermal-size-lab .ts-condition{border-bottom:1px solid var(--ts-line)}
+.thermal-size-lab .ts-sphere-card{border:1px solid var(--ts-line);border-radius:12px;background:#fff}
+.thermal-size-lab .ts-sphere{border:2px solid currentColor;border-radius:50%}
+.thermal-size-lab .ts-color-0{color:var(--ts-a);background:radial-gradient(circle at 33% 27%,#f3fbfb,#92b9be)}
+.thermal-size-lab .ts-color-1{color:var(--ts-b);background:radial-gradient(circle at 33% 27%,#fff8f0,#d1a581)}
+.thermal-size-lab .ts-ratio-grid article{border-left:3px solid #cfd6dc;background:#f6f7f8}
+.thermal-size-lab .ts-ratio-grid strong{font-size:1.5rem}
+.thermal-size-lab .ts-boundary{border-left:3px solid #af9359;background:#f6f7f8}
+.thermal-size-lab .ts-temperature-card{border:1px solid var(--ts-line);border-left:4px solid var(--ts-a);border-radius:10px}
+.thermal-size-lab .ts-temperature-card:nth-child(2){border-left-color:var(--ts-b)}
+.thermal-size-lab .ts-result{font-size:1.25rem;font-weight:600}
+.thermal-size-lab figure{border:1px solid var(--ts-line);border-radius:12px;background:#fff}
+.thermal-size-lab figcaption{font-weight:600}
+.thermal-size-lab .ts-question{border:1px solid var(--ts-line);border-radius:12px}
+.thermal-size-lab .ts-choices button{line-height:1.6}
+.thermal-size-lab>details{border-top:1px solid var(--ts-line)}
+.thermal-size-lab summary{line-height:1.7}
+.thermal-size-lab textarea{border:1px solid #cfd6dc;border-radius:8px;background:#fff;line-height:1.6}
+.thermal-size-lab .ts-preserved,.thermal-size-lab .ts-record-text{font:inherit}
+.thermal-size-lab .ts-preserved{border-left:3px solid #cfd6dc}
+.thermal-size-lab .ts-equation{line-height:1.9}
