@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">結冰以後，剩下的水</title>
+<desc id="figure-desc">結冰前溶質分散於溶液；部分水形成冰晶後，溶質通常集中在未凍結相。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">結冰以後，剩下的水</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">冰晶通常排斥溶質，留下較濃的未凍結相</tspan></text>
+<text x="177" y="122" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="177" dy="0">開始結冰前</tspan></text>
+<text x="544" y="122" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="544" dy="0">部分水形成冰晶後</tspan></text>
+<rect x="48" y="143" width="258" height="206" rx="16" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="414" y="143" width="258" height="206" rx="16" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="85" cy="180" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="154" cy="185" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="248" cy="177" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="120" cy="248" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="230" cy="246" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="80" cy="314" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="264" cy="312" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 440 174 L 521 163 L 565 211 L 544 273 L 467 281 L 432 229 Z" fill="#ffffff" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="496" y="219" font-size="22" fill="#6f8fb5" text-anchor="middle"><tspan x="496" dy="0">冰晶</tspan></text>
+<circle cx="597" cy="174" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="637" cy="201" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="598" cy="238" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="628" cy="277" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="574" cy="304" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="535" cy="325" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="646" cy="326" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 326 245 L 394 245" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="177" y="379" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="177" dy="0">溶質分散於溶液</tspan></text>
+<text x="544" y="379" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="544" dy="0">溶質集中於未凍結相</tspan></text>
+<text x="32" y="429" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">冷凍食品不會全部變成純冰。</tspan><tspan x="32" dy="25">符號與面積僅示意，不表示冰量或濃度數值。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

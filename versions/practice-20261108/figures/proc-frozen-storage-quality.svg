@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="proc-frozen-storage-quality-title proc-frozen-storage-quality-desc">
+<title id="proc-frozen-storage-quality-title">凍住之後：冰、未凍相與存活分開看</title>
+<desc id="proc-frozen-storage-quality-desc">未凍相可持續反應，冰晶可能再結晶或長大，微生物生長受抑不等於殺滅；品質與安全不能用同一指標替代。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">凍住之後：冰、未凍相與存活分開看</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="84" width="312" height="255" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="368" y="84" width="320" height="255" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="188" y="117" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">冰晶與未凍相</text>
+<polygon points="105.0,173.0 95.5,189.5 76.5,189.5 67.0,173.0 76.5,156.5 95.5,156.5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<polygon points="165.0,216.0 151.0,240.2 123.0,240.2 109.0,216.0 123.0,191.8 151.0,191.8" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<polygon points="235.0,165.0 224.0,184.1 202.0,184.1 191.0,165.0 202.0,145.9 224.0,145.9" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<polygon points="310.0,238.0 295.5,263.1 266.5,263.1 252.0,238.0 266.5,212.9 295.5,212.9" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<text x="188" y="293" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">凍濃縮改變未凍相</text>
+<text x="188" y="319" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">低溫不保證反應停止</text>
+<text x="528" y="117" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">溫度歷程與再結晶</text>
+<text x="389" y="166" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">溫度波動</text>
+<text x="389" y="194" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">→ 部分融化與再長大</text>
+<text x="389" y="222" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400"></text>
+<text x="389" y="250" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">固定溫度下</text>
+<text x="389" y="278" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">也可能發生再結晶</text>
+<text x="32" y="381" font-size="20" fill="#1c2732" text-anchor="start" font-weight="400">組織與保水性改變 → 可能影響解凍滴液</text>
+<rect x="32" y="424" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="450" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">冷凍抑制生長 ≠ 完全殺滅；適合條件下仍可能恢復增殖。</text>
+<text x="46" y="475" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">滴液是指定方法下的品質指標，不是微生物安全判定。</text>
+<text x="680" y="517" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

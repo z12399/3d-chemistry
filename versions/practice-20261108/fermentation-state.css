@@ -1,0 +1,40 @@
+.fermentation-state-lab{--fermentation-accent:#4a6654;--fermentation-soft:#f0f5ed;--fermentation-border:#b2c3ae;color:#2a4034;font:inherit;font-size:1rem;line-height:1.65;min-width:0;max-width:100%}
+.fermentation-state-lab [hidden]{display:none!important}
+.fermentation-state-lab h3{font-size:1.4rem;margin:.1rem 0 .5rem}
+.fermentation-state-lab h4{font-size:1.08rem;margin:.6rem 0}
+.fermentation-state-lab p{margin:.55rem 0}
+.fermentation-state-lab label{display:block;margin:.6rem 0}
+.fermentation-state-lab select,.fermentation-state-lab textarea{display:block;box-sizing:border-box;width:100%;max-width:100%;font:inherit;line-height:1.5;color:inherit;background:#fff;border:1px solid #829f88;border-radius:.35rem;padding:.55rem}
+.fermentation-state-lab textarea{resize:vertical}
+.fermentation-state-lab textarea[readonly]{background:#f2f6ef}
+.fermentation-state-lab .fermentation-origin{border-left:4px solid var(--fermentation-accent);background:var(--fermentation-soft);padding:.65rem .85rem}
+.fermentation-state-lab .fermentation-path{list-style:none;margin:.85rem 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem}
+.fermentation-state-lab .fermentation-path li{position:relative;min-width:0;padding:.55rem .45rem;border-bottom:3px solid var(--fermentation-accent);text-align:center;background:#f4f7f0;overflow-wrap:anywhere}
+.fermentation-state-lab .fermentation-path li+li:before{content:'→';position:absolute;left:-.85rem;top:.8rem;font-weight:700;color:var(--fermentation-accent)}
+.fermentation-state-lab .fermentation-layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:1.35rem;align-items:start;margin:1rem 0}
+.fermentation-state-lab .fermentation-material,.fermentation-state-lab .fermentation-stage{min-width:0}
+.fermentation-state-lab .fermentation-material{border:1px solid var(--fermentation-border);padding:.85rem;border-radius:.4rem;background:#f7f9f3}
+.fermentation-state-lab .fermentation-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.1rem .8rem}
+.fermentation-state-lab .fermentation-probes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem}
+.fermentation-state-lab fieldset{border:0;min-width:0;padding:0;margin:.75rem 0}
+.fermentation-state-lab legend{font-weight:650}
+.fermentation-state-lab .fermentation-check,.fermentation-state-lab .fermentation-choice{display:flex;gap:.5rem;align-items:flex-start;margin:.4rem 0;border:1px solid var(--fermentation-border);border-radius:.3rem;padding:.55rem .6rem;background:#fff;cursor:pointer;overflow-wrap:anywhere}
+.fermentation-state-lab .fermentation-check:has(input:checked),.fermentation-state-lab .fermentation-choice:has(input:checked){background:#e5efdd;border-color:var(--fermentation-accent)}
+.fermentation-state-lab input[type=checkbox],.fermentation-state-lab input[type=radio]{flex:0 0 auto;margin:.35rem .1rem 0 0;accent-color:var(--fermentation-accent)}
+.fermentation-state-lab .fermentation-prediction{border-bottom:2px solid var(--fermentation-border);padding-bottom:.85rem;margin-bottom:.8rem}
+.fermentation-state-lab .fermentation-ledger-scroll{overflow-x:auto;max-width:100%;margin:.75rem 0}
+.fermentation-state-lab table{border-collapse:collapse;width:100%;font:inherit}
+.fermentation-state-lab caption{text-align:left;font-size:.94rem;margin-bottom:.4rem}
+.fermentation-state-lab th,.fermentation-state-lab td{border:1px solid var(--fermentation-border);padding:.5rem;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.fermentation-state-lab .fermentation-feedback{border-left:4px solid var(--fermentation-accent);background:#e9f1e2;padding:.8rem;margin-top:.8rem}
+.fermentation-state-lab .fermentation-context-status,.fermentation-state-lab .fermentation-given{font-weight:600}
+.fermentation-state-lab .fermentation-small{font-size:.94rem;color:#4c614f}
+.fermentation-state-lab .fermentation-error{color:#8b352c}
+.fermentation-state-lab .fermentation-unrevealed{padding:.7rem;background:#f1f4ee}
+.fermentation-state-lab .fermentation-actions{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;margin:.8rem 0}
+.fermentation-state-lab button{font:inherit;line-height:1.4;min-height:2.7rem;border:1px solid var(--fermentation-accent);border-radius:.35rem;padding:.6rem .85rem;color:inherit;background:#fff;cursor:pointer}
+.fermentation-state-lab button:disabled{opacity:.55;cursor:default}
+.fermentation-state-lab :focus-visible{outline:3px solid #b07827;outline-offset:3px}
+.fermentation-state-lab details{border-top:1px solid var(--fermentation-border);padding:.65rem 0}
+.fermentation-state-lab summary{font-weight:650;cursor:pointer;min-height:2rem}
+@media(max-width:1000px){.fermentation-state-lab .fermentation-layout{grid-template-columns:minmax(0,1fr)}}
