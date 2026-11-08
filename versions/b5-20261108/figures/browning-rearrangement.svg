@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">糖的種類，導向不同重排</title>
+<desc id="figure-desc">醛糖與胺形成早期糖胺後經 Amadori 重排；酮糖與胺則經 Heyns 重排，得到不同早期含氮產物。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">糖的種類，導向不同重排</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">追蹤羰基與含氮基團位置；兩者均非褐色終產物</tspan></text>
+<rect x="32" y="154" width="150" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="107.0" y="204.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="107.0" dy="0">醛糖 ＋ 胺</tspan></text>
+<path d="M 190 198 L 237 198" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="245" y="154" width="160" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="325.0" y="204.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="325.0" dy="0">早期糖胺</tspan></text>
+<path d="M 413 198 L 467 198" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="440" y="136" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="440" dy="0">Amadori 重排</tspan></text>
+<rect x="475" y="154" width="213" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="581.5" y="190.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="581.5" dy="0">1-胺基-1-去氧</tspan><tspan x="581.5" dy="28">2-酮糖</tspan></text>
+<rect x="32" y="321" width="150" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="107.0" y="371.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="107.0" dy="0">酮糖 ＋ 胺</tspan></text>
+<path d="M 190 365 L 237 365" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="245" y="321" width="160" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="325.0" y="371.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="325.0" dy="0">早期糖胺</tspan></text>
+<path d="M 413 365 L 467 365" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="440" y="303" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="440" dy="0">Heyns 重排</tspan></text>
+<rect x="475" y="321" width="213" height="87" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="581.5" y="357.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="581.5" dy="0">2-胺基-2-去氧</tspan><tspan x="581.5" dy="28">醛糖</tspan></text>
+<text x="32" y="463" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">這些中間階段，仍可進入後續分解與縮合。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

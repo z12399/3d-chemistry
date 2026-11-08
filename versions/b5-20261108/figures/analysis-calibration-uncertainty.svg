@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="analysis-calibration-uncertainty-title analysis-calibration-uncertainty-desc">
+<title id="analysis-calibration-uncertainty-title">多量幾次，只縮小其中一項</title>
+<desc id="analysis-calibration-uncertainty-desc">校正限定標準不確定度由未知均值、有限校正資料與距中心影響共同構成；增加未知獨立重複只縮小第一項。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">多量幾次，只縮小其中一項</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="83" width="656" height="76" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="128" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">u_cal(x̂) ≈ (s_yx / |b|) √[1/m ＋ 1/n ＋ (x̂−x̄)²/Sxx]</text>
+<rect x="32" y="187" width="208" height="153" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="136" y="219" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">未知均值</text>
+<text x="136" y="260" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="400">1/m</text>
+<text x="136" y="297" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">m：未知樣品</text>
+<text x="136" y="323" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">獨立量測次數</text>
+<rect x="256" y="187" width="208" height="153" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="219" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">有限校正</text>
+<text x="360" y="260" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="400">1/n</text>
+<text x="360" y="297" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">n：校正響應</text>
+<text x="360" y="323" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">總數</text>
+<rect x="480" y="187" width="208" height="153" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="584" y="219" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">距中心影響</text>
+<text x="584" y="260" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="400">(x̂−x̄)²/Sxx</text>
+<text x="584" y="297" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">回推位置</text>
+<text x="584" y="323" font-size="17" fill="#1c2732" text-anchor="middle" font-weight="400">及校正 x 的分布</text>
+<line x1="136" y1="369" x2="136" y2="344" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="136" y="397" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">增加 m → 此項縮小</text>
+<text x="390" y="373" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">三項以變異相加後開根號</text>
+<text x="390" y="399" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">不是把三個標準差直接相加</text>
+<rect x="32" y="424" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="450" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">條件：指定直線、固定標準 x、獨立等變異響應。</text>
+<text x="46" y="475" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">這是校正限定的一階標準不確定度；不是 95% 區間。</text>
+<text x="680" y="507" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

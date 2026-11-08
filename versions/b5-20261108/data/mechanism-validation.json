@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "mechanisms": 5,
+  "states": 22,
+  "checks": [
+    {
+      "id": "methyl-glucoside-formation-state-0",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.647
+    },
+    {
+      "id": "methyl-glucoside-formation-state-1",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.349
+    },
+    {
+      "id": "methyl-glucoside-formation-state-2",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.969
+    },
+    {
+      "id": "methyl-glucoside-formation-state-3",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.704
+    },
+    {
+      "id": "methyl-glucoside-formation-state-4",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.491
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis-state-0",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.491
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis-state-1",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.704
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis-state-2",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.969
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis-state-3",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.349
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis-state-4",
+      "atoms": 34,
+      "formula": "C7H19O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.647
+    },
+    {
+      "id": "glucose-fructose-isomerization-state-0",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.153
+    },
+    {
+      "id": "glucose-fructose-isomerization-state-1",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.028
+    },
+    {
+      "id": "glucose-fructose-isomerization-state-2",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.957
+    },
+    {
+      "id": "glucose-fructose-isomerization-state-3",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.757
+    },
+    {
+      "id": "glucose-fructose-isomerization-state-4",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.523
+    },
+    {
+      "id": "glucose-mannose-epimerization-state-0",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.153
+    },
+    {
+      "id": "glucose-mannose-epimerization-state-1",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.028
+    },
+    {
+      "id": "glucose-mannose-epimerization-state-2",
+      "atoms": 26,
+      "formula": "C6H13O7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.979
+    },
+    {
+      "id": "fructose-hemiketal-state-0",
+      "atoms": 28,
+      "formula": "C6H15O7+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.216
+    },
+    {
+      "id": "fructose-hemiketal-state-1",
+      "atoms": 28,
+      "formula": "C6H15O7+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.338
+    },
+    {
+      "id": "fructose-hemiketal-state-2",
+      "atoms": 28,
+      "formula": "C6H15O7+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.372
+    },
+    {
+      "id": "fructose-hemiketal-state-3",
+      "atoms": 28,
+      "formula": "C6H15O7+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.77
+    }
+  ]
+}

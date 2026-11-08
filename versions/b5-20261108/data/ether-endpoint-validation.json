@@ -1,0 +1,533 @@
+{
+  "status": "PASS",
+  "routes": 1,
+  "branches": 2,
+  "states": 16,
+  "moves": 14,
+  "rdkitVersion": "2026.03.6",
+  "isTrajectory": false,
+  "checks": [
+    {
+      "reactionId": "glucose-etherification",
+      "variantId": "permethylation",
+      "status": "PASS",
+      "states": 11,
+      "moves": 10,
+      "startingModel": "glucose-alpha",
+      "startingInchi": "InChI=1S/C6H12O6/c7-1-2-3(8)4(9)5(10)6(11)12-2/h2-11H,1H2/t2-,3-,4+,5-,6+/m1/s1",
+      "startingGraphMatchesExistingModel": true,
+      "endpointModel": "glucose-penta-o-methyl",
+      "endpointInchi": "InChI=1S/C11H22O6/c1-12-6-7-8(13-2)9(14-3)10(15-4)11(16-5)17-7/h7-11H,6H2,1-5H3/t7-,8-,9+,10-,11+/m1/s1",
+      "endpointMatchesExistingModel": true,
+      "endpointAssetAtomIds": {
+        "C1": "C1",
+        "C2": "C2",
+        "C3": "C3",
+        "C4": "C4",
+        "C5": "C5",
+        "C6": "C6",
+        "O1": "O1",
+        "O2": "O2",
+        "O3": "O3",
+        "O4": "O4",
+        "O5": "O5",
+        "O6": "O6",
+        "HC1": "HC1",
+        "HC2": "HC2",
+        "HC3": "HC3",
+        "HC4": "HC4",
+        "HC5": "HC5",
+        "HC6a": "HC6a",
+        "HC6b": "HC6b",
+        "Cm1": "Cm1",
+        "HCm1a": "HCm1a",
+        "HCm1b": "HCm1b",
+        "HCm1c": "HCm1c",
+        "Cm2": "Cm2",
+        "HCm2a": "HCm2a",
+        "HCm2b": "HCm2b",
+        "HCm2c": "HCm2c",
+        "Cm3": "Cm3",
+        "HCm3a": "HCm3a",
+        "HCm3b": "HCm3b",
+        "HCm3c": "HCm3c",
+        "Cm4": "Cm4",
+        "HCm4a": "HCm4a",
+        "HCm4b": "HCm4b",
+        "HCm4c": "HCm4c",
+        "Cm6": "Cm6",
+        "HCm6a": "HCm6a",
+        "HCm6b": "HCm6b",
+        "HCm6c": "HCm6c"
+      },
+      "mapping": {
+        "methylationSites": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "methylCarbons": [
+          "Cm1",
+          "Cm2",
+          "Cm3",
+          "Cm4",
+          "Cm6"
+        ],
+        "leavingIodines": [
+          "I1",
+          "I2",
+          "I3",
+          "I4",
+          "I6"
+        ],
+        "baseOxygens": [
+          "Ob1",
+          "Ob2",
+          "Ob3",
+          "Ob4",
+          "Ob6"
+        ],
+        "transferredHydroxylHydrogens": [
+          "HO1",
+          "HO2",
+          "HO3",
+          "HO4",
+          "HO6"
+        ],
+        "fixedStereocenters": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      },
+      "stateChecks": [
+        {
+          "stateId": "glucose-etherification-permethylation-state-0",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.968,
+          "minimumInterfragmentDistanceAngstrom": 2.707679
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-1",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.707679
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-2",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.707679
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-3",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.707679
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-4",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.707679
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-5",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.714912
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-6",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.919611
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-7",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.70271
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-8",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.724292
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-9",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.710823
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-10",
+          "atoms": 59,
+          "formula": "C11H32I5O11-5",
+          "charge": -5,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.710823
+        }
+      ],
+      "backsideAttackIllustrations": [
+        {
+          "stateId": "glucose-etherification-permethylation-state-1",
+          "site": 1,
+          "nucleophile": "O1",
+          "methylCarbon": "Cm1",
+          "leavingIodine": "I1",
+          "oxygenMethylCarbonDistanceAngstrom": 3.4,
+          "backsideAngleDegrees": 180.0,
+          "minimumActiveFragmentSeparationAngstrom": 3.174876,
+          "interpretation": "separated backside-attack illustration; not a transition state or trajectory",
+          "angleFromExportedCoordinatesDegrees": 179.999962
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-3",
+          "site": 2,
+          "nucleophile": "O2",
+          "methylCarbon": "Cm2",
+          "leavingIodine": "I2",
+          "oxygenMethylCarbonDistanceAngstrom": 3.4,
+          "backsideAngleDegrees": 180.0,
+          "minimumActiveFragmentSeparationAngstrom": 3.174876,
+          "interpretation": "separated backside-attack illustration; not a transition state or trajectory",
+          "angleFromExportedCoordinatesDegrees": 179.999991
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-5",
+          "site": 3,
+          "nucleophile": "O3",
+          "methylCarbon": "Cm3",
+          "leavingIodine": "I3",
+          "oxygenMethylCarbonDistanceAngstrom": 3.4,
+          "backsideAngleDegrees": 179.999999,
+          "minimumActiveFragmentSeparationAngstrom": 3.174876,
+          "interpretation": "separated backside-attack illustration; not a transition state or trajectory",
+          "angleFromExportedCoordinatesDegrees": 179.999975
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-7",
+          "site": 4,
+          "nucleophile": "O4",
+          "methylCarbon": "Cm4",
+          "leavingIodine": "I4",
+          "oxygenMethylCarbonDistanceAngstrom": 3.4,
+          "backsideAngleDegrees": 179.999999,
+          "minimumActiveFragmentSeparationAngstrom": 3.048557,
+          "interpretation": "separated backside-attack illustration; not a transition state or trajectory",
+          "angleFromExportedCoordinatesDegrees": 179.999997
+        },
+        {
+          "stateId": "glucose-etherification-permethylation-state-9",
+          "site": 6,
+          "nucleophile": "O6",
+          "methylCarbon": "Cm6",
+          "leavingIodine": "I6",
+          "oxygenMethylCarbonDistanceAngstrom": 3.4,
+          "backsideAngleDegrees": 180.0,
+          "minimumActiveFragmentSeparationAngstrom": 3.174876,
+          "interpretation": "separated backside-attack illustration; not a transition state or trajectory",
+          "angleFromExportedCoordinatesDegrees": 179.99999
+        }
+      ]
+    },
+    {
+      "reactionId": "glucose-etherification",
+      "variantId": "anomeric-hydrolysis",
+      "status": "PASS",
+      "states": 5,
+      "moves": 4,
+      "startingModel": "glucose-penta-o-methyl",
+      "startingInchi": "InChI=1S/C11H22O6/c1-12-6-7-8(13-2)9(14-3)10(15-4)11(16-5)17-7/h7-11H,6H2,1-5H3/t7-,8-,9+,10-,11+/m1/s1",
+      "startingGraphMatchesExistingModel": true,
+      "endpointModel": "glucose-tetra-o-methyl",
+      "endpointInchi": "InChI=1S/C10H20O6/c1-12-5-6-7(13-2)8(14-3)9(15-4)10(11)16-6/h6-11H,5H2,1-4H3/t6-,7-,8+,9-,10+/m1/s1",
+      "endpointMatchesExistingModel": true,
+      "endpointAssetAtomIds": {
+        "C1": "C1",
+        "C2": "C2",
+        "C3": "C3",
+        "C4": "C4",
+        "C5": "C5",
+        "C6": "C6",
+        "O2": "O2",
+        "O3": "O3",
+        "O4": "O4",
+        "O5": "O5",
+        "O6": "O6",
+        "Cm2": "Cm2",
+        "Cm3": "Cm3",
+        "Cm4": "Cm4",
+        "Cm6": "Cm6",
+        "HC1": "HC1",
+        "HC2": "HC2",
+        "HC3": "HC3",
+        "HC4": "HC4",
+        "HC5": "HC5",
+        "HC6a": "HC6a",
+        "HC6b": "HC6b",
+        "HCm2a": "HCm2a",
+        "HCm2b": "HCm2b",
+        "HCm2c": "HCm2c",
+        "HCm3a": "HCm3a",
+        "HCm3b": "HCm3b",
+        "HCm3c": "HCm3c",
+        "HCm4a": "HCm4a",
+        "HCm4b": "HCm4b",
+        "HCm4c": "HCm4c",
+        "HCm6a": "HCm6a",
+        "HCm6b": "HCm6b",
+        "HCm6c": "HCm6c",
+        "Ow": "O1",
+        "Hwa": "HO1"
+      },
+      "mapping": {
+        "cleavageCarbon": "C1",
+        "leavingOxygen": "O1",
+        "retainedMethanolBond": [
+          "O1",
+          "Cm1"
+        ],
+        "attackingWaterOxygen": "Ow",
+        "acidCarrierOxygen": "Osol",
+        "methanolHydrogen": "Hcat",
+        "retainedMethylEtherSites": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "fixedStereocenters": [
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ]
+      },
+      "stateChecks": [
+        {
+          "stateId": "glucose-etherification-anomeric-hydrolysis-state-0",
+          "atoms": 46,
+          "formula": "C11H27O8+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.73838
+        },
+        {
+          "stateId": "glucose-etherification-anomeric-hydrolysis-state-1",
+          "atoms": 46,
+          "formula": "C11H27O8+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.857966
+        },
+        {
+          "stateId": "glucose-etherification-anomeric-hydrolysis-state-2",
+          "atoms": 46,
+          "formula": "C11H27O8+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.806528
+        },
+        {
+          "stateId": "glucose-etherification-anomeric-hydrolysis-state-3",
+          "atoms": 46,
+          "formula": "C11H27O8+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.806528
+        },
+        {
+          "stateId": "glucose-etherification-anomeric-hydrolysis-state-4",
+          "atoms": 46,
+          "formula": "C11H27O8+",
+          "charge": 1,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "fixedNeighborChiralityRetained": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 2.756746
+        }
+      ],
+      "backsideAttackIllustrations": []
+    }
+  ]
+}
