@@ -1,0 +1,2953 @@
+{
+  "schemaVersion": 1,
+  "profiles": [
+    {
+      "id": "glucose-alpha:C5-C6",
+      "moleculeId": "glucose-alpha",
+      "bondId": "C5-C6",
+      "reference": [
+        "O5",
+        "C5",
+        "C6",
+        "O6"
+      ],
+      "initialDihedralDeg": 56.106707,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C6",
+        "O6",
+        "HC6a",
+        "HC6b",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 37.548512
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 34.625943
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 30.91351
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 26.611185
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 21.961105
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 17.227986
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 12.678558
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 8.562067
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 5.093736
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 2.442653
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 0.724664
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 0.274657
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 1.504423
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 3.600674
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 6.437499
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 9.859941
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 13.693157
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 17.752114
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 21.851225
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 25.813361
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 29.477827
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 32.707236
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 35.39347
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 37.463004
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 38.881617
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 39.658117
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 39.846155
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 39.542874
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 38.883173
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 38.028864
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 37.152892
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 36.419695
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 35.963629
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 35.868097
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 36.14866
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 36.744171
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 37.520453
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 38.290522
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 38.852767
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 39.042472
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 38.783544
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 38.120659
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 37.214857
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 36.300471
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 35.620513
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 35.366986
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 35.644216
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 36.455937
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 37.709688
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 39.236726
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 40.824778
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 42.250158
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 43.291365
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 43.723523
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 43.326376
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 41.950271
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 39.6345
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 36.691055
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 33.657676
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 31.125166
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 29.546413
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 29.128593
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 29.829148
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 31.41687
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 33.552818
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 35.862928
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 37.990377
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 39.627055
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 40.530189
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 40.531104
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 39.540152
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 37.548512
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-beta:C5-C6",
+      "moleculeId": "glucose-beta",
+      "bondId": "C5-C6",
+      "reference": [
+        "O5",
+        "C5",
+        "C6",
+        "O6"
+      ],
+      "initialDihedralDeg": 56.466955,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C6",
+        "O6",
+        "HC6a",
+        "HC6b",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 38.645001
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 35.549104
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 31.682623
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 27.247869
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 22.486853
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 17.661514
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 13.033644
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 8.846509
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 5.309785
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 2.588789
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 0.798232
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 0.20406
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 1.371563
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 3.419558
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 6.227073
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 9.642562
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 13.492626
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 17.591675
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 21.751947
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 25.793193
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 29.551489
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 32.886876
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 35.689831
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 37.886672
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 39.443923
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 40.371345
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 40.722949
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 40.595032
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 40.120256
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 39.457124
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 38.774921
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 38.234945
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 37.969715
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 38.062527
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 38.530554
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 39.315356
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 40.285154
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 41.252724
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 42.010432
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 42.378874
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 42.258093
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 41.66385
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 40.731804
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 39.683681
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 38.766923
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 38.19119
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 38.082848
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 38.465642
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 39.265219
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 40.332625
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 41.479617
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 42.512306
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 43.247664
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 43.510224
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 43.132076
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 41.993397
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 40.110148
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 37.711146
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 35.222426
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 33.141456
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 31.874045
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 31.624347
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 32.372442
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 33.917538
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 35.948315
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 38.111697
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 40.065455
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 41.511642
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 42.215213
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 42.014156
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 40.825051
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 38.645001
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-open:C2-C3",
+      "moleculeId": "glucose-open",
+      "bondId": "C2-C3",
+      "reference": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "initialDihedralDeg": -164.352153,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "HC3",
+        "HC4",
+        "HC5",
+        "HC6a",
+        "HC6b",
+        "HO3",
+        "HO4",
+        "HO5",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 122.369285
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 115.450494
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 108.301479
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 101.604719
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 96.169458
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 92.731651
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 91.905186
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 94.216985
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 100.135971
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 110.043604
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 124.129332
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 142.217777
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 163.550289
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 186.561872
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 208.759126
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 226.929249
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 237.924083
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 239.867083
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 232.993325
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 219.369046
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 201.734453
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 182.432945
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 163.000619
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 144.27061
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 126.622757
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 110.179767
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 94.930142
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 80.809416
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 67.755544
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 55.740713
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 44.781617
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 34.932471
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 26.266375
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 18.851684
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 12.73006
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 7.901397
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 4.318397
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 1.890861
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 0.497345
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 0.257726
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 1.133822
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 2.496895
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 4.217175
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 6.163131
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 8.204789
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 10.231041
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 12.190264
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 14.167274
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 16.511922
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 20.030648
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 26.257427
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 37.887578
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 59.581509
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 99.301124
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 169.653291
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 286.461906
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 457.512596
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 655.782396
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 801.081354
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 809.738091
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 686.321415
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 516.381071
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 373.14639
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 277.416422
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 219.761223
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 185.680324
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 164.840681
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 151.387931
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 142.12371
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 135.064042
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 128.792045
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 122.369285
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-open:C3-C4",
+      "moleculeId": "glucose-open",
+      "bondId": "C3-C4",
+      "reference": [
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "initialDihedralDeg": 79.946974,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C4",
+        "C5",
+        "C6",
+        "O4",
+        "O5",
+        "O6",
+        "HC4",
+        "HC5",
+        "HC6a",
+        "HC6b",
+        "HO4",
+        "HO5",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 132.641385
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 124.108575
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 113.235217
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 101.853184
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 91.408449
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 82.66475
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 75.589271
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 69.409206
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 62.902302
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 54.945743
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 45.12159
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 33.992626
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 22.839544
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 13.076182
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 5.755639
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 1.3864
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 1.312929
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 4.877602
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 10.188328
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 16.740532
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 24.049409
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 31.639299
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 39.020756
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 45.676013
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 51.073651
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 54.726244
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 56.285585
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 55.642791
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 52.985021
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 48.777567
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 43.681899
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 38.451213
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 33.841528
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 30.550514
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 29.174739
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 30.172729
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 33.831464
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 40.244978
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 49.315288
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 60.777638
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 74.242271
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 89.240475
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 105.260603
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 121.751988
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 138.064965
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 153.319303
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 166.290596
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 175.516872
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 179.75649
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 178.575261
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 172.568907
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 163.010214
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 151.265685
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 138.436949
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 125.329336
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 112.56968
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 100.70435
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 90.233391
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 81.609629
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 75.233965
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 71.455878
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 70.569607
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 72.787266
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 78.172529
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 86.532302
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 97.285048
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 109.352019
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 121.150722
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 130.785863
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 136.477202
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 137.110297
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 132.641385
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-open:C4-C5",
+      "moleculeId": "glucose-open",
+      "bondId": "C4-C5",
+      "reference": [
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "initialDihedralDeg": -177.065686,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C5",
+        "C6",
+        "O5",
+        "O6",
+        "HC5",
+        "HC6a",
+        "HC6b",
+        "HO5",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 132.479551
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 125.485552
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 117.636699
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 109.405725
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 101.109564
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 92.935083
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 84.970494
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 77.24121
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 69.755365
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 62.561591
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 55.798516
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 49.701247
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 44.549638
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 40.581928
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 37.918156
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 36.524977
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 36.226055
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 36.74311
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 37.748003
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 38.910312
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 39.932186
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 40.568797
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 40.636647
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 40.013493
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 38.633997
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 36.484742
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 33.601105
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 30.066615
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 26.013484
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 21.621364
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 17.110842
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 12.72893
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 8.726093
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 5.327433
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 2.703579
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 0.948408
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 0.070211
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 0.61555
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 1.774026
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 3.342195
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 5.214199
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 7.312655
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 9.576585
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 11.944746
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 14.343499
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 16.685532
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 18.882414
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 20.871912
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 22.660073
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 24.374978
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 26.319348
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 28.993542
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 33.052001
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 39.158031
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 47.695605
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 58.334176
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 69.670231
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 79.493434
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 85.985177
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 89.027426
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 90.260272
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 91.875911
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 95.457154
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 101.614435
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 110.098592
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 119.92148
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 129.475212
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 136.926306
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 140.913892
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 141.07803
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 137.96172
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 132.479551
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-open:C1-C2",
+      "moleculeId": "glucose-open",
+      "bondId": "C1-C2",
+      "reference": [
+        "O1",
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "initialDihedralDeg": -134.682395,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "O2",
+        "O3",
+        "O4",
+        "O5",
+        "O6",
+        "HC2",
+        "HC3",
+        "HC4",
+        "HC5",
+        "HC6a",
+        "HC6b",
+        "HO2",
+        "HO3",
+        "HO4",
+        "HO5",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 46.379523
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 46.348237
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 46.391125
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 46.482476
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 46.585187
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 46.656126
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 46.651265
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 46.530089
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 46.259018
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 45.813773
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 45.180707
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 44.357183
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 43.351194
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 42.180438
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 40.871077
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 39.456291
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 37.974629
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 36.46808
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 34.979773
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 33.551291
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 32.219696
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 31.014516
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 29.954979
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 29.047864
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 28.286247
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 27.64938
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 27.103736
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 26.60518
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 26.102021
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 25.538664
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 24.859529
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 24.012999
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 22.955222
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 21.653733
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 20.090913
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 18.267211
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 16.203952
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 13.945284
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 11.558658
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 9.133209
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 6.775596
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 4.603326
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 2.736129
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 1.286442
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 0.350323
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 0.278919
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 1.199636
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 2.744428
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 4.868136
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 7.502566
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 10.561761
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 13.947535
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 17.554813
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 21.276494
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 25.007678
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 28.649255
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 32.110889
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 35.313527
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 38.191528
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 40.694566
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 42.789329
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 44.46098
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 45.714172
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 46.573248
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 47.081194
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 47.296945
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 47.290889
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 47.138748
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 46.914469
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 46.683064
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 46.494489
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 46.379523
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "glucose-open:C5-C6",
+      "moleculeId": "glucose-open",
+      "bondId": "C5-C6",
+      "reference": [
+        "C4",
+        "C5",
+        "C6",
+        "O6"
+      ],
+      "initialDihedralDeg": 175.053073,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C6",
+        "O6",
+        "HC6a",
+        "HC6b",
+        "HO6"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 93.954208
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 89.302741
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 84.069673
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 78.363614
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 72.30053
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 66.025847
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 59.726655
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 53.628625
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 47.977833
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 43.012801
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 38.934495
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 35.881328
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 33.913537
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 33.008136
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 33.063277
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 33.909629
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 35.326159
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 37.058113
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 38.835673
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 40.392439
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 41.483254
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 41.900973
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 41.491417
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 40.165402
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 37.906414
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 34.772749
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 30.893499
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 26.45859
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 21.703776
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 16.891917
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 12.292227
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 8.159545
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 4.715963
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 2.137001
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 0.543621
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 0.515819
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 2.051344
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 4.523878
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 7.814856
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 11.777478
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 16.244944
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 21.039171
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 25.979585
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 30.891411
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 35.61312
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 40.002997
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 43.945232
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 47.356018
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 50.189968
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 52.446569
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 54.175655
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 55.480178
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 56.514266
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 57.47486
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 58.586154
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 60.077273
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 62.15486
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 64.97324
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 68.605718
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 73.021412
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 78.072645
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 83.498026
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 88.945044
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 94.012483
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 98.307217
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 101.503543
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 103.389561
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 103.887391
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 103.042504
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 100.988318
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 97.900156
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 93.954208
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "ethane:C1-C2",
+      "moleculeId": "ethane",
+      "bondId": "C1-C2",
+      "reference": [
+        "HC1a",
+        "C1",
+        "C2",
+        "HC2a"
+      ],
+      "initialDihedralDeg": -179.999739,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C2",
+        "HC2a",
+        "HC2b",
+        "HC2c"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 13.496838
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 13.265388
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 12.5871
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 11.509036
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 10.105798
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 8.474139
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 6.726067
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 4.98099
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 3.357518
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 1.965462
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 0.898576
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 0.228468
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 0.228451
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 0.898544
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 1.965416
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 3.357462
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 4.980928
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 6.726002
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 8.474077
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 10.105741
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 11.50899
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 12.587068
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 13.265371
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 13.496838
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 13.265388
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 12.5871
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 11.509036
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 10.105798
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 8.474139
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 6.726067
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 4.98099
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 3.357518
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 1.965462
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 0.898576
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 0.228468
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 0.228451
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 0.898544
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 1.965416
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 3.357462
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 4.980928
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 6.726002
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 8.474077
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 10.105741
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 11.50899
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 12.587068
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 13.265371
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 13.496838
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 13.265388
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 12.5871
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 11.509036
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 10.105798
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 8.474139
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 6.726067
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 4.98099
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 3.357518
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 1.965462
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 0.898576
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 0.228468
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 0.228451
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 0.898544
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 1.965416
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 3.357462
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 4.980928
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 6.726002
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 8.474077
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 10.105741
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 11.50899
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 12.587068
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 13.265371
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 13.496838
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    },
+    {
+      "id": "butane:C2-C3",
+      "moleculeId": "butane",
+      "bondId": "C2-C3",
+      "reference": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ],
+      "initialDihedralDeg": -179.999995,
+      "angleDefinition": "Signed IUPAC dihedral of reference[0]-a-b-reference[3] in degrees; positive values follow RDKit GetDihedralDeg/SetDihedralDeg; periodic 360 degrees",
+      "movingAtomIds": [
+        "C3",
+        "C4",
+        "HC3a",
+        "HC3b",
+        "HC4a",
+        "HC4b",
+        "HC4c"
+      ],
+      "samples": [
+        {
+          "angleDeg": 0,
+          "relativeEnergyKJMol": 44.342858
+        },
+        {
+          "angleDeg": 5,
+          "relativeEnergyKJMol": 43.606401
+        },
+        {
+          "angleDeg": 10,
+          "relativeEnergyKJMol": 41.523589
+        },
+        {
+          "angleDeg": 15,
+          "relativeEnergyKJMol": 38.425349
+        },
+        {
+          "angleDeg": 20,
+          "relativeEnergyKJMol": 34.729989
+        },
+        {
+          "angleDeg": 25,
+          "relativeEnergyKJMol": 30.820212
+        },
+        {
+          "angleDeg": 30,
+          "relativeEnergyKJMol": 26.963446
+        },
+        {
+          "angleDeg": 35,
+          "relativeEnergyKJMol": 23.291382
+        },
+        {
+          "angleDeg": 40,
+          "relativeEnergyKJMol": 19.830588
+        },
+        {
+          "angleDeg": 45,
+          "relativeEnergyKJMol": 16.565616
+        },
+        {
+          "angleDeg": 50,
+          "relativeEnergyKJMol": 13.508974
+        },
+        {
+          "angleDeg": 55,
+          "relativeEnergyKJMol": 10.747028
+        },
+        {
+          "angleDeg": 60,
+          "relativeEnergyKJMol": 8.438175
+        },
+        {
+          "angleDeg": 65,
+          "relativeEnergyKJMol": 6.764769
+        },
+        {
+          "angleDeg": 70,
+          "relativeEnergyKJMol": 5.867039
+        },
+        {
+          "angleDeg": 75,
+          "relativeEnergyKJMol": 5.793294
+        },
+        {
+          "angleDeg": 80,
+          "relativeEnergyKJMol": 6.484643
+        },
+        {
+          "angleDeg": 85,
+          "relativeEnergyKJMol": 7.791611
+        },
+        {
+          "angleDeg": 90,
+          "relativeEnergyKJMol": 9.508389
+        },
+        {
+          "angleDeg": 95,
+          "relativeEnergyKJMol": 11.409493
+        },
+        {
+          "angleDeg": 100,
+          "relativeEnergyKJMol": 13.278946
+        },
+        {
+          "angleDeg": 105,
+          "relativeEnergyKJMol": 14.928884
+        },
+        {
+          "angleDeg": 110,
+          "relativeEnergyKJMol": 16.209243
+        },
+        {
+          "angleDeg": 115,
+          "relativeEnergyKJMol": 17.011701
+        },
+        {
+          "angleDeg": 120,
+          "relativeEnergyKJMol": 17.270501
+        },
+        {
+          "angleDeg": 125,
+          "relativeEnergyKJMol": 16.961649
+        },
+        {
+          "angleDeg": 130,
+          "relativeEnergyKJMol": 16.101128
+        },
+        {
+          "angleDeg": 135,
+          "relativeEnergyKJMol": 14.742256
+        },
+        {
+          "angleDeg": 140,
+          "relativeEnergyKJMol": 12.971965
+        },
+        {
+          "angleDeg": 145,
+          "relativeEnergyKJMol": 10.905685
+        },
+        {
+          "angleDeg": 150,
+          "relativeEnergyKJMol": 8.680501
+        },
+        {
+          "angleDeg": 155,
+          "relativeEnergyKJMol": 6.44651
+        },
+        {
+          "angleDeg": 160,
+          "relativeEnergyKJMol": 4.356698
+        },
+        {
+          "angleDeg": 165,
+          "relativeEnergyKJMol": 2.555995
+        },
+        {
+          "angleDeg": 170,
+          "relativeEnergyKJMol": 1.170503
+        },
+        {
+          "angleDeg": 175,
+          "relativeEnergyKJMol": 0.29791
+        },
+        {
+          "angleDeg": 180,
+          "relativeEnergyKJMol": 0.0
+        },
+        {
+          "angleDeg": 185,
+          "relativeEnergyKJMol": 0.297907
+        },
+        {
+          "angleDeg": 190,
+          "relativeEnergyKJMol": 1.170498
+        },
+        {
+          "angleDeg": 195,
+          "relativeEnergyKJMol": 2.555988
+        },
+        {
+          "angleDeg": 200,
+          "relativeEnergyKJMol": 4.356691
+        },
+        {
+          "angleDeg": 205,
+          "relativeEnergyKJMol": 6.446505
+        },
+        {
+          "angleDeg": 210,
+          "relativeEnergyKJMol": 8.680498
+        },
+        {
+          "angleDeg": 215,
+          "relativeEnergyKJMol": 10.905687
+        },
+        {
+          "angleDeg": 220,
+          "relativeEnergyKJMol": 12.971972
+        },
+        {
+          "angleDeg": 225,
+          "relativeEnergyKJMol": 14.74227
+        },
+        {
+          "angleDeg": 230,
+          "relativeEnergyKJMol": 16.10115
+        },
+        {
+          "angleDeg": 235,
+          "relativeEnergyKJMol": 16.961678
+        },
+        {
+          "angleDeg": 240,
+          "relativeEnergyKJMol": 17.270537
+        },
+        {
+          "angleDeg": 245,
+          "relativeEnergyKJMol": 17.011744
+        },
+        {
+          "angleDeg": 250,
+          "relativeEnergyKJMol": 16.209292
+        },
+        {
+          "angleDeg": 255,
+          "relativeEnergyKJMol": 14.928938
+        },
+        {
+          "angleDeg": 260,
+          "relativeEnergyKJMol": 13.279002
+        },
+        {
+          "angleDeg": 265,
+          "relativeEnergyKJMol": 11.409551
+        },
+        {
+          "angleDeg": 270,
+          "relativeEnergyKJMol": 9.508447
+        },
+        {
+          "angleDeg": 275,
+          "relativeEnergyKJMol": 7.791668
+        },
+        {
+          "angleDeg": 280,
+          "relativeEnergyKJMol": 6.484698
+        },
+        {
+          "angleDeg": 285,
+          "relativeEnergyKJMol": 5.793347
+        },
+        {
+          "angleDeg": 290,
+          "relativeEnergyKJMol": 5.867091
+        },
+        {
+          "angleDeg": 295,
+          "relativeEnergyKJMol": 6.764822
+        },
+        {
+          "angleDeg": 300,
+          "relativeEnergyKJMol": 8.438231
+        },
+        {
+          "angleDeg": 305,
+          "relativeEnergyKJMol": 10.747087
+        },
+        {
+          "angleDeg": 310,
+          "relativeEnergyKJMol": 13.509035
+        },
+        {
+          "angleDeg": 315,
+          "relativeEnergyKJMol": 16.565676
+        },
+        {
+          "angleDeg": 320,
+          "relativeEnergyKJMol": 19.830643
+        },
+        {
+          "angleDeg": 325,
+          "relativeEnergyKJMol": 23.291429
+        },
+        {
+          "angleDeg": 330,
+          "relativeEnergyKJMol": 26.963482
+        },
+        {
+          "angleDeg": 335,
+          "relativeEnergyKJMol": 30.820236
+        },
+        {
+          "angleDeg": 340,
+          "relativeEnergyKJMol": 34.730002
+        },
+        {
+          "angleDeg": 345,
+          "relativeEnergyKJMol": 38.425353
+        },
+        {
+          "angleDeg": 350,
+          "relativeEnergyKJMol": 41.523588
+        },
+        {
+          "angleDeg": 355,
+          "relativeEnergyKJMol": 43.6064
+        },
+        {
+          "angleDeg": 360,
+          "relativeEnergyKJMol": 44.342858
+        }
+      ],
+      "method": "MMFF94 frozen-geometry torsion scan",
+      "unit": "kJ/mol",
+      "quantity": "relative conformational potential energy",
+      "isFreeEnergy": false,
+      "environment": "isolated molecule / vacuum-like force field, no explicit or implicit solvent",
+      "geometryTreatment": "Only the moving fragment rotates rigidly about this bond. All bond lengths, bond angles, and other torsions remain at the exported molecule reference coordinates. No minimization at scan points.",
+      "zeroReference": "Minimum sampled energy within this profile, not comparable between profiles or molecules",
+      "validity": "Valid only for a single selected rotor from the exported reference conformer. Reset other torsions before displaying this profile; it is not a multidimensional potential energy surface.",
+      "rdkitVersion": "2026.03.6"
+    }
+  ]
+}
