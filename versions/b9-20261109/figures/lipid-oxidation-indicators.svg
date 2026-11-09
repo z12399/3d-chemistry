@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">過氧化價下降，不代表品質恢復</title>
+<desc id="figure-desc">初級產物 P 同時生成與分解，可能先升後降；次級產物 S 可繼續累積，酸價則量另一類游離脂肪酸。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">過氧化價下降，不代表品質恢復</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">下方是產物相對量教學曲線，不是實測指標值</tspan></text>
+<rect x="38" y="104" width="155" height="58" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="115.5" y="140.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="115.5" dy="0">未氧化底物 A</tspan></text>
+<path d="M 200 133 L 248 133" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="260" y="104" width="179" height="58" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="349.5" y="140.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="349.5" dy="0">初級產物 P</tspan></text>
+<path d="M 447 133 L 496 133" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="508" y="104" width="180" height="58" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="140.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="598.0" dy="0">次級產物 S</tspan></text>
+<text x="350" y="195" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="350" dy="0">PV：氫過氧化物</tspan></text>
+<text x="598" y="195" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="598" dy="0">p-AV：部分醛類</tspan></text>
+<path d="M 90 405 L 493 405" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 90 405 L 90 225" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="33" y="220" font-size="17" fill="#1c2732" text-anchor="start"><tspan x="33" dy="0">相對量</tspan></text>
+<text x="437" y="440" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="437" dy="0">時間</tspan></text>
+<path d="M 101 399 C 161 397 175 252 254 253 C 331 253 352 367 475 392" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 101 401 C 208 399 242 368 303 321 C 368 273 423 251 475 244" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="216" y="235" font-size="18" fill="#14665d" text-anchor="start"><tspan x="216" dy="0">初級 P</tspan></text>
+<text x="411" y="231" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="411" dy="0">次級 S</tspan></text>
+<rect x="529" y="241" width="159" height="165" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="608" y="278" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="608" dy="0">酸價</tspan></text>
+<text x="608" y="322" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="608" dy="0">游離脂肪酸</tspan><tspan x="608" dy="31">是另一類變化</tspan></text>
+<text x="360" y="480" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">低 PV 可出現在初期，也可出現在已分解的後期</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

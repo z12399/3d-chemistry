@@ -1,0 +1,362 @@
+{
+  "schema": "rice-milling-evidence/v1",
+  "sourcePacketSha256": "b51d599b0325c2cfc1d7c9acd02043dfc16f75fdd2f7a75c8a26f095d7d7f663",
+  "sources": [
+    {
+      "id": "rice-source-ntu114-q7",
+      "title": "國立臺灣大學 114 學年度碩士班招生考試：食品加工學第 7 題",
+      "publisher": "國立臺灣大學圖書館／招生試題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/114/114-258.pdf",
+      "locator": "PDF p.1，第 7 題（5%）；已目視原卷",
+      "note": "原題要求稻穀主要組成部分、磨粉的重要性及減少破損澱粉的磨粉方式；沒有指定比例、品種、設備或官方答案。",
+      "localPath": "output/rice-milling-evidence-2026-10-12/source-review/ntu-114-processing.pdf",
+      "sha256": "6398a78b996a3bc3026c56a4f1dec981379f080de593dd5f419f8c885afd1b36"
+    },
+    {
+      "id": "rice-source-kijima-2015",
+      "title": "Characterization of Rice Flour Milled with Water and Effects of Soaking Conditions",
+      "publisher": "Kijima 等；Food Science and Technology Research，2015，21(6):771–778；DOI 10.3136/fstr.21.771",
+      "url": "https://www.jstage.jst.go.jp/article/fstr/21/6/21_771/_html/-char/en",
+      "locator": "PDF pp.2–7（印刷 pp.772–777）：方法、Table 1、Fig.3／5／6／7／8",
+      "note": "同一 Haenuki 帶水磨流程的離散浸泡條件可比較；Table 1 的市售 wet-air 0* 註腳與預浸泡方法矛盾。損傷率分母及乾濕基未交代；不能做連續預測、顯著性或通用方法排名。",
+      "localPath": "output/rice-milling-evidence-2026-10-12/source-review/rice-water-milling-2015.pdf",
+      "sha256": "c9e875f9a81f5aa9aab5ec140f86d418a311452ecff0925f45afdee1ed64bdeb"
+    },
+    {
+      "id": "rice-source-fao-grain",
+      "title": "Rice in human nutrition：稻穀結構、主要成分與加工餾分",
+      "publisher": "B. O. Juliano；FAO 與 IRRI 合作出版，Rome，1993",
+      "url": "https://www.fao.org/4/t0567e/T0567E07.htm",
+      "locator": "Chapter 3 組織開頭；Gross nutrient composition；Chapter 5 Processing；官方 HTML 章節，未取得本批紙本掃描",
+      "note": "支持稻穀／糙米／白米、稻殼、外層與糊粉層、胚、澱粉性胚乳及米糠餾分的區分。屬權威綜合資料，不是本磨粉實驗；不同分母的組織比例不相加，營養表疑點不轉為 UI 百分比。",
+      "localPath": "output/rice-milling-evidence-2026-10-12/source-review/fao-1993-grain-structure.html",
+      "sha256": "5e25c727f196b1b780681b5f61b35820fa67fc8a9a1eb8d13a8467a7d14d45b7"
+    }
+  ],
+  "grain": {
+    "parts": [
+      {
+        "id": "hull",
+        "label": "稻殼",
+        "composition": "以纖維性結構為主，灰分較高；不把稻殼當白米澱粉。",
+        "role": "外部保護。",
+        "note": "包住穎果的外被；去殼後留下糙米。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "outer",
+        "label": "外層與糊粉層",
+        "composition": "外層富纖維；糊粉層細胞有蛋白質體與脂質體。米糠餾分亦集中部分 B 群、礦物與脂質。",
+        "role": "碾白主要移除區；米糠是含多種組織且依製程變動的餾分。",
+        "note": "果皮、種皮、珠心與糊粉層需區分；糊粉層在解剖上屬胚乳。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "germ",
+        "label": "胚",
+        "composition": "細胞含豐富蛋白質體與脂質體；原文指出 tocopherols 集中於胚。",
+        "role": "萌發相關組織；一般碾白會移除大部分，保胚碾米為另種流程。",
+        "note": "幼植物部分；原文部分重量資料把 germ 與 scutellum 分列，不把 1% germ 當整個胚。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "endosperm",
+        "label": "澱粉性胚乳",
+        "composition": "細胞充滿含複合澱粉粒的澱粉體，也含蛋白質體；白米不是純澱粉。",
+        "role": "白米的主要保留部分與米粉原料。",
+        "note": "胚乳內的澱粉性部分；與通常在碾白移出的糊粉層分開描述。",
+        "sourceId": "rice-source-fao-grain"
+      }
+    ],
+    "stages": [
+      {
+        "id": "paddy",
+        "label": "稻穀",
+        "operation": "起始原料",
+        "result": "稻殼包住內部穎果。",
+        "scope": "構造示意；各部分大小不是重量比例。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "brown",
+        "label": "糙米",
+        "operation": "去殼",
+        "result": "除去稻殼，主要保留外層、胚及胚乳。",
+        "scope": "去殼與碾白是不同步驟。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "white",
+        "label": "白米",
+        "operation": "碾白",
+        "result": "移除大部分外層與胚，主要留下澱粉性胚乳。",
+        "scope": "實際殘留依碾白程度而變；白米不是純澱粉。",
+        "sourceId": "rice-source-fao-grain"
+      },
+      {
+        "id": "flour",
+        "label": "米粉",
+        "operation": "磨粉",
+        "result": "將白米粉碎，形成適合產品使用的粉體。",
+        "scope": "此處沿用研究的白米原料；米粉也可用其他指定米原料製作。",
+        "sourceId": "rice-source-kijima-2015"
+      }
+    ],
+    "scope": "稻穀剖面及粉體均為定性示意，不按比例。糊粉層在解剖上屬胚乳；米糠是製程餾分，可含胚與胚乳細屑。"
+  },
+  "study": {
+    "material": "本研究自行製備的帶水磨組使用 2012 年產非糯 Haenuki 精白米；市售對照的品種與批次未確認配對，不代表所有米。",
+    "preparation": "洗米、定時定溫浸泡、瀝水稱重；加水至浸泡米加水總重為原米重兩倍。以 Sawa-Boy NSG-08F 陶瓷磨 1400 rpm 帶水磨，過約 200 μm 篩，重力瀝水約兩小時，再離心脫水。",
+    "replicates": "帶水磨製備重複兩次後取平均；未列 SD、信賴區間或顯著性。市售對照的重複數未交代。",
+    "assay": "Megazyme 澱粉損傷試劑，以可被 α-澱粉酶分解的糖量測定。本文未交代百分比分母、乾濕基、公式或試劑版本；保留原文報告損傷率（%）。",
+    "particleSummary": "圖中帶水磨粉的主要粒徑峰約 6 μm，屬粒徑分布眾數的描述，不是平均或各條件 D50。粉體粒徑與澱粉損傷率是不同指標，不能互相替代。",
+    "scope": "磨前米粒吸水、浸泡時間與成品米粉含水率是不同量。此實驗未獨立控制磨前含水率，不能作含水率連續預測器。"
+  },
+  "series": [
+    {
+      "id": "time",
+      "label": "浸泡時間",
+      "condition": "室溫 20–25°C · 同一帶水磨流程",
+      "comparisonScope": "比較本研究的指定時間；50 與 65 分鐘相差 0.1 百分點，無法據此認定真正最佳點。",
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，p.775；室溫條件見方法與結果"
+    },
+    {
+      "id": "temperature",
+      "label": "浸泡水溫",
+      "condition": "同一浸泡時間 · 30°C 與 40°C · 帶水磨",
+      "comparisonScope": "比較明列的三組時間；40°C 組的報告損傷率較高，不可概括成水溫越高越好。",
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁文字，p.776"
+    },
+    {
+      "id": "market",
+      "label": "跨方法樣品",
+      "condition": "市售氣流磨粉 · 未完全配對的外部對照",
+      "comparisonScope": "Table 1 的濕式樣品列 0*（未預浸泡），方法卻寫先浸泡；矛盾未解。原料與製備條件未完全配對，不能只歸因磨法。",
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，p.775；方法 p.772"
+    }
+  ],
+  "rows": [
+    {
+      "id": "room-20",
+      "seriesId": "time",
+      "label": "20 分鐘",
+      "soakMinutes": 20,
+      "temperatureC": null,
+      "damage": {
+        "value": 4.2,
+        "text": "4.2",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775",
+      "numericBasis": "table",
+      "note": "室溫 20–25°C 依方法與結果段落；不是表格逐列列出的溫度。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "room-35",
+      "seriesId": "time",
+      "label": "35 分鐘",
+      "soakMinutes": 35,
+      "temperatureC": null,
+      "damage": {
+        "value": 2.5,
+        "text": "2.5",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775",
+      "numericBasis": "table",
+      "note": "室溫 20–25°C 依方法與結果段落；不是表格逐列列出的溫度。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "room-50",
+      "seriesId": "time",
+      "label": "50 分鐘",
+      "soakMinutes": 50,
+      "temperatureC": null,
+      "damage": {
+        "value": 1.8,
+        "text": "1.8",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775",
+      "numericBasis": "table",
+      "note": "室溫 20–25°C 依方法與結果段落；不是表格逐列列出的溫度。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "room-65",
+      "seriesId": "time",
+      "label": "65 分鐘",
+      "soakMinutes": 65,
+      "temperatureC": null,
+      "damage": {
+        "value": 1.9,
+        "text": "1.9",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775",
+      "numericBasis": "table",
+      "note": "室溫 20–25°C 依方法與結果段落；不是表格逐列列出的溫度。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-30-15",
+      "seriesId": "temperature",
+      "label": "30°C · 15 分鐘",
+      "soakMinutes": 15,
+      "temperatureC": 30,
+      "damage": {
+        "value": 6.3,
+        "text": "6.3",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-40-15",
+      "seriesId": "temperature",
+      "label": "40°C · 15 分鐘",
+      "soakMinutes": 15,
+      "temperatureC": 40,
+      "damage": {
+        "value": 8.2,
+        "text": "8.2",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-30-30",
+      "seriesId": "temperature",
+      "label": "30°C · 30 分鐘",
+      "soakMinutes": 30,
+      "temperatureC": 30,
+      "damage": {
+        "value": 3.3,
+        "text": "3.3",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-40-30",
+      "seriesId": "temperature",
+      "label": "40°C · 30 分鐘",
+      "soakMinutes": 30,
+      "temperatureC": 40,
+      "damage": {
+        "value": 4.7,
+        "text": "4.7",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-30-45",
+      "seriesId": "temperature",
+      "label": "30°C · 45 分鐘",
+      "soakMinutes": 45,
+      "temperatureC": 30,
+      "damage": {
+        "value": 2.3,
+        "text": "2.3",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "warm-40-45",
+      "seriesId": "temperature",
+      "label": "40°C · 45 分鐘",
+      "soakMinutes": 45,
+      "temperatureC": 40,
+      "damage": {
+        "value": 3.1,
+        "text": "3.1",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Fig.7 旁結果文字，印刷 p.776",
+      "numericBasis": "prose",
+      "note": "取自明列數值的文字；未從柱高估讀。兩次製備平均，未提供誤差。"
+    },
+    {
+      "id": "market-dry-coarse",
+      "seriesId": "market",
+      "label": "市售乾式氣流磨 · 粗粉",
+      "soakMinutes": null,
+      "temperatureC": null,
+      "damage": {
+        "value": 8.9,
+        "text": "8.9",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775；方法 p.772",
+      "numericBasis": "table",
+      "note": "Table 1 列 0*（未預浸泡）；這是外部市售對照，原料與設備未完全配對，不作單因素因果比較。"
+    },
+    {
+      "id": "market-dry-fine",
+      "seriesId": "market",
+      "label": "市售乾式氣流磨 · 細粉",
+      "soakMinutes": null,
+      "temperatureC": null,
+      "damage": {
+        "value": 11.8,
+        "text": "11.8",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775；方法 p.772",
+      "numericBasis": "table",
+      "note": "Table 1 列 0*（未預浸泡）；這是外部市售對照，原料與設備未完全配對，不作單因素因果比較。"
+    },
+    {
+      "id": "market-wet-air",
+      "seriesId": "market",
+      "label": "市售濕式氣流磨",
+      "soakMinutes": null,
+      "temperatureC": null,
+      "damage": {
+        "value": 3.5,
+        "text": "3.5",
+        "unit": "%"
+      },
+      "sourceId": "rice-source-kijima-2015",
+      "locator": "Table 1，印刷 p.775；方法 p.772",
+      "numericBasis": "table",
+      "note": "Table 1 列 0*（未預浸泡），方法卻寫先浸泡；矛盾未解，時間保留未知。"
+    }
+  ],
+  "limits": [
+    "原題要求主要組成部分，未指定組織或營養成分的百分比；本活動不使用不同分母的百分比拼圓餅圖。",
+    "濕磨是有助減少損傷的製程方向，具體結果仍依原料、浸泡與設備而定；不是通用保證或唯一最佳方法。",
+    "帶水磨的兩次製備平均沒有誤差範圍；不作顯著性判斷，也不將離散點插值為速率或預測。",
+    "本文損傷率的百分比分母與乾濕基未交代，不能解讀成糖苷鍵已斷裂的比例。",
+    "市售濕式對照的 0* 註腳與方法段落矛盾，浸泡時間保留未知。",
+    "Fig.8 的成品含水率與損傷率趨勢，和相鄰文字的一句方向相反；不建立含水率—損傷率關係式。",
+    "Fig.3 圖例有重複的 30m 標籤；僅採定性粒徑觀察，不配置逐條曲線或各條件的 D50。",
+    "磨內局部升溫、糊化與水的吸熱保護是作者提出的解釋，沒有實測磨溫與糊化比例可供此處驗證。",
+    "這是依來源建立的教學解題，不是官方答案，也不證明產品品質或學習成果。"
+  ]
+}

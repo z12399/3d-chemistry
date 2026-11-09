@@ -1,0 +1,39 @@
+.seafood-hazard-lab{--sfh-ink:#183b36;--sfh-line:#bdd0c6;--sfh-paper:#f5f8f3;color:var(--sfh-ink);font-size:1rem;line-height:1.65;overflow-wrap:anywhere}
+.seafood-hazard-lab header{margin-bottom:1rem}
+.seafood-hazard-lab h3,.seafood-hazard-lab h4{line-height:1.4;margin:.4rem 0 .8rem}
+.seafood-hazard-lab h3{font-size:1.4rem}
+.seafood-hazard-lab h4{font-size:1.1rem}
+.seafood-hazard-lab p{margin:.6rem 0}
+.seafood-hazard-lab label{display:block;margin:.7rem 0;font-weight:600}
+.seafood-hazard-lab select,.seafood-hazard-lab textarea{display:block;width:100%;max-width:100%;box-sizing:border-box;font:inherit;color:inherit;border:1px solid var(--sfh-line);border-radius:.45rem;background:white;padding:.55rem .65rem;margin-top:.35rem}
+.seafood-hazard-lab textarea{font-weight:400;min-height:5rem;resize:vertical}
+.seafood-hazard-lab textarea[readonly]{background:var(--sfh-paper)}
+.seafood-hazard-lab .sfh-origin{border-left:4px solid #6a9c8c;padding:.6rem .9rem;background:var(--sfh-paper)}
+.seafood-hazard-lab .sfh-layout{display:grid;grid-template-columns:minmax(16rem,.85fr) minmax(20rem,1.15fr);gap:1.4rem;align-items:start;margin:1rem 0}
+.seafood-hazard-lab .sfh-material{border-top:3px solid #759789;padding-top:.4rem;min-width:0}
+.seafood-hazard-lab .sfh-stage{min-width:0}
+.seafood-hazard-lab .sfh-given{font-weight:600}
+.seafood-hazard-lab .sfh-chain{padding-left:1.5rem}
+.seafood-hazard-lab .sfh-chain li{padding:.35rem 0}
+.seafood-hazard-lab fieldset{margin:.8rem 0;padding:.4rem .8rem .8rem;border:1px solid var(--sfh-line);border-radius:.5rem;min-width:0}
+.seafood-hazard-lab legend{padding:0 .35rem;font-weight:700}
+.seafood-hazard-lab .sfh-choice{display:flex;align-items:flex-start;gap:.6rem;font-weight:400;margin:.65rem 0}
+.seafood-hazard-lab .sfh-choice input{flex:0 0 auto;margin:.45rem 0 0;width:1.1rem;height:1.1rem;accent-color:#306e58}
+.seafood-hazard-lab button{font:inherit;padding:.55rem .9rem;border:1px solid #5b8d79;border-radius:.45rem;background:#edf5ef;color:var(--sfh-ink);cursor:pointer;min-height:2.7rem}
+.seafood-hazard-lab button:disabled{opacity:.6;cursor:default}
+.seafood-hazard-lab :focus-visible{outline:3px solid #a26423;outline-offset:3px}
+.seafood-hazard-lab .sfh-actions{display:flex;flex-wrap:wrap;gap:.75rem;align-items:center;margin:1rem 0}
+.seafood-hazard-lab .sfh-actions p{flex:1 1 16rem}
+.seafood-hazard-lab .sfh-feedback{border-left:4px solid #749987;padding:.7rem 1rem;background:var(--sfh-paper);margin:1rem 0}
+.seafood-hazard-lab details{border-top:1px solid var(--sfh-line);padding:.75rem 0;margin:.4rem 0}
+.seafood-hazard-lab summary{cursor:pointer;font-weight:650;font-size:1rem}
+.seafood-hazard-lab table{border-collapse:collapse;width:100%;font-size:1rem;margin:.8rem 0}
+.seafood-hazard-lab caption{text-align:left;padding:.4rem 0}
+.seafood-hazard-lab th,.seafood-hazard-lab td{border:1px solid var(--sfh-line);padding:.5rem;text-align:left;vertical-align:top}
+.seafood-hazard-lab .sfh-error{color:#8b352b}
+.seafood-hazard-lab .sfh-small{font-size:1rem;color:#456159}
+.seafood-hazard-lab [hidden]{display:none!important}
+@media(max-width:800px){
+.seafood-hazard-lab .sfh-layout{grid-template-columns:minmax(0,1fr);gap:.6rem}
+.seafood-hazard-lab .sfh-actions{align-items:stretch}
+}

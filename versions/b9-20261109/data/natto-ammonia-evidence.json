@@ -1,0 +1,614 @@
+{
+  "schema": "natto-ammonia-evidence/v1",
+  "datasetId": "natto-ammonia-evidence",
+  "version": "2026-10-16.1",
+  "activityId": "natto-ammonia-evidence",
+  "title": "納豆釋氨：失活比較與證據界線",
+  "choices": {
+    "hypothesis": [
+      {
+        "id": "unselected",
+        "label": "尚未選擇"
+      },
+      {
+        "id": "glutdh-only-sufficient",
+        "label": "只需 GlutDH 反應"
+      },
+      {
+        "id": "urease-only-sufficient",
+        "label": "只需尿素酶反應"
+      },
+      {
+        "id": "two-paths-sufficient-for-all",
+        "label": "這兩類反應已足夠"
+      },
+      {
+        "id": "unexplained-factors-remain",
+        "label": "仍有未分辨因素"
+      }
+    ],
+    "ammoniaPrediction": [
+      {
+        "id": "unselected",
+        "label": "尚未預測"
+      },
+      {
+        "id": "zero",
+        "label": "釋氨歸零"
+      },
+      {
+        "id": "residual",
+        "label": "仍有釋氨"
+      },
+      {
+        "id": "cannot-predict",
+        "label": "目前無法預測"
+      }
+    ],
+    "ureaPrediction": [
+      {
+        "id": "unselected",
+        "label": "尚未預測"
+      },
+      {
+        "id": "lower-than-parent",
+        "label": "比親本低"
+      },
+      {
+        "id": "higher-than-parent",
+        "label": "比親本高"
+      },
+      {
+        "id": "similar",
+        "label": "與親本相近"
+      },
+      {
+        "id": "cannot-predict",
+        "label": "目前無法預測"
+      },
+      {
+        "id": "not-predicting-unreported-comparison",
+        "label": "本比較未刊載尿素資料"
+      }
+    ]
+  },
+  "studyContext": {
+    "title": "先選一組既有研究比較，保留預測，再讀取證據",
+    "predictionTargets": {
+      "hypothesis": "你目前認為，哪些反應已足以解釋本研究的釋氨觀察？",
+      "ammoniaPrediction": "預測失活菌株在二次發酵後期的釋氨讀值會歸零，還是仍有殘留。",
+      "ureaPrediction": "有刊載時，比較 Fig. 4 的 9 小時失活菌株與 r22 尿素存量；不是比較同一菌株前後差。"
+    },
+    "conditions": [
+      "本研究的菌株在主發酵前就已帶有基因失活；0 小時是二次發酵起點。",
+      "研究先經 39°C 主發酵 18 小時及 4°C 冷藏 24 小時，再比較 37°C 二次發酵的 0、3、6、9 小時。",
+      "這是既有研究的條件背景，不是即時切換基因的模擬。"
+    ],
+    "measurements": [
+      {
+        "endpointKind": "headspace-ammonia-release",
+        "label": "頂空釋氨",
+        "publishedUnit": "µmol/g of natto",
+        "description": "研究在各取樣時點，將樣品置於固定頂空條件後以氣體檢知管讀取；此欄保留原刊按納豆質量表示的單位。",
+        "notReported": [
+          "氣相讀值換算至每克納豆的公式",
+          "起始值扣除規則與偵測極限",
+          "完整氣相與溶解態氮平衡"
+        ]
+      },
+      {
+        "endpointKind": "food-urea-stock",
+        "label": "食品內尿素存量",
+        "publishedUnit": "µmol/g of natto",
+        "description": "研究以食品萃取物的分析結果表示尿素存量；只在 ureC 失活與親本比較中刊載。",
+        "notReported": [
+          "GlutDH 雙失活與三失活比較的尿素存量曲線",
+          "與特定釋氨樣品配對的完整莫耳平衡"
+        ]
+      }
+    ],
+    "reportingLimits": [
+      "重複數與統計檢定未報告；圖中未定義誤差。",
+      "未提供原始逐點數值表，本活動不從圖面補造精確數值。",
+      "未報告不代表零、沒有差異、沒有做過量測或 n=1。"
+    ]
+  },
+  "sources": [
+    {
+      "id": "natto-ammonia-source-kada2008",
+      "title": "Identification of Two Major Ammonia-Releasing Reactions Involved in Secondary Natto Fermentation",
+      "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_article/-char/en",
+      "pdfUrl": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en",
+      "doi": "10.1271/bbb.80129",
+      "citation": "Kada et al. (2008). Bioscience, Biotechnology, and Biochemistry, 72(7), 1869–1876.",
+      "pdfIdentity": {
+        "bytes": 151585,
+        "sha256": "89757c768ee0ef793737fcc793fec5a7822f9adc9161269309687426a0a93d6c"
+      },
+      "limitations": [
+        "本活動採正式刊載的 8 頁 PDF；頁碼不混用 advance proof。",
+        "本研究的菌株、前處理歷史與量測域有界；不外推至所有納豆製程。"
+      ]
+    }
+  ],
+  "strains": [
+    {
+      "id": "r22",
+      "label": "r22 親本",
+      "inactivationDescription": "比較用親本，來自商業 O-2 的衍生株；不是所有納豆菌的通用基準。"
+    },
+    {
+      "id": "SKGUD3",
+      "label": "SKGUD3 雙失活",
+      "inactivationDescription": "rocG 與 gudB 失活，涉及兩種 GlutDH。"
+    },
+    {
+      "id": "SKURE1",
+      "label": "SKURE1 尿素酶失活",
+      "inactivationDescription": "ureC 失活，涉及尿素酶。"
+    },
+    {
+      "id": "SKRGU1",
+      "label": "SKRGU1 三失活",
+      "inactivationDescription": "rocG、gudB 與 ureC 同時失活。"
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "glutdh-double",
+      "label": "GlutDH 雙失活與親本",
+      "question": "GlutDH 雙失活後，研究量到的釋氨是否歸零？",
+      "members": [
+        {
+          "id": "r22",
+          "label": "r22 親本",
+          "inactivationDescription": "比較用親本，來自商業 O-2 的衍生株；不是所有納豆菌的通用基準。",
+          "role": "親本基準"
+        },
+        {
+          "id": "SKGUD3",
+          "label": "SKGUD3 雙失活",
+          "inactivationDescription": "rocG 與 gudB 失活，涉及兩種 GlutDH。",
+          "role": "失活菌株比較"
+        }
+      ],
+      "conditions": [
+        "本研究的菌株在主發酵前就已帶有基因失活；0 小時是二次發酵起點。",
+        "研究先經 39°C 主發酵 18 小時及 4°C 冷藏 24 小時，再比較 37°C 二次發酵的 0、3、6、9 小時。",
+        "這是既有研究的條件背景，不是即時切換基因的模擬。"
+      ],
+      "evidenceRefs": [
+        "glutdh-double-ammonia-observation",
+        "glutdh-double-ammonia-text"
+      ],
+      "availability": {
+        "headspace-ammonia-release": "reported",
+        "food-urea-stock": "not-reported"
+      },
+      "limits": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。",
+        "本篇未刊載此組比較的尿素存量資料；空缺不代表零或未曾量測。"
+      ]
+    },
+    {
+      "id": "urease-single",
+      "label": "ureC 失活與親本",
+      "question": "ureC 失活後，釋氨與食品內尿素存量各呈現什麼變化？",
+      "members": [
+        {
+          "id": "r22",
+          "label": "r22 親本",
+          "inactivationDescription": "比較用親本，來自商業 O-2 的衍生株；不是所有納豆菌的通用基準。",
+          "role": "親本基準"
+        },
+        {
+          "id": "SKURE1",
+          "label": "SKURE1 尿素酶失活",
+          "inactivationDescription": "ureC 失活，涉及尿素酶。",
+          "role": "失活菌株比較"
+        }
+      ],
+      "conditions": [
+        "本研究的菌株在主發酵前就已帶有基因失活；0 小時是二次發酵起點。",
+        "研究先經 39°C 主發酵 18 小時及 4°C 冷藏 24 小時，再比較 37°C 二次發酵的 0、3、6、9 小時。",
+        "這是既有研究的條件背景，不是即時切換基因的模擬。"
+      ],
+      "evidenceRefs": [
+        "urease-single-ammonia-observation",
+        "urease-single-ammonia-text",
+        "urease-single-urea-observation",
+        "urease-single-urea-baseline"
+      ],
+      "availability": {
+        "headspace-ammonia-release": "reported",
+        "food-urea-stock": "reported"
+      },
+      "limits": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "食品內尿素是存量，不能直接當成尿素酶反應通量。",
+        "Fig. 4 的尿素存量與 Fig. 5 的釋氨讀值屬於不同量測域，不能相減或換算為完整莫耳平衡。"
+      ]
+    },
+    {
+      "id": "combined",
+      "label": "三失活、雙失活與親本",
+      "question": "在 GlutDH 雙失活背景再使 ureC 失活，研究量到的釋氨是否歸零？",
+      "members": [
+        {
+          "id": "r22",
+          "label": "r22 親本",
+          "inactivationDescription": "比較用親本，來自商業 O-2 的衍生株；不是所有納豆菌的通用基準。",
+          "role": "親本基準"
+        },
+        {
+          "id": "SKGUD3",
+          "label": "SKGUD3 雙失活",
+          "inactivationDescription": "rocG 與 gudB 失活，涉及兩種 GlutDH。",
+          "role": "雙失活背景比較"
+        },
+        {
+          "id": "SKRGU1",
+          "label": "SKRGU1 三失活",
+          "inactivationDescription": "rocG、gudB 與 ureC 同時失活。",
+          "role": "失活菌株比較"
+        }
+      ],
+      "conditions": [
+        "本研究的菌株在主發酵前就已帶有基因失活；0 小時是二次發酵起點。",
+        "研究先經 39°C 主發酵 18 小時及 4°C 冷藏 24 小時，再比較 37°C 二次發酵的 0、3、6、9 小時。",
+        "這是既有研究的條件背景，不是即時切換基因的模擬。"
+      ],
+      "evidenceRefs": [
+        "combined-ammonia-observation",
+        "combined-ammonia-text"
+      ],
+      "availability": {
+        "headspace-ammonia-release": "reported",
+        "food-urea-stock": "not-reported"
+      },
+      "limits": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。",
+        "本篇未刊載此組比較的尿素存量資料；空缺不代表零或未曾量測。"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "glutdh-double-ammonia-observation",
+      "comparisonId": "glutdh-double",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "qualitative-source-statement",
+      "statement": "Fig. 3 中，SKGUD3 的釋氨曲線低於 r22，後期仍可見非零讀值。此圖的 r22 是空心圓，SKGUD3 是實心三角。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 5,
+        "printedPage": 1873,
+        "figure": "3",
+        "section": "右側圖與圖說",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=5"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "qualitative-graph-observation"
+    },
+    {
+      "id": "glutdh-double-ammonia-text",
+      "comparisonId": "glutdh-double",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "source-approximate-text",
+      "statement": "作者將這段二次發酵實驗中的 SKGUD3 釋氨概括為低於 r22 的 50%；這是原文的概括界限，不是固定的路徑貢獻係數。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 5,
+        "printedPage": 1873,
+        "figure": "3",
+        "section": "右側 Results，Fig. 3 下方",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=5"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "不把「低於 50%」改寫成恰好一半，也不以 Fig. 3 數值代替 Fig. 5 的雙失活曲線。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "author-text-summary"
+    },
+    {
+      "id": "urease-single-ammonia-observation",
+      "comparisonId": "urease-single",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "qualitative-source-statement",
+      "statement": "Fig. 5 的 9 小時比較中，SKURE1 的釋氨低於 r22，但仍有釋氨讀值。此圖的 r22 是空心圓，SKURE1 是空心三角。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "5",
+        "section": "右上圖與圖說",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "qualitative-graph-observation"
+    },
+    {
+      "id": "urease-single-ammonia-text",
+      "comparisonId": "urease-single",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "source-approximate-text",
+      "statement": "作者報告 9 小時時 SKURE1 的釋氨約為 r22 的 75%；這是剩餘讀值的相對描述，不是降低了 75%，也不是各條件通用的路徑比例。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "5",
+        "section": "左下 Results",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "author-text-summary"
+    },
+    {
+      "id": "urease-single-urea-observation",
+      "comparisonId": "urease-single",
+      "endpointKind": "food-urea-stock",
+      "availability": "reported",
+      "statementKind": "qualitative-source-statement",
+      "statement": "Fig. 4 的 9 小時比較中，SKURE1 的食品內尿素存量高於 r22。此圖的 r22 是空心圓，SKURE1 是實心圓。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "4",
+        "section": "左上圖與圖說",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "食品內尿素存量",
+      "limitations": [
+        "食品內尿素是存量，不能直接當成尿素酶反應通量。",
+        "Fig. 4 的尿素存量與 Fig. 5 的釋氨讀值屬於不同量測域，不能相減或換算為完整莫耳平衡。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "qualitative-graph-observation"
+    },
+    {
+      "id": "urease-single-urea-baseline",
+      "comparisonId": "urease-single",
+      "endpointKind": "food-urea-stock",
+      "availability": "reported",
+      "statementKind": "qualitative-source-statement",
+      "statement": "Fig. 4 的 0 小時，SKURE1 與 r22 的尿素存量就已不同；不能假設相同起點，或把 9 小時兩菌株之差當作同一菌株的淨累積。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "4",
+        "section": "左上圖與圖說",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "食品內尿素存量",
+      "limitations": [
+        "食品內尿素是存量，不能直接當成尿素酶反應通量。",
+        "Fig. 4 的尿素存量與 Fig. 5 的釋氨讀值屬於不同量測域，不能相減或換算為完整莫耳平衡。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "圖面位置只作起點不同的定性觀察，不轉為精確起始係數。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "qualitative-graph-observation"
+    },
+    {
+      "id": "combined-ammonia-observation",
+      "comparisonId": "combined",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "qualitative-source-statement",
+      "statement": "Fig. 5 中，SKRGU1 的後期釋氨低於 SKGUD3 與 r22，仍可見非零讀值。此圖的 r22 是空心圓，SKGUD3 是實心圓，SKRGU1 是實心三角。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "5",
+        "section": "右上圖與圖說",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "qualitative-graph-observation"
+    },
+    {
+      "id": "combined-ammonia-text",
+      "comparisonId": "combined",
+      "endpointKind": "headspace-ammonia-release",
+      "availability": "reported",
+      "statementKind": "source-approximate-text",
+      "statement": "作者把 SKRGU1 的釋氨概括為 SKGUD3 的約一半、r22 的約 20%；這些是原文相對讀值的摘要，20% 指剩餘讀值，不能相加成獨立路徑權重。",
+      "sourceId": "natto-ammonia-source-kada2008",
+      "locator": {
+        "pdfPage": 6,
+        "printedPage": 1874,
+        "figure": "5",
+        "section": "左下 Results",
+        "url": "https://www.jstage.jst.go.jp/article/bbb/72/7/72_80129/_pdf/-char/en#page=6"
+      },
+      "measurementDomain": "依研究取樣程序量得的頂空釋氨",
+      "limitations": [
+        "這是各時點取樣後的釋氨讀值；不等於食品內 NH₄⁺ 濃度、瞬時生成速率或全程累積的新生氨。",
+        "重複數與統計檢定未報告，圖中未定義誤差；未提供原始逐點數值表。",
+        "未提供配對的生物量正規化曲線、遺傳救援或完整氮收支。未報告不等於沒有做過。",
+        "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。"
+      ],
+      "reporting": {
+        "replicates": {
+          "status": "not-reported",
+          "value": null
+        },
+        "uncertainty": {
+          "status": "not-reported",
+          "kind": null
+        },
+        "graphPointValues": {
+          "status": "not-provided",
+          "values": null
+        }
+      },
+      "precision": "author-text-summary"
+    }
+  ],
+  "provenance": {
+    "rootApproval": {
+      "path": "output/natto-ammonia-evidence-2026-10-16/root-source-contract-approval-v1.json",
+      "bytes": 6268,
+      "sha256": "773f8a5268b6ff41cd099d8d2a8c58d254928fe2cd62d4650abebf79458cafc8"
+    },
+    "sourceReviewManifest": {
+      "path": "output/natto-ammonia-source-review-2026-10-16/MANIFEST-v1.json",
+      "bytes": 8046,
+      "sha256": "43bc4c588b03211ff797cc810db2ae6bc549ef66ce362465f5d04318d41a2f94"
+    },
+    "sourceFacts": {
+      "path": "output/natto-ammonia-source-review-2026-10-16/evidence-facts-v1.json",
+      "bytes": 12591,
+      "sha256": "3e134355623574f3f22644a9ed012cf82d2902c6ded5d8f4877a513d0a543c5b"
+    },
+    "minimalSelection": {
+      "path": "output/natto-ammonia-source-review-2026-10-16/minimal-comparisons-v1.json",
+      "bytes": 6067,
+      "sha256": "f4d7c2e19e39692b7a6cf4213c540195a11adfe5f28911201efa99a0322f364b"
+    }
+  },
+  "limitations": [
+    "殘留釋氨本身不能辨認新產氨路徑，也不能單獨判定「新生氨只有兩條來源」這個機制主張為假；起始存量、歷史與量測域仍未分辨。",
+    "不自動判定學生假說正誤；觀察、解釋與想補充的證據由學習者分開保留。",
+    "沒有可任意調整的酵素權重、反應速率、培養預測或數值插值。",
+    "不同圖的曲線不能拼成單一原始時間序列；尿素存量與釋氨讀值不能直接抵銷。"
+  ]
+}

@@ -1,0 +1,78 @@
+.extrusion-lab { --ex-ink:#1c2732;--ex-muted:#53606d;--ex-line:#dfe4e8;--ex-a:#a04b2d;--ex-b:#286b7d;color:var(--ex-ink);font-size:16px;line-height:1.65;width:100%;max-width:1140px;min-width:0;margin:0 auto; }
+.extrusion-lab *,.extrusion-lab *::before,.extrusion-lab *::after { box-sizing:border-box; }
+.extrusion-lab [hidden] { display:none!important; }
+.extrusion-lab h2 { font-size:23px;font-weight:550;line-height:1.45;margin:0; }
+.extrusion-lab h3 { font-size:18px;font-weight:550;line-height:1.5;margin:0 0 10px; }
+.extrusion-lab p { margin:8px 0 12px; }
+.ex-header { display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 18px;margin-bottom:12px; }
+.ex-header p { font-size:16px;color:var(--ex-muted);margin:0; }
+.extrusion-lab button { color:var(--ex-ink);background:#f1f3f5;border:1px solid #cfd6dc;border-radius:8px;min-height:44px;max-width:100%;padding:8px 13px;font:inherit;font-size:16px;line-height:1.5;cursor:pointer; }
+.extrusion-lab button[aria-pressed="true"] { border-color:#14665d;box-shadow:inset 0 0 0 1px #14665d;background:#e7f1ee;color:#14665d; }
+.extrusion-lab button:disabled { opacity:.5;cursor:default; }
+.extrusion-lab button.ex-primary { background:#14665d;border-color:#14665d;color:#fff; }
+.extrusion-lab label { display:block;font-size:16px;color:var(--ex-muted);min-width:0; }
+.extrusion-lab :is(select,textarea) { width:100%;min-width:0;max-width:100%;min-height:44px;margin:5px 0 0;padding:8px 10px;color:var(--ex-ink);background:#fff;border:1px solid #cfd6dc;border-radius:8px;font:inherit;font-size:16px; }
+.extrusion-lab textarea { display:block;resize:vertical;min-height:120px;line-height:1.65; }
+.extrusion-lab textarea[readonly] { background:#f6f7f8; }
+.ex-tabs { display:flex;gap:10px;margin:0 0 18px;border-bottom:1px solid var(--ex-line);padding-bottom:12px; }
+.ex-tabs button { flex:1; }
+.ex-flow-grid { display:grid;grid-template-columns:minmax(0,1.65fr) minmax(260px,1fr);gap:24px;align-items:start; }
+.ex-flow { display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:13px;align-items:stretch; }
+.ex-flow button { position:relative;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:8px;text-align:center;padding:12px 8px; }
+.ex-flow button:not(:last-child)::after { content:'→';position:absolute;right:-14px;top:43px;color:var(--ex-muted);font-size:18px; }
+.ex-flow svg { width:64px;height:64px;max-width:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round; }
+.ex-flow .ex-study-step { border-style:dashed;background:#f6f7f8; }
+.ex-flow small { font-size:16px; }
+.ex-step-reading { border-left:3px solid #cfd6dc;background:#f1f3f5;padding:16px 18px;margin:14px 0; }
+.ex-use { border-left:1px solid var(--ex-line);padding-left:22px; }
+.ex-use h3 { margin-top:18px; }
+.extrusion-lab .ex-caption { color:var(--ex-muted);font-size:16px;line-height:1.65; }
+.ex-inline-sources { font-size:16px; }
+.ex-controls { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:14px; }
+.ex-comparison-grid { display:grid;grid-template-columns:minmax(0,1.8fr) minmax(300px,1fr);gap:24px;align-items:start; }
+.ex-plot-column,.ex-pair { min-width:0; }
+.ex-plot-heading { display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px; }
+.ex-plot-heading h3 { margin-bottom:0; }
+.ex-plot-heading span { color:var(--ex-muted); }
+.ex-chart-scroll { width:100%;overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid var(--ex-line);border-radius:5px;background:#fff;margin-top:12px; }
+.ex-chart-scroll svg { display:block;width:100%;min-width:500px;height:auto;aspect-ratio:50/29; }
+.ex-chart-scroll svg text { font:16px sans-serif;fill:var(--ex-muted); }
+.ex-chart-scroll svg .ex-point-label { fill:var(--ex-ink);font-weight:700; }
+.ex-gridline { stroke:#e1e5da;stroke-width:1; }
+.ex-axis { stroke:#98a68e;stroke-width:1; }
+.ex-dot { fill:#7c8b70;stroke:#fffdf8;stroke-width:1; }
+.ex-dot-a { fill:var(--ex-a); }
+.ex-dot-b { fill:var(--ex-b); }
+.ex-a-ring { fill:none;stroke:var(--ex-a);stroke-width:2; }
+.ex-b-ring { fill:none;stroke:var(--ex-b);stroke-width:2; }
+.ex-chart-scroll [data-ex-point] { cursor:pointer; }
+.ex-chart-scroll [data-ex-point]:focus-visible circle { stroke:#172e27;stroke-width:3; }
+.ex-pair { border-left:1px solid var(--ex-line);padding-left:20px; }
+.ex-pair-controls { display:grid;grid-template-columns:1fr;gap:8px; }
+.ex-values { display:grid;grid-template-columns:1fr 1fr 1.1fr;gap:10px;margin:16px 0 4px; }
+.ex-values > div { min-width:0; }
+.ex-values span { display:block;color:var(--ex-muted); }
+.ex-values strong { display:block;font-size:26px;font-weight:500;line-height:1.3;font-variant-numeric:tabular-nums;overflow-wrap:anywhere; }
+.ex-values .ex-value-a strong { color:var(--ex-a); }
+.ex-values .ex-value-b strong { color:var(--ex-b); }
+.ex-unit { color:var(--ex-muted);font-size:16px; }
+.ex-boundary { border-top:1px solid var(--ex-line);padding-top:12px;color:var(--ex-muted); }
+.extrusion-lab details { border-top:1px solid var(--ex-line);padding:8px 0;margin:0; }
+.extrusion-lab summary { min-height:44px;padding:8px 0;cursor:pointer;color:var(--ex-muted);font-size:16px; }
+.ex-detail-body { padding:8px 0 12px; }
+.ex-detail-body article { padding:12px 0;border-bottom:1px solid var(--ex-line); }
+.ex-detail-body article:last-child { border-bottom:0; }
+.ex-raw { font:inherit;font-size:16px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere;margin:12px 0; }
+.ex-table-scroll { width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain; }
+.ex-table-scroll table { width:100%;min-width:840px;border-collapse:collapse;font-size:16px;font-variant-numeric:tabular-nums; }
+.ex-table-scroll caption { text-align:left;color:var(--ex-muted);margin:8px 0; }
+.ex-table-scroll th,.ex-table-scroll td { text-align:left;padding:10px;border-bottom:1px solid var(--ex-line);font-weight:400; }
+.ex-table-scroll thead th { color:var(--ex-muted);background:#f6f7f8; }
+.ex-record-bar,.ex-buttons,.ex-save { display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;margin:14px 0; }
+.ex-record-bar span,.ex-save p { color:var(--ex-muted); }
+.ex-save p { margin:0; }
+.ex-save a { margin-left:auto; }
+.extrusion-lab a { color:#14665d;overflow-wrap:anywhere; }
+.extrusion-lab :is(button,select,textarea,summary,a,[tabindex]):focus-visible { outline:3px solid #14665d;outline-offset:3px; }
+@media(max-width:1100px) { .ex-flow-grid,.ex-comparison-grid { grid-template-columns:1fr;gap:14px; } .ex-use,.ex-pair { border-left:0;border-top:1px solid var(--ex-line);padding:14px 0 0; } .ex-pair-controls { grid-template-columns:repeat(2,minmax(0,1fr)); } .ex-controls { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:540px) { .ex-flow { grid-template-columns:1fr;gap:12px; } .ex-flow button { display:grid;grid-template-columns:64px 1fr auto;align-items:center;text-align:left;gap:12px;padding:8px 12px; } .ex-flow button:not(:last-child)::after { content:'↓';left:39px;right:auto;top:auto;bottom:-17px; } .ex-flow button svg { width:52px;height:52px; } .ex-controls,.ex-pair-controls { grid-template-columns:1fr; } .ex-tabs { gap:8px; } .ex-tabs button { padding:8px; } .ex-save a { margin-left:0; } .ex-values strong { font-size:24px; } }
