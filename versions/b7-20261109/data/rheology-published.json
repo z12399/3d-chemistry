@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "id": "rheology-published",
+  "source": {
+    "title": "Gonçalves et al. (2023), Incorporation of Solid Lipid Nanoparticles into Stirred Yogurt: Effects in Physicochemical and Rheological Properties during Shelf-Life",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9823338/",
+    "doi": "10.3390/nano13010093",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "table": "Table 1, day 0: With SLNs and Control; methods Sections 2.4, 2.5.4 and 2.6"
+  },
+  "conditions": {
+    "temperatureC": 4,
+    "shearRange": [0.1, 300],
+    "instrument": "TA Instruments HR-1 rheometer with Peltier plate",
+    "geometry": "平行板，直徑 40 mm，板間距 1000 μm（1 mm）；原文未交代表面粗糙度與壁面滑移檢查。",
+    "protocol": "商售原味攪拌優格。添加配方將 6.67 g 負載薑黃素的凍乾固體脂質奈米粒子（SLNs）加入 100 g 優格，手動混至均一；對照混合相同時間。樣品避光存於 4 °C，本例取 day 0。剪切率由 0.1 至 300 s⁻¹ 做上行－下行－上行的三段連續掃描，以一條上行曲線擬合 Herschel–Bulkley 模型。原文未指明哪一次上行、掃描時長、點距、前剪切／靜置程序及平衡判準。",
+    "replicates": 3,
+    "variabilityNote": "論文分別說明製備與流變測試各做三重複，結果為平均值 ± 標準差（SD）；兩層重複的對應與獨立性未交代，不能推成九個獨立樣品。sd 是刊載的標準差，不是標準誤、信賴區間或參數擬合不確定度。本輪取得的全文沒有共變異數或逐重複曲線。"
+  },
+  "rows": [
+    {
+      "id": "control-day0",
+      "label": "原味攪拌優格・day 0",
+      "temperatureC": 4,
+      "shearRange": [0.1, 300],
+      "K": 2.95,
+      "n": 0.377,
+      "tau0": 1.69,
+      "sd": {"K": 0.55, "n": 0.020, "tau0": 0.45},
+      "reportedViscosityAt100": {"mean": 0.18, "sd": 0.02, "unit": "Pa·s", "origin": "Table 1 reported summary"},
+      "parameterOrigin": "published-fit"
+    },
+    {
+      "id": "sln-day0",
+      "label": "加入薑黃素固體脂質奈米粒子的攪拌優格・day 0",
+      "temperatureC": 4,
+      "shearRange": [0.1, 300],
+      "K": 0.55,
+      "n": 0.768,
+      "tau0": 6.27,
+      "sd": {"K": 0.05, "n": 0.011, "tau0": 0.44},
+      "reportedViscosityAt100": {"mean": 0.25, "sd": 0.01, "unit": "Pa·s", "origin": "Table 1 reported summary"},
+      "parameterOrigin": "published-fit"
+    }
+  ],
+  "limits": [
+    "數值來自原論文 Table 1 的 day 0 擬合參數均值與 SD；重建曲線不是原始觀測點，不是本機重新擬合。原始逐點、逐重複資料本輪未取得，論文的 Data Availability Statement 為向通訊作者索取。",
+    "使用 τ = τ0 + K γdot^n、ηapp = τ/γdot；τ與τ0單位Pa，γdot單位s^-1，K單位Pa·s^n，n無量綱，ηapp單位Pa·s。原文式(3)以η作flow-index指數符號，本文統一記作n，與Table 1一致。",
+    "僅在0.1–300 s^-1與4 °C的共同條件範圍內重建。γdot必須大於0；不可默認γdot=0或將外插點標成實測。",
+    "作者僅寫upward flow curve，未指明up-down-up中的哪一次上行。連續ramp與消除時間依賴的研究意圖不等於每一剪切率已證實達嚴格穩態。",
+    "τ0是Herschel–Bulkley擬合的屈服應力參數；未獨立測得靜態屈服點，不能把γdot趨零外插直接當成實測起流門檻。",
+    "K不等於所有剪切率下的黏度；不同n的K具有不同s冪次單位。比較配方時必須以同一剪切率計算ηapp，並包含τ0項。",
+    "表內±值是刊載SD。未有參數共變異數與逐重複數據，不由獨立±SD拼接曲線信賴帶，不由SD大小判定統計顯著。以參數均值代式重建，不必等於各重複代式後的平均值。",
+    "reportedViscosityAt100是原表刊載的摘要均值與SD，不是原始觀測點。100 s^-1重建值：Control 0.1843256586、SLN 0.2516568713 Pa·s，分別較刊載均值多0.0043256586、0.0016568713 Pa·s，均四捨五入成原表兩位小數。",
+    "原文Table 1的day 0表觀黏度上標與正文概括存在不一致；此案例只提供數值與條件，不自行重做或宣稱顯著性檢定。",
+    "來源稱整體HB擬合R²>0.99，但未在Table 1逐列提供精確R²或殘差。此處未重算R²，也不提供實測殘差、模型優劣或未知配方的擬合任務。",
+    "本例比較整體SLN粉末添加配方；原味優格品牌、批次及詳細組成未列，亦無等固形物/乳化劑/空白粒子對照。不能單獨歸因於薑黃素、粒徑或微觀機構，不由流變數字推論感官、安全、健康或貨架期。"
+  ]
+}
