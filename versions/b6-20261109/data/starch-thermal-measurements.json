@@ -1,0 +1,242 @@
+{
+  "schema": "starch-thermal-measurements/v1",
+  "source": {
+    "title": "Impact of Starch Concentration on the Pasting and Rheological Properties of Gluten-Free Gels. Effects of Amylose Content and Thermal and Hydration Properties",
+    "authors": [
+      "Raúl Ricardo Mauro",
+      "Antonio José Vela",
+      "Felicidad Ronda"
+    ],
+    "year": 2023,
+    "doi": "10.3390/foods12122281",
+    "url": "https://www.mdpi.com/2304-8158/12/12/2281",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "table": "Table 2 (amylose); Table 3 (gelatinization and retrogradation DSC summaries)"
+  },
+  "methods": [
+    "選取原研究七種商用原生澱粉中的三種：小麥 C*Gel 20006、一般玉米 C*Gel 03401、馬鈴薯 C*Gel 30002，製造商 Cargill；原文依商業資訊記錄乾基純度 >99%，不是本資料獨立檢測。",
+    "直鏈澱粉：Megazyme K-AMYL 06/18，Con A 沉澱支鏈澱粉，酵素水解與 GOPOD 比色；amylose 單位為乾基 %，每樣品重複量測兩次。",
+    "DSC3 STARe：每份約 6 mg 樣品，40 μL 密封鋁盤，加水至澱粉:水 = 30:70 (w/w)；0→120°C，5°C/min；空盤參考，以銦與鋅校正。",
+    "第一掃描糊化後保留同一密封 DSC 盤，冷藏 7 天，再以相同程序掃描回凝後的重熔吸熱；方法 §2.5 記 4°C，結果 §3.2 另記 2±2°C，本轉錄保留這項原文條件不一致。",
+    "onset、peak、end 分別對應原表 To、Tp、Te，單位 °C；enthalpy 為 ΔH，單位 J/g 乾物質。retrogradation 數值描述冷藏後重熔的 DSC 轉變，不是冷藏期間的即時熱流或完整回凝動力學。",
+    "Table 2、3 為均值±標準差（SD），每樣品重複量測兩次；原文統計採 ANOVA 與 Tukey 比較。letters 保留原表字母，只能在同表同指標內解讀；不共用字母表示原文報告 p<0.05，共用字母不等於已證明相同。",
+    "轉錄變更僅為選取三種樣品、欄位與標籤繁中化、結構化；保留原表字串精度和字母。這些摘要點不能重建實測熱流曲線，也不代表所有品種、批次或食品配方。",
+    "原表另列 DR 的均值、SD 與統計字母，本活動未轉錄該欄；互動焓比由兩個刊載焓均值另算，不是原表 DR 統計量，也不能據此另造比值的 SD。"
+  ],
+  "samples": [
+    {
+      "id": "wheat",
+      "label": "小麥澱粉",
+      "amylose": {
+        "mean": 22.1,
+        "sd": 0.3,
+        "meanText": "22.1",
+        "sdText": "0.3",
+        "letters": "a"
+      },
+      "gelatinization": {
+        "onset": {
+          "mean": 53.1,
+          "sd": 0.1,
+          "meanText": "53.1",
+          "sdText": "0.1",
+          "letters": "e"
+        },
+        "peak": {
+          "mean": 58.6,
+          "sd": 0.1,
+          "meanText": "58.6",
+          "sdText": "0.1",
+          "letters": "f"
+        },
+        "end": {
+          "mean": 63.5,
+          "sd": 0.1,
+          "meanText": "63.5",
+          "sdText": "0.1",
+          "letters": "e"
+        },
+        "enthalpy": {
+          "mean": 10.7,
+          "sd": 0.1,
+          "meanText": "10.7",
+          "sdText": "0.1",
+          "letters": "e"
+        }
+      },
+      "retrogradation": {
+        "onset": {
+          "mean": 35.0,
+          "sd": 2.0,
+          "meanText": "35",
+          "sdText": "2",
+          "letters": "a"
+        },
+        "peak": {
+          "mean": 49.4,
+          "sd": 0.1,
+          "meanText": "49.4",
+          "sdText": "0.1",
+          "letters": "b"
+        },
+        "end": {
+          "mean": 63.8,
+          "sd": 0.3,
+          "meanText": "63.8",
+          "sdText": "0.3",
+          "letters": "b"
+        },
+        "enthalpy": {
+          "mean": 5.6,
+          "sd": 0.9,
+          "meanText": "5.6",
+          "sdText": "0.9",
+          "letters": "b"
+        }
+      }
+    },
+    {
+      "id": "normal-maize",
+      "label": "一般玉米澱粉",
+      "amylose": {
+        "mean": 19.8,
+        "sd": 0.8,
+        "meanText": "19.8",
+        "sdText": "0.8",
+        "letters": "a,b"
+      },
+      "gelatinization": {
+        "onset": {
+          "mean": 63.1,
+          "sd": 0.1,
+          "meanText": "63.1",
+          "sdText": "0.1",
+          "letters": "b"
+        },
+        "peak": {
+          "mean": 68.7,
+          "sd": 0.1,
+          "meanText": "68.7",
+          "sdText": "0.1",
+          "letters": "b"
+        },
+        "end": {
+          "mean": 75.3,
+          "sd": 0.2,
+          "meanText": "75.3",
+          "sdText": "0.2",
+          "letters": "b"
+        },
+        "enthalpy": {
+          "mean": 12.4,
+          "sd": 0.1,
+          "meanText": "12.4",
+          "sdText": "0.1",
+          "letters": "d"
+        }
+      },
+      "retrogradation": {
+        "onset": {
+          "mean": 35.2,
+          "sd": 0.4,
+          "meanText": "35.2",
+          "sdText": "0.4",
+          "letters": "a"
+        },
+        "peak": {
+          "mean": 50.2,
+          "sd": 0.2,
+          "meanText": "50.2",
+          "sdText": "0.2",
+          "letters": "b"
+        },
+        "end": {
+          "mean": 63.9,
+          "sd": 0.8,
+          "meanText": "63.9",
+          "sdText": "0.8",
+          "letters": "b"
+        },
+        "enthalpy": {
+          "mean": 6.7,
+          "sd": 0.3,
+          "meanText": "6.7",
+          "sdText": "0.3",
+          "letters": "b"
+        }
+      }
+    },
+    {
+      "id": "potato",
+      "label": "馬鈴薯澱粉",
+      "amylose": {
+        "mean": 17.9,
+        "sd": 0.1,
+        "meanText": "17.9",
+        "sdText": "0.1",
+        "letters": "b,c"
+      },
+      "gelatinization": {
+        "onset": {
+          "mean": 57.4,
+          "sd": 0.1,
+          "meanText": "57.4",
+          "sdText": "0.1",
+          "letters": "d"
+        },
+        "peak": {
+          "mean": 61.4,
+          "sd": 0.1,
+          "meanText": "61.4",
+          "sdText": "0.1",
+          "letters": "e"
+        },
+        "end": {
+          "mean": 66.6,
+          "sd": 0.1,
+          "meanText": "66.6",
+          "sdText": "0.1",
+          "letters": "d"
+        },
+        "enthalpy": {
+          "mean": 18.0,
+          "sd": 0.1,
+          "meanText": "18.0",
+          "sdText": "0.1",
+          "letters": "a"
+        }
+      },
+      "retrogradation": {
+        "onset": {
+          "mean": 34.0,
+          "sd": 2.0,
+          "meanText": "34",
+          "sdText": "2",
+          "letters": "a"
+        },
+        "peak": {
+          "mean": 61.0,
+          "sd": 1.0,
+          "meanText": "61",
+          "sdText": "1",
+          "letters": "a"
+        },
+        "end": {
+          "mean": 72.8,
+          "sd": 0.3,
+          "meanText": "72.8",
+          "sdText": "0.3",
+          "letters": "a"
+        },
+        "enthalpy": {
+          "mean": 11.4,
+          "sd": 0.1,
+          "meanText": "11.4",
+          "sdText": "0.1",
+          "letters": "a"
+        }
+      }
+    }
+  ]
+}

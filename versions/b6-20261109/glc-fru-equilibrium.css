@@ -1,0 +1,86 @@
+.hfcs-view-switch { margin: 14px 0 22px; padding: 0 0 14px; border: 0; border-bottom: 1px solid #dfe4e8; }
+.hfcs-view-switch legend { margin-bottom: 8px; padding: 0; font-size: .8125rem; color: #53606d; }
+.hfcs-view-switch button { min-height: 44px; margin: 0 8px 0 0; padding: 9px 18px; font: inherit; font-size: .875rem; color: #53606d; border: 1px solid #cfd6dc; border-radius: 8px; background: #fff; }
+.hfcs-view-switch button[aria-pressed=true] { color: #fff; background: #14665d; border-color: #14665d; }
+.hfcs-view-switch button:focus-visible { outline: 3px solid #14665d; outline-offset: 3px; }
+.glc-fru-equilibrium-lab {
+  --glc-fru-ink: #203b32;
+  --glc-fru-muted: #53606d;
+  --glc-fru-glucose: #c2d5ba;
+  --glc-fru-fructose: #aa5137;
+  --glc-fru-line: #ced8c8;
+  width: 100%;
+  min-width: 0;
+  font-size: 1rem;
+  color: var(--glc-fru-ink);
+  line-height: 1.65;
+}
+.glc-fru-equilibrium-lab *, .glc-fru-equilibrium-lab *::before, .glc-fru-equilibrium-lab *::after { box-sizing: border-box; }
+.glc-fru-equilibrium-lab .glc-fru-heading { margin: 0 0 18px; }
+.glc-fru-equilibrium-lab .glc-fru-heading h3 { margin: 0; font-size: 1.4375rem; font-weight: 550; line-height: 1.45; }
+.glc-fru-equilibrium-lab .glc-fru-heading p { margin: 7px 0 0; font-size: .875rem; line-height: 1.6; color: var(--glc-fru-muted); }
+.glc-fru-workspace { display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start; }
+.glc-fru-figure { flex: 1.7 1 28.6875rem; margin: 0; min-width: 0; padding: 12px 0 0; }
+.glc-fru-legend { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 24px; font-size: .8125rem; }
+.glc-fru-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.glc-fru-legend i { display: inline-block; width: 18px; height: 12px; border-radius: 2px; }
+.glc-fru-key-fructose { background: var(--glc-fru-fructose); }
+.glc-fru-key-glucose { background: var(--glc-fru-glucose); }
+.glc-fru-figure svg { display: block; width: 100%; height: auto; margin: 0; overflow: visible; }
+.glc-fru-chart { margin: 12px 0 8px; }
+.glc-fru-row-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .25em 1em; margin: 0 8.5714285714%; }
+.glc-fru-row-title { color: var(--glc-fru-ink); font-size: 1.0625rem; line-height: 1.5; font-weight: 600; overflow-wrap: anywhere; }
+.glc-fru-row-value { color: var(--glc-fru-muted); font-size: 1rem; line-height: 1.5; font-variant-numeric: tabular-nums; }
+.glc-fru-chart-direction { margin: 2px 0 .8em; }
+.glc-fru-chart-direction p { margin: 0 8.5714285714%; color: var(--glc-fru-muted); font-size: .9375rem; line-height: 1.6; text-align: center; overflow-wrap: anywhere; }
+.glc-fru-axis-labels { position: relative; height: 1.65em; margin: 0 8.5714285714%; color: var(--glc-fru-muted); font-size: .9375rem; line-height: 1.65; }
+.glc-fru-axis-labels span { position: absolute; top: 0; transform: translateX(-50%); white-space: nowrap; font: inherit; }
+.glc-fru-equilibrium-lab .glc-fru-axis-title { margin: 4px 10px 0; color: var(--glc-fru-muted); font-size: .875rem; line-height: 1.6; text-align: center; overflow-wrap: anywhere; }
+.glc-fru-pool-glucose { fill: var(--glc-fru-glucose); }
+.glc-fru-pool-fructose { fill: var(--glc-fru-fructose); }
+.glc-fru-current-marker { stroke: #542b1e; stroke-width: 2; }
+.glc-fru-equilibrium-marker { stroke: #294a39; stroke-width: 2; }
+.glc-fru-direction-line { stroke: #375947; fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.glc-fru-equal { fill: #375947; }
+.glc-fru-axis { stroke: #87958a; stroke-width: 1; }
+.glc-fru-equilibrium-lab .glc-fru-figure figcaption { margin: 8px 10px 0; font-size: 0.8125rem; line-height: 1.65; color: var(--glc-fru-muted); }
+.glc-fru-equilibrium-lab .glc-fru-direction { margin: 11px 10px 0; font-size: .9375rem; line-height: 1.65; font-weight: 600; }
+.glc-fru-ratios { display: flex; gap: 0; justify-content: space-between; margin: 14px 10px 0; padding: 13px 0; border-top: 1px solid var(--glc-fru-line); border-bottom: 1px solid var(--glc-fru-line); }
+.glc-fru-ratios > div { flex: 1; min-width: 0; padding: 0 14px; border-left: 1px solid var(--glc-fru-line); }
+.glc-fru-ratios > div:first-child { border-left: 0; padding-left: 0; }
+.glc-fru-ratios dt { font-size: .8125rem; color: var(--glc-fru-muted); }
+.glc-fru-ratios dd { margin: 1px 0 0; font-size: 1.5625rem; line-height: 1.25; font-variant-numeric: tabular-nums; }
+.glc-fru-equilibrium-lab .glc-fru-ratio-definition { margin: 8px 10px 0; font-size: 0.8125rem; line-height: 1.65; color: var(--glc-fru-muted); }
+.glc-fru-controls { flex: 1 1 16.875rem; min-width: 0; padding: 9px 0 4px 23px; border-left: 1px solid var(--glc-fru-line); }
+.glc-fru-controls label { display: grid; gap: 7px; font-size: .875rem; font-weight: 550; }
+.glc-fru-controls select { display: block; width: 100%; min-width: 0; min-height: 44px; padding: 9px 30px 9px 10px; border: 1px solid #cfd6dc; border-radius: 8px; background: #fff; color: var(--glc-fru-ink); font: inherit; font-size: .875rem; }
+.glc-fru-equilibrium-lab .glc-fru-control-hint { margin: 5px 0 18px; font-size: 0.8125rem; line-height: 1.55; color: var(--glc-fru-muted); }
+.glc-fru-controls .glc-fru-fraction-label { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 10px; align-items: baseline; }
+.glc-fru-fraction-label output { color: var(--glc-fru-fructose); font-variant-numeric: tabular-nums; font-size: 1.125rem; font-weight: 600; }
+.glc-fru-controls input[type=range] { display: block; width: 100%; min-height: 35px; padding: 0; margin: 3px 0 0; accent-color: var(--glc-fru-fructose); cursor: pointer; }
+.glc-fru-presets { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin: 0 0 19px; }
+.glc-fru-equilibrium-lab .glc-fru-presets button { width: 100%; min-width: 0; min-height: 40px; margin: 0; padding: 8px 5px; border: 1px solid #cfd6dc; border-radius: 8px; background: #f6f7f8; color: #53606d; font: inherit; font-size: .8125rem; line-height: 1.4; cursor: pointer; }
+.glc-fru-equilibrium-lab .glc-fru-presets button[aria-pressed=true] { border-color: #14665d; background: #e7f1ee; box-shadow: inset 0 0 0 1px #14665d; }
+.glc-fru-equilibrium-lab .glc-fru-catalyst-note { margin: 8px 0 0; font-size: .8125rem; line-height: 1.7; color: var(--glc-fru-muted); }
+.glc-fru-equilibrium-lab .glc-fru-input-status { margin: 6px 0 0; font-size: 0.8125rem; color: #9c3e26; }
+.glc-fru-input-status:empty { display: none; }
+.glc-fru-scope { margin-top: 20px; padding-top: 12px; border-top: 1px solid var(--glc-fru-line); }
+.glc-fru-equilibrium-lab .glc-fru-scope p { margin: 4px 0; font-size: .8125rem; line-height: 1.75; }
+.glc-fru-scope strong { color: #14665d; font-weight: 600; }
+.glc-fru-sources { margin-top: 13px; border-top: 1px solid var(--glc-fru-line); }
+.glc-fru-equilibrium-lab .glc-fru-sources summary { cursor: pointer; min-height: 44px; padding: 12px 0; color: #14665d; font-size: .875rem; }
+.glc-fru-equilibrium-lab .glc-fru-sources p, .glc-fru-equilibrium-lab .glc-fru-sources li { margin: 5px 0; font-size: .8125rem; line-height: 1.75; overflow-wrap: anywhere; }
+.glc-fru-sources ol { margin: 12px 0; padding-left: 21px; }
+.glc-fru-sources li { margin-bottom: 13px !important; }
+.glc-fru-sources a { color: #14665d; text-underline-offset: 3px; }
+.glc-fru-equilibrium-lab .glc-fru-sources .glc-fru-evidence-record { font-size: 0.8125rem; color: var(--glc-fru-muted); }
+.glc-fru-source-table { overflow-x: auto; }
+.glc-fru-source-table table { border-collapse: collapse; min-width: 400px; width: 100%; max-width: 600px; font-size: .8125rem; font-variant-numeric: tabular-nums; }
+.glc-fru-source-table caption { text-align: left; margin-bottom: 8px; color: var(--glc-fru-muted); }
+.glc-fru-source-table th, .glc-fru-source-table td { text-align: left; border-bottom: 1px solid var(--glc-fru-line); padding: 7px 12px 7px 0; }
+.glc-fru-equilibrium-lab :is(button,select,input,summary,a):focus-visible { outline: 3px solid #14665d; outline-offset: 3px; }
+@media (max-width: 820px) {
+  .glc-fru-workspace { grid-template-columns: minmax(0, 1fr); gap: 22px; }
+  .glc-fru-controls { padding: 18px 0 0; border-left: 0; border-top: 1px solid var(--glc-fru-line); }
+  .glc-fru-equilibrium-lab .glc-fru-heading h3 { font-size: 1.3125rem; }
+}

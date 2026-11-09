@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">油酸氧化：位置線索與雙鍵一起讀</title>
+<desc id="figure-desc">分列單重態氧 ene 生成 9/10 氫過氧化物及自由基 C8/C11 奪氫支路，顯示位置集合重疊。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="530" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">油酸氧化：位置線索與雙鍵一起讀</tspan></text>
+<rect x="32" y="100" width="656" height="175" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="52" y="132" font-size="21" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="52" dy="0">¹O₂ ene 路徑</tspan></text>
+<rect x="52" y="172" width="160" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="132.0" y="211.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="132.0" dy="0">C9=C10</tspan></text>
+<path d="M 216 205 L 260 205 L 260 175 L 310 175" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 260 205 L 260 235 L 310 235" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="323" y="149" width="345" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="495.5" y="182.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="495.5" dy="0">9-OOH；雙鍵 C10=C11</tspan></text>
+<rect x="323" y="209" width="345" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="495.5" y="242.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="495.5" dy="0">10-OOH；雙鍵 C8=C9</tspan></text>
+<rect x="32" y="305" width="656" height="160" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="52" y="337" font-size="21" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="52" dy="0">自由基路徑</tspan></text>
+<rect x="52" y="366" width="160" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="132.0" y="408.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="132.0" dy="0">烯丙位奪 H</tspan></text>
+<path d="M 216 401 L 260 401 L 260 370 L 310 370" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 260 401 L 260 432 L 310 432" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="323" y="345" width="345" height="50" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="495.5" y="377.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="495.5" dy="0">C8 奪 H → 8／10-OOH</tspan></text>
+<rect x="323" y="407" width="345" height="50" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="495.5" y="439.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="495.5" dy="0">C11 奪 H → 11／9-OOH</tspan></text>
+<text x="32" y="503" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">9、10 位亦可來自自由基，不能唯一反推。</tspan></text>
+<text x="688" y="512" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">亞胺水解：只逆轉局部 C=N 步驟</title>
+<desc id="desc">酸催化下亞胺活化後由水加入形成胺醇，再經質子轉移和 C–N 斷裂恢復羰基及胺；不代表整個褐變逆轉。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="490" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">亞胺水解：只逆轉局部 C=N 步驟</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">方塊表示淨階段，不省略成完整的基本反應機構</tspan></text>
+<rect x="30" y="117" width="180" height="83" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="120.0" y="152.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="120.0" dy="0">亞胺 C=N</tspan><tspan x="120.0" dy="27">氮先質子化</tspan></text>
+<path d="M225 159L269 159" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="284" y="117" width="170" height="83" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="369.0" y="152.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="369.0" dy="0">水加入碳</tspan><tspan x="369.0" dy="27">形成胺醇</tspan></text>
+<path d="M468 159L512 159" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="527" y="117" width="163" height="83" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="608.5" y="152.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="608.5" dy="0">質子轉移</tspan><tspan x="608.5" dy="27">C–N 斷裂</tspan></text>
+<text x="250" y="126" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="250" dy="0">H₂O</tspan></text>
+<path d="M608 214V255H360V282" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="145" y="296" width="430" height="70" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="360.0" y="338.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">恢復羰基 ＋ 胺</tspan></text>
+<text x="360" y="411" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="360" dy="0">局部可逆 ≠ 食品色澤可回復</tspan></text>
+<text x="30" y="452" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">後續梅納產物不會因這一局部水解而全部回到原料。</tspan></text>
+<text x="688" y="474" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

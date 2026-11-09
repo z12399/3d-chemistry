@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">訊號變小，有不只一個解釋</title>
+<desc id="desc">酵素量、失活、溫度 pH 和訊號干擾都可造成較小訊號，各解釋須有獨立對照。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="490" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">訊號變小，有不只一個解釋</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">相似結果，不能直接指定抑制種類或結合位置</tspan></text>
+<rect x="30" y="109" width="300" height="64" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180.0" y="148.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">有效酵素量減少</tspan></text>
+<rect x="390" y="109" width="300" height="64" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540.0" y="148.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">失活／反應條件改變</tspan></text>
+<rect x="30" y="275" width="300" height="64" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180.0" y="314.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">抑制模型</tspan></text>
+<rect x="390" y="275" width="300" height="64" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540.0" y="314.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">濁度／背景／顯色干擾</tspan></text>
+<rect x="250" y="197" width="220" height="58" rx="12" fill="#f6f7f8" stroke="#14665d" stroke-width="2"/>
+<text x="360.0" y="233.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">觀察到訊號減少</tspan></text>
+<path d="M180 174V185H265V192" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M540 174V185H455V192" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<path d="M180 274V266H265V260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M540 274V266H455V260" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<text x="30" y="389" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">對照：酵素量、反應條件、量測校正、多濃度資料</tspan></text>
+<text x="30" y="436" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">即使 Vmax 減半、Km 不變，也可能是有效酵素量減半。</tspan><tspan x="30" dy="25">訊號降低不必等於相同比例的產物生成降低。</tspan></text>
+<text x="688" y="474" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

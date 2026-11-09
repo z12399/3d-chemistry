@@ -1,0 +1,241 @@
+{
+  "status": "PASS",
+  "mechanisms": 1,
+  "states": 26,
+  "checks": [
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-0",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-1",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.586
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-2",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.523
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-3",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-4",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-5",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-6",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.424
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-7",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.523
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-8",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-9",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-10",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-11",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.254
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-12",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.523
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-13",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-14",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-15",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.215
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-16",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.989
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-17",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.523
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-18",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.873
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-19",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.873
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-20",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.073
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-21",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.073
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-22",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.073
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-23",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.571
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-24",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.072
+    },
+    {
+      "id": "glucose-acetylation-pyridine-acyl-transfer-state-25",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.084
+    }
+  ]
+}
