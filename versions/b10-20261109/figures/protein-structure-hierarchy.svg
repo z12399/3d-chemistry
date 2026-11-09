@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">蛋白結構：由序列到多鏈組裝</title>
+<desc id="figure-desc">四欄以序列、局部螺旋與β股、單鏈摺疊及兩鏈組裝表示層級；鏈內 S–S 單獨標示，不作為鏈間連接。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">蛋白結構：由序列到多鏈組裝</tspan></text>
+<rect x="32" y="110" width="146" height="300" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="202" y="110" width="146" height="300" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="372" y="110" width="146" height="300" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="542" y="110" width="146" height="300" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="105" y="145" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="105" dy="0">一級</tspan></text>
+<text x="105" y="181" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="105" dy="0">胺基酸序列</tspan></text>
+<text x="275" y="145" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="275" dy="0">二級</tspan></text>
+<text x="275" y="181" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="275" dy="0">局部主鏈</tspan></text>
+<text x="445" y="145" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="445" dy="0">三級</tspan></text>
+<text x="445" y="181" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="445" dy="0">整條鏈摺疊</tspan></text>
+<text x="615" y="145" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="615" dy="0">四級</tspan></text>
+<text x="615" y="181" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="615" dy="0">多條鏈組裝</tspan></text>
+<path d="M 58 260 L 68 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 84 260 L 94 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 110 260 L 120 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 136 260 L 146 260" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="50" cy="260" r="8" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="76" cy="260" r="8" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="102" cy="260" r="8" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="128" cy="260" r="8" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="154" cy="260" r="8" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 221 230 C 256 204 268 252 233 260 C 210 266 235 293 260 275 C 285 257 261 242 233 288" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 282 231 L 328 231 M 328 255 L 282 255 M 282 279 L 328 279" fill="none" stroke="#14665d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="275" y="345" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="275" dy="0">α 螺旋</tspan><tspan x="275" dy="29">β 股</tspan></text>
+<path d="M 392 230 C 450 200 510 224 477 255 C 435 294 392 261 407 302 C 426 345 504 333 497 280" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 477 255 L 407 302" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="445" y="376" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="445" dy="0">鏈內 S–S</tspan></text>
+<path d="M 557 231 C 610 206 648 231 615 256 C 578 278 562 259 572 294 C 588 325 631 310 626 277" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 605 305 C 647 278 680 305 659 335 C 630 361 606 343 609 378" fill="none" stroke="#6f8fb5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="558" y="221" font-size="18" fill="#14665d" text-anchor="start"><tspan x="558" dy="0">A</tspan></text>
+<text x="667" y="385" font-size="18" fill="#6f8fb5" text-anchor="start"><tspan x="667" dy="0">B</tspan></text>
+<text x="32" y="451" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">6FXB：A、B 兩鏈各有鏈內 S–S。</tspan><tspan x="32" dy="25">單鏈內交聯與兩鏈組裝是不同的連接層次。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,14 @@
+.exam-lesson-bridge {margin:22px 0 26px;padding:20px 24px;border:1px solid #cadfd5;border-radius:16px;background:#f4f9f6;overflow-wrap:anywhere;}
+.exam-lesson-bridge h2 {margin:3px 0 0;font-size:1.15rem;line-height:1.5;}
+.exam-lesson-bridge .exam-bridge-eyebrow {margin:0;color:#11665a;font-size:.8rem;font-weight:650;}
+.exam-lesson-bridge .exam-bridge-return {line-height:1.8;margin:12px 0;}
+.exam-lesson-bridge a {color:#0b6354;font-weight:650;text-underline-offset:3px;}
+.exam-lesson-bridge details {margin-top:12px;}
+.exam-lesson-bridge summary {cursor:pointer;min-height:44px;padding:10px 0;font-size:.95rem;}
+.exam-lesson-bridge ul {list-style:none;margin:0;padding:0;}
+.exam-lesson-bridge li {display:flex;justify-content:space-between;align-items:center;gap:18px;padding:14px 0;border-top:1px solid #dbe6de;}
+.exam-lesson-bridge li strong {display:block;font-size:.95rem;}
+.exam-lesson-bridge li span {display:block;margin-top:5px;font-size:.82rem;color:#4f5d69;}
+.exam-lesson-bridge li a {flex-shrink:0;display:inline-flex;align-items:center;min-height:44px;}
+.exam-lesson-bridge .exam-bridge-note {margin:12px 0 0;color:#52645b;font-size:.8rem;line-height:1.75;}
+@media(max-width:600px){.exam-lesson-bridge{padding:16px}.exam-lesson-bridge li{align-items:flex-start;flex-direction:column;gap:4px}}

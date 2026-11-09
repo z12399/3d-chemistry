@@ -1,0 +1,66 @@
+/* start.html：自含樣式。色票與字級沿用 refresh.css 的數值（不載入 index.bundle.css）。 */
+:root {
+  color-scheme: light;
+  --shell: #f3f4ef;
+  --panel: #ffffff;
+  --ink: #17232d;
+  --muted: #4f5d69;
+  --faint: #66727d;
+  --line: #e1e4de;
+  --line-strong: #cdd3cc;
+  --mint: #11665a;
+  --mint-strong: #0b4c43;
+  --tint: #e3f1ec;
+  --card-shadow: 0 1px 2px #17232d0d, 0 4px 14px #17232d0a;
+  --lift: 0 2px 4px #17232d0d, 0 12px 28px #17232d14;
+  --font: 'Segoe UI', 'Microsoft JhengHei UI', 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans TC', system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--shell); color: var(--ink); font: 16px/1.7 var(--font); }
+a { color: var(--mint); text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid #187766; outline-offset: 3px; }
+h1, h2, p { margin: 0; }
+.skip-link { position: absolute; left: -999px; top: 0; background: var(--mint); color: #fff; padding: .5rem 1rem; z-index: 10; }
+.skip-link:focus { left: 8px; top: 8px; }
+
+/* 共用頂欄（與 refresh.css／exam-entry.css／exam-map.css 的 .site-header 同一套） */
+.site-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 24px; max-width: 1200px; margin: 0 auto; padding: 14px 24px; }
+.site-header .brand { color: var(--ink); font-size: 1.0625rem; font-weight: 700; letter-spacing: .02em; text-decoration: none; min-height: 44px; display: flex; align-items: center; }
+.site-nav { display: flex; flex-wrap: wrap; gap: 2px 4px; }
+.site-nav a { display: flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 10px; color: #3f4c57; font-size: .95rem; font-weight: 500; text-decoration: none; }
+.site-nav a:hover { background: #e8eae3; color: var(--ink); }
+.site-nav a[aria-current=page] { background: #fff; color: var(--mint); font-weight: 650; box-shadow: 0 1px 2px #17232d14, 0 0 0 1px var(--line); }
+
+.start-shell { max-width: 960px; margin: 0 auto; padding: 24px 24px 48px; }
+.start-shell:focus { outline: none; }
+.start-intro { padding: 36px 0 28px; }
+.start-intro h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); line-height: 1.3; letter-spacing: .02em; font-weight: 700; }
+.start-intro p { margin-top: 12px; max-width: 40em; color: var(--muted); font-size: 1.0625rem; }
+
+.start-doors { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.start-door { display: flex; flex-direction: column; gap: 4px; padding: 22px 24px; min-height: 112px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--card-shadow); color: var(--ink); text-decoration: none; transition: box-shadow .18s, border-color .18s; }
+.start-door strong { font-size: 1.25rem; color: var(--mint); }
+.start-door strong::after { content: ' →'; }
+.start-door span { color: var(--muted); }
+.start-door:hover { border-color: var(--line-strong); box-shadow: var(--lift); }
+
+.start-steps { margin-top: 32px; padding: 24px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; }
+.start-steps h2 { font-size: 1.25rem; font-weight: 700; }
+.start-steps ol { margin: 12px 0 0; padding-left: 1.5em; display: grid; gap: 10px; }
+.start-steps li { padding-left: 4px; }
+.start-steps li a { margin-left: 8px; white-space: nowrap; }
+
+.start-foot { margin-top: 28px; display: grid; gap: 6px; color: var(--faint); font-size: .875rem; }
+
+@media (max-width: 640px) {
+  .site-header { padding: 10px 16px; }
+  .site-nav { width: 100%; }
+  .site-nav a { padding: 0 9px; font-size: .9rem; }
+  .start-shell { padding: 12px 16px 36px; }
+  .start-intro { padding: 20px 0 20px; }
+  .start-doors { grid-template-columns: minmax(0, 1fr); }
+  .start-door { min-height: 0; padding: 18px; }
+  .start-steps { padding: 18px; }
+  .start-steps li a { white-space: normal; }
+}

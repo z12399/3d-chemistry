@@ -1,0 +1,385 @@
+{
+  "schema": "frying-measurements/v1",
+  "source": {
+    "title": "Chemosensory Device Assisted-Estimation of the Quality of Edible Oils with Repetitive Frying",
+    "authors": [
+      "Jookyeong Lee",
+      "Changguk Boo",
+      "Seong-jun Hong",
+      "Eui-Cheol Shin"
+    ],
+    "year": 2021,
+    "doi": "10.3390/foods10050972",
+    "url": "https://www.mdpi.com/2304-8158/10/5/972",
+    "pdfUrl": "https://pdfs.semanticscholar.org/1483/a982acaa30340957b209f9575d700a39a7a5.pdf",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "table": "Table 1"
+  },
+  "methods": [
+    "同一研究的兩種油樣與五個取樣點；不是不同品牌或所有油種的普遍排名。",
+    "已發表實驗使用 1 L 油、每次 100 g 冷凍薯條，180 °C、10 分鐘，至多 20 次；作者報告每次平均補入 100 mL 新油。這些是研究條件，不是操作建議。",
+    "作者報告三次分析並刊載均值 ± SD；不能據此假設三鍋或三批獨立油炸。沒有原始重複值。",
+    "Tukey 多重比較，p < 0.05；字母僅適用同一油種、同一指標。共享字母表示未被表中宣告顯著不同，不代表數值相同。",
+    "SD 不是 95% CI 或製程預測區間。起始比只用刊載均值計算；沒有配對與共變異資料，不繪製比值誤差棒。",
+    "五個取樣點之間的連線只輔助讀圖，不表示中間有實測點；補油歷程不能視為封閉老化，不推算速率、棄油次數、安全或保存期。"
+  ],
+  "metrics": [
+    {
+      "id": "induction",
+      "label": "氧化誘導期",
+      "unit": "h",
+      "definition": "取樣油在指定加速氧化測試中達到量測轉折所需的時間。",
+      "method": "Rancimat，120 °C、20 L/h 氣流；依氧化產物引起的電導變化判讀。",
+      "boundary": "這是取樣後的另一項加速試驗，不是炸鍋剩餘可用時間或常溫保存期。"
+    },
+    {
+      "id": "acid",
+      "label": "酸價",
+      "unit": "mg KOH/g",
+      "definition": "以每克油所對應的 KOH 毫克數表示可滴定酸當量。",
+      "method": "本文採 KOH 滴定法，僅使用表列酸價，未重建原始滴定計算。",
+      "boundary": "本文 AV 指酸價；不能當 PV、總氧化量或由此計算 TOTOX。"
+    },
+    {
+      "id": "pav",
+      "label": "對茴香胺值（p-AV）",
+      "unit": "無因次",
+      "definition": "對茴香胺反應的分析指標，反映可反應的部分次級氧化產物。",
+      "method": "本文比較 p-anisidine 反應前後於 350 nm 的吸光訊號。",
+      "boundary": "不是某一醛的 mg/kg 濃度，也不是全部次級氧化產物的總量。"
+    },
+    {
+      "id": "tpc",
+      "label": "總極性物質（TPC）",
+      "unit": "%",
+      "definition": "本研究測油儀探針所報的總極性物質百分比指標。",
+      "method": "取樣油於 40–50 °C 以測油儀探針讀值。",
+      "boundary": "屬該研究的探針量測／估測，不能改稱色譜分離後逐物質加總；兩百分比原值相減是百分點。"
+    }
+  ],
+  "oils": [
+    {
+      "id": "soybean",
+      "label": "大豆油",
+      "points": [
+        {
+          "cycle": 0,
+          "induction": {
+            "mean": 3.02,
+            "sd": 0.04,
+            "meanText": "3.02",
+            "sdText": "0.04",
+            "letters": "a"
+          },
+          "acid": {
+            "mean": 0.09,
+            "sd": 0.01,
+            "meanText": "0.09",
+            "sdText": "0.01",
+            "letters": "d"
+          },
+          "pav": {
+            "mean": 16.2,
+            "sd": 1.63,
+            "meanText": "16.2",
+            "sdText": "1.63",
+            "letters": "e"
+          },
+          "tpc": {
+            "mean": 9.67,
+            "sd": 0.04,
+            "meanText": "9.67",
+            "sdText": "0.04",
+            "letters": "c"
+          }
+        },
+        {
+          "cycle": 5,
+          "induction": {
+            "mean": 1.86,
+            "sd": 0.06,
+            "meanText": "1.86",
+            "sdText": "0.06",
+            "letters": "b"
+          },
+          "acid": {
+            "mean": 0.24,
+            "sd": 0.04,
+            "meanText": "0.24",
+            "sdText": "0.04",
+            "letters": "c"
+          },
+          "pav": {
+            "mean": 23.6,
+            "sd": 0.18,
+            "meanText": "23.6",
+            "sdText": "0.18",
+            "letters": "d"
+          },
+          "tpc": {
+            "mean": 11.5,
+            "sd": 0.41,
+            "meanText": "11.5",
+            "sdText": "0.41",
+            "letters": "b"
+          }
+        },
+        {
+          "cycle": 10,
+          "induction": {
+            "mean": 1.12,
+            "sd": 0.04,
+            "meanText": "1.12",
+            "sdText": "0.04",
+            "letters": "c"
+          },
+          "acid": {
+            "mean": 0.36,
+            "sd": 0.02,
+            "meanText": "0.36",
+            "sdText": "0.02",
+            "letters": "b"
+          },
+          "pav": {
+            "mean": 29.0,
+            "sd": 0.34,
+            "meanText": "29.0",
+            "sdText": "0.34",
+            "letters": "c"
+          },
+          "tpc": {
+            "mean": 11.8,
+            "sd": 0.23,
+            "meanText": "11.8",
+            "sdText": "0.23",
+            "letters": "b"
+          }
+        },
+        {
+          "cycle": 15,
+          "induction": {
+            "mean": 0.82,
+            "sd": 0.05,
+            "meanText": "0.82",
+            "sdText": "0.05",
+            "letters": "d"
+          },
+          "acid": {
+            "mean": 0.47,
+            "sd": 0.06,
+            "meanText": "0.47",
+            "sdText": "0.06",
+            "letters": "ab"
+          },
+          "pav": {
+            "mean": 34.4,
+            "sd": 1.98,
+            "meanText": "34.4",
+            "sdText": "1.98",
+            "letters": "b"
+          },
+          "tpc": {
+            "mean": 12.0,
+            "sd": 0.01,
+            "meanText": "12.0",
+            "sdText": "0.01",
+            "letters": "b"
+          }
+        },
+        {
+          "cycle": 20,
+          "induction": {
+            "mean": 0.81,
+            "sd": 0.04,
+            "meanText": "0.81",
+            "sdText": "0.04",
+            "letters": "d"
+          },
+          "acid": {
+            "mean": 0.52,
+            "sd": 0.01,
+            "meanText": "0.52",
+            "sdText": "0.01",
+            "letters": "a"
+          },
+          "pav": {
+            "mean": 40.3,
+            "sd": 1.81,
+            "meanText": "40.3",
+            "sdText": "1.81",
+            "letters": "a"
+          },
+          "tpc": {
+            "mean": 13.0,
+            "sd": 0.02,
+            "meanText": "13.0",
+            "sdText": "0.02",
+            "letters": "a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "canola",
+      "label": "芥花油",
+      "points": [
+        {
+          "cycle": 0,
+          "induction": {
+            "mean": 4.93,
+            "sd": 0.1,
+            "meanText": "4.93",
+            "sdText": "0.10",
+            "letters": "a"
+          },
+          "acid": {
+            "mean": 0.06,
+            "sd": 0.02,
+            "meanText": "0.06",
+            "sdText": "0.02",
+            "letters": "e"
+          },
+          "pav": {
+            "mean": 17.5,
+            "sd": 2.3,
+            "meanText": "17.5",
+            "sdText": "2.30",
+            "letters": "c"
+          },
+          "tpc": {
+            "mean": 4.67,
+            "sd": 0.12,
+            "meanText": "4.67",
+            "sdText": "0.12",
+            "letters": "d"
+          }
+        },
+        {
+          "cycle": 5,
+          "induction": {
+            "mean": 2.42,
+            "sd": 0.15,
+            "meanText": "2.42",
+            "sdText": "0.15",
+            "letters": "b"
+          },
+          "acid": {
+            "mean": 0.15,
+            "sd": 0.01,
+            "meanText": "0.15",
+            "sdText": "0.01",
+            "letters": "d"
+          },
+          "pav": {
+            "mean": 34.1,
+            "sd": 0.87,
+            "meanText": "34.1",
+            "sdText": "0.87",
+            "letters": "b"
+          },
+          "tpc": {
+            "mean": 6.17,
+            "sd": 0.23,
+            "meanText": "6.17",
+            "sdText": "0.23",
+            "letters": "c"
+          }
+        },
+        {
+          "cycle": 10,
+          "induction": {
+            "mean": 1.76,
+            "sd": 0.21,
+            "meanText": "1.76",
+            "sdText": "0.21",
+            "letters": "c"
+          },
+          "acid": {
+            "mean": 0.28,
+            "sd": 0.02,
+            "meanText": "0.28",
+            "sdText": "0.02",
+            "letters": "c"
+          },
+          "pav": {
+            "mean": 35.1,
+            "sd": 0.69,
+            "meanText": "35.1",
+            "sdText": "0.69",
+            "letters": "b"
+          },
+          "tpc": {
+            "mean": 7.33,
+            "sd": 0.25,
+            "meanText": "7.33",
+            "sdText": "0.25",
+            "letters": "b"
+          }
+        },
+        {
+          "cycle": 15,
+          "induction": {
+            "mean": 1.52,
+            "sd": 0.05,
+            "meanText": "1.52",
+            "sdText": "0.05",
+            "letters": "c"
+          },
+          "acid": {
+            "mean": 0.36,
+            "sd": 0.01,
+            "meanText": "0.36",
+            "sdText": "0.01",
+            "letters": "b"
+          },
+          "pav": {
+            "mean": 41.0,
+            "sd": 1.14,
+            "meanText": "41.0",
+            "sdText": "1.14",
+            "letters": "a"
+          },
+          "tpc": {
+            "mean": 8.0,
+            "sd": 0.1,
+            "meanText": "8.00",
+            "sdText": "0.10",
+            "letters": "ab"
+          }
+        },
+        {
+          "cycle": 20,
+          "induction": {
+            "mean": 1.39,
+            "sd": 0.19,
+            "meanText": "1.39",
+            "sdText": "0.19",
+            "letters": "c"
+          },
+          "acid": {
+            "mean": 0.44,
+            "sd": 0.01,
+            "meanText": "0.44",
+            "sdText": "0.01",
+            "letters": "a"
+          },
+          "pav": {
+            "mean": 44.5,
+            "sd": 1.22,
+            "meanText": "44.5",
+            "sdText": "1.22",
+            "letters": "a"
+          },
+          "tpc": {
+            "mean": 8.67,
+            "sd": 0.24,
+            "meanText": "8.67",
+            "sdText": "0.24",
+            "letters": "a"
+          }
+        }
+      ]
+    }
+  ]
+}
