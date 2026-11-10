@@ -1,0 +1,49 @@
+/* 課程：依考試重點（study-plan.html）。版面沿用 past-exams.css 的 .pe-* 外殼，這裡只放清單本身。 */
+.sp-views { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; }
+.sp-view { display: inline-flex; align-items: center; min-height: 36px; padding: 0 14px; border: 1px solid var(--line-strong, var(--line)); border-radius: 999px; background: var(--panel); color: var(--ink); font-size: .9375rem; text-decoration: none; }
+.sp-view.is-current { background: var(--tint, #e3f1ec); border-color: transparent; color: var(--mint-strong, var(--mint)); font-weight: 650; }
+a.sp-view:hover { border-color: var(--mint); color: var(--mint); }
+
+.sp-headline { max-width: 46em; font-size: 1.125rem; line-height: 1.75; }
+.sp-split { display: flex; gap: 3px; height: 34px; margin: 14px 0 8px; border-radius: 10px; overflow: hidden; }
+.sp-split span { display: flex; align-items: center; justify-content: center; min-width: 2.2em; color: #fff; font-size: .9375rem; font-variant-numeric: tabular-nums; }
+.sp-split .r1, .sp-legend .r1 { background: var(--mint, #11665a); }
+.sp-split .r2, .sp-legend .r2 { background: #6aa99b; }
+.sp-split .r3, .sp-legend .r3 { background: #cfd6cf; }
+.sp-split .r3 { color: #3f4c57; }
+.sp-legend { display: flex; flex-wrap: wrap; gap: 4px 20px; margin: 0 0 12px; padding: 0; list-style: none; color: var(--muted); font-size: .875rem; }
+.sp-legend i { display: inline-block; width: 12px; height: 12px; margin-right: 6px; border-radius: 3px; vertical-align: -1px; }
+.sp-progress { margin: 10px 0 0; padding: 10px 14px; border-radius: 10px; background: var(--tint, #e3f1ec); }
+
+.sp-list { margin: 12px 0 0; padding: 0; list-style: none; }
+.sp-lesson { display: grid; grid-template-columns: 2.2em minmax(0, 1fr) 11em; gap: 4px 12px; align-items: start; padding: 12px 0; border-top: 1px solid var(--line); }
+.sp-rank { color: var(--muted); font-variant-numeric: tabular-nums; font-weight: 600; text-align: right; padding-top: 1px; }
+.sp-main { display: grid; gap: 2px; min-width: 0; }
+.sp-title { font-weight: 650; font-size: 1.03125rem; text-decoration: none; }
+.sp-title:hover { text-decoration: underline; }
+.sp-topic { color: var(--muted); font-size: .875rem; }
+.sp-done { color: var(--mint); font-weight: 600; }
+.sp-lesson.is-done .sp-rank::after { content: ' ✓'; color: var(--mint); }
+.sp-asked { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 6px; color: var(--muted); font-size: .8125rem; }
+.sp-q { padding: 1px 8px; border: 1px solid var(--line-strong, var(--line)); border-radius: 999px; background: var(--panel); color: var(--mint); text-decoration: none; white-space: nowrap; }
+.sp-q:hover { border-color: var(--mint); background: var(--tint, #e3f1ec); }
+.sp-points { display: grid; gap: 4px; justify-items: end; font-variant-numeric: tabular-nums; }
+.sp-bar { display: block; width: 100%; height: 10px; border-radius: 5px; background: #eef0eb; overflow: hidden; }
+.sp-bar > span { display: block; height: 100%; border-radius: 5px; background: var(--mint); }
+
+.sp-fold > summary { display: grid; gap: 2px; cursor: pointer; list-style-position: outside; }
+.sp-fold > summary h2 { display: inline; margin: 0; }
+.sp-fold > summary::marker { color: var(--mint); }
+.sp-fold[open] > summary { margin-bottom: 4px; }
+.sp-rest { margin: 6px 0 12px; padding: 0; list-style: none; }
+.sp-rest li { display: flex; flex-wrap: wrap; gap: 4px 14px; padding: 8px 0; border-top: 1px solid var(--line); font-size: .9375rem; }
+.sp-rest-topic { flex: 0 0 100%; color: var(--muted); font-size: .8125rem; font-weight: 600; }
+.sp-rest a { text-decoration: none; }
+.sp-rest a:hover { text-decoration: underline; }
+.sp-rest a.is-done::after { content: ' ✓'; }
+
+@media (max-width: 640px) {
+  .sp-lesson { grid-template-columns: 1.8em minmax(0, 1fr); }
+  .sp-points { grid-column: 2; grid-template-columns: minmax(0, 1fr) auto; align-items: center; justify-items: stretch; gap: 10px; }
+  .sp-headline { font-size: 1.0625rem; }
+}

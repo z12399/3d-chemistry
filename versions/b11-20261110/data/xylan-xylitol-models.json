@@ -1,0 +1,6976 @@
+{
+  "schema": "xylan-xylitol-models/v1",
+  "version": 1,
+  "id": "xylan-xylitol-evidence",
+  "name": "木聚糖 → 木糖 → 木糖醇：完整分子與淨收支",
+  "states": [
+    {
+      "id": "xylan-water",
+      "name": "未取代 β-(1→4) 木聚糖三聚體與兩份水",
+      "components": [
+        {
+          "id": "xylotriose",
+          "name": "完整未取代 β-(1→4) 木聚糖三聚體",
+          "formula": "C15H26O13",
+          "atoms": [
+            {
+              "id": "A_C1",
+              "element": "C",
+              "position": [
+                -3.436124,
+                0.075325,
+                -0.852037
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C2",
+              "element": "C",
+              "position": [
+                -4.448757,
+                0.162296,
+                -2.011826
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C3",
+              "element": "C",
+              "position": [
+                -5.846179,
+                0.404671,
+                -1.445273
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C4",
+              "element": "C",
+              "position": [
+                -6.193069,
+                -0.656102,
+                -0.399353
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C5",
+              "element": "C",
+              "position": [
+                -5.07764,
+                -0.742792,
+                0.641389
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O2",
+              "element": "O",
+              "position": [
+                -4.126229,
+                1.226102,
+                -2.922671
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O3",
+              "element": "O",
+              "position": [
+                -6.825481,
+                0.371039,
+                -2.496371
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O4",
+              "element": "O",
+              "position": [
+                -7.437749,
+                -0.330825,
+                0.219983
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O5",
+              "element": "O",
+              "position": [
+                -3.812756,
+                -0.987625,
+                0.022531
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC1",
+              "element": "H",
+              "position": [
+                -3.397907,
+                1.039741,
+                -0.329287
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC2",
+              "element": "H",
+              "position": [
+                -4.440272,
+                -0.763015,
+                -2.601523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC3",
+              "element": "H",
+              "position": [
+                -5.916973,
+                1.408927,
+                -1.008829
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC4",
+              "element": "H",
+              "position": [
+                -6.317603,
+                -1.627765,
+                -0.892901
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5a",
+              "element": "H",
+              "position": [
+                -5.025071,
+                0.168224,
+                1.25071
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5b",
+              "element": "H",
+              "position": [
+                -5.28162,
+                -1.565135,
+                1.335716
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO2",
+              "element": "H",
+              "position": [
+                -3.19236,
+                1.077414,
+                -3.169569
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO3",
+              "element": "H",
+              "position": [
+                -6.456258,
+                0.938461,
+                -3.203411
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO4",
+              "element": "H",
+              "position": [
+                -8.04973,
+                -0.144763,
+                -0.520445
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_C1",
+              "element": "C",
+              "position": [
+                1.522195,
+                -0.525699,
+                0.475719
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "B_C2",
+              "element": "C",
+              "position": [
+                0.425206,
+                0.045287,
+                1.383534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C3",
+              "element": "C",
+              "position": [
+                -0.961282,
+                -0.191914,
+                0.77728
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C4",
+              "element": "C",
+              "position": [
+                -1.027287,
+                0.26574,
+                -0.693646
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C5",
+              "element": "C",
+              "position": [
+                0.205464,
+                -0.246937,
+                -1.453846
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O2",
+              "element": "O",
+              "position": [
+                0.466503,
+                -0.549147,
+                2.692552
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O3",
+              "element": "O",
+              "position": [
+                -1.902694,
+                0.546094,
+                1.580127
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O4",
+              "element": "O",
+              "position": [
+                -2.162439,
+                -0.214256,
+                -1.434532
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O5",
+              "element": "O",
+              "position": [
+                1.433103,
+                0.073578,
+                -0.807437
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC1",
+              "element": "H",
+              "position": [
+                1.431372,
+                -1.618225,
+                0.409136
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC2",
+              "element": "H",
+              "position": [
+                0.581938,
+                1.121712,
+                1.531519
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC3",
+              "element": "H",
+              "position": [
+                -1.243556,
+                -1.248359,
+                0.860378
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC4",
+              "element": "H",
+              "position": [
+                -1.041294,
+                1.362857,
+                -0.727147
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5a",
+              "element": "H",
+              "position": [
+                0.146854,
+                -1.332076,
+                -1.610636
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5b",
+              "element": "H",
+              "position": [
+                0.227475,
+                0.198892,
+                -2.454949
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO2",
+              "element": "H",
+              "position": [
+                1.386782,
+                -0.435703,
+                3.002985
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO3",
+              "element": "H",
+              "position": [
+                -1.753635,
+                0.233563,
+                2.495422
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_C1",
+              "element": "C",
+              "position": [
+                6.121465,
+                0.804672,
+                1.400865
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C2",
+              "element": "C",
+              "position": [
+                5.187388,
+                1.401162,
+                0.328177
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C3",
+              "element": "C",
+              "position": [
+                4.564107,
+                0.270404,
+                -0.513205
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C4",
+              "element": "C",
+              "position": [
+                3.90332,
+                -0.783715,
+                0.395179
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C5",
+              "element": "C",
+              "position": [
+                4.906468,
+                -1.250206,
+                1.458999
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O1",
+              "element": "O",
+              "position": [
+                7.252396,
+                0.196908,
+                0.78723
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O2",
+              "element": "O",
+              "position": [
+                4.170719,
+                2.201262,
+                0.946114
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O3",
+              "element": "O",
+              "position": [
+                5.540654,
+                -0.361274,
+                -1.354549
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O4",
+              "element": "O",
+              "position": [
+                2.778615,
+                -0.215618,
+                1.096681
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O5",
+              "element": "O",
+              "position": [
+                5.44964,
+                -0.157258,
+                2.209712
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC1",
+              "element": "H",
+              "position": [
+                6.46863,
+                1.604908,
+                2.06387
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC2",
+              "element": "H",
+              "position": [
+                5.773258,
+                2.055249,
+                -0.327865
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC3",
+              "element": "H",
+              "position": [
+                3.811147,
+                0.708836,
+                -1.174869
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC4",
+              "element": "H",
+              "position": [
+                3.597394,
+                -1.661958,
+                -0.187295
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5a",
+              "element": "H",
+              "position": [
+                4.400372,
+                -1.899718,
+                2.181472
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5b",
+              "element": "H",
+              "position": [
+                5.723294,
+                -1.829224,
+                1.01374
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO2",
+              "element": "H",
+              "position": [
+                3.579365,
+                1.579027,
+                1.417038
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO3",
+              "element": "H",
+              "position": [
+                6.399319,
+                -0.349727,
+                -0.880098
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO5",
+              "element": "H",
+              "position": [
+                7.919519,
+                0.146684,
+                1.495515
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_C1",
+              "b": "A_C2",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_C3",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_O2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_C4",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_O3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_C5",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_O4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_HC1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_HC2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_HC3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_HC4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5a",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5b",
+              "order": 1
+            },
+            {
+              "a": "A_O2",
+              "b": "A_HO2",
+              "order": 1
+            },
+            {
+              "a": "A_O3",
+              "b": "A_HO3",
+              "order": 1
+            },
+            {
+              "a": "A_O4",
+              "b": "A_HO4",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_C2",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_C3",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_O2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_C4",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_O3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_C5",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_HC1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_HC2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_HC3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_HC4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5a",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5b",
+              "order": 1
+            },
+            {
+              "a": "B_O2",
+              "b": "B_HO2",
+              "order": 1
+            },
+            {
+              "a": "B_O3",
+              "b": "B_HO3",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_C2",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_C3",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_O2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_C4",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_O3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_C5",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_O4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_HC1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_HC2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_HC3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_HC4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5a",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5b",
+              "order": 1
+            },
+            {
+              "a": "C_O2",
+              "b": "C_HO2",
+              "order": 1
+            },
+            {
+              "a": "C_O3",
+              "b": "C_HO3",
+              "order": 1
+            },
+            {
+              "a": "C_O1",
+              "b": "C_HO5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "C_O4",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "constructed-finite-oligomer",
+            "formula": "C15H26O13",
+            "inchi": "InChI=1S/C15H26O13/c16-4-1-25-14(11(21)7(4)17)28-6-3-26-15(12(22)9(6)19)27-5-2-24-13(23)10(20)8(5)18/h4-23H,1-3H2/t4-,5-,6-,7+,8+,9+,10-,11-,12-,13-,14+,15+/m1/s1",
+            "inchiKey": "JCSJTDYCNQHPRJ-MMDFAQQLSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O[C@@H]2CO[C@@H](O[C@@H]3CO[C@@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)OC[C@H]1O",
+            "sourceIds": [
+              "xylitol-source-xylan2016",
+              "xylitol-source-chebi"
+            ],
+            "linkage": "beta-D-Xylp-(1→4)-beta-D-Xylp-(1→4)-beta-D-Xylp",
+            "reducingEndAnomer": "chosen beta representative; may mutarotate",
+            "scope": "finite unsubstituted trimer derived from identified monomers and beta-(1→4) linkage; not an experimental structure or all natural xylans"
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 12,
+            "convergedConformerCount": 12,
+            "selectedConformerId": 9,
+            "selectedEnergyKcalMol": 215.07997430364625,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "A_C2": {
+                "neighbors": [
+                  "A_O2",
+                  "A_C1",
+                  "A_C3",
+                  "A_HC2"
+                ],
+                "volumeAngstromCubed": -8.29411874148697,
+                "sign": -1
+              },
+              "A_C3": {
+                "neighbors": [
+                  "A_O3",
+                  "A_C2",
+                  "A_C4",
+                  "A_HC3"
+                ],
+                "volumeAngstromCubed": 8.235413750174844,
+                "sign": 1
+              },
+              "A_C4": {
+                "neighbors": [
+                  "A_O4",
+                  "A_C3",
+                  "A_C5",
+                  "A_HC4"
+                ],
+                "volumeAngstromCubed": -8.207285354700797,
+                "sign": -1
+              },
+              "A_C1": {
+                "neighbors": [
+                  "A_O5",
+                  "A_C2",
+                  "B_O4",
+                  "A_HC1"
+                ],
+                "volumeAngstromCubed": 7.886985198156387,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              },
+              "B_C2": {
+                "neighbors": [
+                  "B_O2",
+                  "B_C1",
+                  "B_C3",
+                  "B_HC2"
+                ],
+                "volumeAngstromCubed": -8.276413673205427,
+                "sign": -1
+              },
+              "B_C3": {
+                "neighbors": [
+                  "B_O3",
+                  "B_C2",
+                  "B_C4",
+                  "B_HC3"
+                ],
+                "volumeAngstromCubed": 8.320990019887015,
+                "sign": 1
+              },
+              "B_C4": {
+                "neighbors": [
+                  "B_O4",
+                  "B_C3",
+                  "B_C5",
+                  "B_HC4"
+                ],
+                "volumeAngstromCubed": -8.31185596380338,
+                "sign": -1
+              },
+              "B_C1": {
+                "neighbors": [
+                  "B_O5",
+                  "B_C2",
+                  "C_O4",
+                  "B_HC1"
+                ],
+                "volumeAngstromCubed": 7.834316715708607,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              },
+              "C_C2": {
+                "neighbors": [
+                  "C_O2",
+                  "C_C1",
+                  "C_C3",
+                  "C_HC2"
+                ],
+                "volumeAngstromCubed": -8.330087317534149,
+                "sign": -1
+              },
+              "C_C3": {
+                "neighbors": [
+                  "C_O3",
+                  "C_C2",
+                  "C_C4",
+                  "C_HC3"
+                ],
+                "volumeAngstromCubed": 8.304428062602684,
+                "sign": 1
+              },
+              "C_C4": {
+                "neighbors": [
+                  "C_O4",
+                  "C_C3",
+                  "C_C5",
+                  "C_HC4"
+                ],
+                "volumeAngstromCubed": -8.370383006546298,
+                "sign": -1
+              },
+              "C_C1": {
+                "neighbors": [
+                  "C_O5",
+                  "C_C2",
+                  "C_O1",
+                  "C_HC1"
+                ],
+                "volumeAngstromCubed": 7.791159988776161,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/xylotriose.svg",
+            "width": 1160,
+            "height": 440,
+            "sha256": "d740766a7cc0515550721165808456192c7766004d00015e788298b2ce2f26c9",
+            "graphSha256": "88f4f9a2265e25ef13a16e6b19a291c19ec4828241697f50fa2095df60878bbb",
+            "sourceIds": [
+              "xylitol-source-xylan2016",
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "A_C1",
+              "A_C2",
+              "A_C3",
+              "A_C4",
+              "A_C5",
+              "A_HC1",
+              "A_HC2",
+              "A_HC3",
+              "A_HC4",
+              "A_HC5a",
+              "A_HC5b",
+              "A_HO2",
+              "A_HO3",
+              "A_HO4",
+              "A_O2",
+              "A_O3",
+              "A_O4",
+              "A_O5",
+              "B_C1",
+              "B_C2",
+              "B_C3",
+              "B_C4",
+              "B_C5",
+              "B_HC1",
+              "B_HC2",
+              "B_HC3",
+              "B_HC4",
+              "B_HC5a",
+              "B_HC5b",
+              "B_HO2",
+              "B_HO3",
+              "B_O2",
+              "B_O3",
+              "B_O4",
+              "B_O5",
+              "C_C1",
+              "C_C2",
+              "C_C3",
+              "C_C4",
+              "C_C5",
+              "C_HC1",
+              "C_HC2",
+              "C_HC3",
+              "C_HC4",
+              "C_HC5a",
+              "C_HC5b",
+              "C_HO2",
+              "C_HO3",
+              "C_HO5",
+              "C_O1",
+              "C_O2",
+              "C_O3",
+              "C_O4",
+              "C_O5"
+            ],
+            "explicitHydrogenCount": 26,
+            "inchi": "InChI=1S/C15H26O13/c16-4-1-25-14(11(21)7(4)17)28-6-3-26-15(12(22)9(6)19)27-5-2-24-13(23)10(20)8(5)18/h4-23H,1-3H2/t4-,5-,6-,7+,8+,9+,10-,11-,12-,13-,14+,15+/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "water-AB",
+          "name": "形式配平水：A–B 鍵",
+          "formula": "H2O",
+          "atoms": [
+            {
+              "id": "A_O1",
+              "element": "O",
+              "position": [
+                0.005879,
+                0.397772,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO5",
+              "element": "H",
+              "position": [
+                -0.766324,
+                -0.187603,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO4",
+              "element": "H",
+              "position": [
+                0.760445,
+                -0.210169,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_O1",
+              "b": "A_HO5",
+              "order": 1
+            },
+            {
+              "a": "A_O1",
+              "b": "B_HO4",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "stoichiometric-small-molecule",
+            "formula": "H2O",
+            "inchi": "InChI=1S/H2O/h1H2",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "sourceIds": [
+              "xylitol-source-ntu115-q2",
+              "xylitol-source-xylan2016"
+            ],
+            "scope": "formal net water accounting; no isotope-origin claim"
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 1,
+            "selectedEnergyKcalMol": 4.866184555198152e-13,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {}
+          }
+        },
+        {
+          "id": "water-BC",
+          "name": "形式配平水：B–C 鍵",
+          "formula": "H2O",
+          "atoms": [
+            {
+              "id": "B_O1",
+              "element": "O",
+              "position": [
+                0.005879,
+                0.397772,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO5",
+              "element": "H",
+              "position": [
+                -0.766324,
+                -0.187603,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO4",
+              "element": "H",
+              "position": [
+                0.760445,
+                -0.210169,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_O1",
+              "b": "B_HO5",
+              "order": 1
+            },
+            {
+              "a": "B_O1",
+              "b": "C_HO4",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "stoichiometric-small-molecule",
+            "formula": "H2O",
+            "inchi": "InChI=1S/H2O/h1H2",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "sourceIds": [
+              "xylitol-source-ntu115-q2",
+              "xylitol-source-xylan2016"
+            ],
+            "scope": "formal net water accounting; no isotope-origin claim"
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 1,
+            "selectedEnergyKcalMol": 4.866184555198152e-13,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {}
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 15,
+        "O": 15,
+        "H": 30
+      },
+      "totalFormula": "C15H30O15",
+      "atomCount": 60,
+      "totalCharge": 0,
+      "metadata": {
+        "interpretation": "complete finite neutral net-endpoint account; component display does not remove spectator molecules",
+        "isTrajectory": false,
+        "isExperimentalGeometry": false
+      }
+    },
+    {
+      "id": "xylose-rings",
+      "name": "三份選定 β-D-吡喃木糖端點",
+      "components": [
+        {
+          "id": "unit-A",
+          "name": "A：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "A_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_C1",
+              "b": "A_C2",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_C3",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_O2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_C4",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_O3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_C5",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_O4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_HC1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_HC2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_HC3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_HC4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5a",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5b",
+              "order": 1
+            },
+            {
+              "a": "A_O2",
+              "b": "A_HO2",
+              "order": 1
+            },
+            {
+              "a": "A_O3",
+              "b": "A_HO3",
+              "order": 1
+            },
+            {
+              "a": "A_O4",
+              "b": "A_HO4",
+              "order": 1
+            },
+            {
+              "a": "A_O1",
+              "b": "A_HO5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "A_C2": {
+                "neighbors": [
+                  "A_O2",
+                  "A_C1",
+                  "A_C3",
+                  "A_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "A_C3": {
+                "neighbors": [
+                  "A_O3",
+                  "A_C2",
+                  "A_C4",
+                  "A_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "A_C4": {
+                "neighbors": [
+                  "A_O4",
+                  "A_C3",
+                  "A_C5",
+                  "A_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "A_C1": {
+                "neighbors": [
+                  "A_O5",
+                  "A_C2",
+                  "A_O1",
+                  "A_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/A-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "2a76810cde9e70aa2ccb8c42d81b2921439a81edf159e3817c75bd5d6bbf039d",
+            "graphSha256": "853f8949e235a02f0f3ce2770013fe774d814af7f81bddb5e06ffad386aa442f",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "A_C1",
+              "A_C2",
+              "A_C3",
+              "A_C4",
+              "A_C5",
+              "A_HC1",
+              "A_HC2",
+              "A_HC3",
+              "A_HC4",
+              "A_HC5a",
+              "A_HC5b",
+              "A_HO2",
+              "A_HO3",
+              "A_HO4",
+              "A_HO5",
+              "A_O1",
+              "A_O2",
+              "A_O3",
+              "A_O4",
+              "A_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-B",
+          "name": "B：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "B_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "B_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_C1",
+              "b": "B_C2",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_C3",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_O2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_C4",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_O3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_C5",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_HC1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_HC2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_HC3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_HC4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5a",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5b",
+              "order": 1
+            },
+            {
+              "a": "B_O2",
+              "b": "B_HO2",
+              "order": 1
+            },
+            {
+              "a": "B_O3",
+              "b": "B_HO3",
+              "order": 1
+            },
+            {
+              "a": "B_O4",
+              "b": "B_HO4",
+              "order": 1
+            },
+            {
+              "a": "B_O1",
+              "b": "B_HO5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "B_C2": {
+                "neighbors": [
+                  "B_O2",
+                  "B_C1",
+                  "B_C3",
+                  "B_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "B_C3": {
+                "neighbors": [
+                  "B_O3",
+                  "B_C2",
+                  "B_C4",
+                  "B_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "B_C4": {
+                "neighbors": [
+                  "B_O4",
+                  "B_C3",
+                  "B_C5",
+                  "B_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "B_C1": {
+                "neighbors": [
+                  "B_O5",
+                  "B_C2",
+                  "B_O1",
+                  "B_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/B-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "30a06e6dfce662a33e184048836d6ec65e05ab24db048e66ac5c9714c2e7a6da",
+            "graphSha256": "19e02d2ded148a221589ddb2a2f232cef672a0e9f070acbe58e5423388d2b759",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "B_C1",
+              "B_C2",
+              "B_C3",
+              "B_C4",
+              "B_C5",
+              "B_HC1",
+              "B_HC2",
+              "B_HC3",
+              "B_HC4",
+              "B_HC5a",
+              "B_HC5b",
+              "B_HO2",
+              "B_HO3",
+              "B_HO4",
+              "B_HO5",
+              "B_O1",
+              "B_O2",
+              "B_O3",
+              "B_O4",
+              "B_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-C",
+          "name": "C：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "C_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C_C1",
+              "b": "C_C2",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_C3",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_O2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_C4",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_O3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_C5",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_O4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_HC1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_HC2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_HC3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_HC4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5a",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5b",
+              "order": 1
+            },
+            {
+              "a": "C_O2",
+              "b": "C_HO2",
+              "order": 1
+            },
+            {
+              "a": "C_O3",
+              "b": "C_HO3",
+              "order": 1
+            },
+            {
+              "a": "C_O4",
+              "b": "C_HO4",
+              "order": 1
+            },
+            {
+              "a": "C_O1",
+              "b": "C_HO5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "C_C2": {
+                "neighbors": [
+                  "C_O2",
+                  "C_C1",
+                  "C_C3",
+                  "C_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "C_C3": {
+                "neighbors": [
+                  "C_O3",
+                  "C_C2",
+                  "C_C4",
+                  "C_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "C_C4": {
+                "neighbors": [
+                  "C_O4",
+                  "C_C3",
+                  "C_C5",
+                  "C_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "C_C1": {
+                "neighbors": [
+                  "C_O5",
+                  "C_C2",
+                  "C_O1",
+                  "C_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/C-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "9268f57a4dffb5de556b55612fcdfc67cd94f3242cf390f767aedd57af685594",
+            "graphSha256": "9cef1c306739b587ccb869047842850e3c9ebfc53443bffbf2fc05eeaf1abe37",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "C_C1",
+              "C_C2",
+              "C_C3",
+              "C_C4",
+              "C_C5",
+              "C_HC1",
+              "C_HC2",
+              "C_HC3",
+              "C_HC4",
+              "C_HC5a",
+              "C_HC5b",
+              "C_HO2",
+              "C_HO3",
+              "C_HO4",
+              "C_HO5",
+              "C_O1",
+              "C_O2",
+              "C_O3",
+              "C_O4",
+              "C_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 15,
+        "O": 15,
+        "H": 30
+      },
+      "totalFormula": "C15H30O15",
+      "atomCount": 60,
+      "totalCharge": 0,
+      "metadata": {
+        "interpretation": "complete finite neutral net-endpoint account; component display does not remove spectator molecules",
+        "isTrajectory": false,
+        "isExperimentalGeometry": false
+      }
+    },
+    {
+      "id": "xylose-open",
+      "name": "只展開中間 B；A、C 保留環形",
+      "components": [
+        {
+          "id": "unit-A",
+          "name": "A：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "A_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_C1",
+              "b": "A_C2",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_C3",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_O2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_C4",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_O3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_C5",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_O4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_HC1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_HC2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_HC3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_HC4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5a",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5b",
+              "order": 1
+            },
+            {
+              "a": "A_O2",
+              "b": "A_HO2",
+              "order": 1
+            },
+            {
+              "a": "A_O3",
+              "b": "A_HO3",
+              "order": 1
+            },
+            {
+              "a": "A_O4",
+              "b": "A_HO4",
+              "order": 1
+            },
+            {
+              "a": "A_O1",
+              "b": "A_HO5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "A_C2": {
+                "neighbors": [
+                  "A_O2",
+                  "A_C1",
+                  "A_C3",
+                  "A_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "A_C3": {
+                "neighbors": [
+                  "A_O3",
+                  "A_C2",
+                  "A_C4",
+                  "A_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "A_C4": {
+                "neighbors": [
+                  "A_O4",
+                  "A_C3",
+                  "A_C5",
+                  "A_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "A_C1": {
+                "neighbors": [
+                  "A_O5",
+                  "A_C2",
+                  "A_O1",
+                  "A_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/A-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "2a76810cde9e70aa2ccb8c42d81b2921439a81edf159e3817c75bd5d6bbf039d",
+            "graphSha256": "853f8949e235a02f0f3ce2770013fe774d814af7f81bddb5e06ffad386aa442f",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "A_C1",
+              "A_C2",
+              "A_C3",
+              "A_C4",
+              "A_C5",
+              "A_HC1",
+              "A_HC2",
+              "A_HC3",
+              "A_HC4",
+              "A_HC5a",
+              "A_HC5b",
+              "A_HO2",
+              "A_HO3",
+              "A_HO4",
+              "A_HO5",
+              "A_O1",
+              "A_O2",
+              "A_O3",
+              "A_O4",
+              "A_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-B",
+          "name": "B：開鏈 D-木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "B_C1",
+              "element": "C",
+              "position": [
+                -2.656427,
+                -0.561462,
+                0.05146
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_C2",
+              "element": "C",
+              "position": [
+                -1.331264,
+                0.096376,
+                0.404654
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C3",
+              "element": "C",
+              "position": [
+                -0.23974,
+                -0.355388,
+                -0.568918
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "B_C4",
+              "element": "C",
+              "position": [
+                1.162182,
+                0.181086,
+                -0.229774
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C5",
+              "element": "C",
+              "position": [
+                1.69282,
+                -0.284789,
+                1.125899
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O1",
+              "element": "O",
+              "position": [
+                -3.71991,
+                0.056037,
+                0.075395
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O2",
+              "element": "O",
+              "position": [
+                -1.451372,
+                1.517103,
+                0.342734
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O3",
+              "element": "O",
+              "position": [
+                -0.554018,
+                0.12839,
+                -1.89346
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O4",
+              "element": "O",
+              "position": [
+                2.083661,
+                -0.294254,
+                -1.236096
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O5",
+              "element": "O",
+              "position": [
+                3.038235,
+                0.162205,
+                1.288416
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC1",
+              "element": "H",
+              "position": [
+                -2.626589,
+                -1.644315,
+                -0.156784
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC2",
+              "element": "H",
+              "position": [
+                -1.096312,
+                -0.195704,
+                1.432253
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC3",
+              "element": "H",
+              "position": [
+                -0.208761,
+                -1.448612,
+                -0.644412
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC4",
+              "element": "H",
+              "position": [
+                1.196841,
+                1.274621,
+                -0.295956
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5a",
+              "element": "H",
+              "position": [
+                1.704435,
+                -1.377777,
+                1.18821
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5b",
+              "element": "H",
+              "position": [
+                1.103523,
+                0.112516,
+                1.955916
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO2",
+              "element": "H",
+              "position": [
+                -2.371932,
+                1.724644,
+                0.610772
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO3",
+              "element": "H",
+              "position": [
+                -0.810668,
+                1.068678,
+                -1.781377
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO4",
+              "element": "H",
+              "position": [
+                1.621346,
+                -0.162558,
+                -2.089644
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO5",
+              "element": "H",
+              "position": [
+                3.463949,
+                0.003201,
+                0.420712
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_C1",
+              "b": "B_C2",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O1",
+              "order": 2
+            },
+            {
+              "a": "B_C2",
+              "b": "B_C3",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_O2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_C4",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_O3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_C5",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_HC1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_HC2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_HC3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_HC4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5a",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5b",
+              "order": 1
+            },
+            {
+              "a": "B_O2",
+              "b": "B_HO2",
+              "order": 1
+            },
+            {
+              "a": "B_O3",
+              "b": "B_HO3",
+              "order": 1
+            },
+            {
+              "a": "B_O4",
+              "b": "B_HO4",
+              "order": 1
+            },
+            {
+              "a": "B_O5",
+              "b": "B_HO5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",
+            "inchiKey": "PYMYPHUHKUWMLA-VPENINKCSA-N",
+            "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O)CO",
+            "chebiId": "CHEBI:15936",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:15936",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 0,
+            "selectedEnergyKcalMol": 68.64199275701901,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "B_C2": {
+                "neighbors": [
+                  "B_O2",
+                  "B_C1",
+                  "B_C3",
+                  "B_HC2"
+                ],
+                "volumeAngstromCubed": -8.16766884292424,
+                "sign": -1
+              },
+              "B_C3": {
+                "neighbors": [
+                  "B_O3",
+                  "B_C2",
+                  "B_C4",
+                  "B_HC3"
+                ],
+                "volumeAngstromCubed": 8.301675653272639,
+                "sign": 1
+              },
+              "B_C4": {
+                "neighbors": [
+                  "B_O4",
+                  "B_C3",
+                  "B_C5",
+                  "B_HC4"
+                ],
+                "volumeAngstromCubed": -8.291185457602136,
+                "sign": -1
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/B-open.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "70afa9f3643c279eaed8411a71a759607c5edd9ea4784907f2e0cea56cfacf01",
+            "graphSha256": "a712cfa13629ab21f9c2c03abd1245259b74165111d7ee4cdc1b242aad28b152",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "B_C1",
+              "B_C2",
+              "B_C3",
+              "B_C4",
+              "B_C5",
+              "B_HC1",
+              "B_HC2",
+              "B_HC3",
+              "B_HC4",
+              "B_HC5a",
+              "B_HC5b",
+              "B_HO2",
+              "B_HO3",
+              "B_HO4",
+              "B_HO5",
+              "B_O1",
+              "B_O2",
+              "B_O3",
+              "B_O4",
+              "B_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-C",
+          "name": "C：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "C_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C_C1",
+              "b": "C_C2",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_C3",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_O2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_C4",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_O3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_C5",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_O4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_HC1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_HC2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_HC3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_HC4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5a",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5b",
+              "order": 1
+            },
+            {
+              "a": "C_O2",
+              "b": "C_HO2",
+              "order": 1
+            },
+            {
+              "a": "C_O3",
+              "b": "C_HO3",
+              "order": 1
+            },
+            {
+              "a": "C_O4",
+              "b": "C_HO4",
+              "order": 1
+            },
+            {
+              "a": "C_O1",
+              "b": "C_HO5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "C_C2": {
+                "neighbors": [
+                  "C_O2",
+                  "C_C1",
+                  "C_C3",
+                  "C_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "C_C3": {
+                "neighbors": [
+                  "C_O3",
+                  "C_C2",
+                  "C_C4",
+                  "C_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "C_C4": {
+                "neighbors": [
+                  "C_O4",
+                  "C_C3",
+                  "C_C5",
+                  "C_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "C_C1": {
+                "neighbors": [
+                  "C_O5",
+                  "C_C2",
+                  "C_O1",
+                  "C_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/C-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "9268f57a4dffb5de556b55612fcdfc67cd94f3242cf390f767aedd57af685594",
+            "graphSha256": "9cef1c306739b587ccb869047842850e3c9ebfc53443bffbf2fc05eeaf1abe37",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "C_C1",
+              "C_C2",
+              "C_C3",
+              "C_C4",
+              "C_C5",
+              "C_HC1",
+              "C_HC2",
+              "C_HC3",
+              "C_HC4",
+              "C_HC5a",
+              "C_HC5b",
+              "C_HO2",
+              "C_HO3",
+              "C_HO4",
+              "C_HO5",
+              "C_O1",
+              "C_O2",
+              "C_O3",
+              "C_O4",
+              "C_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 15,
+        "O": 15,
+        "H": 30
+      },
+      "totalFormula": "C15H30O15",
+      "atomCount": 60,
+      "totalCharge": 0,
+      "metadata": {
+        "interpretation": "complete finite neutral net-endpoint account; component display does not remove spectator molecules",
+        "isTrajectory": false,
+        "isExperimentalGeometry": false
+      }
+    },
+    {
+      "id": "xylose-hydrogen",
+      "name": "中間 B 開鏈木糖與一份 H₂；A、C 保留",
+      "components": [
+        {
+          "id": "unit-A",
+          "name": "A：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "A_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_C1",
+              "b": "A_C2",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_C3",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_O2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_C4",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_O3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_C5",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_O4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_HC1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_HC2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_HC3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_HC4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5a",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5b",
+              "order": 1
+            },
+            {
+              "a": "A_O2",
+              "b": "A_HO2",
+              "order": 1
+            },
+            {
+              "a": "A_O3",
+              "b": "A_HO3",
+              "order": 1
+            },
+            {
+              "a": "A_O4",
+              "b": "A_HO4",
+              "order": 1
+            },
+            {
+              "a": "A_O1",
+              "b": "A_HO5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "A_C2": {
+                "neighbors": [
+                  "A_O2",
+                  "A_C1",
+                  "A_C3",
+                  "A_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "A_C3": {
+                "neighbors": [
+                  "A_O3",
+                  "A_C2",
+                  "A_C4",
+                  "A_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "A_C4": {
+                "neighbors": [
+                  "A_O4",
+                  "A_C3",
+                  "A_C5",
+                  "A_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "A_C1": {
+                "neighbors": [
+                  "A_O5",
+                  "A_C2",
+                  "A_O1",
+                  "A_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/A-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "2a76810cde9e70aa2ccb8c42d81b2921439a81edf159e3817c75bd5d6bbf039d",
+            "graphSha256": "853f8949e235a02f0f3ce2770013fe774d814af7f81bddb5e06ffad386aa442f",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "A_C1",
+              "A_C2",
+              "A_C3",
+              "A_C4",
+              "A_C5",
+              "A_HC1",
+              "A_HC2",
+              "A_HC3",
+              "A_HC4",
+              "A_HC5a",
+              "A_HC5b",
+              "A_HO2",
+              "A_HO3",
+              "A_HO4",
+              "A_HO5",
+              "A_O1",
+              "A_O2",
+              "A_O3",
+              "A_O4",
+              "A_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-B",
+          "name": "B：開鏈 D-木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "B_C1",
+              "element": "C",
+              "position": [
+                -2.656427,
+                -0.561462,
+                0.05146
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_C2",
+              "element": "C",
+              "position": [
+                -1.331264,
+                0.096376,
+                0.404654
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C3",
+              "element": "C",
+              "position": [
+                -0.23974,
+                -0.355388,
+                -0.568918
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "B_C4",
+              "element": "C",
+              "position": [
+                1.162182,
+                0.181086,
+                -0.229774
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C5",
+              "element": "C",
+              "position": [
+                1.69282,
+                -0.284789,
+                1.125899
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O1",
+              "element": "O",
+              "position": [
+                -3.71991,
+                0.056037,
+                0.075395
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O2",
+              "element": "O",
+              "position": [
+                -1.451372,
+                1.517103,
+                0.342734
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O3",
+              "element": "O",
+              "position": [
+                -0.554018,
+                0.12839,
+                -1.89346
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O4",
+              "element": "O",
+              "position": [
+                2.083661,
+                -0.294254,
+                -1.236096
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O5",
+              "element": "O",
+              "position": [
+                3.038235,
+                0.162205,
+                1.288416
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC1",
+              "element": "H",
+              "position": [
+                -2.626589,
+                -1.644315,
+                -0.156784
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC2",
+              "element": "H",
+              "position": [
+                -1.096312,
+                -0.195704,
+                1.432253
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC3",
+              "element": "H",
+              "position": [
+                -0.208761,
+                -1.448612,
+                -0.644412
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC4",
+              "element": "H",
+              "position": [
+                1.196841,
+                1.274621,
+                -0.295956
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5a",
+              "element": "H",
+              "position": [
+                1.704435,
+                -1.377777,
+                1.18821
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5b",
+              "element": "H",
+              "position": [
+                1.103523,
+                0.112516,
+                1.955916
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO2",
+              "element": "H",
+              "position": [
+                -2.371932,
+                1.724644,
+                0.610772
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO3",
+              "element": "H",
+              "position": [
+                -0.810668,
+                1.068678,
+                -1.781377
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO4",
+              "element": "H",
+              "position": [
+                1.621346,
+                -0.162558,
+                -2.089644
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO5",
+              "element": "H",
+              "position": [
+                3.463949,
+                0.003201,
+                0.420712
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_C1",
+              "b": "B_C2",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O1",
+              "order": 2
+            },
+            {
+              "a": "B_C2",
+              "b": "B_C3",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_O2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_C4",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_O3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_C5",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_HC1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_HC2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_HC3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_HC4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5a",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5b",
+              "order": 1
+            },
+            {
+              "a": "B_O2",
+              "b": "B_HO2",
+              "order": 1
+            },
+            {
+              "a": "B_O3",
+              "b": "B_HO3",
+              "order": 1
+            },
+            {
+              "a": "B_O4",
+              "b": "B_HO4",
+              "order": 1
+            },
+            {
+              "a": "B_O5",
+              "b": "B_HO5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",
+            "inchiKey": "PYMYPHUHKUWMLA-VPENINKCSA-N",
+            "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O)CO",
+            "chebiId": "CHEBI:15936",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:15936",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 0,
+            "selectedEnergyKcalMol": 68.64199275701901,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "B_C2": {
+                "neighbors": [
+                  "B_O2",
+                  "B_C1",
+                  "B_C3",
+                  "B_HC2"
+                ],
+                "volumeAngstromCubed": -8.16766884292424,
+                "sign": -1
+              },
+              "B_C3": {
+                "neighbors": [
+                  "B_O3",
+                  "B_C2",
+                  "B_C4",
+                  "B_HC3"
+                ],
+                "volumeAngstromCubed": 8.301675653272639,
+                "sign": 1
+              },
+              "B_C4": {
+                "neighbors": [
+                  "B_O4",
+                  "B_C3",
+                  "B_C5",
+                  "B_HC4"
+                ],
+                "volumeAngstromCubed": -8.291185457602136,
+                "sign": -1
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/B-open.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "70afa9f3643c279eaed8411a71a759607c5edd9ea4784907f2e0cea56cfacf01",
+            "graphSha256": "a712cfa13629ab21f9c2c03abd1245259b74165111d7ee4cdc1b242aad28b152",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "B_C1",
+              "B_C2",
+              "B_C3",
+              "B_C4",
+              "B_C5",
+              "B_HC1",
+              "B_HC2",
+              "B_HC3",
+              "B_HC4",
+              "B_HC5a",
+              "B_HC5b",
+              "B_HO2",
+              "B_HO3",
+              "B_HO4",
+              "B_HO5",
+              "B_O1",
+              "B_O2",
+              "B_O3",
+              "B_O4",
+              "B_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-1-3(8)5(10)4(9)2-7/h1,3-5,7-10H,2H2/t3-,4+,5+/m0/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-C",
+          "name": "C：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "C_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C_C1",
+              "b": "C_C2",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_C3",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_O2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_C4",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_O3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_C5",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_O4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_HC1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_HC2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_HC3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_HC4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5a",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5b",
+              "order": 1
+            },
+            {
+              "a": "C_O2",
+              "b": "C_HO2",
+              "order": 1
+            },
+            {
+              "a": "C_O3",
+              "b": "C_HO3",
+              "order": 1
+            },
+            {
+              "a": "C_O4",
+              "b": "C_HO4",
+              "order": 1
+            },
+            {
+              "a": "C_O1",
+              "b": "C_HO5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "C_C2": {
+                "neighbors": [
+                  "C_O2",
+                  "C_C1",
+                  "C_C3",
+                  "C_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "C_C3": {
+                "neighbors": [
+                  "C_O3",
+                  "C_C2",
+                  "C_C4",
+                  "C_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "C_C4": {
+                "neighbors": [
+                  "C_O4",
+                  "C_C3",
+                  "C_C5",
+                  "C_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "C_C1": {
+                "neighbors": [
+                  "C_O5",
+                  "C_C2",
+                  "C_O1",
+                  "C_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/C-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "9268f57a4dffb5de556b55612fcdfc67cd94f3242cf390f767aedd57af685594",
+            "graphSha256": "9cef1c306739b587ccb869047842850e3c9ebfc53443bffbf2fc05eeaf1abe37",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "C_C1",
+              "C_C2",
+              "C_C3",
+              "C_C4",
+              "C_C5",
+              "C_HC1",
+              "C_HC2",
+              "C_HC3",
+              "C_HC4",
+              "C_HC5a",
+              "C_HC5b",
+              "C_HO2",
+              "C_HO3",
+              "C_HO4",
+              "C_HO5",
+              "C_O1",
+              "C_O2",
+              "C_O3",
+              "C_O4",
+              "C_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "hydrogen",
+          "name": "一份氫氣 H₂",
+          "formula": "H2",
+          "atoms": [
+            {
+              "id": "B_HredC",
+              "element": "H",
+              "position": [
+                -0.37,
+                0.0,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HredO",
+              "element": "H",
+              "position": [
+                0.37,
+                0.0,
+                0.0
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_HredC",
+              "b": "B_HredO",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "stoichiometric-small-molecule",
+            "formula": "H2",
+            "inchi": "InChI=1S/H2/h1H",
+            "inchiKey": "UFHFLCQGNIYNRP-UHFFFAOYSA-N",
+            "sourceIds": [
+              "xylitol-source-hydrogenation2019"
+            ],
+            "scope": "one H2 in the selected neutral reduction net equation; catalyst steps omitted"
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "schematic isolated H2 bond at 0.74 angstrom; not measured coordinates",
+            "embedding": null,
+            "forceField": null,
+            "candidateCount": 0,
+            "convergedConformerCount": 0,
+            "mappedConfiguration": {}
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 15,
+        "O": 15,
+        "H": 32
+      },
+      "totalFormula": "C15H32O15",
+      "atomCount": 62,
+      "totalCharge": 0,
+      "metadata": {
+        "interpretation": "complete finite neutral net-endpoint account; component display does not remove spectator molecules",
+        "isTrajectory": false,
+        "isExperimentalGeometry": false
+      }
+    },
+    {
+      "id": "xylitol-product",
+      "name": "只還原中間 B 為木糖醇；A、C 保留木糖",
+      "components": [
+        {
+          "id": "unit-A",
+          "name": "A：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "A_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "A_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "A_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "A_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "A_C1",
+              "b": "A_C2",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_C3",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_O2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_C4",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_O3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_C5",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_O4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_O5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_HC1",
+              "order": 1
+            },
+            {
+              "a": "A_C2",
+              "b": "A_HC2",
+              "order": 1
+            },
+            {
+              "a": "A_C3",
+              "b": "A_HC3",
+              "order": 1
+            },
+            {
+              "a": "A_C4",
+              "b": "A_HC4",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5a",
+              "order": 1
+            },
+            {
+              "a": "A_C5",
+              "b": "A_HC5b",
+              "order": 1
+            },
+            {
+              "a": "A_O2",
+              "b": "A_HO2",
+              "order": 1
+            },
+            {
+              "a": "A_O3",
+              "b": "A_HO3",
+              "order": 1
+            },
+            {
+              "a": "A_O4",
+              "b": "A_HO4",
+              "order": 1
+            },
+            {
+              "a": "A_O1",
+              "b": "A_HO5",
+              "order": 1
+            },
+            {
+              "a": "A_C1",
+              "b": "A_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "A_C2": {
+                "neighbors": [
+                  "A_O2",
+                  "A_C1",
+                  "A_C3",
+                  "A_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "A_C3": {
+                "neighbors": [
+                  "A_O3",
+                  "A_C2",
+                  "A_C4",
+                  "A_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "A_C4": {
+                "neighbors": [
+                  "A_O4",
+                  "A_C3",
+                  "A_C5",
+                  "A_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "A_C1": {
+                "neighbors": [
+                  "A_O5",
+                  "A_C2",
+                  "A_O1",
+                  "A_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/A-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "2a76810cde9e70aa2ccb8c42d81b2921439a81edf159e3817c75bd5d6bbf039d",
+            "graphSha256": "853f8949e235a02f0f3ce2770013fe774d814af7f81bddb5e06ffad386aa442f",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "A_C1",
+              "A_C2",
+              "A_C3",
+              "A_C4",
+              "A_C5",
+              "A_HC1",
+              "A_HC2",
+              "A_HC3",
+              "A_HC4",
+              "A_HC5a",
+              "A_HC5b",
+              "A_HO2",
+              "A_HO3",
+              "A_HO4",
+              "A_HO5",
+              "A_O1",
+              "A_O2",
+              "A_O3",
+              "A_O4",
+              "A_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-B",
+          "name": "B：木糖醇（meso）",
+          "formula": "C5H12O5",
+          "atoms": [
+            {
+              "id": "B_C1",
+              "element": "C",
+              "position": [
+                -1.464946,
+                0.238356,
+                -1.342283
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_C2",
+              "element": "C",
+              "position": [
+                -1.001975,
+                -0.969186,
+                -0.532088
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "B_C3",
+              "element": "C",
+              "position": [
+                -0.037838,
+                -0.687196,
+                0.637231
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "r"
+            },
+            {
+              "id": "B_C4",
+              "element": "C",
+              "position": [
+                1.314888,
+                -0.066361,
+                0.256589
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "B_C5",
+              "element": "C",
+              "position": [
+                1.301636,
+                1.45864,
+                0.142408
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O1",
+              "element": "O",
+              "position": [
+                -1.99871,
+                1.216771,
+                -0.453532
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O2",
+              "element": "O",
+              "position": [
+                -2.1705,
+                -1.590129,
+                0.052829
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O3",
+              "element": "O",
+              "position": [
+                0.250411,
+                -1.971613,
+                1.256627
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O4",
+              "element": "O",
+              "position": [
+                2.277021,
+                -0.380449,
+                1.292114
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_O5",
+              "element": "O",
+              "position": [
+                2.625791,
+                1.913092,
+                -0.148771
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC1",
+              "element": "H",
+              "position": [
+                -0.650144,
+                0.674807,
+                -1.924342
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC2",
+              "element": "H",
+              "position": [
+                -0.567602,
+                -1.719905,
+                -1.201683
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC3",
+              "element": "H",
+              "position": [
+                -0.526893,
+                -0.098516,
+                1.422116
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC4",
+              "element": "H",
+              "position": [
+                1.711051,
+                -0.521503,
+                -0.657971
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5a",
+              "element": "H",
+              "position": [
+                0.650231,
+                1.825585,
+                -0.649222
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HC5b",
+              "element": "H",
+              "position": [
+                1.002056,
+                1.921353,
+                1.088543
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO2",
+              "element": "H",
+              "position": [
+                -2.702296,
+                -0.854358,
+                0.419517
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO3",
+              "element": "H",
+              "position": [
+                -0.614706,
+                -2.432706,
+                1.29013
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO4",
+              "element": "H",
+              "position": [
+                1.99706,
+                -1.264933,
+                1.61707
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HO5",
+              "element": "H",
+              "position": [
+                3.197911,
+                1.408832,
+                0.466943
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HredC",
+              "element": "H",
+              "position": [
+                -2.267164,
+                -0.053528,
+                -2.028374
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "B_HredO",
+              "element": "H",
+              "position": [
+                -2.325284,
+                1.952948,
+                -1.003851
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "B_C1",
+              "b": "B_C2",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_O1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_C3",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_O2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_C4",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_O3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_C5",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_O4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_O5",
+              "order": 1
+            },
+            {
+              "a": "B_C1",
+              "b": "B_HC1",
+              "order": 1
+            },
+            {
+              "a": "B_C2",
+              "b": "B_HC2",
+              "order": 1
+            },
+            {
+              "a": "B_C3",
+              "b": "B_HC3",
+              "order": 1
+            },
+            {
+              "a": "B_C4",
+              "b": "B_HC4",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5a",
+              "order": 1
+            },
+            {
+              "a": "B_C5",
+              "b": "B_HC5b",
+              "order": 1
+            },
+            {
+              "a": "B_O2",
+              "b": "B_HO2",
+              "order": 1
+            },
+            {
+              "a": "B_O3",
+              "b": "B_HO3",
+              "order": 1
+            },
+            {
+              "a": "B_O4",
+              "b": "B_HO4",
+              "order": 1
+            },
+            {
+              "a": "B_O5",
+              "b": "B_HO5",
+              "order": 1
+            },
+            {
+              "a": "B_HredC",
+              "b": "B_C1",
+              "order": 1
+            },
+            {
+              "a": "B_HredO",
+              "b": "B_O1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H12O5",
+            "inchi": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",
+            "inchiKey": "HEBKCHPVOIAQTA-SCDXWVJYSA-N",
+            "smiles": "OC[C@@H](O)[C@H](O)[C@@H](O)CO",
+            "chebiId": "CHEBI:17151",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:17151",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 7,
+            "selectedEnergyKcalMol": 72.47508597882637,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "B_C2": {
+                "neighbors": [
+                  "B_O2",
+                  "B_C1",
+                  "B_C3",
+                  "B_HC2"
+                ],
+                "volumeAngstromCubed": -8.264411926213821,
+                "sign": -1
+              },
+              "B_C3": {
+                "neighbors": [
+                  "B_O3",
+                  "B_C2",
+                  "B_C4",
+                  "B_HC3"
+                ],
+                "volumeAngstromCubed": 8.353649534922951,
+                "sign": 1
+              },
+              "B_C4": {
+                "neighbors": [
+                  "B_O4",
+                  "B_C3",
+                  "B_C5",
+                  "B_HC4"
+                ],
+                "volumeAngstromCubed": -8.289476696425888,
+                "sign": -1
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/B-xylitol.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "565a6546f79cf08eb2a047ca6741cd9a92da74034e12ef89b5f4b604d1e002df",
+            "graphSha256": "2f5cf5e10ef49739511a91dc9a0ff7bb6147959668374d4c8c3fa1a3b58b07eb",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "B_C1",
+              "B_C2",
+              "B_C3",
+              "B_C4",
+              "B_C5",
+              "B_HC1",
+              "B_HC2",
+              "B_HC3",
+              "B_HC4",
+              "B_HC5a",
+              "B_HC5b",
+              "B_HO2",
+              "B_HO3",
+              "B_HO4",
+              "B_HO5",
+              "B_HredC",
+              "B_HredO",
+              "B_O1",
+              "B_O2",
+              "B_O3",
+              "B_O4",
+              "B_O5"
+            ],
+            "explicitHydrogenCount": 12,
+            "inchi": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        },
+        {
+          "id": "unit-C",
+          "name": "C：選定 β-D-吡喃木糖",
+          "formula": "C5H10O5",
+          "atoms": [
+            {
+              "id": "C_C1",
+              "element": "C",
+              "position": [
+                -1.385424,
+                -0.487391,
+                -0.384233
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C2",
+              "element": "C",
+              "position": [
+                -0.794185,
+                0.579851,
+                0.550639
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C3",
+              "element": "C",
+              "position": [
+                0.654361,
+                0.851692,
+                0.156741
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C_C4",
+              "element": "C",
+              "position": [
+                1.447201,
+                -0.455835,
+                0.113534
+              ],
+              "formalCharge": 0,
+              "charge": 0,
+              "cip": "R"
+            },
+            {
+              "id": "C_C5",
+              "element": "C",
+              "position": [
+                0.726097,
+                -1.47361,
+                -0.770844
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O1",
+              "element": "O",
+              "position": [
+                -2.700947,
+                -0.780737,
+                0.066493
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O2",
+              "element": "O",
+              "position": [
+                -1.539649,
+                1.80505,
+                0.483703
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O3",
+              "element": "O",
+              "position": [
+                1.270715,
+                1.748165,
+                1.0945
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O4",
+              "element": "O",
+              "position": [
+                2.760423,
+                -0.201887,
+                -0.385998
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_O5",
+              "element": "O",
+              "position": [
+                -0.623918,
+                -1.684246,
+                -0.346193
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC1",
+              "element": "H",
+              "position": [
+                -1.466288,
+                -0.114857,
+                -1.412685
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC2",
+              "element": "H",
+              "position": [
+                -0.840397,
+                0.245865,
+                1.594777
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC3",
+              "element": "H",
+              "position": [
+                0.702495,
+                1.360912,
+                -0.813973
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC4",
+              "element": "H",
+              "position": [
+                1.553718,
+                -0.853821,
+                1.130064
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5a",
+              "element": "H",
+              "position": [
+                1.248499,
+                -2.435687,
+                -0.730523
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HC5b",
+              "element": "H",
+              "position": [
+                0.735982,
+                -1.16348,
+                -1.823427
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO2",
+              "element": "H",
+              "position": [
+                -2.470503,
+                1.540273,
+                0.631967
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO3",
+              "element": "H",
+              "position": [
+                0.62483,
+                2.47403,
+                1.214333
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO4",
+              "element": "H",
+              "position": [
+                3.090316,
+                0.555961,
+                0.138221
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            },
+            {
+              "id": "C_HO5",
+              "element": "H",
+              "position": [
+                -2.993325,
+                -1.510248,
+                -0.507094
+              ],
+              "formalCharge": 0,
+              "charge": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C_C1",
+              "b": "C_C2",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_C3",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_O2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_C4",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_O3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_C5",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_O4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_O5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_HC1",
+              "order": 1
+            },
+            {
+              "a": "C_C2",
+              "b": "C_HC2",
+              "order": 1
+            },
+            {
+              "a": "C_C3",
+              "b": "C_HC3",
+              "order": 1
+            },
+            {
+              "a": "C_C4",
+              "b": "C_HC4",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5a",
+              "order": 1
+            },
+            {
+              "a": "C_C5",
+              "b": "C_HC5b",
+              "order": 1
+            },
+            {
+              "a": "C_O2",
+              "b": "C_HO2",
+              "order": 1
+            },
+            {
+              "a": "C_O3",
+              "b": "C_HO3",
+              "order": 1
+            },
+            {
+              "a": "C_O4",
+              "b": "C_HO4",
+              "order": 1
+            },
+            {
+              "a": "C_O1",
+              "b": "C_HO5",
+              "order": 1
+            },
+            {
+              "a": "C_C1",
+              "b": "C_O5",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "kind": "source-identified-small-molecule",
+            "formula": "C5H10O5",
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "inchiKey": "SRBFZHDQGSBBOR-KKQCNMDGSA-N",
+            "smiles": "O[C@@H]1[C@@H](O)[C@H](O)OC[C@H]1O",
+            "chebiId": "CHEBI:28161",
+            "url": "https://www.ebi.ac.uk/chebi/CHEBI:28161",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ]
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "isExperimentalGeometry": false,
+            "coordinateUnit": "angstrom",
+            "rdkitVersion": "2026.03.6",
+            "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+            "geometryMethod": "ETKDGv3 + finite MMFF94 candidate optimization",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "randomSeed": 10132026,
+            "numThreads": 1,
+            "maxIterations": 2500,
+            "candidateCount": 8,
+            "convergedConformerCount": 8,
+            "selectedConformerId": 2,
+            "selectedEnergyKcalMol": 62.55955549486677,
+            "selection": "one lowest-energy converged finite candidate; not global minimum, free energy or population",
+            "mappedConfiguration": {
+              "C_C2": {
+                "neighbors": [
+                  "C_O2",
+                  "C_C1",
+                  "C_C3",
+                  "C_HC2"
+                ],
+                "volumeAngstromCubed": -8.260927968502589,
+                "sign": -1
+              },
+              "C_C3": {
+                "neighbors": [
+                  "C_O3",
+                  "C_C2",
+                  "C_C4",
+                  "C_HC3"
+                ],
+                "volumeAngstromCubed": 8.227573263555131,
+                "sign": 1
+              },
+              "C_C4": {
+                "neighbors": [
+                  "C_O4",
+                  "C_C3",
+                  "C_C5",
+                  "C_HC4"
+                ],
+                "volumeAngstromCubed": -8.21451877439592,
+                "sign": -1
+              },
+              "C_C1": {
+                "neighbors": [
+                  "C_O5",
+                  "C_C2",
+                  "C_O1",
+                  "C_HC1"
+                ],
+                "volumeAngstromCubed": 7.76881950628471,
+                "sign": 1,
+                "meaning": "selected beta orientation; the replacement exocyclic O occupies the same mapped neighbor role"
+              }
+            }
+          },
+          "diagram": {
+            "file": "xylan-xylitol-diagrams/C-ring.svg",
+            "width": 640,
+            "height": 400,
+            "sha256": "9268f57a4dffb5de556b55612fcdfc67cd94f3242cf390f767aedd57af685594",
+            "graphSha256": "9cef1c306739b587ccb869047842850e3c9ebfc53443bffbf2fc05eeaf1abe37",
+            "sourceIds": [
+              "xylitol-source-chebi"
+            ],
+            "atomIds": [
+              "C_C1",
+              "C_C2",
+              "C_C3",
+              "C_C4",
+              "C_C5",
+              "C_HC1",
+              "C_HC2",
+              "C_HC3",
+              "C_HC4",
+              "C_HC5a",
+              "C_HC5b",
+              "C_HO2",
+              "C_HO3",
+              "C_HO4",
+              "C_HO5",
+              "C_O1",
+              "C_O2",
+              "C_O3",
+              "C_O4",
+              "C_O5"
+            ],
+            "explicitHydrogenCount": 10,
+            "inchi": "InChI=1S/C5H10O5/c6-2-1-10-5(9)4(8)3(2)7/h2-9H,1H2/t2-,3+,4-,5-/m1/s1",
+            "kind": "RDKit same-graph 2D structural formula with stereo"
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 15,
+        "O": 15,
+        "H": 32
+      },
+      "totalFormula": "C15H32O15",
+      "atomCount": 62,
+      "totalCharge": 0,
+      "metadata": {
+        "interpretation": "complete finite neutral net-endpoint account; component display does not remove spectator molecules",
+        "isTrajectory": false,
+        "isExperimentalGeometry": false
+      }
+    }
+  ],
+  "transformations": [
+    {
+      "id": "hydrolysis",
+      "title": "水解兩個 β-(1→4) 糖苷鍵",
+      "before": "xylan-water",
+      "after": "xylose-rings",
+      "equation": "C15H26O13 + 2 H2O → 3 C5H10O5",
+      "description": "有限未取代三聚體的淨收支。三份 β 產物為選定比較端點，不表示實際水解必然立體保留；還原端也可變旋。",
+      "scope": "三個完整單元與兩份水；形式 H/O 配對，非同位素追蹤。",
+      "defaultBeforeComponent": "xylotriose",
+      "defaultAfterComponent": "unit-B",
+      "focusAtomIds": [
+        "A_C1",
+        "B_O4",
+        "B_C1",
+        "C_O4"
+      ],
+      "sourceIds": [
+        "xylitol-source-ntu115-q2",
+        "xylitol-source-xylan2016",
+        "xylitol-source-chebi"
+      ]
+    },
+    {
+      "id": "ring-opening",
+      "title": "比較中間 B 的環形與開鏈",
+      "before": "xylose-rings",
+      "after": "xylose-open",
+      "equation": "B：β-D-xylopyranose ⇌ aldehydo-D-xylose（C5H10O5）",
+      "description": "只展開中間 B 一份；A、C 保留作旁觀分子。環形與開鏈屬混合平衡的選定端點，沒有比例或速率模型。",
+      "scope": "只改 B 的 C1–O5、C1–O1 與形式 OH 氫位置；不是無水的實際單步機構。",
+      "defaultBeforeComponent": "unit-B",
+      "defaultAfterComponent": "unit-B",
+      "focusAtomIds": [
+        "B_C1",
+        "B_O1",
+        "B_O5",
+        "B_HO5"
+      ],
+      "sourceIds": [
+        "xylitol-source-ntu115-q2",
+        "xylitol-source-chebi"
+      ]
+    },
+    {
+      "id": "reduction",
+      "title": "還原中間 B 的醛基",
+      "before": "xylose-hydrogen",
+      "after": "xylitol-product",
+      "equation": "B：C5H10O5 + H2 → C5H12O5",
+      "description": "只還原中間 B 一份；A、C 保留作旁觀分子。畫面總系統為三份木糖加一份 H₂，得到兩份木糖與一份木糖醇。",
+      "scope": "C1=O1 變 C1–O1，兩個 H 分別進 C1、O1；不增加碳、不移走氧。催化劑表面與氫轉移微步驟未建模。",
+      "defaultBeforeComponent": "unit-B",
+      "defaultAfterComponent": "unit-B",
+      "focusAtomIds": [
+        "B_C1",
+        "B_O1",
+        "B_HredC",
+        "B_HredO"
+      ],
+      "sourceIds": [
+        "xylitol-source-ntu115-q2",
+        "xylitol-source-hydrogenation2019",
+        "xylitol-source-chebi"
+      ]
+    }
+  ],
+  "atomRoles": {
+    "A_C1": "A 單元｜異頭碳；本模型只有 B 開鏈時為醛基碳，還原後為末端 CH2OH 碳；A、C 保持環形",
+    "A_C2": "A 單元｜保留固定鄰居相對配置的 C2",
+    "A_C3": "A 單元｜保留固定鄰居相對配置的 C3；本模型只有 B 還原為木糖醇後以偽不對稱小寫 r 命名；A、C 保持環形",
+    "A_C4": "A 單元｜保留固定鄰居相對配置的 C4",
+    "A_C5": "A 單元｜五碳骨架末端 C5；吡喃環內為 CH2",
+    "A_O2": "A 單元｜C2 羥基氧",
+    "A_O3": "A 單元｜C3 羥基氧",
+    "A_O4": "A 單元｜C4 所連的羥基氧；A 不在糖苷橋氧位置",
+    "A_O5": "A 單元｜C5 的氧；環形時為環內氧；本模型只有 B 開鏈時為 C5 羥基氧",
+    "A_HC1": "A 單元｜明示氫 HC1；固定 ID 用於形式原子帳",
+    "A_HC2": "A 單元｜明示氫 HC2；固定 ID 用於形式原子帳",
+    "A_HC3": "A 單元｜明示氫 HC3；固定 ID 用於形式原子帳",
+    "A_HC4": "A 單元｜明示氫 HC4；固定 ID 用於形式原子帳",
+    "A_HC5a": "A 單元｜明示氫 HC5a；固定 ID 用於形式原子帳",
+    "A_HC5b": "A 單元｜明示氫 HC5b；固定 ID 用於形式原子帳",
+    "A_HO2": "A 單元｜明示氫 HO2；固定 ID 用於形式原子帳",
+    "A_HO3": "A 單元｜明示氫 HO3；固定 ID 用於形式原子帳",
+    "A_HO4": "A 單元｜O4 的形式配平氫；在水解前可能屬形式水分子，非同位素去向",
+    "B_C1": "B 單元｜異頭碳；本模型只有 B 開鏈時為醛基碳，還原後為末端 CH2OH 碳；A、C 保持環形",
+    "B_C2": "B 單元｜保留固定鄰居相對配置的 C2",
+    "B_C3": "B 單元｜保留固定鄰居相對配置的 C3；本模型只有 B 還原為木糖醇後以偽不對稱小寫 r 命名；A、C 保持環形",
+    "B_C4": "B 單元｜保留固定鄰居相對配置的 C4",
+    "B_C5": "B 單元｜五碳骨架末端 C5；吡喃環內為 CH2",
+    "B_O2": "B 單元｜C2 羥基氧",
+    "B_O3": "B 單元｜C3 羥基氧",
+    "B_O4": "B 單元｜C4 所連的氧；糖苷鍵內為橋氧，水解後為羥基氧",
+    "B_O5": "B 單元｜C5 的氧；環形時為環內氧；本模型只有 B 開鏈時為 C5 羥基氧",
+    "B_HC1": "B 單元｜明示氫 HC1；固定 ID 用於形式原子帳",
+    "B_HC2": "B 單元｜明示氫 HC2；固定 ID 用於形式原子帳",
+    "B_HC3": "B 單元｜明示氫 HC3；固定 ID 用於形式原子帳",
+    "B_HC4": "B 單元｜明示氫 HC4；固定 ID 用於形式原子帳",
+    "B_HC5a": "B 單元｜明示氫 HC5a；固定 ID 用於形式原子帳",
+    "B_HC5b": "B 單元｜明示氫 HC5b；固定 ID 用於形式原子帳",
+    "B_HO2": "B 單元｜明示氫 HO2；固定 ID 用於形式原子帳",
+    "B_HO3": "B 單元｜明示氫 HO3；固定 ID 用於形式原子帳",
+    "C_C1": "C 單元｜異頭碳；本模型只有 B 開鏈時為醛基碳，還原後為末端 CH2OH 碳；A、C 保持環形",
+    "C_C2": "C 單元｜保留固定鄰居相對配置的 C2",
+    "C_C3": "C 單元｜保留固定鄰居相對配置的 C3；本模型只有 B 還原為木糖醇後以偽不對稱小寫 r 命名；A、C 保持環形",
+    "C_C4": "C 單元｜保留固定鄰居相對配置的 C4",
+    "C_C5": "C 單元｜五碳骨架末端 C5；吡喃環內為 CH2",
+    "C_O1": "C 單元｜C1 所連的羥基氧",
+    "C_O2": "C 單元｜C2 羥基氧",
+    "C_O3": "C 單元｜C3 羥基氧",
+    "C_O4": "C 單元｜C4 所連的氧；糖苷鍵內為橋氧，水解後為羥基氧",
+    "C_O5": "C 單元｜C5 的氧；環形時為環內氧；本模型只有 B 開鏈時為 C5 羥基氧",
+    "C_HC1": "C 單元｜明示氫 HC1；固定 ID 用於形式原子帳",
+    "C_HC2": "C 單元｜明示氫 HC2；固定 ID 用於形式原子帳",
+    "C_HC3": "C 單元｜明示氫 HC3；固定 ID 用於形式原子帳",
+    "C_HC4": "C 單元｜明示氫 HC4；固定 ID 用於形式原子帳",
+    "C_HC5a": "C 單元｜明示氫 HC5a；固定 ID 用於形式原子帳",
+    "C_HC5b": "C 單元｜明示氫 HC5b；固定 ID 用於形式原子帳",
+    "C_HO2": "C 單元｜明示氫 HO2；固定 ID 用於形式原子帳",
+    "C_HO3": "C 單元｜明示氫 HO3；固定 ID 用於形式原子帳",
+    "C_HO5": "C 單元｜原開鏈 O5 的形式追蹤氫；環形時配在 O1，非同位素去向",
+    "A_O1": "A 單元｜形式水的氧；水解後接 C1；A 保持環形",
+    "A_HO5": "A 單元｜原開鏈 O5 的形式追蹤氫；環形時配在 O1，非同位素去向",
+    "B_HO4": "B 單元｜O4 的形式配平氫；在水解前可能屬形式水分子，非同位素去向",
+    "B_O1": "B 單元｜形式水的氧；水解後接 C1，B 開鏈時為羰基氧",
+    "B_HO5": "B 單元｜原開鏈 O5 的形式追蹤氫；環形時配在 O1，非同位素去向",
+    "C_HO4": "C 單元｜O4 的形式配平氫；在水解前可能屬形式水分子，非同位素去向",
+    "B_HredC": "B 單元｜H2 的一個形式配對氫；還原後接 B_C1，非實驗原子追蹤",
+    "B_HredO": "B 單元｜H2 的一個形式配對氫；還原後接 B_O1，非實驗原子追蹤"
+  },
+  "sources": [
+    {
+      "id": "xylitol-source-ntu115-q2",
+      "title": "臺大 115 食品化學：第 2 題五碳糖醇製備",
+      "publisher": "國立臺灣大學圖書館／115 學年度碩士班招生試題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf",
+      "locator": "PDF 第 1 頁，第 2 題：半纖維素水解、還原及晶體溶解吸熱的五碳糖醇",
+      "note": "題目要求以化學分子結構說明；本課是原創教學模型，並非官方解答或官方評分標準。"
+    },
+    {
+      "id": "xylitol-source-xylan2016",
+      "title": "木聚糖主鏈與植物細胞壁中的不同構形",
+      "publisher": "Simmons 等，Nature Communications 7:13902（2016），doi:10.1038/ncomms13902",
+      "url": "https://doi.org/10.1038/ncomms13902",
+      "locator": "正文 PDF pp.2–3、Figure 1、Table 1；Supplementary Figure 1",
+      "note": "支持木聚糖與木糖單元、主鏈與側鏈及環境相關構形；本課未取其實驗座標，三糖片段是省略側鏈的計算教學代表，不是完整半纖維素。"
+    },
+    {
+      "id": "xylitol-source-hydrogenation2019",
+      "title": "木糖以氫氣還原成木糖醇的原始研究",
+      "publisher": "Liu、Zhu、Ma、Cheng，Research 2019:5178573，doi:10.34133/2019/5178573",
+      "url": "https://doi.org/10.34133/2019/5178573",
+      "locator": "Scheme 1；Results and Discussion；4.4 Catalytic Mechanism（作者提出的可能機制）",
+      "note": "支持 C1 醛基還原成 CH₂OH 的淨轉換。文中轉化率和選擇性限於其催化實驗；本課不模擬催化表面、速率、收率或逐步機制。"
+    },
+    {
+      "id": "xylitol-source-chebi",
+      "title": "ChEBI：木聚糖、木糖異構式與木糖醇的化學身份",
+      "publisher": "EMBL-EBI ChEBI；本次擷取 2026-10-13（Asia/Taipei）",
+      "url": "https://www.ebi.ac.uk/chebi/CHEBI:17151",
+      "locator": "CHEBI:15447／37166 木聚糖；15936 醛式 D-木糖；28518／28161 α／β-D-木吡喃糖；17151 木糖醇；28309 木二糖",
+      "note": "核對分子式、SMILES、InChI 與立體化學身份。取得的 MOL 是二維結構，不能當作實驗三維座標；木糖醇中央位點使用小寫 r 的偽不對稱描述。"
+    },
+    {
+      "id": "xylitol-source-sweetness2018",
+      "title": "木糖醇與蔗糖的濃度—甜度感官量測",
+      "publisher": "Wee、Tan、Forde，Nutrients 10(11):1632（2018），doi:10.3390/nu10111632",
+      "url": "https://doi.org/10.3390/nu10111632",
+      "locator": "Methods 2.2–2.5；Tables 2、4；Results 3.1、3.3",
+      "note": "40 位成人、過濾水溶液、gLMS 感官評分；Table 4 是曲線估計的等甜濃度與甜度比，不能當作固定分子常數。原文未明確給供試溫度。"
+    },
+    {
+      "id": "xylitol-source-properties",
+      "title": "木糖醇晶體溶解吸熱與冷感的教學實驗說明",
+      "publisher": "Wouters、Van Meervelt，Acta Crystallographica E 78:874–879（2022），doi:10.1107/S2056989022007617",
+      "url": "https://doi.org/10.1107/S2056989022007617",
+      "locator": "Section 4，Determination of the heat of dissolution；Figure 6 的數值範例是赤藻糖醇",
+      "note": "支持木糖醇晶體溶解吸熱及冷感的定性說明；文中 19.2 kJ/mol 等量熱範例屬赤藻糖醇，本課不將其移用為木糖醇數據，也不把分子內共價鍵斷裂當成溶解。"
+    }
+  ],
+  "geometrySources": [
+    {
+      "id": "xylitol-geometry-rdkit",
+      "title": "RDKit conformer generation and stereo labeling",
+      "url": "https://www.rdkit.org/docs/RDKit_Book.html#conformer-generation",
+      "note": "Tool-method documentation. Local runtime is RDKit 2026.03.6; method availability and output were verified locally, not inferred from current online version."
+    },
+    {
+      "id": "xylitol-geometry-cip",
+      "title": "RDKit accurate CIP label assignment",
+      "url": "https://www.rdkit.org/docs/source/rdkit.Chem.rdCIPLabeler.html",
+      "note": "Accurate CIP assignment is used; mapped neighbor orientation is validated independently of changing CIP letters."
+    }
+  ],
+  "limits": [
+    "這是未取代 β-(1→4) 木聚糖的有限三聚體，具有真實端基；不能代表所有天然半纖維素、取代型態或聚合度。",
+    "三份 β-D-吡喃木糖是選定端點；不表示水解必然立體保留。還原端與自由木糖可變旋，環形／開鏈比例未模擬。",
+    "開環與還原只處理中間 B 一份；A、C 保留作旁觀分子。最後畫面是兩份木糖加一份木糖醇，並非三份全部還原。",
+    "若另作完全還原的理想總配平：C15H26O13 + 2 H2O + 3 H2 → 3 C5H12O5。此總式不是目前已繪出的最後系統。",
+    "H/O 的指定配對只是中性形式原子帳，並非同位素實驗、唯一質子轉移路徑或酸／酶／金屬催化的逐步機構。",
+    "座標為 ETKDG/MMFF 計算代表構象或明示的 H2 示意幾何；不是實驗座標、分子動力學、反應軌跡或構象族群。",
+    "木糖醇是 meso 糖醇。原 C2/C3/C4 配置用固定鄰居方向核對，不能因 CIP 優先序與對稱性改變而要求字母逐一不變。",
+    "本模型不預測催化劑、條件、反應速率、產率、選擇性、真實樣品组成或食品物性。"
+  ],
+  "metadata": {
+    "explicitHydrogens": true,
+    "isTrajectory": false,
+    "isExperimentalGeometry": false,
+    "atomMapping": "formal net bookkeeping; not isotope tracing",
+    "coordinateUnit": "angstrom",
+    "identityPacket": "output/xylan-xylitol-evidence-2026-10-13/source-review/structure-identities.json",
+    "identityPacketSha256": "dc6aa097880ff5b1f1c6c1d9c5065e9bcb32eaea238c5b36a15aa0afefdb4af7",
+    "sourceProjection": "output/xylan-xylitol-evidence-2026-10-13/source-review/runtime-source-projection-v2.json",
+    "sourceProjectionSha256": "1ebd1bdac0b5d8e0ba57416abce45bae042c016dcb3487569d1d4825c0fa6e33",
+    "existingXyloseLibrarySha256": "41421b5c9c08b2cb4dff1ca710fb14b288eec207d4cb0cf82efc1ce1dbd5c874",
+    "builder": "scripts/build_xylan_xylitol_models.py",
+    "builderSha256": "345c4a6fafb50b5ee15cfd177313577a22e618183c5b18b0a19d7f28a1fc0969",
+    "cipMethod": "rdCIPLabeler.AssignCIPLabels",
+    "betaMappedNeighborSign": 1
+  }
+}
