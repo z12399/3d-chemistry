@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">相同比例，不代表相同緩衝容量</title>
+<desc id="figure-desc">兩組弱酸與共軛鹼具有相同比例而總量不同，因此可有同樣 pH，卻有不同緩衝容量。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="490" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">相同比例，不代表相同緩衝容量</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">HA：弱酸　　A⁻：共軛鹼</tspan></text>
+<rect x="40" y="108" width="290" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="185" y="141" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="185" dy="0">總量較少</tspan></text>
+<circle cx="85" cy="177" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="85" y="183" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="85" dy="0">HA</tspan></text>
+<circle cx="145" cy="177" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="145" y="183" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="145" dy="0">A⁻</tspan></text>
+<circle cx="225" cy="177" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="225" y="183" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="225" dy="0">HA</tspan></text>
+<circle cx="285" cy="177" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="285" y="183" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="285" dy="0">A⁻</tspan></text>
+<text x="185" y="283" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="185" dy="0">HA 與 A⁻ 比例相同</tspan></text>
+<rect x="390" y="108" width="290" height="190" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="535" y="141" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="535" dy="0">總量較多</tspan></text>
+<circle cx="435" cy="177" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="435" y="183" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="435" dy="0">HA</tspan></text>
+<circle cx="495" cy="177" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="495" y="183" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="495" dy="0">A⁻</tspan></text>
+<circle cx="575" cy="177" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="575" y="183" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="575" dy="0">HA</tspan></text>
+<circle cx="635" cy="177" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="635" y="183" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="635" dy="0">A⁻</tspan></text>
+<circle cx="435" cy="233" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="435" y="239" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="435" dy="0">HA</tspan></text>
+<circle cx="495" cy="233" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="495" y="239" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="495" dy="0">A⁻</tspan></text>
+<circle cx="575" cy="233" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="575" y="239" font-size="16" fill="#14665d" text-anchor="middle"><tspan x="575" dy="0">HA</tspan></text>
+<circle cx="635" cy="233" r="23" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="635" y="239" font-size="16" fill="#b4692e" text-anchor="middle"><tspan x="635" dy="0">A⁻</tspan></text>
+<text x="535" y="283" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="535" dy="0">HA 與 A⁻ 比例相同</tspan></text>
+<rect x="205" y="319" width="310" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="352.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">比例相同 → pH 可相同</tspan></text>
+<path d="M 184 303 L 184 402" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 535 303 L 535 402" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="184" y="433" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="184" dy="0">較少量可反應</tspan></text>
+<text x="535" y="433" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="535" dy="0">較多量可反應</tspan></text>
+<text x="360" y="465" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">加入少量酸／鹼時，緩衝容量取決於總量</tspan></text>
+<text x="688" y="472" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

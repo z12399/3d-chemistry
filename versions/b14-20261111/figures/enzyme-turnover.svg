@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 505" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">周轉數：把總速率除以有效位點</title>
+<desc id="figure-desc">左右對照有效位點量與總產出，每個位點的箭頭相同；以Vmax除有效位點濃度得到kcat。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="505" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">周轉數：把總速率除以有效位點</tspan></text>
+<rect x="32" y="105" width="310" height="245" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="378" y="105" width="310" height="245" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187" y="140" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="187" dy="0">有效位點較少</tspan></text>
+<text x="533" y="140" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">有效位點量加倍</tspan></text>
+<circle cx="100" cy="227" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="100" y="233" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="100" dy="0">E</tspan></text>
+<path d="M 134 227 L 216 227" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<circle cx="246" cy="227" r="9" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="445" cy="200" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="445" y="206" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="445" dy="0">E</tspan></text>
+<path d="M 479 200 L 561 200" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<circle cx="591" cy="200" r="9" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="445" cy="283" r="23" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="445" y="289" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="445" dy="0">E</tspan></text>
+<path d="M 479 283 L 561 283" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<circle cx="591" cy="283" r="9" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="187" y="325" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="187" dy="0">每位點的周轉相同</tspan></text>
+<text x="533" y="325" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">總 Vmax 隨之加倍</tspan></text>
+<rect x="32" y="385" width="656" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="424.5" font-size="25" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">kcat＝Vmax ÷ [E]有效活性位</tspan></text>
+<text x="32" y="480" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">以有效位點計，不直接除以蛋白毫克。</tspan></text>
+<text x="688" y="487" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
