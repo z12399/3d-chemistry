@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">留存要比較總量，不只看濃度</title>
+<desc id="figure-desc">課文蔬菜例子中，濃度由每百克十毫克變成十五毫克，但同批總量由二十毫克降為十五毫克。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">留存要比較總量，不只看濃度</tspan></text>
+<rect x="32" y="102" width="250" height="244" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="157" y="139" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="157" dy="0">加工前</tspan></text>
+<text x="157" y="179" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="157" dy="0">10 mg / 100 g</tspan></text>
+<rect x="58" y="204" width="198" height="42" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="157" y="278" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="157" dy="0">食品 200 g</tspan></text>
+<text x="157" y="320" font-size="25" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="157" dy="0">總量 20 mg</tspan></text>
+<rect x="438" y="102" width="250" height="244" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="563" y="139" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="563" dy="0">加工後</tspan></text>
+<text x="563" y="179" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="563" dy="0">15 mg / 100 g</tspan></text>
+<rect x="464" y="204" width="99" height="42" rx="3" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="563" y="278" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="563" dy="0">食品 100 g</tspan></text>
+<text x="563" y="320" font-size="25" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="563" dy="0">總量 15 mg</tspan></text>
+<path d="M 292 231 L 428 231" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="360" y="206" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="360" dy="0">失水</tspan></text>
+<text x="360" y="385" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">濃度上升，總量仍下降</tspan></text>
+<text x="360" y="427" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">留存率 = (C後 × m後) / (C前 × m前) × 100%</tspan></text>
+<text x="32" y="470" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">須比較同批可食部，並交代湯汁是否保留。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

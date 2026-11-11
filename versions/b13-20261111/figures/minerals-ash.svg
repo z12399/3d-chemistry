@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">灰分是總殘留，不是元素清單</title>
+<desc id="figure-desc">原樣經高溫灰化去除大部分有機成分，無機殘留用質量求灰分；個別元素與生體可利用性須另有證據。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">灰分是總殘留，不是元素清單</tspan></text>
+<rect x="34" y="112" width="177" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122" y="145" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="122" dy="0">原樣</tspan></text>
+<circle cx="75" cy="193" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="119" cy="220" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="166" cy="183" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="154" cy="267" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="80" cy="273" r="17" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="118" cy="177" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="78" cy="235" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="168" cy="227" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 225 215 L 295 215" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="260" y="192" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="260" dy="0">灰化</tspan></text>
+<rect x="309" y="166" width="156" height="98" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="387.0" y="208.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="387.0" dy="0">高溫</tspan><tspan x="387.0" dy="28">去有機物</tspan></text>
+<path d="M 478 215 L 519 215" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="533" y="112" width="153" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="609" y="145" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="609" dy="0">無機殘留</tspan></text>
+<circle cx="575" cy="246" r="10" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="613" cy="258" r="10" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="650" cy="241" r="10" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 550 283 L 668 283" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="609" y="307" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="609" dy="0">測總質量</tspan></text>
+<rect x="58" y="353" width="604" height="58" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="389.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">灰分%＝灰化殘留質量 ÷ 原樣品質量 ×100%</tspan></text>
+<text x="32" y="451" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">灰分不能分辨鈣、鐵等個別含量；</tspan><tspan x="32" dy="25">化學形態與生體可利用性需要其他分析。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

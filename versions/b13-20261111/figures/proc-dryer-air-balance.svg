@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乾燥：水與熱分開記帳</title>
+<desc id="figure-desc">乾燥器空氣衡算：除水量＝乾空氣流率 ×（Y出 − Y入）；加熱器熱負荷＝乾空氣流率 ×（h後 − h前）；兩者都以乾空氣為基準。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乾燥：水與熱分開記帳</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">兩段衡算都使用同一乾空氣流率</tspan></text>
+<rect x="32" y="135" width="150" height="100" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="107.0" y="178.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="107.0" dy="0">空氣 A</tspan><tspan x="107.0" dy="28">Y入、h前</tspan></text>
+<rect x="285" y="135" width="150" height="100" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="178.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">加熱後 B</tspan><tspan x="360.0" dy="28">Y入、h後</tspan></text>
+<rect x="538" y="135" width="150" height="100" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="613.0" y="178.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="613.0" dy="0">排氣 C</tspan><tspan x="613.0" dy="28">Y出、h出</tspan></text>
+<path d="M 190 185 L 275 185" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="232" y="123" font-size="20" fill="#b4692e" text-anchor="middle"><tspan x="232" dy="0">加熱器</tspan></text>
+<path d="M 443 185 L 528 185" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="485" y="123" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="485" dy="0">乾燥器</tspan></text>
+<text x="232" y="268" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="232" dy="0">不加除水</tspan></text>
+<text x="485" y="268" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="485" dy="0">食品移出水分</tspan></text>
+<rect x="32" y="305" width="300" height="96" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="182.0" y="346.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="182.0" dy="0">加熱器熱負荷</tspan><tspan x="182.0" dy="28">乾空氣流率 × 焓升</tspan></text>
+<rect x="388" y="305" width="300" height="96" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="538.0" y="346.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="538.0" dy="0">除水量</tspan><tspan x="538.0" dy="28">乾空氣流率 × 含濕比差</tspan></text>
+<text x="32" y="445" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">乾燥器還要計食品帶入／帶出能量與外界熱交換。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

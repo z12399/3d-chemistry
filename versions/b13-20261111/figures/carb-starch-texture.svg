@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">糊化、老化與水解是不同變化</title>
+<desc id="figure-desc">水熱破壞澱粉顆粒有序結構，冷卻時部分鏈段重新排列；只有水解切斷糖苷鍵。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">糊化、老化與水解是不同變化</tspan></text>
+<rect x="32" y="102" width="184" height="214" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124" y="135" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="124" dy="0">有序澱粉顆粒</tspan></text>
+<rect x="268" y="102" width="184" height="214" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="135" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">糊化分散系</tspan></text>
+<rect x="504" y="102" width="184" height="214" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="596" y="135" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="596" dy="0">部分重新有序</tspan></text>
+<circle cx="124" cy="223" r="65" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 77 188 L 171 188" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 211 L 171 211" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 234 L 171 234" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 77 257 L 171 257" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 286 184 L 315 170 L 347 187 L 382 174 L 433 185" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 286 225 L 315 211 L 347 228 L 382 215 L 433 226" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 286 266 L 315 252 L 347 269 L 382 256 L 433 267" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 525 183 L 556 183 L 587 183 L 615 194 L 666 187" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 525 206 L 556 206 L 587 206 L 615 217 L 666 210" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 525 229 L 556 229 L 587 229 L 615 240 L 666 233" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 525 270 L 550 256 L 586 274 L 624 260 L 666 275" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 185 83 L 292 83" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 420 83 L 528 83" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="239" y="72" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="239" dy="0">水＋熱</tspan></text>
+<text x="474" y="72" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="474" dy="0">冷卻貯存</tspan></text>
+<text x="360" y="347" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">上排：排列改變，糖苷鍵仍連著</tspan></text>
+<rect x="32" y="370" width="656" height="95" rx="14" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="57" y="404" font-size="21" fill="#b4692e" text-anchor="start"><tspan x="57" dy="0">水解</tspan></text>
+<path d="M 137 415 L 170 400 L 203 415 L 236 400 L 269 415" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 295 410 L 355 410" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 381 415 L 414 400 L 447 415" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 507 400 L 540 415 L 573 400" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="620" y="417" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="620" dy="0">斷鍵</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

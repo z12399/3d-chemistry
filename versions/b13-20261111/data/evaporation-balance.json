@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "version": 1,
+  "modelId": "ideal-binary-forward-feed-required-area",
+  "sources": [
+    {
+      "id": "learncheme-multi-effect-balances",
+      "title": "LearnChemE：Multi-effect Evaporators — Important Equations",
+      "url": "https://learncheme.com/quiz-yourself/interactive-self-study-modules/multi-effect-evaporators/multi-effect-evaporators-screencasts/",
+      "locator": "Important Equations：Heat transfer、Mass balances、Energy balances、steam economy；University of Colorado Boulder",
+      "sha256": "3b6e12367c0252d144c656d0f4463cca87330d13eec97a66b66cf8bf0c5d414d",
+      "supports": "逐效穩態質量、溶質與焓收支；凝結蒸汽供熱及 Q=UAΔT。",
+      "doesNotSupport": "未替本課指定假想溶質物性、自由度、離散溫度、設備尺寸或數值答案。"
+    },
+    {
+      "id": "nistir5078-water-saturation",
+      "title": "NISTIR 5078：Water properties from IAPWS-95",
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir5078.pdf",
+      "locator": "Allan H. Harvey，1998；Table 1，印刷頁4–6／PDF第10–12頁；印刷頁2說明表值精度",
+      "sha256": "b48928ace1e5a902fe69f3e674537e12cddd23af127483ddcd9543a54d845bf4",
+      "supports": "水在20–120°C所選11列的飽和壓力、液焓及汽焓；同一已出版焓基準。",
+      "doesNotSupport": "純水資料不等於糖液或食品物性；表位數不是物理精度保證，未提供本課溶質熱容量。"
+    },
+    {
+      "id": "nptel-evaporators-multiple-effects",
+      "title": "NPTEL：Module 9 Evaporators，Lecture 40",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/103103032/module9/lec40/2.html",
+      "locator": "§9.7.3 Multiple effect evaporators；凝結水接近上效蒸氣溫度與總可用溫差段落",
+      "sha256": "622091e0ba610fff337c581c8c719355cf43125c5b868b6c8949d24d53973f39",
+      "supports": "二次蒸氣於下效凝結供熱；凝結水保有上效溫度，逐效可用溫差與BPE影響。",
+      "doesNotSupport": "文中忽略進料顯熱的近似不能拿來令各效熱量或蒸發量一律相同；本課未採其圖像方程作數值演算法。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "evaporation-mass",
+      "text": "不揮發溶質全留液相：C=Fxf，P=C/xp，E=F−P。双效的V1+V2=E；V1在第二效供熱時是同一股內部蒸氣，不再加算成外供S。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "Mass balances；依本課二效順流控制體推導。",
+      "evidenceType": "source-equations"
+    },
+    {
+      "id": "evaporation-enthalpy",
+      "text": "每效同時計入進出液體、蒸氣與凝結水焓。新鮮蒸汽在120°C凝結；第一效二次蒸氣在T1凝結，凝結水以T1離開加熱側。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances",
+        "nptel-evaporators-multiple-effects"
+      ],
+      "locator": "LearnChemE Energy balances；NPTEL §9.7.3 凝結水溫度段。",
+      "evidenceType": "source-equations"
+    },
+    {
+      "id": "evaporation-water-table",
+      "text": "本課由同一張NIST水表取hL與hV，並以差值hV−hL計算汽化焓；不混用另經四捨五入的Δh欄。進料水液焓在20–80°C間分段線性插值，不外插。",
+      "sourceIds": [
+        "nistir5078-water-saturation"
+      ],
+      "locator": "Table 1，印刷頁4–6；取值與插值政策為本課明示近似。",
+      "evidenceType": "source-property-table-and-model-approximation"
+    },
+    {
+      "id": "evaporation-mixture",
+      "text": "假想溶質熱容量指定為1.6 kJ/(kg·K)，0.01°C的溶質焓指定為0。液體混合焓=(1−x)hL水+x×1.6×(T−0.01)，無混合熱、沸點升高及液體壓力焓修正。",
+      "sourceIds": [],
+      "locator": "本課自編、可重算的物性契約；不是任何具名糖液或食品實測。",
+      "evidenceType": "hypothetical-assignment"
+    },
+    {
+      "id": "evaporation-flash",
+      "text": "上效液流由T1降到50°C釋出的顯熱保留在第二效焓帳。V2可分解為Q2/λ2與液流顯熱下降/λ2；這是同一V2的能量分解，不是額外第三股水蒸氣。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "由第二效完整焓衡算及本課加和混合焓推導；沒有另建或量測閃蒸槽。",
+      "evidenceType": "derived-model-equation"
+    },
+    {
+      "id": "evaporation-dof",
+      "text": "指定F、xf、xp、進料溫度和各效溫度後，以總物料與兩個逐效焓式求V1、V2及S；不能同時自由指定蒸發分配、S及各效負荷。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "由Mass balances與Energy balances組成本課三個獨立線性方程。",
+      "evidenceType": "derived-model-equation"
+    },
+    {
+      "id": "evaporation-required-area",
+      "text": "收支求出Q後，正傳熱溫差下才算所需A=Q/(UΔT)。只改U會改所需面積，不改既定收支的蒸汽需求；面積不足不會自動求得另一個產能。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "Heat transfer，well-mixed條件；本課採required-area模式，不採固定A產能求解。",
+      "evidenceType": "source-equation-and-bounded-design-choice"
+    },
+    {
+      "id": "evaporation-fair-comparison",
+      "text": "單效與雙效比較固定相同進料F、xf、溫度、目標xp、120°C新鮮蒸汽及50°C最終沸騰溫度。E/S是瞬時蒸汽經濟性，並非全年能耗、總成本或食品品質。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "Steam economy定義；共同終點與設備資格由本課比較契約限定。",
+      "evidenceType": "source-definition-and-bounded-comparison"
+    },
+    {
+      "id": "evaporation-boundaries",
+      "text": "負蒸發量或負外供熱不夾成0；零外供蒸汽時E/S未定義。T1=50或120°C可保留代數帳，但有一效正Q而ΔT=0，有限面積無法供熱，不能稱為可達節能方案。",
+      "sourceIds": [
+        "learncheme-multi-effect-balances"
+      ],
+      "locator": "由質量、焓及Q=UAΔT推導本課退化／不可行顯示規則。",
+      "evidenceType": "derived-model-boundaries"
+    }
+  ],
+  "assumptions": [
+    "穩態、充分混合的單效或雙效順流；只有水蒸發，不揮發假想溶質全留在液相。",
+    "水／蒸汽用NIST表同一焓基準。液焓忽略壓力影響；進料在上游以足夠壓力保持液態，進入較低壓效體可能閃蒸。",
+    "溶質cp=1.6 kJ/(kg·K)及焓零點0.01°C為自編題設；加和混合焓、無混合熱與沸點升高。",
+    "新鮮蒸汽120°C、最終效50°C；中間效只選已核對的50–120°C每10°C表列狀態，壓力隨該狀態而定。",
+    "加熱蒸汽完全凝結為同溫飽和液體；不計凝結水後续節流、冷卻回收、抽汽或夾帶。",
+    "各效無熱損失，不計動能、位能、泵、真空設備及蒸氣再壓縮功。",
+    "充分混合沸騰液與凝結加熱側形成固定溫差；U由使用者指派，不隨濃度、黏度或結垢改變。",
+    "採由收支反算所需面積的模式。可供面積只用來判斷既定負荷能否支援，並非固定面積重算產能。",
+    "單／雙效維持共同進料與最終產品條件；各自需要的換熱面積可不同，不能宣稱同設備大小。",
+    "操作範圍是教學模型的參數限制，不是經驗證工廠程序或食品安全條件。"
+  ],
+  "limits": [
+    "純水物性有來源；假想溶質與理想混合物沒有實測物性或食品預測資格。",
+    "原表位數與計算殘差不代表真實模型精度；未估計物性插值、BPE及未建模效應的實際誤差。",
+    "第二效液流顯熱／閃蒸等效量屬V2內部分解，不可再加入總蒸發水，也非獨立實測第三股。",
+    "源資料缺失、被改動或超出取值範圍時保持unknown；不以備援常數產生假完整結果。",
+    "負相流量或外供熱代表此配置不適用；零蒸汽量的蒸汽經濟性未定義。",
+    "正熱負荷配零或負溫差時所需有限面積不存在；不顯示負面積或把Infinity當有效設計。",
+    "面積不足時數字是理論收支需求；不求另一個產能、末濃度、操作時間或真實可達節省。",
+    "不包含BPE、熱損失、結垢、熱敏性、黏度、夾帶、冷凝器、真空功、鍋爐效率、啟停與全廠能量。",
+    "蒸汽經濟性不等於COP、全年耗能、耗電、總成本、產品品質或安全性。",
+    "操作、筆記與軟體驗證不代表使用者已學會、能作答或接受畫面。"
+  ],
+  "properties": {
+    "id": "nistir5078-selected-saturation-11rows",
+    "sourceId": "nistir5078-water-saturation",
+    "sourceTableSha256": "94de5b620b411ac69b574e2df1f7d2dcb9522004e5cbc33e8edf7ebfd14f5466",
+    "reference": "Both water liquid and vapor enthalpy columns are used exactly as published on one NIST IAPWS-95 table reference. The printed 0.01 degC row has hL=0.00 kJ/kg after rounding; do not assert a physically exact zero enthalpy from that printed value.",
+    "units": {
+      "temperature": "degC",
+      "pressure": "MPa",
+      "specificEnthalpy": "kJ/kg"
+    },
+    "liquidFeedInterpolation": {
+      "method": "piecewise-linear",
+      "domainC": [
+        20,
+        80
+      ],
+      "extrapolate": false
+    },
+    "phaseTemperatures": "Exact table rows only; pressure and vapor enthalpy are never independently adjusted.",
+    "latentDefinition": "hVaporKjKg - hLiquidKjKg from the same rounded columns",
+    "rows": [
+      {
+        "temperatureC": 20.0,
+        "pressureMPa": 0.0023393,
+        "hLiquidKjKg": 83.91,
+        "hVaporKjKg": 2537.4
+      },
+      {
+        "temperatureC": 30.0,
+        "pressureMPa": 0.004247,
+        "hLiquidKjKg": 125.73,
+        "hVaporKjKg": 2555.5
+      },
+      {
+        "temperatureC": 40.0,
+        "pressureMPa": 0.0073849,
+        "hLiquidKjKg": 167.53,
+        "hVaporKjKg": 2573.5
+      },
+      {
+        "temperatureC": 50.0,
+        "pressureMPa": 0.012352,
+        "hLiquidKjKg": 209.34,
+        "hVaporKjKg": 2591.3
+      },
+      {
+        "temperatureC": 60.0,
+        "pressureMPa": 0.019946,
+        "hLiquidKjKg": 251.18,
+        "hVaporKjKg": 2608.8
+      },
+      {
+        "temperatureC": 70.0,
+        "pressureMPa": 0.031201,
+        "hLiquidKjKg": 293.07,
+        "hVaporKjKg": 2626.1
+      },
+      {
+        "temperatureC": 80.0,
+        "pressureMPa": 0.047414,
+        "hLiquidKjKg": 335.01,
+        "hVaporKjKg": 2643.0
+      },
+      {
+        "temperatureC": 90.0,
+        "pressureMPa": 0.070182,
+        "hLiquidKjKg": 377.04,
+        "hVaporKjKg": 2659.5
+      },
+      {
+        "temperatureC": 100.0,
+        "pressureMPa": 0.10142,
+        "hLiquidKjKg": 419.17,
+        "hVaporKjKg": 2675.6
+      },
+      {
+        "temperatureC": 110.0,
+        "pressureMPa": 0.14338,
+        "hLiquidKjKg": 461.42,
+        "hVaporKjKg": 2691.1
+      },
+      {
+        "temperatureC": 120.0,
+        "pressureMPa": 0.19867,
+        "hLiquidKjKg": 503.81,
+        "hVaporKjKg": 2705.9
+      }
+    ]
+  },
+  "configuration": {
+    "steamTemperatureC": 120,
+    "finalTemperatureC": 50,
+    "intermediateTemperatureChoicesC": [
+      50,
+      60,
+      70,
+      80,
+      90,
+      100,
+      110,
+      120
+    ],
+    "defaultIntermediateTemperatureC": 80,
+    "soluteCpKjKgK": 1.6,
+    "soluteReferenceTemperatureC": 0.01,
+    "soluteReferenceEnthalpyKjKg": 0
+  },
+  "defaults": {
+    "feedFlowKgS": 1,
+    "feedSolidFraction": 0.1,
+    "productSolidFraction": 0.4,
+    "feedTemperatureC": 20,
+    "intermediateTemperatureC": 80,
+    "uFirstKwM2K": 2,
+    "uSecondKwM2K": 1.6,
+    "availableFirstAreaM2": 20,
+    "availableSecondAreaM2": 20
+  },
+  "domains": {
+    "feedFlowKgS": [
+      0.5,
+      10
+    ],
+    "feedSolidFraction": [
+      0.05,
+      0.2
+    ],
+    "productSolidFraction": [
+      0.05,
+      0.6
+    ],
+    "feedTemperatureC": [
+      20,
+      80
+    ],
+    "uFirstKwM2K": [
+      0.2,
+      5
+    ],
+    "uSecondKwM2K": [
+      0.2,
+      5
+    ],
+    "availableFirstAreaM2": [
+      0,
+      100
+    ],
+    "availableSecondAreaM2": [
+      0,
+      100
+    ]
+  }
+}
