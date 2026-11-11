@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 450" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">DE：還原端越多，還原力越高</title>
+<desc id="figure-desc">同一段糖鏈水解為多個短鏈，每段各有還原端；DE 是乾物基準的還原當量，不能指定完整糖譜。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="450" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">DE：還原端越多，還原力越高</tspan></text>
+<text x="160" y="120" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="160" dy="0">水解前</tspan></text>
+<text x="545" y="120" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="545" dy="0">水解後</tspan></text>
+<path d="M 78 183 L 90 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 116 183 L 128 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 154 183 L 166 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 192 183 L 204 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 230 183 L 242 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="65" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="103" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="141" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="179" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="217" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="255" cy="183" r="13" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 453 183 L 461 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="440" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="474" cy="183" r="13" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 533 183 L 541 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="520" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="554" cy="183" r="13" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 613 183 L 621 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="600" cy="183" r="13" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="634" cy="183" r="13" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 300 183 L 385 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="342" y="160" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="342" dy="0">水解</tspan></text>
+<text x="160" y="242" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="160" dy="0">還原端較少</tspan></text>
+<text x="545" y="242" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="545" dy="0">還原端較多 → DE 較高</tspan></text>
+<circle cx="45" cy="288" r="8" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="65" y="295" font-size="18" fill="#53606d" text-anchor="start"><tspan x="65" dy="0">橙色端點：還原端</tspan></text>
+<rect x="32" y="320" width="656" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="359.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">DE＝葡萄糖還原當量 ÷ 乾物量 × 100</tspan></text>
+<text x="32" y="416" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">相同 DE 仍可能有不同鏈長分布與糖組成。</tspan></text>
+<text x="688" y="432" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">共軛系統與類胡蘿蔔素色澤</title>
+<desc id="figure-desc">以交替雙鍵的共軛鏈片段概念連結可見光吸收，並分列異構化與氧化裂解兩類變化。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">共軛系統與類胡蘿蔔素色澤</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">共軛電子系統影響可見光吸收</tspan></text>
+<path d="M 73 143 L 117 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 78 152 L 112 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 117 165 L 161 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 161 143 L 205 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 166 152 L 200 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 205 165 L 249 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 249 143 L 293 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 254 152 L 288 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 293 165 L 337 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 337 143 L 381 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 342 152 L 376 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 381 165 L 425 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 425 143 L 469 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 430 152 L 464 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 469 165 L 513 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 513 143 L 557 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 518 152 L 552 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 557 165 L 601 143" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 601 143 L 645 165" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 606 152 L 640 168" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="204" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">共軛鏈片段概念，非完整化學結構</tspan></text>
+<path d="M 360 221 L 360 249" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-gold)"/>
+<text x="360" y="281" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="360" dy="0">可見光吸收 → 黃、橘、紅色調</tspan></text>
+<rect x="38" y="311" width="644" height="63" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="64" y="350" font-size="20" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="64" dy="0">異構化</tspan></text>
+<text x="411" y="350" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="411" dy="0">all-trans 類胡蘿蔔素 ⇌ cis 異構物</tspan></text>
+<rect x="38" y="390" width="644" height="59" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="64" y="426" font-size="20" fill="#b4692e" text-anchor="start" font-weight="600"><tspan x="64" dy="0">氧化</tspan></text>
+<path d="M 251 419 L 447 419" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="553" y="426" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="553" dy="0">裂解產物</tspan></text>
+<text x="32" y="487" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">光、熱或氧可能造成結構變化；兩類反應須分開看。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

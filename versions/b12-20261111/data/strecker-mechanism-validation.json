@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "mechanisms": 1,
+  "states": 7,
+  "checks": [
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-0",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.022
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-1",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.041
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-2",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.133
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-3",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.12
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-4",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.046
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-5",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.046
+    },
+    {
+      "id": "maillard-strecker-oxazolidinone-path-a-state-6",
+      "atoms": 25,
+      "formula": "C5H13NO6",
+      "charge": 0,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.009
+    }
+  ]
+}
