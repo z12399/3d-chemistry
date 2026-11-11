@@ -1,0 +1,187 @@
+{
+  "result": "PASS",
+  "molecules": [
+    {
+      "id": "glucose-alpha",
+      "formula": "C6H12O6",
+      "atoms": 24,
+      "bonds": 24,
+      "stereochemistryFromExported3D": "PASS",
+      "bondLengthRangeAngstrom": [
+        0.973909,
+        1.538184
+      ],
+      "rotationsPreserveBondLengths": [
+        "C5-C6",
+        "C1-O1",
+        "C2-O2",
+        "C3-O3",
+        "C4-O4",
+        "C6-O6"
+      ],
+      "rotationConvention": "Positive right-hand rotation around a->b increases the exported signed dihedral",
+      "ringDihedralsDeg": [
+        -52.711,
+        54.183,
+        -56.155,
+        58.37,
+        -57.062,
+        53.773
+      ]
+    },
+    {
+      "id": "glucose-beta",
+      "formula": "C6H12O6",
+      "atoms": 24,
+      "bonds": 24,
+      "stereochemistryFromExported3D": "PASS",
+      "bondLengthRangeAngstrom": [
+        0.972554,
+        1.536582
+      ],
+      "rotationsPreserveBondLengths": [
+        "C5-C6",
+        "C2-O2",
+        "C3-O3",
+        "C4-O4",
+        "C6-O6",
+        "C1-O1"
+      ],
+      "rotationConvention": "Positive right-hand rotation around a->b increases the exported signed dihedral",
+      "ringDihedralsDeg": [
+        -53.684,
+        53.05,
+        -55.489,
+        60.448,
+        -61.504,
+        57.698
+      ]
+    },
+    {
+      "id": "glucose-open",
+      "formula": "C6H12O6",
+      "atoms": 24,
+      "bonds": 23,
+      "stereochemistryFromExported3D": "PASS",
+      "bondLengthRangeAngstrom": [
+        0.974362,
+        1.544545
+      ],
+      "rotationsPreserveBondLengths": [
+        "C2-C3",
+        "C3-C4",
+        "C4-C5",
+        "C1-C2",
+        "C5-C6",
+        "C2-O2",
+        "C3-O3",
+        "C4-O4",
+        "C5-O5",
+        "C6-O6"
+      ],
+      "rotationConvention": "Positive right-hand rotation around a->b increases the exported signed dihedral",
+      "ringDihedralsDeg": null
+    },
+    {
+      "id": "ethane",
+      "formula": "C2H6",
+      "atoms": 8,
+      "bonds": 7,
+      "stereochemistryFromExported3D": "PASS",
+      "bondLengthRangeAngstrom": [
+        1.094084,
+        1.512058
+      ],
+      "rotationsPreserveBondLengths": [
+        "C1-C2"
+      ],
+      "rotationConvention": "Positive right-hand rotation around a->b increases the exported signed dihedral",
+      "ringDihedralsDeg": null
+    },
+    {
+      "id": "butane",
+      "formula": "C4H10",
+      "atoms": 14,
+      "bonds": 13,
+      "stereochemistryFromExported3D": "PASS",
+      "bondLengthRangeAngstrom": [
+        1.094496,
+        1.527353
+      ],
+      "rotationsPreserveBondLengths": [
+        "C2-C3"
+      ],
+      "rotationConvention": "Positive right-hand rotation around a->b increases the exported signed dihedral",
+      "ringDihedralsDeg": null
+    }
+  ],
+  "profiles": [
+    {
+      "id": "glucose-alpha:C5-C6",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 1.80775592042437e-05,
+      "maxRelativeEnergyKJMol": 43.723523,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-beta:C5-C6",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 9.017472663686021e-06,
+      "maxRelativeEnergyKJMol": 43.510224,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-open:C2-C3",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 0.000459855430335665,
+      "maxRelativeEnergyKJMol": 809.738091,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-open:C3-C4",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 4.750741965153793e-05,
+      "maxRelativeEnergyKJMol": 179.75649,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-open:C4-C5",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 2.37703975471959e-05,
+      "maxRelativeEnergyKJMol": 141.07803,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-open:C1-C2",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 7.987145153265374e-06,
+      "maxRelativeEnergyKJMol": 47.296945,
+      "result": "PASS"
+    },
+    {
+      "id": "glucose-open:C5-C6",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 8.436902987796202e-06,
+      "maxRelativeEnergyKJMol": 103.887391,
+      "result": "PASS"
+    },
+    {
+      "id": "ethane:C1-C2",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 1.5905707302366068e-06,
+      "maxRelativeEnergyKJMol": 13.496838,
+      "result": "PASS"
+    },
+    {
+      "id": "butane:C2-C3",
+      "samples": 73,
+      "maxEnergyErrorFromRoundedExportKJMol": 2.6878739276980923e-05,
+      "maxRelativeEnergyKJMol": 44.342858,
+      "result": "PASS"
+    }
+  ],
+  "limitations": [
+    "Checks validate the exported molecular graph, stereochemistry, geometry and numerical consistency. They do not validate a chemical reaction mechanism or a transition-state trajectory.",
+    "Energy curves are frozen-geometry MMFF94 potentials for a finite reference conformation, not measured barriers, free energies, rates, or solution populations."
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "schema": "yogurt-fermented-milk-measurements/v1",
+  "id": "bierzunska-2019-yogurt-protein",
+  "source": {
+    "authors": [
+      "Paulina Bierzuńska",
+      "Dorota Cais-Sokolińska",
+      "Asli Yiğit"
+    ],
+    "title": "Storage Stability of Texture and Sensory Properties of Yogurt with the Addition of Polymerized Whey Proteins",
+    "year": 2019,
+    "journal": "Foods",
+    "volume": 8,
+    "issue": 11,
+    "article": "548",
+    "doi": "10.3390/foods8110548",
+    "url": "https://doi.org/10.3390/foods8110548",
+    "pdfUrl": "https://openaccess.marmara.edu.tr/bitstreams/61a1dde9-6f59-43e9-9be1-89108221103e/download",
+    "table": 3,
+    "page": 5,
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "attribution": "Adapted Table 3, Bierzuńska et al. (2019), CC BY 4.0. Labels translated; original displayed precision and letters preserved. No new statistical inference.",
+  "conditions": {
+    "storageC": 3,
+    "storagePlusMinusC": 0.5,
+    "days": [
+      0,
+      10,
+      21
+    ],
+    "dayZeroDefinition": "24 h after completion of fermentation",
+    "nPerCell": 8,
+    "nPerTreatmentAcrossThreeDays": 24,
+    "batchIndependence": "The paper does not adequately distinguish independent production batches from measurement replicates."
+  },
+  "treatments": [
+    {
+      "id": "control",
+      "label": "對照發酵乳",
+      "description": "作者未加乳清蛋白強化的對照組"
+    },
+    {
+      "id": "wpc80",
+      "label": "WPC80 強化發酵乳",
+      "description": "作者加入未經預先熱聚合處理的乳清蛋白濃縮物組"
+    },
+    {
+      "id": "pwp",
+      "label": "PWP 強化發酵乳",
+      "description": "作者加入預先熱聚合乳清蛋白的處理組"
+    }
+  ],
+  "metrics": [
+    {
+      "id": "ph",
+      "label": "pH",
+      "unit": "dimensionless",
+      "definition": "原表所報pH，不等於總酸量或滴定酸度",
+      "lettersScope": "Table 3 pH column"
+    },
+    {
+      "id": "sws",
+      "label": "自然離水 SWS",
+      "unit": "%",
+      "definition": "原文自然表面乳清分離指標；方法使用表面乳清收集，原表未另列百分比換算式",
+      "lettersScope": "Table 3 SWS column"
+    },
+    {
+      "id": "whc",
+      "label": "持水性 WHC",
+      "unit": "%",
+      "definition": "本研究離心條件下的質量式指標：(1－上清液質量／發酵乳質量)×100；不是自然離水的互補量",
+      "lettersScope": "Table 3 WHC column"
+    }
+  ],
+  "limits": [
+    "Published summary observations, not raw replicates or a continuous fermentation curve.",
+    "TA is not adopted. The separate Table 2 characteristic has no assigned storage day; do not interpolate a TA history.",
+    "Starter in this study does not include L. delbrueckii subsp. bulgaricus. Do not use it to prove classic two-species yogurt cooperation.",
+    "Reported 0.0 ± 0.0 retains source rounding; it does not establish exact zero, absence of variability, or a detection limit.",
+    "Natural surface whey separation and centrifugation WHC are different operational measurements; SWS is not 100 minus WHC.",
+    "Letters preserve the publisher table, with Table 3 comparisons within each column. No raw data are available to independently reproduce ANOVA/Tukey.",
+    "Protein composition Table 2, texture Table 4 and narrative WHC 5.3% claim contain unresolved reporting concerns and are not adopted for quantitative inference.",
+    "Treatment comparisons do not establish that all factors other than polymerization were held identical.",
+    "No manufacturing schedule, inoculation optimization, microbial survival, food safety, or universal shelf-life prediction."
+  ],
+  "observations": [
+    {
+      "treatmentId": "control",
+      "day": 0,
+      "metricId": "ph",
+      "mean": 4.45,
+      "sd": 0.02,
+      "meanText": "4.45",
+      "sdText": "0.02",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 0,
+      "metricId": "sws",
+      "mean": 0.1,
+      "sd": 0.1,
+      "meanText": "0.1",
+      "sdText": "0.1",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 0,
+      "metricId": "whc",
+      "mean": 95.23,
+      "sd": 0.29,
+      "meanText": "95.23",
+      "sdText": "0.29",
+      "letters": "de",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 10,
+      "metricId": "ph",
+      "mean": 4.45,
+      "sd": 0.01,
+      "meanText": "4.45",
+      "sdText": "0.01",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 10,
+      "metricId": "sws",
+      "mean": 0.9,
+      "sd": 0.6,
+      "meanText": "0.9",
+      "sdText": "0.6",
+      "letters": "b",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 10,
+      "metricId": "whc",
+      "mean": 91.5,
+      "sd": 1.01,
+      "meanText": "91.50",
+      "sdText": "1.01",
+      "letters": "be",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 21,
+      "metricId": "ph",
+      "mean": 4.42,
+      "sd": 0.03,
+      "meanText": "4.42",
+      "sdText": "0.03",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 21,
+      "metricId": "sws",
+      "mean": 1.5,
+      "sd": 0.0,
+      "meanText": "1.5",
+      "sdText": "0.0",
+      "letters": "b",
+      "n": 8
+    },
+    {
+      "treatmentId": "control",
+      "day": 21,
+      "metricId": "whc",
+      "mean": 87.54,
+      "sd": 0.74,
+      "meanText": "87.54",
+      "sdText": "0.74",
+      "letters": "bc",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 0,
+      "metricId": "ph",
+      "mean": 4.45,
+      "sd": 0.02,
+      "meanText": "4.45",
+      "sdText": "0.02",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 0,
+      "metricId": "sws",
+      "mean": 0.1,
+      "sd": 0.1,
+      "meanText": "0.1",
+      "sdText": "0.1",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 0,
+      "metricId": "whc",
+      "mean": 92.41,
+      "sd": 0.51,
+      "meanText": "92.41",
+      "sdText": "0.51",
+      "letters": "e",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 10,
+      "metricId": "ph",
+      "mean": 4.44,
+      "sd": 0.01,
+      "meanText": "4.44",
+      "sdText": "0.01",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 10,
+      "metricId": "sws",
+      "mean": 1.5,
+      "sd": 0.4,
+      "meanText": "1.5",
+      "sdText": "0.4",
+      "letters": "b",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 10,
+      "metricId": "whc",
+      "mean": 87.1,
+      "sd": 3.25,
+      "meanText": "87.10",
+      "sdText": "3.25",
+      "letters": "c",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 21,
+      "metricId": "ph",
+      "mean": 4.42,
+      "sd": 0.03,
+      "meanText": "4.42",
+      "sdText": "0.03",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 21,
+      "metricId": "sws",
+      "mean": 3.9,
+      "sd": 0.3,
+      "meanText": "3.9",
+      "sdText": "0.3",
+      "letters": "c",
+      "n": 8
+    },
+    {
+      "treatmentId": "wpc80",
+      "day": 21,
+      "metricId": "whc",
+      "mean": 72.63,
+      "sd": 1.5,
+      "meanText": "72.63",
+      "sdText": "1.50",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 0,
+      "metricId": "ph",
+      "mean": 4.44,
+      "sd": 0.02,
+      "meanText": "4.44",
+      "sdText": "0.02",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 0,
+      "metricId": "sws",
+      "mean": 0.0,
+      "sd": 0.0,
+      "meanText": "0.0",
+      "sdText": "0.0",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 0,
+      "metricId": "whc",
+      "mean": 97.7,
+      "sd": 0.82,
+      "meanText": "97.70",
+      "sdText": "0.82",
+      "letters": "d",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 10,
+      "metricId": "ph",
+      "mean": 4.44,
+      "sd": 0.04,
+      "meanText": "4.44",
+      "sdText": "0.04",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 10,
+      "metricId": "sws",
+      "mean": 0.0,
+      "sd": 0.0,
+      "meanText": "0.0",
+      "sdText": "0.0",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 10,
+      "metricId": "whc",
+      "mean": 97.57,
+      "sd": 0.72,
+      "meanText": "97.57",
+      "sdText": "0.72",
+      "letters": "d",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 21,
+      "metricId": "ph",
+      "mean": 4.42,
+      "sd": 0.03,
+      "meanText": "4.42",
+      "sdText": "0.03",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 21,
+      "metricId": "sws",
+      "mean": 0.0,
+      "sd": 0.0,
+      "meanText": "0.0",
+      "sdText": "0.0",
+      "letters": "a",
+      "n": 8
+    },
+    {
+      "treatmentId": "pwp",
+      "day": 21,
+      "metricId": "whc",
+      "mean": 94.81,
+      "sd": 1.65,
+      "meanText": "94.81",
+      "sdText": "1.65",
+      "letters": "de",
+      "n": 8
+    }
+  ]
+}

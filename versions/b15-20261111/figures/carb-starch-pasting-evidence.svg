@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">RVA：差值從哪一個讀值起算？</title>
+<desc id="desc">峰值 PV、峰後低值 TV 與程序末值 FV 分列；崩解和兩種回升值用不同差式。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="470" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">RVA：差值從哪一個讀值起算？</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">先固定樣品、水分、加熱與攪拌程序</tspan></text>
+<rect x="30" y="110" width="190" height="88" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125.0" y="147.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="125.0" dy="0">峰值</tspan><tspan x="125.0" dy="27">PV</tspan></text>
+<rect x="265" y="110" width="190" height="88" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="147.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">峰後低值</tspan><tspan x="360.0" dy="27">TV</tspan></text>
+<rect x="500" y="110" width="190" height="88" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="595.0" y="147.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="595.0" dy="0">程序末值</tspan><tspan x="595.0" dy="27">FV</tspan></text>
+<path d="M230 154L253 154" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M465 154L488 154" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="30" y="224" width="660" height="44" rx="8" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="253" font-size="19" fill="#14665d" text-anchor="start"><tspan x="48" dy="0">崩解</tspan></text>
+<text x="360" y="253" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="360" dy="0">BD＝PV−TV</tspan></text>
+<rect x="30" y="276" width="660" height="44" rx="8" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="305" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="48" dy="0">由低值算回升</tspan></text>
+<text x="360" y="305" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="360" dy="0">SBₜ＝FV−TV</tspan></text>
+<rect x="30" y="328" width="660" height="44" rx="8" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="357" font-size="19" fill="#6f8fb5" text-anchor="start"><tspan x="48" dy="0">由峰值算回升</tspan></text>
+<text x="360" y="357" font-size="21" fill="#1c2732" text-anchor="start"><tspan x="360" dy="0">SBₚ＝FV−PV</tspan></text>
+<text x="30" y="430" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">差值不是斷鍵數，也不是回凝百分率。</tspan></text>
+<text x="688" y="454" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

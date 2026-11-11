@@ -1,0 +1,879 @@
+{
+  "status": "PASS",
+  "reactionId": "glucose-acetylation",
+  "variantId": "pyridine-acyl-transfer",
+  "states": 26,
+  "moves": 25,
+  "arrows": 50,
+  "allStateAtoms": 100,
+  "allStateFormula": "C31H47NO21",
+  "allStateCharge": 0,
+  "startingModel": "glucose-alpha",
+  "startingGraphMatchesExistingModel": true,
+  "endpointModel": "glucose-pentaacetate",
+  "endpointMatchesExistingModel": true,
+  "endpointMatchesPublicPubChemIdentity": true,
+  "endpointInchi": "InChI=1S/C16H22O11/c1-7(17)22-6-12-13(23-8(2)18)14(24-9(3)19)15(25-10(4)20)16(27-12)26-11(5)21/h12-16H,6H2,1-5H3/t12-,13-,14+,15-,16+/m1/s1",
+  "endpointAssetAtomIds": {
+    "C1": "C1",
+    "C2": "C2",
+    "C3": "C3",
+    "C4": "C4",
+    "C5": "C5",
+    "C6": "C6",
+    "O1": "O1",
+    "O2": "O2",
+    "O3": "O3",
+    "O4": "O4",
+    "O5": "O5",
+    "O6": "O6",
+    "HC1": "HC1",
+    "HC2": "HC2",
+    "HC3": "HC3",
+    "HC4": "HC4",
+    "HC5": "HC5",
+    "HC6a": "HC6a",
+    "HC6b": "HC6b",
+    "Ca1": "Ca1",
+    "Oa1": "Oa1",
+    "Cm1": "Cm1",
+    "Ha1a": "HCm1a",
+    "Ha1b": "HCm1b",
+    "Ha1c": "HCm1c",
+    "Ca2": "Ca2",
+    "Oa2": "Oa2",
+    "Cm2": "Cm2",
+    "Ha2a": "HCm2a",
+    "Ha2b": "HCm2b",
+    "Ha2c": "HCm2c",
+    "Ca3": "Ca3",
+    "Oa3": "Oa3",
+    "Cm3": "Cm3",
+    "Ha3a": "HCm3a",
+    "Ha3b": "HCm3b",
+    "Ha3c": "HCm3c",
+    "Ca4": "Ca4",
+    "Oa4": "Oa4",
+    "Cm4": "Cm4",
+    "Ha4a": "HCm4a",
+    "Ha4b": "HCm4b",
+    "Ha4c": "HCm4c",
+    "Ca6": "Ca6",
+    "Oa6": "Oa6",
+    "Cm6": "Cm6",
+    "Ha6a": "HCm6a",
+    "Ha6b": "HCm6b",
+    "Ha6c": "HCm6c"
+  },
+  "pyridineRegeneratedSameMappedAtoms": true,
+  "fiveAnhydridesBecomeFiveAceticAcidsVerified": true,
+  "fiveSugarHydroxylHydrogensMappedToByproductBridgeOxygens": true,
+  "catalyticCycleBoundaryNotEquilibratedSolution": true,
+  "isTrajectory": false,
+  "isElementaryStepSequence": false,
+  "mapping": {
+    "acetylationSites": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "acetylCarbons": [
+      "Ca1",
+      "Ca2",
+      "Ca3",
+      "Ca4",
+      "Ca6"
+    ],
+    "acetylOxygens": [
+      "Oa1",
+      "Oa2",
+      "Oa3",
+      "Oa4",
+      "Oa6"
+    ],
+    "retainedSugarOxygens": [
+      "O1",
+      "O2",
+      "O3",
+      "O4",
+      "O6"
+    ],
+    "byproductHydroxylOxygens": [
+      "Ob1",
+      "Ob2",
+      "Ob3",
+      "Ob4",
+      "Ob6"
+    ],
+    "transferredHydroxylHydrogens": [
+      "HO1",
+      "HO2",
+      "HO3",
+      "HO4",
+      "HO6"
+    ],
+    "catalystNitrogen": "Np",
+    "fixedStereocenters": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "transientTetrahedralCenters": [
+      "Ca1",
+      "Ca2",
+      "Ca3",
+      "Ca4",
+      "Ca6"
+    ]
+  },
+  "stateChecks": [
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-0",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-1",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa1": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.585595
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-2",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Ob1": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.522613
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-3",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "O1": 1,
+        "Oa1": -1,
+        "Ob1": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-4",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa1": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-5",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-6",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa2": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.424387
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-7",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Ob2": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.522613
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-8",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "O2": 1,
+        "Oa2": -1,
+        "Ob2": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-9",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa2": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-10",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-11",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa3": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.25398
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-12",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Ob3": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.522613
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-13",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "O3": 1,
+        "Oa3": -1,
+        "Ob3": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-14",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa3": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-15",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.214795
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-16",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa4": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.988529
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-17",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Ob4": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.522613
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-18",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "O4": 1,
+        "Oa4": -1,
+        "Ob4": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.87336
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-19",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa4": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.87336
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-20",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.073006
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-21",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa6": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.073006
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-22",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Ob6": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.073006
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-23",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "O6": 1,
+        "Oa6": -1,
+        "Ob6": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 3.570695
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-24",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {
+        "Oa6": -1,
+        "Np": 1
+      },
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.072007
+    },
+    {
+      "stateId": "glucose-acetylation-pyridine-acyl-transfer-state-25",
+      "atoms": 100,
+      "formula": "C31H47NO21",
+      "charge": 0,
+      "fullValence": true,
+      "noImplicitHydrogens": true,
+      "atomIdentitiesConserved": true,
+      "stereochemistryFrom3DMatchesGraph": true,
+      "fixedNeighborChiralityRetained": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5"
+      ],
+      "exactFormalCharges": {},
+      "integerKekuleBonds": true,
+      "minimumInterfragmentDistanceAngstrom": 4.084361
+    }
+  ],
+  "arrowChecks": [
+    {
+      "move": 0,
+      "stage": "pyridine-addition",
+      "site": 1,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 1,
+      "stage": "acylpyridinium",
+      "site": 1,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 2,
+      "stage": "alcohol-addition",
+      "site": 1,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 3,
+      "stage": "deprotonation",
+      "site": 1,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 4,
+      "stage": "cycle-boundary",
+      "site": 1,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 5,
+      "stage": "pyridine-addition",
+      "site": 2,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 6,
+      "stage": "acylpyridinium",
+      "site": 2,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 7,
+      "stage": "alcohol-addition",
+      "site": 2,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 8,
+      "stage": "deprotonation",
+      "site": 2,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 9,
+      "stage": "cycle-boundary",
+      "site": 2,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 10,
+      "stage": "pyridine-addition",
+      "site": 3,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 11,
+      "stage": "acylpyridinium",
+      "site": 3,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 12,
+      "stage": "alcohol-addition",
+      "site": 3,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 13,
+      "stage": "deprotonation",
+      "site": 3,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 14,
+      "stage": "cycle-boundary",
+      "site": 3,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 15,
+      "stage": "pyridine-addition",
+      "site": 4,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 16,
+      "stage": "acylpyridinium",
+      "site": 4,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 17,
+      "stage": "alcohol-addition",
+      "site": 4,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 18,
+      "stage": "deprotonation",
+      "site": 4,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 19,
+      "stage": "cycle-boundary",
+      "site": 4,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 20,
+      "stage": "pyridine-addition",
+      "site": 6,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 21,
+      "stage": "acylpyridinium",
+      "site": 6,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 22,
+      "stage": "alcohol-addition",
+      "site": 6,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 23,
+      "stage": "deprotonation",
+      "site": 6,
+      "arrowPairMatchesBondDeltas": true
+    },
+    {
+      "move": 24,
+      "stage": "cycle-boundary",
+      "site": 6,
+      "arrowPairMatchesBondDeltas": true
+    }
+  ],
+  "rdkitVersion": "2026.03.6",
+  "modelSha256": "6d257fbaccfc3d1a97d3c6de52756d8a2ad183138456fba67b3cd0746f4ca217"
+}

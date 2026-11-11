@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="18">
+<title id="figure-title">脂質氧化的整條反應鏈</title>
+<desc id="figure-desc">不飽和脂肪酸經自氧化或光敏氧化生成氫過氧化物，氫過氧化物分解成烷氧自由基，再經 β-裂解成為醛、酮等次級產物；圖下方標出抗氧化、金屬與各氧化指標對應鏈上的哪一段。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="600" fill="#ffffff"/>
+<text x="24" y="40" font-size="26" fill="#1c2732" font-weight="600">脂質氧化的整條反應鏈</text>
+<text x="24" y="70" font-size="18" fill="#53606d">由左到右：底物 → 初級產物 → 次級產物</text>
+
+<!-- 氧怎麼接上去：兩條路徑 -->
+<rect x="15" y="92" width="330" height="54" rx="12" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="180" y="116" text-anchor="middle" fill="#14665d" font-weight="600">自氧化：自由基連鎖</text>
+<text x="180" y="138" text-anchor="middle" font-size="16" fill="#53606d">先抽走雙鍵旁的氫，再加氧</text>
+<rect x="375" y="92" width="330" height="54" rx="12" fill="#ffffff" stroke="#b8902a" stroke-width="2"/>
+<text x="540" y="116" text-anchor="middle" fill="#8a6a14" font-weight="600">光敏氧化：單重態氧</text>
+<text x="540" y="138" text-anchor="middle" font-size="16" fill="#53606d">氧直接接上雙鍵，不必先抽氫</text>
+<path d="M 172 146 L 172 196" fill="none" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<path d="M 540 146 L 540 172 L 188 172 L 188 196" fill="none" stroke="#b8902a" stroke-width="2.5" marker-end="url(#arrow-muted)"/>
+
+<!-- 主鏈 -->
+<rect x="15" y="204" width="150" height="104" rx="14" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="90" y="240" text-anchor="middle" fill="#1c2732" font-weight="600">不飽和脂肪酸</text>
+<text x="90" y="268" text-anchor="middle" font-size="20" fill="#14665d">LH</text>
+<text x="90" y="292" text-anchor="middle" font-size="16" fill="#53606d">底物</text>
+
+<rect x="195" y="204" width="150" height="104" rx="14" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="270" y="240" text-anchor="middle" fill="#1c2732" font-weight="600">氫過氧化物</text>
+<text x="270" y="268" text-anchor="middle" font-size="20" fill="#14665d">LOOH</text>
+<text x="270" y="292" text-anchor="middle" font-size="16" fill="#53606d">初級產物・無味</text>
+
+<rect x="375" y="204" width="150" height="104" rx="14" fill="#fbf1e6" stroke="#b4692e" stroke-width="2"/>
+<text x="450" y="240" text-anchor="middle" fill="#1c2732" font-weight="600">烷氧自由基</text>
+<text x="450" y="268" text-anchor="middle" font-size="20" fill="#b4692e">LO•</text>
+<text x="450" y="292" text-anchor="middle" font-size="16" fill="#53606d">β-裂解斷鏈</text>
+
+<rect x="555" y="204" width="150" height="104" rx="14" fill="#fbf1e6" stroke="#b4692e" stroke-width="2"/>
+<text x="630" y="240" text-anchor="middle" fill="#1c2732" font-weight="600">醛、酮</text>
+<text x="630" y="268" text-anchor="middle" font-size="18" fill="#b4692e">次級產物</text>
+<text x="630" y="292" text-anchor="middle" font-size="16" fill="#53606d">油耗味</text>
+
+<path d="M 167 256 L 193 256" fill="none" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+<path d="M 347 256 L 373 256" fill="none" stroke="#b4692e" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+<path d="M 527 256 L 553 256" fill="none" stroke="#b4692e" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+
+<!-- 怎麼擋 -->
+<text x="24" y="352" font-size="16" fill="#53606d" font-weight="600">怎麼擋</text>
+<path d="M 180 330 L 180 312" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow-teal)"/>
+<text x="180" y="352" text-anchor="middle" font-size="16" fill="#14665d">抗氧化劑攔傳播、遮光</text>
+<path d="M 360 372 L 360 312" fill="none" stroke="#b4692e" stroke-width="2" marker-end="url(#arrow-orange)"/>
+<text x="360" y="392" text-anchor="middle" font-size="16" fill="#b4692e">金屬、高溫會加快分解</text>
+
+<!-- 怎麼量 -->
+<line x1="24" y1="416" x2="696" y2="416" stroke="#e1e4de" stroke-width="1.5"/>
+<text x="24" y="446" font-size="16" fill="#53606d" font-weight="600">怎麼量</text>
+<rect x="15" y="462" width="150" height="62" rx="10" fill="#f5f6f2" stroke="#cdd3cc" stroke-width="1.5"/>
+<text x="90" y="488" text-anchor="middle" font-size="17" fill="#1c2732">碘價</text>
+<text x="90" y="511" text-anchor="middle" font-size="16" fill="#53606d">雙鍵消耗，下降</text>
+<rect x="195" y="462" width="150" height="62" rx="10" fill="#f5f6f2" stroke="#cdd3cc" stroke-width="1.5"/>
+<text x="270" y="488" text-anchor="middle" font-size="17" fill="#1c2732">過氧化價 PV</text>
+<text x="270" y="511" text-anchor="middle" font-size="16" fill="#53606d">先升後降</text>
+<rect x="375" y="462" width="150" height="62" rx="10" fill="#f5f6f2" stroke="#cdd3cc" stroke-width="1.5"/>
+<text x="450" y="488" text-anchor="middle" font-size="17" fill="#1c2732">油炸：TPC、黏度</text>
+<text x="450" y="511" text-anchor="middle" font-size="16" fill="#53606d">聚合物累積，上升</text>
+<rect x="555" y="462" width="150" height="62" rx="10" fill="#f5f6f2" stroke="#cdd3cc" stroke-width="1.5"/>
+<text x="630" y="488" text-anchor="middle" font-size="17" fill="#1c2732">p-AV</text>
+<text x="630" y="511" text-anchor="middle" font-size="16" fill="#53606d">延遲上升</text>
+
+<text x="24" y="566" font-size="16" fill="#53606d">只畫主幹；不表示各步的速率、產物比例或實際食品中的主要途徑。</text>
+<text x="696" y="588" text-anchor="end" font-size="16" fill="#53606d">示意圖</text>
+</svg>
