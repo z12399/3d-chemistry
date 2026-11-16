@@ -1,0 +1,2018 @@
+{
+  "schema": "nitrosation-reaction/v1",
+  "version": 1,
+  "id": "nitrosation-pathways",
+  "name": "Proline 形成 NPYR 的兩條淨路徑",
+  "states": [
+    {
+      "id": "proline",
+      "name": "L-Proline + HNO₂",
+      "nitrosated": false,
+      "decarboxylated": false,
+      "components": [
+        {
+          "id": "organic",
+          "name": "L-Proline（中性式）",
+          "formula": "C5H9NO2",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.880911,
+                0.350866,
+                -0.368356
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.917531,
+                -0.374511,
+                0.498592
+              ],
+              "nonbondingElectrons": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.815595,
+                -1.287999,
+                -0.334407
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.222914,
+                -0.733659,
+                -0.162957
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.001167,
+                0.694925,
+                0.282771
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "N1",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.842758,
+                0.57877,
+                1.164372
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.186457,
+                -0.14695,
+                -1.240569
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.742318,
+                1.66258,
+                -0.064237
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.369609,
+                1.483671,
+                1.24786
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.038409,
+                1.967939,
+                -0.674505
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.36637,
+                -0.932698,
+                1.262458
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H4",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.773678,
+                -2.323603,
+                0.020308
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H5",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.542366,
+                -1.286845,
+                -1.395537
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H6",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.807345,
+                -0.797958,
+                -1.085622
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H7",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.75307,
+                -1.298787,
+                0.613702
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H8",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.868777,
+                1.102348,
+                0.808935
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H9",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.774909,
+                1.341912,
+                -0.572808
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "H2",
+              "order": 1
+            },
+            {
+              "a": "N1",
+              "b": "H1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H6",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H7",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H8",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H9",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 145742,
+            "inchi": "InChI=1S/C5H9NO2/c7-5(8)4-2-1-3-6-4/h4,6H,1-3H2,(H,7,8)/t4-/m0/s1",
+            "inchiKey": "ONIBWKKTOPOVIA-BYPYZUCNSA-N",
+            "smiles": "C1C[C@H](NC1)C(=O)O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/145742",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\l-proline-pubchem-01.json",
+              "sha256": "771ce9368842ce95cc1699338db6d374450a6f8f06f1910446f253990b498963"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 16,
+            "convergedConformerCount": 16,
+            "selectedConformerId": 6,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        },
+        {
+          "id": "hno2",
+          "name": "亞硝酸 HNO₂",
+          "formula": "HNO2",
+          "atoms": [
+            {
+              "id": "N2",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.437495,
+                0.558865,
+                -0.182803
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.868777,
+                -0.574376,
+                -0.414062
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.104178,
+                0.488472,
+                0.30303
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H10",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.961591,
+                -0.472961,
+                0.293834
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "N2",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "N2",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H10",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 24529,
+            "inchi": "InChI=1S/HNO2/c2-1-3/h(H,2,3)",
+            "inchiKey": "IOVCWXUNBOPUCH-UHFFFAOYSA-N",
+            "smiles": "N(=O)O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24529",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\nitrous-acid-pubchem-01.json",
+              "sha256": "26392830741ba2614e6fd0ff99fcfca533b695cf98c41b04f9d1632b6638ce7a"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 1,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 4
+      },
+      "totalFormula": "C5H10N2O4",
+      "totalCharge": 0,
+      "metadata": {
+        "explicitHydrogens": true,
+        "isTrajectory": false,
+        "isElementaryMechanism": false,
+        "componentLayout": "schematic spacing; no reaction trajectory"
+      }
+    },
+    {
+      "id": "npro",
+      "name": "N-nitroso-L-proline + H₂O",
+      "nitrosated": true,
+      "decarboxylated": false,
+      "components": [
+        {
+          "id": "organic",
+          "name": "N-nitroso-L-proline（NPRO）",
+          "formula": "C5H8N2O3",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.067985,
+                0.203726,
+                -0.678062
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.91596,
+                -0.368514,
+                0.449802
+              ],
+              "nonbondingElectrons": 0,
+              "cip": "S"
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.901455,
+                -1.392097,
+                -0.106078
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.12709,
+                -0.566048,
+                -0.472905
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.158916,
+                0.54705,
+                0.56568
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "N1",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.786187,
+                0.657136,
+                1.011873
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "N2",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.43166,
+                1.591835,
+                1.838689
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.331721,
+                1.140911,
+                -1.415028
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.069757,
+                -0.500782,
+                -0.871208
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.233872,
+                1.534124,
+                2.134906
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.515798,
+                -0.024512,
+                -1.603541
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.26519,
+                -0.827838,
+                1.203371
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H4",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.172037,
+                -2.112398,
+                0.676119
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H5",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.520616,
+                -1.947984,
+                -0.968758
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H6",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.042731,
+                -1.164878,
+                -0.471674
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H7",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.99988,
+                -0.140668,
+                -1.47589
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H8",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.812203,
+                0.260845,
+                1.398683
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H9",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.542652,
+                1.474104,
+                0.125039
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "H2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H6",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H7",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H8",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H9",
+              "order": 1
+            },
+            {
+              "a": "N2",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "N1",
+              "b": "N2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 10419304,
+            "inchi": "InChI=1S/C5H8N2O3/c8-5(9)4-2-1-3-7(4)6-10/h4H,1-3H2,(H,8,9)/t4-/m0/s1",
+            "inchiKey": "WLKPHJWEIIAIFW-BYPYZUCNSA-N",
+            "smiles": "C1C[C@H](N(C1)N=O)C(=O)O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10419304",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\n-nitroso-l-proline-pubchem-01.json",
+              "sha256": "4b10de1e4a86be1646c21e30d11f681844590448f3981e53c034900293c2ffbf"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94 with disclosed nitrosamine-core coplanarity restraints",
+            "candidateCount": 32,
+            "convergedConformerCount": 31,
+            "selectedConformerId": 26,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true,
+            "embeddedCandidateCount": 16,
+            "restrainedCandidateCount": 32,
+            "nitrosaminePlanarity": {
+              "enforced": true,
+              "kind": "soft approximate core coplanarity",
+              "atomIds": [
+                "C2",
+                "C5",
+                "N1",
+                "N2",
+                "O3"
+              ],
+              "improperTargetDegrees": 180,
+              "selectedNitrosoTorsionTargetDegrees": 0,
+              "halfWidthDegrees": 0.5,
+              "forceConstant": 100,
+              "isMeasuredGeometry": false,
+              "sourceScope": "General nitrosamine and NPYR isoelectronic analogy; NPRO exact geometry not experimentally verified",
+              "N1NeighborAnglesDegrees": [
+                113.18627648718937,
+                120.68910162578254,
+                126.1224865284629
+              ],
+              "N1AngleSumDegrees": 359.99786464143483,
+              "corePlaneDistanceAngstrom": {
+                "C2": 5.246731212177249e-17,
+                "C5": 6.017879368704234e-18,
+                "N1": 0.0,
+                "N2": 0.00973612900700653,
+                "O3": 0.029495328792917195
+              },
+              "maxCorePlaneDistanceAngstrom": 0.029495328792917195
+            }
+          }
+        },
+        {
+          "id": "water",
+          "name": "水",
+          "formula": "H2O",
+          "atoms": [
+            {
+              "id": "O4",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.280394,
+                0.397814,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.515798,
+                -0.197463,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H10",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.042731,
+                -0.200351,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "O4",
+              "b": "H10",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 962,
+            "inchi": "InChI=1S/H2O/h1H2",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "smiles": "O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\water-pubchem-01.json",
+              "sha256": "8076e3ea1a7d6f675e6477672d3c624f815c642bbadb6e385506b8be46ad17d0"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 3,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 4
+      },
+      "totalFormula": "C5H10N2O4",
+      "totalCharge": 0,
+      "metadata": {
+        "explicitHydrogens": true,
+        "isTrajectory": false,
+        "isElementaryMechanism": false,
+        "componentLayout": "schematic spacing; no reaction trajectory"
+      }
+    },
+    {
+      "id": "pyrrolidine",
+      "name": "Pyrrolidine + CO₂ + HNO₂",
+      "nitrosated": false,
+      "decarboxylated": true,
+      "components": [
+        {
+          "id": "organic",
+          "name": "Pyrrolidine",
+          "formula": "C4H9N",
+          "atoms": [
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.417851,
+                -0.502639,
+                0.727034
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.185694,
+                -1.273569,
+                -0.332876
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.563753,
+                -0.62403,
+                -0.376594
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.512239,
+                0.484534,
+                0.660592
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "N1",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.08932,
+                0.793228,
+                0.770215
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "H1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.889807,
+                1.275377,
+                1.644771
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.496168,
+                -1.004254,
+                1.698892
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.358288,
+                -0.401975,
+                0.475426
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H4",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.246628,
+                -2.339104,
+                -0.089475
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H5",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.700299,
+                -1.179476,
+                -1.311351
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H6",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.358878,
+                -1.34351,
+                -0.156487
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H7",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.748752,
+                -0.21395,
+                -1.376337
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H8",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.094532,
+                1.359075,
+                0.3569
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H9",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.8995,
+                0.128536,
+                1.622649
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "N1",
+              "b": "H1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H6",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H7",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H8",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H9",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 31268,
+            "inchi": "InChI=1S/C4H9N/c1-2-4-5-3-1/h5H,1-4H2",
+            "inchiKey": "RWRDLPDLKQPQOW-UHFFFAOYSA-N",
+            "smiles": "C1CCNC1",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/31268",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\pyrrolidine-pubchem-01.json",
+              "sha256": "988b61dd46b29327b5e903dda14d0acfabc218ae3eec4ab13f2ca38fe32e7813"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 16,
+            "convergedConformerCount": 16,
+            "selectedConformerId": 14,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        },
+        {
+          "id": "co2",
+          "name": "二氧化碳",
+          "formula": "CO2",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.046703,
+                -0.0,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.358288,
+                0.005407,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.451693,
+                -0.005407,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 2
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 280,
+            "inchi": "InChI=1S/CO2/c2-1-3",
+            "inchiKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+            "smiles": "C(=O)=O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\carbon-dioxide-pubchem-01.json",
+              "sha256": "422a0797f3bea7411f104e2f4e08483958de285ca1029386871b2b12b14b9c16"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 2,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        },
+        {
+          "id": "hno2",
+          "name": "亞硝酸 HNO₂",
+          "formula": "HNO2",
+          "atoms": [
+            {
+              "id": "N2",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                6.927596,
+                0.558865,
+                -0.182803
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                7.358878,
+                -0.574376,
+                -0.414062
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O4",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.594279,
+                0.488472,
+                0.30303
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H10",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.451693,
+                -0.472961,
+                0.293834
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "N2",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "N2",
+              "b": "O4",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H10",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 24529,
+            "inchi": "InChI=1S/HNO2/c2-1-3/h(H,2,3)",
+            "inchiKey": "IOVCWXUNBOPUCH-UHFFFAOYSA-N",
+            "smiles": "N(=O)O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24529",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\nitrous-acid-pubchem-01.json",
+              "sha256": "26392830741ba2614e6fd0ff99fcfca533b695cf98c41b04f9d1632b6638ce7a"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 1,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 4
+      },
+      "totalFormula": "C5H10N2O4",
+      "totalCharge": 0,
+      "metadata": {
+        "explicitHydrogens": true,
+        "isTrajectory": false,
+        "isElementaryMechanism": false,
+        "componentLayout": "schematic spacing; no reaction trajectory"
+      }
+    },
+    {
+      "id": "npyr",
+      "name": "N-nitrosopyrrolidine + CO₂ + H₂O",
+      "nitrosated": true,
+      "decarboxylated": true,
+      "components": [
+        {
+          "id": "organic",
+          "name": "N-nitrosopyrrolidine（NPYR）",
+          "formula": "C4H8N2O",
+          "atoms": [
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.216356,
+                -0.503094,
+                0.666952
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C3",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.023641,
+                -1.188687,
+                -0.427183
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C4",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.454983,
+                -0.762324,
+                -0.148881
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "C5",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.316805,
+                0.661229,
+                0.371364
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "N1",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.006738,
+                0.670401,
+                0.98612
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "N2",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.634303,
+                1.651825,
+                1.745877
+              ],
+              "nonbondingElectrons": 2
+            },
+            {
+              "id": "O3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.498687,
+                1.4921,
+                2.20519
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.210084,
+                -0.266213,
+                0.303643
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.13185,
+                -1.15965,
+                1.540944
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H4",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.713601,
+                -0.817755,
+                -1.411969
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H5",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.904659,
+                -2.27603,
+                -0.416916
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H6",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.887835,
+                -1.406659,
+                0.626344
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H7",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.087427,
+                -0.823823,
+                -1.039259
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H8",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.126829,
+                0.894899,
+                1.071468
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H9",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.355991,
+                1.37436,
+                -0.460621
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "C3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "C4",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "C5",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "N1",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H3",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H4",
+              "order": 1
+            },
+            {
+              "a": "C3",
+              "b": "H5",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H6",
+              "order": 1
+            },
+            {
+              "a": "C4",
+              "b": "H7",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H8",
+              "order": 1
+            },
+            {
+              "a": "C5",
+              "b": "H9",
+              "order": 1
+            },
+            {
+              "a": "N2",
+              "b": "O3",
+              "order": 2
+            },
+            {
+              "a": "N1",
+              "b": "N2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "H2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 13591,
+            "inchi": "InChI=1S/C4H8N2O/c7-5-6-3-1-2-4-6/h1-4H2",
+            "inchiKey": "WNYADZVDBIBLJJ-UHFFFAOYSA-N",
+            "smiles": "C1CCN(C1)N=O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13591",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\nitrosopyrrolidine-pubchem-01.json",
+              "sha256": "cd7ce7edb85532b2504422187daa2f942f0e0c7103183ef809df6cc9c0440d57"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94 with disclosed nitrosamine-core coplanarity restraints",
+            "candidateCount": 32,
+            "convergedConformerCount": 31,
+            "selectedConformerId": 18,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true,
+            "embeddedCandidateCount": 16,
+            "restrainedCandidateCount": 32,
+            "nitrosaminePlanarity": {
+              "enforced": true,
+              "kind": "soft approximate core coplanarity",
+              "atomIds": [
+                "C2",
+                "C5",
+                "N1",
+                "N2",
+                "O3"
+              ],
+              "improperTargetDegrees": 180,
+              "selectedNitrosoTorsionTargetDegrees": 0,
+              "halfWidthDegrees": 0.5,
+              "forceConstant": 100,
+              "isMeasuredGeometry": false,
+              "sourceScope": "General nitrosamine and NPYR isoelectronic analogy; NPRO exact geometry not experimentally verified",
+              "N1NeighborAnglesDegrees": [
+                113.24774814198217,
+                120.93425308103294,
+                125.81587820229142
+              ],
+              "N1AngleSumDegrees": 359.9978794253065,
+              "corePlaneDistanceAngstrom": {
+                "C2": 4.03251424824638e-17,
+                "C5": 3.8935411621737375e-17,
+                "N1": 0.0,
+                "N2": 0.009699963794492552,
+                "O3": 0.029366737065909972
+              },
+              "maxCorePlaneDistanceAngstrom": 0.029366737065909972
+            }
+          }
+        },
+        {
+          "id": "co2",
+          "name": "二氧化碳",
+          "formula": "CO2",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.194906,
+                -0.0,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.210084,
+                0.005407,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.599896,
+                -0.005407,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O2",
+              "order": 2
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 280,
+            "inchi": "InChI=1S/CO2/c2-1-3",
+            "inchiKey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+            "smiles": "C(=O)=O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\carbon-dioxide-pubchem-01.json",
+              "sha256": "422a0797f3bea7411f104e2f4e08483958de285ca1029386871b2b12b14b9c16"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 2,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        },
+        {
+          "id": "water",
+          "name": "水",
+          "formula": "H2O",
+          "atoms": [
+            {
+              "id": "O4",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                6.364492,
+                0.397814,
+                0.0
+              ],
+              "nonbondingElectrons": 4
+            },
+            {
+              "id": "H1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.599896,
+                -0.197463,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            },
+            {
+              "id": "H10",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                7.126829,
+                -0.200351,
+                0.0
+              ],
+              "nonbondingElectrons": 0
+            }
+          ],
+          "bonds": [
+            {
+              "a": "O4",
+              "b": "H10",
+              "order": 1
+            },
+            {
+              "a": "O4",
+              "b": "H1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "identity": {
+            "pubchemCid": 962,
+            "inchi": "InChI=1S/H2O/h1H2",
+            "inchiKey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+            "smiles": "O",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/962",
+            "sourceCapture": {
+              "path": "output\\chemistry-reaction-evidence-2026-10-12\\identities\\water-pubchem-01.json",
+              "sha256": "8076e3ea1a7d6f675e6477672d3c624f815c642bbadb6e385506b8be46ad17d0"
+            }
+          },
+          "metadata": {
+            "explicitHydrogens": true,
+            "isTrajectory": false,
+            "geometryProvenance": "computed representative conformer, not experimental coordinates",
+            "coordinateUnit": "angstrom",
+            "embedding": "ETKDGv3",
+            "forceField": "MMFF94",
+            "candidateCount": 4,
+            "convergedConformerCount": 4,
+            "selectedConformerId": 3,
+            "selection": "one finite-run converged representative; restrained candidates ranked only within their modeling protocol, not a physical population",
+            "threeDimensionalIdentityMatchesPubChem": true
+          }
+        }
+      ],
+      "formulaTotals": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 4
+      },
+      "totalFormula": "C5H10N2O4",
+      "totalCharge": 0,
+      "metadata": {
+        "explicitHydrogens": true,
+        "isTrajectory": false,
+        "isElementaryMechanism": false,
+        "componentLayout": "schematic spacing; no reaction trajectory"
+      }
+    }
+  ],
+  "transitions": [
+    {
+      "from": "proline",
+      "operation": "nitrosate",
+      "to": "npro"
+    },
+    {
+      "from": "proline",
+      "operation": "decarboxylate",
+      "to": "pyrrolidine"
+    },
+    {
+      "from": "npro",
+      "operation": "decarboxylate",
+      "to": "npyr"
+    },
+    {
+      "from": "pyrrolidine",
+      "operation": "nitrosate",
+      "to": "npyr"
+    }
+  ],
+  "atomRoles": {
+    "C1": "羧基碳；淨脫羧後留在 CO₂",
+    "C2": "L-Pro / L-NPRO 的 S 中心；脫羧後變 CH₂",
+    "N1": "Proline 起始環胺氮",
+    "N2": "HNO₂ 起始氮；淨亞硝基化後接 N1",
+    "O1": "羧基 C=O 的形式標籤",
+    "O2": "羧基 OH 的形式標籤；淨脫羧後 CO₂ 第二個 O",
+    "O3": "HNO₂ 的 =O 形式標籤；保留為 N2=O",
+    "O4": "HNO₂ 的 OH 形式標籤；淨亞硝基化後水的 O",
+    "H1": "起始 N1-H；淨亞硝基化後形式上配入水",
+    "H2": "起始羧基 OH 的 H；淨脫羧後形式上移至 C2",
+    "H3": "C2 起始 H",
+    "H4": "C3 H",
+    "H5": "C3 H",
+    "H6": "C4 H",
+    "H7": "C4 H",
+    "H8": "C5 H",
+    "H9": "C5 H",
+    "H10": "HNO₂ OH 的 H；水中保留"
+  },
+  "sources": [
+    {
+      "id": "nitrosation-source-ntu-115-q8",
+      "title": "國立臺灣大學 115 學年度碩士班招生考試：食品化學第 8 題",
+      "publisher": "國立臺灣大學圖書館考古題系統",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf#page=1",
+      "locator": "第1頁，第8題（5分）",
+      "note": "任舉一種胺基酸解釋腌肉加NaNO2形成Nitrosoamine的反應；未提供官方答案，也未指定proline。",
+      "kind": "official_exam"
+    },
+    {
+      "id": "nitrosation-source-nakamura-1976",
+      "title": "Pathways of formation of N-nitrosopyrrolidine in fried bacon",
+      "publisher": "Nakamura et al.; Journal of Food Science 41 (1976)",
+      "url": "https://doi.org/10.1111/j.1365-2621.1976.tb00742_41_4.x",
+      "locator": "原刊pp.874–878；p.876/877兩路示意與Tables2–5；整期PDF152–156頁",
+      "note": "獨立添加實驗支持先脫羧/先亞硝化兩條淨路徑；不是同一肉樣逐步追蹤，沒有量測CO2/H2O或活性亞硝化種。Table7和A/B標記有表文差異，不作唯一順序或分流率。",
+      "kind": "primary_experiment"
+    },
+    {
+      "id": "nitrosation-source-gray-dugan-1975",
+      "title": "Formation of N-nitrosopyrrolidine from proline and collagen",
+      "publisher": "Gray and Dugan; Journal of Food Science 40 (1975)",
+      "url": "https://doi.org/10.1111/j.1365-2621.1975.tb12510.x",
+      "locator": "pp.484–487；Fig.1、Tables1–3；整期PDF58–61頁",
+      "note": "支持指定低水分/油水/膠原模型可形成NPYR，並保留分析確認程度。不是兩路各步的直接證明；不將添加模型產率外推食品或安全閾值。",
+      "kind": "primary_experiment"
+    },
+    {
+      "id": "nitrosation-source-healthcanada-nitrite",
+      "title": "Guidelines for Canadian Drinking Water Quality: Nitrate and Nitrite — technical document",
+      "publisher": "Health Canada",
+      "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/guidelines-canadian-drinking-water-quality-guideline-technical-document-nitrate-nitrite/page-4-guidelines-canadian-drinking-water-quality-guideline-technical-document-nitrate-nitrite.html",
+      "locator": "Section 9.3.1.1: endogenous formation / acid-catalysed nitrosation",
+      "note": "一般酸性水相的二級胺亞硝化化學：nitrous acid產生活性亞硝化種，胺N攻擊nitrosyl N。本文情境是內源性亞硝化，僅作一般化學補充，不能作肉中唯一elementary機構證明。",
+      "kind": "official_general_chemistry"
+    }
+  ],
+  "geometrySources": [
+    {
+      "id": "nitrosation-geometry-jms-1998",
+      "title": "Microwave structures of N-nitroso / N-formyl cyclic amine pairs (1998)",
+      "url": "https://doi.org/10.1016/S0022-2860(97)00418-3",
+      "locator": "Publisher abstract; pyrrolidine, piperidine and morpholine isoelectronic pairs",
+      "note": "N-nitroso and N-formyl pairs have very similar microwave structural parameters; the essentially planar amino-N calculation is directly described for N-formylpyrrolidine. Approximate planarity for our NPYR model is an explicit inference, not imported measured coordinates."
+    },
+    {
+      "id": "nitrosation-geometry-h2nno-2017",
+      "title": "Rotational characterization of the simplest N-nitrosamine H₂NNO (2017)",
+      "url": "https://doi.org/10.1063/1.4992097",
+      "locator": "Journal of Chemical Physics 147:134301; PubMed 28987087 abstract",
+      "note": "Direct rotational spectroscopy and quantum calculations support an essentially planar H₂NNO core with resonance contributions. This is general nitrosamine bonding evidence; it does not measure NPRO geometry or justify copying its exact bond angles."
+    }
+  ],
+  "limits": [
+    "只呈現四個中性端點與兩種淨轉換，箭頭不表示 elementary reaction step 或反應軌跡。",
+    "HNO₂ 是整體記帳用的形式試劑；沒有把中性 HNO₂ 指定為肉品中唯一實際亞硝化物種。",
+    "所有氫均明示；H 與 O 的跨狀態 ID 配對是形式守恆記帳，並非同位素實驗證據或溶劑質子交換預測。",
+    "每個有機物只選一個計算代表構象；分子間距離為排版，不能推得碰撞、速率、能障或反應條件。",
+    "L-Proline 與 L-NPRO 的 C2 為 S；脫羧後此中心消失。N–N=O 是選定的中性共振式，未模擬共振權重、N–N 旋轉或構象比例。",
+    "兩條已報告的可能形成路徑不提供優勢比例，也不能據此推估培根中的產量、人體風險或食品合規。",
+    "NPRO／NPYR 的 C2/C5/N1/N2/O3 使用公開標明的近似共平面限制，避免一般力場把亞硝胺 N1 畫成明顯錐形。不是三個鍵角都固定 120°，也不是 NPRO 實測幾何或構象比例。"
+  ],
+  "metadata": {
+    "explicitHydrogens": true,
+    "isTrajectory": false,
+    "isElementaryMechanism": false,
+    "geometryProvenance": "computed static representative conformers",
+    "hydrogenAndOxygenMapping": "formal net atom bookkeeping; not isotope or solvent exchange evidence",
+    "protonationScope": "neutral endpoint representation, not food-matrix speciation",
+    "nitrosamineGeometry": "NPRO and NPYR use disclosed approximate core coplanarity restraints; no measured NPRO angles or conformer populations",
+    "rdkitVersion": "2026.03.6",
+    "recipeSha256": "803061584847961c8ed9e193d71fa3aac054d9bc40cec955050616a7195a51be"
+  }
+}

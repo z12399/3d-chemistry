@@ -1,0 +1,278 @@
+{
+  "generated": "2026-11-08",
+  "title": "食品微生物學名詞解釋集",
+  "intro": "名詞解釋在 110、113、114、115 學年的食品微生物學各占 15–20 分，每題 3–4 分、約 3 分鐘。每個名詞固定寫四句：定義、機制、食品例、與相近名詞的區別。先遮住內容自己寫，再對照；每句的依據標在旁邊。",
+  "basisText": {"read": "讀到原文", "secondary": "二手摘要", "background": "背景知識"},
+  "groups": [
+    {"id": "fermentation", "title": "發酵與菌種"},
+    {"id": "control", "title": "控制與殺菌"},
+    {"id": "detection", "title": "檢測與細胞狀態"},
+    {"id": "biotics", "title": "益生相關"},
+    {"id": "growth", "title": "生長、代謝與生態"}
+  ],
+  "sources": {
+    "T1": {"label": "Ibrahim SA 等，Lactic Acid Bacteria as Antimicrobial Agents，Foods 2021;10(12):3131", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8701396", "how": "讀了前 100000 字：有機酸、過氧化氫、雙乙醯、reuterin、細菌素與競爭的段落。"},
+    "T2": {"label": "ISAPP 共識聲明：益生菌（2014）、益生質（2017）、合生元（2020）、後生元（2021）、發酵食品（2021），Nature Reviews Gastroenterology & Hepatology", "url": "https://doi.org/10.1038/s41575-021-00440-6", "how": "定義句引自課程「益生菌、益生質與後生元：健康效益的證據」已核對的五份聲明；此處連結為後生元聲明。"},
+    "T3": {"label": "FDA Inspection Guides：Sterilizing Symbols (D, Z, F)", "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/sterilizing-symbols-d-z-f", "how": "課程「D 值：十進位對數下降與下降量計算」已核對的 D、z、F 定義。"},
+    "T4": {"label": "Miranda-Zamora W 等，Computational Applications for the Evaluation and Simulation of the Thermal Treatment of Canned Foods，IntechOpen 2022", "url": "https://www.intechopen.com/online-first/78107", "how": "讀了 12D、D＝0.21 分、F0＝2.52 分（實務取約 3 分）與 pH 4.6 界線的段落；z＝10 °C 一值該章未給，來自背景知識。"},
+    "T5": {"label": "JARQ 46(4):305–310 (2012)，Overview of studies on Bacillus subtilis (natto) bacteriophages", "url": "https://www.jircas.go.jp/sites/default/files/publication/jarq/46-04-04_0.pdf", "how": "讀了全文：納豆種菌以芽孢懸浮液供應、接種蒸熟大豆。"},
+    "T6": {"label": "Sturme MHJ 等，Precision fermentation – with a focus on food safety，FAO 2025", "url": "https://doi.org/10.4060/cd4448en", "how": "課程「精準發酵：生產宿主、指定成分與證據界線」已核對。"},
+    "T7": {"label": "Detection of Thermal Sublethal Injury in E. coli via the Selective Medium Plating Technique，Frontiers in Microbiology 2016", "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/full", "how": "課程「受傷細胞：亞致死損傷與計數的恢復偏差」已核對：選擇性培養基與非選擇性培養基的計數差。"},
+    "T8": {"label": "Lee 等，Bacterial composition of a competitive exclusion product…，2023", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9868637/", "how": "課程「競爭排除：資源、棲位與常駐菌群」已核對。"},
+    "T9": {"label": "Leistner L，Basic aspects of food preservation by hurdle technology，Int J Food Microbiol 2000;55:181–186", "url": "https://doi.org/10.1016/S0168-1605(00)00161-6", "how": "原文未能開啟（公開副本被防護頁擋住）；定義依 Abdullahi 與 Dandago 2020 的摘要（https://doi.org/10.22146/ifnp.52552）與 OpenStax 第 9 章轉述，標為二手。"},
+    "T10": {"label": "OpenStax Microbiology 9.6 Media Used for Bacterial Growth；9.4 Temperature and Microbial Growth；9.1 How Microbes Grow；8.4 Fermentation", "url": "https://openstax.org/books/microbiology/pages/9-6-media-used-for-bacterial-growth", "how": "讀了 9.6 與 9.4 的定義句；9.1 與 8.4 為課程既有來源。"},
+    "T11": {"label": "FDA BAM Chapter 21A：Examination of Canned Foods（2001 年版）", "url": "https://www.fda.gov/food/laboratory-methods-food/bam-chapter-21a-examination-canned-foods", "how": "只讀到搜尋摘要中的腐敗類型表（硫化物腐敗：罐不膨、H₂S 被產品吸收）；全文 PDF 未讀。"},
+    "T12": {"label": "Gram L 等，Food spoilage—interactions between food spoilage bacteria，Int J Food Microbiol 2002;78:79–97", "url": "https://orbit.dtu.dk/en/publications/food-spoilage-interactions-between-food-spoilage-bacteria/", "how": "讀了摘要：metabiosis 的定義句、Pseudomonas 鐵載體、AHL 群體感應。"},
+    "T13": {"label": "Chacha JS 等，Revisiting Non-Thermal Food Processing and Preservation Methods，Foods 2021;10(6):1430", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8234293/", "how": "讀了游離輻射一節：射源、機制、劑量分類、10 kGy。"},
+    "T14": {"label": "Zhao X 等，Current Perspectives on Viable but Non-culturable State in Foodborne Pathogens，Frontiers in Microbiology 2017;8:580", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5378802", "how": "讀了前 100000 字：定義、誘導壓力、生理特徵、復甦、檢測、85 種菌。"},
+    "T15": {"label": "NACMCF，HACCP Principles & Application Guidelines（1997，FDA 網頁）", "url": "https://www.fda.gov/food/hazard-analysis-critical-control-point-haccp/haccp-principles-application-guidelines", "how": "補課第一輪讀了七原則與名詞定義。"},
+    "T16": {"label": "Gallagher DT 等，Structure and control of pyridoxal phosphate dependent allosteric threonine deaminase，1998", "url": "https://pubmed.ncbi.nlm.nih.gov/9562556/", "how": "課程「產物回頭調節」已核對摘要。"},
+    "T17": {"label": "Japan Sake and Shochu Makers Association／NRIB，A Comprehensive Guide to Japanese Sake（2011）", "url": "https://www.nrib.go.jp/English/sake/pdf/guidesse01.pdf", "how": "讀了全文：酒母（shubo／seed mash）即先培養大量酵母的起始培養。"},
+    "T18": {"label": "El Moslamy SH，Application of Fed-Batch Fermentation Modes for Industrial Bioprocess Development，Ann Biotechnol Bioeng 2019;1(1):1001", "url": "https://remedypublications.com/annals-of-biotechnology-bioengineering-abstract.php?aid=16", "how": "只讀到摘要頁：饋料受最大比生長速率限制以避免基質累積；完整定義為背景知識。"}
+  },
+  "terms": [
+    {
+      "id": "lactic-antagonism", "en": "Lactic antagonism", "zh": "乳酸（菌）拮抗作用", "group": "fermentation",
+      "asked": [{"year": 114, "q": "八-1", "points": 4}],
+      "definition": "乳酸菌在生長過程中抑制同一環境中其他微生物（腐敗菌、病原菌）的現象。",
+      "mechanism": "主要靠有機酸（乳酸、醋酸）：未解離的酸穿過細胞膜後在細胞內解離，使細胞質酸化並降低環境 pH；再加上過氧化氫、雙乙醯、reuterin 與細菌素（如 nisin，在細胞膜形成暫時性孔洞）以及對養分與附著位置的競爭。",
+      "example": "優格、泡菜、發酵香腸中乳酸菌快速酸化抑制 Listeria、Salmonella 與腐敗菌；生物保存（biopreservation）即利用此作用。",
+      "confusion": "與競爭排除（competitive exclusion）重疊但不相同：乳酸拮抗強調乳酸菌產生的抑制物質；競爭排除強調已建立的群落讓新來者無法定殖。",
+      "basis": "read", "src": ["T1"], "lesson": "#micro/micro-fermentation/micro-competitive-exclusion/understand"
+    },
+    {
+      "id": "postbiotics", "en": "Postbiotics", "zh": "後生元", "group": "biotics",
+      "asked": [{"year": 114, "q": "八-2", "points": 4}],
+      "definition": "ISAPP 2021：由失活（無生命）微生物及／或其成分所組成、對宿主帶來健康效益的製備物。",
+      "mechanism": "效益來自失活菌體的細胞壁成分、代謝物等，與活菌數無關；製備物必須經過刻意失活並有宿主效益的證據。",
+      "example": "加熱失活的乳酸菌製劑加入飲料或配方食品；與產品是否含活菌無關。",
+      "confusion": "不是「代謝物萃取液」（純化的代謝物不算），也不是益生菌死掉就自動變後生元：必須是刻意失活且有效益證據。",
+      "basis": "read", "src": ["T2"], "lesson": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+    },
+    {
+      "id": "12d-concept", "en": "12D concept", "zh": "12D 概念（肉毒桿菌殺菌值）", "group": "control",
+      "asked": [{"year": 114, "q": "八-3", "points": 4}],
+      "definition": "低酸性罐頭（pH > 4.6）的商業殺菌設計目標：熱處理要足以使 Clostridium botulinum 芽孢減少 12 個對數（10¹² 倍）。",
+      "mechanism": "D 值是指定溫度下菌數降低 90% 所需時間；C. botulinum 芽孢在 121.1 °C 的 D 值約 0.21 分鐘，12 × 0.21 ≈ 2.52 分鐘，即 F₀ 最低約 2.5–3 分鐘（實務常取 3 分以上）。z 值約 10 °C 用來換算其他溫度的等效時間。",
+      "example": "罐頭玉米、豌豆等低酸性食品的殺菌排程；酸性食品（pH < 4.6）因 C. botulinum 不能生長產毒，不需達 12D。",
+      "confusion": "12D 是對 C. botulinum 芽孢的安全目標，不是「殺滅所有微生物」；耐熱腐敗菌（如嗜熱平酸菌）可能需要更高的 F₀，那是品質目標。",
+      "basis": "read", "src": ["T3", "T4"], "lesson": "#micro/micro-control/micro-decimal-reduction/understand"
+    },
+    {
+      "id": "seed-culture", "en": "Seed culture", "zh": "種菌培養（種子培養）", "group": "fermentation",
+      "asked": [{"year": 114, "q": "八-4", "points": 4}],
+      "definition": "在正式（生產）發酵之前，把純種菌株逐級放大培養到足夠數量與活性狀態的中間培養，用來接種生產槽。",
+      "mechanism": "從保存菌株→斜面或平板→搖瓶→種子槽，每一級體積放大約十倍，使接種量足夠（常為生產體積的 5–10%）、縮短遲滯期、確保純度與活性；逐級放大也讓菌適應培養基。",
+      "example": "清酒的酒母（shubo）就是先培養大量純淨清酒酵母的種菌階段；納豆廠向種菌公司取得芽孢懸浮液作為種菌接種蒸熟大豆。",
+      "confusion": "與 inoculum（接種物）：接種物是實際投入下一級的那批菌；種菌培養是產生它的過程。與 starter culture（發酵種）：發酵種是商業化、可直接使用的菌種製劑。",
+      "basis": "secondary", "src": ["T5", "T17"], "lesson": "#micro/micro-fermentation/micro-starter-cultures/understand"
+    },
+    {
+      "id": "feedback-inhibition", "en": "Feedback inhibition", "zh": "回饋抑制", "group": "growth",
+      "asked": [{"year": 114, "q": "八-5", "points": 4}],
+      "definition": "代謝途徑的終產物回頭抑制途徑前段（通常是第一個或分支點）酵素的活性，使產物累積時途徑自動減速。",
+      "mechanism": "終產物結合在異位（allosteric）調節位，改變酵素構形而降低活性；是可逆、快速的活性調節，不需改變酵素量。例：異白胺酸抑制蘇胺酸去胺酶。",
+      "example": "胺基酸發酵（麩胺酸、離胺酸）的工業菌株常選育回饋抑制解除的突變株，才能過量生產；發酵香氣與有機酸的產量也受此調節。",
+      "confusion": "與酵素合成的阻遏（repression）不同：阻遏是減少酵素的合成量（基因層級），回饋抑制是現成酵素的活性被抑制（蛋白層級）。",
+      "basis": "secondary", "src": ["T16"], "lesson": "#micro/micro-fermentation/micro-feedback-inhibition/understand"
+    },
+    {
+      "id": "precision-fermentation", "en": "Precision fermentation", "zh": "精準發酵", "group": "fermentation",
+      "asked": [{"year": 115, "q": "七-1", "points": 3}],
+      "definition": "利用經基因工程改造的微生物宿主（酵母、細菌、絲狀真菌）在發酵槽中生產特定目標成分（蛋白質、酵素、脂質、維生素等），再把成分純化出來用於食品。",
+      "mechanism": "把目標基因（如牛乳乳清蛋白、凝乳酶原）導入宿主，宿主作為「細胞工廠」表現並分泌產物；產物是成分，不是微生物本身，宿主通常在下游去除。",
+      "example": "重組凝乳酶（1980 年代即以 E. coli 表現小牛凝乳酶原）、不含動物的乳清蛋白、血紅蛋白。",
+      "confusion": "與傳統發酵（微生物本身或其代謝改變食品，如優格）和生物質發酵（把菌體當食物，如真菌蛋白）不同：精準發酵交付的是特定純化成分。",
+      "basis": "read", "src": ["T6"], "lesson": "#micro/micro-fermentation/micro-precision-fermentation/understand"
+    },
+    {
+      "id": "synbiotics", "en": "Synbiotics", "zh": "合生元", "group": "biotics",
+      "asked": [{"year": 115, "q": "七-2", "points": 3}],
+      "definition": "ISAPP 2020：由活微生物與宿主微生物能選擇性利用的基質組成、對宿主帶來健康效益的混合物。",
+      "mechanism": "互補型：益生菌與益生質各自獨立有效益；協同型：基質是為了被同一產品中的活菌選擇性利用而設計，兩者合在一起才需證明效益。",
+      "example": "含雙歧桿菌與果寡糖的發酵乳；若基質能被產品中的菌利用並有宿主效益，即屬協同型。",
+      "confusion": "不是「益生菌＋益生質」就自動成立：互補型要各自符合定義，協同型要證明組合的效益。",
+      "basis": "read", "src": ["T2"], "lesson": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+    },
+    {
+      "id": "sublethal-injury", "en": "Sublethally injured microorganisms (SIMs)", "zh": "亞致死受傷微生物", "group": "detection",
+      "asked": [{"year": 115, "q": "七-3", "points": 3}],
+      "definition": "經加熱、冷凍、乾燥、酸或消毒劑等處理後，沒有死亡但細胞結構或功能受損的微生物；在適當條件下可修復並恢復生長。",
+      "mechanism": "膜、核糖體或酵素受損，使細胞對選擇性培養基中的鹽、膽鹽或染劑變得敏感；在非選擇性培養基或修復培養後可恢復。量化方式是非選擇性與選擇性培養基計數之差。",
+      "example": "巴氏殺菌後的乳品或熱燙後的蔬菜中受傷的 E. coli、Listeria：若直接用選擇性培養基檢測會低估，貯藏中修復後菌數又回升。",
+      "confusion": "與 VBNC 不同：受傷細胞在非選擇性培養基上仍可形成菌落，VBNC 在任何常規培養基都不長。計數差不等於額外死亡量。",
+      "basis": "read", "src": ["T7", "T14"], "lesson": "#micro/micro-measurement/micro-injured-cells/understand"
+    },
+    {
+      "id": "competitive-exclusion", "en": "Competitive exclusion", "zh": "競爭排除", "group": "growth",
+      "asked": [{"year": 115, "q": "七-4", "points": 3}],
+      "definition": "已建立的微生物群落（常駐菌）占據養分、附著位置並改變環境，使新來的微生物（如病原菌）無法定殖或建立族群。",
+      "mechanism": "候選作用包括搶奪限制性養分與受體位置、產生有機酸與細菌素、改變氧化還原與 pH；證明競爭排除需要「新來者建立失敗」的端點，不能只看群落組成。",
+      "example": "雛雞口服成年雞腸道菌群製劑以降低 Salmonella 定殖（Nurmi 概念）；發酵食品中乳酸菌群抑制病原菌。",
+      "confusion": "相對占比高、菌相名稱或多樣性高，都不能代替效力驗證；與乳酸拮抗的差別在於強調群落與定殖，而非單一抑制物質。",
+      "basis": "read", "src": ["T8"], "lesson": "#micro/micro-fermentation/micro-competitive-exclusion/understand"
+    },
+    {
+      "id": "hurdle-technology", "en": "Hurdle technology", "zh": "柵欄技術", "group": "control",
+      "asked": [{"year": 115, "q": "七-5", "points": 3}, {"year": 106, "q": "6", "points": 8}, {"year": 105, "q": "七", "points": 10}],
+      "definition": "有計畫地組合多個較溫和的保存因子（柵欄），使微生物無法同時越過全部柵欄，在維持感官與營養品質下達到安全與安定。",
+      "mechanism": "主要柵欄：溫度（高或低）、水活性、pH、氧化還原電位、防腐劑、競爭性微生物。多個柵欄同時干擾微生物的恆定（homeostasis），使其耗盡能量修復（代謝耗竭）而無法生長；多靶點保存讓每個柵欄都不必太強。",
+      "example": "發酵香腸：乾燥降低 aw、乳酸菌降 pH、亞硝酸鹽、低溫熟成共同作用；球場販售的酸性飲料靠低 pH 加糖濃度即不需冷藏。",
+      "confusion": "不是「多做幾道處理」就叫柵欄技術，重點是「組合後的強度」與「每個柵欄可以較溫和」；單一柵欄不足時菌仍可能適應（壓力反應、交叉保護）。",
+      "basis": "secondary", "src": ["T9", "T10"], "lesson": "#micro/micro-environment/micro-hurdles/understand"
+    },
+    {
+      "id": "fed-batch", "en": "Fed-batch fermentation", "zh": "饋料分批（流加）發酵", "group": "fermentation",
+      "asked": [{"year": 113, "q": "八-1", "points": 2}],
+      "definition": "介於分批與連續之間的操作方式：接種後在發酵期間持續或分次補入基質（與養分），但不取出培養液，體積逐漸增加，到最後才收穫。",
+      "mechanism": "控制補料速率可把基質濃度維持在低而穩定的範圍，避免基質抑制、分解代謝物阻遏（如葡萄糖效應）與溶氧不足，因此能達到高菌體密度與高產量；補料速率受菌的最大比生長速率限制，否則基質累積。",
+      "example": "麵包酵母（Saccharomyces cerevisiae）生產：限制葡萄糖補料以避免酵母轉向產酒精（Crabtree 效應）；青黴素與重組蛋白的高密度培養。",
+      "confusion": "分批：一次投料、不補不取；連續：邊補邊取、體積恆定；饋料分批：只補不取。",
+      "basis": "background", "src": ["T18"], "lesson": "#micro/micro-growth/micro-growth-cycle/understand"
+    },
+    {
+      "id": "prebiotics", "en": "Prebiotics", "zh": "益生質（益生元）", "group": "biotics",
+      "asked": [{"year": 113, "q": "八-2", "points": 2}, {"year": 110, "q": "10-d", "points": 4}],
+      "definition": "ISAPP 2017：能被宿主微生物選擇性利用、並帶來健康效益的基質。",
+      "mechanism": "多為人體酵素不能消化的寡糖或多醣（果寡糖、半乳寡糖、菊糖），到達大腸後被特定菌（雙歧桿菌、乳酸桿菌等）發酵產生短鏈脂肪酸等，改變菌相與代謝。",
+      "example": "添加菊糖或果寡糖的乳製品、嬰兒配方中的半乳寡糖。",
+      "confusion": "不是所有膳食纖維都是益生質（要「選擇性利用」且有效益證據）；與益生菌（活菌）相對，益生質是餵菌的基質。",
+      "basis": "read", "src": ["T2"], "lesson": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+    },
+    {
+      "id": "doubling-time", "en": "Doubling time (generation time)", "zh": "倍增時間（世代時間）", "group": "growth",
+      "asked": [{"year": 113, "q": "八-3", "points": 2}],
+      "definition": "在對數生長期，族群數目增加一倍所需的時間；等於一個細胞分裂成兩個的世代時間。",
+      "mechanism": "二分裂使 N = N₀ × 2ⁿ，n 為世代數；倍增時間 g = t / n = t·log2 /(logN − logN₀)。受菌種、溫度、養分與 pH 影響；只在對數期成立。",
+      "example": "E. coli 在最適條件約 20 分鐘；Listeria 在 4 °C 可能長達一天以上，這決定冷藏食品的安全保存期估算。",
+      "confusion": "不是整個生長曲線的平均；遲滯期與穩定期不適用。與 D 值（死亡的十分之一時間）方向相反、不要混用。",
+      "basis": "read", "src": ["T10"], "lesson": "#micro/micro-growth/micro-generation-time/understand"
+    },
+    {
+      "id": "inoculum", "en": "Inoculum", "zh": "接種物（接種量）", "group": "fermentation",
+      "asked": [{"year": 113, "q": "八-4", "points": 2}],
+      "definition": "引入培養基、發酵槽或食品中以啟動生長或發酵的那批微生物（細胞、芽孢或孢子懸浮液），常以體積比或菌數表示。",
+      "mechanism": "接種量與生理狀態決定遲滯期長短、能否壓過雜菌與發酵能否如期完成；工業上由種菌培養逐級放大提供，接種量常為生產體積的 5–10%。",
+      "example": "納豆以納豆菌芽孢懸浮液噴灑蒸熟大豆；清酒以酒母接種主醪；優格以 1–3% 的發酵種接種。",
+      "confusion": "接種物是「投入的那批菌」，種菌培養是「產生它的過程」；在檢測中 inoculum 也指人為加入樣品的已知菌量（challenge test）。",
+      "basis": "secondary", "src": ["T5", "T17"], "lesson": "#micro/micro-fermentation/micro-starter-cultures/understand"
+    },
+    {
+      "id": "secondary-metabolites", "en": "Secondary metabolites", "zh": "次級代謝物", "group": "growth",
+      "asked": [{"year": 113, "q": "八-5", "points": 2}],
+      "definition": "微生物在生長減緩或停止後（idiophase，相對於生長期 trophophase）產生、對自身生長與繁殖非必需、但常有生態功能的化合物。",
+      "mechanism": "由初級代謝的中間物（乙醯輔酶 A、胺基酸、異戊二烯單位）經專屬途徑合成；通常只有特定分類群會產生、常成一族結構相近的化合物，受碳源、氮源與磷酸鹽的阻遏調節。",
+      "example": "抗生素（青黴素）、色素（紅麴色素）、真菌毒素（黃麴毒素）、植物生長激素（赤黴素）；食品上既有可利用的色素與抗生素，也有需防範的毒素。",
+      "confusion": "初級代謝物（胺基酸、有機酸、乙醇、酵素）在生長期產生且為生長所需；次級代謝物不是。生產次級代謝物的發酵常刻意限制生長（如饋料分批）以進入生產期。",
+      "basis": "background", "src": [], "lesson": "#micro/micro-growth/micro-growth-cycle/understand"
+    },
+    {
+      "id": "selective-differential-media", "en": "Selective / differential media", "zh": "選擇性與鑑別性培養基", "group": "detection",
+      "asked": [{"year": 110, "q": "10-a", "points": 4}],
+      "definition": "選擇性培養基抑制不想要的微生物、讓目標菌生長；鑑別性培養基藉顏色或外觀變化區分不同菌的菌落；同一培養基可同時具備兩種性質。",
+      "mechanism": "選擇成分如膽鹽、結晶紫（抑制革蘭氏陽性菌）、高鹽（只有耐鹽菌生長）；鑑別成分如糖加 pH 指示劑（發酵產酸變色）、血液（溶血）。",
+      "example": "MacConkey 瓊脂：膽鹽與結晶紫選擇革蘭氏陰性菌，乳糖與中性紅鑑別乳糖發酵菌（粉紅色菌落）；Mannitol salt agar：高鹽選擇葡萄球菌，甘露醇與酚紅鑑別 S. aureus（黃色）。",
+      "confusion": "增菌（enrichment）培養基是讓少數目標菌在液體中優先增殖，與選擇性不同；加營養因子的營養強化（enriched）培養基是為挑剔菌，不抑制任何菌。",
+      "basis": "read", "src": ["T10"], "lesson": "#micro/micro-measurement/micro-plate-count/understand"
+    },
+    {
+      "id": "sulfur-stinker", "en": "Sulfur stinker (sulfide spoilage)", "zh": "硫臭腐敗（硫化物腐敗）", "group": "control",
+      "asked": [{"year": 110, "q": "10-b", "points": 4}],
+      "definition": "低酸性罐頭食品由嗜熱、厭氧、產芽孢且能還原硫酸鹽的細菌 Desulfotomaculum nigrificans（舊名 Clostridium nigrificans）引起的腐敗，產生硫化氫而有臭蛋味。",
+      "mechanism": "耐熱芽孢在殺菌不足後殘存，於高溫貯存時萌發；代謝產生 H₂S，與鐵反應使產品變黑；因 H₂S 溶於產品，罐頭通常不膨罐，外觀看不出來。",
+      "example": "罐頭玉米、豌豆等 pH 5.3 以上的低酸性蔬菜；罐頭在熱帶或未充分冷卻的倉庫中更易發生。",
+      "confusion": "平酸腐敗（flat sour，Geobacillus stearothermophilus）同樣不膨罐但是變酸、無臭；TA 腐敗（Clostridium thermosaccharolyticum）會產氣膨罐；三者都是嗜熱芽孢菌、都代表殺菌或冷卻不足。",
+      "basis": "secondary", "src": ["T11"], "lesson": "#micro/micro-cases/micro-spoilage-indicators/understand"
+    },
+    {
+      "id": "metabiosis", "en": "Metabiosis", "zh": "代謝接力（一種微生物為另一種創造條件）", "group": "growth",
+      "asked": [{"year": 110, "q": "10-c", "points": 4}],
+      "definition": "一種微生物的生長或代謝改變環境或提供基質，使原本不能或不易生長的另一種微生物得以生長；兩者不需同時共存，常呈先後接替。",
+      "mechanism": "先來者消耗氧氣、改變 pH、分解大分子成小分子（胜肽、胺基酸、糖）或移除抑制物，後來者利用這些條件；Gram 等把「一種菌為另一種菌的腐敗反應產生基質」稱為 metabiosis。",
+      "example": "腐敗：好氣菌耗氧後厭氧菌接手；蛋白分解菌釋出胺基酸供產胺菌生成生物胺。發酵：優格中 Streptococcus thermophilus 與 Lactobacillus bulgaricus 互供甲酸與胜肽；醬油醪中乳酸菌酸化後酵母才生長。",
+      "confusion": "與共生（symbiosis，雙方同時互利）不同，metabiosis 強調先後與單向的條件創造；與拮抗相反（拮抗是抑制，metabiosis 是促進）。",
+      "basis": "secondary", "src": ["T12"], "lesson": "#micro/micro-fermentation/micro-community-metabolism/understand"
+    },
+    {
+      "id": "radiation-sterilization", "en": "Food irradiation (radiation sterilization)", "zh": "放射線（照射）殺菌", "group": "control",
+      "asked": [{"year": 112, "q": "十一", "points": 10}],
+      "definition": "以游離輻射（鈷-60 或銫-137 的 γ 射線、10 MeV 以下的電子束、5 MeV 以下的 X 射線）照射食品，在不明顯升溫下殺滅微生物或抑制生理活動的非熱處理。",
+      "mechanism": "直接作用：輻射破壞 DNA 使細胞無法複製；間接作用：水分子被游離產生 H•、•OH 等自由基攻擊 DNA 與膜。劑量單位 kGy。依劑量分：radurization（低劑量延長保存期、抑制發芽殺蟲）、radicidation（1–10 kGy 殺滅病原菌與腐敗菌，相當於巴氏殺菌）、radappertization（> 10 kGy，達商業滅菌，如太空食品、香辛料除菌）。",
+      "example": "香辛料與乾燥蔬菜除菌、馬鈴薯抑芽、冷凍禽肉與絞肉殺滅 Salmonella、E. coli O157。FAO／IAEA／WHO 認為 10 kGy 以下安全且營養適當。",
+      "confusion": "照射不會使食品帶放射性；對酵素與病毒的效果比對細菌差，芽孢與病毒需較高劑量；高劑量會促進脂質氧化產生異味，所以多搭配低溫、缺氧。",
+      "basis": "read", "src": ["T13"], "lesson": "#micro/micro-control/micro-decimal-reduction/understand"
+    },
+    {
+      "id": "homo-heterolactic", "en": "Homolactic / heterolactic fermentation", "zh": "同型與異型乳酸發酵", "group": "fermentation",
+      "asked": [{"year": 107, "q": "5-AB", "points": 6}],
+      "definition": "同型乳酸發酵：葡萄糖幾乎全部轉成乳酸（1 葡萄糖→2 乳酸）；異型乳酸發酵：葡萄糖轉成乳酸加乙醇（或醋酸）加二氧化碳（1 葡萄糖→1 乳酸＋1 乙醇＋1 CO₂）。",
+      "mechanism": "同型走 EMP 途徑，丙酮酸接受 NADH 還原成乳酸，淨得 2 ATP；異型走磷酸酮醣（6-磷酸葡萄糖酸／phosphoketolase）途徑，淨得 1 ATP，放出 CO₂。",
+      "example": "同型：Lactococcus lactis、Streptococcus thermophilus（優格、乳酪的快速酸化）；異型：Leuconostoc mesenteroides（泡菜初期產氣與風味）、Lactobacillus brevis。",
+      "confusion": "異型菌產的 CO₂ 會使包裝膨脹、產品有氣泡；判斷依產物組成與 ATP 收支，不是看菌是球是桿。",
+      "basis": "read", "src": ["T10"], "lesson": "#micro/micro-fermentation/micro-fermentation-redox/understand"
+    },
+    {
+      "id": "infection-intoxication", "en": "Foodborne infection vs intoxication", "zh": "感染型與毒素型食物中毒", "group": "control",
+      "asked": [{"year": 107, "q": "5-CD", "points": 6}],
+      "definition": "感染型：吃進活的病原菌，在腸道增殖或侵入後致病（Salmonella、Listeria、病原性 E. coli）；毒素型：吃進微生物事先在食品中產生的毒素，不需活菌（S. aureus 腸毒素、肉毒桿菌毒素、B. cereus 嘔吐毒素）。",
+      "mechanism": "感染型潛伏期較長（通常 12 小時以上到數天）、常伴發燒；毒素型潛伏期短（數小時）、以嘔吐或神經症狀為主；另有「毒素媒介感染」（毒素在腸道內產生，如 C. perfringens、產志賀毒素 E. coli）。",
+      "example": "S. aureus 腸毒素耐 100 °C 30 分鐘以上，加熱過的食品仍可中毒；Salmonella 則加熱即可殺滅。",
+      "confusion": "預防重點不同：毒素型要防止產毒（溫度管理、避免菌先大量生長），感染型要殺滅或避免活菌殘存與交叉污染。",
+      "basis": "background", "src": [], "lesson": "#micro/micro-hazards/micro-infection-intoxication/understand"
+    },
+    {
+      "id": "haccp", "en": "HACCP", "zh": "危害分析重要管制點", "group": "control",
+      "asked": [{"year": 106, "q": "1", "points": 10}],
+      "definition": "Hazard Analysis and Critical Control Point：以科學方法辨認食品製程中的生物、化學、物理危害，找出可控制這些危害的重要管制點並加以監控的預防性食品安全管理系統。",
+      "mechanism": "七大原則：危害分析、決定重要管制點（CCP）、建立管制界限、監控、矯正措施、驗證、文件紀錄；前有五項前置步驟（組成小組、產品描述、用途、流程圖、現場確認），並以 GMP／衛生標準作業程序為前提計畫。",
+      "example": "豆乾製程：蒸煮或殺菌的溫度時間為 CCP（控制芽孢與營養細胞），冷卻與冷藏溫度為另一 CCP（防止 B. cereus、C. perfringens 增殖），防腐劑添加量為化學危害的 CCP。",
+      "confusion": "HACCP 是預防系統，不是終產品檢驗；CCP 是「不控制就無法接受」的點，不是每個步驟都是 CCP。",
+      "basis": "read", "src": ["T15"], "lesson": "#micro/micro-cases/micro-process-validation/understand"
+    },
+    {
+      "id": "vbnc", "en": "Viable but non-culturable (VBNC) state", "zh": "活但不可培養狀態", "group": "detection",
+      "asked": [],
+      "definition": "細菌在逆境下進入的一種狀態：仍有代謝活性與完整細胞膜，但在常規培養基上不能生長形成菌落；1982 年首次描述。",
+      "mechanism": "低溫貯藏、極端溫度、乾燥、高壓、照射、脈衝電場、防腐劑與消毒劑、鹽與飢餓都可誘導；細胞縮小變圓、保留遺傳物質，部分病原菌保留或在復甦後恢復毒力；在溫度回升、富養分、丙酮酸鹽等條件下可能復甦，但不是所有菌株都能恢復。",
+      "example": "文獻記錄 85 種細菌可進入 VBNC，其中 67 種為病原菌（E. coli O157、Salmonella、Listeria、Vibrio）；山梨酸鉀 pH 4.0 可在 24 小時內使 Listeria 進入 VBNC。",
+      "confusion": "VBNC 不等於死亡，也不等於亞致死受傷（受傷細胞在非選擇性培養基仍可長）；因此平板計數陰性不代表食品沒有病原菌，需用 PMA-qPCR、流式細胞儀等檢測活性。",
+      "basis": "read", "src": ["T14"], "lesson": "#micro/micro-measurement/micro-pcr-viability/understand"
+    },
+    {
+      "id": "probiotics", "en": "Probiotics", "zh": "益生菌", "group": "biotics",
+      "asked": [],
+      "definition": "ISAPP 2014（沿用 FAO/WHO 2001）：以足夠量給予時，能對宿主帶來健康效益的活微生物。",
+      "mechanism": "需菌株層級的鑑定、安全性評估與人體效益證據；效益來自調節腸道菌相、強化屏障、免疫調節或產生代謝物，因菌株而異。",
+      "example": "含特定 Lactobacillus、Bifidobacterium 菌株且有效益證據的發酵乳或膠囊；一般發酵食品中的活菌若無菌株層級證據，不算益生菌。",
+      "confusion": "「活菌數高」不等於益生菌；發酵食品 ≠ 益生菌食品（ISAPP 2021 發酵食品聲明特別區分）。",
+      "basis": "read", "src": ["T2"], "lesson": "#micro/micro-fermentation/micro-biotics-evidence/understand"
+    },
+    {
+      "id": "d-z-f-values", "en": "D value, z value, F value", "zh": "D 值、z 值、F 值", "group": "control",
+      "asked": [],
+      "definition": "D 值：指定溫度下使菌數減少 90%（一個對數）所需時間。z 值：使 D 值改變十倍所需的溫度變化（°C）。F 值：在參考溫度下達到指定殺菌效果所需的等效時間；F₀ 指 121.1 °C、z = 10 °C。",
+      "mechanism": "對數線性死滅模型下 log(N/N₀) = −t/D；不同溫度的 D 值以 z 值換算：log(D₁/D₂) = (T₂ − T₁)/z。F = D × （所需對數減少數）。",
+      "example": "C. botulinum 芽孢 D₁₂₁ ≈ 0.21 分、z ≈ 10 °C → 12D 的 F₀ ≈ 2.5 分；嗜熱平酸菌 D₁₂₁ 可達 4–5 分，所以品質上常用更高 F₀。",
+      "confusion": "D 值是「時間」、z 值是「溫度差」、F 值是「等效時間」；D 值只在對數線性段成立，有肩部與尾部時需另用模型。",
+      "basis": "read", "src": ["T3", "T4"], "lesson": "#micro/micro-control/micro-z-temperature/understand"
+    },
+    {
+      "id": "psychrotroph", "en": "Psychrotroph vs psychrophile", "zh": "耐冷菌與嗜冷菌", "group": "growth",
+      "asked": [],
+      "definition": "嗜冷菌：可在 0 °C 以下生長、最適約 15 °C、通常 20 °C 以上即不能存活。耐冷菌（psychrotolerant）：偏好較涼環境，從約 25 °C 到冷藏溫度 4 °C 都能生長，最適溫仍在中溫範圍。",
+      "mechanism": "低溫生長靠膜脂不飽和化維持流動性、冷休克蛋白解開核酸二級結構、柔性較高的冷活性酵素；嗜冷菌的酵素與膜在中溫就失去穩定。",
+      "example": "冷藏食品的腐敗菌（Pseudomonas）與病原菌（Listeria monocytogenes 可在 4–10 °C 增殖、Yersinia enterocolitica）多屬耐冷菌；真正的嗜冷菌多在極地與深海。",
+      "confusion": "冷藏能擋住嗜溫菌，擋不住耐冷菌；耐冷不是革蘭氏陰性菌專有，Listeria（陽性）就是例子。",
+      "basis": "read", "src": ["T10"], "lesson": "#micro/micro-environment/micro-cold-adaptation/understand"
+    },
+    {
+      "id": "bacteriocin", "en": "Bacteriocin", "zh": "細菌素", "group": "fermentation",
+      "asked": [],
+      "definition": "細菌以核糖體合成的抗菌胜肽或蛋白質，通常抑制親緣相近的細菌；乳酸菌的細菌素可作為食品生物保存劑。",
+      "mechanism": "多數結合在目標菌細胞膜上形成暫時性孔洞，使離子與小分子外漏、質子動力消散而死亡（如 nisin 結合 lipid II）。對革蘭氏陰性菌效果差，因外膜阻擋。",
+      "example": "Nisin（Lactococcus lactis 產生）用於加工乳酪、罐頭以抑制 Clostridium 與 Listeria；pediocin 抑制 Listeria。",
+      "confusion": "細菌素不是抗生素：核糖體合成、作用譜窄、可被消化道蛋白酶分解；乳酸拮抗除了細菌素還包括有機酸等多種因子。",
+      "basis": "read", "src": ["T1"], "lesson": "#micro/micro-fermentation/micro-competitive-exclusion/understand"
+    }
+  ]
+}

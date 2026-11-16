@@ -1,0 +1,15 @@
+.gl-questions,.gl-points,.gl-skeleton,.gl-pending,.gl-sources{margin:.4rem 0 .8rem;padding-left:1.3rem}
+.gl-questions li{margin:.3rem 0}
+.gl-principle{background:var(--em-teal-soft);border-radius:8px;padding:.6rem .9rem;margin:.8rem 0}
+.gl-points{list-style:none;padding:0}
+.gl-point{border:1px solid var(--em-line);border-radius:10px;padding:.6rem .85rem;margin:.5rem 0}
+.gl-point-head{display:flex;gap:.6rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.gl-point h4{margin:0;font-size:1rem}
+.gl-point p{margin:.3rem 0}
+.gl-basis{font-size:.78rem;border-radius:999px;padding:.1rem .6rem;border:1px solid var(--em-line);white-space:nowrap}
+.gl-basis-read{background:var(--em-teal-soft);color:var(--em-teal);border-color:var(--em-teal)}
+.gl-basis-secondary{background:var(--em-warn-soft);color:var(--em-warn);border-color:var(--em-warn)}
+.gl-basis-background{background:transparent;color:var(--em-mute)}
+.gl-src{font-size:.85rem;color:var(--em-mute)}
+.gl-chip{text-decoration:none}
+.gl-lesson{scroll-margin-top:12px}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">雙鍵配置改變鏈形狀</title>
+<desc id="figure-desc">相近鏈長的概念比較：較直的鏈可排列較緊密；cis 彎折通常降低緊密堆積能力。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">雙鍵配置改變鏈形狀</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">相近鏈長下的堆積概念；不是完整分子結構</tspan></text>
+<rect x="40" y="112" width="292" height="228" rx="18" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="388" y="112" width="292" height="228" rx="18" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="186" y="148" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="186" dy="0">較直的鏈形</tspan></text>
+<text x="534" y="148" font-size="22" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="534" dy="0">cis 雙鍵造成彎折</tspan></text>
+<path d="M 75 194 L 100 184 L 125 194 L 150 184 L 175 194 L 200 184 L 225 194 L 250 184 L 292 194" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 75 235 L 100 225 L 125 235 L 150 225 L 175 235 L 200 225 L 225 235 L 250 225 L 292 235" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 75 276 L 100 266 L 125 276 L 150 266 L 175 276 L 200 266 L 225 276 L 250 266 L 292 276" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420 188 L 447 177 L 474 188 L 501 177 L 528 188 L 545 209 L 572 220 L 599 209 L 640 220" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420 238 L 447 227 L 474 238 L 501 227 L 528 238 L 545 259 L 572 270 L 599 259 L 640 270" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 420 288 L 447 277 L 474 288 L 501 277 L 528 288 L 545 309 L 572 320 L 599 309 L 640 320" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="186" y="318" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="186" dy="0">可較緊密排列</tspan></text>
+<text x="534" y="376" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="534" dy="0">通常較難緊密堆積</tspan></text>
+<text x="32" y="410" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">熔點還受鏈長、組成與晶型影響。</tspan><tspan x="32" dy="25">天然油脂為混合物，不能只由一種脂肪酸推算。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

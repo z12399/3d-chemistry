@@ -1,0 +1,538 @@
+{
+  "schema": "injured-cell-evidence/v1",
+  "datasetId": "injured-cell-evidence",
+  "version": "2026-10-16.1",
+  "activityId": "injured-cell-evidence",
+  "lessonId": "micro-injured-cells",
+  "title": "四個計數，分母改變了什麼？",
+  "countDefinitions": [
+    {
+      "id": "r-before",
+      "label": "處理前 R",
+      "symbol": "R₀",
+      "method": "R",
+      "methodLabel": "恢復支持方法",
+      "phase": "before",
+      "phaseLabel": "處理前",
+      "unit": "CFU/g"
+    },
+    {
+      "id": "s-before",
+      "label": "處理前 S",
+      "symbol": "S₀",
+      "method": "S",
+      "methodLabel": "較具選擇性的方法",
+      "phase": "before",
+      "phaseLabel": "處理前",
+      "unit": "CFU/g"
+    },
+    {
+      "id": "r-after",
+      "label": "處理後 R",
+      "symbol": "Rₜ",
+      "method": "R",
+      "methodLabel": "恢復支持方法",
+      "phase": "after",
+      "phaseLabel": "處理後",
+      "unit": "CFU/g"
+    },
+    {
+      "id": "s-after",
+      "label": "處理後 S",
+      "symbol": "Sₜ",
+      "method": "S",
+      "methodLabel": "較具選擇性的方法",
+      "phase": "after",
+      "phaseLabel": "處理後",
+      "unit": "CFU/g"
+    }
+  ],
+  "cases": [
+    {
+      "id": "equal-baseline",
+      "label": "處理前兩方法相同",
+      "origin": "original-teaching-data",
+      "originLabel": "原創題設；不是 Espina 等人的實測數據",
+      "sourceId": null,
+      "unit": "CFU/g",
+      "counts": {
+        "r-before": 2000000,
+        "s-before": 2000000,
+        "r-after": 20000,
+        "s-after": 200
+      },
+      "assumptions": [
+        "同一目標已辨識，題設排除背景干擾。",
+        "同一原樣質量基準及可比較的樣本、前處理與計數方法。",
+        "四個數值皆為 CFU/g 且落在可定量範圍。",
+        "這些前提是原創題設，不由四個正數自行驗證。"
+      ],
+      "eligibility": {
+        "sameTarget": true,
+        "comparableSampleBasis": true,
+        "sameOriginalMassBasis": true,
+        "allQuantifiable": true,
+        "premisesKind": "teaching-assumptions",
+        "singleCellTracking": false,
+        "totalLivingMeasured": false
+      },
+      "allLiving": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "reason": "四個可培養計數沒有量得全部活細胞分母。"
+      },
+      "lessonLocator": {
+        "path": "app/dist/data/microbiology-curriculum.json",
+        "pointer": "/topics/3/lessons/2/practice"
+      }
+    },
+    {
+      "id": "existing-gap",
+      "label": "處理前已有方法差",
+      "origin": "original-teaching-data",
+      "originLabel": "原創題設；不是 Espina 等人的實測數據",
+      "sourceId": null,
+      "unit": "CFU/g",
+      "counts": {
+        "r-before": 2000000,
+        "s-before": 200000,
+        "r-after": 20000,
+        "s-after": 200
+      },
+      "assumptions": [
+        "同一目標已辨識，題設排除背景干擾。",
+        "同一原樣質量基準及可比較的樣本、前處理與計數方法。",
+        "四個數值皆為 CFU/g 且落在可定量範圍。",
+        "這些前提是原創題設，不由四個正數自行驗證。"
+      ],
+      "eligibility": {
+        "sameTarget": true,
+        "comparableSampleBasis": true,
+        "sameOriginalMassBasis": true,
+        "allQuantifiable": true,
+        "premisesKind": "teaching-assumptions",
+        "singleCellTracking": false,
+        "totalLivingMeasured": false
+      },
+      "allLiving": {
+        "status": "unknown",
+        "value": null,
+        "unit": null,
+        "reason": "四個可培養計數沒有量得全部活細胞分母。"
+      },
+      "lessonLocator": {
+        "path": "app/dist/data/microbiology-curriculum.json",
+        "pointer": "/topics/3/lessons/2/practice/transfer"
+      }
+    }
+  ],
+  "shareDenominators": [
+    {
+      "id": "r-after",
+      "label": "處理後 R 計數 Rₜ",
+      "countId": "r-after",
+      "availability": "given"
+    },
+    {
+      "id": "r-before",
+      "label": "處理前 R 計數 R₀",
+      "countId": "r-before",
+      "availability": "given"
+    },
+    {
+      "id": "all-living",
+      "label": "全部活細胞",
+      "countId": null,
+      "availability": "unknown"
+    }
+  ],
+  "sources": [
+    {
+      "id": "injured-cell-source-espina2016",
+      "title": "Detection of Thermal Sublethal Injury in Escherichia coli via the Selective Medium Plating Technique: Mechanisms and Improvements",
+      "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/full",
+      "pdfUrl": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf",
+      "doi": "10.3389/fmicb.2016.01376",
+      "authors": [
+        "Laura Espina",
+        "Diego García-Gonzalo",
+        "Rafael Pagán"
+      ],
+      "citation": "Espina L, García-Gonzalo D, Pagán R (2016). Frontiers in Microbiology 7:1376. doi:10.3389/fmicb.2016.01376.",
+      "pdfIdentity": {
+        "bytes": 1101420,
+        "sha256": "d6d9bd2d53c25162c669ef9ecd40b38793d672168f8f3a807fa238ed37a59a6f"
+      },
+      "license": {
+        "id": "CC-BY-4.0",
+        "label": "Creative Commons Attribution 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "adaptation": "選錄 Table 1 的四個 WT 分類；中文改寫及依 p4 定義整理的兩階段觀察均已另外標示。未改原表分類，不擷取圖線數字。",
+      "scope": "BW25113 WT 的固定出版證據；原創計算案例不是本研究資料。",
+      "limitations": [
+        "不推廣到所有 E. coli、其他菌株、食品安全或感染力。",
+        "沒有逐顆細胞追蹤，也不提供培養、加熱或恢復流程。"
+      ]
+    }
+  ],
+  "sourceSupplement": {
+    "role": "expandable-source-supplement",
+    "contexts": [
+      {
+        "id": "wt-3-untreated",
+        "origin": "published-classification",
+        "sourceId": "injured-cell-source-espina2016",
+        "organism": "E. coli BW25113 WT",
+        "label": "WT｜3% NaCl｜未處理",
+        "condition": {
+          "initialMedium": "M9 agar",
+          "initialNaClPercent": 3,
+          "treatmentState": "untreated",
+          "treatmentLabel": "未處理",
+          "treatmentLocator": {
+            "pdfPage": 4,
+            "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+          },
+          "interpretation": "固定來源情境；不是可調整的培養或處理參數。",
+          "treatmentTemperatureC": null,
+          "treatmentDurationMin": null
+        },
+        "publishedClassification": {
+          "status": "reported",
+          "label": "Viable",
+          "locator": {
+            "pdfPage": 6,
+            "table": "1",
+            "row": "3% NaCl",
+            "column": "State of WT untreated cells",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=6"
+          }
+        },
+        "observations": {
+          "first": {
+            "status": "definition-derived",
+            "value": "growth-observed",
+            "label": "首次觀察有生長",
+            "basis": "由表中分類配合 p4 定義推得；不是另行刊出的逐樣本觀察表。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          },
+          "second": {
+            "status": "not-reported",
+            "value": null,
+            "label": "後續觀察未報告",
+            "basis": "Viable 類別的後續觀察沒有報告，不填是／否。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          }
+        },
+        "limitations": [
+          "研究中的樣本分類，不是逐顆細胞命運。",
+          "來源 CFU/plate 與原創題設 CFU/g 屬不同證據，不互相填值。",
+          "後續觀察未報告；不補成陰性或陽性。"
+        ]
+      },
+      {
+        "id": "wt-3-treated",
+        "origin": "published-classification",
+        "sourceId": "injured-cell-source-espina2016",
+        "organism": "E. coli BW25113 WT",
+        "label": "WT｜3% NaCl｜受處理",
+        "condition": {
+          "initialMedium": "M9 agar",
+          "initialNaClPercent": 3,
+          "treatmentState": "thermally-treated",
+          "treatmentLabel": "論文指定的固定熱處理",
+          "treatmentLocator": {
+            "pdfPage": 4,
+            "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+          },
+          "interpretation": "固定來源情境；不是可調整的培養或處理參數。",
+          "treatmentTemperatureC": 55,
+          "treatmentDurationMin": 10
+        },
+        "publishedClassification": {
+          "status": "reported",
+          "label": "Inhibited",
+          "locator": {
+            "pdfPage": 6,
+            "table": "1",
+            "row": "3% NaCl",
+            "column": "State of WT thermally treated cells",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=6"
+          }
+        },
+        "observations": {
+          "first": {
+            "status": "definition-derived",
+            "value": "no-colonies-observed",
+            "label": "首次觀察未見菌落",
+            "basis": "由表中分類配合 p4 定義推得；不是另行刊出的逐樣本觀察表。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          },
+          "second": {
+            "status": "definition-derived",
+            "value": "positive",
+            "label": "後續觀察為陽性",
+            "basis": "由表中分類配合 p4 定義推得；不是每顆細胞的追蹤結果。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          }
+        },
+        "limitations": [
+          "研究中的樣本分類，不是逐顆細胞命運。",
+          "來源 CFU/plate 與原創題設 CFU/g 屬不同證據，不互相填值。",
+          "後續陽性顯示樣本仍有形成菌落的能力，不證明每顆細胞皆恢復。"
+        ]
+      },
+      {
+        "id": "wt-4-untreated",
+        "origin": "published-classification",
+        "sourceId": "injured-cell-source-espina2016",
+        "organism": "E. coli BW25113 WT",
+        "label": "WT｜4% NaCl｜未處理",
+        "condition": {
+          "initialMedium": "M9 agar",
+          "initialNaClPercent": 4,
+          "treatmentState": "untreated",
+          "treatmentLabel": "未處理",
+          "treatmentLocator": {
+            "pdfPage": 4,
+            "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+          },
+          "interpretation": "固定來源情境；不是可調整的培養或處理參數。",
+          "treatmentTemperatureC": null,
+          "treatmentDurationMin": null
+        },
+        "publishedClassification": {
+          "status": "reported",
+          "label": "Inhibited",
+          "locator": {
+            "pdfPage": 6,
+            "table": "1",
+            "row": "4% NaCl",
+            "column": "State of WT untreated cells",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=6"
+          }
+        },
+        "observations": {
+          "first": {
+            "status": "definition-derived",
+            "value": "no-colonies-observed",
+            "label": "首次觀察未見菌落",
+            "basis": "由表中分類配合 p4 定義推得；不是另行刊出的逐樣本觀察表。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          },
+          "second": {
+            "status": "definition-derived",
+            "value": "positive",
+            "label": "後續觀察為陽性",
+            "basis": "由表中分類配合 p4 定義推得；不是每顆細胞的追蹤結果。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          }
+        },
+        "limitations": [
+          "研究中的樣本分類，不是逐顆細胞命運。",
+          "來源 CFU/plate 與原創題設 CFU/g 屬不同證據，不互相填值。",
+          "後續陽性顯示樣本仍有形成菌落的能力，不證明每顆細胞皆恢復。"
+        ]
+      },
+      {
+        "id": "wt-6-treated",
+        "origin": "published-classification",
+        "sourceId": "injured-cell-source-espina2016",
+        "organism": "E. coli BW25113 WT",
+        "label": "WT｜6% NaCl｜受處理",
+        "condition": {
+          "initialMedium": "M9 agar",
+          "initialNaClPercent": 6,
+          "treatmentState": "thermally-treated",
+          "treatmentLabel": "論文指定的固定熱處理",
+          "treatmentLocator": {
+            "pdfPage": 4,
+            "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+          },
+          "interpretation": "固定來源情境；不是可調整的培養或處理參數。",
+          "treatmentTemperatureC": 55,
+          "treatmentDurationMin": 10
+        },
+        "publishedClassification": {
+          "status": "reported",
+          "label": "Non-viable",
+          "locator": {
+            "pdfPage": 6,
+            "table": "1",
+            "row": "6% NaCl",
+            "column": "State of WT thermally treated cells",
+            "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=6"
+          }
+        },
+        "observations": {
+          "first": {
+            "status": "definition-derived",
+            "value": "no-colonies-observed",
+            "label": "首次觀察未見菌落",
+            "basis": "由表中分類配合 p4 定義推得；不是另行刊出的逐樣本觀察表。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          },
+          "second": {
+            "status": "definition-derived",
+            "value": "negative-below-threshold",
+            "label": "後續仍低於原文判讀門檻",
+            "basis": "由表中分類配合 p4 定義推得；不是每顆細胞的追蹤結果。",
+            "locator": {
+              "pdfPage": 4,
+              "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+              "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+            }
+          }
+        },
+        "limitations": [
+          "研究中的樣本分類，不是逐顆細胞命運。",
+          "來源 CFU/plate 與原創題設 CFU/g 屬不同證據，不互相填值。",
+          "Non-viable 是原表標籤；後續陰性低於門檻，不是零或絕對死亡。"
+        ]
+      }
+    ],
+    "reporting": {
+      "kind": "representative-experiment",
+      "repeatStatement": "作者描述為代表實驗，重複兩次得到相似結果。",
+      "independentReplicateCount": {
+        "status": "not-specified-as-independent-n",
+        "value": null
+      },
+      "uncertainty": {
+        "status": "not-reported",
+        "kind": null,
+        "value": null
+      },
+      "locator": {
+        "pdfPage": 4,
+        "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+        "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+      }
+    },
+    "negativeDefinition": {
+      "kind": "operational-negative-threshold",
+      "comparison": "<",
+      "value": 5,
+      "unit": "CFU/plate",
+      "zeroEquivalent": false,
+      "deathEquivalent": false,
+      "description": "原文後續 negative 指少於 5 CFU/plate；不能改寫成零或絕對死亡。",
+      "locator": {
+        "pdfPage": 4,
+        "section": "Determination of the State of Cells Grown in Agar Media Containing NaCl",
+        "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+      }
+    },
+    "sourceIssues": [
+      {
+        "id": "printed-equation-conflict",
+        "status": "unresolved",
+        "locator": {
+          "pdfPage": 4,
+          "item": "Eq.(1) and following prose",
+          "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+        },
+        "statement": "原式排成 1 − (selective/nonselective × 100)，與旁述 2-log 差對應存活者中的 99% 不相容。",
+        "handling": "保留疑義；本活動百分比是原創題設的獨立差額／分母算術，不聲稱是已獲作者更正的公式。"
+      },
+      {
+        "id": "mutant-name-conflict",
+        "status": "unresolved-excluded",
+        "locator": {
+          "pdfPage": 4,
+          "item": "Methods compared with Table 1 on p6",
+          "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=4"
+        },
+        "statement": "方法段落寫 WT／ΔproP；Table 1 與 Results 寫 WT／ΔotsA。",
+        "handling": "只選兩處一致的 WT；排除缺失株，不靜默修正原文。"
+      },
+      {
+        "id": "fig1-no-exact-pairs",
+        "status": "not-used-for-counts",
+        "locator": {
+          "pdfPage": 5,
+          "item": "Figure 1",
+          "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=5"
+        },
+        "statement": "圖 1 未提供各方法精確的四個基線／處理後原始 CFU 配對。",
+        "handling": "不從曲線補造本活動四數；不與其他圖拼接。"
+      },
+      {
+        "id": "fig8-different-measurement",
+        "status": "not-used-for-counts",
+        "locator": {
+          "pdfPage": 10,
+          "item": "Figure 8; calculation on p9",
+          "url": "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01376/pdf#page=10"
+        },
+        "statement": "圖 8 是 fluorescence-area median 相對該 assay 最大值的正規化強度，不是 PI 陽性比例。",
+        "handling": "只作量測限制說明；不造數值，不與圖 1 或圖 6 拼接。"
+      }
+    ],
+    "limitations": [
+      "Table 1 是固定條件的離散分類，沒有可自由插值的反應曲線。",
+      "首次與後續觀察由分類定義推得，與直接刊出的分類欄位分開。",
+      "PI 受通透性與染色時點影響，不是死亡標籤。",
+      "本補充不能替原創題設提供受傷比例、死亡率或唯一機制。"
+    ]
+  },
+  "provenance": {
+    "originalCaseBasis": "既有 micro-injured-cells 的 practice 與 transfer；只保留這兩個原創題設。",
+    "sourceReview": {
+      "reportPath": "output/injured-cell-source-review-2026-10-16/REPORT-v1.md",
+      "reportSha256": "ddd9da45609adb401679fc9a1ab081a80d92d0d7eb7b19f2643495db91463869",
+      "manifestPath": "output/injured-cell-source-review-2026-10-16/MANIFEST-v1.json",
+      "manifestSha256": "b38dc9e4b2042517a313da31e25220343e68dad2e06a2bf0099fb118eb22954d"
+    },
+    "denominatorReview": {
+      "reportPath": "output/injured-cell-denominator-review-2026-10-16/REPORT-v1.md",
+      "reportSha256": "edd73b89b5970424b346b8f176a29ae78f0fc622981f63013c8c164d403871dc",
+      "manifestPath": "output/injured-cell-denominator-review-2026-10-16/MANIFEST-v1.json",
+      "manifestSha256": "b4cfa5ba1e0577f455d8ec0c19b12d2a0844fe8c1f243d47395f65c0a6b4d3af"
+    },
+    "separation": "原創題設與出版研究的來源、單位、端點及未知欄位分開；沒有交叉補值。"
+  },
+  "limitations": [
+    "R、S 是計數方法；R 不保證量得所有活細胞，S 不保證只量得所有未受傷細胞。",
+    "所有比值只描述題設的可比較 CFU/g；CFU 不是逐顆細胞總數。",
+    "處理前後比較是樣本觀察，不是同一顆細胞的追蹤。",
+    "方法差及其改變不能單獨辨識受傷、死亡或唯一機制。",
+    "(Rₜ−Sₜ)/Rₜ 與 (Rₜ−Sₜ)/R₀ 是不同分母的計數差額比例，不自動是受傷／死亡率。",
+    "全部活細胞分母未知，比例也保持未知，不補零。",
+    "不提供自由數字、培養條件、處理條件或恢復條件控制。"
+  ]
+}

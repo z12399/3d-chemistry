@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">果糖：同一個 C2，兩種成環路徑</title>
+<desc id="figure-desc">開鏈果糖羰基在 C2，C5 羥基加成形成五員環、C6 羥基加成形成六員環；兩路的 C2 都成為異頭碳。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">果糖：同一個 C2，兩種成環路徑</tspan></text>
+<rect x="250" y="95" width="220" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="134.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">開鏈果糖：C2=O2</tspan></text>
+<path d="M 290 164 L 195 224" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 430 164 L 525 224" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="165" y="187" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="165" dy="0">C5–OH 加成</tspan></text>
+<text x="555" y="187" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="555" dy="0">C6–OH 加成</tspan></text>
+<path d="M 190.0 240.0 L 249.0 282.8 L 226.4 352.2 L 153.6 352.2 L 131.0 282.8 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 530.0 240.0 L 583.7 271.0 L 583.7 333.0 L 530.0 364.0 L 476.3 333.0 L 476.3 271.0 Z" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="190" y="405" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">五員環（含 O5）</tspan></text>
+<text x="530" y="405" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="530" dy="0">六員環（含 O6）</tspan></text>
+<text x="360" y="450" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">兩路皆以 C2 為異頭碳；O2 成為異頭羥基</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

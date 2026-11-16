@@ -1,0 +1,2044 @@
+{
+  "schemaVersion": 1,
+  "sourceCheckedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "udp-glucose-alpha-dianion",
+      "name": "UDP-α-D-葡萄糖(2−)",
+      "formula": "C15H22N2O17P2-2",
+      "atoms": [
+        {
+          "id": "R_C1",
+          "element": "C",
+          "position": [
+            -3.888837,
+            0.644645,
+            -0.721555
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "U_N1",
+          "element": "N",
+          "position": [
+            -5.29816,
+            0.365558,
+            -0.42214
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_O4",
+          "element": "O",
+          "position": [
+            -3.15554,
+            -0.581905,
+            -0.719128
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_C2",
+          "element": "C",
+          "position": [
+            -3.159426,
+            1.617516,
+            0.208998
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "U_C2",
+          "element": "C",
+          "position": [
+            -5.670098,
+            -0.057311,
+            0.846374
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C6",
+          "element": "C",
+          "position": [
+            -6.217472,
+            0.443496,
+            -1.453221
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_C4",
+          "element": "C",
+          "position": [
+            -1.774178,
+            -0.258096,
+            -0.362783
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "R_C3",
+          "element": "C",
+          "position": [
+            -1.718824,
+            1.253334,
+            -0.103963
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "R_O2",
+          "element": "O",
+          "position": [
+            -3.430999,
+            2.990995,
+            -0.110355
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_N3",
+          "element": "N",
+          "position": [
+            -7.005731,
+            -0.341409,
+            1.006517
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_O2",
+          "element": "O",
+          "position": [
+            -4.927324,
+            -0.180227,
+            1.816503
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C5",
+          "element": "C",
+          "position": [
+            -7.510083,
+            0.161887,
+            -1.281252
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_C5",
+          "element": "C",
+          "position": [
+            -1.364205,
+            -1.099797,
+            0.851276
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_O3",
+          "element": "O",
+          "position": [
+            -1.364583,
+            1.974905,
+            -1.308748
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C4",
+          "element": "C",
+          "position": [
+            -7.971034,
+            -0.254989,
+            0.049532
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_O5",
+          "element": "O",
+          "position": [
+            -0.841372,
+            -2.339602,
+            0.392493
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_O4",
+          "element": "O",
+          "position": [
+            -9.154399,
+            -0.50045,
+            0.258838
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "P_uridine",
+          "element": "P",
+          "position": [
+            0.773812,
+            -2.545193,
+            0.350171
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_P_bridge",
+          "element": "O",
+          "position": [
+            1.22602,
+            -1.372012,
+            -0.63494
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Pu_minus",
+          "element": "O",
+          "position": [
+            1.0176,
+            -3.861575,
+            -0.358412
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "O_Pu_double",
+          "element": "O",
+          "position": [
+            1.33725,
+            -2.353846,
+            1.736221
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "P_sugar",
+          "element": "P",
+          "position": [
+            1.605098,
+            0.161622,
+            -0.459714
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Ps_minus",
+          "element": "O",
+          "position": [
+            0.992821,
+            0.948704,
+            -1.602858
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "O_Ps_double",
+          "element": "O",
+          "position": [
+            1.369661,
+            0.701053,
+            0.927361
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            3.205523,
+            0.122016,
+            -0.693815
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            3.976473,
+            -0.446773,
+            0.344391
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            4.469434,
+            0.61496,
+            1.359293
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            3.488113,
+            1.368874,
+            2.081581
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            6.516414,
+            0.914437,
+            -0.067555
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            7.279866,
+            1.881377,
+            -0.804877
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            5.354886,
+            1.624802,
+            0.628758
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            5.975958,
+            -0.200407,
+            -0.971906
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            7.105439,
+            -1.047131,
+            -1.56959
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            7.73642,
+            -1.835526,
+            -0.55399
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            5.136779,
+            -1.101866,
+            -0.224472
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            5.884695,
+            2.587933,
+            1.566968
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_R_C1",
+          "element": "H",
+          "position": [
+            -3.837056,
+            1.043641,
+            -1.744201
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C1"
+        },
+        {
+          "id": "H_R_C2",
+          "element": "H",
+          "position": [
+            -3.36545,
+            1.454894,
+            1.268074
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C2"
+        },
+        {
+          "id": "H_U_C6",
+          "element": "H",
+          "position": [
+            -5.84398,
+            0.742389,
+            -2.428649
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_C6"
+        },
+        {
+          "id": "H_R_C4",
+          "element": "H",
+          "position": [
+            -1.182082,
+            -0.531315,
+            -1.241102
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C4"
+        },
+        {
+          "id": "H_R_C3",
+          "element": "H",
+          "position": [
+            -1.027528,
+            1.5734,
+            0.678008
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C3"
+        },
+        {
+          "id": "H_R_O2",
+          "element": "H",
+          "position": [
+            -2.71593,
+            3.212168,
+            -0.750561
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_O2"
+        },
+        {
+          "id": "H_U_N3",
+          "element": "H",
+          "position": [
+            -7.278058,
+            -0.644288,
+            1.926586
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_N3"
+        },
+        {
+          "id": "H_U_C5",
+          "element": "H",
+          "position": [
+            -8.239189,
+            0.216714,
+            -2.076573
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_C5"
+        },
+        {
+          "id": "H_R_C5a",
+          "element": "H",
+          "position": [
+            -0.629805,
+            -0.599757,
+            1.483773
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C5"
+        },
+        {
+          "id": "H_R_C5b",
+          "element": "H",
+          "position": [
+            -2.234048,
+            -1.328803,
+            1.475252
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C5"
+        },
+        {
+          "id": "H_R_O3",
+          "element": "H",
+          "position": [
+            -0.432453,
+            1.664032,
+            -1.518587
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_O3"
+        },
+        {
+          "id": "H_C1",
+          "element": "H",
+          "position": [
+            3.409175,
+            -1.216868,
+            0.868678
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_C2",
+          "element": "H",
+          "position": [
+            5.075089,
+            0.112615,
+            2.12412
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_O2",
+          "element": "H",
+          "position": [
+            2.587348,
+            1.078249,
+            1.75611
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O2"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            7.186598,
+            0.499823,
+            0.695877
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_O4",
+          "element": "H",
+          "position": [
+            7.331523,
+            2.649379,
+            -0.200526
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "H_C3",
+          "element": "H",
+          "position": [
+            4.771285,
+            2.214165,
+            -0.089133
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            5.415429,
+            0.232246,
+            -1.810259
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_C6a",
+          "element": "H",
+          "position": [
+            6.698133,
+            -1.749732,
+            -2.304476
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_C6b",
+          "element": "H",
+          "position": [
+            7.864972,
+            -0.43427,
+            -2.063278
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "H_O6",
+          "element": "H",
+          "position": [
+            6.984794,
+            -2.242785,
+            -0.073773
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O6"
+        },
+        {
+          "id": "H_O3",
+          "element": "H",
+          "position": [
+            5.111474,
+            2.758022,
+            2.150647
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O3"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "R_C1",
+          "b": "U_N1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C1",
+          "b": "R_O4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C1",
+          "b": "R_C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_N1",
+          "b": "U_C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_N1",
+          "b": "U_C6",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_O4",
+          "b": "R_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C2",
+          "b": "R_C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C2",
+          "b": "R_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C2",
+          "b": "U_N3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C2",
+          "b": "U_O2",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "U_C6",
+          "b": "U_C5",
+          "order": 2,
+          "inRing": true
+        },
+        {
+          "a": "R_C4",
+          "b": "R_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C4",
+          "b": "R_C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C3",
+          "b": "R_O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_N3",
+          "b": "U_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C5",
+          "b": "U_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C5",
+          "b": "R_O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C4",
+          "b": "U_O4",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "R_O5",
+          "b": "P_uridine",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_uridine",
+          "b": "O_P_bridge",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_uridine",
+          "b": "O_Pu_minus",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_uridine",
+          "b": "O_Pu_double",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "O_P_bridge",
+          "b": "P_sugar",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_sugar",
+          "b": "O_Ps_minus",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_sugar",
+          "b": "O1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_sugar",
+          "b": "O_Ps_double",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "O5",
+          "b": "C1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "O5",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C1",
+          "b": "H_R_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C2",
+          "b": "H_R_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C6",
+          "b": "H_U_C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C4",
+          "b": "H_R_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C3",
+          "b": "H_R_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O2",
+          "b": "H_R_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_N3",
+          "b": "H_U_N3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C5",
+          "b": "H_U_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C5",
+          "b": "H_R_C5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C5",
+          "b": "H_R_C5b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O3",
+          "b": "H_R_O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "H_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "H_O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "H_C6b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "H_O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "H_O3",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.ebi.ac.uk/chebi/CHEBI:58885",
+        "sourceMolfile": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58885",
+        "sourcePubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/16667346",
+        "sourcePubchemProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16667346,25202620/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "chebiId": 58885,
+        "pubchemCid": 16667346,
+        "sourceMolfileSha256": "cd76827b98157bde0530ed119c57754783558b16e25b238e92a64c45e89a3816",
+        "sourcePubchemSha256": "603eee696399fd43000171df3ec3dbc54c79267b7225adfc284cf96765bd59b4",
+        "sourceInchi": "InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/p-2/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1",
+        "sourceInchiKey": "HSCJRCZFDFQWRP-JZMIEXBBSA-L",
+        "inchi": "InChI=1S/C15H24N2O17P2/c18-3-5-8(20)10(22)12(24)14(32-5)33-36(28,29)34-35(26,27)30-4-6-9(21)11(23)13(31-6)17-2-1-7(19)16-15(17)25/h1-2,5-6,8-14,18,20-24H,3-4H2,(H,26,27)(H,28,29)(H,16,19,25)/p-2/t5-,6-,8-,9-,10+,11-,12-,13-,14-/m1/s1",
+        "smiles": "O=c1ccn([C@@H]2O[C@H](COP(=O)([O-])OP(=O)([O-])O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](O)[C@H]2O)c(=O)[nH]1",
+        "atomRoleMap": {
+          "sugarRing": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "O5"
+          ],
+          "sugarC6": [
+            "C5",
+            "C6",
+            "O6"
+          ],
+          "anomericPhosphateBond": [
+            "C1",
+            "O1",
+            "P_sugar"
+          ],
+          "diphosphate": [
+            "P_sugar",
+            "O_P_bridge",
+            "P_uridine"
+          ],
+          "uridine": [
+            "R_C1",
+            "U_N1",
+            "U_C2",
+            "U_C4"
+          ]
+        },
+        "atomNamingNote": "Shared C1-C6/O6 labels compare functional positions; they are not isotope atom tracing. O6b is the extra product carboxylate oxygen.",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated computed multiply charged anion conformer; not a measured solution or enzyme-bound geometry, conformer population, substrate complex, NAD(H) state, reaction trajectory, or atom-origin experiment.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": -138.42747733530453
+      }
+    },
+    {
+      "id": "udp-glucuronate-alpha-trianion",
+      "name": "UDP-α-D-葡萄糖醛酸根(3−)",
+      "formula": "C15H19N2O18P2-3",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -3.927645,
+            -0.345523,
+            0.391152
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -4.077231,
+            0.786808,
+            -0.651669
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -5.551372,
+            1.152096,
+            -0.883411
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            -6.27109,
+            1.415084,
+            0.454812
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            -4.586263,
+            0.020566,
+            1.625309
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -5.988909,
+            0.351244,
+            1.519213
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "R_C2",
+          "element": "C",
+          "position": [
+            4.026937,
+            -2.056592,
+            0.738335
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "R_C3",
+          "element": "C",
+          "position": [
+            2.597526,
+            -1.830916,
+            0.287109
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "R_O3",
+          "element": "O",
+          "position": [
+            1.784806,
+            -2.908721,
+            0.754068
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_C4",
+          "element": "C",
+          "position": [
+            2.74254,
+            -1.801578,
+            -1.233838
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "R_C1",
+          "element": "C",
+          "position": [
+            4.831786,
+            -1.280476,
+            -0.310928
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "R_O4",
+          "element": "O",
+          "position": [
+            4.03881,
+            -1.201917,
+            -1.511117
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_O2",
+          "element": "O",
+          "position": [
+            4.318464,
+            -3.471884,
+            0.69604
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C6",
+          "element": "C",
+          "position": [
+            4.477033,
+            1.177241,
+            -0.154803
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_N1",
+          "element": "N",
+          "position": [
+            5.240248,
+            0.059111,
+            0.133247
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C2",
+          "element": "C",
+          "position": [
+            6.368213,
+            0.148847,
+            0.933789
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_O2",
+          "element": "O",
+          "position": [
+            7.081019,
+            -0.799593,
+            1.259442
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_N3",
+          "element": "N",
+          "position": [
+            6.688199,
+            1.40798,
+            1.373759
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C5",
+          "element": "C",
+          "position": [
+            4.798531,
+            2.397691,
+            0.28001
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_C4",
+          "element": "C",
+          "position": [
+            6.010413,
+            2.558706,
+            1.091039
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "U_O4",
+          "element": "O",
+          "position": [
+            6.394527,
+            3.656484,
+            1.481649
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            -3.40158,
+            1.982848,
+            -0.173664
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            -6.239271,
+            0.20456,
+            -1.704659
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -6.889403,
+            -0.896168,
+            1.337431
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6b",
+          "element": "O",
+          "position": [
+            -6.98816,
+            -1.336262,
+            0.15215
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            -7.48808,
+            -1.308763,
+            2.375326
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            -5.834064,
+            2.697891,
+            0.971324
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -2.565234,
+            -0.567792,
+            0.738562
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_P_bridge",
+          "element": "O",
+          "position": [
+            -1.002017,
+            0.503703,
+            -0.789085
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Ps_double",
+          "element": "O",
+          "position": [
+            -2.226218,
+            -1.633818,
+            -1.538998
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Pu_double",
+          "element": "O",
+          "position": [
+            -0.148478,
+            0.838656,
+            -3.209562
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "P_sugar",
+          "element": "P",
+          "position": [
+            -1.490429,
+            -0.969221,
+            -0.406409
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Ps_minus",
+          "element": "O",
+          "position": [
+            -0.376662,
+            -1.719878,
+            0.300526
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "P_uridine",
+          "element": "P",
+          "position": [
+            0.137941,
+            1.085018,
+            -1.748523
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O_Pu_minus",
+          "element": "O",
+          "position": [
+            0.439957,
+            2.502078,
+            -1.296302
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "R_O5",
+          "element": "O",
+          "position": [
+            1.435348,
+            0.214797,
+            -1.320741
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "R_C5",
+          "element": "C",
+          "position": [
+            1.639805,
+            -1.032307,
+            -1.960585
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_C1",
+          "element": "H",
+          "position": [
+            -4.354539,
+            -1.286683,
+            0.031331
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "H_C2",
+          "element": "H",
+          "position": [
+            -3.614585,
+            0.513297,
+            -1.604408
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_C3",
+          "element": "H",
+          "position": [
+            -5.567261,
+            2.091107,
+            -1.451877
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C4",
+          "element": "H",
+          "position": [
+            -7.350761,
+            1.501062,
+            0.286949
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "H_C5",
+          "element": "H",
+          "position": [
+            -6.244331,
+            0.778676,
+            2.49772
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "H_R_C2",
+          "element": "H",
+          "position": [
+            4.203836,
+            -1.732006,
+            1.768072
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C2"
+        },
+        {
+          "id": "H_R_C3",
+          "element": "H",
+          "position": [
+            2.23709,
+            -0.88393,
+            0.703319
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C3"
+        },
+        {
+          "id": "H_R_O3",
+          "element": "H",
+          "position": [
+            0.847319,
+            -2.560976,
+            0.61938
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_O3"
+        },
+        {
+          "id": "H_R_C4",
+          "element": "H",
+          "position": [
+            2.776529,
+            -2.819648,
+            -1.641664
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C4"
+        },
+        {
+          "id": "H_R_C1",
+          "element": "H",
+          "position": [
+            5.739046,
+            -1.83742,
+            -0.57446
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C1"
+        },
+        {
+          "id": "H_R_O2",
+          "element": "H",
+          "position": [
+            3.435412,
+            -3.875817,
+            0.864863
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_O2"
+        },
+        {
+          "id": "H_U_C6",
+          "element": "H",
+          "position": [
+            3.585511,
+            1.046001,
+            -0.761473
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_C6"
+        },
+        {
+          "id": "H_U_N3",
+          "element": "H",
+          "position": [
+            7.513753,
+            1.488789,
+            1.940612
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_N3"
+        },
+        {
+          "id": "H_U_C5",
+          "element": "H",
+          "position": [
+            4.195243,
+            3.267968,
+            0.055419
+          ],
+          "formalCharge": 0,
+          "attachedTo": "U_C5"
+        },
+        {
+          "id": "H_O2",
+          "element": "H",
+          "position": [
+            -2.449293,
+            1.731648,
+            -0.166967
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O2"
+        },
+        {
+          "id": "H_O3",
+          "element": "H",
+          "position": [
+            -6.501052,
+            -0.558067,
+            -1.121598
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O3"
+        },
+        {
+          "id": "H_O4",
+          "element": "H",
+          "position": [
+            -4.849789,
+            2.648609,
+            0.933343
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "H_R_C5a",
+          "element": "H",
+          "position": [
+            1.947654,
+            -0.838263,
+            -2.99359
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C5"
+        },
+        {
+          "id": "H_R_C5b",
+          "element": "H",
+          "position": [
+            0.715263,
+            -1.612668,
+            -1.978763
+          ],
+          "formalCharge": 0,
+          "attachedTo": "R_C5"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "O1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "O5",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C2",
+          "b": "R_C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C2",
+          "b": "R_C1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C2",
+          "b": "R_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C3",
+          "b": "R_O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C3",
+          "b": "R_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C4",
+          "b": "R_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O4",
+          "b": "R_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C1",
+          "b": "R_O4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "R_C1",
+          "b": "U_N1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C6",
+          "b": "U_C5",
+          "order": 2,
+          "inRing": true
+        },
+        {
+          "a": "U_C6",
+          "b": "U_N1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_N1",
+          "b": "U_C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C2",
+          "b": "U_O2",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "U_C2",
+          "b": "U_N3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C4",
+          "b": "U_N3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C5",
+          "b": "U_C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "U_C4",
+          "b": "U_O4",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "O6b",
+          "b": "C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "C6",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "P_sugar",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_sugar",
+          "b": "O_P_bridge",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O_P_bridge",
+          "b": "P_uridine",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O_Ps_double",
+          "b": "P_sugar",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "O_Pu_double",
+          "b": "P_uridine",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "P_sugar",
+          "b": "O_Ps_minus",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O5",
+          "b": "P_uridine",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "P_uridine",
+          "b": "O_Pu_minus",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O5",
+          "b": "R_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "H_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "H_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "H_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C2",
+          "b": "H_R_C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C3",
+          "b": "H_R_C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O3",
+          "b": "H_R_O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C4",
+          "b": "H_R_C4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C1",
+          "b": "H_R_C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_O2",
+          "b": "H_R_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C6",
+          "b": "H_U_C6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_N3",
+          "b": "H_U_N3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "U_C5",
+          "b": "H_U_C5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "H_O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "H_O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "H_O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C5",
+          "b": "H_R_C5a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "R_C5",
+          "b": "H_R_C5b",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.ebi.ac.uk/chebi/CHEBI:58052",
+        "sourceMolfile": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/58052",
+        "sourcePubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/25202620",
+        "sourcePubchemProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/16667346,25202620/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "chebiId": 58052,
+        "pubchemCid": 25202620,
+        "sourceMolfileSha256": "a48992c69eb06093acefc4759fc3d031aa4d7390d656c5d88bff9d53af98dd66",
+        "sourcePubchemSha256": "603eee696399fd43000171df3ec3dbc54c79267b7225adfc284cf96765bd59b4",
+        "sourceInchi": "InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)/p-3/t4-,6-,7+,8+,9-,10-,11+,12-,14-/m1/s1",
+        "sourceInchiKey": "HDYANYHVCAPMJV-LXQIFKJMSA-K",
+        "inchi": "InChI=1S/C15H22N2O18P2/c18-5-1-2-17(15(26)16-5)12-9(22)6(19)4(32-12)3-31-36(27,28)35-37(29,30)34-14-10(23)7(20)8(21)11(33-14)13(24)25/h1-2,4,6-12,14,19-23H,3H2,(H,24,25)(H,27,28)(H,29,30)(H,16,18,26)/p-3/t4-,6-,7+,8+,9-,10-,11+,12-,14-/m1/s1",
+        "smiles": "O=C([O-])[C@H]1O[C@H](OP(=O)([O-])OP(=O)([O-])OC[C@H]2O[C@@H](n3ccc(=O)[nH]c3=O)[C@H](O)[C@@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "atomRoleMap": {
+          "sugarRing": [
+            "C1",
+            "C2",
+            "C3",
+            "C4",
+            "C5",
+            "O5"
+          ],
+          "sugarC6": [
+            "C5",
+            "C6",
+            "O6",
+            "O6b"
+          ],
+          "anomericPhosphateBond": [
+            "C1",
+            "O1",
+            "P_sugar"
+          ],
+          "diphosphate": [
+            "P_sugar",
+            "O_P_bridge",
+            "P_uridine"
+          ],
+          "uridine": [
+            "R_C1",
+            "U_N1",
+            "U_C2",
+            "U_C4"
+          ]
+        },
+        "atomNamingNote": "Shared C1-C6/O6 labels compare functional positions; they are not isotope atom tracing. O6b is the extra product carboxylate oxygen.",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One isolated computed multiply charged anion conformer; not a measured solution or enzyme-bound geometry, conformer population, substrate complex, NAD(H) state, reaction trajectory, or atom-origin experiment.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": -37.08044836897676
+      }
+    }
+  ]
+}
