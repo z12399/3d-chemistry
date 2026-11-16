@@ -1,0 +1,362 @@
+{
+  "status": "PASS",
+  "routes": 1,
+  "branches": 1,
+  "states": 5,
+  "moves": 4,
+  "allStateAtoms": 16,
+  "allStateFormula": "C2H7IO6",
+  "allStateCharge": 0,
+  "rdkitVersion": "2026.03.6",
+  "isTrajectory": false,
+  "checks": [
+    {
+      "status": "PASS",
+      "reactionId": "periodate-cleavage",
+      "variantId": "cm-cyclic-cleavage",
+      "states": 5,
+      "moves": 4,
+      "startingModel": "ethylene-glycol",
+      "startingModelMatches": true,
+      "endpointReferences": [
+        {
+          "fragmentContaining": "C1",
+          "modelId": "formaldehyde",
+          "inchi": "InChI=1S/CH2O/c1-2/h1H2",
+          "matchesExistingModel": true
+        },
+        {
+          "fragmentContaining": "C2",
+          "modelId": "formaldehyde",
+          "inchi": "InChI=1S/CH2O/c1-2/h1H2",
+          "matchesExistingModel": true
+        }
+      ],
+      "iodineReferenceIdentities": [
+        {
+          "modelId": "metaperiodic-acid",
+          "expandedLewisInchi": "InChI=1S/HIO4/c2-1(3,4)5/h(H,2,3,4,5)",
+          "matchesPubChemInchi": true,
+          "normalizedInchi": "InChI=1S/HIO4/c2-1(3,4)5/h2H",
+          "normalizedReferenceMatches": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+        },
+        {
+          "modelId": "iodic-acid",
+          "expandedLewisInchi": "InChI=1S/HIO3/c2-1(3)4/h(H,2,3,4)",
+          "matchesPubChemInchi": true,
+          "normalizedInchi": "InChI=1S/HIO3/c2-1(3)4/h2H",
+          "normalizedReferenceMatches": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+        }
+      ],
+      "mapping": {
+        "diolCarbons": [
+          "C1",
+          "C2"
+        ],
+        "retainedDiolOxygens": [
+          "O1",
+          "O2"
+        ],
+        "iodine": "Ip",
+        "initialOxoOxygens": [
+          "Op1",
+          "Op2",
+          "Op3"
+        ],
+        "initialAcidHydroxylOxygen": "Oph",
+        "initialAcidHydrogen": "Hp",
+        "productWaterOxygen": "Op2",
+        "productWaterHydrogens": [
+          "HO1",
+          "HO2"
+        ],
+        "productIodicAcidAtoms": [
+          "Ip",
+          "Op1",
+          "Op3",
+          "Oph",
+          "Hp"
+        ],
+        "sourceAssetAtomIds": {
+          "C1": "C1",
+          "C2": "C2",
+          "O1": "O2",
+          "O2": "O1",
+          "HC1a": "HC1a",
+          "HC1b": "HC1b",
+          "HC2a": "HC2a",
+          "HC2b": "HC2b",
+          "HO1": "HO2",
+          "HO2": "HO1"
+        }
+      },
+      "stateChecks": [
+        {
+          "stateId": "periodate-cleavage-cm-cyclic-cleavage-state-0",
+          "atoms": 16,
+          "formula": "C2H7IO6",
+          "charge": 0,
+          "displayValenceRulesPass": true,
+          "atomIdentitiesConserved": true,
+          "normalizedIdentityFrom3DMatches": true,
+          "iodineFormalCharge": 0,
+          "iodineOxidationState": 7,
+          "iodineCoordinationNumber": 4,
+          "iodineFormalBondOrderSum": 7,
+          "iodineAssignedBondLengths": [
+            {
+              "bond": [
+                "Ip",
+                "Op1"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op2"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.799999
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op3"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Oph"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            }
+          ],
+          "minimumAtomDistanceAngstrom": 0.97,
+          "minimumInterfragmentDistanceAngstrom": 3.404503
+        },
+        {
+          "stateId": "periodate-cleavage-cm-cyclic-cleavage-state-1",
+          "atoms": 16,
+          "formula": "C2H7IO6",
+          "charge": 0,
+          "displayValenceRulesPass": true,
+          "atomIdentitiesConserved": true,
+          "normalizedIdentityFrom3DMatches": true,
+          "iodineFormalCharge": 0,
+          "iodineOxidationState": 7,
+          "iodineCoordinationNumber": 5,
+          "iodineFormalBondOrderSum": 7,
+          "iodineAssignedBondLengths": [
+            {
+              "bond": [
+                "Ip",
+                "Op1"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op2"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.800001
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op3"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Oph"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "O1",
+                "Ip"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.950001
+            }
+          ],
+          "minimumAtomDistanceAngstrom": 0.969999,
+          "minimumInterfragmentDistanceAngstrom": null
+        },
+        {
+          "stateId": "periodate-cleavage-cm-cyclic-cleavage-state-2",
+          "atoms": 16,
+          "formula": "C2H7IO6",
+          "charge": 0,
+          "displayValenceRulesPass": true,
+          "atomIdentitiesConserved": true,
+          "normalizedIdentityFrom3DMatches": true,
+          "iodineFormalCharge": 0,
+          "iodineOxidationState": 7,
+          "iodineCoordinationNumber": 6,
+          "iodineFormalBondOrderSum": 7,
+          "iodineAssignedBondLengths": [
+            {
+              "bond": [
+                "Ip",
+                "Op1"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op2"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op3"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Oph"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "O1",
+                "Ip"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "O2",
+                "Ip"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            }
+          ],
+          "minimumAtomDistanceAngstrom": 0.97,
+          "minimumInterfragmentDistanceAngstrom": null
+        },
+        {
+          "stateId": "periodate-cleavage-cm-cyclic-cleavage-state-3",
+          "atoms": 16,
+          "formula": "C2H7IO6",
+          "charge": 0,
+          "displayValenceRulesPass": true,
+          "atomIdentitiesConserved": true,
+          "normalizedIdentityFrom3DMatches": true,
+          "iodineFormalCharge": 0,
+          "iodineOxidationState": 5,
+          "iodineCoordinationNumber": 4,
+          "iodineFormalBondOrderSum": 5,
+          "iodineAssignedBondLengths": [
+            {
+              "bond": [
+                "Ip",
+                "Op1"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op2"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op3"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Oph"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.95
+            }
+          ],
+          "minimumAtomDistanceAngstrom": 0.97,
+          "minimumInterfragmentDistanceAngstrom": 3.141402
+        },
+        {
+          "stateId": "periodate-cleavage-cm-cyclic-cleavage-state-4",
+          "atoms": 16,
+          "formula": "C2H7IO6",
+          "charge": 0,
+          "displayValenceRulesPass": true,
+          "atomIdentitiesConserved": true,
+          "normalizedIdentityFrom3DMatches": true,
+          "iodineFormalCharge": 0,
+          "iodineOxidationState": 5,
+          "iodineCoordinationNumber": 3,
+          "iodineFormalBondOrderSum": 5,
+          "iodineAssignedBondLengths": [
+            {
+              "bond": [
+                "Ip",
+                "Op1"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Op3"
+              ],
+              "formalBondOrder": 2,
+              "lengthAngstrom": 1.8
+            },
+            {
+              "bond": [
+                "Ip",
+                "Oph"
+              ],
+              "formalBondOrder": 1,
+              "lengthAngstrom": 1.949999
+            }
+          ],
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.036362
+        }
+      ],
+      "geometryMethod": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+      "noIodineForceFieldOrQuantumClaim": true
+    }
+  ]
+}

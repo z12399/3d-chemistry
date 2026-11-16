@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">補油歷程與統計範圍，要一起讀</title>
+<desc id="desc">炸鍋同時有新油補入與取樣移出；下方分列均值、三次分析的 SD 和同油同欄的統計字母。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">補油歷程與統計範圍，要一起讀</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">這不是一份封閉油樣的純反應曲線</tspan></text>
+<path d="M295 125V220H425V125" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="299" y="172" width="122" height="43" rx="0" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<path d="M70 165L273 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="170" y="120" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="170" dy="0">每次平均補入</tspan><tspan x="170" dy="27">100 mL 新油</tspan></text>
+<path d="M445 165L647 165" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<text x="550" y="120" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="550" dy="0">指定次數</tspan><tspan x="550" dy="27">取樣移出</tspan></text>
+<text x="360" y="249" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">新舊油混合</tspan></text>
+<rect x="30" y="292" width="200" height="100" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="130" y="328" font-size="22" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="130" dy="0">均值</tspan></text>
+<text x="130" y="365" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="130" dy="0">這次量到的平均</tspan></text>
+<rect x="260" y="292" width="200" height="100" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="328" font-size="22" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="360" dy="0">SD</tspan></text>
+<text x="360" y="365" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">三次分析的離散</tspan></text>
+<rect x="490" y="292" width="200" height="100" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="590" y="328" font-size="22" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="590" dy="0">字母</tspan></text>
+<text x="590" y="365" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="590" dy="0">同油、同欄比較</tspan></text>
+<text x="30" y="438" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">三次分析不自動等於三鍋獨立製程。</tspan><tspan x="30" dy="25">共享字母：作者未標顯著差異；不能跨油使用。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

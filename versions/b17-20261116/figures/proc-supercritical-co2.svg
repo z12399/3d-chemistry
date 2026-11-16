@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">升溫同時推動兩種效應</title>
+<desc id="figure-desc">CO₂ 在臨界點（約 31 °C、7.38 MPa）以上為超臨界流體，溶解力隨密度增加；固定壓力下升溫會降低密度、但提高溶質蒸氣壓，兩效應競爭，使溶解度在不同壓力下隨溫度的變化方向相反（交叉現象）。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">升溫同時推動兩種效應</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">超臨界：T &gt; Tc 且 P &gt; Pc；圖中壓力固定</tspan></text>
+<rect x="255" y="108" width="210" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="150.0" font-size="26" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">溫度升高</tspan></text>
+<path d="M 295 188 L 295 218 L 180 218 L 180 245" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 425 188 L 425 218 L 540 218 L 540 245" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="40" y="255" width="280" height="116" rx="14" fill="#f6f7f8" stroke="#6f8fb5" stroke-width="2"/>
+<text x="180.0" y="306.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">CO₂ 密度下降</tspan><tspan x="180.0" dy="28">溶劑能力效應</tspan></text>
+<rect x="400" y="255" width="280" height="116" rx="14" fill="#f6f7f8" stroke="#b4692e" stroke-width="2"/>
+<text x="540.0" y="306.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">溶質蒸氣壓提高</tspan><tspan x="540.0" dy="28">有利溶質進入流體</tspan></text>
+<path d="M 180 381 L 180 410 L 290 410 L 290 428" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 540 381 L 540 410 L 430 410 L 430 428" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="220" y="438" width="280" height="57" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="473.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">兩效應競爭：方向可反轉</tspan></text>
+<text x="32" y="523" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">純 CO₂ 密度不能直接換算萃取得率。</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
