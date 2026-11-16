@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乾到後段，速率會下降</title>
+<desc id="figure-desc">定性 N–X 曲線顯示高於臨界含水量 Xc 的恆速區，以及趨近平衡含水量 Xe 的降速區；時間由 1/N 的積分決定。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乾到後段，速率會下降</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">指定兩段模型；實際食品未必有明顯恆速期</tspan></text>
+<text x="52" y="118" font-size="18" fill="#53606d" text-anchor="start"><tspan x="52" dy="0">除水速率 N</tspan></text>
+<path d="M 85 340 L 85 140" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 85 340 L 656 340" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 145 340 L 365 179 L 622 179" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 365 190 L 365 340" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<text x="150" y="369" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="150" dy="0">Xe</tspan></text>
+<text x="365" y="369" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="365" dy="0">Xc</tspan></text>
+<text x="652" y="369" font-size="18" fill="#53606d" text-anchor="end"><tspan x="652" dy="0">乾基含水量 X</tspan></text>
+<text x="254" y="194" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="254" dy="0">降速區</tspan></text>
+<text x="505" y="148" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="505" dy="0">恆速區</tspan></text>
+<path d="M 584 296 L 260 296" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="420" y="278" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="420" dy="0">乾燥方向</tspan></text>
+<rect x="111" y="399" width="500" height="48" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="361.0" y="430.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="361.0" dy="0">時間 ∝ ∫ dX／N(X)</tspan></text>
+<text x="688" y="462" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

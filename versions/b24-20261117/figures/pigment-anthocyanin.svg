@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">花青素：形式改變，色調可變</title>
+<desc id="figure-desc">一個花青素酸鹼平衡示意顯示 AH⁺ 與 A 互變；其他作用與降解使其不能當固定 pH 色票。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">花青素：形式改變，色調可變</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">酸鹼平衡改變形式，不必先改變色素總量</tspan></text>
+<circle cx="151" cy="223" r="66" fill="#e7f1ee" stroke="#14665d" stroke-width="3"/>
+<text x="151" y="234" font-size="32" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="151" dy="0">AH⁺</tspan></text>
+<circle cx="486" cy="223" r="58" fill="#f6f7f8" stroke="#14665d" stroke-width="3"/>
+<text x="486" y="234" font-size="32" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="486" dy="0">A</tspan></text>
+<text x="586" y="234" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="586" dy="0">＋ H⁺</tspan></text>
+<path d="M 238 207 L 408 207" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 408 237 L 238 237" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="321" y="174" font-size="19" fill="#53606d" text-anchor="middle"><tspan x="321" dy="0">其中一個酸鹼平衡</tspan></text>
+<text x="151" y="127" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="151" dy="0">低 pH 常有利</tspan></text>
+<text x="151" y="317" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="151" dy="0">flavylium 陽離子</tspan><tspan x="151" dy="26">常呈紅色調</tspan></text>
+<rect x="40" y="369" width="640" height="83" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="401" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">另有水合、共色作用、金屬配位等影響</tspan></text>
+<text x="360" y="431" font-size="20" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">升高 pH 也可能失色或降解</tspan></text>
+<text x="32" y="487" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">不是永遠可逆的 pH 色票；色調用文字標示。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

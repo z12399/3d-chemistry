@@ -1,0 +1,613 @@
+{
+  "version": 1,
+  "molecules": [
+    {
+      "id": "ascorbic-acid",
+      "name": "L-抗壞血酸 AA（中性代表）",
+      "formula": "C6H8O6",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -1.955619,
+            -0.685303,
+            0.911741
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -1.051624,
+            0.493471,
+            0.546725
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -0.171376,
+            0.231429,
+            -0.685323
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            0.872122,
+            -0.809622,
+            -0.53328
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            2.092328,
+            -0.299905,
+            -0.638998
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            1.933716,
+            1.138858,
+            -0.879559
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            2.859541,
+            1.917879,
+            -1.01535
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            0.604718,
+            1.435029,
+            -0.927161
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            3.278898,
+            -0.969143,
+            -0.56672
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            0.564699,
+            -2.12934,
+            -0.355025
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            -1.914138,
+            1.626199,
+            0.28907
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            -2.812539,
+            -0.3002,
+            1.990225
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "position": [
+            -2.598231,
+            -0.965676,
+            0.07091
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "position": [
+            -1.386271,
+            -1.559683,
+            1.234608
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "position": [
+            -0.443827,
+            0.781063,
+            1.413274
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H4",
+          "element": "H",
+          "position": [
+            -0.784535,
+            0.063157,
+            -1.57784
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H5",
+          "element": "H",
+          "position": [
+            3.973648,
+            -0.290393,
+            -0.698653
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H6",
+          "element": "H",
+          "position": [
+            1.413822,
+            -2.616133,
+            -0.310032
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H7",
+          "element": "H",
+          "position": [
+            -1.331903,
+            2.350976,
+            -0.012017
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H8",
+          "element": "H",
+          "position": [
+            -3.143429,
+            0.587338,
+            1.743407
+          ],
+          "formalCharge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1.0
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1.0
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 2.0
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1.0
+        },
+        {
+          "a": "C6",
+          "b": "O1",
+          "order": 2.0
+        },
+        {
+          "a": "C6",
+          "b": "O2",
+          "order": 1.0
+        },
+        {
+          "a": "C5",
+          "b": "O3",
+          "order": 1.0
+        },
+        {
+          "a": "C4",
+          "b": "O4",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "O5",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "O6",
+          "order": 1.0
+        },
+        {
+          "a": "O2",
+          "b": "C3",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "H1",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "H2",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "H3",
+          "order": 1.0
+        },
+        {
+          "a": "C3",
+          "b": "H4",
+          "order": 1.0
+        },
+        {
+          "a": "O3",
+          "b": "H5",
+          "order": 1.0
+        },
+        {
+          "a": "O4",
+          "b": "H6",
+          "order": 1.0
+        },
+        {
+          "a": "O5",
+          "b": "H7",
+          "order": 1.0
+        },
+        {
+          "a": "O6",
+          "b": "H8",
+          "order": 1.0
+        }
+      ],
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067",
+      "identityNote": "依來源立體結構產生的一個計算構象；不代表實測溶液構象、反應軌跡或自由能。此圖為中性 AA，切換半反應的單陰離子記帳不會將此圖變成 ascorbate 模型。",
+      "provenance": {
+        "cid": 54670067,
+        "inchi": "InChI=1S/C6H8O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-10H,1H2/t2-,5+/m0/s1",
+        "sourceSha256": "8e41d741151de2b769b088b904ec4f171d5671e52eb47019598edff5d4d35c02",
+        "rdkitVersion": "2026.03.6",
+        "method": "ETKDGv3 seed 30929, lowest MMFF energy among converged 12 candidates; no energy values used as thermodynamics",
+        "atomIds": "Element order within each independent endpoint; not chemical locants or a reaction atom mapping"
+      }
+    },
+    {
+      "id": "dehydroascorbic-acid",
+      "name": "脫氫抗壞血酸 DHA（形式未水合代表）",
+      "formula": "C6H6O6",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -1.967704,
+            0.454107,
+            -0.059878
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -0.686875,
+            -0.292364,
+            -0.439783
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            0.52808,
+            0.627651,
+            -0.472454
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            1.742182,
+            -0.16369,
+            -0.84195
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            2.03856,
+            -0.617906,
+            -1.927667
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            2.549852,
+            -0.284218,
+            0.40331
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            3.575286,
+            -0.912449,
+            0.523889
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            1.878144,
+            0.573275,
+            1.458145
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            2.261836,
+            0.761172,
+            2.590854
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            0.803995,
+            1.158474,
+            0.850953
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            -0.460522,
+            -1.32519,
+            0.534087
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            -3.045615,
+            -0.483682,
+            -0.032729
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H1",
+          "element": "H",
+          "position": [
+            -1.893364,
+            0.878055,
+            0.946339
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H2",
+          "element": "H",
+          "position": [
+            -2.204115,
+            1.254352,
+            -0.767817
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H3",
+          "element": "H",
+          "position": [
+            -0.823175,
+            -0.796427,
+            -1.403643
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H4",
+          "element": "H",
+          "position": [
+            0.410047,
+            1.470012,
+            -1.160363
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H5",
+          "element": "H",
+          "position": [
+            -1.346111,
+            -1.693317,
+            0.744951
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H6",
+          "element": "H",
+          "position": [
+            -3.3605,
+            -0.607855,
+            -0.946242
+          ],
+          "formalCharge": 0
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1.0
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1.0
+        },
+        {
+          "a": "C4",
+          "b": "O1",
+          "order": 2.0
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1.0
+        },
+        {
+          "a": "C5",
+          "b": "O2",
+          "order": 2.0
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1.0
+        },
+        {
+          "a": "C6",
+          "b": "O3",
+          "order": 2.0
+        },
+        {
+          "a": "C6",
+          "b": "O4",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "O5",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "O6",
+          "order": 1.0
+        },
+        {
+          "a": "O4",
+          "b": "C3",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "H1",
+          "order": 1.0
+        },
+        {
+          "a": "C1",
+          "b": "H2",
+          "order": 1.0
+        },
+        {
+          "a": "C2",
+          "b": "H3",
+          "order": 1.0
+        },
+        {
+          "a": "C3",
+          "b": "H4",
+          "order": 1.0
+        },
+        {
+          "a": "O5",
+          "b": "H5",
+          "order": 1.0
+        },
+        {
+          "a": "O6",
+          "b": "H6",
+          "order": 1.0
+        }
+      ],
+      "source": "https://pubchem.ncbi.nlm.nih.gov/compound/440667",
+      "identityNote": "依來源立體結構產生的一個計算構象；不代表實測溶液構象、反應軌跡或自由能。這是配平用的形式未水合 DHA；水中主要水合雙環形態未在此建模。",
+      "provenance": {
+        "cid": 440667,
+        "inchi": "InChI=1S/C6H6O6/c7-1-2(8)5-3(9)4(10)6(11)12-5/h2,5,7-8H,1H2/t2-,5+/m0/s1",
+        "sourceSha256": "7219c2e2fa2cebd0f63fd9fdac2c124b5979636c6cf45e499926c853696521ef",
+        "rdkitVersion": "2026.03.6",
+        "method": "ETKDGv3 seed 30929, lowest MMFF energy among converged 12 candidates; no energy values used as thermodynamics",
+        "atomIds": "Element order within each independent endpoint; not chemical locants or a reaction atom mapping"
+      }
+    }
+  ]
+}

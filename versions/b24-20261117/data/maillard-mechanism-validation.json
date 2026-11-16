@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "mechanisms": 2,
+  "states": 12,
+  "checks": [
+    {
+      "id": "maillard-schiff-base-state-0",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.555
+    },
+    {
+      "id": "maillard-schiff-base-state-1",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.929
+    },
+    {
+      "id": "maillard-schiff-base-state-2",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.355
+    },
+    {
+      "id": "maillard-schiff-base-state-3",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.764
+    },
+    {
+      "id": "maillard-schiff-base-state-4",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 5.677
+    },
+    {
+      "id": "maillard-schiff-base-state-5",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.116
+    },
+    {
+      "id": "maillard-schiff-base-state-6",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.443
+    },
+    {
+      "id": "maillard-amadori-state-0",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.443
+    },
+    {
+      "id": "maillard-amadori-state-1",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.116
+    },
+    {
+      "id": "maillard-amadori-state-2",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.47
+    },
+    {
+      "id": "maillard-amadori-state-3",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.365
+    },
+    {
+      "id": "maillard-amadori-state-4",
+      "atoms": 38,
+      "formula": "C8H20NO9+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.209
+    }
+  ]
+}

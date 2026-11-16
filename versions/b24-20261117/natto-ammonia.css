@@ -1,0 +1,92 @@
+.natto-ammonia-evidence {
+  --na-ink:#1c2732; --na-muted:#52636b; --na-line:#d6e2de; --na-accent:#14665d; --na-soft:#f0f7f4;
+  container-type:inline-size; color:var(--na-ink); font:inherit; font-size:16px; line-height:1.65;
+  width:100%; min-width:0; max-width:100%; overflow-wrap:anywhere;
+}
+.natto-ammonia-evidence *, .natto-ammonia-evidence *::before, .natto-ammonia-evidence *::after { box-sizing:border-box; }
+.natto-ammonia-evidence [hidden] { display:none!important; }
+.natto-ammonia-evidence :is(p,li,small,summary,pre,label,figcaption) { font-size:16px; line-height:1.65; }
+.natto-ammonia-evidence p { margin:10px 0; overflow-wrap:anywhere; }
+.natto-ammonia-evidence p:empty { display:none; }
+.natto-ammonia-evidence :is(h2,h3,h4) { color:var(--na-ink); margin:0 0 12px; font-size:18px; line-height:1.5; }
+.natto-ammonia-evidence h2 { font-size:21px; }
+.natto-ammonia-evidence h4 { font-size:16px; }
+.natto-ammonia-evidence label { display:flex; flex-direction:column; gap:7px; min-width:0; font-weight:600; }
+.natto-ammonia-evidence :is(select,textarea,input,button),
+.natto-ammonia-evidence select:not([multiple]):not([size]) {
+  font:inherit; font-size:16px; line-height:1.5; color:var(--na-ink); min-height:44px; max-width:100%;
+  border:1px solid #aebfb7; border-radius:8px; background-color:#fff;
+}
+.natto-ammonia-evidence :is(select,textarea) { width:100%; min-width:0; padding:10px 12px; }
+.natto-ammonia-evidence select { padding-right:38px; }
+.natto-ammonia-evidence textarea { min-height:88px; resize:vertical; white-space:pre-wrap; font-weight:400; line-height:1.7; }
+.natto-ammonia-evidence textarea[readonly] { background:#f5f7f6; }
+.natto-ammonia-evidence button { padding:10px 15px; cursor:pointer; white-space:normal; overflow-wrap:anywhere; }
+.natto-ammonia-evidence button:hover:not(:disabled) { background:var(--na-soft); border-color:var(--na-accent); }
+.natto-ammonia-evidence :is(button,select):disabled { opacity:.65; cursor:default; }
+.natto-ammonia-evidence :is(button,select,textarea,a,summary):focus-visible { outline:3px solid var(--na-accent); outline-offset:3px; }
+.natto-ammonia-evidence a { color:var(--na-accent); text-decoration:underline; text-underline-offset:3px; }
+.natto-ammonia-evidence .na-top { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; margin-bottom:22px; }
+.natto-ammonia-evidence .na-question { margin:0; font-size:20px; font-weight:600; align-self:center; }
+.natto-ammonia-evidence .na-workarea { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; align-items:start; }
+.natto-ammonia-evidence .na-figure-area { min-width:0; }
+.natto-ammonia-evidence .na-map { margin:0; padding:20px; background:#fff; border:1px solid var(--na-line); border-radius:10px; }
+.natto-ammonia-evidence .na-map figcaption { font-size:18px; font-weight:650; margin-bottom:16px; }
+.natto-ammonia-evidence .na-members { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:12px; }
+.natto-ammonia-evidence .na-member { min-width:0; padding:12px; border-left:3px solid var(--na-accent); background:var(--na-soft); }
+.natto-ammonia-evidence .na-member h3 { margin:4px 0 6px; }
+.natto-ammonia-evidence .na-member p { margin:4px 0; }
+.natto-ammonia-evidence .na-role { color:var(--na-muted); }
+.natto-ammonia-evidence .na-sampling { display:flex; align-items:center; justify-content:center; gap:14px; padding:12px 0; color:var(--na-muted); }
+.natto-ammonia-evidence .na-sampling span { font-size:30px; }
+.natto-ammonia-evidence .na-sampling p { margin:0; }
+.natto-ammonia-evidence .na-objects { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+.natto-ammonia-evidence .na-object { min-width:0; text-align:center; }
+.natto-ammonia-evidence .na-object h3 { font-size:17px; margin:14px 0 4px; }
+.natto-ammonia-evidence .na-object p { margin:4px 0; color:var(--na-muted); }
+.natto-ammonia-evidence .na-vessel { width:100%; max-width:210px; height:138px; margin:auto; border:2px solid #839e95; border-radius:10px 10px 20px 20px; overflow:hidden; display:flex; flex-direction:column; }
+.natto-ammonia-evidence .na-gas { flex:1; display:grid; place-items:center; padding:8px; background:#ecf5f8; }
+.natto-ammonia-evidence .na-food { min-height:48px; display:grid; place-items:center; padding:8px; background:#f2ead5; border-top:1px solid #c3bca7; }
+.natto-ammonia-evidence .na-urea-object { width:100%; max-width:210px; height:138px; margin:auto; border:2px solid #b7aa84; border-radius:10px 10px 28px 28px; background:#f7f1e3; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; padding:10px; }
+.natto-ammonia-evidence .na-urea-object strong { display:block; border:1px solid #b4a473; background:#fff; padding:8px 12px; border-radius:22px; font-size:17px; }
+.natto-ammonia-evidence .na-map-note { margin:20px 0 0; padding-top:14px; border-top:1px solid var(--na-line); color:var(--na-muted); }
+.natto-ammonia-evidence .na-predictions { display:flex; flex-direction:column; gap:14px; min-width:0; }
+.natto-ammonia-evidence .na-predictions h2 { margin:0; }
+.natto-ammonia-evidence .na-predictions>p { margin:0; color:var(--na-muted); }
+.natto-ammonia-evidence .na-evidence-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:20px; margin:26px 0; }
+.natto-ammonia-evidence .na-endpoint { min-width:0; border:1px solid var(--na-line); border-radius:10px; padding:18px; }
+.natto-ammonia-evidence .na-endpoint-head { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+.natto-ammonia-evidence .na-endpoint-head h3 { margin:0; }
+.natto-ammonia-evidence .na-endpoint-head button { color:var(--na-accent); }
+.natto-ammonia-evidence .na-target,.natto-ammonia-evidence .na-locator { color:var(--na-muted); }
+.natto-ammonia-evidence .na-unrevealed,.natto-ammonia-evidence .na-unavailable { padding:12px 0; color:var(--na-muted); }
+.natto-ammonia-evidence .na-evidence-items article { border-top:1px solid var(--na-line); padding-top:14px; margin-top:14px; }
+.natto-ammonia-evidence .na-evidence-items h4 { margin-bottom:8px; }
+.natto-ammonia-evidence .na-boundary,.natto-ammonia-evidence .na-load-error { border-left:3px solid #9a782f; padding:10px 14px; background:#faf6ec; }
+.natto-ammonia-evidence .na-writing { display:grid; grid-template-columns:minmax(0,1fr); gap:16px; margin-top:24px; }
+.natto-ammonia-evidence .na-writing h2,.natto-ammonia-evidence .na-writing>p { margin:0; }
+.natto-ammonia-evidence .na-actions { display:flex; flex-wrap:wrap; gap:12px; margin:18px 0 12px; }
+.natto-ammonia-evidence details { border:0; border-top:1px solid var(--na-line); border-radius:0; padding:0; margin-top:16px; background:transparent; }
+.natto-ammonia-evidence summary { padding:14px 0; min-height:48px; cursor:pointer; font-weight:600; }
+.learning-lesson-content .natto-ammonia-evidence details > summary { font-size:16px; }
+.natto-ammonia-evidence .na-detail-body { padding:0 0 16px; }
+.natto-ammonia-evidence .na-detail-body>section { margin:16px 0; }
+.natto-ammonia-evidence ul { padding-left:24px; margin:12px 0; }
+.natto-ammonia-evidence li { margin:8px 0; }
+.natto-ammonia-evidence pre { font:inherit; font-size:16px; white-space:pre-wrap; overflow-wrap:anywhere; padding:14px; background:var(--na-soft); border-radius:8px; }
+.natto-ammonia-evidence .na-source-links { display:flex; flex-wrap:wrap; gap:12px 24px; }
+.natto-ammonia-evidence .na-source-links a { display:inline-flex; align-items:center; min-height:44px; }
+.natto-ammonia-evidence [data-na-status],.natto-ammonia-evidence [data-na-save-status] { color:var(--na-muted); }
+@container(min-width:760px) {
+  .natto-ammonia-evidence .na-top { grid-template-columns:minmax(260px,.8fr) minmax(0,1.2fr); gap:24px; }
+  .natto-ammonia-evidence .na-workarea { grid-template-columns:minmax(0,1.5fr) minmax(290px,1fr); }
+  .natto-ammonia-evidence .na-predictions { border-left:1px solid var(--na-line); padding-left:24px; }
+  .natto-ammonia-evidence .na-evidence-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@container(max-width:440px) {
+  .natto-ammonia-evidence .na-map { padding:14px; }
+  .natto-ammonia-evidence .na-members { grid-template-columns:minmax(0,1fr); }
+  .natto-ammonia-evidence .na-objects { grid-template-columns:minmax(0,1fr); gap:22px; }
+  .natto-ammonia-evidence .na-endpoint { padding:14px; }
+  .natto-ammonia-evidence .na-actions>button { flex:1 1 150px; }
+}
