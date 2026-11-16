@@ -1,0 +1,3109 @@
+{
+  "schema": "fermentation-comparison-cases/v1",
+  "datasetId": "fermentation-comparison-cases",
+  "version": "2026-10-16.1",
+  "activityId": "fermentation-comparison-design",
+  "topicId": "proc-fermentation",
+  "lessonId": "proc-fermentation-comparison",
+  "sources": [
+    {
+      "id": "fermentation-source-oumer2018",
+      "researchId": "oumer-abate-2018",
+      "title": "Comparative Studies of Pectinase Production by Bacillus subtilis strain Btk 27 in Submerged and Solid-State Fermentations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6304570/",
+      "doi": "10.1155/2018/1514795",
+      "file": {
+        "path": "output/processing-fermentation-capability-2026-10-16/sources/pectinase-2018-fulltext-v1.xml",
+        "bytes": 100211,
+        "sha256": "e3433303837027ca2e5f3bdbd7bafbf33bc7b679afc39543218b71d373a766e7"
+      },
+      "readScope": "Methods, selected results and complete XML Tables 3/4 read; publisher PDF not visually verified in this preparation.",
+      "role": "All 16 reported numerical cases and their assay/method limitations."
+    },
+    {
+      "id": "fermentation-source-ntu115-q9",
+      "title": "臺大115學年度食品加工學第9題",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-240.pdf",
+      "file": {
+        "path": "output/processing-fermentation-capability-2026-10-16/sources/ntu-115-240-official-live-v1.pdf",
+        "bytes": 59848,
+        "sha256": "c9dd01e2cb0a24fc930c92ae7de4351439ca66bc15bf146b39166b344af0d8df"
+      },
+      "locator": "PDF page 1, subject 240, question 9 (7%)",
+      "readScope": "This preparation checks the frozen scope metadata and source pin; the research package records prior PDF visual inspection.",
+      "role": "Question locator only; partial comparison/design capability, not full Q9 coverage."
+    }
+  ],
+  "methodContext": {
+    "assayUnitDefinition": "Enzyme amount catalyzing micromoles of galacturonic acid per minute under the assay conditions (Methods 2.2); not a fermentation production rate.",
+    "assayProtocol": {
+      "id": "oa2018-broth-assay-preparation-sec2.2",
+      "cultureAliquotMl": 1.5,
+      "centrifugeRpm": 10000,
+      "centrifugeMinutes": 5,
+      "centrifugeTemperatureC": null,
+      "enzymeSupernatantAliquotMicrolitre": 100,
+      "assayTemperatureC": null,
+      "assayPH": null,
+      "assayReactionMinutes": null,
+      "assayPectinConcentration": null,
+      "scope": "General culture-broth preparation in Methods 2.2; SSF has its own preceding extraction protocol."
+    },
+    "ssfExtractionProtocol": {
+      "id": "oa2018-ssf-extraction-sec2.5",
+      "addedWaterMl": 50,
+      "extractionShakingRpm": 120,
+      "extractionShakingMinutes": 60,
+      "staticTemperatureC": 4,
+      "staticMinutes": 30,
+      "centrifugeRelativeForceG": 10000,
+      "centrifugeMinutes": 10,
+      "centrifugeTemperatureC": 4,
+      "reportedActivityUnit": "U/g solid substrate used",
+      "solidDryMassBasis": null,
+      "actualRecoveredVolumeMl": null,
+      "extractionRecoveryFraction": null,
+      "scope": "Nominal extraction method. Extraction rpm is not culture rpm; g is not rpm; added water is not measured recovered liquid."
+    },
+    "earlierScreeningContext": {
+      "smf": {
+        "locator": "sec2.3",
+        "nutrientMediumPercentWv": 1,
+        "applePectinPercentWv": 0.25,
+        "initialPH": 7,
+        "initialPHTolerance": 0.5,
+        "liquidVolumeMl": 50,
+        "vesselVolumeMl": 250,
+        "inoculumPercentVv": 1,
+        "cultureTemperatureC": 30,
+        "agitationRpm": 120,
+        "harvestTimeH": 48
+      },
+      "ssf": {
+        "locator": "sec2.4",
+        "substrateMassG": 5,
+        "moisturePercentAsPrinted": 60,
+        "moistureBasis": null,
+        "vesselVolumeMl": 250,
+        "inoculumMl": 2,
+        "cultureTemperatureC": 37,
+        "harvestTimeH": 48
+      },
+      "scope": "Earlier medium/substrate screening experiments, not default values for Tables 3/4. Do not merge into case conditions."
+    },
+    "statistics": {
+      "locator": "sec2.16",
+      "declaredParallelReplicates": 3,
+      "method": "Tukey post-hoc multiple comparison as described by the authors",
+      "alpha": 0.05,
+      "exactStatisticalModel": null,
+      "comparisonFamily": null,
+      "pairwisePValues": null,
+      "meaning": "Printed letters are retained without independent statistical recomputation. Shared letters do not establish equivalence."
+    }
+  },
+  "series": [
+    {
+      "id": "oa2018-t3-smf",
+      "tableId": "tab3",
+      "mode": "SmF",
+      "manipulatedFactor": "cultureTemperatureC",
+      "quantity": "relative-assay-activity",
+      "unit": "%",
+      "normalizationReferenceId": "oa2018-t3-smf-37c",
+      "absoluteNormalizationValue": null,
+      "absoluteNormalizationUnit": null,
+      "commonAbsoluteDenominatorAcrossModes": false,
+      "allowedDescriptiveScope": "Within this mode and temperature series only.",
+      "relativeSdReported": false,
+      "tableSpecificReplicateCount": null,
+      "statement": "Cultivation temperature series, not a purified-enzyme thermostability assay."
+    },
+    {
+      "id": "oa2018-t3-ssf",
+      "tableId": "tab3",
+      "mode": "SSF",
+      "manipulatedFactor": "cultureTemperatureC",
+      "quantity": "relative-assay-activity",
+      "unit": "%",
+      "normalizationReferenceId": "oa2018-t3-ssf-37c",
+      "absoluteNormalizationValue": null,
+      "absoluteNormalizationUnit": null,
+      "commonAbsoluteDenominatorAcrossModes": false,
+      "allowedDescriptiveScope": "Within this mode and temperature series only.",
+      "relativeSdReported": false,
+      "tableSpecificReplicateCount": null,
+      "statement": "Cultivation temperature series, not a purified-enzyme thermostability assay."
+    },
+    {
+      "id": "oa2018-t4-smf",
+      "tableId": "tab4",
+      "mode": "SmF",
+      "manipulatedFactor": "agitationRpm",
+      "quantity": "assay-activity-per-volume",
+      "unit": "U/mL",
+      "normalizationReferenceId": "oa2018-t4-smf-120rpm",
+      "publishedReferenceMean": 13.1,
+      "publishedReferenceMeanUnit": "U/mL",
+      "unroundedNormalizationValue": null,
+      "absoluteNormalizationValue": null,
+      "allowedDescriptiveScope": "Published means in Table 4; descriptive right-minus-left difference only. No reanalysis.",
+      "relativeSdReported": false,
+      "tableSpecificReplicateCount": 3,
+      "statement": "rpm can affect several mechanisms; oxygen, mixing and shear were not measured here."
+    }
+  ],
+  "cases": [
+    {
+      "referenceId": "oa2018-t3-smf-25c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 1,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[1]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 25,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 56.3,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "a",
+          "printed": "56.3a"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[1]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-25c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 1,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[1]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 25,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 50.3,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "a",
+          "printed": "50.3a"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[1]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-smf-30c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 2,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[2]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 30,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 76.7,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "b",
+          "printed": "76.7b"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[2]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-30c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 2,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[2]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 30,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 74.2,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "b",
+          "printed": "74.2b"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[2]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-smf-37c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 3,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[3]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 100.0,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "c",
+          "printed": "100.0c"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[3]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-37c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 3,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[3]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 100.0,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "c",
+          "printed": "100.0c"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[3]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-smf-40c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 4,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[4]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 40,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 84.0,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "b",
+          "printed": "84.0b"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[4]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-40c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 4,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[4]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 40,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 86.0,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "b",
+          "printed": "86.0b"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[4]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-smf-45c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 5,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[5]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 45,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 42.0,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "d",
+          "printed": "42.0d"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[5]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-45c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 5,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[5]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 45,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 52.1,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "a",
+          "printed": "52.1a"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[5]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-smf-50c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-smf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 6,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[6]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 50,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-smf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 0.1,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "e",
+          "printed": "0.1e"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[6]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t3-ssf-50c",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t3-ssf",
+      "locator": {
+        "tableId": "tab3",
+        "row": 6,
+        "column": 3,
+        "xmlXPath": ".//table-wrap[@id=\"tab3\"]/table/tbody/tr[6]/td[3]"
+      },
+      "conditions": {
+        "mode": "SSF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "wheat bran",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 50,
+        "agitationRpm": null,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "relative-assay-activity",
+        "unit": "%",
+        "denominator": "within-series-maximum-assay-activity",
+        "denominatorDefinition": "Maximum activity of this mode in this temperature series; absolute activity is unreported.",
+        "normalizationReference": "oa2018-t3-ssf-37c"
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": null,
+        "tableDeclarationLocator": null,
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": 48,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-ssf-extraction-sec2.5",
+        "addedExtractantVolumeMl": 50,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 8.3,
+          "unit": "%",
+          "statistic": "published-relative-value",
+          "sd": null,
+          "publishedLetters": "d",
+          "printed": "8.3d"
+        },
+        "secondaryRelative": null,
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab3",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8",
+            "tab3"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.5"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab3/table/tbody/tr[6]/td[3]"
+          ]
+        },
+        {
+          "paths": [
+            "sampling.harvestTimeH"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t4-smf-0rpm",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t4-smf",
+      "locator": {
+        "tableId": "tab4",
+        "row": 1,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab4\"]/table/tbody/tr[1]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": 0,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "assay-activity-per-volume",
+        "unit": "U/mL",
+        "denominator": "mL-enzyme-source-liquid-as-reported",
+        "denominatorDefinition": "Per mL as reported in Table 4; not per culture, biomass, input mass or elapsed cultivation hour.",
+        "normalizationReference": null
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": 3,
+        "tableDeclarationLocator": "tab4/table-wrap-foot/fn[1]",
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": null,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 7.2,
+          "unit": "U/mL",
+          "statistic": "published-mean",
+          "sd": 0.4,
+          "publishedLetters": "a",
+          "printed": "7.2 ± 0.4a"
+        },
+        "secondaryRelative": {
+          "value": 55.0,
+          "unit": "%",
+          "sd": null,
+          "normalizationReference": "oa2018-t4-smf-120rpm",
+          "role": "Published ancillary relative value; not an extra treatment or a cross-table denominator."
+        },
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab4",
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.9",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[1]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.agitationRpm"
+          ],
+          "scope": "table-cell-and-series",
+          "locators": [
+            "sec2.9",
+            "tab4/table/tbody/tr[1]/td[1]"
+          ]
+        },
+        {
+          "paths": [
+            "replication.tableDeclaredReplicates"
+          ],
+          "scope": "table-footnote",
+          "locators": [
+            "tab4/table-wrap-foot/fn[1]"
+          ]
+        },
+        {
+          "paths": [
+            "result.secondaryRelative"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[1]/td[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t4-smf-120rpm",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t4-smf",
+      "locator": {
+        "tableId": "tab4",
+        "row": 2,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab4\"]/table/tbody/tr[2]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": 120,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "assay-activity-per-volume",
+        "unit": "U/mL",
+        "denominator": "mL-enzyme-source-liquid-as-reported",
+        "denominatorDefinition": "Per mL as reported in Table 4; not per culture, biomass, input mass or elapsed cultivation hour.",
+        "normalizationReference": null
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": 3,
+        "tableDeclarationLocator": "tab4/table-wrap-foot/fn[1]",
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": null,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 13.1,
+          "unit": "U/mL",
+          "statistic": "published-mean",
+          "sd": 1.8,
+          "publishedLetters": "b",
+          "printed": "13.1 ± 1.8b"
+        },
+        "secondaryRelative": {
+          "value": 100.0,
+          "unit": "%",
+          "sd": null,
+          "normalizationReference": "oa2018-t4-smf-120rpm",
+          "role": "Published ancillary relative value; not an extra treatment or a cross-table denominator."
+        },
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab4",
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.9",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[2]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.agitationRpm"
+          ],
+          "scope": "table-cell-and-series",
+          "locators": [
+            "sec2.9",
+            "tab4/table/tbody/tr[2]/td[1]"
+          ]
+        },
+        {
+          "paths": [
+            "replication.tableDeclaredReplicates"
+          ],
+          "scope": "table-footnote",
+          "locators": [
+            "tab4/table-wrap-foot/fn[1]"
+          ]
+        },
+        {
+          "paths": [
+            "result.secondaryRelative"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[2]/td[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t4-smf-150rpm",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t4-smf",
+      "locator": {
+        "tableId": "tab4",
+        "row": 3,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab4\"]/table/tbody/tr[3]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": 150,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "assay-activity-per-volume",
+        "unit": "U/mL",
+        "denominator": "mL-enzyme-source-liquid-as-reported",
+        "denominatorDefinition": "Per mL as reported in Table 4; not per culture, biomass, input mass or elapsed cultivation hour.",
+        "normalizationReference": null
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": 3,
+        "tableDeclarationLocator": "tab4/table-wrap-foot/fn[1]",
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": null,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 11.7,
+          "unit": "U/mL",
+          "statistic": "published-mean",
+          "sd": 1.2,
+          "publishedLetters": "b",
+          "printed": "11.7 ± 1.2b"
+        },
+        "secondaryRelative": {
+          "value": 89.3,
+          "unit": "%",
+          "sd": null,
+          "normalizationReference": "oa2018-t4-smf-120rpm",
+          "role": "Published ancillary relative value; not an extra treatment or a cross-table denominator."
+        },
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab4",
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.9",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[3]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.agitationRpm"
+          ],
+          "scope": "table-cell-and-series",
+          "locators": [
+            "sec2.9",
+            "tab4/table/tbody/tr[3]/td[1]"
+          ]
+        },
+        {
+          "paths": [
+            "replication.tableDeclaredReplicates"
+          ],
+          "scope": "table-footnote",
+          "locators": [
+            "tab4/table-wrap-foot/fn[1]"
+          ]
+        },
+        {
+          "paths": [
+            "result.secondaryRelative"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[3]/td[3]"
+          ]
+        }
+      ]
+    },
+    {
+      "referenceId": "oa2018-t4-smf-180rpm",
+      "origin": "reported",
+      "immutable": true,
+      "sourceId": "fermentation-source-oumer2018",
+      "seriesId": "oa2018-t4-smf",
+      "locator": {
+        "tableId": "tab4",
+        "row": 4,
+        "column": 2,
+        "xmlXPath": ".//table-wrap[@id=\"tab4\"]/table/tbody/tr[4]/td[2]"
+      },
+      "conditions": {
+        "mode": "SmF",
+        "organism": "Bacillus subtilis",
+        "strain": "Btk 27",
+        "substrateOrMedium": "YEP",
+        "mediumRecipe": null,
+        "cultureTemperatureC": 37,
+        "agitationRpm": 180,
+        "initialPH": null,
+        "initialMoisturePercent": null,
+        "moistureBasis": null,
+        "inputSubstrateMassG": null,
+        "inputMassBasis": null,
+        "liquidVolumeMl": null,
+        "inoculumAmount": null,
+        "inoculumUnit": null,
+        "inoculumBasis": null,
+        "vesselVolumeMl": null
+      },
+      "assay": {
+        "protocolLabel": "Oumer & Abate 2018, Methods 2.2",
+        "principle": "DNS-reducing-sugar-assay",
+        "substrate": "pectin",
+        "substrateConcentration": null,
+        "temperatureC": null,
+        "pH": null,
+        "reactionTimeMin": null,
+        "calibrationDescription": null
+      },
+      "measurement": {
+        "quantity": "assay-activity-per-volume",
+        "unit": "U/mL",
+        "denominator": "mL-enzyme-source-liquid-as-reported",
+        "denominatorDefinition": "Per mL as reported in Table 4; not per culture, biomass, input mass or elapsed cultivation hour.",
+        "normalizationReference": null
+      },
+      "replication": {
+        "studyDeclaredParallelReplicates": 3,
+        "studyDeclarationLocator": "sec2.16",
+        "tableDeclaredReplicates": 3,
+        "tableDeclarationLocator": "tab4/table-wrap-foot/fn[1]",
+        "replicateUnit": null,
+        "independentCultureReplicates": null,
+        "extractionReplicates": null,
+        "assayReplicates": null,
+        "rawReplicateValues": null,
+        "normalizedMeanConstruction": null
+      },
+      "sampling": {
+        "harvestTimeH": null,
+        "destructive": null,
+        "independentUnitsPerTimePoint": null,
+        "samplePosition": null
+      },
+      "recovery": {
+        "reportedProtocolId": "oa2018-broth-assay-preparation-sec2.2",
+        "addedExtractantVolumeMl": null,
+        "actualRecoveredVolumeMl": null,
+        "inputDryMassG": null,
+        "extractionRecoveryFraction": null,
+        "matrixInterferenceAssessment": null,
+        "blank": null,
+        "spikeRecoveryBeforeExtraction": null,
+        "spikeRecoveryAfterExtraction": null,
+        "scope": "Published general method, not a point-level recovery measurement. Added liquid is not recovered volume."
+      },
+      "result": {
+        "primary": {
+          "value": 11.1,
+          "unit": "U/mL",
+          "statistic": "published-mean",
+          "sd": 0.6,
+          "publishedLetters": "b",
+          "printed": "11.1 ± 0.6b"
+        },
+        "secondaryRelative": {
+          "value": 84.7,
+          "unit": "%",
+          "sd": null,
+          "normalizationReference": "oa2018-t4-smf-120rpm",
+          "role": "Published ancillary relative value; not an extra treatment or a cross-table denominator."
+        },
+        "interpretation": "Reported observation only; no inferred rate, yield, mode effect or generated value."
+      },
+      "fieldEvidence": [
+        {
+          "paths": [
+            "conditions.organism",
+            "conditions.strain"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.1"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.mode"
+          ],
+          "scope": "table-and-series",
+          "locators": [
+            "tab4",
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.substrateOrMedium"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec3.6"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.cultureTemperatureC"
+          ],
+          "scope": "series-specific",
+          "locators": [
+            "sec2.9",
+            "sec3.5"
+          ]
+        },
+        {
+          "paths": [
+            "assay"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "replication.studyDeclaredParallelReplicates"
+          ],
+          "scope": "article-method",
+          "locators": [
+            "sec2.16"
+          ]
+        },
+        {
+          "paths": [
+            "recovery"
+          ],
+          "scope": "article-method-not-point-measurement",
+          "locators": [
+            "sec2.2"
+          ]
+        },
+        {
+          "paths": [
+            "result.primary"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[4]/td[2]"
+          ]
+        },
+        {
+          "paths": [
+            "conditions.agitationRpm"
+          ],
+          "scope": "table-cell-and-series",
+          "locators": [
+            "sec2.9",
+            "tab4/table/tbody/tr[4]/td[1]"
+          ]
+        },
+        {
+          "paths": [
+            "replication.tableDeclaredReplicates"
+          ],
+          "scope": "table-footnote",
+          "locators": [
+            "tab4/table-wrap-foot/fn[1]"
+          ]
+        },
+        {
+          "paths": [
+            "result.secondaryRelative"
+          ],
+          "scope": "table-cell",
+          "locators": [
+            "tab4/table/tbody/tr[4]/td[3]"
+          ]
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "sourceCardsImmutable": true,
+    "proposedAlwaysResultNull": true,
+    "noAutomaticReportedRecovery": true,
+    "noCrossModeAbsoluteDifferenceForTable3": true,
+    "noCrossTableDenominatorReuse": true,
+    "noStatisticsReanalysis": true,
+    "noInterpolationOrSimulation": true,
+    "sourceUnknownCannotBeOverwrittenByLearnerClaim": true
+  },
+  "limits": [
+    "Table 3 has no published SD and no table-specific n; Methods 2.16 declares three parallel replicates at article scope.",
+    "Table 4 SD applies to U/mL means, not its percentages. Biological/extraction/technical replicate identities remain unknown.",
+    "Table 4 culture time is unreported here; 37 C follows explicit Methods 2.9 and Results 3.5 linkage.",
+    "Tables 3/4 do not restate a complete recipe, pH, inoculum, vessel or source dry-mass basis; corresponding case fields remain null.",
+    "Two Table 3 modes each have their own 100% denominator. Neither Table 4 nor an extraction-water volume supplies the missing absolute activities.",
+    "Question 9 also asks broader differences, advantages/disadvantages and food examples; this activity is a partial design capability.",
+    "Study observations do not identify a universal mode effect, oxygen-only mechanism, process yield, cost, smell or learning outcome."
+  ]
+}
