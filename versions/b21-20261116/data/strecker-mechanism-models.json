@@ -1,0 +1,3442 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": [
+    {
+      "reactionId": "maillard-strecker",
+      "variantId": "oxazolidinone-path-a",
+      "variantLabel": "甘胺酸＋MGO：五員環 Path A",
+      "title": "Strecker 脫羧：追蹤甘胺酸的碳、氮與 MGO 醛端",
+      "kind": "atom-mapped teaching mechanism",
+      "isTrajectory": false,
+      "isElementaryStepSequence": false,
+      "overallEquation": "C₂H₅NO₂ + C₃H₄O₂ → CH₂O + C₃H₇NO + CO₂",
+      "equationType": "配平淨反應式；兩份明示水參與質子接力與水合，於未標記淨式中約去",
+      "conditions": "依 2025 年 Gly／MGO 計算研究選定醛端 Path A；中性微觀態與明示水接力，不指定普遍 pH、食品加熱條件或反應速率。",
+      "states": [
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-0",
+          "name": "Gly + MGO + 兩份水：所選中性起點",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.010143,
+                0.726264,
+                0.695645
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.381014,
+                -0.53233,
+                0.260489
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.881332,
+                -0.525923,
+                0.522051
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.18952,
+                -1.498384,
+                0.779431
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.313068,
+                0.69138,
+                0.360411
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.926641,
+                0.810944,
+                0.261094
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.441809,
+                1.498384,
+                0.338701
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.536427,
+                -0.679666,
+                -0.812468
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.830816,
+                -1.362272,
+                0.812468
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.368287,
+                0.532011,
+                0.565329
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.409573,
+                -0.190074,
+                0.098003
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.75625,
+                0.453743,
+                0.224655
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.942253,
+                1.648253,
+                0.417422
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.959205,
+                -0.449686,
+                0.103394
+              ]
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.835152,
+                -1.648253,
+                -0.088894
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.631713,
+                0.571347,
+                0.204511
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.311489,
+                -0.65459,
+                -0.886306
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.279127,
+                -0.935608,
+                0.886306
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.926641,
+                0.066672,
+                0.202922
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.1,
+                -5.585253,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.132,
+                -5.585253,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.342,
+                -4.648253,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.1,
+                -5.585253,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.068,
+                -5.585253,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.858,
+                -4.648253,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "Ccarb",
+              "order": 1
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HNa",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Og2",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Oma",
+              "order": 2
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "Reactants",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CC(=O)C=O.NCC(=O)O.O.O",
+            "inchi": "InChI=1S/C3H4O2.C2H5NO2.2H2O/c1-3(5)2-4;3-1-2(4)5;;/h2H,1H3;1,3H2,(H,4,5);2*1H2",
+            "minimumInterfragmentDistanceAngstrom": 3.021876,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-1",
+          "name": "IM1a：醛端加成後的胺醇",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.041056,
+                -0.56799,
+                0.279709
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.51213,
+                -0.521897,
+                0.163272
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.968705,
+                0.094611,
+                -1.154695
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.284765,
+                0.648552,
+                -2.001628
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.304248,
+                -0.00789,
+                -1.324535
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.132,
+                -5.491078,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.185545,
+                -1.108016,
+                1.115379
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.878515,
+                -1.554078,
+                0.18163
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.964258,
+                0.025597,
+                0.996937
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.465642,
+                0.41692,
+                -2.193215
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.392282,
+                0.422258,
+                -1.258264
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.015559,
+                0.747315,
+                0.163427
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.865382,
+                1.036258,
+                1.012815
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.51392,
+                0.757186,
+                0.51618
+              ],
+              "cip": "S"
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.327088,
+                1.056619,
+                1.885717
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.159461,
+                -0.621972,
+                -1.478342
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.465642,
+                0.580108,
+                -1.396478
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.852251,
+                1.082995,
+                -1.940918
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.055605,
+                1.554078,
+                -0.077139
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.1,
+                -5.491078,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.184124,
+                1.417094,
+                2.193215
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.342,
+                -4.554078,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.1,
+                -5.491078,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.068,
+                -5.491078,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.858,
+                -4.554078,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "Ccarb",
+              "order": 1
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Og2",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Oma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "HNa",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IM1a",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CC(=O)[C@H](O)NCC(=O)O.O.O",
+            "inchi": "InChI=1S/C5H9NO4.2H2O/c1-3(7)5(10)6-2-4(8)9;;/h5-6,10H,2H2,1H3,(H,8,9);2*1H2/t5-;;/m0../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.041021,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-2",
+          "name": "IM2a：脫水形成 5-oxooxazolidine 五員環",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.140572,
+                0.702902,
+                -0.737215
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.040044,
+                -0.320825,
+                -0.20399
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.431957,
+                -0.718924,
+                1.117668
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.936142,
+                -1.447407,
+                1.95635
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.195554,
+                -0.161315,
+                1.237355
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.232,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.952337,
+                0.505951,
+                -1.725827
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.038743,
+                0.094328,
+                -0.052563
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.073162,
+                -1.196866,
+                -0.858356
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.968,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.395516,
+                -0.71125,
+                -0.149977
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.084396,
+                -0.371629,
+                -0.808975
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.82504,
+                -0.745377,
+                -1.95635
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.098665,
+                0.482629,
+                0.01653
+              ],
+              "cip": "S"
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.2,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.219232,
+                -1.358922,
+                0.711923
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.038743,
+                -1.236567,
+                -0.861443
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.896886,
+                0.207733,
+                0.163344
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.576335,
+                1.447407,
+                0.215951
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.0,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.442,
+                -4.447407,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.242,
+                -4.447407,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.2,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.168,
+                -5.384407,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.958,
+                -4.447407,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "Ccarb",
+              "order": 1
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "HNa",
+              "order": 1
+            },
+            {
+              "a": "Og2",
+              "b": "Cma",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IM2a",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CC(=O)[C@H]1NCC(=O)O1.O.O.O",
+            "inchi": "InChI=1S/C5H7NO3.3H2O/c1-3(7)5-6-2-4(8)9-5;;;/h5-6H,2H2,1H3;3*1H2/t5-;;;/m0.../s1",
+            "minimumInterfragmentDistanceAngstrom": 3.13338,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-3",
+          "name": "IM3a：脫羧後的 Ng⁺／Cma⁻ 氮葉立德共振式",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 1,
+              "charge": 1,
+              "position": [
+                -3.848805,
+                -0.442552,
+                0.130301
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.009154,
+                0.043541,
+                0.3633
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.729293,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.569293,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.889293,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.232,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.700748,
+                -1.416017,
+                -0.170601
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.131283,
+                1.089275,
+                0.683728
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.889293,
+                -0.604298,
+                0.237588
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.968,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.067575,
+                0.462532,
+                0.111581
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.34681,
+                -0.311475,
+                -0.021264
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.396719,
+                -1.490139,
+                -0.368136
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": -1,
+              "charge": -1,
+              "position": [
+                -2.626652,
+                0.362046,
+                0.276601
+              ]
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.2,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.259476,
+                1.490139,
+                0.431934
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.438772,
+                0.488747,
+                -0.85675
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.569293,
+                -0.02106,
+                0.85675
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.655508,
+                1.398193,
+                0.587076
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.0,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.442,
+                -4.490139,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.242,
+                -4.490139,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.2,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.168,
+                -5.427139,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.958,
+                -4.490139,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 2
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "HNa",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IM3a",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic linear carbon dioxide; C=O 1.16 angstrom, not imported DFT coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "C=[NH+][CH-]C(C)=O.O.O.O.O=C=O",
+            "inchi": "InChI=1S/C4H7NO.CO2.3H2O/c1-4(6)3-5-2;2-1-3;;;/h3,5H,2H2,1H3;;3*1H2",
+            "minimumInterfragmentDistanceAngstrom": 3.12001,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-4",
+          "name": "IM4a：三水接力後的中性亞胺",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.922822,
+                -0.878806,
+                0.235813
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.861449,
+                -0.285298,
+                -0.184351
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.218448,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.058448,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.378448,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.232,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.968,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.058448,
+                -0.319472,
+                0.421004
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.80437,
+                0.276709,
+                -1.133239
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.168,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.628647,
+                0.616847,
+                0.851509
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.78693,
+                0.556869,
+                -0.395402
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.660787,
+                1.53413,
+                -1.136219
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.066116,
+                -0.748819,
+                -0.677834
+              ]
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.0,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.378448,
+                -0.17777,
+                0.826899
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.143012,
+                1.580642,
+                0.901187
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.992284,
+                0.508379,
+                1.732885
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.768101,
+                -0.78189,
+                -1.732885
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.2,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.242,
+                -4.580642,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.442,
+                -4.580642,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.2,
+                -5.517642,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.760333,
+                -1.580642,
+                -0.520226
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.958,
+                -4.580642,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 2
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "HNa",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "HNb",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IM4a",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic linear carbon dioxide; C=O 1.16 angstrom, not imported DFT coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "C=NCC(C)=O.O.O.O.O=C=O",
+            "inchi": "InChI=1S/C4H7NO.CO2.3H2O/c1-4(6)3-5-2;2-1-3;;;/h2-3H2,1H3;;3*1H2",
+            "minimumInterfragmentDistanceAngstrom": 3.046195,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-5",
+          "name": "IM5a：在甘胺酸來源碳加水的胺醇",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.682536,
+                -0.441541,
+                -0.442026
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.386683,
+                0.553348,
+                0.33435
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.702901,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.542901,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.862901,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.132,
+                -5.493142,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.61854,
+                -0.069333,
+                -1.395556
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.418722,
+                0.286517,
+                1.395556
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.961343,
+                1.556142,
+                0.233931
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.068,
+                -5.493142,
+                0.0
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.021032,
+                0.541349,
+                0.239971
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.384185,
+                0.504747,
+                -0.398755
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.711967,
+                1.328918,
+                -1.253796
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.305138,
+                -0.631297,
+                0.044414
+              ]
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.1,
+                -5.493142,
+                0.0
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.519924,
+                -0.377173,
+                -7.4e-05
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.126639,
+                0.645815,
+                1.322582
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.542901,
+                1.396477,
+                -0.142748
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.908917,
+                -1.556142,
+                -0.387677
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.708425,
+                0.576341,
+                -0.143007
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.342,
+                -4.556142,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.862901,
+                -0.343993,
+                -0.415719
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.1,
+                -5.493142,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.281373,
+                -0.726853,
+                1.135085
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.858,
+                -4.556142,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ng",
+              "b": "Cg",
+              "order": 1
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 2
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Hw1b",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Cg",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "HNa",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IM5a",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic linear carbon dioxide; C=O 1.16 angstrom, not imported DFT coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "CC(=O)CNCO.O.O.O=C=O",
+            "inchi": "InChI=1S/C4H9NO2.CO2.2H2O/c1-4(7)2-5-3-6;2-1-3;;/h5-6H,2-3H2,1H3;;2*1H2",
+            "minimumInterfragmentDistanceAngstrom": 3.046416,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        },
+        {
+          "id": "maillard-strecker-oxazolidinone-path-a-state-6",
+          "name": "甲醛、胺基丙酮、CO₂ 與兩份水",
+          "formula": "C5H13NO6",
+          "atoms": [
+            {
+              "id": "Ng",
+              "element": "N",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.267793,
+                -0.048701,
+                0.135608
+              ]
+            },
+            {
+              "id": "Cg",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.255813,
+                -0.075068,
+                0.006393
+              ]
+            },
+            {
+              "id": "Ccarb",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                6.630135,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.470135,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "Og2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                7.790135,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HNa",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.132,
+                -5.169722,
+                0.0
+              ]
+            },
+            {
+              "id": "HNb",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.445943,
+                0.304069,
+                -0.350383
+              ]
+            },
+            {
+              "id": "HG1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.554057,
+                -0.924248,
+                0.01955
+              ]
+            },
+            {
+              "id": "HG2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.792163,
+                0.924248,
+                0.018133
+              ]
+            },
+            {
+              "id": "HgO",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.328541,
+                0.471164,
+                1.016803
+              ]
+            },
+            {
+              "id": "Cmm",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.992488,
+                -0.202956,
+                -0.355295
+              ]
+            },
+            {
+              "id": "Cmk",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.697236,
+                0.252744,
+                0.261487
+              ]
+            },
+            {
+              "id": "Omk",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.64965,
+                0.662748,
+                1.423781
+              ]
+            },
+            {
+              "id": "Cma",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.470354,
+                0.247292,
+                -0.647226
+              ]
+            },
+            {
+              "id": "Oma",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.1,
+                -5.169722,
+                0.0
+              ]
+            },
+            {
+              "id": "Hmm1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.889233,
+                -1.232722,
+                -0.706158
+              ]
+            },
+            {
+              "id": "Hmm2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.790135,
+                -0.165246,
+                0.391769
+              ]
+            },
+            {
+              "id": "Hmm3",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.252463,
+                0.455808,
+                -1.187391
+              ]
+            },
+            {
+              "id": "Hma",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.587176,
+                -0.513555,
+                -1.423781
+              ]
+            },
+            {
+              "id": "Ow1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.470135,
+                -0.231507,
+                -0.01955
+              ]
+            },
+            {
+              "id": "Hw1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.342,
+                -4.232722,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.068,
+                -5.169722,
+                0.0
+              ]
+            },
+            {
+              "id": "Ow2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.1,
+                -5.169722,
+                0.0
+              ]
+            },
+            {
+              "id": "Hw2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.395276,
+                1.232722,
+                -1.11696
+              ]
+            },
+            {
+              "id": "Hw2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.858,
+                -4.232722,
+                0.0
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "Ccarb",
+              "b": "Og1",
+              "order": 2
+            },
+            {
+              "a": "Ccarb",
+              "b": "Og2",
+              "order": 2
+            },
+            {
+              "a": "Cg",
+              "b": "HG1",
+              "order": 1
+            },
+            {
+              "a": "Cg",
+              "b": "HG2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Cmk",
+              "order": 1
+            },
+            {
+              "a": "Cmk",
+              "b": "Omk",
+              "order": 2
+            },
+            {
+              "a": "Cmk",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm1",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm2",
+              "order": 1
+            },
+            {
+              "a": "Cmm",
+              "b": "Hmm3",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hma",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw2b",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "Cma",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "Hw1a",
+              "order": 1
+            },
+            {
+              "a": "Cma",
+              "b": "Hw2a",
+              "order": 1
+            },
+            {
+              "a": "Ow1",
+              "b": "Cg",
+              "order": 2
+            },
+            {
+              "a": "Ng",
+              "b": "HNb",
+              "order": 1
+            },
+            {
+              "a": "Oma",
+              "b": "HNa",
+              "order": 1
+            },
+            {
+              "a": "Ng",
+              "b": "HgO",
+              "order": 1
+            },
+            {
+              "a": "Ow2",
+              "b": "Hw1b",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "Products",
+            "literaturePath": "A",
+            "literatureSource": {
+              "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+              "url": "https://doi.org/10.1039/d5ra07604h"
+            },
+            "geometry": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+            "methods": [
+              "ETKDGv3 + MMFF94 independent conformer; graph rebuilt from literature, not original DFT/IRC coordinates",
+              "schematic linear carbon dioxide; C=O 1.16 angstrom, not imported DFT coordinates",
+              "schematic bent water; illustrative separated solvent, not a DFT relay geometry"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "smiles": "C=O.CC(=O)CN.O.O.O=C=O",
+            "inchi": "InChI=1S/C3H7NO.CO2.CH2O.2H2O/c1-3(5)2-4;2-1-3;1-2;;/h2,4H2,1H3;;1H2;2*1H2",
+            "minimumInterfragmentDistanceAngstrom": 3.008983,
+            "sources": [
+              {
+                "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+                "url": "https://doi.org/10.1039/d5ra07604h"
+              },
+              {
+                "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+                "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+              },
+              {
+                "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+                "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+              },
+              {
+                "title": "PubChem glycine, CID 750",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+              },
+              {
+                "title": "PubChem methylglyoxal, CID 880",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem aminoacetone, CID 215",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+              },
+              {
+                "title": "PubChem carbon dioxide, CID 280",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "醛端加成與水接力：形成 IM1a",
+          "instruction": "由 Ng 向 MGO 醛端 Cma 提供電子，並查看完整水接力箭頭。",
+          "source": "Ng",
+          "target": "Cma",
+          "arrows": [
+            [
+              "Ng",
+              "Cma"
+            ],
+            [
+              "Cma-Oma",
+              "Oma"
+            ],
+            [
+              "Oma",
+              "Hw1a"
+            ],
+            [
+              "Ow1-Hw1a",
+              "Ow1"
+            ],
+            [
+              "Ow1",
+              "HNa"
+            ],
+            [
+              "Ng-HNa",
+              "Ng"
+            ]
+          ],
+          "equation": "Gly + MGO ⇌ 胺醇 IM1a（水參與質子接力）",
+          "explanation": "對應文獻 Reactants→IM1a。Ng–Cma 成鍵，Cma=Oma 變單鍵；Ow1 把 Hw1a 給 Oma，並接受 Ng 的 HNa。整組是主態間的加成／質子轉移記帳；不另宣稱某個游離 N⁺/O⁻ 物種是穩定中間態。Cma 暫生配置只取一個代表。",
+          "isComposite": true,
+          "literatureFrom": "Reactants",
+          "literatureTo": "IM1a"
+        },
+        {
+          "title": "脫水閉合五員環：形成 IM2a",
+          "instruction": "由羧基氧 Og2 向 Cma 提供電子，讓原醛氧 Oma 隨水離去。",
+          "source": "Og2",
+          "target": "Cma",
+          "arrows": [
+            [
+              "Ow1",
+              "HgO"
+            ],
+            [
+              "Og2-HgO",
+              "Og2"
+            ],
+            [
+              "Og2",
+              "Cma"
+            ],
+            [
+              "Cma-Oma",
+              "Oma"
+            ],
+            [
+              "Oma",
+              "HNa"
+            ],
+            [
+              "Ow1-HNa",
+              "Ow1"
+            ]
+          ],
+          "equation": "胺醇 IM1a ⇌ 5-oxooxazolidine IM2a + H₂O",
+          "explanation": "對應 IM1a→IM2a。五員環依序為 Cma–Ng–Cg–Ccarb–Og2；Og1 仍為 Ccarb 羰基氧。Ow1 接受羧基 HgO 並交出 HNa，Oma 與 Hw1a/HNa 成第三份水。這是閉環／脫水的合併表示，沒有把中性開鏈亞胺直接脫羧當成本支路。",
+          "isComposite": true,
+          "literatureFrom": "IM1a",
+          "literatureTo": "IM2a"
+        },
+        {
+          "title": "五員環脫羧：形成 IM3a",
+          "instruction": "由 Ng 的孤對電子向 Cg 提供電子，搭配兩條環裂解箭頭。",
+          "source": "Ng",
+          "target": "Cg",
+          "arrows": [
+            [
+              "Ng",
+              "Cg"
+            ],
+            [
+              "Cg-Ccarb",
+              "Ccarb-Og2"
+            ],
+            [
+              "Cma-Og2",
+              "Cma"
+            ]
+          ],
+          "equation": "5-oxooxazolidine IM2a → 氮葉立德 IM3a + CO₂",
+          "explanation": "對應 IM2a→IM3a。Cg–Ccarb 的電子提高 Ccarb–Og2 鍵階，Cma–Og2 的電子回 Cma；Ccarb 帶原 Og1/Og2 成 CO₂。Ng=Cg 使 Ng 為四鍵 +1，Cma 為三鍵 −1，總電荷仍 0。這是選定氮葉立德共振式，未把共振畫成另外一個反應。",
+          "isComposite": true,
+          "literatureFrom": "IM2a",
+          "literatureTo": "IM3a"
+        },
+        {
+          "title": "三份水接力：形成 IM4a",
+          "instruction": "由 Cma 接受 Ow2 的 Hw2a，依序查看三水鏈的完整電子箭頭。",
+          "source": "Cma",
+          "target": "Hw2a",
+          "arrows": [
+            [
+              "Cma",
+              "Hw2a"
+            ],
+            [
+              "Ow2-Hw2a",
+              "Ow2"
+            ],
+            [
+              "Ow2",
+              "HgO"
+            ],
+            [
+              "Ow1-HgO",
+              "Ow1"
+            ],
+            [
+              "Ow1",
+              "HNa"
+            ],
+            [
+              "Oma-HNa",
+              "Oma"
+            ],
+            [
+              "Oma",
+              "HNb"
+            ],
+            [
+              "Ng-HNb",
+              "Ng"
+            ]
+          ],
+          "equation": "氮葉立德 IM3a ⇌ CH₃CO–CH₂–N=CH₂（IM4a；三水接力）",
+          "explanation": "對應 IM3a→IM4a。從末端看是 Ng 上一個 H 經 Oma→Ow1→Ow2 的水鏈補到 Cma；逐原子看 Cma 實際得到 Hw2a。HNb 到 Oma，HNa 到 Ow1，HgO 到 Ow2；Ng 與 Cma 同時回中性。文獻支持三水促進此主轉換，但本座標與具名氫排列不是其原 DFT 過渡態網路。",
+          "isComposite": true,
+          "literatureFrom": "IM3a",
+          "literatureTo": "IM4a"
+        },
+        {
+          "title": "在新的亞胺碳加水：形成 IM5a",
+          "instruction": "由 Ow1 向甘胺酸來源的 Cg 提供電子。",
+          "source": "Ow1",
+          "target": "Cg",
+          "arrows": [
+            [
+              "Ow1",
+              "Cg"
+            ],
+            [
+              "Cg-Ng",
+              "Ng"
+            ],
+            [
+              "Ng",
+              "HNb"
+            ],
+            [
+              "Oma-HNb",
+              "Oma"
+            ],
+            [
+              "Oma",
+              "HNa"
+            ],
+            [
+              "Ow1-HNa",
+              "Ow1"
+            ]
+          ],
+          "equation": "CH₃CO–CH₂–N=CH₂ + H₂O ⇌ CH₃CO–CH₂–NH–CH₂OH（IM5a）",
+          "explanation": "對應 IM4a→IM5a。被水進攻的是 Cg，已不是最初的 MGO 醛端 Cma；Cg=Ng 變單鍵。Ow1 保留 Hw1b 成 OH；Oma 將 HNb 給 Ng 並接回 HNa。這是水加成／質子接力的主態記帳，原 Cma 現在已是胺基丙酮骨架的 CH₂。",
+          "isComposite": true,
+          "literatureFrom": "IM4a",
+          "literatureTo": "IM5a"
+        },
+        {
+          "title": "胺醇解離：釋放 Strecker 產物",
+          "instruction": "由 Ow1 向 Cg 提供電子建立羰基，並查看 Ng 的質子接力。",
+          "source": "Ow1",
+          "target": "Cg",
+          "arrows": [
+            [
+              "Ow1",
+              "Cg"
+            ],
+            [
+              "Cg-Ng",
+              "Ng"
+            ],
+            [
+              "Ng",
+              "HgO"
+            ],
+            [
+              "Ow2-HgO",
+              "Ow2"
+            ],
+            [
+              "Ow2",
+              "Hw1b"
+            ],
+            [
+              "Ow1-Hw1b",
+              "Ow1"
+            ]
+          ],
+          "equation": "CH₃CO–CH₂–NH–CH₂OH ⇌ CH₃CO–CH₂NH₂ + HCHO",
+          "explanation": "對應 IM5a→Products。Cg=Ow1 成甲醛，Cg–Ng 斷開，Ng 留在 Cma 得胺基丙酮；Ow2 接 Hw1b 並把 HgO 給 Ng。CO₂ 的 Ccarb/Og1/Og2 一直保留在畫面。末態兩水使整體無淨消耗水，但水氧可以進入產物；這個氫／氧交換映射只代表所選接力。",
+          "isComposite": true,
+          "literatureFrom": "IM5a",
+          "literatureTo": "Products"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ishida, Miyagawa and Shoji (2025): glycine/methylglyoxal Strecker Path A via 5-oxooxazolidine",
+          "url": "https://doi.org/10.1039/d5ra07604h"
+        },
+        {
+          "title": "Open-access primary article: selected IM1a–IM5a structures and three-water-assisted IM3a conversion",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12661492/"
+        },
+        {
+          "title": "Europe PMC official supplementary archive: original M06-2X/6-311G* coordinates available as reference, not used for this rebuilt geometry",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+        },
+        {
+          "title": "PubChem glycine, CID 750",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+        },
+        {
+          "title": "PubChem methylglyoxal, CID 880",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/880"
+        },
+        {
+          "title": "PubChem formaldehyde, CID 712",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+        },
+        {
+          "title": "PubChem aminoacetone, CID 215",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+        },
+        {
+          "title": "PubChem carbon dioxide, CID 280",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+        }
+      ],
+      "limits": "所選機構對應 2025 年 Gly+MGO 計算研究的醛端 Path A：先成胺醇，再經 5-oxooxazolidine 五員環脫羧。這是該研究提出的路徑之一，不是食品中唯一、所有條件下最快或已逐態實驗分離確認的路徑；酮端支路與其他 Strecker 途徑未展開。七個主態對應文獻 Reactants、IM1a–IM5a、Products。每組箭頭合併主態之間的水接力／鍵變化，沒有另造未支持的游離離子穩態。具名水與氫的接力是選定原子記帳；不宣稱完全重現論文過渡態水網路、氫交換速率或唯一同位素去向。初態為中性 NH₂–CH₂–COOH 微觀態及未水合 MGO，加兩份明示水，共 25 原子、淨電荷 0；不是指定 pH 下主要溶液物種。脫水後生成第三份水，IM3a→IM4a 的教學轉換使用這三份水接力；沒有增減原子。IM3a 採 Ng⁺=Cg／Cma⁻ 的氮葉立德共振式，不把共振形式當作額外先後態。暫生 Cma 手性只取一個代表，未預測面選擇性；最終產物皆無手性。座標依文獻連接獨立重建，使用 ETKDGv3/MMFF94 與分離片段排列；不是原論文 DFT/IRC 座標、過渡態、反應軌跡或自由能面。不預測食品香氣、反應速率或產率，也未展開水合物、酸鹼分布及後續縮合。",
+      "atomLegend": "Cg 是甘胺酸 α-碳，最後成甲醛；Ccarb 與 Og1/Og2 成 CO₂。Ng 最後留在胺基丙酮。Cma/Oma 是 MGO 醛端，Cmk/Omk 是酮端，Cmm 是甲基。Ow1/Ow2 是起始兩份水；Oma 脫水後成第三份水，Ow1 最後進甲醛。具名 H 追蹤所選水接力，不代表唯一氫交換途徑。",
+      "atomMapping": {
+        "glycineAlphaCarbon": "Cg",
+        "carboxylCarbon": "Ccarb",
+        "carboxylOxygens": [
+          "Og1",
+          "Og2"
+        ],
+        "aminoNitrogen": "Ng",
+        "methylglyoxalAldehydeCarbon": "Cma",
+        "methylglyoxalAldehydeOxygen": "Oma",
+        "methylglyoxalKetoneCarbon": "Cmk",
+        "methylglyoxalKetoneOxygen": "Omk",
+        "methylglyoxalMethylCarbon": "Cmm",
+        "initialWaterOxygens": [
+          "Ow1",
+          "Ow2"
+        ],
+        "formaldehydeOxygen": "Ow1",
+        "sourceAssetAtomIds": {
+          "glycine": {
+            "N1": "Ng",
+            "C1": "Cg",
+            "C2": "Ccarb",
+            "O1": "Og1",
+            "O2": "Og2",
+            "HN1a": "HNa",
+            "HN1b": "HNb",
+            "HC1a": "HG1",
+            "HC1b": "HG2",
+            "HO2": "HgO"
+          },
+          "methylglyoxal": {
+            "C1": "Cmm",
+            "C2": "Cmk",
+            "O1": "Omk",
+            "C3": "Cma",
+            "O2": "Oma",
+            "HC1a": "Hmm1",
+            "HC1b": "Hmm2",
+            "HC1c": "Hmm3",
+            "HC3": "Hma"
+          }
+        }
+      },
+      "selectedEndpointModels": [
+        "formaldehyde"
+      ],
+      "selectedEndpointReferences": [
+        {
+          "id": "aminoacetone",
+          "cid": 215,
+          "formula": "C3H7NO",
+          "smiles": "CC(=O)CN",
+          "inchi": "InChI=1S/C3H7NO/c1-3(5)2-4/h2,4H2,1H3",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+        },
+        {
+          "id": "carbon-dioxide",
+          "cid": 280,
+          "formula": "CO2",
+          "smiles": "O=C=O",
+          "inchi": "InChI=1S/CO2/c2-1-3",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">切蒜：先接觸，再生成新分子</title>
+<desc id="figure-desc">完整組織分隔蒜胺酸與蒜胺酸酶；切碎讓兩者接觸，經次磺酸中間體形成有辛辣氣味的蒜素。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">切蒜：先接觸，再生成新分子</tspan></text>
+<rect x="32" y="123" width="250" height="185" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="157" y="157" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="157" dy="0">組織完整：彼此分隔</tspan></text>
+<path d="M 157 178 L 157 290" fill="none" stroke="#dfe4e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="47" y="194" width="100" height="84" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="97.0" y="229.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="97.0" dy="0">蒜胺酸</tspan><tspan x="97.0" dy="28">alliin</tspan></text>
+<rect x="168" y="194" width="100" height="84" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="218.0" y="229.0" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="218.0" dy="0">蒜胺酸酶</tspan><tspan x="218.0" dy="28">alliinase</tspan></text>
+<path d="M 290 235 L 334 235" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="312" y="205" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="312" dy="0">切碎</tspan></text>
+<rect x="342" y="188" width="346" height="94" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="515.0" y="228.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="515.0" dy="0">底物 ＋ 酵素</tspan><tspan x="515.0" dy="28">組分接觸</tspan></text>
+<path d="M 515 290 L 515 311" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="390" y="319" width="250" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="515.0" y="356.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="515.0" dy="0">次磺酸中間體</tspan></text>
+<path d="M 515 387 L 515 409" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="390" y="417" width="250" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="515.0" y="450.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="515.0" dy="0">蒜素 allicin</tspan></text>
+<text x="32" y="372" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">切碎也觸發新分子生成。</tspan><tspan x="32" dy="25">氣味另受釋放、</tspan><tspan x="32" dy="25">後續分解影響。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">中性形式水解：逐一釋出脂肪酸</title>
+<desc id="figure-desc">本圖採中性羧酸形式記帳：三酸甘油酯每水解一個酯位淨耗一分子水，依序經 DAG、MAG，最後為甘油與三個脂肪酸。未酸化的鹼性皂化須另用 OH⁻ 與羧酸根端點。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="490" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">中性形式水解：逐一釋出脂肪酸</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">圖採中性端點；鹼皂化另寫羧酸根</tspan></text>
+<rect x="33" y="123" width="108" height="155" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 60 151 L 60 233" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 60 157 L 85 157 L 99 150 L 116 160" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 60 190 L 85 190 L 99 183 L 116 193" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 60 223 L 85 223 L 99 216 L 116 226" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="87" y="263" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="87" dy="0">TAG</tspan></text>
+<rect x="215" y="123" width="108" height="155" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 242 151 L 242 233" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="261" y="163" font-size="17" fill="#53606d" text-anchor="start"><tspan x="261" dy="0">OH</tspan></text>
+<path d="M 242 190 L 267 190 L 281 183 L 298 193" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 242 223 L 267 223 L 281 216 L 298 226" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="269" y="263" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="269" dy="0">DAG</tspan></text>
+<rect x="397" y="123" width="108" height="155" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 424 151 L 424 233" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="443" y="163" font-size="17" fill="#53606d" text-anchor="start"><tspan x="443" dy="0">OH</tspan></text>
+<text x="443" y="196" font-size="17" fill="#53606d" text-anchor="start"><tspan x="443" dy="0">OH</tspan></text>
+<path d="M 424 223 L 449 223 L 463 216 L 480 226" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="451" y="263" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="451" dy="0">MAG</tspan></text>
+<rect x="579" y="123" width="108" height="155" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 606 151 L 606 233" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="625" y="163" font-size="17" fill="#53606d" text-anchor="start"><tspan x="625" dy="0">OH</tspan></text>
+<text x="625" y="196" font-size="17" fill="#53606d" text-anchor="start"><tspan x="625" dy="0">OH</tspan></text>
+<text x="625" y="229" font-size="17" fill="#53606d" text-anchor="start"><tspan x="625" dy="0">OH</tspan></text>
+<text x="633" y="263" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="633" dy="0">甘油</tspan></text>
+<path d="M 149 201 L 207 201" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="178" y="166" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="178" dy="0">＋ H₂O</tspan></text>
+<path d="M 178 219 L 178 319" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="100" y="331" width="156" height="64" rx="14" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="178.0" y="356.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="178.0" dy="0">1 個游離</tspan><tspan x="178.0" dy="28">脂肪酸</tspan></text>
+<path d="M 331 201 L 389 201" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="166" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">＋ H₂O</tspan></text>
+<path d="M 360 219 L 360 319" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="282" y="331" width="156" height="64" rx="14" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="360.0" y="356.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">1 個游離</tspan><tspan x="360.0" dy="28">脂肪酸</tspan></text>
+<path d="M 513 201 L 571 201" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="542" y="166" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="542" dy="0">＋ H₂O</tspan></text>
+<path d="M 542 219 L 542 319" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="464" y="331" width="156" height="64" rx="14" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<text x="542.0" y="356.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="542.0" dy="0">1 個游離</tspan><tspan x="542.0" dy="28">脂肪酸</tspan></text>
+<text x="360" y="436" font-size="21" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">中性淨式：一酯位耗一水、釋一酸</tspan></text>
+<text x="360" y="467" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">短鏈游離脂肪酸可帶來異味；此處未模擬氣味</tspan></text>
+<text x="688" y="472" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
