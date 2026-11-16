@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" role="img" aria-labelledby="t d">
+<title id="t">葡萄糖異構化為果糖（Fischer 投影）</title><desc id="d">D-葡萄糖經 1,2-烯二醇中間體轉為 D-果糖；C3–C6 構型不變。</desc>
+<rect width="760" height="420" fill="#ffffff"/>
+<g font-family="Segoe UI, Noto Sans TC, Microsoft JhengHei, sans-serif" font-size="15" fill="#1f2a2e">
+<text x="380.0" y="36.0" font-size="18" fill="#1f2a2e" text-anchor="middle" font-weight="bold">澱粉 → 葡萄糖 → 果糖：異構化只動 C1、C2</text>
+<text x="150.0" y="70.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="bold">D-葡萄糖（醛糖）</text>
+<text x="150.0" y="110.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CHO</text>
+<line x1="150.0" y1="120.0" x2="150.0" y2="142.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="116.0" y1="150.0" x2="184.0" y2="150.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="104.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="196.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="150.0" y="155.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="150.0" y1="158.0" x2="150.0" y2="180.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="116.0" y1="188.0" x2="184.0" y2="188.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="104.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">HO</text>
+<text x="196.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">H</text>
+<text x="150.0" y="193.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="150.0" y1="196.0" x2="150.0" y2="218.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="116.0" y1="226.0" x2="184.0" y2="226.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="104.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="196.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="150.0" y="231.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="150.0" y1="234.0" x2="150.0" y2="256.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="116.0" y1="264.0" x2="184.0" y2="264.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="104.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="196.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="150.0" y="269.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="150.0" y1="272.0" x2="150.0" y2="288.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="150.0" y="306.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CH₂OH</text>
+<text x="380.0" y="70.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="bold">1,2-烯二醇中間體</text>
+<text x="380.0" y="110.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CHOH</text>
+<line x1="380.0" y1="120.0" x2="380.0" y2="142.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="346.0" y1="150.0" x2="414.0" y2="150.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="334.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal"></text>
+<text x="426.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="380.0" y="155.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="380.0" y1="158.0" x2="380.0" y2="180.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="346.0" y1="188.0" x2="414.0" y2="188.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="334.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">HO</text>
+<text x="426.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">H</text>
+<text x="380.0" y="193.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="380.0" y1="196.0" x2="380.0" y2="218.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="346.0" y1="226.0" x2="414.0" y2="226.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="334.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="426.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="380.0" y="231.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="380.0" y1="234.0" x2="380.0" y2="256.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="346.0" y1="264.0" x2="414.0" y2="264.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="334.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="426.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="380.0" y="269.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="380.0" y1="272.0" x2="380.0" y2="288.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="380.0" y="306.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CH₂OH</text>
+<line x1="376.0" y1="118.0" x2="376.0" y2="134.0" stroke="#11665a" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="384.0" y1="118.0" x2="384.0" y2="134.0" stroke="#11665a" stroke-width="2.2" stroke-linecap="round"/>
+<text x="610.0" y="70.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="bold">D-果糖（酮糖）</text>
+<text x="610.0" y="110.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CH₂OH</text>
+<line x1="610.0" y1="120.0" x2="610.0" y2="142.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="576.0" y1="150.0" x2="644.0" y2="150.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="564.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal"></text>
+<text x="656.0" y="155.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">=O</text>
+<text x="610.0" y="155.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="610.0" y1="158.0" x2="610.0" y2="180.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="576.0" y1="188.0" x2="644.0" y2="188.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="564.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">HO</text>
+<text x="656.0" y="193.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">H</text>
+<text x="610.0" y="193.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="610.0" y1="196.0" x2="610.0" y2="218.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="576.0" y1="226.0" x2="644.0" y2="226.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="564.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="656.0" y="231.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="610.0" y="231.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="610.0" y1="234.0" x2="610.0" y2="256.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="576.0" y1="264.0" x2="644.0" y2="264.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="564.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="end" font-weight="normal">H</text>
+<text x="656.0" y="269.0" font-size="14" fill="#1f2a2e" text-anchor="start" font-weight="normal">OH</text>
+<text x="610.0" y="269.0" font-size="13" fill="#5b6b70" text-anchor="middle" font-weight="normal">C</text>
+<line x1="610.0" y1="272.0" x2="610.0" y2="288.0" stroke="#1f2a2e" stroke-width="2.2" stroke-linecap="round"/>
+<text x="610.0" y="306.0" font-size="15" fill="#1f2a2e" text-anchor="middle" font-weight="normal">CH₂OH</text>
+<line x1="230.0" y1="200.0" x2="300.0" y2="200.0" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.0" y1="200.0" x2="291.0" y2="204.3" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.0" y1="200.0" x2="291.0" y2="195.7" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="300.0" y1="215.0" x2="230.0" y2="215.0" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="230.0" y1="215.0" x2="239.0" y2="210.7" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="230.0" y1="215.0" x2="239.0" y2="219.3" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="460.0" y1="200.0" x2="530.0" y2="200.0" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="530.0" y1="200.0" x2="521.0" y2="204.3" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="530.0" y1="200.0" x2="521.0" y2="195.7" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="530.0" y1="215.0" x2="460.0" y2="215.0" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="460.0" y1="215.0" x2="469.0" y2="210.7" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<line x1="460.0" y1="215.0" x2="469.0" y2="219.3" stroke="#11665a" stroke-width="2" stroke-linecap="round"/>
+<text x="265.0" y="190.0" font-size="12" fill="#5b6b70" text-anchor="middle" font-weight="normal">互變</text>
+<text x="495.0" y="190.0" font-size="12" fill="#5b6b70" text-anchor="middle" font-weight="normal">互變</text>
+<text x="380.0" y="330.0" font-size="14" fill="#11665a" text-anchor="middle" font-weight="normal">工業上用葡萄糖異構酶（xylose isomerase）在中性 pH 完成同一件事，平衡約 42% 果糖，再以層析濃縮到 55%。</text>
+<text x="380.0" y="356.0" font-size="14" fill="#5b6b70" text-anchor="middle" font-weight="normal">果糖糖漿＝游離葡萄糖＋游離果糖（都有還原端）；蔗糖＝葡萄糖 α1 → β2 果糖以糖苷鍵相連的雙醣（無還原端）。</text>
+<text x="380.0" y="382.0" font-size="13" fill="#a23b2a" text-anchor="middle" font-weight="normal">畫法重點：C1 由醛變 CH₂OH、C2 由 CHOH 變 C=O；C3、C4、C5 的 OH 左右位置不變（左、右、右）。</text>
+</g></svg>

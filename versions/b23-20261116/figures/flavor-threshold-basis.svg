@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="flavor-threshold-basis-title flavor-threshold-basis-desc">
+<title id="flavor-threshold-basis-title">先對齊比較基準，再使用閾值</title>
+<desc id="flavor-threshold-basis-desc">食品濃度與閾值先核對基質、相別、單位及呈現條件；單位換算不會改變基質或閾值定義。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">先對齊比較基準，再使用閾值</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="83" width="232" height="67" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="148.0" y="122.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">食品濃度</text>
+<rect x="456" y="83" width="232" height="67" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="572.0" y="122.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">閾值資料</text>
+<path d="M148 152 V182 H280" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M572 152 V182 H440" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="280" y="159" width="160" height="45" rx="12" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="187" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600">逐項核對</text>
+<rect x="32" y="225" width="320" height="49" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="192.0" y="255.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">單位與量綱</text>
+<rect x="368" y="225" width="320" height="49" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="528.0" y="255.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">基質與相別</text>
+<rect x="32" y="286" width="320" height="49" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="192.0" y="316.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">呈現途徑與群體</text>
+<rect x="368" y="286" width="320" height="49" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="528.0" y="316.5" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">偵測／辨認定義</text>
+<text x="360" y="375" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">1 mg/L ＝ 1000 μg/L ＝ 1,000,000 ng/L</text>
+<rect x="32" y="402" width="656" height="43" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="428" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">單位換算只改表達尺度；不把水中閾值變成另一基質的閾值。</text>
+<text x="680" y="467" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">pH 差示：先各扣混濁，再相減</title>
+<desc id="figure-desc">同一原樣分至兩個 pH，每份的 520 nm 訊號先扣 700 nm，再求差並按光徑、稀釋與 C3G 常數換算。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">pH 差示：先各扣混濁，再相減</tspan></text>
+<rect x="249" y="85" width="222" height="55" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="119.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">同一原樣</tspan></text>
+<path d="M 360 152 L 360 173 L 184 173 L 184 194" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 360 173 L 536 173 L 536 194" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="45" y="207" width="278" height="108" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="184.0" y="254.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="184.0" dy="0">pH 1.0：有色形</tspan><tspan x="184.0" dy="28">A₅₂₀ − A₇₀₀</tspan></text>
+<rect x="397" y="207" width="278" height="108" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="536.0" y="254.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="536.0" dy="0">pH 4.5：無色形</tspan><tspan x="536.0" dy="28">A₅₂₀ − A₇₀₀</tspan></text>
+<text x="184" y="344" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="184" dy="0">各自扣混濁</tspan></text>
+<text x="536" y="344" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="536" dy="0">各自扣混濁</tspan></text>
+<path d="M 184 358 L 184 380 L 292 380" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 536 358 L 536 380 L 427 380" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="304" y="354" width="110" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="359.0" y="374.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="359.0" dy="0">ΔA</tspan><tspan x="359.0" dy="28">左 − 右</tspan></text>
+<path d="M 360 420 L 360 447" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="129" y="459" width="462" height="54" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="493.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">總單體花青素：C3G 當量</tspan></text>
+<text x="379" y="440" font-size="17" fill="#1c2732" text-anchor="start"><tspan x="379" dy="0">光徑、DF、C3G 常數換算</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
