@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "mechanisms": 3,
+  "states": 9,
+  "checks": [
+    {
+      "id": "glucose-sorbitol-reduction-sorbitol-state-0",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.543
+    },
+    {
+      "id": "glucose-sorbitol-reduction-sorbitol-state-1",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.376
+    },
+    {
+      "id": "glucose-sorbitol-reduction-sorbitol-state-2",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.451
+    },
+    {
+      "id": "fructose-polyol-reduction-sorbitol-state-0",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.543
+    },
+    {
+      "id": "fructose-polyol-reduction-sorbitol-state-1",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.391
+    },
+    {
+      "id": "fructose-polyol-reduction-sorbitol-state-2",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.753
+    },
+    {
+      "id": "fructose-polyol-reduction-mannitol-state-0",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 3.543
+    },
+    {
+      "id": "fructose-polyol-reduction-mannitol-state-1",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.096
+    },
+    {
+      "id": "fructose-polyol-reduction-mannitol-state-2",
+      "atoms": 32,
+      "formula": "C6H18BO7-",
+      "charge": -1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 4.397
+    }
+  ]
+}
