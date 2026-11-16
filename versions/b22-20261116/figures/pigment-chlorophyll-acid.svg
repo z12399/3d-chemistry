@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">葉綠素：鎂與長尾分開追</title>
+<desc id="figure-desc">以二乘二狀態圖對照中央 Mg 保留或去除，以及植醇酯保留或水解，區分四種葉綠素衍生物。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="550" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">葉綠素：鎂與長尾分開追</tspan></text>
+<rect x="32" y="96" width="237" height="144" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="150" y="125" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="150" dy="0">葉綠素</tspan></text>
+<circle cx="114" cy="184" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="114" y="191" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="114" dy="0">Mg</tspan></text>
+<path d="M 145 184 L 173 165 L 199 184 L 228 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="197" y="216" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="197" dy="0">植醇酯</tspan></text>
+<rect x="451" y="96" width="237" height="144" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="569" y="125" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="569" dy="0">脫鎂葉綠素</tspan></text>
+<circle cx="533" cy="184" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="533" y="191" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">2H</tspan></text>
+<path d="M 564 184 L 592 165 L 618 184 L 647 165" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="616" y="216" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="616" dy="0">植醇酯</tspan></text>
+<rect x="32" y="344" width="237" height="144" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="150" y="373" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="150" dy="0">葉綠酸</tspan></text>
+<circle cx="114" cy="432" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="114" y="439" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="114" dy="0">Mg</tspan></text>
+<text x="196" y="437" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="196" dy="0">已脫植醇</tspan></text>
+<rect x="451" y="344" width="237" height="144" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="569" y="373" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="569" dy="0">脫鎂葉綠酸</tspan></text>
+<circle cx="533" cy="432" r="30" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="533" y="439" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">2H</tspan></text>
+<text x="615" y="437" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="615" dy="0">已脫植醇</tspan></text>
+<path d="M 283 170 L 437 170" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="360" y="148" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="360" dy="0">酸：Mg → 2H</tspan></text>
+<path d="M 150 254 L 150 330" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="170" y="282" font-size="17" fill="#1c2732" text-anchor="start"><tspan x="170" dy="0">葉綠素酶</tspan><tspan x="170" dy="25">水解植醇酯</tspan></text>
+<path d="M 569 254 L 569 330" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="549" y="282" font-size="17" fill="#1c2732" text-anchor="end"><tspan x="549" dy="0">水解</tspan><tspan x="549" dy="25">植醇酯</tspan></text>
+<path d="M 283 417 L 437 417" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="360" y="395" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="360" dy="0">再去鎂</tspan></text>
+<text x="32" y="519" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">分別追蹤兩位置；不指定唯一先後路徑。</tspan></text>
+<text x="688" y="532" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

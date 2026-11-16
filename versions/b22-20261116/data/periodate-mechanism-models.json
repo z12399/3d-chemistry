@@ -1,0 +1,1787 @@
+{
+  "schemaVersion": 1,
+  "mechanisms": [
+    {
+      "reactionId": "periodate-cleavage",
+      "variantId": "cm-cyclic-cleavage",
+      "variantLabel": "乙二醇＋HIO₄：所選 CM 五員環支路",
+      "title": "高碘酸裂解鄰二醇：C–C 斷鍵與碘 +7→+5",
+      "kind": "atom-mapped teaching mechanism",
+      "isTrajectory": false,
+      "overallEquation": "HOCH₂CH₂OH + HIO₄ → 2 HCHO + HIO₃ + H₂O",
+      "equationType": "所選中性 HIO₄ 物種的配平總式，非所有水相高碘酸鹽物種的通式",
+      "conditions": "依 2023 年乙二醇／中性 HIO₄ 計算研究選定 CM 路徑；未指定普遍溶液 pH、優勢碘物種或反應速度。",
+      "states": [
+        {
+          "id": "periodate-cleavage-cm-cyclic-cleavage-state-0",
+          "name": "乙二醇與所選中性 HIO₄",
+          "formula": "C2H7IO6",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.945479,
+                -0.515119,
+                -0.290259
+              ]
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.536778,
+                -0.510822,
+                0.290123
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.847823,
+                0.658405,
+                -0.149595
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.620311,
+                0.666578,
+                0.145287
+              ]
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.911724,
+                -0.495306,
+                -1.383875
+              ]
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.505581,
+                -1.391172,
+                0.048357
+              ]
+            },
+            {
+              "id": "HC2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.565282,
+                -0.48502,
+                1.383875
+              ]
+            },
+            {
+              "id": "HC2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.974187,
+                -1.390589,
+                -0.033533
+              ]
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.476288,
+                1.391172,
+                0.007445
+              ]
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.508781,
+                0.644031,
+                -0.251922
+              ]
+            },
+            {
+              "id": "Ip",
+              "element": "I",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.469551,
+                0.043301,
+                -0.461337
+              ]
+            },
+            {
+              "id": "Op1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.508781,
+                1.082532,
+                0.577894
+              ]
+            },
+            {
+              "id": "Op2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.508781,
+                -0.995929,
+                -1.500567
+              ]
+            },
+            {
+              "id": "Op3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.430321,
+                1.082532,
+                -1.500567
+              ]
+            },
+            {
+              "id": "Oph",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.343718,
+                -1.082532,
+                0.664496
+              ]
+            },
+            {
+              "id": "Hp",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.152177,
+                -0.629544,
+                1.500567
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2a",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2b",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op1",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Op2",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Op3",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Oph",
+              "order": 1
+            },
+            {
+              "a": "Oph",
+              "b": "Hp",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "Reactants",
+            "literaturePath": "CM",
+            "lewisRepresentation": "expanded-valence-iodine",
+            "identityNormalization": "RDKit CLEANUP converts expanded I=O Lewis bonds to a charge-separated normalized graph where needed. metadata.inchi/smiles refer to a separate normalized copy; atoms/bonds retain the original all-formal-charge-zero display graph. expandedLewisInchi records the unnormalized representation; these InChI strings need not be literally identical.",
+            "smiles": "OCCO.[O-][I+3]([O-])([O-])O",
+            "inchi": "InChI=1S/C2H6O2.HIO4/c3-1-2-4;2-1(3,4)5/h3-4H,1-2H2;2H",
+            "expandedLewisSmiles": "[H]OC([H])([H])C([H])([H])O[H].[H]OI(=O)(=O)=O",
+            "expandedLewisInchi": "InChI=1S/C2H6O2.HIO4/c3-1-2-4;2-1(3,4)5/h3-4H,1-2H2;(H,2,3,4,5)",
+            "oxidationStates": {
+              "Ip": 7
+            },
+            "iodineCoordination": {
+              "Ip": {
+                "coordinationNumber": 4,
+                "formalBondOrderSum": 7,
+                "formalCharge": 0
+              }
+            },
+            "geometry": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+            "methods": [
+              "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+              "initial ethylene-glycol coordinates reused from independently verified asset; ring C-O 1.43 A, C-C 1.53 A, C-H 1.09 A are assigned template lengths"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "minimumInterfragmentDistanceAngstrom": 3.404503,
+            "sources": [
+              {
+                "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+              },
+              {
+                "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+                "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+              },
+              {
+                "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+                "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+              },
+              {
+                "title": "PubChem ethylene glycol, CID 174",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem metaperiodic acid HIO4, CID 65185",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+              },
+              {
+                "title": "PubChem iodic acid HIO3, CID 24345",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+              }
+            ]
+          }
+        },
+        {
+          "id": "periodate-cleavage-cm-cyclic-cleavage-state-1",
+          "name": "IC1_B：第一個羥基與碘成鍵，配位數 5",
+          "formula": "C2H7IO6",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.999853,
+                -0.806889,
+                0.479676
+              ]
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.408554,
+                -0.802591,
+                1.060058
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                3.097509,
+                0.366636,
+                0.62034
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.325021,
+                0.374808,
+                0.915222
+              ]
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.033608,
+                -0.787076,
+                -0.61394
+              ]
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.439751,
+                -1.682942,
+                0.818292
+              ]
+            },
+            {
+              "id": "HC2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.38005,
+                -0.776789,
+                2.15381
+              ]
+            },
+            {
+              "id": "HC2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.971145,
+                -1.682359,
+                0.736402
+              ]
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.469044,
+                1.099403,
+                0.77738
+              ]
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.939754,
+                -0.447448,
+                -2.15381
+              ]
+            },
+            {
+              "id": "Ip",
+              "element": "I",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.454695,
+                0.329643,
+                0.119563
+              ]
+            },
+            {
+              "id": "Op1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.659036,
+                0.339278,
+                -1.660699
+              ]
+            },
+            {
+              "id": "Op2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.858027,
+                1.883605,
+                0.933521
+              ]
+            },
+            {
+              "id": "Op3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.097509,
+                0.287953,
+                -0.614891
+              ]
+            },
+            {
+              "id": "Oph",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.81341,
+                -1.36345,
+                1.018039
+              ]
+            },
+            {
+              "id": "Hp",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.450343,
+                -1.883605,
+                0.503592
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2a",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2b",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op1",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op2",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Op3",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Oph",
+              "order": 1
+            },
+            {
+              "a": "Oph",
+              "b": "Hp",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "Ip",
+              "order": 1
+            },
+            {
+              "a": "Op1",
+              "b": "HO1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IC1_B",
+            "literaturePath": "CM",
+            "lewisRepresentation": "expanded-valence-iodine",
+            "identityNormalization": "RDKit CLEANUP converts expanded I=O Lewis bonds to a charge-separated normalized graph where needed. metadata.inchi/smiles refer to a separate normalized copy; atoms/bonds retain the original all-formal-charge-zero display graph. expandedLewisInchi records the unnormalized representation; these InChI strings need not be literally identical.",
+            "smiles": "[O-][I+2]([O-])(O)(O)OCCO",
+            "inchi": "InChI=1S/C2H7IO6/c4-1-2-9-3(5,6,7)8/h4-6H,1-2H2",
+            "expandedLewisSmiles": "[H]OC([H])([H])C([H])([H])OI(=O)(=O)(O[H])O[H]",
+            "expandedLewisInchi": "InChI=1S/C2H7IO6/c4-1-2-9-3(5,6,7)8/h4H,1-2H2,(H2,5,6,7,8)",
+            "oxidationStates": {
+              "Ip": 7
+            },
+            "iodineCoordination": {
+              "Ip": {
+                "coordinationNumber": 5,
+                "formalBondOrderSum": 7,
+                "formalCharge": 0
+              }
+            },
+            "geometry": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+            "methods": [
+              "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+              "initial ethylene-glycol coordinates reused from independently verified asset; ring C-O 1.43 A, C-C 1.53 A, C-H 1.09 A are assigned template lengths"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "minimumInterfragmentDistanceAngstrom": null,
+            "sources": [
+              {
+                "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+              },
+              {
+                "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+                "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+              },
+              {
+                "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+                "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+              },
+              {
+                "title": "PubChem ethylene glycol, CID 174",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem metaperiodic acid HIO4, CID 65185",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+              },
+              {
+                "title": "PubChem iodic acid HIO3, CID 24345",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+              }
+            ]
+          }
+        },
+        {
+          "id": "periodate-cleavage-cm-cyclic-cleavage-state-2",
+          "name": "IC2_C：六配位碘的五員環酯",
+          "formula": "C2H7IO6",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.023735,
+                0.941862,
+                0.24088
+              ]
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                0.941862,
+                2.023735,
+                0.24088
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                1.544541,
+                0.24088
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.544541,
+                -0.405459,
+                0.24088
+              ]
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.687218,
+                1.091514,
+                -0.61088
+              ]
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.687218,
+                1.091514,
+                1.092639
+              ]
+            },
+            {
+              "id": "HC2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.091514,
+                2.687218,
+                1.092639
+              ]
+            },
+            {
+              "id": "HC2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.091514,
+                2.687218,
+                -0.61088
+              ]
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.86121,
+                -2.687218,
+                1.030264
+              ]
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.687218,
+                -0.405459,
+                -0.670622
+              ]
+            },
+            {
+              "id": "Ip",
+              "element": "I",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                -0.405459,
+                0.24088
+              ]
+            },
+            {
+              "id": "Op1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.355459,
+                -0.405459,
+                0.24088
+              ]
+            },
+            {
+              "id": "Op2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                -2.355459,
+                0.24088
+              ]
+            },
+            {
+              "id": "Op3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                -0.405459,
+                2.04088
+              ]
+            },
+            {
+              "id": "Oph",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                -0.405459,
+                -1.70912
+              ]
+            },
+            {
+              "id": "Hp",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.405459,
+                -1.316961,
+                -2.04088
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C1",
+              "b": "C2",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2a",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2b",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op1",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op2",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op3",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Oph",
+              "order": 1
+            },
+            {
+              "a": "Oph",
+              "b": "Hp",
+              "order": 1
+            },
+            {
+              "a": "O1",
+              "b": "Ip",
+              "order": 1
+            },
+            {
+              "a": "Op1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "O2",
+              "b": "Ip",
+              "order": 1
+            },
+            {
+              "a": "Op2",
+              "b": "HO2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "IC2_C",
+            "literaturePath": "CM",
+            "lewisRepresentation": "expanded-valence-iodine",
+            "identityNormalization": "RDKit CLEANUP converts expanded I=O Lewis bonds to a charge-separated normalized graph where needed. metadata.inchi/smiles refer to a separate normalized copy; atoms/bonds retain the original all-formal-charge-zero display graph. expandedLewisInchi records the unnormalized representation; these InChI strings need not be literally identical.",
+            "smiles": "[O-][I+]1(O)(O)(O)OCCO1",
+            "inchi": "InChI=1S/C2H7IO6/c4-3(5,6,7)8-1-2-9-3/h4-6H,1-2H2",
+            "expandedLewisSmiles": "[H]OI1(=O)(O[H])(O[H])OC([H])([H])C([H])([H])O1",
+            "expandedLewisInchi": "InChI=1S/C2H7IO6/c4-3(5,6,7)8-1-2-9-3/h1-2H2,(H3,4,5,6,7)",
+            "oxidationStates": {
+              "Ip": 7
+            },
+            "iodineCoordination": {
+              "Ip": {
+                "coordinationNumber": 6,
+                "formalBondOrderSum": 7,
+                "formalCharge": 0
+              }
+            },
+            "geometry": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+            "methods": [
+              "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+              "initial ethylene-glycol coordinates reused from independently verified asset; ring C-O 1.43 A, C-C 1.53 A, C-H 1.09 A are assigned template lengths"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "minimumInterfragmentDistanceAngstrom": null,
+            "sources": [
+              {
+                "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+              },
+              {
+                "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+                "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+              },
+              {
+                "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+                "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+              },
+              {
+                "title": "PubChem ethylene glycol, CID 174",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem metaperiodic acid HIO4, CID 65185",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+              },
+              {
+                "title": "PubChem iodic acid HIO3, CID 24345",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+              }
+            ]
+          }
+        },
+        {
+          "id": "periodate-cleavage-cm-cyclic-cleavage-state-3",
+          "name": "兩份甲醛與 H₃IO₄：碘氧化態已降為 +5",
+          "formula": "C2H7IO6",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -4.992418,
+                -0.0,
+                -0.0
+              ]
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.180135,
+                -0.0,
+                -0.0
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.044497,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.767786,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.580069,
+                0.930383,
+                -0.052876
+              ]
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -5.580069,
+                -0.930383,
+                0.052876
+              ]
+            },
+            {
+              "id": "HC2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.767786,
+                0.930383,
+                -0.052876
+              ]
+            },
+            {
+              "id": "HC2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -0.767786,
+                -0.930383,
+                0.052876
+              ]
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.580069,
+                -0.816832,
+                -2.28176
+              ]
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.580069,
+                1.006172,
+                2.28176
+              ]
+            },
+            {
+              "id": "Ip",
+              "element": "I",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.580069,
+                0.09467,
+                0.0
+              ]
+            },
+            {
+              "id": "Op1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.580069,
+                0.09467,
+                1.95
+              ]
+            },
+            {
+              "id": "Op2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.580069,
+                0.09467,
+                -1.95
+              ]
+            },
+            {
+              "id": "Op3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.680069,
+                1.653516,
+                0.0
+              ]
+            },
+            {
+              "id": "Oph",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.605069,
+                -1.594079,
+                0.0
+              ]
+            },
+            {
+              "id": "Hp",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                4.044497,
+                -1.653516,
+                0.789384
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2a",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2b",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op1",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op2",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op3",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Oph",
+              "order": 1
+            },
+            {
+              "a": "Oph",
+              "b": "Hp",
+              "order": 1
+            },
+            {
+              "a": "Op1",
+              "b": "HO1",
+              "order": 1
+            },
+            {
+              "a": "Op2",
+              "b": "HO2",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "H3IO4 + 2 HCHO",
+            "literaturePath": "CM",
+            "lewisRepresentation": "expanded-valence-iodine",
+            "identityNormalization": "RDKit CLEANUP converts expanded I=O Lewis bonds to a charge-separated normalized graph where needed. metadata.inchi/smiles refer to a separate normalized copy; atoms/bonds retain the original all-formal-charge-zero display graph. expandedLewisInchi records the unnormalized representation; these InChI strings need not be literally identical.",
+            "smiles": "C=O.C=O.[O-][I+](O)(O)O",
+            "inchi": "InChI=1S/2CH2O.H3IO4/c2*1-2;2-1(3,4)5/h2*1H2;2-4H",
+            "expandedLewisSmiles": "[H]C([H])=O.[H]C([H])=O.[H]OI(=O)(O[H])O[H]",
+            "expandedLewisInchi": "InChI=1S/2CH2O.H3IO4/c2*1-2;2-1(3,4)5/h2*1H2;(H3,2,3,4,5)",
+            "oxidationStates": {
+              "Ip": 5
+            },
+            "iodineCoordination": {
+              "Ip": {
+                "coordinationNumber": 4,
+                "formalBondOrderSum": 5,
+                "formalCharge": 0
+              }
+            },
+            "geometry": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+            "methods": [
+              "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+              "initial ethylene-glycol coordinates reused from independently verified asset; ring C-O 1.43 A, C-C 1.53 A, C-H 1.09 A are assigned template lengths"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "minimumInterfragmentDistanceAngstrom": 3.141402,
+            "sources": [
+              {
+                "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+              },
+              {
+                "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+                "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+              },
+              {
+                "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+                "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+              },
+              {
+                "title": "PubChem ethylene glycol, CID 174",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem metaperiodic acid HIO4, CID 65185",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+              },
+              {
+                "title": "PubChem iodic acid HIO3, CID 24345",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+              }
+            ]
+          }
+        },
+        {
+          "id": "periodate-cleavage-cm-cyclic-cleavage-state-4",
+          "name": "兩份甲醛、HIO₃ 與生成的水",
+          "formula": "C2H7IO6",
+          "atoms": [
+            {
+              "id": "C1",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -7.662303,
+                -0.0,
+                -0.0
+              ]
+            },
+            {
+              "id": "C2",
+              "element": "C",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -2.85002,
+                -0.0,
+                -0.0
+              ]
+            },
+            {
+              "id": "O2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -1.625388,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "O1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -6.437671,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "id": "HC1a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -8.249954,
+                0.930383,
+                -0.052876
+              ]
+            },
+            {
+              "id": "HC1b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -8.249954,
+                -0.930383,
+                0.052876
+              ]
+            },
+            {
+              "id": "HC2a",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.437671,
+                0.930383,
+                -0.052876
+              ]
+            },
+            {
+              "id": "HC2b",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                -3.437671,
+                -0.930383,
+                0.052876
+              ]
+            },
+            {
+              "id": "HO2",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.374612,
+                0.4685,
+                0.0
+              ]
+            },
+            {
+              "id": "HO1",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                2.584612,
+                -0.4685,
+                0.0
+              ]
+            },
+            {
+              "id": "Ip",
+              "element": "I",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                6.6186,
+                0.058866,
+                -0.883435
+              ]
+            },
+            {
+              "id": "Op1",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                8.249954,
+                0.058866,
+                -0.122722
+              ]
+            },
+            {
+              "id": "Op2",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                1.616612,
+                -0.4685,
+                0.0
+              ]
+            },
+            {
+              "id": "Op3",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.802923,
+                1.47166,
+                -0.122722
+              ]
+            },
+            {
+              "id": "Oph",
+              "element": "O",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.73495,
+                -1.47166,
+                -0.059329
+              ]
+            },
+            {
+              "id": "Hp",
+              "element": "H",
+              "formalCharge": 0,
+              "charge": 0,
+              "position": [
+                5.584612,
+                -1.299921,
+                0.883435
+              ]
+            }
+          ],
+          "bonds": [
+            {
+              "a": "C2",
+              "b": "O2",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "O1",
+              "order": 2
+            },
+            {
+              "a": "C1",
+              "b": "HC1a",
+              "order": 1
+            },
+            {
+              "a": "C1",
+              "b": "HC1b",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2a",
+              "order": 1
+            },
+            {
+              "a": "C2",
+              "b": "HC2b",
+              "order": 1
+            },
+            {
+              "a": "Ip",
+              "b": "Op1",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Op3",
+              "order": 2
+            },
+            {
+              "a": "Ip",
+              "b": "Oph",
+              "order": 1
+            },
+            {
+              "a": "Oph",
+              "b": "Hp",
+              "order": 1
+            },
+            {
+              "a": "Op2",
+              "b": "HO2",
+              "order": 1
+            },
+            {
+              "a": "Op2",
+              "b": "HO1",
+              "order": 1
+            }
+          ],
+          "rotatableBonds": [],
+          "metadata": {
+            "isTrajectory": false,
+            "isOriginalLiteratureGeometry": false,
+            "literatureState": "Products",
+            "literaturePath": "CM",
+            "lewisRepresentation": "expanded-valence-iodine",
+            "identityNormalization": "RDKit CLEANUP converts expanded I=O Lewis bonds to a charge-separated normalized graph where needed. metadata.inchi/smiles refer to a separate normalized copy; atoms/bonds retain the original all-formal-charge-zero display graph. expandedLewisInchi records the unnormalized representation; these InChI strings need not be literally identical.",
+            "smiles": "C=O.C=O.O.[O-][I+2]([O-])O",
+            "inchi": "InChI=1S/2CH2O.HIO3.H2O/c2*1-2;2-1(3)4;/h2*1H2;2H;1H2",
+            "expandedLewisSmiles": "[H]C([H])=O.[H]C([H])=O.[H]OI(=O)=O.[H]O[H]",
+            "expandedLewisInchi": "InChI=1S/2CH2O.HIO3.H2O/c2*1-2;2-1(3)4;/h2*1H2;(H,2,3,4);1H2",
+            "oxidationStates": {
+              "Ip": 5
+            },
+            "iodineCoordination": {
+              "Ip": {
+                "coordinationNumber": 3,
+                "formalBondOrderSum": 5,
+                "formalCharge": 0
+              }
+            },
+            "geometry": "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+            "methods": [
+              "schematic coordination templates and source ethylene-glycol geometry; I=O 1.80 A, I-O 1.95 A, O-H 0.97 A; assigned educational lengths, not measured or imported DFT values; no iodine MMFF/UFF optimization",
+              "initial ethylene-glycol coordinates reused from independently verified asset; ring C-O 1.43 A, C-C 1.53 A, C-H 1.09 A are assigned template lengths"
+            ],
+            "rdkitVersion": "2026.03.6",
+            "minimumInterfragmentDistanceAngstrom": 3.036362,
+            "sources": [
+              {
+                "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+                "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+              },
+              {
+                "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+                "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+              },
+              {
+                "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+                "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+              },
+              {
+                "title": "PubChem ethylene glycol, CID 174",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+              },
+              {
+                "title": "PubChem formaldehyde, CID 712",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+              },
+              {
+                "title": "PubChem metaperiodic acid HIO4, CID 65185",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+              },
+              {
+                "title": "PubChem iodic acid HIO3, CID 24345",
+                "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+              }
+            ]
+          }
+        }
+      ],
+      "steps": [
+        {
+          "title": "第一個羥基加成：形成 IC1_B",
+          "instruction": "由 O1 向 Ip 提供電子，並查看 HO1 轉移與原 I=O 鍵階變化。",
+          "source": "O1",
+          "target": "Ip",
+          "arrows": [
+            [
+              "O1",
+              "Ip"
+            ],
+            [
+              "Ip-Op1",
+              "Op1"
+            ],
+            [
+              "Op1",
+              "HO1"
+            ],
+            [
+              "O1-HO1",
+              "O1"
+            ]
+          ],
+          "equation": "乙二醇 + HIO₄ ⇌ 單點配位中間體 IC1_B（無淨失水）",
+          "explanation": "O1–Ip 成鍵，原 Ip=Op1 改為單鍵，HO1 從 O1 到 Op1。Ip 配位數 4→5，展開 Lewis 形式鍵階和仍為 7；所有形式電荷仍 0。本組合併 O–I 加成及質子移轉，尚未形成環，也沒有先丟掉任何水氧。",
+          "isComposite": true
+        },
+        {
+          "title": "第二個羥基閉環：形成 IC2_C",
+          "instruction": "由相鄰 O2 向 Ip 提供電子，形成 Ip–O1–C1–C2–O2 五員環。",
+          "source": "O2",
+          "target": "Ip",
+          "arrows": [
+            [
+              "O2",
+              "Ip"
+            ],
+            [
+              "Ip-Op2",
+              "Op2"
+            ],
+            [
+              "Op2",
+              "HO2"
+            ],
+            [
+              "O2-HO2",
+              "O2"
+            ]
+          ],
+          "equation": "IC1_B ⇌ 六配位環狀高碘酸酯 IC2_C（無淨失水）",
+          "explanation": "O2–Ip 成鍵，Ip=Op2 變單鍵，HO2 到 Op2。五員環已閉合，Ip 周圍有六個氧，氧化態仍 +7；不是單價碘。鄰二醇的幾何能否容許這樣的成環會影響反應，不能將環內所有單鍵當成獨立自由旋轉。",
+          "isComposite": true
+        },
+        {
+          "title": "環裂解，同時形成兩個羰基",
+          "instruction": "選 Ip–O1 鍵，把電子送到 O1–C1 鍵；另兩個箭頭一起完成裂解。",
+          "source": "Ip-O1",
+          "target": "O1-C1",
+          "arrows": [
+            [
+              "Ip-O1",
+              "O1-C1"
+            ],
+            [
+              "C1-C2",
+              "C2-O2"
+            ],
+            [
+              "Ip-O2",
+              "Ip"
+            ]
+          ],
+          "equation": "IC2_C → 2 HCHO + H₃IO₄",
+          "explanation": "C1–C2 與兩個 I–O醇 鍵斷開；O1=C1、O2=C2 同時形成，所以兩個原醇氧各自留在一個甲醛。最後一支電子箭頭落到 Ip，表示還原後的新孤對記帳。Ip 氧化態 +7→+5，配位數 6→4；形式電荷仍為 0，不能將兩個量混為一談。",
+          "isComposite": true
+        },
+        {
+          "title": "含碘產物失水：形成 HIO₃",
+          "instruction": "由 Op1 向 Ip 提供電子，讓 Op2 帶 HO1/HO2 成水離去。",
+          "source": "Op1",
+          "target": "Ip",
+          "arrows": [
+            [
+              "Op1",
+              "Ip"
+            ],
+            [
+              "Ip-Op2",
+              "Op2"
+            ],
+            [
+              "Op2",
+              "HO1"
+            ],
+            [
+              "Op1-HO1",
+              "Op1"
+            ]
+          ],
+          "equation": "H₃IO₄ → HIO₃ + H₂O",
+          "explanation": "Op1 重建展開 Lewis 雙鍵，Ip–Op2 斷開，HO1 移到已帶 HO2 的 Op2，得到一份水。HIO₃ 保留 Ip/Op1/Op3/Oph/Hp，Ip 氧化態仍 +5。這是所選同類氧／氫映射，未聲稱重現原文的逐原子同位素軌跡。",
+          "isComposite": true
+        }
+      ],
+      "sources": [
+        {
+          "title": "2023 original computational study: ethylene glycol/HIO4, selected cyclic-mechanism branch",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2023/cp/d2cp04764k"
+        },
+        {
+          "title": "Author university-hosted original article: Figure 3 cyclic mechanism and iodine-containing products",
+          "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+        },
+        {
+          "title": "2017 original aqueous periodate-speciation study: solution species cannot be equated with one neutral HIO4 model",
+          "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+        },
+        {
+          "title": "PubChem ethylene glycol, CID 174",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+        },
+        {
+          "title": "PubChem formaldehyde, CID 712",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+        },
+        {
+          "title": "PubChem metaperiodic acid HIO4, CID 65185",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/65185"
+        },
+        {
+          "title": "PubChem iodic acid HIO3, CID 24345",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+        }
+      ],
+      "limits": "此處選 2023 年乙二醇與中性 HIO₄ 的計算研究中 CM 支路；不是把所有高碘酸鹽溶液視為 HIO₄，也不宣稱此支路最快或唯一。水相的質子化、水合、正高碘酸物種、鹽與離子強度分布未展開。模型只有一個鄰二醇，不能據此推得整顆糖的所有裂解產物。I=O 採展開價數 Lewis 教學記帳，不表示真實局域雙鍵、d 軌域參與或所有 I–O 鍵的實際鍵級。每個畫面中的 Ip 形式電荷皆為 0；氧化態是另一個量，由 +7 在裂解步降為 +5，配位數依序 4/5/6/4/3。RDKit 的電荷分離正規化只用於獨立身份檢查，不覆寫畫面原始鍵／形式電荷。IC1_B 與 IC2_C 的形成合併 O–I 加成及質子移轉；最後選 Op2 攜 HO1/HO2 成水，是明示原子記帳，不聲稱逐同位素重現文獻座標。含碘片段使用指定配位模板與示意距離；環的幾何也為局部手工構造。IC1_B 僅對應連接關係，未重現文獻的七員氫鍵準環幾何。未使用 MMFF/UFF 估計高價碘能量，沒有原論文 DFT 座標、過渡態或反應軌跡。座標補間不預測時間、自由能、速率、產率；甲醛等產物的水合與後續反應亦未展開。",
+      "atomLegend": "C1–O1 與 C2–O2 是兩個醇位點，兩個氧最後都進甲醛。Ip 是碘；Op1/Op2/Op3 是起始三個 oxo 氧，Oph/Hp 是起始酸羥基。HO1/HO2 最後都在水氧 Op2 上。碘旁顯示的形式電荷為 0，另列氧化態與配位數。",
+      "atomMapping": {
+        "diolCarbons": [
+          "C1",
+          "C2"
+        ],
+        "retainedDiolOxygens": [
+          "O1",
+          "O2"
+        ],
+        "iodine": "Ip",
+        "initialOxoOxygens": [
+          "Op1",
+          "Op2",
+          "Op3"
+        ],
+        "initialAcidHydroxylOxygen": "Oph",
+        "initialAcidHydrogen": "Hp",
+        "productWaterOxygen": "Op2",
+        "productWaterHydrogens": [
+          "HO1",
+          "HO2"
+        ],
+        "productIodicAcidAtoms": [
+          "Ip",
+          "Op1",
+          "Op3",
+          "Oph",
+          "Hp"
+        ],
+        "sourceAssetAtomIds": {
+          "C1": "C1",
+          "C2": "C2",
+          "O1": "O2",
+          "O2": "O1",
+          "HC1a": "HC1a",
+          "HC1b": "HC1b",
+          "HC2a": "HC2a",
+          "HC2b": "HC2b",
+          "HO1": "HO2",
+          "HO2": "HO1"
+        }
+      },
+      "selectedEndpointModels": [
+        "formaldehyde",
+        "formaldehyde"
+      ],
+      "selectedEndpointReferences": [
+        {
+          "id": "iodic-acid",
+          "cid": 24345,
+          "formula": "HIO3",
+          "smiles": "OI(=O)=O",
+          "inchi": "InChI=1S/HIO3/c2-1(3)4/h(H,2,3,4)",
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/24345"
+        }
+      ]
+    }
+  ]
+}

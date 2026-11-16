@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乳糖水解後：分開追兩種單糖</title>
+<desc id="figure-desc">乳糖由β-半乳糖苷酶水解成葡萄糖與半乳糖，糖碳仍保留；兩種糖之後的利用要分別依菌株與量測追蹤。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乳糖水解後：分開追兩種單糖</tspan></text>
+<rect x="205" y="100" width="310" height="65" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="139.5" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">乳糖＋H₂O</tspan></text>
+<path d="M 310 169 L 190 240" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 410 169 L 530 240" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="204" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">β-半乳糖苷酶</tspan></text>
+<rect x="65" y="250" width="250" height="75" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190.0" y="280.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="190.0" dy="0">葡萄糖</tspan><tspan x="190.0" dy="28">6 個碳</tspan></text>
+<rect x="405" y="250" width="250" height="75" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="530.0" y="280.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="530.0" dy="0">半乳糖</tspan><tspan x="530.0" dy="28">6 個碳</tspan></text>
+<path d="M 190 329 L 190 378" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 530 329 L 530 378" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="65" y="390" width="250" height="60" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="190.0" y="427.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="190.0" dy="0">分別追蹤殘糖與利用</tspan></text>
+<rect x="405" y="390" width="250" height="60" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="530.0" y="427.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="530.0" dy="0">分別追蹤殘糖與利用</tspan></text>
+<text x="32" y="477" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">水解沒有移除糖碳；後續是否利用取決於菌株。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,4603 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-24",
+  "coverageNote": "代表性教學路徑；不是所有糖化學的完整反應資料庫。配平淨式、官能基簡式、異構化和網路示意各有明示。步進呈現知識階段及部分穩定結構，不是量子化學、真實時間動力學或所有中間體的完整3D反應模擬。碳水化合物酸、磷酸與中間體的質子化態須依式及模型註記辨認。來源支持反應類別與限制；文案、題目與組織為原創教學表述。",
+  "reactions": [
+    {
+      "id": "glucose-mutarotation",
+      "title": "葡萄糖變旋：α ⇌ 開鏈 ⇌ β",
+      "family": "環鏈平衡",
+      "overallEquation": "α-D-葡萄糖 ⇌ 開鏈D-葡萄糖 ⇌ β-D-葡萄糖；三者皆為 C6H12O6",
+      "equationType": "配平異構化淨式",
+      "conditions": "水溶液；酸或鹼可催化。此卡選擇酸催化教學路線，不推算真實反應時間。",
+      "reactiveSite": "C1異頭碳、O1羥基／羰基氧、O5環氧。",
+      "steps": [
+        {
+          "title": "活化環氧",
+          "equation": "α-Glc + H3O+ ⇌ O5質子化Glc+ + H2O",
+          "explanation": "O5先接受質子；它暫時具有三個鍵與正電。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。",
+          "highlight": [
+            "C1",
+            "O5"
+          ]
+        },
+        {
+          "title": "打開半縮醛",
+          "equation": "O5質子化環形Glc+ ⇌ O1質子化開鏈Glc+",
+          "explanation": "O1形成C=O的同時，C1–O5鍵電子移向O5，避免C1五價。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        },
+        {
+          "title": "形成平面醛",
+          "equation": "O1質子化開鏈Glc+ + H2O ⇌ 開鏈Glc + H3O+",
+          "explanation": "C1成為平面羰基碳，失去原本的異頭立體配置。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1",
+            "O1"
+          ]
+        },
+        {
+          "title": "重新關環",
+          "equation": "開鏈Glc + H3O+ ⇌ O1質子化開鏈Glc+ + H2O；隨後 ⇌ O5質子化β-Glc+",
+          "explanation": "此教學選擇通往β的接近方向；O5成鍵時，羰基π電子同步移向O1。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "恢復中性糖",
+          "equation": "O5質子化β-Glc+ + H2O ⇌ β-Glc + H3O+",
+          "explanation": "催化劑再生。也可以回到α；α/β互換不是只旋轉一條C–O鍵。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "糖漿或葡萄糖水溶液的旋光度會隨環鏈平衡改變。",
+      "limits": "室溫水中常用α:β約36:64作教學近似，另有微量其他型態。成環無淨失水；椅式翻轉不等於變旋。機構為定性示意。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.5：Cyclic Structures of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        }
+      ],
+      "relatedIds": [
+        "glucose-hemiacetal",
+        "methyl-glucoside-formation"
+      ],
+      "viewModel": "glucose-alpha",
+      "knowledgeCheck": {
+        "question": "把α變成β，關鍵需要哪個變化？",
+        "options": [
+          "只轉C1–OH單鍵",
+          "C1先開環成平面再成環",
+          "把攝影機轉到背面"
+        ],
+        "answerIndex": 1,
+        "explanation": "異頭配置改變需要經過可重新建立C1立體中心的路徑。"
+      }
+    },
+    {
+      "id": "glucose-hemiacetal",
+      "title": "醛糖形成環狀半縮醛",
+      "family": "環鏈平衡",
+      "overallEquation": "開鏈D-葡萄糖(C6H12O6) ⇌ α/β-D-吡喃葡萄糖(C6H12O6)",
+      "equationType": "配平異構化淨式",
+      "conditions": "水中可逆；酸鹼協助質子轉移。六員環為此卡焦點。",
+      "reactiveSite": "C5–OH的O5與C1醛基。",
+      "steps": [
+        {
+          "title": "找到醛與分子內醇",
+          "equation": "R–CHO + R′–OH ⇌ R–CH(OH)–OR′（官能基簡式）",
+          "explanation": "同一條糖鏈帶有醛和羥基，兩端反應可形成環。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        },
+        {
+          "title": "建立C1–O5鍵",
+          "equation": "開鏈Glc ⇌ 環狀半縮醛Glc（省略質子轉移載體）",
+          "explanation": "形成新σ鍵時C=O的π鍵轉為C–O；羰基氧成為異頭OH。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "辨認半縮醛",
+          "equation": "C1同時連接–OH與–O–C5",
+          "explanation": "C1仍保留OH，所以環可以再打開；此代表模型選β。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        }
+      ],
+      "foodContext": "理解葡萄糖水溶液中環形佔多數，也能理解還原糖仍可提供少量開鏈醛。",
+      "limits": "第二步是合併的官能基轉換，非完整電子箭頭機構；沒有淨生成水。α/β的比例不能只靠單一3D構形判斷。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.5：Cyclic Structures of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        }
+      ],
+      "relatedIds": [
+        "glucose-mutarotation",
+        "glucose-tollens-test"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "分子內半縮醛成環的淨水量為何？",
+        "options": [
+          "生成一分子水",
+          "消耗兩分子水",
+          "不淨生成或消耗水"
+        ],
+        "answerIndex": 2,
+        "explanation": "這是醇對羰基的加成，元素組成保持C6H12O6。"
+      }
+    },
+    {
+      "id": "fructose-hemiketal",
+      "title": "酮糖形成環狀半縮酮",
+      "family": "環鏈平衡",
+      "overallEquation": "開鏈D-果糖(C6H12O6) ⇌ 環狀D-果糖(C6H12O6)",
+      "equationType": "配平異構化淨式",
+      "conditions": "水溶液中環鏈互變可逆；C5／C6 羥基與 C2 羰基形成不同環，平衡比例依溫度、溶劑等條件而變。本機構採所選酸催化質子接力作教學記帳。",
+      "reactiveSite": "C2酮基；C5或C6的羥基。",
+      "steps": [
+        {
+          "title": "異頭位在C2",
+          "equation": "C1–C2(=O)–C3（果糖羰基片段）",
+          "explanation": "果糖的反應羰基位於C2，不是葡萄糖的C1。",
+          "viewModel": "fructose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C2"
+          ]
+        },
+        {
+          "title": "選擇成環羥基",
+          "equation": "C5–OH加成C2 → 五員半縮酮環；C6–OH加成C2 → 六員半縮酮環（路徑示意）",
+          "explanation": "O5 關成五員呋喃環，O6 關成六員吡喃環；兩種環大小各有 α／β 異頭端點，都可經開鏈形式互變。",
+          "modelNote": "本概覽只顯示開鏈代表結構；機構選單可切換四條成環與四條開環的所選教學分支。"
+        },
+        {
+          "title": "建立異頭配置",
+          "equation": "平面C2 → α/β果糖半縮酮（異構化示意）",
+          "explanation": "C2成為新異頭中心；半縮酮仍可開環。",
+          "modelNote": "此概覽的 3D 仍選 β-D-呋喃果糖；機構選單另有其他三個環形端點及四條反向開環分支。模型並不預測平衡比例。",
+          "viewModel": "fructose-furanose",
+          "highlight": [
+            "C2",
+            "O2",
+            "O5"
+          ]
+        }
+      ],
+      "foodContext": "果糖是水果、蜂蜜及轉化糖中的常見單糖。",
+      "limits": "開鏈與四個環形端點有具名原子及立體身分檢核；概覽仍只顯示 β-D-呋喃果糖代表。四條成環及四條逆向開環機構為所選酸催化離散教學支路；可逆性有一般機構依據，逐個質子接力微步不是 NMR 實測軌跡。文獻中五形態的比例僅適用於 20 °C、0.18 M、D₂O 平衡試樣，不能套用葡萄糖 36:64 比例或外推到食品及任意水溶液。未計算各分支速率、能障或比例。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.5：Cyclic Structures of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-5-cyclic-structures-of-monosaccharides-anomers"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        },
+        {
+          "title": "Barclay 等，果糖五種溶液形式的 1H NMR 測量（PMID 22129837）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22129837/"
+        },
+        {
+          "title": "ChEBI：α-D-呋喃果糖結構身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:37720"
+        },
+        {
+          "title": "ChEBI：β-D-呋喃果糖結構身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:28645"
+        },
+        {
+          "title": "ChEBI：α-D-吡喃果糖結構身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:37719"
+        },
+        {
+          "title": "ChEBI：β-D-吡喃果糖結構身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:41005"
+        }
+      ],
+      "relatedIds": [
+        "glucose-hemiacetal",
+        "fructose-polyol-reduction",
+        "hexose-hmf-dehydration"
+      ],
+      "viewModel": "fructose-open",
+      "knowledgeCheck": {
+        "question": "果糖的異頭碳是哪一個？",
+        "options": [
+          "C1",
+          "C2",
+          "C6"
+        ],
+        "answerIndex": 1,
+        "explanation": "開鏈時的羰基碳C2在成環後成為異頭碳。"
+      }
+    },
+    {
+      "id": "methyl-glucoside-formation",
+      "title": "糖苷形成：把異頭OH換成OR",
+      "family": "糖苷與水解",
+      "overallEquation": "C6H12O6 + CH3OH ⇌ C7H14O6 + H2O",
+      "equationType": "配平分子式；糖苷產物含α/β可能",
+      "conditions": "酸催化、醇參與的可逆糖苷化；過量醇或減少水有利於糖苷形成方向。本機構以甲醇與α產物分支示意。",
+      "reactiveSite": "C1異頭OH；形成C1–OCH3。",
+      "steps": [
+        {
+          "title": "活化異頭OH",
+          "equation": "糖–C1–OH + H+ ⇌ 糖–C1–OH2+（官能基簡式）",
+          "explanation": "羥基接受質子後較容易以水離去。",
+          "modelNote": "本概覽只顯示代表結構；可點上方機構操作，查看逐原子中間體與電子流。"
+        },
+        {
+          "title": "醇取代與質子轉移",
+          "equation": "半縮醛 + CH3OH + H+ ⇌ 質子化糖苷+ + H2O（酸催化機構合併簡式）",
+          "explanation": "甲醇氧在異頭碳成鍵；實際立體選擇性受路徑與條件影響。",
+          "modelNote": "本概覽只顯示代表結構；可點上方機構操作，查看逐原子中間體與電子流。"
+        },
+        {
+          "title": "得到縮醛",
+          "equation": "Glc–OH + CH3OH ⇌ Glc–OCH3 + H2O",
+          "explanation": "C1有兩個OR，不能沿原半縮醛平衡直接開環。此模型只展示α產物。",
+          "viewModel": "methyl-alpha-glucoside",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "糖苷鍵連接糖與其他醇，也構成雙糖與多糖的基本連接。",
+      "limits": "甲基糖苷作官能基教學例，總式不表示只產α。概覽用代表結構；機構檢視另以原子守恆顯示質子化、離水、甲醇加成及再生酸，未計算選擇性或自由能。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        }
+      ],
+      "relatedIds": [
+        "methyl-glucoside-hydrolysis",
+        "sucrose-inversion",
+        "koenigs-knorr-neighboring-group-participation"
+      ],
+      "viewModel": "glucose-alpha",
+      "knowledgeCheck": {
+        "question": "異頭OH成為OCH3後，何者正確？",
+        "options": [
+          "中性水中仍直接變旋",
+          "成為縮醛，原開環平衡受阻",
+          "必定立即焦糖化"
+        ],
+        "answerIndex": 1,
+        "explanation": "糖苷須先水解恢復半縮醛，才回到原本的變旋路徑。"
+      }
+    },
+    {
+      "id": "methyl-glucoside-hydrolysis",
+      "title": "糖苷水解：恢復游離還原端",
+      "family": "糖苷與水解",
+      "overallEquation": "C7H14O6 + H2O ⇌ C6H12O6 + CH3OH",
+      "equationType": "配平分子式",
+      "conditions": "含水酸催化；特定酵素亦可依底物選擇性切斷相容糖苷。",
+      "reactiveSite": "C1–OCH3糖苷鍵。",
+      "steps": [
+        {
+          "title": "辨認被鎖住的C1",
+          "equation": "糖苷C1(OR)2 → 待水解的縮醛位點（結構辨識）",
+          "explanation": "糖苷不能靠轉動甲氧基變回半縮醛。",
+          "viewModel": "methyl-alpha-glucoside",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "水參與取代",
+          "equation": "Glc–OCH3 + H2O ⇌ Glc–OH + CH3OH",
+          "explanation": "酸催化的質子化、斷鍵及水加成在此合併；不是無催化瞬間拉斷鍵。",
+          "modelNote": "本概覽只顯示代表結構；可點上方機構操作，查看逐原子中間體與電子流。"
+        },
+        {
+          "title": "恢復環鏈平衡",
+          "equation": "α/β-Glc ⇌ 開鏈Glc",
+          "explanation": "水解後的糖可變旋，也可在合適條件下參與還原糖試驗。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "可用此簡單例子理解食品中雙糖或多糖糖苷鍵的水解。",
+      "limits": "概覽顯示代表糖；酸催化機構檢視另保留水、甲醇與質子載體。不代表任一糖苷酶都能切任何鍵，也不能把酸機構直接套用到酵素。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        }
+      ],
+      "relatedIds": [
+        "methyl-glucoside-formation",
+        "lactose-hydrolysis",
+        "glucose-mutarotation",
+        "koenigs-knorr-neighboring-group-participation"
+      ],
+      "viewModel": "methyl-alpha-glucoside",
+      "knowledgeCheck": {
+        "question": "水解恢復哪個基團使糖能再變旋？",
+        "options": [
+          "C1半縮醛OH",
+          "新增C6甲基",
+          "永久C1自由基"
+        ],
+        "answerIndex": 0,
+        "explanation": "C1重新成為半縮醛，才可在環與開鏈之間互變。"
+      }
+    },
+    {
+      "id": "glucose-bromine-oxidation",
+      "title": "醛基氧化：葡萄糖 → 葡萄糖酸",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + Br2 + H2O → C6H12O7 + 2 HBr",
+      "equationType": "配平代表淨式",
+      "conditions": "緩衝溴水可作溫和醛氧化的教材例；此處不提供實驗操作配方。",
+      "reactiveSite": "開鏈C1：–CHO變–COOH；C6維持–CH2OH。",
+      "steps": [
+        {
+          "title": "由環形供應醛",
+          "equation": "環形Glc ⇌ 開鏈Glc",
+          "explanation": "氧化消耗開鏈醛，環鏈平衡可繼續補充。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1"
+          ]
+        },
+        {
+          "title": "追蹤C1氧化",
+          "equation": "R–CHO + H2O → R–COOH + 2 H+ + 2 e−（酸性半反應）",
+          "explanation": "醛的碳被氧化；電子由氧化劑接受。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "形成醛糖酸",
+          "equation": "Br2 + 2 e− → 2 Br−；合併得葡萄糖酸",
+          "explanation": "此卡只比較C1官能基；產物在水中可能有解離及內酯平衡。",
+          "viewModel": "gluconic-acid",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "葡萄糖酸與其內酯可用來理解糖氧化衍生物；此例的溴水不代表食品製程。",
+      "limits": "3D為中性開鏈酸的代表形；不把它當作所有pH下唯一物種。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-tollens-test",
+        "glucose-c6-oxidation",
+        "glucose-double-oxidation",
+        "gluconic-acid-lactonization"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "此路徑主要改變哪端？",
+        "options": [
+          "C6–CH2OH",
+          "C1–CHO",
+          "全部OH同時消失"
+        ],
+        "answerIndex": 1,
+        "explanation": "醛端C1成羧酸，得到醛糖酸。"
+      }
+    },
+    {
+      "id": "glucose-oxidase-lactone-network",
+      "title": "葡萄糖氧化酶：β-葡萄糖 → δ-內酯 → 葡萄糖酸",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + O2 + H2O → C6H12O7 + H2O2",
+      "equationType": "GOx 氧化與後續水解兩段相加的配平中性酸展示式",
+      "conditions": "葡萄糖氧化酶（EC 1.1.3.4）以 β-D-葡萄糖及 O2 為底物，FAD 在酵素內循環；δ-內酯的後續水解另列。",
+      "reactiveSite": "β-D-葡萄糖 C1 半縮醛氧化為 δ-內酯羰基，隨後 C1–O5 環酯鍵水解成葡萄糖酸。",
+      "steps": [
+        {
+          "title": "辨認 β-D-葡萄糖",
+          "equation": "β-D-葡萄糖（C6H12O6）",
+          "explanation": "GOx 的糖底物為 β-D-葡萄糖；C1 是半縮醛碳，O5 是環氧。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示已驗證的 β-D-吡喃葡萄糖代表結構；未包含酵素、FAD 或 O2。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        },
+        {
+          "title": "GOx 氧化：生成 δ-內酯",
+          "equation": "C6H12O6 + O2 → C6H10O6 + H2O2",
+          "explanation": "糖的 C1 氧化兩個電子當量，O2 還原成 H2O2；FAD 在酵素內傳遞還原當量，不列入淨式。",
+          "viewModel": "glucono-delta-lactone",
+          "modelNote": "只顯示已驗證的 δ-內酯有機產物；FAD、O2、H2O2 及蛋白均未建成這個 3D 狀態。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        },
+        {
+          "title": "後續水解：中性葡萄糖酸",
+          "equation": "C6H10O6 + H2O → C6H12O7",
+          "explanation": "δ-內酯加水後以中性葡萄糖酸作展示端點。Rhea 的帶電式是內酯 + H2O → 葡萄糖酸根− + H+；水解可自發或由另一種內酯酶催化。",
+          "viewModel": "gluconic-acid",
+          "modelNote": "顯示已驗證的中性酸代表結構；不指定水溶液中酸與酸根的比例。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O5"
+          ]
+        }
+      ],
+      "foodContext": "以葡萄糖酸和 δ-內酯的關聯辨認酵素氧化、後續水解與酸式展示三件事；此卡不推定特定食品製程。",
+      "limits": "整體淨式是 GOx 氧化與後續水解兩段相加，並非單一酵素步驟；水解不屬於 GOx 催化。FAD/FADH2 只作形式 2 電子帳本，實際 GOx 還原態涉及 FADH−、活性中心質子化及 O2 的單電子過程；此卡沒有可操作的逐原子機構或反應軌跡。中性葡萄糖酸只是展示端點，不代表所有 pH 下唯一物種。",
+      "sources": [
+        {
+          "title": "IUBMB EC 1.1.3.4：glucose oxidase 反應與 FAD",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/1/3/4.html"
+        },
+        {
+          "title": "Rhea 11428：β-D-glucose + O2 → D-glucono-1,5-lactone + H2O2",
+          "url": "https://www.rhea-db.org/rhea/11428"
+        },
+        {
+          "title": "Rhea 10440：δ-內酯水解為 D-gluconate + H+",
+          "url": "https://www.rhea-db.org/rhea/10440"
+        },
+        {
+          "title": "IUBMB EC 3.1.1.17：gluconolactonase",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC3/1/1/17.html"
+        },
+        {
+          "title": "ChEBI 33198：中性 D-葡萄糖酸結構",
+          "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:33198"
+        },
+        {
+          "title": "Roth & Klinman (2003)：GOx 的 O2 活化與 FADH−/His 質子化",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC404145/"
+        }
+      ],
+      "relatedIds": [
+        "glucose-bromine-oxidation",
+        "gluconic-acid-lactonization"
+      ],
+      "viewModel": "glucose-beta",
+      "knowledgeCheck": {
+        "question": "哪個產物組合屬於 GOx 以 O2 氧化 β-D-葡萄糖的直接淨產物？",
+        "options": [
+          "葡萄糖酸-δ-內酯與 H2O2",
+          "葡萄糖酸與水",
+          "葡萄糖酸根與 H+"
+        ],
+        "answerIndex": 0,
+        "explanation": "GOx 先生成 δ-內酯和 H2O2；酸或酸根來自後續水解與酸鹼平衡。"
+      }
+    },
+    {
+      "id": "glucose-tollens-test",
+      "title": "銀鏡：糖還原銀，自己被氧化",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + 2 [Ag(NH3)2]+ + 3 OH− → C6H11O7− + 2 Ag + 4 NH3 + 2 H2O",
+      "equationType": "配平鹼性離子淨式",
+      "conditions": "鹼性氨合銀(I)試驗的理想氧化还原式；非實驗配製指引。",
+      "reactiveSite": "可開環的還原端C1。",
+      "steps": [
+        {
+          "title": "釋出少量醛形",
+          "equation": "環形Glc ⇌ 開鏈Glc",
+          "explanation": "環形佔多數並不排除醛形持續參與反應。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "糖交出電子",
+          "equation": "R–CHO + 3 OH− → R–COO− + 2 H2O + 2 e−",
+          "explanation": "鹼性介質主要寫羧酸根，不寫成只有中性酸。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "銀離子得到電子",
+          "equation": "2 [Ag(NH3)2]+ + 2 e− → 2 Ag + 4 NH3",
+          "explanation": "金屬銀析出是試劑被還原的證據；糖則被氧化。",
+          "modelNote": "3D仍為葡萄糖參考；銀、銀鏡及葡萄糖酸根未建模，不能用模型顏色當試驗結果。"
+        }
+      ],
+      "foodContext": "幫助理解『還原糖』一詞及糖分析原理；不把此試驗當作食品可食用性判定。",
+      "limits": "其他還原物也可陽性，不能單憑銀鏡辨識葡萄糖。果糖可因鹼性異構化呈陽性。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-copper-test",
+        "glucose-fructose-isomerization"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "在銀鏡反應中，糖自身發生什麼？",
+        "options": [
+          "還原",
+          "沒有氧化態改變",
+          "氧化"
+        ],
+        "answerIndex": 2,
+        "explanation": "糖還原銀(I)，同時自己的醛端被氧化。"
+      }
+    },
+    {
+      "id": "glucose-copper-test",
+      "title": "Benedict／Fehling：銅(II) → 氧化亞銅",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + 2 Cu2+ + 5 OH− → C6H11O7− + Cu2O(s) + 3 H2O",
+      "equationType": "配平鹼性離子簡式；省略銅配位體",
+      "conditions": "鹼性銅(II)試驗，通常加熱；Benedict與Fehling的配位體不同。",
+      "reactiveSite": "還原端羰基；Cu(II)被還原成Cu(I)。",
+      "steps": [
+        {
+          "title": "產生可反應醛形",
+          "equation": "環形Glc ⇌ 開鏈Glc",
+          "explanation": "開環與試劑氧化相連，還原糖不是『必須一直開鏈的糖』。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "醛氧化半反應",
+          "equation": "R–CHO + 3 OH− → R–COO− + 2 H2O + 2 e−",
+          "explanation": "用半反應追蹤兩個電子。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "產生Cu2O沉澱",
+          "equation": "2 Cu2+ + 2 OH− + 2 e− → Cu2O(s) + H2O",
+          "explanation": "紅橙色Cu2O是理想化指標；實際外觀受濃度等影響。",
+          "modelNote": "3D僅顯示糖的參考模型，尚未呈現銅配合物或沉澱。"
+        }
+      ],
+      "foodContext": "用以理解糖類檢測；乳糖、麥芽糖等也有還原端。",
+      "limits": "Cu2+是省略配位體的記帳寫法；此式不宣稱實際溶液中銅全以自由離子存在。顏色不能直接換算未校準濃度。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-tollens-test",
+        "lactose-hydrolysis",
+        "maltose-hydrolysis"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "糖苷鍵存在就一定沒有還原性嗎？",
+        "options": [
+          "不一定，還要看有無游離還原端",
+          "一定沒有",
+          "只看分子有幾個氧"
+        ],
+        "answerIndex": 0,
+        "explanation": "乳糖或麥芽糖含糖苷鍵，但仍有另一個游離半縮醛端。"
+      }
+    },
+    {
+      "id": "glucose-c6-oxidation",
+      "title": "C6選擇性氧化：醣醛酸",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + 2 [O] → C6H10O7 + H2O",
+      "equationType": "配平氧當量簡式；[O]不是指定試劑",
+      "conditions": "需要具選擇性的酵素或受保護糖的催化路線。生物體常氧化UDP-葡萄糖；不是宣稱游離糖加普通氧化劑便只氧化C6。",
+      "reactiveSite": "C6：–CH2OH變–COOH；保留C1的醛／半縮醛功能。",
+      "steps": [
+        {
+          "title": "選擇C6端",
+          "equation": "C6–CH2OH → C6–COOH（官能基目標）",
+          "explanation": "先將氧化位置與C1氧化區分。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C6"
+          ]
+        },
+        {
+          "title": "理解氧化層級",
+          "equation": "R–CH2OH + 2 [O] → R–COOH + H2O",
+          "explanation": "一級醇到酸是四電子氧化；實際催化步驟依所选体系而定。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "比較醣醛酸結構",
+          "equation": "葡萄糖的C6氧化淨變化 → 葡萄糖醛酸",
+          "explanation": "3D展示去除保護／活化基後的游離酸比較形，不等同UDP酵素路徑的直接產物。",
+          "viewModel": "glucuronic-acid",
+          "modelNote": "中性游離葡萄糖醛酸為官能基比較模型；UDP、保護基與實際催化中間體未建模。"
+        }
+      ],
+      "foodContext": "醣醛酸單元常見於多醣；此卡協助區分氧化位置，不模擬完整生合成。",
+      "limits": "保護甲基糖苷的C6氧化先得到對應受保護醣醛酸。UDP途徑先得到UDP-醣醛酸；不可把模型終點當單步直接產物。",
+      "sources": [
+        {
+          "title": "Ciriminna等，Sol–gel entrapped TEMPO for the selective oxidation of methyl α-D-glucopyranoside (2000)",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2000/cc/b003096l"
+        },
+        {
+          "title": "Reactome：UDP-glucose is oxidised to UDP-glucuronate",
+          "url": "https://reactome.org/content/detail/R-DME-173597"
+        }
+      ],
+      "relatedIds": [
+        "glucose-bromine-oxidation",
+        "glucose-double-oxidation",
+        "udp-glucose-6-dehydrogenase"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "葡萄糖酸與葡萄糖醛酸最主要差別是？",
+        "options": [
+          "只有相機角度",
+          "氧化的是C1或C6",
+          "一者沒有碳"
+        ],
+        "answerIndex": 1,
+        "explanation": "葡萄糖酸氧化醛端C1；葡萄糖醛酸的羧酸位在C6。"
+      }
+    },
+    {
+      "id": "glucose-double-oxidation",
+      "title": "雙端氧化：葡萄糖二酸",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + 3 [O] → C6H10O8 + H2O",
+      "equationType": "配平氧當量簡式；[O]不代表硝酸完整化學計量",
+      "conditions": "較強的氧化條件；教材常以溫熱稀硝酸說明。",
+      "reactiveSite": "C1–CHO與C6–CH2OH都轉為–COOH。",
+      "steps": [
+        {
+          "title": "辨認兩個末端",
+          "equation": "OHC–(CHOH)4–CH2OH",
+          "explanation": "兩端的初始氧化程度不同。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1",
+            "C6"
+          ]
+        },
+        {
+          "title": "加總氧化當量",
+          "equation": "–CHO + [O] → –COOH；–CH2OH + 2[O] → –COOH + H2O",
+          "explanation": "兩個官能基的淨變化相加，不代表實際中間體必依此順序形成。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "生成二羧酸",
+          "equation": "HOOC–(CHOH)4–COOH",
+          "explanation": "產物為葡萄糖二酸，歸於醛糖二酸。",
+          "viewModel": "glucaric-acid",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "用於比較糖在不同氧化強度與選擇性下的產物；此條屬有機化學基礎。",
+      "limits": "未顯示氧化劑還原產物、內酯平衡或副反應，不能由此直接預測反應收率。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-bromine-oxidation",
+        "glucose-c6-oxidation"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "雙端氧化產物共有幾個羧酸基？",
+        "options": [
+          "1",
+          "2",
+          "6"
+        ],
+        "answerIndex": 1,
+        "explanation": "C1與C6各形成一個羧酸基。"
+      }
+    },
+    {
+      "id": "glucose-sorbitol-reduction",
+      "title": "醛糖還原：葡萄糖 → 山梨糖醇",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + BH4− + H2O → C6H14O6（山梨糖醇）+ BH3OH−",
+      "equationType": "配平的局部記帳式；只追蹤一次氫轉移與選定硼餘部",
+      "conditions": "本互動選硼氫化物的局部原子／電子記帳模型：氫轉移與 O–B 捕獲合併，接著合併水解／質子移轉；不是已觀測的兩個基本步驟。BH3OH− 是仍含 B–H 的硼餘部代表，不是完整後處理產物；Na+ 旁觀離子省略。催化 H2 加氫是另一條路徑，未在此模擬。",
+      "reactiveSite": "開鏈C1–CHO轉為–CH2OH。",
+      "steps": [
+        {
+          "title": "開鏈葡萄糖與還原劑",
+          "equation": "開鏈葡萄糖 + BH4− + H2O",
+          "explanation": "環狀糖可經環鏈平衡提供開鏈羰基；本段從已開鏈的分子開始。C1 是接受 B–Hd 鍵電子的羰基碳。",
+          "viewModel": "glucose-open",
+          "modelNote": "32 原子、總電荷 −1。水與硼氫化物完整保留；片段排列是教學構象。",
+          "mechanismVariant": "sorbitol",
+          "mechanismState": 0,
+          "highlight": [
+            "C1",
+            "O1",
+            "Bhyd",
+            "Hd"
+          ]
+        },
+        {
+          "title": "氫轉移與 O–B 捕獲",
+          "equation": "R–CHO + BH4− → [R–CH2–O–BH3]−",
+          "explanation": "B–Hd 電子形成 C1–Hd，C1=O1 轉為單鍵，O1 與 Bhyd 成鍵。三支箭頭合併表示電子記帳，不指定先後時序或協同過渡態。",
+          "modelNote": "O–B 記帳構形已建模；它不是已證實在任意葡萄糖溶液中獨占的中間體。",
+          "mechanismVariant": "sorbitol",
+          "mechanismState": 1,
+          "highlight": [
+            "C1",
+            "O1",
+            "Hd",
+            "Bhyd"
+          ]
+        },
+        {
+          "title": "山梨糖醇與硼餘部",
+          "equation": "[R–CH2–O–BH3]− + H2O → R–CH2OH + BH3OH−",
+          "explanation": "原羰基氧 O1 成為醇氧，水的 Hw1 成為其氫；Hd 留在 C1。C2–C5 的空間配置保持。硼餘部仍可能反應。",
+          "viewModel": "sorbitol",
+          "modelNote": "顯示山梨糖醇及選定 BH3OH−；未模擬完整水性後處理。",
+          "mechanismVariant": "sorbitol",
+          "mechanismState": 2,
+          "highlight": [
+            "C1",
+            "O1",
+            "Hd",
+            "Hw1",
+            "Bhyd",
+            "Ow"
+          ]
+        }
+      ],
+      "foodContext": "山梨糖醇是常見糖醇甜味原料，可用來比較糖與糖醇的官能基。",
+      "limits": "以開鏈糖開始；環鏈平衡未併入本段。未建模糖的多羥基配位、溶劑交換、全部硼物種或 NaBH4 的完整消耗。O–B 配位位置是所選記帳圖，不能稱為這種糖在任意溶液中必經的唯一中間體；未計算能障、反應時間或產物比例。 原 C2–C5 配置保留。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.7：氫化物加成與醇形成",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-7-nucleophilic-addition-of-hydride-and-grignard-reagents-alcohol-formation"
+        },
+        {
+          "title": "Ruman et al. (2007)：BH3OH− 的 NMR 身分與還原活性",
+          "url": "https://doi.org/10.1016/j.inoche.2007.05.029"
+        }
+      ],
+      "relatedIds": [
+        "fructose-polyol-reduction",
+        "glucose-bromine-oxidation"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "為何山梨糖醇不能照葡萄糖原路變旋？",
+        "options": [
+          "C1羰基已還原成醇",
+          "碳鏈完全消失",
+          "它必定是環形縮醛"
+        ],
+        "answerIndex": 0,
+        "explanation": "缺少原C1羰基／半縮醛對，不能沿相同機構建立α/β平衡。"
+      }
+    },
+    {
+      "id": "fructose-polyol-reduction",
+      "title": "酮糖還原：果糖 → 兩種糖醇",
+      "family": "氧化與還原",
+      "overallEquation": "C6H12O6 + BH4− + H2O → C6H14O6（山梨糖醇或甘露糖醇）+ BH3OH−",
+      "equationType": "配平的局部記帳式；只追蹤一次氫轉移與選定硼餘部",
+      "conditions": "本互動選硼氫化物的局部原子／電子記帳模型：氫轉移與 O–B 捕獲合併，接著合併水解／質子移轉；不是已觀測的兩個基本步驟。BH3OH− 是仍含 B–H 的硼餘部代表，不是完整後處理產物；Na+ 旁觀離子省略。催化 H2 加氫是另一條路徑，未在此模擬。",
+      "reactiveSite": "平面C2酮羰基轉為新C2立體中心。",
+      "steps": [
+        {
+          "title": "開鏈果糖與還原劑",
+          "equation": "開鏈果糖 + BH4− + H2O",
+          "explanation": "環狀糖可經環鏈平衡提供開鏈羰基；本段從已開鏈的分子開始。C2 是接受 B–Hd 鍵電子的羰基碳。",
+          "viewModel": "fructose-open",
+          "modelNote": "32 原子、總電荷 −1。水與硼氫化物完整保留；片段排列是教學構象。",
+          "highlight": [
+            "C2",
+            "O2",
+            "Bhyd",
+            "Hd"
+          ],
+          "mechanismVariant": "sorbitol",
+          "mechanismState": 0
+        },
+        {
+          "title": "平行分支：山梨糖醇",
+          "equation": "果糖 + BH4− + H2O → 山梨糖醇 + BH3OH−",
+          "explanation": "C2 羰基平面的兩面可導向兩種配置。此頁選定通往山梨糖醇的端點；與另一糖醇為平行分支，不表示依序轉換或固定比例。",
+          "viewModel": "sorbitol",
+          "modelNote": "已建模的所選端點；機構模式可切換分支，回看氫轉移與 O–B 記帳態。",
+          "mechanismVariant": "sorbitol",
+          "mechanismState": 2,
+          "highlight": [
+            "C2",
+            "O2",
+            "Hd",
+            "Hw1",
+            "Bhyd",
+            "Ow"
+          ]
+        },
+        {
+          "title": "平行分支：甘露糖醇",
+          "equation": "果糖 + BH4− + H2O → 甘露糖醇 + BH3OH−",
+          "explanation": "C2 羰基平面的兩面可導向兩種配置。此頁選定通往甘露糖醇的端點；與另一糖醇為平行分支，不表示依序轉換或固定比例。",
+          "viewModel": "mannitol",
+          "modelNote": "已建模的所選端點；機構模式可切換分支，回看氫轉移與 O–B 記帳態。",
+          "mechanismVariant": "mannitol",
+          "mechanismState": 2,
+          "highlight": [
+            "C2",
+            "O2",
+            "Hd",
+            "Hw1",
+            "Bhyd",
+            "Ow"
+          ]
+        }
+      ],
+      "foodContext": "用糖醇原料連結立體化學與食品化學，但不由本卡推算工業產品比例。",
+      "limits": "以開鏈糖開始；環鏈平衡未併入本段。未建模糖的多羥基配位、溶劑交換、全部硼物種或 NaBH4 的完整消耗。O–B 配位位置是所選記帳圖，不能稱為這種糖在任意溶液中必經的唯一中間體；未計算能障、反應時間或產物比例。 兩條分支展示 C2 的兩種配置；不表示各占一半，也不是先後生成。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.7：氫化物加成與醇形成",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-7-nucleophilic-addition-of-hydride-and-grignard-reagents-alcohol-formation"
+        },
+        {
+          "title": "Ruman et al. (2007)：BH3OH− 的 NMR 身分與還原活性",
+          "url": "https://doi.org/10.1016/j.inoche.2007.05.029"
+        },
+        {
+          "title": "Michigan State University：Ketoses，果糖還原的兩種糖醇",
+          "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd.htm"
+        }
+      ],
+      "relatedIds": [
+        "glucose-sorbitol-reduction",
+        "glucose-fructose-isomerization"
+      ],
+      "viewModel": "fructose-open",
+      "knowledgeCheck": {
+        "question": "果糖還原為何可能產生兩種糖醇？",
+        "options": [
+          "C2平面羰基可從兩面接受還原",
+          "果糖含兩條獨立碳鏈",
+          "每次必裂成兩個C3糖醇"
+        ],
+        "answerIndex": 0,
+        "explanation": "還原在C2建立新的立體中心，非選擇性條件可給兩種配置。"
+      }
+    },
+    {
+      "id": "glucose-fructose-isomerization",
+      "title": "醛糖–酮糖異構化：烯二醇路徑",
+      "family": "異構化與差向異構化",
+      "overallEquation": "D-葡萄糖(C6H12O6) ⇌ 1,2-烯二醇／烯二醇負離子 ⇌ D-果糖(C6H12O6)",
+      "equationType": "配平異構化淨式；省略酸鹼載體",
+      "conditions": "此卡選鹼催化Lobry de Bruyn–Alberda van Ekenstein路徑；工業葡萄糖異構酶機構不能直接套用此圖。",
+      "reactiveSite": "C1–C2；羰基位置由C1移到C2。",
+      "steps": [
+        {
+          "title": "由醛端開始",
+          "equation": "OHC–CH(OH)–R",
+          "explanation": "羰基旁C2的氫可參與鹼催化質子轉移。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "title": "共享中間體",
+          "equation": "OHC–CH(OH)–R ⇌ HO–CH=C(OH)–R",
+          "explanation": "此中性烯二醇用來比較鍵結；鹼性過程也涉及烯二醇負離子。",
+          "viewModel": "glucose-enediol",
+          "modelNote": "此模型為中性1,2-烯二醇示意，不代表溶液中所有質子化態或其可分離穩定性。"
+        },
+        {
+          "title": "在C2恢復羰基",
+          "equation": "HO–CH=C(OH)–R ⇌ HOCH2–C(=O)–R",
+          "explanation": "羰基位置轉移，得到酮糖果糖。",
+          "viewModel": "fructose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "可解釋果糖為何在鹼性還原糖試驗呈陽性，並作糖漿異構化的概念對照。",
+      "limits": "不宣稱只生成果糖；甘露糖和降解反應可競爭。未定量反應速率或平衡。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-mannose-epimerization",
+        "glucose-tollens-test",
+        "glucose-isomerase-metal-hydride-transfer",
+        "alkaline-glucose-lactate-network"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "葡萄糖變果糖時，主要是哪個結構變化？",
+        "options": [
+          "碳數6變5",
+          "C1醛羰基移成C2酮羰基",
+          "所有手性中心反轉"
+        ],
+        "answerIndex": 1,
+        "explanation": "兩者分子式相同；此路徑重排C1–C2附近的鍵與氫。"
+      }
+    },
+    {
+      "id": "glucose-mannose-epimerization",
+      "title": "C2差向異構化：葡萄糖 ⇌ 甘露糖",
+      "family": "異構化與差向異構化",
+      "overallEquation": "D-葡萄糖(C6H12O6) ⇌ 1,2-烯二醇／烯二醇負離子 ⇌ D-甘露糖(C6H12O6)",
+      "equationType": "配平異構化淨式",
+      "conditions": "鹼催化互變；與醛酮異構化並行。",
+      "reactiveSite": "C2立體配置改變；C3–C5配置維持。",
+      "steps": [
+        {
+          "title": "記住原C2配置",
+          "equation": "D-葡萄糖：C2為四面體立體中心",
+          "explanation": "先比較鍵接關係相同但立體不同的位置。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C2"
+          ]
+        },
+        {
+          "title": "暫時消除C2立體中心",
+          "equation": "C1–C2 ⇌ C1=C2（烯二醇官能基示意）",
+          "explanation": "C2變平面，再質子化時可建立不同配置。",
+          "viewModel": "glucose-enediol",
+          "modelNote": "中性烯二醇參考模型，不代表完整鹼性離子機構。"
+        },
+        {
+          "title": "回到醛糖的另一配置",
+          "equation": "1,2-烯二醇 ⇌ D-甘露糖",
+          "explanation": "恢復C1醛基、改變C2配置；不是把整顆分子鏡像翻轉。",
+          "viewModel": "mannose-open",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "幫助辨認糖的差向異構物，並理解鹼性處理不是只有單一異構化產物。",
+      "limits": "C2差向異構化與C1異頭物變旋是兩件事；此卡沒有包含全部副反應。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-fructose-isomerization",
+        "glucose-mutarotation",
+        "udp-galactose-4-epimerase",
+        "alkaline-glucose-lactate-network"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "葡萄糖與甘露糖在此例只差哪裡？",
+        "options": [
+          "C1的α/β",
+          "C2配置",
+          "所有碳原子數量"
+        ],
+        "answerIndex": 1,
+        "explanation": "它們是C2差向異構物；α/β專指異頭碳配置。"
+      }
+    },
+    {
+      "id": "glucose-acetylation",
+      "title": "酯化：葡萄糖五乙酸酯",
+      "family": "羥基衍生化",
+      "overallEquation": "C₆H₁₂O₆ + 5 (CH₃CO)₂O → C₁₆H₂₂O₁₁ + 5 CH₃COOH（Py 於所選循環中再生）",
+      "equationType": "五位點乙醯化的配平淨式；Py 表示吡啶，循環端點未展開酸鹼平衡",
+      "conditions": "選取乙酸酐／吡啶的親核醯基轉移教學循環；以 α-葡萄糖作指定起點。各 OH 依 O1→O2→O3→O4→O6 展示，不代表實測先後、最佳條件或 α 產物選擇性。",
+      "reactiveSite": "五個糖羥基氧 O1/O2/O3/O4/O6 各連上乙醯碳 Can；糖 Cn–On 鍵保留。環氧 O5 沒有可移走的羥基氫。",
+      "steps": [
+        {
+          "title": "辨認五個羥基與醯基供體",
+          "equation": "Glc–(OH)₅ + 5 Ac₂O + Py → 五次醯基轉移循環",
+          "explanation": "O1/O2/O3/O4/O6 都帶羥基氫；O5 是環醚氧。Np 先進攻乙酸酐的醯基碳，不能把中性糖 OH 先當成已被吡啶定量去質子化的 O⁻。",
+          "mechanismState": 0,
+          "highlight": [
+            "O1",
+            "O2",
+            "O3",
+            "O4",
+            "O6",
+            "Np",
+            "Ca1"
+          ],
+          "modelNote": "完整起始系統：α-葡萄糖、五份乙酸酐及一份吡啶；100個具名原子。",
+          "mechanismVariant": "pyridine-acyl-transfer"
+        },
+        {
+          "title": "第一個羥基加入醯基吡啶鎓",
+          "equation": "Glc–O1H + Ac–Py⁺ + OAc⁻ ⇌ 四面體教學表示 → Glc–O1–Ac + HOAc + Py",
+          "explanation": "顯示 O1 已加入 Ca1 的四面體圖：Np⁺、Oa1⁻、O1⁺ 與游離乙酸根的電荷相抵。接著乙酸根 Ob1 接受 HO1，Oa1 恢復羰基並放回吡啶。糖 C1–O1 不斷。",
+          "mechanismState": 3,
+          "highlight": [
+            "O1",
+            "Ca1",
+            "Oa1",
+            "Np",
+            "Ob1",
+            "HO1"
+          ],
+          "modelNote": "拆解電子流的帶電教學結構；未宣稱此圖在反應液中可累積或是計算得到的能量極小值。",
+          "mechanismVariant": "pyridine-acyl-transfer"
+        },
+        {
+          "title": "完成五次轉移，保留五份乙酸",
+          "equation": "Glc–(OH)₅ + 5 Ac₂O → Glc–(OAc)₅ + 5 HOAc",
+          "explanation": "五個原糖氧都留在乙酸酯中；每個原羥基氫 HOn 轉到同位點的 Obn 成乙酸。Np 已離開最後一個醯基並回到自由吡啶的循環表示，可與水解的氧／氫去向對照。",
+          "mechanismState": 25,
+          "highlight": [
+            "O1",
+            "O2",
+            "O3",
+            "O4",
+            "O6",
+            "Np",
+            "Ob1",
+            "Ob2",
+            "Ob3",
+            "Ob4",
+            "Ob6"
+          ],
+          "modelNote": "α-五乙酸酯、五份乙酸及吡啶全部保留；自由 Py 是催化循環邊界，不是溶液達到酸鹼平衡後的唯一物種。",
+          "mechanismVariant": "pyridine-acyl-transfer"
+        }
+      ],
+      "foodContext": "糖的乙醯化可連到保護基、溶解性與後續選擇性反應。這裡用來對照既有的乙酸酯水解及普通甲醚；不是烹調過程或食品配方。",
+      "limits": "保留五份乙酸酐、一份吡啶及全部副產物，共100原子、總電荷0。從一般醯基取代拆成五步一循環；四面體與帶電狀態是電子記帳教學表示，未證明是此糖反應可累積的中間體或局部能量極小值。真實加成與質子轉移可以耦合。α 起點／終點及五位點先後都是指定分支，不預測異頭物比例、醯基遷移或速率。末態的自由 Py＋5 HOAc 表示循環再生邊界；Py／PyH⁺ 與 HOAc／OAc⁻ 的酸鹼平衡未展開。不是把皂化反向播放，也沒有自由能或量子反應軌跡。",
+      "sources": [
+        {
+          "title": "OpenStax 25.6: carbohydrate peracetylation with acetic anhydride in pyridine",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides",
+          "supports": "All five OH groups, including the anomeric OH, can be acetylated; the illustrated substrate/product are beta, not evidence for alpha selectivity."
+        },
+        {
+          "title": "OpenStax 21.2: addition and elimination in nucleophilic acyl substitution",
+          "url": "https://openstax.org/books/organic-chemistry/pages/21-2-nucleophilic-acyl-substitution-reactions",
+          "supports": "General teaching framework for electron-pair arrows, tetrahedral addition and elimination; not experimental proof of the glucose-specific intermediates."
+        },
+        {
+          "title": "Fersht and Jencks (1970): acetylpyridinium intermediate in pyridine-catalyzed acyl transfer",
+          "url": "https://doi.org/10.1021/ja00721a023",
+          "supports": "Generic acetylpyridinium formation and acyl-transfer chemistry; does not establish this glucose-specific sequence or all formal tetrahedral states."
+        },
+        {
+          "title": "GlycoPODv2: O-acetylation (Imamura, 2021; revised 2022)",
+          "url": "https://www.ncbi.nlm.nih.gov/books/NBK593851/",
+          "supports": "Carbohydrate O-acetylation using acetic anhydride and pyridine; not a measured trajectory for these mapped states."
+        },
+        {
+          "title": "ACS Sustainable Chemistry & Engineering (2022): pyridine/acetic anhydride cellulose acetylation",
+          "url": "https://doi.org/10.1021/acssuschemeng.2c04686",
+          "supports": "Acetylpyridinium and pyridine/pyridinium acid-base chemistry in a different carbohydrate system; its neighboring-OH relay is not adopted here."
+        },
+        {
+          "title": "J. Chem. Soc. B (1968): pyridine catalysis in phenol and alcohol acetylation",
+          "url": "https://doi.org/10.1039/J29680000795",
+          "supports": "Pyridine acetylation mechanism depends on substrate and conditions; does not establish one universal route."
+        },
+        {
+          "title": "PubChem CID 2723636: alpha-D-glucose pentaacetate identity",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2723636",
+          "supports": "Independent endpoint connectivity and stereochemistry only; not mechanistic or selectivity evidence."
+        }
+      ],
+      "relatedIds": [
+        "glucose-etherification",
+        "methyl-glucoside-formation",
+        "ester-hydrolysis",
+        "koenigs-knorr-neighboring-group-participation"
+      ],
+      "viewModel": "glucose-alpha",
+      "knowledgeCheck": {
+        "question": "為何是五乙酸酯而非六乙酸酯？",
+        "options": [
+          "葡萄糖只有五個碳",
+          "環氧 O5 沒有可酯化的 O–H",
+          "乙酸酐最多只能反應五次"
+        ],
+        "answerIndex": 1,
+        "explanation": "環狀葡萄糖有五個OH與一個環醚氧。"
+      }
+    },
+    {
+      "id": "glucose-etherification",
+      "title": "醚化：糖羥基的O-烷基化",
+      "family": "羥基衍生化",
+      "overallEquation": "甲基化：C6H12O6 + 5 CH3I + 5 OH− → C11H22O6 + 5 I− + 5 H2O；另支水解：C11H22O6 + H2O ⇌ C10H20O6 + CH3OH",
+      "equationType": "兩條分支的配平淨式；五位點甲基化與異頭糖苷水解分開操作",
+      "conditions": "甲基化選 DMSO 中固態 NaOH／CH3I 的教學支路；異頭糖苷水解選含水酸。兩者條件不同，請在機構模式切換分支。Ag2O 是另一種教材方法，這裡未建模銀的作用。",
+      "reactiveSite": "羥基 O1/O2/O3/O4/O6 進攻 CH3I 的甲基碳；酸水解則切 C1–O1 糖苷鍵，保留 O1–Cm1 作甲醇。",
+      "steps": [
+        {
+          "title": "辨認五個可甲基化的 OH",
+          "equation": "α-Glc + 5 OH− + 5 CH3I（所選記帳系統）",
+          "explanation": "O1/O2/O3/O4/O6 有羥基氫，環氧 O5 沒有。甲基碳來自試劑，糖的 C1–C6 骨架保持。",
+          "viewModel": "glucose-alpha",
+          "modelNote": "59 原子、總電荷 −5，保留五份氫氧根與碘甲烷；Na+ 和溶劑省略。",
+          "mechanismVariant": "permethylation",
+          "mechanismState": 0,
+          "highlight": [
+            "O1",
+            "O2",
+            "O3",
+            "O4",
+            "O6"
+          ]
+        },
+        {
+          "title": "氧親核體從背面進攻甲基碳",
+          "equation": "R–O− + CH3I → R–OCH3 + I−",
+          "explanation": "模型先以 OH− 接受羥基質子形成烷氧負離子；接著 O1 向 Cm1 成鍵、Cm1–I1 同時斷裂。SN2 的進攻中心是 Cm1，不是糖的 C1，糖原有配置保持。",
+          "modelNote": "此態顯示第一位去質子化後、SN2 前的排列。O1···Cm1–I1 背面進攻方向是教學取向，不是過渡態。",
+          "mechanismVariant": "permethylation",
+          "mechanismState": 1,
+          "highlight": [
+            "O1",
+            "Cm1",
+            "I1"
+          ]
+        },
+        {
+          "title": "五個 OH 均轉為甲醚",
+          "equation": "C6H12O6 + 5 CH3I + 5 OH− → C11H22O6 + 5 I− + 5 H2O",
+          "explanation": "所選 O1→O2→O3→O4→O6 次序只是逐位教學。O1 甲基化產生糖苷縮醛，其餘四位成一般醚；系統保留五個碘離子和五份水。",
+          "modelNote": "完整保留五位甲基化後的原子與副產物；α 端點不是對反應產物比例的預測。",
+          "viewModel": "glucose-penta-o-methyl",
+          "mechanismVariant": "permethylation",
+          "mechanismState": 10,
+          "highlight": [
+            "O1",
+            "O2",
+            "O3",
+            "O4",
+            "O6"
+          ]
+        },
+        {
+          "title": "另一條件：水解異頭糖苷",
+          "equation": "C11H22O6 + H2O ⇌ C10H20O6 + CH3OH",
+          "explanation": "含水酸支路切 C1–O1；原 O1 與 Cm1 一起成甲醇，新水氧 Ow 成為 C1 的半縮醛 OH。O2/O3/O4/O6 的四個甲醚保留。自由異頭 OH 恢復後可另走變旋，本支選 α 端點。",
+          "viewModel": "glucose-tetra-o-methyl",
+          "modelNote": "這是另行酸水解後的 46 原子系統，不是接在鹼性甲基化混合液中自動發生的下一步。",
+          "highlight": [
+            "C1",
+            "Ow",
+            "O1",
+            "Cm1"
+          ],
+          "mechanismVariant": "anomeric-hydrolysis",
+          "mechanismState": 4
+        }
+      ],
+      "foodContext": "理解糖結構分析與合成中的羥基保護；此試劑例不是食品加工建議。",
+      "limits": "五位點次序與 α 端點為教學選擇，不預測實際選擇性。去質子化是平衡；顯式 OH−／水只用於記帳，省略 Na+、DMSO 及非均相界面，不是任意水相條件或試劑用量建議。未模擬強鹼降解及副反應。酸支路保留其他四個普通甲醚；不表示它們在所有酸性條件下都不會裂解。片段排列、背面進攻取向及座標補間是教學示意，不是過渡態或計算反應軌跡。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "PubChem: methyl tetra-O-methyl alpha-D-glucopyranoside",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/95143"
+        },
+        {
+          "title": "PubChem: tetra-O-methyl alpha-D-glucopyranose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/111162"
+        },
+        {
+          "title": "OpenStax 18.2：Williamson 醚合成與 SN2",
+          "url": "https://openstax.org/books/organic-chemistry/pages/18-2-preparing-ethers"
+        },
+        {
+          "title": "Ciucanu and Caprita (2007)：DMSO／NaOH 糖甲基化與去質子化平衡",
+          "url": "https://doi.org/10.1016/j.aca.2006.12.015"
+        },
+        {
+          "title": "Ciucanu and Kerek (1984)：糖類的固態鹼甲基化方法",
+          "url": "https://doi.org/10.1016/0008-6215(84)85242-8"
+        },
+        {
+          "title": "Michigan State University：甲基糖苷選擇性酸水解與四甲基糖",
+          "url": "https://www2.chemistry.msu.edu/faculty/reusch/virttxtjml/carbhyd2.htm"
+        }
+      ],
+      "relatedIds": [
+        "glucose-acetylation",
+        "methyl-glucoside-formation",
+        "methyl-glucoside-hydrolysis",
+        "glucose-mutarotation"
+      ],
+      "viewModel": "glucose-alpha",
+      "knowledgeCheck": {
+        "question": "異頭OH與一般OH都甲基化後，哪個位點具有縮醛特徵？",
+        "options": [
+          "異頭C1",
+          "任意C–H",
+          "所有C–C鍵"
+        ],
+        "answerIndex": 0,
+        "explanation": "C1原有環氧，再接OCH3後有兩個OR；這是糖苷縮醛。"
+      }
+    },
+    {
+      "id": "glucose-phosphorylation",
+      "title": "酵素磷酸化：葡萄糖-6-磷酸",
+      "family": "羥基衍生化",
+      "overallEquation": "D-葡萄糖 + ATP4− → D-葡萄糖-6-磷酸2− + ADP3− + H+",
+      "equationType": "配平生化離子淨式；使用Rhea指定離子形式",
+      "conditions": "Hexokinase與Mg2+等適當酵素條件；式中省略可逆配位的Mg2+。",
+      "reactiveSite": "C6羥基氧接受ATP末端磷醯基；不是在糖上加入游離磷原子。",
+      "steps": [
+        {
+          "title": "定位C6羥基",
+          "equation": "葡萄糖C6–OH + ATP → 酵素底物複合體（結合示意）",
+          "explanation": "酵素將羥基與可轉移磷醯基安排到合適位置。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性穩定分子；未呈現溶劑、試劑與所有共產物。",
+          "highlight": [
+            "C6",
+            "O6"
+          ]
+        },
+        {
+          "title": "轉移磷醯基",
+          "equation": "Glc–OH + ATP4− → Glc–OPO3(2−) + ADP3− + H+",
+          "explanation": "形成P–O鍵並伴隨ATP末端磷酸鍵斷裂，質子由酵素／溶劑處理。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "形成磷酸單酯",
+          "equation": "葡萄糖 → 葡萄糖-6-磷酸（位置標記）",
+          "explanation": "磷酸化位置在C6；此步與C1糖苷化不同。",
+          "viewModel": "glucose-6-phosphate",
+          "modelNote": "3D以資料中指定的磷酸質子化態顯示；若為中性酸形，僅作骨架對照，反應式以Rhea的2−形式記帳。"
+        }
+      ],
+      "foodContext": "糖解作用起始的代表步驟，可連結食物中的糖與細胞代謝。",
+      "limits": "不展示整個糖解途徑。溶液主要離子與Mg配合狀態隨條件改變；3D中性形式不是生理pH的唯一形式。",
+      "sources": [
+        {
+          "title": "Rhea 17825：D-glucose + ATP = D-glucose 6-phosphate + ADP + H(+)",
+          "url": "https://www.rhea-db.org/rhea/17825"
+        },
+        {
+          "title": "EMBL-EBI M-CSA：Hexokinase mechanism",
+          "url": "https://www.ebi.ac.uk/thornton-srv/m-csa/entry/696/"
+        }
+      ],
+      "relatedIds": [
+        "glucose-acetylation",
+        "glucose-fructose-isomerization"
+      ],
+      "viewModel": "glucose-beta",
+      "knowledgeCheck": {
+        "question": "此反應的直接磷醯基供體是？",
+        "options": [
+          "空氣中的氧",
+          "ATP",
+          "葡萄糖自身的C1"
+        ],
+        "answerIndex": 1,
+        "explanation": "Hexokinase把ATP末端磷醯基轉到葡萄糖C6氧上。"
+      }
+    },
+    {
+      "id": "hexose-hmf-dehydration",
+      "title": "己糖脫水：形成HMF",
+      "family": "脫水與熱反應",
+      "overallEquation": "C6H12O6 → C6H6O3 + 3 H2O",
+      "equationType": "配平代表淨式；HMF為5-羥甲基糠醛",
+      "conditions": "酸性加熱可促進；本例選果糖呋喃環支路。溶劑與水量會改變各條支路及選擇性。",
+      "reactiveSite": "所選呋喃果糖環保留 C2–C5 碳骨架與環氧，經多步脫水成 HMF。",
+      "steps": [
+        {
+          "title": "辨認 β-D-呋喃果糖",
+          "equation": "β-D-呋喃果糖（C6H12O6）",
+          "explanation": "以已驗證的 β 呋喃形作本例起點；α 呋喃形也可進入所選保環支路。葡萄糖常先異構為酮糖，不能把此支路套給所有條件。",
+          "viewModel": "fructose-furanose",
+          "modelNote": "標出形式圖擬保留的 O1、O5、O6；只顯示底物，未呈現酸、水及其他果糖形態。",
+          "highlight": [
+            "O1",
+            "O5",
+            "O6"
+          ]
+        },
+        {
+          "title": "核對三次失水的淨收支",
+          "equation": "C6H12O6 → C6H6O3 + 3 H2O（多步淨式）",
+          "explanation": "所選保環圖以果糖 O2、O3、O4 作三個失水氧；這是形式結構對位提案；已核讀來源未提供此氧去向的 ^18O 驗證，也不代表三個同時發生的微步。",
+          "modelNote": "標出原料 O2、O3、O4；畫面未建模水、酸載體或完整中間體。",
+          "highlight": [
+            "O2",
+            "O3",
+            "O4"
+          ]
+        },
+        {
+          "title": "觀察HMF",
+          "equation": "HMF：呋喃環 + –CHO + –CH2OH",
+          "explanation": "所選形式圖保留 C1–C6 的骨架順序；本地 HMF 的 O1 為醛氧、O2 為羥甲基氧、O3 為環氧，分別對應果糖 O1、O6、O5。",
+          "viewModel": "hmf",
+          "modelNote": "標出 HMF 三個氧的局部 ID；未呈現三份水或反應微步。",
+          "highlight": [
+            "O1",
+            "O2",
+            "O3"
+          ]
+        }
+      ],
+      "foodContext": "HMF可出現在含糖食品加熱或儲存中；本卡只解釋生成化學，不以有無HMF判定食品安全。",
+      "limits": "產物收率不等於100%；無水糖、二聚物、再水合及 humin 是競爭旁路。氧去向是所選保環圖提案，已核讀來源未驗證其 ^18O 命運；未建立逐箭頭機構或自由能面。",
+      "sources": [
+        {
+          "title": "Akien、Qi、Horváth，Molecular mapping of the acid catalysed dehydration of fructose（2012）",
+          "url": "https://doi.org/10.1039/C2CC31689G"
+        },
+        {
+          "title": "Meier，Mechanism and malleability of glucose dehydration to HMF（2020）",
+          "url": "https://doi.org/10.1039/C9CY02567G"
+        },
+        {
+          "title": "Antal、Mok、Richards，Mechanism of formation of HMF from D-fructose and sucrose（1990）",
+          "url": "https://doi.org/10.1016/0008-6215(90)84096-D"
+        }
+      ],
+      "relatedIds": [
+        "pentose-furfural-dehydration",
+        "hmf-rehydration",
+        "caramelization-network",
+        "hmf-acid-humin-parallel-network",
+        "alkaline-glucose-lactate-network"
+      ],
+      "viewModel": "fructose-furanose",
+      "knowledgeCheck": {
+        "question": "己糖形成一分子HMF的代表淨式失去多少水？",
+        "options": [
+          "1 H2O",
+          "2 H2O",
+          "3 H2O"
+        ],
+        "answerIndex": 2,
+        "explanation": "C6H12O6減去3H2O後為C6H6O3。"
+      }
+    },
+    {
+      "id": "pentose-furfural-dehydration",
+      "title": "戊糖脫水：木糖 → 糠醛",
+      "family": "脫水與熱反應",
+      "overallEquation": "C5H10O5 → C5H4O2 + 3 H2O",
+      "equationType": "配平代表淨式",
+      "conditions": "酸催化加熱等條件；此卡以木糖為代表。",
+      "reactiveSite": "五碳骨架經多步脫水，形成帶醛基的呋喃。",
+      "steps": [
+        {
+          "title": "確認是五碳糖",
+          "equation": "D-木糖：C5H10O5",
+          "explanation": "先數碳數；不能把戊糖直接畫成保留六碳的HMF。",
+          "viewModel": "xylose-open",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "多步脫水與成環",
+          "equation": "C5H10O5 → C5H4O2 + 3 H2O（淨收支）",
+          "explanation": "文獻探討不同條件下的環形／開鏈與異構化路徑，這裡不指認唯一中間體。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "得到糠醛",
+          "equation": "糠醛：呋喃-2-甲醛，C5H4O2",
+          "explanation": "與HMF相比，沒有HMF的羥甲基側鏈。",
+          "viewModel": "furfural",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "連結穀物等植物原料中的戊糖與加熱生成的呋喃類；不是所有食物都採相同路徑。",
+      "limits": "糠醛亦可由其他複雜降解網路生成。此卡只呈現戊糖的代表淨式，並不宣稱木糖必须先變木酮糖。",
+      "sources": [
+        {
+          "title": "Ershova等，The role of xylulose as an intermediate in xylose conversion to furfural (2015)",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2015/ra/c5ra10855a"
+        }
+      ],
+      "relatedIds": [
+        "hexose-hmf-dehydration",
+        "maillard-late-network"
+      ],
+      "viewModel": "xylose-open",
+      "knowledgeCheck": {
+        "question": "木糖脫水的此代表產物為何？",
+        "options": [
+          "六碳HMF",
+          "五碳糠醛",
+          "八碳Amadori產物"
+        ],
+        "answerIndex": 1,
+        "explanation": "木糖與糠醛在此淨式中都保留五個碳。"
+      }
+    },
+    {
+      "id": "hmf-rehydration",
+      "title": "HMF再水合：乙醯丙酸 + 甲酸",
+      "family": "脫水與熱反應",
+      "overallEquation": "C6H6O3 + 2 H2O → C5H8O3 + CH2O2",
+      "equationType": "配平代表分支淨式",
+      "conditions": "酸性水相、加熱等條件可使HMF進一步轉化。",
+      "reactiveSite": "HMF呋喃骨架經水合、開環及重排／裂解。",
+      "steps": [
+        {
+          "title": "HMF是可再反應的中間產物",
+          "equation": "HMF + 水 → 後續酸催化反應入口（網路示意）",
+          "explanation": "先前的脫水產物並非固定終點。",
+          "viewModel": "hmf",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "整體加入兩分子水",
+          "equation": "C6H6O3 + 2 H2O → C5H8O3 + CH2O2",
+          "explanation": "這是多步總式，不能把它直接當單次碰撞或一個基本反應。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        },
+        {
+          "title": "辨認五碳產物",
+          "equation": "乙醯丙酸：CH3COCH2CH2COOH",
+          "explanation": "乙醯丙酸是levulinic acid，同時含酮和羧酸；它只是共產物之一。",
+          "viewModel": "levulinic-acid",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        },
+        {
+          "title": "辨認一碳共產物",
+          "equation": "甲酸：HCOOH；5 C + 1 C = 6 C",
+          "explanation": "甲酸與乙醯丙酸在理想單一分支為1:1，不是後一步由乙醯丙酸必然生成甲酸。",
+          "viewModel": "formic-acid",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "用於理解含糖酸性系統的長時間加熱降解，以及生物質糖的轉化化學。",
+      "limits": "實際糖溶液還有平行路徑，可使實測甲酸／乙醯丙酸偏離1:1；此總式不保證樣品產率。",
+      "sources": [
+        {
+          "title": "Non-stoichiometric formation of formic and levulinic acids from the hydrolysis of biomass derived hexose carbohydrates (2016)",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2016/ra/c5ra25172a"
+        }
+      ],
+      "relatedIds": [
+        "hexose-hmf-dehydration",
+        "hmf-acid-humin-parallel-network"
+      ],
+      "viewModel": "hmf",
+      "knowledgeCheck": {
+        "question": "此理想分支如何保留HMF的六個碳？",
+        "options": [
+          "乙醯丙酸5碳加甲酸1碳",
+          "兩個3碳乙醯丙酸",
+          "只留下5碳，另1碳消失"
+        ],
+        "answerIndex": 0,
+        "explanation": "淨式以一個C5產物加一個C1產物達成碳守恆。"
+      }
+    },
+    {
+      "id": "maillard-schiff-base",
+      "title": "梅納早期：胺加成與Schiff鹼",
+      "family": "梅納反應",
+      "overallEquation": "C6H12O6 + C2H5NO2 ⇌ C8H15NO7 + H2O（葡萄糖 + 甘胺酸 ⇌ 開鏈亞胺 + 水）",
+      "equationType": "配平代表縮合淨式",
+      "conditions": "還原糖與具反應性的胺基相遇；pH、溫度、含水量和胺的種類影響反應。 機構示範選定的酸／水質子接力，並非通用最適 pH 或實際速率。",
+      "reactiveSite": "開鏈葡萄糖C1羰基與甘胺酸的胺氮。",
+      "steps": [
+        {
+          "title": "兩類反應基團",
+          "equation": "糖–CHO + H2N–CH2COOH",
+          "explanation": "胺的孤對電子可加到羰基碳；先確認不是非還原性縮醛端。",
+          "viewModel": "glucose-open",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。",
+          "highlight": [
+            "C1",
+            "O1"
+          ],
+          "mechanismState": 0
+        },
+        {
+          "title": "形成加成物",
+          "equation": "R–CHO + H2N–G ⇌ R–CH(OH)–NH–G（G=CH2COOH）",
+          "explanation": "羰基π鍵轉為C–O，形成C–N；質子轉移在此簡式中合併。",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。暫生 C1 配置僅取一個分支，不預測進攻面比例。",
+          "mechanismState": 3
+        },
+        {
+          "title": "脫水形成亞胺",
+          "equation": "R–CH(OH)–NH–G ⇌ R–CH=N–G + H2O",
+          "explanation": "Schiff鹼是早期縮合形式，還可水解、環化或重排。",
+          "viewModel": "glucose-glycine-imine",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。",
+          "mechanismState": 6
+        }
+      ],
+      "foodContext": "還原糖與蛋白質／胺基酸反應的入口，可發生在食品加工或儲存。",
+      "limits": "早期C–N成鍵不等於立即變褐。單一甘胺酸模型不能代表每種蛋白質胺基的反應性。 可操作機構使用 NH₂–CH₂–COOH 的代表微觀態，不宣稱它是中性水溶液的主要甘胺酸形式；未計算各種質子化態、環形或 E/Z 的比例。",
+      "sources": [
+        {
+          "title": "Insight into Isomeric Diversity of Glycated Amino Acids in Maillard Reaction Mixtures (2022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8998915/"
+        },
+        {
+          "title": "OpenStax 19.8: primary-amine addition and imine formation",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation"
+        },
+        {
+          "title": "1960: isolation of glycine Amadori products from browning systems",
+          "url": "https://doi.org/10.1271/bbb1924.24.703"
+        },
+        {
+          "title": "1969: Amadori enaminol mechanism study (different aryl/protected substrates)",
+          "url": "https://doi.org/10.1248/yakushi1947.89.11_1566"
+        }
+      ],
+      "relatedIds": [
+        "maillard-amadori",
+        "maillard-heyns",
+        "glucose-hemiacetal"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "形成Schiff鹼時，糖主要與哪種基團反應？",
+        "options": [
+          "胺基的氮",
+          "只有脂肪酸末端甲基",
+          "氯化鈉的鈉"
+        ],
+        "answerIndex": 0,
+        "explanation": "胺氮的親核加成及隨後脫水建立C=N。"
+      }
+    },
+    {
+      "id": "maillard-amadori",
+      "title": "Amadori重排：醛糖早期產物變成酮胺",
+      "family": "梅納反應",
+      "overallEquation": "葡萄糖–甘胺酸Schiff鹼(C8H15NO7) ⇌ N-(1-去氧果糖-1-基)甘胺酸(C8H15NO7)",
+      "equationType": "配平異構化淨式；下列A代表不變的C3–C6糖鏈",
+      "conditions": "由醛糖與胺形成的早期縮合物，經質子轉移與互變異構。 機構示範選定的酸／水質子接力，並非通用最適 pH 或實際速率。",
+      "reactiveSite": "C1的C=N轉為C1–N；C2形成酮羰基。",
+      "steps": [
+        {
+          "title": "由醛糖亞胺出發",
+          "equation": "G–N=CH–CH(OH)–A（G=CH2COOH）",
+          "explanation": "亞胺與Amadori產物分子式相同，但鍵結分布不同。",
+          "viewModel": "glucose-glycine-imine",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。",
+          "mechanismState": 0
+        },
+        {
+          "title": "通過烯胺醇形式",
+          "equation": "G–N=CH–CH(OH)–A ⇌ G–NH–CH=C(OH)–A",
+          "explanation": "藉質子轉移將π鍵移到C1–C2；省略酸鹼載體，不代表無催化原子瞬移。",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。烯胺醇僅取一個幾何分支，前段縮合的水 O1 留在系統中。",
+          "mechanismState": 2
+        },
+        {
+          "title": "形成1-胺基-1-去氧-2-酮糖骨架",
+          "equation": "G–NH–CH=C(OH)–A ⇌ G–NH–CH2–C(=O)–A",
+          "explanation": "C2成酮，N留在C1。此模型為開鏈fructosylglycine代表。",
+          "viewModel": "amadori-glycine",
+          "modelNote": "顯示選定開鏈機構狀態，保留糖、甘胺酸及明示酸／水的 38 原子與總電荷 +1；幾何為教學示意。",
+          "mechanismState": 4
+        }
+      ],
+      "foodContext": "是理解食品早期糖基化、後續脫水裂解及香氣／褐色產物來源的支線。",
+      "limits": "Amadori產物不是棕色色素的唯一固定前體，也不是已完成所有梅納反應。未給實測平衡或速率。 可操作機構使用 NH₂–CH₂–COOH 的代表微觀態，不宣稱它是中性水溶液的主要甘胺酸形式；未計算各種質子化態、環形或 E/Z 的比例。",
+      "sources": [
+        {
+          "title": "Insight into Isomeric Diversity of Glycated Amino Acids in Maillard Reaction Mixtures (2022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8998915/"
+        },
+        {
+          "title": "Molecular shape analysis of a Maillard reaction intermediate (2001)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11696926/"
+        },
+        {
+          "title": "OpenStax 19.8: primary-amine addition and imine formation",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation"
+        },
+        {
+          "title": "1960: isolation of glycine Amadori products from browning systems",
+          "url": "https://doi.org/10.1271/bbb1924.24.703"
+        },
+        {
+          "title": "1969: Amadori enaminol mechanism study (different aryl/protected substrates)",
+          "url": "https://doi.org/10.1248/yakushi1947.89.11_1566"
+        }
+      ],
+      "relatedIds": [
+        "maillard-schiff-base",
+        "maillard-heyns",
+        "maillard-late-network",
+        "maillard-amadori-deoxyosone-network"
+      ],
+      "viewModel": "glucose-glycine-imine",
+      "knowledgeCheck": {
+        "question": "Amadori產物的羰基與胺取代主要在哪裡？",
+        "options": [
+          "C1羰基、C6胺",
+          "C2羰基、C1胺",
+          "所有氧都換成氮"
+        ],
+        "answerIndex": 1,
+        "explanation": "醛糖亞胺重排為1-胺基-1-去氧-2-酮糖骨架。"
+      }
+    },
+    {
+      "id": "maillard-heyns",
+      "title": "Heyns重排：酮糖早期產物形成胺基醛糖",
+      "family": "梅納反應",
+      "overallEquation": "果糖(C6H12O6) + 甘胺酸(C2H5NO2) ⇌ Heyns產物(C8H15NO7) + H2O",
+      "equationType": "配平縮合加重排淨式；代表產物分支",
+      "conditions": "酮糖與游離胺的早期縮合，展示酸／水質子接力與 1,2-烯胺醇支路；未設定通用最適 pH 或速率。",
+      "reactiveSite": "C2酮位與胺反應；代表1,2互變路徑最後在C1形成醛、C2帶胺。",
+      "steps": [
+        {
+          "title": "先由酮糖縮合",
+          "equation": "HOCH2–C(=O)–A + H2N–G ⇌ HOCH2–C(=N–G)–A + H2O",
+          "explanation": "G=CH2COOH；A為C3–C6糖鏈。亞胺位於C2。",
+          "viewModel": "fructose-open",
+          "modelNote": "38 原子的 C2 酮亞胺、水與酸；前面六次縮合操作可由 3D 機構入口逐步探索。Ng 留在 C2，O2 已成為水；雙鍵只取一種幾何。",
+          "mechanismState": 6
+        },
+        {
+          "title": "經烯胺醇重排",
+          "equation": "HOCH2–C(=N–G)–A ⇌ HO–CH=C(NH–G)–A",
+          "explanation": "C1 上的氫經水載體轉移，C1=C2 形成而 C2=N 的 π 電子回到 N；Ng 仍在 C2，O1 保留為 OH。",
+          "modelNote": "38 原子的 C1=C2 烯胺醇、水與酸；HC1a 暫在酸／水載體，Ng 仍接 C2。這是選定的 1,2 教學支路。",
+          "mechanismState": 8
+        },
+        {
+          "title": "形成2-胺基-2-去氧醛糖",
+          "equation": "HO–CH=C(NH–G)–A ⇌ OHC–CH(NH–G)–A",
+          "explanation": "C1形成醛，C2建立配置；此模型只顯示D-gluco型代表。",
+          "viewModel": "heyns-glycine",
+          "modelNote": "38 原子的 D-gluco 開鏈 Heyns 產物、水與酸；C1 是醛、C2 帶胺，HC1a 經水到 C2。未計算 D-manno、環形或產物分布。",
+          "mechanismState": 10
+        }
+      ],
+      "foodContext": "果糖也可參與梅納早期反應，其早期重排產物與葡萄糖不同。",
+      "limits": "此處可操作 11 個守恆狀態、10 次轉換，僅取開鏈縮合及 1,2 重排支路；暫生 C2 與最終 C2 是不同的手性建立事件。甘胺酸以未計算豐度的中性微觀態表示，非中性 pH 主要形態。D-gluco 是選定產物，不預測 D-manno、E/Z、環形比例或褐變速率。",
+      "sources": [
+        {
+          "title": "Wrodnigg與Stütz，The Heyns Rearrangement Revisited (1999)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29711798/"
+        },
+        {
+          "title": "Solid-phase synthesis of D-fructose-derived Heyns peptides (2021)",
+          "url": "https://d-nb.info/1241999708/34"
+        },
+        {
+          "title": "OpenStax 19.8: primary amine addition and imine formation",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-8-nucleophilic-addition-of-amines-imine-and-enamine-formation"
+        },
+        {
+          "title": "OpenStax 22.1: acid-catalysed keto-enol proton transfers",
+          "url": "https://openstax.org/books/organic-chemistry/pages/22-1-keto-enol-tautomerism"
+        },
+        {
+          "title": "OpenStax 26.1: amino-acid protonation and zwitterions",
+          "url": "https://openstax.org/books/organic-chemistry/pages/26-1-structures-of-amino-acids"
+        },
+        {
+          "title": "1996: preparation of gluco/manno Heyns compounds, including fructose and glycine",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8625356/"
+        }
+      ],
+      "relatedIds": [
+        "maillard-amadori",
+        "maillard-schiff-base",
+        "maillard-late-network"
+      ],
+      "viewModel": "fructose-open",
+      "knowledgeCheck": {
+        "question": "典型Heyns與Amadori路線的起始糖分別是？",
+        "options": [
+          "Heyns酮糖、Amadori醛糖",
+          "兩者只接受蔗糖",
+          "Heyns醛糖、Amadori酮糖"
+        ],
+        "answerIndex": 0,
+        "explanation": "酮糖早期縮合常討論Heyns；醛糖相應路線為Amadori。"
+      }
+    },
+    {
+      "id": "maillard-strecker",
+      "title": "Strecker降解：胺基酸少一個碳的醛",
+      "family": "梅納反應",
+      "overallEquation": "甘胺酸(C2H5NO2) + 甲基乙二醛(C3H4O2) → 甲醛(CH2O) + 胺基丙酮(C3H7NO) + CO2",
+      "equationType": "配平代表分支淨式；參與質子接力與水合的水於未標記淨式中約去，不是整體梅納反應總式",
+      "conditions": "甘胺酸＋甲基乙二醛（MGO），採醛端反應的 Path A 計算提案；兩份明示水保留質子與氧的去向。食品加熱網路可供應二羰基，這裡不預測實際溶液比例或速率。",
+      "reactiveSite": "Ng 先加成 MGO 醛碳 Cma；羧基參與成環後，Ccarb/Og1/Og2 形成 CO₂。原甘胺酸 α 碳 Cg 成甲醛，Ng 留在胺基丙酮。",
+      "steps": [
+        {
+          "title": "辨認兩個反應物與水",
+          "equation": "H₂N–CH₂–COOH + CH₃–CO–CHO → 胺醇加成物（Ng 加成 Cma，含水接力）",
+          "explanation": "先辨認甘胺酸的兩個碳：Cg 是 α 碳，Ccarb 是羧基碳。Ng 進攻甲基乙二醛的醛端 Cma；酮端 Cmk=Omk 在這條選定支路中保留。",
+          "mechanismState": 0,
+          "highlight": [
+            "Cg",
+            "Ccarb",
+            "Ng",
+            "Cma",
+            "Oma"
+          ],
+          "modelNote": "起始的甘胺酸、甲基乙二醛與兩份水均已建模，共25原子、總電荷0；中性甘胺酸是所選反應微觀態。",
+          "mechanismVariant": "oxazolidinone-path-a"
+        },
+        {
+          "title": "先成環，再準備脫羧",
+          "equation": "胺醇 → 5-oxooxazolidine 環狀中間體 + H₂O",
+          "explanation": "此計算提案讓羧基氧 Og2 接到 Cma，形成含氮、氧的五員環；MGO 原醛氧 Oma 隨水離去。這一步沒有以游離 Schiff 鹼取代環狀中間體。",
+          "mechanismState": 2,
+          "highlight": [
+            "Cma",
+            "Ng",
+            "Cg",
+            "Ccarb",
+            "Og2",
+            "Oma"
+          ],
+          "modelNote": "顯示對應論文 IM2a 的重建教學結構及三份水；暫生立體配置是選定代表。",
+          "mechanismVariant": "oxazolidinone-path-a"
+        },
+        {
+          "title": "羧基成為二氧化碳",
+          "equation": "環狀中間體 → CH₃CO–CH⁻–N⁺H=CH₂ + CO₂",
+          "explanation": "Ng 孤對形成 Ng=Cg，原 Cg–Ccarb 鍵電子形成 Ccarb=Og2，Cma–Og2 鍵電子回到 Cma。得到形式電荷分離的 ylide，總電荷仍是0；接著經水接力形成中性亞胺。",
+          "mechanismState": 3,
+          "highlight": [
+            "Ccarb",
+            "Og1",
+            "Og2",
+            "Cg",
+            "Ng",
+            "Cma"
+          ],
+          "modelNote": "對應 IM3a 的教學 Lewis 結構；Cma−/Ng+ 是形式電荷，不是論文 NBO 部分電荷。此圖的座標沒有用來計算反應能障。",
+          "mechanismVariant": "oxazolidinone-path-a"
+        },
+        {
+          "title": "水解後追蹤三個產物",
+          "equation": "C₂H₅NO₂ + C₃H₄O₂ → CH₂O + C₃H₇NO + CO₂",
+          "explanation": "中性亞胺在 Cg 加水並斷 Cg–Ng，形成甲醛與胺基丙酮。甲醛碳是原 Cg、氧來自 Ow1；氮 Ng 留在 MGO 的碳骨架，羧基 Ccarb 與兩個原羧基氧留在 CO₂。",
+          "mechanismState": 6,
+          "highlight": [
+            "Cg",
+            "Ow1",
+            "Ng",
+            "Cma",
+            "Cmk",
+            "Ccarb",
+            "Og1",
+            "Og2"
+          ],
+          "modelNote": "甲醛、胺基丙酮、CO₂與兩份水均保留，25原子與總電荷0守恆；不是食品加熱後只有這三種產物。",
+          "mechanismVariant": "oxazolidinone-path-a"
+        }
+      ],
+      "foodContext": "糖的裂解可提供 α-二羰基，再與胺基酸連到 Strecker 產物及後續香氣網路。此處選甘胺酸追蹤碳與氮的去向；其他胺基酸的醛含其原側鏈，不能把甘胺酸的產物直接泛化為所有食品。",
+      "limits": "互動選取 Ishida 等（2025）提出的醛端 Path A：胺醇、環狀中間體、脫羧 ylide、亞胺及水解。它是可查證的計算機構提案，非已驗證唯一反應機構；酮端 Path B、甘胺酸各微觀態、溶液水合與競爭食品反應尚未展開。教學重建與補間不是原始量子軌跡，沒有實算 ΔG、速率、產率或暴露量。",
+      "sources": [
+        {
+          "title": "Ishida, Miyagawa & Shoji (2025), RSC Advances：Gly/MGO 計算機構提案，Path A / B",
+          "url": "https://doi.org/10.1039/D5RA07604H"
+        },
+        {
+          "title": "同篇補充資料：計算設定、結構及座標",
+          "url": "https://www.rsc.org/suppdata/d5/ra/d5ra07604h/d5ra07604h1.pdf"
+        },
+        {
+          "title": "Europe PMC：同篇補充資料公開鏡像（ZIP）",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12661492/supplementaryFiles"
+        }
+      ],
+      "relatedIds": [
+        "maillard-late-network",
+        "maillard-amadori",
+        "maillard-amadori-deoxyosone-network"
+      ],
+      "viewModel": "methylglyoxal",
+      "knowledgeCheck": {
+        "question": "Strecker醛通常比原α-胺基酸少的那個碳去哪裡？",
+        "options": [
+          "變成CO2",
+          "變成金屬銀",
+          "直接消失"
+        ],
+        "answerIndex": 0,
+        "explanation": "胺基酸羧基脫羧，留下少一個碳的醛骨架。"
+      }
+    },
+    {
+      "id": "maillard-late-network",
+      "title": "梅納後期：裂解、香氣與褐色網路",
+      "family": "梅納反應",
+      "overallEquation": "早期糖基化產物 ⇢ 二羰基／裂解產物 ⇢ 多種含氮香氣物、其他小分子及部分褐色高分子",
+      "equationType": "反應網路示意；不是配平總式",
+      "conditions": "糖、胺種類、pH、水活性、溫度與時間共同影響多分支反應。",
+      "reactiveSite": "多個羰基、胺基、碳骨架和縮合位置；沒有唯一反應中心。",
+      "steps": [
+        {
+          "title": "早期產物繼續分流",
+          "equation": "Amadori／Heyns產物 ⇢ 脫水、裂解、氧化等分支",
+          "explanation": "不是每條分支都必須出現相同中間體。",
+          "viewModel": "amadori-glycine",
+          "modelNote": "僅以Amadori產物作網路入口參考；不是後期產物的完整場景。"
+        },
+        {
+          "title": "生成反應性小分子",
+          "equation": "糖及早期產物 ⇢ α-二羰基物 + 其他碎片（非配平網路）",
+          "explanation": "二羰基物可再與胺反應，也可促進Strecker支線。",
+          "viewModel": "methylglyoxal",
+          "modelNote": "甲基乙二醛為可能的代表節點，不宣稱每份食品都以此為主。"
+        },
+        {
+          "title": "多條路交織",
+          "equation": "二羰基物 + 胺／其他核親試劑 ⇢ 雜環、小分子與褐色物（非配平網路）",
+          "explanation": "香氣分子、交聯產物和褐色物是多種結構；不指定單一『梅納產物分子式』。",
+          "modelNote": "未建立後期網路所有3D產物；仍是參考節點，不代表完成褐變動力學模擬。"
+        }
+      ],
+      "foodContext": "烘焙、烘烤等食品中的顏色和香氣常由多條反應共同造成。",
+      "limits": "褐色不代表某一個固定分子或單一反應完成度。Mass spectrometry的候選分子式也不自動等於每種結構被完全確定。",
+      "sources": [
+        {
+          "title": "An Investigation of the Complexity of Maillard Reaction Product Profiles … Using High Resolution Mass Spectrometry (2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28234331/"
+        },
+        {
+          "title": "Maillard reaction and caramelization during hazelnut roasting: A multiresponse kinetic study (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27979180/"
+        },
+        {
+          "title": "High-intensity ultrasound promoted … pyrazines in a Maillard model of D-glucose-13C6 and L-glycine (2022)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8760555/"
+        }
+      ],
+      "relatedIds": [
+        "maillard-amadori",
+        "maillard-heyns",
+        "maillard-strecker",
+        "caramelization-network",
+        "hmf-acid-humin-parallel-network",
+        "maillard-amadori-deoxyosone-network"
+      ],
+      "viewModel": "amadori-glycine",
+      "knowledgeCheck": {
+        "question": "為何此卡不提供唯一配平總反應式？",
+        "options": [
+          "因為化學不必守恆",
+          "因為多分支與產物組成未固定",
+          "因為產物沒有原子"
+        ],
+        "answerIndex": 1,
+        "explanation": "每個具體反應仍守恆，但未固定整個網路的產率與組成就沒有唯一總式。"
+      }
+    },
+    {
+      "id": "caramelization-network",
+      "title": "焦糖化：糖本身的熱反應網路",
+      "family": "脫水與熱反應",
+      "overallEquation": "糖 ⇢ 異構化／脫水／裂解／縮合產物 ⇢ 香氣與褐色混合物",
+      "equationType": "反應網路示意；非配平總式",
+      "conditions": "加熱與時間共同作用；糖種、水與酸鹼條件影響發生速率，沒有適用所有糖與條件的單一開始溫度。",
+      "reactiveSite": "糖的羥基、羰基、糖苷鍵及碳骨架可參與不同分支。",
+      "steps": [
+        {
+          "title": "先辨識原料與條件",
+          "equation": "蔗糖等糖類 + 熱歷史 ⇢ 可反應組成（條件示意）",
+          "explanation": "融化是物態變化；化學分解可與失去結晶結構重疊，兩者不應視為同義。",
+          "viewModel": "sucrose",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。 本模型原子編號為局部標籤，尚未與反應碳位完成跨模型映射。"
+        },
+        {
+          "title": "糖可脫水或裂解",
+          "equation": "己糖 → HMF + 3 H2O（其中一個配平代表分支）",
+          "explanation": "HMF只是可能節點，不能等同整個焦糖的褐色。",
+          "viewModel": "hmf",
+          "modelNote": "HMF僅作網路中的代表化合物，非焦糖唯一產物。"
+        },
+        {
+          "title": "進一步縮合成混合物",
+          "equation": "小分子及糖衍生物 ⇢ 多種香氣物與褐色產物（網路示意）",
+          "explanation": "即使沒有胺基酸，糖也可發生熱轉化；含胺食品中可與梅納反應並行。",
+          "modelNote": "3D沿用參考分子；本步中間體或完整反應系統尚未建模。請以反應式辨認本步變化。"
+        }
+      ],
+      "foodContext": "對照焦糖醬與烘焙食品的熱化學，學習區分糖熱降解與胺–羰基反應。",
+      "limits": "不使用固定『焦糖分子』代表全部產物；此卡不能預測鍋中即時色澤或香氣。HMF不是褐變唯一原因。",
+      "sources": [
+        {
+          "title": "Investigation of thermal decomposition … in sucrose using a chemical analysis approach, part II (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21175200/"
+        },
+        {
+          "title": "Maillard reaction and caramelization during hazelnut roasting: A multiresponse kinetic study (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27979180/"
+        }
+      ],
+      "relatedIds": [
+        "hexose-hmf-dehydration",
+        "maillard-late-network",
+        "sucrose-inversion"
+      ],
+      "viewModel": "sucrose",
+      "knowledgeCheck": {
+        "question": "焦糖化是否必須先有胺基酸？",
+        "options": [
+          "必須",
+          "不必須",
+          "只要加入鹽就與溫度無關"
+        ],
+        "answerIndex": 1,
+        "explanation": "糖本身可熱降解；梅納反應則以胺與羰基的反應為主要入口。"
+      }
+    },
+    {
+      "id": "sucrose-inversion",
+      "title": "蔗糖轉化：水解成葡萄糖與果糖",
+      "family": "糖苷與水解",
+      "overallEquation": "C12H22O11 + H2O → C6H12O6(葡萄糖) + C6H12O6(果糖)",
+      "equationType": "配平水解淨式",
+      "conditions": "此 3D 支路採含水酸催化，選果糖 C2 端裂解。Invertase 與其他蔗糖水解酵素另有催化路徑，未混用其機構。",
+      "reactiveSite": "果糖 A 的 AC2–BO1–BC1 與葡萄糖 B 相接；本分支切 AC2–BO1，橋氧留在葡萄糖 BC1。",
+      "steps": [
+        {
+          "title": "蔗糖兩個異頭碳都被連接",
+          "equation": "Glc(B)-C1–O–C2-Fru(A) + H₂O + H₃O⁺",
+          "explanation": "蔗糖是 α-D-吡喃葡萄糖與 β-D-呋喃果糖的連接。兩個異頭碳均參與糖苷鍵，沒有游離還原端；A/B 標籤用來追蹤本支路的斷鍵與氧來源。",
+          "mechanismState": 0,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC2",
+            "BO1",
+            "BC1"
+          ]
+        },
+        {
+          "title": "選擇果糖端裂解支路",
+          "equation": "質子化蔗糖 ⇌ fructosyl⁺(A) + Glc(B)",
+          "explanation": "BO1 質子化後，AC2–BO1 斷開，BC1–BO1 保留。此支路有蔗糖氧同位素研究支持；研究亦觀察葡萄糖端裂解，故不把這支畫成唯一機構或任意條件下的比例。",
+          "mechanismState": 2,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC2",
+            "AO5",
+            "BO1",
+            "BC1"
+          ]
+        },
+        {
+          "title": "橋氧成為葡萄糖異頭羥基",
+          "equation": "蔗糖 + H₂O → D-葡萄糖 + D-果糖",
+          "explanation": "BO1 留在葡萄糖上形成 C1–OH，這個所選支路保留 B 糖的 α 配置；產物後續仍可變旋。進攻水氧 Ow 則進入果糖 C2，兩糖與酸均保留於畫面。",
+          "mechanismState": 4,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "BC1",
+            "BO1",
+            "AC2",
+            "Ow"
+          ]
+        },
+        {
+          "title": "果糖可換環，轉化不等於 D 變 L",
+          "equation": "葡萄糖:果糖 = 1:1（本反應化學計量）",
+          "explanation": "果糖端選 β-D-呋喃果糖作教學端點，並非水中唯一或最多物種；可再參與環形與異頭平衡。「轉化」指旋光改變，並未把 D 糖全部變成 L 糖。",
+          "mechanismState": 4,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC2",
+            "Ow",
+            "AO5"
+          ]
+        }
+      ],
+      "foodContext": "轉化糖與糖漿性質的基礎，也可連結蜂蜜中的糖組成。",
+      "limits": "展示有來源依據的果糖端酸裂解支路；未模擬另一端裂解、環內氧裂解、離子對、全部溶劑質子接力、酵素或產物比例。1:1 是新生成葡萄糖與果糖的化學計量，不是食品總糖組成。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.8：Disaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 19.10：Nucleophilic Addition of Alcohols",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        },
+        {
+          "title": "蔗糖酸水解的氧同位素研究：兩端裂解的條件依賴證據",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0008621500812604"
+        },
+        {
+          "title": "2013 J. Org. Chem.：蔗糖糖苷鍵水解兩個裂解端的計算比較",
+          "url": "https://doi.org/10.1021/jo3027565"
+        },
+        {
+          "title": "Mega and Van Etten (1988): oxygen-18/NMR study of sucrose cleavage",
+          "url": "https://doi.org/10.1021/ja00227a017"
+        },
+        {
+          "title": "Mega, Purdue dissertation: original isotope-labeling evidence for the studied fructosyl–oxygen cleavage",
+          "url": "https://docs.lib.purdue.edu/dissertations/AAI9003933/"
+        }
+      ],
+      "relatedIds": [
+        "methyl-glucoside-hydrolysis",
+        "fructose-hemiketal",
+        "caramelization-network",
+        "enzymatic-transglycosylation",
+        "maltose-hydrolysis",
+        "lactose-hydrolysis",
+        "glucose-mutarotation",
+        "reducing-disaccharide-end-comparison",
+        "sucrose-synthase-udp-glucose-transfer"
+      ],
+      "viewModel": "sucrose",
+      "knowledgeCheck": {
+        "question": "蔗糖為何在水解前沒有一般游離還原端？",
+        "options": [
+          "沒有氧",
+          "兩個異頭碳都參與糖苷鍵",
+          "它只有五個碳"
+        ],
+        "answerIndex": 1,
+        "explanation": "葡萄糖C1與果糖C2都被縮醛／縮酮連接所占用。"
+      }
+    },
+    {
+      "id": "starch-hydrolysis",
+      "title": "澱粉水解：長鏈到葡萄糖",
+      "family": "糖苷與水解",
+      "overallEquation": "(C6H10O5)n + n H2O → n C6H12O6（重複單元近似）",
+      "equationType": "重複單元配平式；忽略端基，有限單鏈需修正水數",
+      "conditions": "酸水解或多種適當酵素協作；α-amylase主要切內部α(1→4)，完全生成葡萄糖還需合適外切／去分支作用。",
+      "reactiveSite": "直鏈α(1→4)鍵；支鏈澱粉另有α(1→6)分支。",
+      "steps": [
+        {
+          "title": "辨認鍵型",
+          "equation": "Glc–α(1→4)–Glc；另可能有α(1→6)分支（片段示意）",
+          "explanation": "以麥芽三糖呈現連續α(1→4)連接；整條澱粉、顆粒及螺旋聚集尚未建模。",
+          "viewModel": "maltotriose",
+          "modelNote": "三糖片段與局部原子編號；不是完整澱粉，也不是跨模型原子映射。"
+        },
+        {
+          "title": "旁支：α(1→6)是另一種連接",
+          "equation": "Glc–α(1→6)–Glc + H2O → 2 Glc（局部鍵水解淨式）",
+          "explanation": "異麥芽糖呈現α(1→6)鍵。它用來認識支鏈的連接型態，不是完整分支點；去分支需要合適酵素。",
+          "viewModel": "isomaltose",
+          "modelNote": "獨立雙糖片段；不能把它當成整個支鏈澱粉分支拓撲。原子編號為本分子局部順序。"
+        },
+        {
+          "title": "先產生較短鏈",
+          "equation": "澱粉 + 水 → 較短糊精、寡糖等（網路示意）",
+          "explanation": "切長鏈不等於每次都直接放出游離葡萄糖；酵素決定切法。",
+          "modelNote": "麥芽糖作較短寡糖代表；不表示每次斷鍵只產生麥芽糖。",
+          "viewModel": "maltose"
+        },
+        {
+          "title": "完全水解的總終點",
+          "equation": "有限單鏈(C6H10O5)n·H2O + (n−1)H2O → n C6H12O6",
+          "explanation": "明示端基後，n個單元的非環狀單鏈共有n−1個糖苷連接。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "米、麵與澱粉糖漿的糖化基礎；與單純糊化或回凝區分。",
+      "limits": "糊化是結構／物理狀態改變，不必然切斷糖苷鍵。上式完全水解終點不表示單一α-amylase就完成全部反應。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.9：Polysaccharides and Their Synthesis",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-9-polysaccharides-and-their-synthesis"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.8：Disaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "PubChem: maltotriose, selected alpha reducing end",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/192826"
+        },
+        {
+          "title": "PubChem: isomaltose, selected alpha reducing end",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11968638"
+        }
+      ],
+      "relatedIds": [
+        "maltose-hydrolysis",
+        "cellulose-hydrolysis",
+        "starch-alpha-amylase-g5-single-cut",
+        "starch-beta-amylase-g5-single-cut"
+      ],
+      "viewModel": "maltotriose",
+      "knowledgeCheck": {
+        "question": "澱粉糊化與水解是否完全相同？",
+        "options": [
+          "是，都是每條鍵立刻斷開",
+          "否，水解涉及糖苷共價鍵斷裂",
+          "都不會受水影響"
+        ],
+        "answerIndex": 1,
+        "explanation": "糊化主要改變顆粒與有序結構；水解才切糖苷鍵。"
+      }
+    },
+    {
+      "id": "cellulose-hydrolysis",
+      "title": "纖維素水解：β(1→4)鍵",
+      "family": "糖苷與水解",
+      "overallEquation": "(C6H10O5)n + n H2O → n C6H12O6（重複單元近似）",
+      "equationType": "重複單元配平式；有限單鏈的端基另計",
+      "conditions": "適當cellulase系統與β-glucosidase等可完成多步水解；物理可及性與結晶區會影響速率。",
+      "reactiveSite": "β(1→4)糖苷鍵；終點仍是D-葡萄糖。",
+      "steps": [
+        {
+          "title": "先辨識β連接",
+          "equation": "Glc–β(1→4)–Glc（纖維素局部片段）",
+          "explanation": "與澱粉相比，單糖相同，但連接立體不同。",
+          "modelNote": "纖維二糖呈現β(1→4)連接；還原端此模型選α。未建整條纖維素、鏈間氫鍵與晶體。原子ID是局部編號。",
+          "viewModel": "cellobiose"
+        },
+        {
+          "title": "逐步得到寡糖",
+          "equation": "纖維素 + 水 → 纖維寡糖／纖維二糖（網路示意）",
+          "explanation": "不同酵素對內部、鏈端和二糖有不同作用。",
+          "modelNote": "纖維二糖呈現β(1→4)連接；還原端此模型選α。未建整條纖維素、鏈間氫鍵與晶體。原子ID是局部編號。",
+          "viewModel": "cellobiose"
+        },
+        {
+          "title": "完全水解得葡萄糖",
+          "equation": "有限單鏈(C6H10O5)n·H2O + (n−1)H2O → n C6H12O6",
+          "explanation": "β連接的水解終點也可進入葡萄糖自身的環鏈平衡。",
+          "viewModel": "glucose-beta",
+          "modelNote": "顯示本階段的代表性分子；未呈現溶劑、試劑與所有共產物。"
+        }
+      ],
+      "foodContext": "植物細胞壁與膳食纖維的化學；人體缺乏直接消化纖維素所需的自身酵素。",
+      "limits": "不從單糖模型推論纖維素晶體能量或消化率；腸道微生物發酵和直接酵素水解需分開討論。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.9：Polysaccharides and Their Synthesis",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-9-polysaccharides-and-their-synthesis"
+        },
+        {
+          "title": "PubChem: cellobiose, selected alpha reducing end",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441014"
+        }
+      ],
+      "relatedIds": [
+        "starch-hydrolysis",
+        "methyl-glucoside-hydrolysis"
+      ],
+      "viewModel": "cellobiose",
+      "knowledgeCheck": {
+        "question": "纖維素與澱粉的完全水解單糖有何關係？",
+        "options": [
+          "都可得到D-葡萄糖",
+          "纖維素只能得到果糖",
+          "兩者完全不含糖苷鍵"
+        ],
+        "answerIndex": 0,
+        "explanation": "主要差別在糖苷鍵配置與聚集結構，不是最終葡萄糖的分子式。"
+      }
+    },
+    {
+      "id": "lactose-hydrolysis",
+      "title": "乳糖水解：半乳糖 + 葡萄糖",
+      "family": "糖苷與水解",
+      "overallEquation": "C12H22O11 + H2O → C6H12O6(半乳糖) + C6H12O6(葡萄糖)",
+      "equationType": "配平水解淨式",
+      "conditions": "概覽及預設 3D 支路採含水酸催化。分支選單另可切到大腸桿菌 LacZ 保留型酵素水解：Glu537 與 Glu461 有具名角色；兩套機構不能混作同一套。",
+      "reactiveSite": "半乳糖 A 的 AC1–BO4–BC4 形成 β(1→4) 連接；BO4 原在葡萄糖 B 的 C4 上。",
+      "steps": [
+        {
+          "title": "乳糖的 β 連接與還原端",
+          "equation": "Gal(A)–β(1→4)–Glc(B) + H₂O + H₃O⁺",
+          "explanation": "A 是半乳糖，B 是葡萄糖。半乳糖 C1 為糖苷位；葡萄糖 C1 保留游離半縮醛。此處 B 端取 β 代表，實際可變旋。",
+          "mechanismState": 0,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "BO4",
+            "BC4",
+            "BC1"
+          ]
+        },
+        {
+          "title": "切半乳糖端的糖苷鍵",
+          "equation": "質子化乳糖 ⇌ galactosyl⁺(A) + Glc(B)",
+          "explanation": "BO4 受質子後，AC1–BO4 斷開；橋氧留在葡萄糖 BC4–OH。半乳糖正電用 AC1=AO5⁺ 共振式呈現，這不是另一個先後發生的共振反應。",
+          "mechanismState": 2,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "AO5",
+            "BO4"
+          ]
+        },
+        {
+          "title": "看半乳糖的氧來源與 C4 配置",
+          "equation": "乳糖 + H₂O → D-半乳糖 + D-葡萄糖",
+          "explanation": "水氧 Ow 加入半乳糖 C1 成 OH；其 C4 配置從乳糖開始就已存在，水解不把葡萄糖 C4 變成半乳糖。這裡選 β 半乳糖端點，不預測進攻面比例。",
+          "mechanismState": 4,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "Ow",
+            "AC4",
+            "AO4"
+          ]
+        },
+        {
+          "title": "兩個單糖各自進入平衡",
+          "equation": "Gal 與 Glc 各自參與環鏈／異頭平衡",
+          "explanation": "畫面同時保留 β 半乳糖、β 葡萄糖和再生酸。初始 B 糖的配置於本機構保持；生成後以及反應進行中都可能有其他平衡，未用動畫時間量化。",
+          "mechanismState": 4,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "BC1",
+            "BO1",
+            "BO4"
+          ]
+        }
+      ],
+      "foodContext": "低乳糖／無乳糖牛奶製程的分子基礎，水解後還原性單糖組成增加。",
+      "limits": "本概覽各步對應所選酸催化支路；分支選單另有 LacZ 局部活性中心的兩次取代教學模型。酵素分支以獨立的 Gal C1 立體與 Glu537 共價中間體檢查支持保留結果，不借用酸水解端點作證據。兩者均未模擬微觀態分布、食品加工速度或人體消化。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.8：Disaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "OpenStax 19.10：酸催化縮醛形成／水解的一般電子流",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        },
+        {
+          "title": "Armour et al. (1961): acid hydrolysis of lactose and maltose cleaves pyranosyl carbon–glycosidic oxygen",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/1961/jr/jr9610000412"
+        }
+      ],
+      "relatedIds": [
+        "glucose-copper-test",
+        "methyl-glucoside-hydrolysis",
+        "maltose-hydrolysis",
+        "sucrose-inversion",
+        "glucose-mutarotation",
+        "reducing-disaccharide-end-comparison"
+      ],
+      "viewModel": "lactose",
+      "knowledgeCheck": {
+        "question": "一分子乳糖完全水解得到什麼？",
+        "options": [
+          "兩個果糖",
+          "半乳糖與葡萄糖各一個",
+          "葡萄糖與乙醇各一個"
+        ],
+        "answerIndex": 1,
+        "explanation": "乳糖由半乳糖與葡萄糖經β(1→4)鍵連接。"
+      }
+    },
+    {
+      "id": "maltose-hydrolysis",
+      "title": "麥芽糖水解：α(1→4) → 兩個葡萄糖",
+      "family": "糖苷與水解",
+      "overallEquation": "C12H22O11 + H2O → 2 C6H12O6",
+      "equationType": "配平水解淨式",
+      "conditions": "概覽及預設 3D 支路採含水酸催化。分支選單另有指定 A. awamori glucoamylase 的反轉型水解，以 Glu179 酸、Glu400 鹼與水共同作用；兩套機構不能混用。",
+      "reactiveSite": "A 糖的 AC1–BO4–BC4 形成 α(1→4) 連接；酸催化支路切 AC1–BO4，BO4 留在 B 糖的 C4。",
+      "steps": [
+        {
+          "title": "分清糖苷位與還原端",
+          "equation": "Glc(A)–α(1→4)–Glc(B) + H₂O + H₃O⁺",
+          "explanation": "A 的 C1 被糖苷鍵連接；B 的 C1 仍是游離半縮醛，取 α 還原端代表。固定 α(1→4) 連接與還原端異頭配置是兩件事。",
+          "mechanismState": 0,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "BO4",
+            "BC4",
+            "BC1"
+          ]
+        },
+        {
+          "title": "橋氧留在 B 糖，A 端形成正離子表示",
+          "equation": "質子化麥芽糖 ⇌ glucosyl⁺(A) + Glc(B)",
+          "explanation": "先質子化 BO4，再切 AC1–BO4；BC4–BO4 保留，橋氧帶 Hcat 變成 B 糖的羥基。A 的正電用 AC1=AO5⁺ 八隅體共振式表示，未預測自由離子的壽命。",
+          "mechanismState": 2,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "AO5",
+            "BO4"
+          ]
+        },
+        {
+          "title": "水氧加入，得到兩個葡萄糖",
+          "equation": "麥芽糖 + H₂O → 2 D-葡萄糖（酸再生）",
+          "explanation": "進攻水的 Ow 成為 A 糖新的 C1–OH；BO4 留在 B 糖 C4–OH。畫面保留兩個葡萄糖和再生酸；兩個 α 終點是所選示範，之後各可變旋，不代表溶液皆為 α。",
+          "mechanismState": 4,
+          "modelNote": "顯示所選酸催化機構的完整 52 原子系統，含兩糖、反應水及酸／水載體，總電荷 +1；片段位置與座標補間為教學排列，非計算反應軌跡。",
+          "highlight": [
+            "AC1",
+            "Ow",
+            "BC1",
+            "BO4"
+          ]
+        }
+      ],
+      "foodContext": "連結麥芽、澱粉糖化與消化過程中的寡糖分解。",
+      "limits": "本概覽各步對應所選酸催化支路；分支選單另有指定 glucoamylase 的局部酸／鹼水解模型，A 糖被切異頭位由 α 反轉成即時 β。該酵素分支未用酸模型的 α 端點充數，也不代表所有 α-glucosidase。兩支均未計算還原端變旋競爭、兩面進攻比例或水解速率。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.8：Disaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.9：Polysaccharides and Their Synthesis",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-9-polysaccharides-and-their-synthesis"
+        },
+        {
+          "title": "OpenStax 19.10：酸催化縮醛形成／水解的一般電子流",
+          "url": "https://openstax.org/books/organic-chemistry/pages/19-10-nucleophilic-addition-of-alcohols-acetal-formation"
+        },
+        {
+          "title": "Armour et al. (1961): acid hydrolysis of lactose and maltose cleaves pyranosyl carbon–glycosidic oxygen",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/1961/jr/jr9610000412"
+        }
+      ],
+      "relatedIds": [
+        "starch-hydrolysis",
+        "glucose-copper-test",
+        "lactose-hydrolysis",
+        "sucrose-inversion",
+        "glucose-mutarotation",
+        "methyl-glucoside-hydrolysis",
+        "reducing-disaccharide-end-comparison"
+      ],
+      "viewModel": "maltose",
+      "knowledgeCheck": {
+        "question": "麥芽糖有固定α(1→4)鍵，是否仍能有還原端變旋？",
+        "options": [
+          "可以，另一端C1仍是半縮醛",
+          "不可以，所有C1都被鎖住",
+          "只有把全部C–C鍵斷開才可以"
+        ],
+        "answerIndex": 0,
+        "explanation": "糖苷連接的異頭碳與游離還原端的異頭碳要分開判讀。"
+      }
+    },
+    {
+      "id": "gluconic-acid-lactonization",
+      "title": "葡萄糖酸與δ-內酯：成環、失水與水解",
+      "family": "羥基衍生化",
+      "overallEquation": "C6H12O7(葡萄糖酸) ⇌ C6H10O6(葡萄糖酸-δ-內酯) + H2O",
+      "equationType": "配平內酯化／水解淨式",
+      "conditions": "水溶液有酸、酸根與內酯的耦合平衡；pH、溫度與時間影響分布。",
+      "reactiveSite": "葡萄糖酸C1羧酸與C5羥基；形成六員環酯。",
+      "steps": [
+        {
+          "title": "先辨認羧酸而非醛",
+          "equation": "HOOC–(CHOH)4–CH2OH",
+          "explanation": "C1已是羧酸；這次成環是酯化，不是葡萄糖的半縮醛形成。",
+          "viewModel": "gluconic-acid",
+          "modelNote": "29 原子的葡萄糖酸與明示酸載體，總電荷 +1。可進入機構，追蹤 O5 成環及 O1b 離去。",
+          "highlight": [
+            "C1",
+            "O5"
+          ],
+          "mechanismState": 0,
+          "mechanismVariant": "lactonization"
+        },
+        {
+          "title": "分子內酯化",
+          "equation": "葡萄糖酸 ⇌ 葡萄糖酸-δ-內酯 + H2O",
+          "explanation": "C5氧與C1羧酸碳形成環酯；淨失去一個水。",
+          "viewModel": "glucono-delta-lactone",
+          "modelNote": "29 原子的 δ-內酯、水與再生酸。O5 保留為環酯氧；O1b 帶 HO1b 與 HO5 成為水。",
+          "highlight": [
+            "C1",
+            "O5"
+          ],
+          "mechanismState": 6,
+          "mechanismVariant": "lactonization"
+        },
+        {
+          "title": "水解恢復酸",
+          "equation": "葡萄糖酸-δ-內酯 + H2O ⇌ 葡萄糖酸",
+          "explanation": "水解與内酯化互逆；不能把內酯環氧理解成一般糖苷鍵。",
+          "viewModel": "gluconic-acid",
+          "modelNote": "29 原子的酸催化逆水解終態：葡萄糖酸與酸載體。機構內可切換水解方向，追蹤水氧 O1b 加回羧酸端。",
+          "mechanismState": 6,
+          "mechanismVariant": "hydrolysis"
+        },
+        {
+          "title": "酸解離參與pH變化",
+          "equation": "C6H12O7 + H2O ⇌ C6H11O7− + H3O+",
+          "explanation": "水接受羧酸的質子形成酸根與 H3O+；酸根的負電離域，畫一個共振式不表示有兩個不同反應中間體。實際 pH 還取決於濃度、緩衝及離子強度。",
+          "modelNote": "28 原子的酸／水解離分支：葡萄糖酸根與 H3O+，總電荷 0。負電以一個共振式表示，未計算實際 pH 或分布。",
+          "mechanismState": 1,
+          "mechanismVariant": "acid-dissociation"
+        }
+      ],
+      "foodContext": "葡萄糖酸-δ-內酯（GDL）的水解與酸化可連結豆製品凝固等食品應用。",
+      "limits": "提供內酯化、酸催化逆水解及酸解離三個可操作分支。只選 C5 參與的 δ-內酯，未展開 γ-內酯或所有氧交換。酸／水接力及四面體中間態是機構教學表示，不提供固定酸化速率、比例或凝固口感。",
+      "sources": [
+        {
+          "title": "Potentiometric study of the protonation and distribution equilibria of D-gluconic-delta-lactone acid",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18967090/"
+        },
+        {
+          "title": "Lactonization and Protonation of Gluconic Acid：研究報告與NMR證據",
+          "url": "https://www.osti.gov/servlets/purl/929316"
+        },
+        {
+          "title": "Acid induced gelation of soymilk … glucono-δ-lactone (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23870883/"
+        },
+        {
+          "title": "OpenStax 21.3: Fischer esterification and intramolecular ester formation",
+          "url": "https://openstax.org/books/organic-chemistry/pages/21-3-reactions-of-carboxylic-acids"
+        },
+        {
+          "title": "OpenStax 21.6: acid/base ester hydrolysis and oxygen-label evidence",
+          "url": "https://openstax.org/books/organic-chemistry/pages/21-6-chemistry-of-esters"
+        },
+        {
+          "title": "PubChem CID 6419706: D-gluconate identity",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6419706"
+        }
+      ],
+      "relatedIds": [
+        "glucose-bromine-oxidation",
+        "glucose-hemiacetal",
+        "ester-hydrolysis"
+      ],
+      "viewModel": "gluconic-acid",
+      "knowledgeCheck": {
+        "question": "葡萄糖酸形成δ-內酯與葡萄糖形成半縮醛，水的淨收支有何差別？",
+        "options": [
+          "兩者都固定失去三個水",
+          "內酯化失一個水，半縮醛成環不淨失水",
+          "半縮醛失水，內酯化不失水"
+        ],
+        "answerIndex": 1,
+        "explanation": "內酯化是羧酸與醇的分子內酯化；半縮醛是羰基加成。"
+      }
+    },
+    {
+      "id": "periodate-cleavage",
+      "title": "高碘酸鹽裂解：鄰二醇的C–C鍵",
+      "family": "氧化與還原",
+      "overallEquation": "HOCH₂CH₂OH + HIO₄ → 2 HCHO + HIO₃ + H₂O",
+      "equationType": "所選中性物種的配平淨式；未指定實際水溶液中高碘酸各物種的比例",
+      "conditions": "選取乙二醇＋HIO₄ 的中性最小模型、文獻比較的經典環狀 CM 支路；不由此推論普遍 pH、主導水合物種或最快反應路徑。",
+      "reactiveSite": "相鄰 C1–O1H 與 C2–O2H 先與 Ip 成環，隨後 C1–C2 斷裂；原醇氧各自成羰基氧。",
+      "steps": [
+        {
+          "title": "辨認局部鄰二醇與氧化劑",
+          "equation": "HOCH₂–CH₂OH + HIO₄ ⇌ 單酯 IC1_B（O1–Ip 成鍵及質子轉移）",
+          "explanation": "C1/C2 各連一個 OH。O1 先向 Ip 成鍵，HO1 轉移到氧化劑原本的 Op1。此處完整顯示兩個反應物，所有原子在後續狀態保留。",
+          "mechanismState": 0,
+          "highlight": [
+            "C1",
+            "C2",
+            "O1",
+            "O2",
+            "Ip"
+          ],
+          "modelNote": "乙二醇＋所選 HIO₄，共16原子、總電荷0；乙二醇不是糖，模型只示範局部官能基。",
+          "mechanismVariant": "cm-cyclic-cleavage"
+        },
+        {
+          "title": "五員環讓成鍵與裂解相連",
+          "equation": "單酯 IC1_B ⇌ 五員環 IC2_C → 2 HCHO + H₃IO₄",
+          "explanation": "O2 也與 Ip 成鍵，形成 Ip–O1–C1–C2–O2 五員環。裂解時 I–O1 鍵電子形成 C1=O1，C1–C2 鍵電子形成 C2=O2，另一 I–O2 鍵電子回到碘；碘由+7還原為+5，形式電荷仍為0。",
+          "mechanismState": 2,
+          "highlight": [
+            "Ip",
+            "O1",
+            "C1",
+            "C2",
+            "O2"
+          ],
+          "modelNote": "顯示六配位 IC2_C 的展開價層 Lewis 教學圖；配位模板不是原文 DFT 座標，環形成前尚未排出水。",
+          "mechanismVariant": "cm-cyclic-cleavage"
+        },
+        {
+          "title": "兩個羰基與含碘產物都留下",
+          "equation": "HOCH₂CH₂OH + HIO₄ → 2 HCHO + HIO₃ + H₂O",
+          "explanation": "C1/O1 與 C2/O2 分別形成兩個甲醛，醇氧沒有消失或被氧化劑氧取代。所選水氧為 Op2、兩氫為原羥基的 HO1/HO2；其他氧留在 HIO₃。具名水氧只是所選記帳，未預測溶液氧交換。",
+          "mechanismState": 4,
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "O2",
+            "Ip",
+            "Op2"
+          ],
+          "modelNote": "完整顯示兩個甲醛、HIO₃與一份水，仍為16原子及總電荷0。不可直接當整顆糖的唯一產物分布。",
+          "mechanismVariant": "cm-cyclic-cleavage"
+        }
+      ],
+      "foodContext": "鄰二醇氧化裂解可幫助理解糖類結構分析及多醣化學修飾。乙二醇在這裡只隔離局部官能基；糖的多個羥基、環構象、保護基及還原端，會改變可反應位點與後續產物。這不是一般烹調模型。",
+      "limits": "以 2023 年乙二醇／高碘酸計算研究中比較的經典 CM 支路重建：單酯、五員環、兩甲醛與 H₃IO₄，最後失水。未宣稱 CM 是唯一或最快路徑；原文另比較非環狀及其他支路。HIO₄ 是所選中性微觀態，不等於水中唯一或主要高碘酸物種。I=O 與 I–O 是教學 Lewis 記帳，碘形式電荷為0而氧化態由+7降至+5；不把形式鍵級當真實局域鍵或原子部分電荷。含碘配位幾何為示意模板，未計算其反應能量、速率或完整糖的唯一裂解總式。",
+      "sources": [
+        {
+          "title": "2023 原始乙二醇／高碘酸 DFT 研究：比較 CM 與其他支路",
+          "url": "https://doi.org/10.1039/D2CP04764K"
+        },
+        {
+          "title": "作者所屬大學公開論文：Fig. 3 及中間體討論",
+          "url": "https://makromol.uwr.edu.pl/wp-content/uploads/sites/719/2025/03/Malaprade_2023_1c383c.pdf"
+        },
+        {
+          "title": "2017 原始研究：高碘酸水溶液的平衡、光譜與結構",
+          "url": "https://doi.org/10.1021/acs.inorgchem.7b01911"
+        }
+      ],
+      "relatedIds": [
+        "glucose-bromine-oxidation",
+        "glucose-double-oxidation"
+      ],
+      "viewModel": "ethylene-glycol",
+      "knowledgeCheck": {
+        "question": "此氧化與只把C1醛變羧酸的主要差別是？",
+        "options": [
+          "它切斷鄰二醇間的C–C鍵",
+          "它不改變任何共價鍵",
+          "它只把相機轉過去"
+        ],
+        "answerIndex": 0,
+        "explanation": "高碘酸鹽的代表作用是鄰二醇氧化裂解，碳骨架也會改變。"
+      }
+    },
+    {
+      "id": "osazone-formation",
+      "title": "糖脎形成：C1與C2共同衍生化",
+      "family": "羰基衍生化",
+      "overallEquation": "C6H12O6 + 3 C6H8N2 → C18H22N4O4 + C6H7N + NH3 + 2 H2O",
+      "equationType": "配平經典淨式；C6H8N2=苯肼，C18H22N4O4=葡萄糖脎，C6H7N=苯胺",
+      "conditions": "還原糖與過量苯肼的經典衍生化；此卡呈現結構與總收支，機構不指定成唯一詳細路徑。",
+      "reactiveSite": "C1與C2轉為糖脎的雙腙骨架；C3–C5配置用於比較剩餘立體資訊。",
+      "steps": [
+        {
+          "title": "先形成糖苯腙",
+          "equation": "R–CHO + H2N–NHPh ⇌ R–CH=N–NHPh + H2O（官能基簡式）",
+          "explanation": "羰基縮合先形成苯腙；Ph代表苯基。",
+          "viewModel": "glucose-open",
+          "modelNote": "3D是起始葡萄糖，糖苯腙尚未建模。",
+          "highlight": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "title": "C2也參與反應",
+          "equation": "糖苯腙的C1/C2區域 ⇢ 雙腙前體（多步重排／氧化收支示意）",
+          "explanation": "第二個位置不再保有原C2的OH立體中心；不同教材機構需與淨式區分。",
+          "modelNote": "3D沿用參考分子；本步中間體或整個反應系統尚未建模。請依反應式辨認本步變化。"
+        },
+        {
+          "title": "得到同一糖脎的結構理由",
+          "equation": "D-葡萄糖／D-甘露糖／D-果糖 ⇢ 相同葡萄糖脎（分別反應的關係示意）",
+          "explanation": "三者在被改造的C1/C2區域以外具有相同配置，所以糖脎不能單獨區分它們。",
+          "modelNote": "糖脎、苯胺、氨與水均未建立完整3D場景；仍顯示起始糖參考。"
+        }
+      ],
+      "foodContext": "歷史糖類鑑別與立體配置推論的教材例；與食品中的梅納反應區分。",
+      "limits": "總式中的第三當量苯肼不都保留在糖脎骨架。反應存在不同機構表述，此卡沒有把簡化氧化描述宣稱為已模擬的基本步驟。",
+      "sources": [
+        {
+          "title": "Yale Chemistry：Osazone Formation",
+          "url": "https://ursula.chem.yale.edu/~chem220/chem220js/STUDYAIDS/Osazone/osazone.html"
+        },
+        {
+          "title": "NPTEL Organic Chemistry：Carbohydrate reactions, osazone formation",
+          "url": "https://archive.nptel.ac.in/content/storage2/courses/104103071/module11/lec31/3.html"
+        }
+      ],
+      "relatedIds": [
+        "glucose-mannose-epimerization",
+        "glucose-fructose-isomerization",
+        "maillard-schiff-base"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "為何葡萄糖、甘露糖與果糖可形成相同糖脎？",
+        "options": [
+          "它們原本是同一種糖",
+          "糖脎形成改造C1/C2，剩餘配置相同",
+          "所有六個碳都被移除"
+        ],
+        "answerIndex": 1,
+        "explanation": "影響三者差異的C1/C2在糖脎形成中被共同改造。"
+      }
+    },
+    {
+      "id": "ester-hydrolysis",
+      "title": "糖乙酸酯水解：解除羥基保護",
+      "family": "羥基衍生化",
+      "overallEquation": "C16H22O11 + 5 OH− → C6H12O6 + 5 CH3COO−",
+      "equationType": "配平鹼性水解淨式；理想完全去乙醯化",
+      "conditions": "適當水解條件；此卡選鹼性酯水解的記帳方式。敏感糖的實際去保護須顧及副反應。",
+      "reactiveSite": "糖氧所連乙醯基的C(=O)–O鍵；此處不是直接切糖環的C–O骨架。",
+      "steps": [
+        {
+          "title": "辨識酯鍵",
+          "equation": "糖–O–C(=O)CH3",
+          "explanation": "反應中心是乙醯基羰基碳；糖骨架上的氧可保留成OH。",
+          "viewModel": "glucose-pentaacetate",
+          "modelNote": "59 原子：α-葡萄糖五乙酸酯與 5 個 OH−，总電荷 −5；不包含旁觀反離子。",
+          "mechanismState": 0
+        },
+        {
+          "title": "酯的親核醯基取代",
+          "equation": "R–OCOCH3 + OH− → R–OH + CH3COO−",
+          "explanation": "每個位點可展開羥離子加成、四面體消除與質子轉移三步；攻擊乙醯基的羰基碳，不是糖碳。旁觀反離子省略，原子及負電均留在所示系統。",
+          "modelNote": "59 原子的第一個 O1 乙醯基四面體加成物；Ob1 接上 Ca1，Oa1 暫帶負電。可操作 15 次轉換，完整查看五個位點。",
+          "mechanismState": 1
+        },
+        {
+          "title": "五個位點完全去保護",
+          "equation": "Glc–(OCOCH3)5 + 5 OH− → Glc–(OH)5 + 5 CH3COO−",
+          "explanation": "所選五位點教學路徑恢復全部 OH 並保留初始 α 配置。O1 去保護後就可與變旋競爭，不必等五個位點完成；此模型未展開這些競爭支路。",
+          "viewModel": "glucose-alpha",
+          "modelNote": "59 原子的終態：α-葡萄糖與 5 個乙酸根，總電荷仍為 −5。糖原有的氧都保留；五個 OH− 已淨消耗。",
+          "mechanismState": 15
+        }
+      ],
+      "foodContext": "連結糖的合成與分析所用保護／去保護概念；不是預設食品中所有酯都同速水解。",
+      "limits": "15 次轉換示範 O1→O2→O3→O4→O6 的教學選序，不預測實際位置選擇性、醯基遷移、部分去保護分布、變旋或降解。若改採酸水解，應寫水與乙酸，不可沿用鹼性羧酸根式；此處每個 OH− 都有淨消耗。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 21.6：Chemistry of Esters",
+          "url": "https://openstax.org/books/organic-chemistry/pages/21-6-chemistry-of-esters"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Reactions of Monosaccharides",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "glucose-acetylation",
+        "gluconic-acid-lactonization",
+        "methyl-glucoside-hydrolysis"
+      ],
+      "viewModel": "glucose-pentaacetate",
+      "knowledgeCheck": {
+        "question": "此鹼性淨式為何把乙醯基產物寫成乙酸根？",
+        "options": [
+          "因為酸在鹼性介質會去質子化",
+          "因為氫原子不守恆",
+          "因為糖上的氧全部消失"
+        ],
+        "answerIndex": 0,
+        "explanation": "鹼性酯水解伴隨羧酸去質子化，需把羧酸根與鹼消耗列入收支。"
+      }
+    },
+    {
+      "id": "enzymatic-transglycosylation",
+      "title": "酵素轉糖基：蔗糖轉成果寡糖",
+      "family": "糖苷與水解",
+      "overallEquation": "2 C12H22O11(蔗糖) → C18H32O16(蔗果三糖) + C6H12O6(葡萄糖)",
+      "equationType": "配平代表轉果糖基分支；整個反應系統另有水解與延長網路",
+      "conditions": "具轉果糖基活性的合適酵素；糖濃度、受體種類與酵素決定水解／轉移競爭。",
+      "reactiveSite": "供體蔗糖的果糖基移到另一個糖受體；代表產物選1-kestose。",
+      "steps": [
+        {
+          "title": "同一種糖可作供體與受體",
+          "equation": "供體蔗糖 + 受體蔗糖",
+          "explanation": "此代表例需要兩個蔗糖分子，不是只把一顆蔗糖旋轉成三糖。",
+          "viewModel": "sucrose",
+          "modelNote": "3D僅顯示一個蔗糖代表；實際供體與受體各一個。原子編號為本模型局部標籤，未作跨反應映射。"
+        },
+        {
+          "title": "把糖基交給糖受體",
+          "equation": "酵素–果糖基 + 蔗糖 ⇢ 酵素 + 1-kestose（酵素中間體示意）",
+          "explanation": "適當保留型酵素可经糖基–酵素中間體；由糖OH接收糖基而不是由水接收。",
+          "modelNote": "3D沿用參考分子；本步中間體或整個反應系統尚未建模。請依反應式辨認本步變化。"
+        },
+        {
+          "title": "閱讀總式與競爭支線",
+          "equation": "2 蔗糖 → 1-kestose + 葡萄糖；蔗糖 + 水 → 葡萄糖 + 果糖（水解支線）",
+          "explanation": "主總式沒有淨消耗水，但並行水解會改變混合物。",
+          "viewModel": "1-kestose",
+          "modelNote": "顯示1-kestose三糖產物；葡萄糖共產物、酵素中間體與更長果寡糖未在同一模型呈現。局部ID不構成跨反應映射。"
+        }
+      ],
+      "foodContext": "果寡糖等功能性配料的酵素製備可利用糖基轉移；本卡只說明化學，不推定個人健康效果。",
+      "limits": "不同酵素可生成1-kestose、6-kestose或更長產物；不保證只有一種三糖。此处中間體示意限適當保留型酵素。",
+      "sources": [
+        {
+          "title": "Molecular insight into regioselectivity of transfructosylation catalyzed by GH68 levansucrase and β-fructofuranosidase (2021)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7961098/"
+        },
+        {
+          "title": "Synthesis of Fructooligosaccharides by IslA4, a truncated inulosucrase from Leuconostoc citreum (2015)",
+          "url": "https://link.springer.com/article/10.1186/s12896-015-0116-1"
+        },
+        {
+          "title": "PubChem: 1-kestose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/440080"
+        }
+      ],
+      "relatedIds": [
+        "sucrose-inversion",
+        "methyl-glucoside-formation",
+        "sucrose-synthase-udp-glucose-transfer"
+      ],
+      "viewModel": "sucrose",
+      "knowledgeCheck": {
+        "question": "與水解相比，轉糖基的受體在此例是什麼？",
+        "options": [
+          "另一個蔗糖的羥基",
+          "只有水",
+          "游離氧原子"
+        ],
+        "answerIndex": 0,
+        "explanation": "水解由水接受糖基；此轉移分支讓糖受體取得果糖基。"
+      }
+    },
+    {
+      "id": "kiliani-fischer-glucose",
+      "title": "Kiliani–Fischer 增碳：D-阿拉伯糖 → D-葡萄糖",
+      "family": "碳骨架增減",
+      "overallEquation": "D-阿拉伯糖(C5H10O5) + HCN + H2O + 2 H+ + 2 e− → D-葡萄糖(C6H12O6) + NH3",
+      "equationType": "四個化學階段相加的形式元素／電荷配平總帳；H+、e− 為形式還原當量，不是單一步驟或實際試劑清單",
+      "conditions": "選 1952 年 Isbell 等的歷史氰醇→水解／分離→δ-內酯→鈉汞齊還原路線。氰化物加成的緩衝條件會改變兩個差向異構物的比例；後續還原使用弱酸性環境。本卡只供化學概念閱讀，不提供實驗操作參數。",
+      "reactiveSite": "開鏈 D-阿拉伯糖原醛基 aC1 成為產物 C2；氰化物碳 Cn 成為產物 C1。新 C2 的 Fischer 投影羥基在右側。",
+      "steps": [
+        {
+          "title": "辨認五碳起點與新增碳",
+          "equation": "D-阿拉伯糖：aC1–aC5；氰化物碳：Cn → 己糖 C1",
+          "explanation": "開鏈 D-阿拉伯糖的 aC1 是醛基碳。延長後它成為 C2，原 aC2–aC5 依序成為 C3–C6。",
+          "viewModel": "arabinose-open",
+          "modelNote": "已驗證的開鏈 D-阿拉伯糖 3D 代表構象；原醛基 aC1 之後成為新糖 C2。",
+          "highlight": [
+            "aC1",
+            "aO1"
+          ]
+        },
+        {
+          "title": "氰醇加成建立新 C2 配置",
+          "equation": "C5H10O5 + HCN → C6H11NO5（葡萄糖酸支的氰醇腈）",
+          "explanation": "Cn 與原 aC1 成鍵，原醛基氧成為新 C2–OH；新 C2 產生兩種配置，本卡追蹤最終通往 D-葡萄糖的一支。此支羥基在開鏈 Fischer 投影的 C2 右側。",
+          "viewModel": "glucononitrile",
+          "modelNote": "已檢核葡萄糖酸支的氰醇腈分子圖與 C2 配置；沒有直接量得的腈 3D 構象或溶液比例。",
+          "highlight": [
+            "Cn",
+            "Nn",
+            "aC1",
+            "aO1"
+          ]
+        },
+        {
+          "title": "將腈支轉為 D-葡萄糖酸",
+          "equation": "C6H11NO5 + 2 H2O → C6H12O7 + NH3（形式水解淨式）",
+          "explanation": "葡萄糖酸支保留新增的 C1 與 C2 配置。文獻提出亞胺基內酯等水解階段；本行僅核對始末元素，不能當作一個已證實的基本電子轉移步驟。",
+          "viewModel": "gluconic-acid",
+          "modelNote": "現有中性 D-葡萄糖酸代表結構只顯示有機端點；氨／銨、鹽及水解中間體未建入同一場景。",
+          "highlight": [
+            "C1",
+            "C2"
+          ]
+        },
+        {
+          "title": "分離並選 D-葡萄糖酸-δ-內酯",
+          "equation": "C6H12O7 → C6H10O6 + H2O",
+          "explanation": "選定歷史實例以 D-葡萄糖酸 C1 與 O5 成六員 δ-內酯；這與甘露糖支的 γ-內酯不同。酸與其他內酯可共存，單一淨式不給平衡比例。",
+          "viewModel": "glucono-delta-lactone",
+          "modelNote": "現有 δ-內酯 3D 身分；水分子和酸鹼／氧交換過程未同時顯示。",
+          "highlight": [
+            "C1",
+            "O5"
+          ]
+        },
+        {
+          "title": "形式還原得到 D-葡萄糖醛基",
+          "equation": "C6H10O6 + 2 H+ + 2 e− → C6H12O6（有機部分的形式半反應）",
+          "explanation": "歷史實驗用鈉汞齊把所選內酯還原為 D-葡萄糖；本式只記錄還原當量，未將汞、鈉、鹽與質子來源做逐原子機構。開鏈醛糖在水中仍可成環。",
+          "viewModel": "glucose-open",
+          "modelNote": "現有開鏈 D-葡萄糖端點；不是反應瞬間的唯一溶液形式，也未顯示共產物。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2"
+          ]
+        }
+      ],
+      "foodContext": "這是解析單糖碳數與立體關係的經典實驗例；不代表食品製程或可食用的轉化程序。",
+      "limits": "這是選定歷史路線的概覽。實驗同時產生葡萄糖酸／甘露糖酸差向異構支，比例依條件而變，不能預設 1:1。氰醇到酸是形式水解總帳，還原是形式半反應；都未建完整試劑、副產物、質子化狀態與電子箭頭。只固定可靠的碳位置映射，不聲稱水氧或質子的同位素去向；氰醇、酸與內酯 C2 的 CIP 字母不能直接由終產物複製。現代 Pd/H2 經亞胺的路線另行討論，不能拼接到此卡。",
+      "sources": [
+        {
+          "title": "Isbell 等（1952），D-arabinose 到 D-glucose-1-14C／D-mannose-1-14C 的原始實驗",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/048/3/V48.N03.A01.pdf"
+        },
+        {
+          "title": "Isbell 等（1955），D-arabinose-1-14C 對應產物 C2 的標記實驗",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/54/jresv54n4p201_A1b.pdf"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Kiliani–Fischer 增碳與歷史／現代路線",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "kiliani-fischer-mannose",
+        "gluconic-acid-lactonization",
+        "glucose-mannose-epimerization"
+      ],
+      "viewModel": "arabinose-open",
+      "knowledgeCheck": {
+        "question": "延長後 D-葡萄糖的 C1 碳從哪裡來？",
+        "options": [
+          "氰化物的碳",
+          "D-阿拉伯糖原有的 C1",
+          "鈉汞齊中的鈉"
+        ],
+        "answerIndex": 0,
+        "explanation": "氰化物提供新 C1；D-阿拉伯糖原有的醛基 aC1 成為新糖 C2。"
+      }
+    },
+    {
+      "id": "kiliani-fischer-mannose",
+      "title": "Kiliani–Fischer 增碳：D-阿拉伯糖 → D-甘露糖",
+      "family": "碳骨架增減",
+      "overallEquation": "D-阿拉伯糖(C5H10O5) + HCN + H2O + 2 H+ + 2 e− → D-甘露糖(C6H12O6) + NH3",
+      "equationType": "四個化學階段相加的形式元素／電荷配平總帳；H+、e− 為形式還原當量，不是單一步驟或實際試劑清單",
+      "conditions": "選 1952 年 Isbell 等的歷史氰醇→水解／分離→γ-內酯→鈉汞齊還原路線。氰化物加成的緩衝條件會改變兩個差向異構物的比例；後續還原使用弱酸性環境。本卡只供化學概念閱讀，不提供實驗操作參數。",
+      "reactiveSite": "開鏈 D-阿拉伯糖原醛基 aC1 成為產物 C2；氰化物碳 Cn 成為產物 C1。新 C2 的 Fischer 投影羥基在左側。",
+      "steps": [
+        {
+          "title": "辨認共同的五碳起點",
+          "equation": "D-阿拉伯糖：aC1–aC5；氰化物碳：Cn → 己糖 C1",
+          "explanation": "本支與葡萄糖支共用 D-阿拉伯糖起點；原有 aC2–aC4 的立體空間配置延伸到新糖 C3–C5。",
+          "viewModel": "arabinose-open",
+          "modelNote": "已驗證的開鏈 D-阿拉伯糖 3D 代表構象；原醛基 aC1 之後成為新糖 C2。",
+          "highlight": [
+            "aC1",
+            "aO1"
+          ]
+        },
+        {
+          "title": "氰醇加成選另一個新 C2 配置",
+          "equation": "C5H10O5 + HCN → C6H11NO5（甘露糖酸支的氰醇腈）",
+          "explanation": "Cn 仍成為新 C1，但新 C2 的羥基在開鏈 Fischer 投影的左側；與葡萄糖支僅此新立體中心不同。此時不能直接照抄最終醛糖的 CIP 字母。",
+          "viewModel": "mannononitrile",
+          "modelNote": "已檢核甘露糖酸支的氰醇腈分子圖與另一種 C2 配置；沒有直接量得的腈 3D 構象。",
+          "highlight": [
+            "Cn",
+            "Nn",
+            "aC1",
+            "aO1"
+          ]
+        },
+        {
+          "title": "將腈支轉為 D-甘露糖酸",
+          "equation": "C6H11NO5 + 2 H2O → C6H12O7 + NH3（形式水解淨式）",
+          "explanation": "甘露糖酸仍保留新 C2 的另一立體配置。腈水解在原始反應系統有多種中間型態，不能以本行當作唯一一個基本微步。",
+          "viewModel": "mannonic-acid",
+          "modelNote": "已驗證中性 D-甘露糖酸的代表結構；NH3／NH4+、鹽及水解中間體沒有建在同一場景。",
+          "highlight": [
+            "Cn",
+            "aC1"
+          ]
+        },
+        {
+          "title": "分離並選 D-甘露糖酸-γ-內酯",
+          "equation": "C6H12O7 → C6H10O6 + H2O",
+          "explanation": "1952 年選定實驗用 D-甘露糖酸 C1 與 O4 成五員 γ-內酯；不能借用葡萄糖酸 C1–O5 的 δ-內酯圖。",
+          "viewModel": "mannono-gamma-lactone",
+          "modelNote": "已驗證 D-甘露糖酸-γ-內酯的 C1–O4 五員環；水及並存酸形態未同時顯示。",
+          "highlight": [
+            "Cn",
+            "aO3"
+          ]
+        },
+        {
+          "title": "形式還原得到 D-甘露糖醛基",
+          "equation": "C6H10O6 + 2 H+ + 2 e− → C6H12O6（有機部分的形式半反應）",
+          "explanation": "歷史實驗用鈉汞齊把所選 γ-內酯還原為 D-甘露糖。形式電子／質子式不是汞齊在水中的完整機構，產物可繼續環鏈平衡。",
+          "viewModel": "mannose-open",
+          "modelNote": "現有開鏈 D-甘露糖端點；未展示還原試劑、副產物或糖的環形分布。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2"
+          ]
+        }
+      ],
+      "foodContext": "這個對照支說明新增一個手性中心如何由共同原料得到不同單糖；不代表食品製程或可食用的轉化程序。",
+      "limits": "本卡與葡萄糖支屬同一混合物的兩個差向異構路徑，選定 γ-內酯是 1952 年實驗所用的分離／還原前體，不能推稱所有條件只存在 γ 形。氰醇水解和內酯還原均為形式記帳，未建立試劑、副產物、水氧交換、質子微態與電子箭頭。新 C2 的配置須用固定碳映射和分子圖檢核；終產物 CIP 字母不能直接貼給氰醇、酸或內酯。現代 Pd/H2 亞胺路線不在本卡內。",
+      "sources": [
+        {
+          "title": "Isbell 等（1952），D-arabinose 到 D-glucose-1-14C／D-mannose-1-14C 的原始實驗",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/048/3/V48.N03.A01.pdf"
+        },
+        {
+          "title": "Isbell 等（1955），D-arabinose-1-14C 對應產物 C2 的標記實驗",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/54/jresv54n4p201_A1b.pdf"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：Kiliani–Fischer 增碳與差向異構物",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "kiliani-fischer-glucose",
+        "glucose-mannose-epimerization",
+        "gluconic-acid-lactonization"
+      ],
+      "viewModel": "arabinose-open",
+      "knowledgeCheck": {
+        "question": "選定歷史實驗的甘露糖支，用哪個羥基與 C1 成環作還原前體？",
+        "options": [
+          "O4，形成 γ-內酯",
+          "O5，形成葡萄糖酸-δ-內酯",
+          "O6，形成吡喃半縮醛"
+        ],
+        "answerIndex": 0,
+        "explanation": "所選甘露糖酸支以 C1–O4 的五員 γ-內酯作還原前體；葡萄糖酸支選 C1–O5 的 δ-內酯。"
+      }
+    },
+    {
+      "id": "wohl-glucose-arabinose",
+      "title": "Wohl–Zemplén 縮鏈：D-葡萄糖 → D-阿拉伯糖",
+      "family": "碳骨架增減",
+      "overallEquation": "D-葡萄糖(C6H12O6) + NH2OH → D-阿拉伯糖(C5H10O5) + HCN + 2 H2O",
+      "equationType": "省略乙醯化／甲醇解載體的形式元素配平淨式；HCN 表示酸化後的含氮離去片段，不代表鹼性階段的唯一物種或完整實際試劑帳本",
+      "conditions": "選 1940 年 Organic Syntheses 所核驗的 Zemplén–Kiss 改法：葡萄糖先與羥胺形成肟，以乙酸酐／乙酸鈉轉為五乙醯基 D-葡萄糖酸腈，再在甲醇鈉／甲醇條件下脫保護與縮鏈，酸性後處理取得 D-阿拉伯糖。Wohl 原法用氨性銀鹽處理相同腈，與本卡選法不可混寫；此卡不提供實驗操作參數。",
+      "reactiveSite": "開鏈 D-葡萄糖原 C1 醛基 → 肟／腈 → 含氮離去片段；原 C2 羥基碳成為 D-阿拉伯糖的新 C1 醛基。原 C3–C6 依序成為新 C2–C5。",
+      "steps": [
+        {
+          "title": "固定開鏈葡萄糖的碳標籤",
+          "equation": "D-葡萄糖：gC1(CHO)–gC2(OH)–gC3(OH)–gC4(OH)–gC5(OH)–gC6(CH2OH)",
+          "explanation": "先標住原醛基 gC1；縮鏈最後丟掉的就是這一個碳。原 gC2 將成為新戊糖的醛基碳。",
+          "viewModel": "glucose-open",
+          "modelNote": "現有開鏈 D-葡萄糖 3D 端點；溶液中的環鏈分布與試劑未建入場景。",
+          "highlight": [
+            "C1",
+            "C2",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "title": "羥胺縮合成葡萄糖肟",
+          "equation": "C6H12O6 + NH2OH → C6H13NO6 + H2O（選定開鏈肟的形式淨式）",
+          "explanation": "原 gC1 的羰基經羥胺縮合轉為 C=N–OH。1975 年實測顯示 D-葡萄糖肟在固態與水溶液可有不同環鏈及 E/Z 形式，不能把本式當作唯一可觀測物種。",
+          "modelNote": "已驗證所選開鏈 (E)-D-葡萄糖肟 3D 端點；其他環鏈與 E/Z 形式可並存，羥胺及水未在同一場景顯示。",
+          "viewModel": "glucose-oxime-e-open",
+          "highlight": [
+            "C1",
+            "Nox",
+            "Oox",
+            "C2"
+          ]
+        },
+        {
+          "title": "乙醯化並脫水為五乙醯基腈",
+          "equation": "C6H13NO6 + 5 (CH3CO)2O → C16H21NO10 + 5 CH3COOH + H2O（形式配平）",
+          "explanation": "乙酸酐在乙酸鈉存在下把五個糖羥基乙醯化，肟端脫水為腈；經核驗的制備報告分離出五乙醯基 D-葡萄糖酸腈。此處把整段寫成單一總帳，不指定肟 O-乙醯化等瞬時中間體的唯一順序。",
+          "modelNote": "已驗證五個糖 OH 乙醯化的 D-葡萄糖酸腈代表端點；PubChem 僅直接提供連接身分，D-gluco 配置另由原始制備與去保護立體探針支持。",
+          "viewModel": "penta-o-acetyl-glucononitrile",
+          "highlight": [
+            "C1",
+            "N1",
+            "C2",
+            "O2"
+          ]
+        },
+        {
+          "title": "甲醇解的形式氰醇骨架",
+          "equation": "C16H21NO10 + 5 CH3OH → C6H11NO5 + 5 CH3COOCH3（形式酯交換帳本）",
+          "explanation": "甲醇鈉／甲醇處理五乙醯基腈。所列游離葡萄糖酸腈是用來追蹤 gC1–gC2 鍵與五個 OH 的形式骨架；來源沒有把它分離為本法的穩定產物，五個乙酸甲酯亦為元素帳本推算，非實測產物分佈。",
+          "viewModel": "glucononitrile",
+          "modelNote": "已驗證的未保護葡萄糖酸腈代表骨架：Cn／Nn 是原葡萄糖 gC1 所在腈端，aC1／aO1 是原 gC2 羥基端。此形式端點非本程序分離到的中間體。",
+          "highlight": [
+            "Cn",
+            "Nn",
+            "aC1",
+            "aO1"
+          ]
+        },
+        {
+          "title": "移除原 gC1，得到 D-阿拉伯糖",
+          "equation": "C6H11NO5 → C5H10O5 + HCN（酸性後處理後的形式淨式）",
+          "explanation": "形式逆氰醇裂解使原葡萄糖 gC1 隨含氮片段離去；原 gC2 變為 D-阿拉伯糖 aC1，gC3–gC6 變為 aC2–aC5。鹼性反應液與酸化後的 CN−／HCN 形態不同；實驗報告明載需要移除 HCN。",
+          "viewModel": "arabinose-open",
+          "modelNote": "已驗證開鏈 D-阿拉伯糖端點；不表示所有溶液環形或含氮共產物。",
+          "highlight": [
+            "aC1",
+            "aO1",
+            "aC2"
+          ]
+        }
+      ],
+      "foodContext": "用於辨認單糖碳數與手性資訊如何沿醛基端重編號；這是經典有機化學例子，不代表食品加工流程。",
+      "limits": "本卡選 Zemplén–Kiss 改法，並非 Wohl 最初的氨性銀鹽處理；兩種方法不能拼成一套試劑或收率。總式僅追蹤形式有機骨架與 NH2OH；省略乙酸酐、甲醇及鹽的相消帳本，不能當作實驗反應式或完整毒物收支。所選 E-肟與受保護腈只建中性 3D 端點，羥胺、水與乙醯化試劑沒有同場逐原子模型；游離腈僅作概念端點，非本程序分離到的中間體。碳映射由官能基轉換推得；未以同位素實驗在本選定程序中逐原子證實 O、H 去向。無逐步電子箭頭、能障、動力學、全部酸鹼態及環鏈分佈；1940 年報告的產率是特定條件的結果，不能外推。",
+      "sources": [
+        {
+          "title": "Clarke 與 Nagy，Organic Syntheses 1940：五乙醯基 D-葡萄糖酸腈的經核驗制備",
+          "url": "https://www.orgsyn.org/Content/pdfs/procedures/CV3P0690.pdf"
+        },
+        {
+          "title": "Braun，Organic Syntheses 1940：五乙醯基腈經 Zemplén 改法製得 D-阿拉伯糖",
+          "url": "https://www.orgsyn.org/demo.aspx?prep=CV3P0101"
+        },
+        {
+          "title": "Finch 與 Merchant，J. Chem. Soc., Perkin Trans. 1（1975）：葡萄糖肟的固態與溶液結構",
+          "url": "https://doi.org/10.1039/P19750001682"
+        }
+      ],
+      "relatedIds": [
+        "kiliani-fischer-glucose",
+        "kiliani-fischer-mannose",
+        "osazone-formation"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "Wohl 縮鏈後，D-阿拉伯糖的 C1 對應原 D-葡萄糖的哪個碳？",
+        "options": [
+          "原 C1",
+          "原 C2",
+          "原 C6"
+        ],
+        "answerIndex": 1,
+        "explanation": "原葡萄糖 C1 隨含氮片段移除；原 C2 成為新醛基 C1。"
+      }
+    },
+    {
+      "id": "cellobiose-reducing-end-mutarotation",
+      "title": "纖維二糖的還原端：α ⇌ 開鏈 ⇌ β",
+      "family": "環鏈平衡",
+      "overallEquation": "β-D-Glcp-(1→4)-α-D-Glcp ⇌ β-D-Glcp-(1→4)-開鏈 D-Glc ⇌ β-D-Glcp-(1→4)-β-D-Glcp；各形皆為 C12H22O11",
+      "equationType": "異頭物與開鏈形式的可逆同分異構式；沒有淨水解或淨失水",
+      "conditions": "纖維二糖在水溶液中，其游離還原端半縮醛可開環並重新關環；此卡以中性代表結構追蹤端點，不指定酸鹼催化微步、時間、pH 或平衡比例。",
+      "reactiveSite": "現有 3D 模型的還原端 B-C1 為 C9，B-環氧 O5 為 O3，B-異頭羥氧 O1 為 O6；非還原端 A-C1–橋氧–B-C4 為 C6–O2–C7，整條路線保持此糖苷鍵。",
+      "steps": [
+        {
+          "title": "辨認 α 還原端與固定的 β(1→4) 鍵",
+          "equation": "β-D-Glcp-(1→4)-α-D-Glcp（C12H22O11）",
+          "explanation": "左側非還原端的 A-C1–O–B-C4 是 β 糖苷鍵；右側 B-C1 仍帶游離半縮醛 OH，這個 B-C1 在此起點選 α。兩個 β／α 標籤描述不同的異頭碳。",
+          "viewModel": "cellobiose",
+          "modelNote": "既有 PubChem 441014 身分的 α 還原端纖維二糖代表 3D 構象；它不是整條纖維素或溶液物種比例。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "只打開還原端 B 的半縮醛",
+          "equation": "β-D-Glcp-(1→4)-α-D-Glcp ⇌ β-D-Glcp-(1→4)-開鏈 D-Glc（C12H22O11）",
+          "explanation": "B-C1–B-O5 斷開，B-C1–B-O1 變成醛羰基；原異頭 OH 的氫轉到原環氧，B-C1 暫失異頭立體配置。A-C1–O–B-C4 保持連接，沒有釋出游離葡萄糖。",
+          "viewModel": "cellobiose-open",
+          "modelNote": "同分子開鏈還原端的單一中性代表構象；未顯示溶劑、催化劑或質子接力的逐步電子流。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "還原端從另一面關環為 β",
+          "equation": "β-D-Glcp-(1→4)-開鏈 D-Glc ⇌ β-D-Glcp-(1→4)-β-D-Glcp（C12H22O11）",
+          "explanation": "同一 B-O5 再與平面的 B-C1 成鍵，選到 β 還原端；左側固定的 β(1→4) 糖苷鍵沒有改變。這是變旋，不是糖苷鍵水解，也不能只靠旋轉 B-C1–OH 單鍵完成。",
+          "viewModel": "cellobiose-beta",
+          "modelNote": "所選 β 還原端 PubChem 10712 身分的代表 3D 構象；三個端點之間的座標變化不是計算反應軌跡。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        }
+      ],
+      "foodContext": "纖維素局部水解可得到纖維二糖；辨認它的 β 糖苷鍵和仍可變旋的還原端，是理解還原性寡糖的第一步。",
+      "limits": "此卡選纖維二糖為還原性雙醣的代表，只有 α、開鏈、β 三個中性 3D 端點。來源支持還原端變旋，並未測定本模型的三個構象、全體開鏈比例或指定條件的反應速率。端點無顯式酸鹼催化劑、溶劑和質子接力，因此不是逐原子電子機構；獨立 MMFF94 構象也不能拿來計算水溶液 α/β 平衡。麥芽糖、乳糖可作後續比較，蔗糖兩個異頭碳都被糖苷鍵佔用，不能直接套用這個還原端路線。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.8：纖維二糖的 β(1→4) 鍵與還原端變旋",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "Mutarotation Rates and Equilibrium of Simple Carbohydrates：水溶液測量包含纖維二糖",
+          "url": "https://www.jstage.jst.go.jp/article/apcche/2004/0/2004_0_110/_article/-char/ja"
+        },
+        {
+          "title": "PubChem 441014：α 還原端纖維二糖身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441014"
+        },
+        {
+          "title": "PubChem 10712：β 還原端纖維二糖身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/10712"
+        }
+      ],
+      "relatedIds": [
+        "cellobiose-reducing-end-reduction",
+        "cellobiose-bromine-cellobionic-acid",
+        "cellulose-hydrolysis",
+        "glucose-mutarotation",
+        "maltose-hydrolysis",
+        "lactose-hydrolysis",
+        "sucrose-inversion",
+        "reducing-disaccharide-end-comparison"
+      ],
+      "viewModel": "cellobiose",
+      "knowledgeCheck": {
+        "question": "纖維二糖還原端由 α 變成 β 時，原有的 β(1→4) 糖苷鍵如何變化？",
+        "options": [
+          "保持連接；只改變另一端 B-C1 的異頭配置",
+          "先水解成兩個游離葡萄糖，再接回",
+          "改為 α(1→6) 糖苷鍵"
+        ],
+        "answerIndex": 0,
+        "explanation": "還原端的半縮醛可開環再關環；非還原端 A-C1–O–B-C4 糖苷鍵全程保持。"
+      }
+    },
+    {
+      "id": "cellobiose-reducing-end-reduction",
+      "title": "纖維二糖還原端還原：纖維二糖醇",
+      "family": "氧化與還原",
+      "overallEquation": "C12H22O11（纖維二糖） + 2 H+ + 2 e− → C12H24O11（纖維二糖醇）；有機部分的形式半反應",
+      "equationType": "形式 2 電子還原半反應；實驗用 NaBH4，式中不表示實際硼試劑用量或後處理物種",
+      "conditions": "已發表的實例以水中的 NaBH4 還原纖維二糖，分離纖維二糖醇；本卡只顯示同一完整雙醣的還原端開鏈羰基及產物。",
+      "reactiveSite": "非還原端 β(1→4) 糖苷橋 C6–O2–C7 保持；還原端 B-C1 為 C9、原 B-O1 為 O6，開鏈 C9=O6 還原為 C9–O6H 與 C9–H。B-O5 為 O3，在開鏈及產物保持羥基。",
+      "steps": [
+        {
+          "title": "辨認完整纖維二糖的自由還原端",
+          "equation": "β-D-Glcp-(1→4)-α-D-Glcp（C12H22O11）",
+          "explanation": "左側非還原端的 β(1→4) 糖苷橋仍連著右側葡萄糖殘基。右側游離半縮醛可開環；NaBH4 還原的是開鏈端的醛羰基，並非直接把環式 C1–O 單鍵變成醇。",
+          "viewModel": "cellobiose",
+          "modelNote": "既有 α 還原端的中性代表 3D 端點；β 還原端也可經同一開鏈羰基進入此路線。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "還原端開鏈，露出 B-C1 醛基",
+          "equation": "β-D-Glcp-(1→4)-α/β-D-Glcp ⇌ β-D-Glcp-(1→4)-開鏈 D-Glc（C12H22O11）",
+          "explanation": "B-C1–B-O5 環鍵打開，B-C1–B-O1 成為 C9=O6；原環氧 O3 呈羥基。另一個葡萄糖殘基及 C6–O2–C7 糖苷橋未斷裂。",
+          "viewModel": "cellobiose-open",
+          "modelNote": "由已核對的纖維二糖固定原子圖轉換出的單一中性開鏈代表構象；不是量得的溶液主要構象。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "B-C1 醛基成為末端 CH2OH",
+          "equation": "C12H22O11 + 2 H+ + 2 e− → C12H24O11（纖維二糖醇；形式半反應）",
+          "explanation": "還原後 C9=O6 成 C9–O6H，C9 再得一個 H；右側變成葡萄糖醇端，失去可變旋的 B-C1 異頭中心。左側 β(1→4) 糖苷橋仍在，產物並非兩分子山梨糖醇。",
+          "viewModel": "cellobiitol",
+          "modelNote": "PubChem 160514 所列纖維二糖醇身分的中性顯式氫 3D 代表；座標不是實測水溶液構象或 NaBH4 反應軌跡。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        }
+      ],
+      "foodContext": "纖維二糖示範還原性雙醣的反應位點：只改變游離還原端的羰基，保留連接兩個糖殘基的 β(1→4) 鍵。",
+      "limits": "已發表的纖維二糖／NaBH4 實例支持產物身分，不證明本卡所選 3D 構象、溶液開鏈比例或單一路徑的動力學。2 H+／2 e− 僅是有機部分的形式半反應，沒有列出 NaBH4／水／硼副產物的完整原子與電荷；不能把它當實際硼試劑化學計量。模型未顯示氫化物與硼的所有去向、質子來源、溶劑或逐原子電子箭頭；不是完整的 NaBH4 機構。",
+      "sources": [
+        {
+          "title": "Rinken 等，ChemSusChem 2023：纖維二糖經 NaBH4 還原並分離纖維二糖醇",
+          "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cssc.202201875"
+        },
+        {
+          "title": "PubChem 160514：纖維二糖醇的分子式與完整立體身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/160514"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：開鏈醛糖的 NaBH4 還原概念",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        }
+      ],
+      "relatedIds": [
+        "cellobiose-reducing-end-mutarotation",
+        "cellobiose-bromine-cellobionic-acid",
+        "glucose-sorbitol-reduction",
+        "cellulose-hydrolysis",
+        "lactose-hydrolysis",
+        "maltose-hydrolysis"
+      ],
+      "viewModel": "cellobiose",
+      "knowledgeCheck": {
+        "question": "纖維二糖的游離還原端被還原為纖維二糖醇後，原 β(1→4) 鍵與右側 B-C1 異頭中心各如何變化？",
+        "options": [
+          "β(1→4) 鍵保留；B-C1 變為 CH2OH，不再是異頭中心",
+          "β(1→4) 鍵水解；兩個糖殘基各自成山梨糖醇",
+          "β(1→4) 鍵改為 α(1→6)；B-C1 仍可 α/β 變旋"
+        ],
+        "answerIndex": 0,
+        "explanation": "開鏈還原端的 C9=O6 被還原，但另一端的 C6–O2–C7 糖苷橋保留；C9 成為 CH2OH 後沒有還原端異頭配置。"
+      }
+    },
+    {
+      "id": "cellobiose-bromine-cellobionic-acid",
+      "title": "纖維二糖溴水氧化：內酯 → 纖維二糖酸",
+      "family": "氧化與還原",
+      "overallEquation": "C12H22O11（β-纖維二糖） + Br2 + H2O → C12H22O12（纖維二糖酸） + 2 HBr；經 C12H20O11 的 δ-內酯",
+      "equationType": "未列緩衝鹽的形式總式；先氧化成 δ-內酯，再加水開環成中性酸",
+      "conditions": "溴水氧化所選 β-纖維二糖還原端；早期原始研究由酸度及旋光變化推定先形成 δ-內酯，後續水解形成酸。較晚的製備文獻以 Br2／CaCO3 水相條件取得纖維二糖酸。",
+      "reactiveSite": "非還原端 β(1→4) 糖苷橋 C6–O2–C7 不變；還原端 B-C1 是 C9，B-O1 是 O6，B-O5 是 O3。β 環式半縮醛氧化為 C9=O6、C9–O3 的 1,5-內酯；水解後 C9–O3 斷開，O3 回到羥基，C9 成 C(=O6)–OH。",
+      "steps": [
+        {
+          "title": "辨認 β-纖維二糖的自由還原端",
+          "equation": "β-D-Glcp-(1→4)-β-D-Glcp（C12H22O11）",
+          "explanation": "左側的 β(1→4) 糖苷橋已固定；右側 B-C1 仍是帶游離 OH 的半縮醛。溴水可氧化這個還原端，原研究的酸度與旋光觀察支持先形成 δ-內酯。",
+          "viewModel": "cellobiose-beta",
+          "modelNote": "已核對 PubChem 10712 身分的 β 還原端纖維二糖 3D 代表；不是實際溶液中所有並存異頭形式。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "溴水氧化先得到 1,5-內酯",
+          "equation": "C12H22O11 + Br2 → C12H20O11（纖維二糖酸 δ-內酯） + 2 HBr",
+          "explanation": "B-C1 原半縮醛位點失去兩個 H，C9–O6 成為羰基，C9–O3 環鍵仍保留為內酯鍵。原始溴水研究以酸度與旋光資料推定這個中性內酯先形成；不把它改寫成已先分離的開鏈酸。",
+          "viewModel": "cellobionic-lactone",
+          "modelNote": "所選纖維二糖酸 1,5-內酯的中性顯式氫 3D 代表；座標並非原論文測量的反應中構象。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "內酯加水開環成纖維二糖酸",
+          "equation": "C12H20O11（δ-內酯） + H2O → C12H22O12（纖維二糖酸）",
+          "explanation": "內酯的 C9–O3 鍵水解；O3 留在還原端 B-C5 作羥基，C9 成為羧酸 C(=O6)–OH。非還原端 β(1→4) 糖苷鍵全程保留；酸的去質子化形式須另依 pH 區分。",
+          "viewModel": "cellobionic-acid",
+          "modelNote": "PubChem 6452827 所列中性纖維二糖酸身分的 3D 代表；在指定水相條件下不一定以中性酸為主要微觀態。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6",
+            "Oacid"
+          ]
+        }
+      ],
+      "foodContext": "溴水氧化顯示還原性雙醣的自由端可以改成醛糖酸端；糖苷橋未斷，所以產物仍是一個相連的雙醣衍生物。",
+      "limits": "形式總式省略 CaCO3 緩衝鹽、溴化物鹽與實際酸鹼物種，不能當成完整反應瓶的質量／電荷清單。早期溴水實驗以間接酸度與旋光資料支持先生成 δ-內酯，並非直接分離初生內酯；較晚實驗支持分離纖維二糖酸。卡片未追蹤氧原子的同位素來源、全部溴水微步、速率、實際中性酸／羧酸根比例或量得的 3D 構象。模型只標示選定中性端點，不是逐原子電子機構。",
+      "sources": [
+        {
+          "title": "Isbell，Bureau of Standards 1932：由酸度與旋光資料推定溴水氧化 β-纖維二糖先得 δ-內酯",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/8/jresv8n5p615_A2b.pdf"
+        },
+        {
+          "title": "Li 等，Biotechnology for Biofuels 2015：以 Br2／CaCO3 製備纖維二糖酸",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4537572/"
+        },
+        {
+          "title": "Rhea 23484：纖維二糖氧化與內酯形成",
+          "url": "https://www.rhea-db.org/rhea/23484"
+        },
+        {
+          "title": "PubChem 99211：纖維二糖酸 1,5-內酯的立體身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/99211"
+        },
+        {
+          "title": "PubChem 6452827：中性纖維二糖酸的立體身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6452827"
+        }
+      ],
+      "relatedIds": [
+        "cellobiose-reducing-end-mutarotation",
+        "cellobiose-reducing-end-reduction",
+        "glucose-bromine-oxidation",
+        "cellulose-hydrolysis"
+      ],
+      "viewModel": "cellobiose-beta",
+      "knowledgeCheck": {
+        "question": "所選 β-纖維二糖經溴水氧化後，原研究根據酸度與旋光資料推定先形成哪一類產物？",
+        "options": [
+          "保留糖苷橋的纖維二糖酸 1,5-內酯，之後可水解成酸",
+          "兩份已水解的葡萄糖酸",
+          "糖苷鍵換位後的 α(1→6) 雙醣"
+        ],
+        "answerIndex": 0,
+        "explanation": "原研究的間接觀察支持中性 δ-內酯先形成；它在水中可逐步水解為纖維二糖酸，β(1→4) 糖苷橋保持。"
+      }
+    },
+    {
+      "id": "reducing-disaccharide-end-comparison",
+      "routeKind": "comparison",
+      "title": "麥芽糖／乳糖／蔗糖：還原端結構比較",
+      "family": "糖苷與水解",
+      "overallEquation": "游離還原端數：麥芽糖 1；乳糖 1；蔗糖 0（兩個異頭中心均參與糖苷鍵）",
+      "equationType": "結構對照；無化學反應或配平總式",
+      "conditions": "比較三個完整、中性雙醣的所選立體異頭物與獨立 3D 代表構象。以游離半縮醛能在水中開環作判讀背景；本卡不加入試劑，也不展示變旋、氧化或還原的反應步驟。",
+      "reactiveSite": "本卡對照異頭中心的佔用狀態，不指定反應位點。麥芽糖與乳糖各有一個游離葡萄糖還原端；蔗糖的葡萄糖 C1 與果糖 C2 都參與同一糖苷橋。以下 C6/O2 等是各模型自己的局部序列化 ID，不主張跨分子的原子對應。",
+      "steps": [
+        {
+          "title": "麥芽糖：α(1→4) 鍵外仍有游離半縮醛",
+          "equation": "α-D-Glcp-(1→4)-α-D-Glcp；游離還原端 1 個",
+          "explanation": "非還原端葡萄糖的 C1 經 α 糖苷鍵接到另一個葡萄糖的 C4；另一端的 C1 保留游離半縮醛 OH，因此整個麥芽糖可變旋並表現還原性。此模型只選 α 還原端，不能把固定的 α(1→4) 鍵與可變的還原端 α 配置混為一談。",
+          "viewModel": "maltose",
+          "modelNote": "既有 PubChem CID 439341 立體身分的中性顯式氫 3D 代表。在此模型內，C6–O2–C7 是 A-C1–橋氧–B-C4；B-C1（模型 C9）、B-O5（模型 O3）、B-O1（模型 O6），O6–HO6 為游離異頭羥基。未顯示 β 或開鏈麥芽糖。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "乳糖：β(1→4) 鍵外仍有游離半縮醛",
+          "equation": "β-D-Galp-(1→4)-β-D-Glcp；游離還原端 1 個",
+          "explanation": "半乳糖的 C1 經 β 糖苷鍵接到葡萄糖的 C4；葡萄糖 C1 仍有游離半縮醛 OH，所以完整乳糖仍可變旋且具還原性。此模型選 β 還原端；β 糖苷鍵描述的是另一個異頭中心。",
+          "viewModel": "lactose",
+          "modelNote": "既有 PubChem CID 6134 立體身分的中性顯式氫 3D 代表。這個模型內 C6–O2–C7 是 Gal(A)-C1–橋氧–Glc(B)-C4；B-C1（模型 C9）、B-O5（模型 O3）、B-O1（模型 O6），O6–HO6 為游離異頭羥基。未顯示 α 或開鏈乳糖。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "C9",
+            "O3",
+            "O6"
+          ]
+        },
+        {
+          "title": "蔗糖：葡萄糖 C1 與果糖 C2 都被糖苷鍵佔用",
+          "equation": "α-D-Glcp-(1↔2)-β-D-Fruf；游離還原端 0 個",
+          "explanation": "葡萄糖 C1 與果糖 C2 直接透過橋氧相連；兩個異頭中心都已成縮醛／縮酮，完整蔗糖沒有游離異頭 OH，因此水解前不按麥芽糖或乳糖的游離還原端方式變旋或參與選擇性還原端氧化／還原。水解後產生的葡萄糖、果糖須另作判讀。",
+          "viewModel": "sucrose",
+          "modelNote": "既有 PubChem CID 5988 立體身分的中性顯式氫 3D 代表。在此模型內 C6 是葡萄糖 C1、O2 是橋氧、C7 是果糖 C2；O1 與 O3 分別屬兩個糖環。此模型的 C9/O6 不是游離還原端，不能套用前兩個模型的標記。",
+          "highlight": [
+            "C6",
+            "O2",
+            "C7",
+            "O1",
+            "O3"
+          ]
+        }
+      ],
+      "foodContext": "麥芽糖見於澱粉糖化，乳糖見於乳品，蔗糖見於食糖；辨認完整雙醣有無自由異頭中心，有助於閱讀後續變旋、水解及還原糖反應。",
+      "limits": "三個畫面是各自獨立生成的單一中性 3D 代表構象，並非反應端點序列、分子間轉化、溶液比例或動力學。麥芽糖只顯示 α 還原端，乳糖只顯示 β 還原端；自由半縮醛在水中的其他異頭形與少量開鏈形未建模。還原端的溫和溴水氧化可先形成 δ-內酯，還原可形成糖醇；本卡沒有這些產物模型，不能把其來源誤作本畫面的逐步機構。完整蔗糖在水解前沒有游離還原端，這不表示它在所有條件下都不能被氧化或還原。C6/O2 等 ID 僅於各自模型有效，不能視為跨分子的固定原子映射。",
+      "sources": [
+        {
+          "title": "OpenStax Organic Chemistry 25.8：麥芽糖、乳糖的還原端與蔗糖的雙異頭中心",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：開鏈羰基的還原與溫和氧化原理",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "Flood 與 Srisa-nga，2004：水溶液 13C NMR 變旋量測包含 D-麥芽糖",
+          "url": "https://www.jstage.jst.go.jp/article/apcche/2004/0/2004_0_110/_article/-char/ja"
+        },
+        {
+          "title": "Isbell，1932：由酸度與旋光資料推定 β-麥芽糖與 α/β-乳糖溴水氧化的初生 δ-內酯",
+          "url": "https://nvlpubs.nist.gov/nistpubs/jres/8/jresv8n5p615_A2b.pdf"
+        },
+        {
+          "title": "Christiansen-Brams、Meldal、Bock，1992：麥芽糖與乳糖直接 NaBH4 還原產物的 NMR 研究",
+          "url": "https://doi.org/10.1080/07328309208018272"
+        },
+        {
+          "title": "PubChem CID 439341：所選 α 還原端麥芽糖模型",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439341"
+        },
+        {
+          "title": "PubChem CID 6134：所選 β 還原端乳糖模型",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6134"
+        },
+        {
+          "title": "PubChem CID 5988：蔗糖模型",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988"
+        }
+      ],
+      "relatedIds": [
+        "cellobiose-reducing-end-mutarotation",
+        "cellobiose-reducing-end-reduction",
+        "cellobiose-bromine-cellobionic-acid",
+        "maltose-hydrolysis",
+        "lactose-hydrolysis",
+        "sucrose-inversion",
+        "starch-alpha-amylase-g5-single-cut",
+        "starch-beta-amylase-g5-single-cut"
+      ],
+      "viewModel": "maltose",
+      "knowledgeCheck": {
+        "question": "比較完整的麥芽糖、乳糖與蔗糖，哪一項正確描述游離還原端？",
+        "options": [
+          "三者都沒有，因為都有糖苷鍵",
+          "麥芽糖與乳糖各有一個；蔗糖的兩個異頭中心都被糖苷鍵佔用",
+          "只有蔗糖有，因為它含果糖"
+        ],
+        "answerIndex": 1,
+        "explanation": "麥芽糖與乳糖的糖苷鍵只佔用一側異頭中心；另一側葡萄糖保留游離半縮醛。蔗糖則把葡萄糖 C1 和果糖 C2 都用於連接。"
+      }
+    },
+    {
+      "id": "starch-alpha-amylase-g5-single-cut",
+      "title": "α-amylase 內切：G5 → α-G3 + α-G2",
+      "family": "糖苷與水解",
+      "overallEquation": "α-maltopentaose(C30H52O26) + H2O → α-maltose(C12H22O11) + α-maltotriose(C18H32O16)",
+      "equationType": "所選單次 α(1→4) 斷鍵的元素配平淨式；初生與所選還原端異頭物，不是反應長時間後的唯一組成",
+      "conditions": "選豬胰 α-amylase（EC 3.2.1.1）作用於線性 α-maltopentaose；只表示文獻支持的一次 G5 水解與產品釋出次序，不指定通用溫度、pH 或反應時間。",
+      "reactiveSite": "把 G5 從非還原端到原還原端依序標為 A–B–C–D–E；選 C 的異頭 C1 與 D 的 O4 所形成的 α(1→4) 鍵為切點。A–B–C 成為 G3，C 的 C1 是新增還原端；D–E 成為 G2，E 的 C1 保留原有 α 還原端。A–E 是糖殘基示意標籤，不是任何 3D 模型的原子 ID。",
+      "steps": [
+        {
+          "title": "固定線性 G5 的方向與切點",
+          "equation": "A–α(1→4)–B–α(1→4)–C | α(1→4) | D–α(1→4)–E；E 為原還原端",
+          "explanation": "以五個葡萄糖殘基顯示內部 C–D 鍵，兩側各仍有多於一個殘基。底物選 PubChem CID 13489094 的 α 還原端吡喃型；此選定構型不代表水溶液中只有 α 形。",
+          "viewModel": "maltopentaose-alpha",
+          "modelNote": "PubChem CID 13489094 完整立體身分的中性 G5 3D 代表；模型中 C–D 橋位為 cC1–dO4–dC4，這裡標出所選內切點。字母是本模型由非還原端到還原端的殘基 ID，不是跨分子原子映射。",
+          "highlight": [
+            "cC1",
+            "dO4",
+            "dC4"
+          ]
+        },
+        {
+          "title": "還原側 α-G2 先從酵素釋出",
+          "equation": "α-G5 + H2O → α-G2(D–E) + α-G3(A–B–C)",
+          "explanation": "豬胰 α-amylase 的 G5 動力學研究以產品抑制判斷 maltose 先、maltotriose 後釋出，且先釋出者屬還原側片段。D–E 的 E-C1 已是底物選定的 α 還原端；這個 α 不是從酵素名稱推出的新生異頭配置。",
+          "viewModel": "maltose",
+          "modelNote": "現有 α 還原端麥芽糖的單分子 3D 端點。與 G5、G3 的原子 ID 各自獨立；此階段仍把 G3 列在同一斷鍵淨式，並不表示只有 G2 形成。",
+          "highlight": [
+            "C9",
+            "O6"
+          ]
+        },
+        {
+          "title": "同一斷鍵的 α-G3 含新增還原端",
+          "equation": "同一次 C–D 水解的另一片段：α-G3(A–B–C)",
+          "explanation": "A–B–C 的 C-C1 原本參與 C–D 糖苷鍵，水解後成為新還原端。EC 3.2.1.1 定義的初生還原端為 α；因此用現有 α-G3 代表該片段，並非 G2 再變成 G3。",
+          "viewModel": "maltotriose",
+          "modelNote": "現有 α 還原端 G3 的獨立 3D 模型；只顯示同次水解的另一個片段。模型的局部原子 ID 未與 G5 建立跨分子映射，沒有同場水、酵素或逐箭頭催化機構。"
+        }
+      ],
+      "foodContext": "G5 是澱粉 α(1→4) 直鏈的有限片段；此酵素選例有助於辨認內切先形成兩條較短鏈，而不是每次都直接生成葡萄糖。",
+      "limits": "僅為豬胰 α-amylase 對一個 G5 鍵位的所選水解代表，不是所有 α-amylase 的唯一切點、所有反應條件的產率或長時間唯一產物。原始論文支持 G2/G3 及其從酵素釋出的先後，EC 定義支持初生 α 還原端；把選定 α-G5 的 E-C1 保留到 α-G2、把 C-C1 指為 α-G3 的新增還原端，是拓撲與立體記帳推論。游離還原端可變旋；3D 端點不是催化反應軌跡、過渡態或逐原子機構。未建任何 α(1→6) 分枝或去分枝作用。",
+      "sources": [
+        {
+          "title": "Al Kazaz 等，1998，Eur. J. Biochem. 252:100–107：豬胰 α-amylase 的 G5→G2+G3 及還原側 G2 先釋出",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9523717/"
+        },
+        {
+          "title": "SIB ENZYME／IUBMB EC 3.2.1.1：內切 α(1→4) 與初生 α 還原端",
+          "url": "https://enzyme.expasy.org/EC/3.2.1.1"
+        },
+        {
+          "title": "PubChem CID 13489094：還原端 α 的線性 maltopentaose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13489094"
+        },
+        {
+          "title": "PubChem CID 192826：所選 α 還原端 maltotriose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/192826"
+        },
+        {
+          "title": "PubChem CID 439341：既有 α 還原端 maltose 模型來源",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/439341"
+        }
+      ],
+      "relatedIds": [
+        "starch-hydrolysis",
+        "reducing-disaccharide-end-comparison",
+        "starch-beta-amylase-g5-single-cut"
+      ],
+      "viewModel": "maltopentaose-alpha",
+      "knowledgeCheck": {
+        "question": "所選豬胰 α-amylase 切開 G5 的 C–D 鍵後，哪個片段保留原 G5 的還原端？",
+        "options": [
+          "D–E 的 α-G2",
+          "A–B–C 的 α-G3",
+          "兩個片段都沒有還原端"
+        ],
+        "answerIndex": 0,
+        "explanation": "原還原端位於 E，因此 D–E 的 G2 保留它；A–B–C 的 C-C1 則成為新還原端。"
+      }
+    },
+    {
+      "id": "starch-beta-amylase-g5-single-cut",
+      "title": "β-amylase 外切：G5 → β-G2 + α-G3",
+      "family": "糖苷與水解",
+      "overallEquation": "α-maltopentaose(C30H52O26) + H2O → β-maltose(C12H22O11) + α-maltotriose(C18H32O16)",
+      "equationType": "所選單次非還原端 α(1→4) 斷鍵的元素配平淨式；β-G2 是初生產物，並非溶液永遠固定的異頭物",
+      "conditions": "選大麥 β-amylase（EC 3.2.1.2）作用於線性 α-maltopentaose；大麥原始研究以 G5 為底物，以下切點與產品異頭依 EC 定義及反應資料庫限定。",
+      "reactiveSite": "同一 G5 由非還原端 A 排到原還原端 E：A–B–C–D–E。外切選 B 的異頭 C1 與 C 的 O4 所形成的 α(1→4) 鍵；A–B 釋出為 β-G2，B-C1 是新增還原端；C–D–E 留下 α-G3，E-C1 保留底物原有 α 還原端。A–E 不是 3D 原子 ID。",
+      "steps": [
+        {
+          "title": "固定非還原端與第一個外切切點",
+          "equation": "A–α(1→4)–B | α(1→4) | C–α(1→4)–D–α(1→4)–E；A 為非還原端",
+          "explanation": "β-amylase 從非還原端逐次移除兩個葡萄糖殘基，所切仍是 α(1→4) 鍵。這張卡只取 G5 的第一次切割，並沿用同一 α 還原端 G5 底物。",
+          "viewModel": "maltopentaose-alpha",
+          "modelNote": "經 PubChem CID 13489094 立體身分核對的 α-G5 中性 3D 模型；B–C 橋位為 bC1–cO4–cC4，這裡標出所選外切點。殘基字母是 G5 的局部 ID。",
+          "highlight": [
+            "bC1",
+            "cO4",
+            "cC4"
+          ]
+        },
+        {
+          "title": "非還原端先釋出初生 β-G2",
+          "equation": "α-G5 + H2O → β-G2(A–B) + α-G3(C–D–E)",
+          "explanation": "EC 3.2.1.2 定義 β-amylase 從非還原端移除 maltose，並以構型反轉形成初生 β-maltose；SABIO-RK 另列 G5+H2O 與 β-maltose+G3 的對應反應。此處「先釋出」指第一次外切得到 G2，不宣稱兩片段從蛋白質解離的微觀先後。",
+          "viewModel": "maltose-beta",
+          "modelNote": "PubChem CID 6255 完整立體身分的 β 還原端麥芽糖 3D 端點；現有 `maltose` 是 α 還原端，不可代用。G3 是同次斷鍵的另一產物，局部 ID 不能直接映射回 G5。",
+          "highlight": [
+            "bC1",
+            "bO1"
+          ]
+        },
+        {
+          "title": "剩餘 α-G3 保留原還原端",
+          "equation": "同一次 B–C 水解的剩餘片段：α-G3(C–D–E)",
+          "explanation": "E-C1 原本就是選定 α-G5 的自由還原端；B–C 斷鍵並未改變它，故以現有 α-G3 顯示此有限片段。此階段不是 β-G2 變成 G3，也不聲稱 β-amylase 後續不再作用於 G3。",
+          "viewModel": "maltotriose",
+          "modelNote": "現有 α 還原端 G3 的獨立 3D 模型；其 α 來自所選底物還原端保留的推論，不是 EC 對新釋出產物的 β 配置。"
+        }
+      ],
+      "foodContext": "大麥 β-amylase 與麥芽糖生成有關；G5 有限片段可用來比較非還原端外切與 α-amylase 的內切位置。",
+      "limits": "大麥研究支持 G5 是底物，但本卡 G5→β-G2+G3 的方向及初生 β 異頭來自 EC 定義與 SABIO-RK 的具體反應條目；SABIO-RK 的雙向箭頭不是本卡已驗證逆向合成。所選 B–C 殘基映射由非還原端釋出兩糖的規則推得，未用同位素實驗在此大麥研究中逐原子核實。G3 的 α 還原端保留所選 G5 的 α 構型；不把它當作 β-amylase 新生成的異頭中心。此卡只有一次切割，不保證長時間產物組成；β-G2 可變旋，沒有完整酵素、水與糖的逐原子催化模型，也沒有 α(1→6) 去分枝。",
+      "sources": [
+        {
+          "title": "Ma 等，2000，J. Cereal Sci. 31:335–344：大麥 β-amylase 的 G5 底物動力學",
+          "url": "https://digital.library.adelaide.edu.au/items/d12c102a-b770-4825-b3ab-51d5b9980c3d"
+        },
+        {
+          "title": "SIB ENZYME／IUBMB EC 3.2.1.2：非還原端移除 maltose 並反轉成初生 β-maltose",
+          "url": "https://enzyme.expasy.org/EC/3.2.1.2"
+        },
+        {
+          "title": "SABIO-RK EC 3.2.1.2：G5 + H2O 與 β-maltose + G3 的具體反應",
+          "url": "https://sabio.h-its.org/enzdetails.jsp?ecclassid=3.2.1.2"
+        },
+        {
+          "title": "PubChem CID 13489094：還原端 α 的線性 maltopentaose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/13489094"
+        },
+        {
+          "title": "PubChem CID 6255：β 還原端 maltose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/6255"
+        },
+        {
+          "title": "PubChem CID 192826：所選 α 還原端 maltotriose",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/192826"
+        }
+      ],
+      "relatedIds": [
+        "starch-hydrolysis",
+        "reducing-disaccharide-end-comparison",
+        "starch-alpha-amylase-g5-single-cut"
+      ],
+      "viewModel": "maltopentaose-alpha",
+      "knowledgeCheck": {
+        "question": "所選 β-amylase 第一次切割 G5 時，酵素名中的 β 指什麼？",
+        "options": [
+          "初生 G2 的新還原端為 β，切的仍是 α(1→4) 鍵",
+          "底物必有 β(1→4) 鍵",
+          "剩餘 G3 必須新生成 β 還原端"
+        ],
+        "answerIndex": 0,
+        "explanation": "β-amylase 從非還原端切 α(1→4)，以反轉形成 β-maltose；G3 保留所選底物 E-C1 的 α 還原端。"
+      }
+    },
+    {
+      "id": "koenigs-knorr-neighboring-group-participation",
+      "title": "Koenigs–Knorr：C2 乙醯基參與與 1,2-trans 糖苷",
+      "family": "糖苷與水解",
+      "overallEquation": "C14H19BrO9（α-乙醯溴葡萄糖） + CH4O（甲醇） → C15H22O10（甲基四乙醯-β-D-葡萄糖苷） + HBr",
+      "equationType": "所選有機端點的形式配平淨式；Ag2CO3 捕酸及其副產物另記，不表示單一基本步驟、定量收率或 β 專一性",
+      "conditions": "原始甲醇代表例：α-乙醯溴葡萄糖溶於無水甲醇，在 Ag2CO3 存在下於常溫反應；甲醇兼作受體。Ag2CO3 的捕酸作用有歷史討論，本卡不指定詳細動力學或未核對的反應時間／收率。",
+      "reactiveSite": "所選供體的異頭 C1–Br 是離去位點，C2–OAc 的乙醯羰基氧可作鄰基參與；甲醇的氧與甲基成為 C1–O–CH3。所選 β 產物的 C1–OCH3 與 C2–OAc 為 1,2-trans。步驟 highlight 只使用各自 3D 模型的局部 ID；相同字串不等於已驗證的跨反應逐原子映射。",
+      "steps": [
+        {
+          "title": "辨認受保護的 α-葡萄糖基溴供體",
+          "equation": "2,3,4,6-tetra-O-acetyl-α-D-Glcp–Br（C14H19BrO9）",
+          "explanation": "C1 接溴，C2、C3、C4 與 C6 的羥基由乙醯基保護；其中 C2 乙醯基的羰基氧可參與異頭中心反應。此起點不是葡萄糖五乙酸酯，也不是未保護葡萄糖。",
+          "viewModel": "acetobromoglucose-alpha",
+          "modelNote": "依 PubChem CID 101776 完整立體身分建成的中性顯式氫 3D 端點；C1–Br1 及 C2–O2–Ac2C(=Ac2O)–Ac2Me 是此供體的局部 ID，不表示銀鹽或甲醇已在同一 3D 場景。",
+          "highlight": [
+            "C1",
+            "Br1",
+            "Ac2O"
+          ]
+        },
+        {
+          "title": "辨認甲醇的受體氧",
+          "equation": "CH3OH（甲醇；C1–OCH3 鍵中的 O 與 CH3 由此而來）",
+          "explanation": "甲醇是本歷史例的醇受體，並以無水甲醇作反應介質。這個畫面獨立顯示甲醇，沒有模擬甲醇與供體的接近姿態。",
+          "viewModel": "methanol-koenigs",
+          "modelNote": "依 PubChem CID 887 身分建成的中性顯式氫 3D 端點；O1–Cm 是甲醇模型的局部 ID，與前後畫面的切換不代表一條計算所得反應軌跡。",
+          "highlight": [
+            "O1",
+            "Cm"
+          ]
+        },
+        {
+          "title": "以 C2 乙醯鄰基參與解釋所選立體方向",
+          "equation": "C1–Br 活化；C2 乙醯羰基 O ⇢ C1 橋式氧鎓；甲醇從相反面進攻（機構概念，非配平微步）",
+          "explanation": "所選教學機構以 C2 乙醯羰基氧暫時與 C1 搭橋，遮擋一面，再由甲醇從另一面形成 1,2-trans 鍵並恢復乙醯羰基。原始 Ag2CO3／甲醇溶液中沒有直接量得此指定橋式 3D 形狀；相關醇解還可能有其他離子對、α 產物或旁支。",
+          "viewModel": "acetobromoglucose-alpha",
+          "modelNote": "此處只重看未反應供體的 C1、C2 與乙醯羰基氧 Ac2O 位置。畫面沒有顯示橋式正離子、Br−、甲醇進攻姿態或電子箭頭；不可把供體 3D 誤讀成機構中間體。",
+          "highlight": [
+            "C1",
+            "Br1",
+            "Ac2O"
+          ]
+        },
+        {
+          "title": "得到所選四乙醯 β-甲基葡萄糖苷",
+          "equation": "C14H19BrO9 + CH4O → C15H22O10 + HBr（形式有機淨式）",
+          "explanation": "甲醇氧在 C1 成為 O–CH3；C2、C3、C4、C6 的四個乙醯基仍保留。所選 β-D 葡萄糖苷的 C1–OCH3 與 C2–OAc 位於相反面，屬 1,2-trans；這張卡只追蹤此有來源支持的產物，不聲稱反應物全數轉成它。",
+          "viewModel": "methyl-tetraacetyl-glucoside-beta",
+          "modelNote": "依 PubChem CID 2728821 完整立體身分建成的中性顯式氫 3D 端點；C1–O1–Cm 與 C2–O2–Ac2C(=Ac2O)–Ac2Me 是此產物的局部 ID，單一代表構象不等於實測溶液構象或產物比例。",
+          "highlight": [
+            "C1",
+            "O1",
+            "Cm",
+            "O2",
+            "Ac2O"
+          ]
+        }
+      ],
+      "foodContext": "此例用受保護糖與甲醇說明 C2 保護基如何影響糖苷鍵立體方向；它是合成化學教學例，不代表食品加工條件。",
+      "limits": "此卡只選甲醇／Ag2CO3 的 β 產物。C2 乙醯搭橋是教學機構，未在這組溶液條件直接量得；第三階段仍顯示供體，沒有橋式 3D 中間體。其他醇解可得 α；orthoester 與氣相橋離子證據屬不同條件，不能移用產率。三個 3D 端點是獨立代表構象；局部 ID 沒有完整跨反應逐原子映射，HBr 是形式配平，銀鹽／質子／電子箭頭未建。詳見來源筆記。",
+      "sources": [
+        {
+          "title": "Koenigs 與 Knorr，1900：acetobromoglucose 與甲醇／銀碳酸鹽的初報",
+          "url": "https://www.zobodat.at/pdf/Sitz-Ber-Akad-Muenchen-math-Kl_1900_0001.pdf"
+        },
+        {
+          "title": "Koenigs 與 Knorr，1901：乙醯溴葡萄糖到四乙醯 β-甲基葡萄糖苷的原始研究",
+          "url": "https://doi.org/10.1002/cber.190103401162"
+        },
+        {
+          "title": "Fischer，1914：銀碳酸鹽在原始甲醇例的捕酸作用",
+          "url": "https://libarch.nmu.org.ua/bitstream/handle/GenofondUA/1975/1169f2c970806df892e8c53fe9638ba1.pdf?sequence=1"
+        },
+        {
+          "title": "OpenStax Organic Chemistry 25.6：C2 乙醯鄰基參與的教學機構",
+          "url": "https://openstax.org/books/organic-chemistry/pages/25-6-reactions-of-monosaccharides"
+        },
+        {
+          "title": "Schroeder、Green、Johnson，1966：同一溴供體醇解的 β 主產物與 α 共產物",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/1966/j2/j29660000447"
+        },
+        {
+          "title": "Wallace、Schroeder，1977：另一供體與條件下的 orthoester 旁支",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/1977/p2/p29770000795"
+        },
+        {
+          "title": "Mucha 等，2018：不同保護基的氣相 C2-乙醯橋式糖基陽離子",
+          "url": "https://www.nature.com/articles/s41467-018-06764-3"
+        },
+        {
+          "title": "PubChem CID 101776：α-乙醯溴葡萄糖的完整立體身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/101776"
+        },
+        {
+          "title": "PubChem CID 887：甲醇身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/887"
+        },
+        {
+          "title": "PubChem CID 2728821：四乙醯 β-甲基葡萄糖苷的完整立體身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2728821"
+        }
+      ],
+      "relatedIds": [
+        "glucose-acetylation",
+        "methyl-glucoside-formation",
+        "methyl-glucoside-hydrolysis"
+      ],
+      "viewModel": "acetobromoglucose-alpha",
+      "knowledgeCheck": {
+        "question": "本卡所選四乙醯 β-甲基葡萄糖苷的 C1–OCH3 與 C2–OAc 是何種關係？",
+        "options": [
+          "位於相反面，為 1,2-trans；其他條件仍可能有 α 或旁支",
+          "位於同一面，為 1,2-cis；Ag2CO3 必使所有供體如此",
+          "C2 乙醯基全部脫去，因此無法比較 1,2 立體關係"
+        ],
+        "answerIndex": 0,
+        "explanation": "所選 β 產物的 C1–OCH3 與仍保留的 C2–OAc 相反面。這是本代表產物的立體身分，不是所有條件的專一性預測。"
+      }
+    },
+    {
+      "id": "udp-glucose-6-dehydrogenase",
+      "title": "UDP-葡萄糖 C6 氧化：UGDH 的兩次脫氫",
+      "family": "氧化與還原",
+      "overallEquation": "UDP-α-D-glucose(2−) + 2 NAD+ + H2O → UDP-α-D-glucuronate(3−) + 2 NADH + 3 H+",
+      "equationType": "Rhea:23599 指定離子形式的配平總式；NAD+ 與 NADH 分別表示 Rhea 整體淨電荷 −1 與 −2 的輔酶，並非局部菸鹼醯胺環電荷；IUBMB EC 頁另寫 2 H+，不得與本式的帶電實體混用",
+      "conditions": "人類胞質 UDP-glucose 6-dehydrogenase（UGDH；EC 1.1.1.22）以完整 UDP-α-D-glucose 為底物，消耗兩當量 NAD+ 與一當量水，生成 UDP-α-D-glucuronate、兩當量 NADH；本卡採 Rhea／Reactome 的指定離子形式。這是生化酵素路線，不是游離葡萄糖加一般氧化劑的反應條件；不指定未驗證的體內精確 pH、時間或產率。",
+      "reactiveSite": "UDP 結合的 α-D-葡萄糖糖部 C6：C6–CH2OH 經兩次氧化成 C6–COO−，C1–O–焦磷酸連結保留。底物／產物 3D 的 C6、O6、P_sugar、P_uridine 為各模型的局部位置標籤；產物新增的羧酸鹽氧標 O6b。標籤相同僅供拓撲比對，不宣稱已完成水氧的同位素級原子映射。",
+      "steps": [
+        {
+          "title": "辨認 UDP-α-D-glucose 的 C6 伯醇",
+          "equation": "UDP-α-D-glucose(2−) + 2 NAD+ + H2O（反應物與計量）",
+          "explanation": "這個酵素辨識的是帶 UDP 的 α-D-葡萄糖，不是游離葡萄糖。先看糖部 C6–CH2OH，再辨認 C1 與 UDP 焦磷酸的連結；兩個 NAD+ 與水在文字層記帳，未與底物合成單一 3D 場景。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "顯示 UDP-α-D-glucose(2−) 的獨立計算 3D 端點，身分錨點 CHEBI:58885／PubChem CID 16667346。C6、O6、P_sugar、P_uridine 是此模型局部 ID；不表示酵素活性位實測構象、輔酶或水已建 3D。",
+          "highlight": [
+            "C6",
+            "O6",
+            "P_sugar",
+            "P_uridine"
+          ]
+        },
+        {
+          "title": "第一次氧化：C6 伯醇到酵素束縛的醛",
+          "equation": "C6–CH2OH → 束縛的 C6–CHO；第 1 個 NAD+ → NADH（機構概念，非獨立配平微步）",
+          "explanation": "首次氫負離子轉移使一個 NAD+ 還原。原始酵素研究將產生的醛描述為酵素內束縛、難以釋放或由外部捕捉；本畫面只用底物 3D 指向 C6，沒有畫出那個醛的 3D。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "仍顯示未反應的 UDP-α-D-glucose(2−) 作 C6 位置參照；不是 UDP-醛中間體的 3D 模型，也不是氧化過程的動態軌跡。NAD+／NADH 是文字計量。",
+          "highlight": [
+            "C6",
+            "O6"
+          ]
+        },
+        {
+          "title": "第二次氧化與水解：完成 C6 羧酸鹽",
+          "equation": "束縛的 C6–CHO + 第 2 個 NAD+ + H2O → C6–COO− + NADH（機構概念，完整質子簿記見總式）",
+          "explanation": "所選機構概念由活性位半胱胺酸參與第二次氧化，經共價步驟與水解形成羧酸鹽。細菌酵素研究支持束縛醛、硫酯與水來源氧；人類 UGDH 的 Cys-276 對第二次氧化重要。這些是不同實驗系統的證據，尚未建立本卡的共價中間體 3D 或逐步原子守恆。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "仍重用未反應底物 3D 定位 C6；畫面沒有顯示半硫縮醛、硫酯、酵素蛋白、進入的水氧或新的羧酸鹽鍵。請到下一階段看已驗證的獨立產物端點。",
+          "highlight": [
+            "C6",
+            "O6"
+          ]
+        },
+        {
+          "title": "核對 UDP-α-D-glucuronate 與輔酶簿記",
+          "equation": "UDP-α-D-glucose(2−) + 2 NAD+ + H2O → UDP-α-D-glucuronate(3−) + 2 NADH + 3 H+",
+          "explanation": "完整 UDP-糖保留 C1 的 α 糖苷連結；C6 是羧酸鹽，不是游離的葡萄糖醛酸。此 Rhea 帶電式左右原子總數相同，整體電荷均為 −4；三個 H+ 是這組所選離子形式的簿記。",
+          "viewModel": "udp-glucuronate-alpha-trianion",
+          "modelNote": "顯示 UDP-α-D-glucuronate(3−) 的獨立計算 3D 端點，身分錨點 CHEBI:58052／PubChem CID 25202620。C6、O6、O6b、P_sugar、P_uridine 是此模型局部 ID；O6／O6b 標籤不分派同位素來源，也不代表本 3D 是酵素結合實測構象。",
+          "highlight": [
+            "C6",
+            "O6",
+            "O6b",
+            "P_sugar",
+            "P_uridine"
+          ]
+        }
+      ],
+      "foodContext": "此卡說明生物合成中的活化 UDP-醣醛酸前驅物及 C6 氧化位置；它不是食品加工的實際配方或游離糖直接氧化示例。",
+      "limits": "第二、三階段只以未反應底物 3D 定位 C6；沒有束縛醛、半硫縮醛、硫酯、酵素、輔酶或水的 3D，也沒有逐步電子箭頭及跨參與者的原子映射。酵素機構依細菌與人類研究分別判讀。Rhea 所選離子形式以 3 H+ 配平；IUBMB 的 2 H+ 不可直接混用。TEMPO 纖維素表面氧化屬另一反應。",
+      "sources": [
+        {
+          "title": "Rhea:23599：UDP-α-D-glucose、NAD、H2O 與 UDP-α-D-glucuronate 的指定離子總式",
+          "url": "https://www.rhea-db.org/rhea/23599"
+        },
+        {
+          "title": "Reactome R-HSA-173597：人類胞質 UGDH 兩次氧化",
+          "url": "https://reactome.org/content/detail/R-HSA-173597"
+        },
+        {
+          "title": "IUBMB EC 1.1.1.22：酵素命名與另一 2 H+ 寫法",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC1/1/1/22.html"
+        },
+        {
+          "title": "Ge 等 2004：細菌 UGDH 的束縛醛、共價機構與水氧來源",
+          "url": "https://doi.org/10.1046/j.1432-1033.2003.03876.x"
+        },
+        {
+          "title": "Sommer 等 2004：人類 UGDH Cys-276 對第二次氧化的重要性",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15044486/"
+        },
+        {
+          "title": "PubChem CID 16667346：UDP-α-D-glucose(2−) 的身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16667346"
+        },
+        {
+          "title": "PubChem CID 25202620：UDP-α-D-glucuronate(3−) 的身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/25202620"
+        }
+      ],
+      "relatedIds": [
+        "glucose-c6-oxidation",
+        "udp-galactose-4-epimerase",
+        "sucrose-synthase-udp-glucose-transfer"
+      ],
+      "viewModel": "udp-glucose-alpha-dianion",
+      "knowledgeCheck": {
+        "question": "UGDH 這條代表路線直接氧化哪一種底物，並消耗多少 NAD+？",
+        "options": [
+          "UDP-α-D-glucose；每分子需要 2 個 NAD+",
+          "游離 D-glucose；每分子需要 2 個 NAD+",
+          "纖維素微原纖維；每個表面單元需要 1 個 NAD+"
+        ],
+        "answerIndex": 0,
+        "explanation": "EC 1.1.1.22 的指定底物是 UDP-α-D-glucose；C6 進行兩次氧化，總式消耗 2 NAD+。TEMPO 氧化纖維素是另一條化學路線。"
+      }
+    },
+    {
+      "id": "udp-galactose-4-epimerase",
+      "title": "UDP-半乳糖 C4 差向異構化：GALE 與暫時氧化還原",
+      "family": "異構化與差向異構化",
+      "overallEquation": "UDP-α-D-galactose(2−) ⇌ UDP-α-D-glucose(2−)",
+      "equationType": "Rhea:22168 指定兩個二價陰離子端點的可逆、原子與電荷配平淨式；酵素結合 NAD+ 暫時還原為 NADH 並再生，不是外部淨消耗或產出",
+      "conditions": "以大腸桿菌 UDP-galactose 4-epimerase（GalE；EC 5.1.3.2）的原始機構實驗作教學背景。酵素使用結合的 NAD 輔酶；本卡由 UDP-α-D-galactose 展示到 UDP-α-D-glucose，總反應可逆。未指定未核對的細胞內 pH、反應時間、產率或平衡組成。",
+      "reactiveSite": "糖部 C4–OH 的配置反轉；完整 UDP–焦磷酸–α-D-吡喃糖連結及糖部 C1 α 配置保留，C6 不氧化。兩個 3D 端點各自以 C4、O4、C1、P_sugar、P_uridine 作局部標籤；相同字串不是逐氫的跨反應原子映射。",
+      "steps": [
+        {
+          "title": "辨認完整 UDP-α-D-galactose 的 C4",
+          "equation": "UDP-α-D-galactose(2−)（Rhea 指定底物端點）",
+          "explanation": "先看糖部 C4–OH，再看 C1 的 α 糖苷鍵如何經焦磷酸接到 UDP。此處是完整 UDP-半乳糖，而不是游離 D-半乳糖；本卡反應只改變糖部 C4 配置。",
+          "viewModel": "udp-galactose-alpha-dianion",
+          "modelNote": "顯示按 CHEBI:66914／PubChem CID 9549262 身分建立的 UDP-α-D-galactose(2−) 獨立計算 3D 端點。C4、O4、C1、P_sugar、P_uridine 為本模型局部 ID；沒有酵素或 NAD 的 3D。",
+          "highlight": [
+            "C4",
+            "O4",
+            "C1",
+            "P_sugar",
+            "P_uridine"
+          ]
+        },
+        {
+          "title": "暫時氧化：C4–OH 形成酵素結合的 4-酮階段",
+          "equation": "C4–CHOH ⇢ C4=O；酵素結合 NAD+ ⇢ NADH（機構概念，非獨立配平微步）",
+          "explanation": "大腸桿菌 GalE 的 Tyr149 酸鹼催化與 C4 氫負離子轉移，使結合 NAD+ 暫時還原。1971 年同位素捕捉實驗支持酵素結合 UDP-4-酮糖階段；本畫面沒有該中間體的獨立 3D 結構。",
+          "viewModel": "udp-galactose-alpha-dianion",
+          "modelNote": "仍顯示未反應的 UDP-α-D-galactose(2−) 作 C4 位置參照；畫面不是 4-酮 UDP-糖、NADH 或活性位的 3D，也不是 C4 氫負離子軌跡。",
+          "highlight": [
+            "C4",
+            "O4"
+          ]
+        },
+        {
+          "title": "重新定向並還原：C4 的另一面形成",
+          "equation": "酵素結合 4-酮階段 + NADH ⇢ C4 另一配置 + 再生 NAD+（機構概念）",
+          "explanation": "原始結構研究支持 4-酮糖部分在活性位重新定向，使另一面接受 NADH 返回的氫負離子，再恢復 C4–OH。結合輔酶因此完成一次內部氧化還原循環；總式不列自由 NADH 為產物。",
+          "viewModel": "udp-galactose-alpha-dianion",
+          "modelNote": "仍重用未反應 Gal 端點定位 C4；沒有直接顯示 4-酮中間體、糖部旋轉、酵素結合姿態或 NADH 還原過程。產物 3D 在下一階段。",
+          "highlight": [
+            "C4",
+            "O4"
+          ]
+        },
+        {
+          "title": "核對 UDP-α-D-glucose 與可逆淨式",
+          "equation": "UDP-α-D-galactose(2−) ⇌ UDP-α-D-glucose(2−)",
+          "explanation": "葡萄糖端仍是完整 UDP-α-D-吡喃糖；與半乳糖端相比，糖部 C4–OH 的配置反轉，兩端分子式均為 C15H22N2O17P2、電荷均為 −2。NAD 在酵素內先還原、後再生，所以淨式無 NAD+ 或 NADH。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "顯示既有 CHEBI:58885／PubChem CID 16667346 的 UDP-α-D-glucose(2−) 獨立計算 3D 端點。C4、O4、C1、P_sugar、P_uridine 為此模型局部 ID；它不是由前一模型計算得到的時間連續軌跡。",
+          "highlight": [
+            "C4",
+            "O4",
+            "C1",
+            "P_sugar",
+            "P_uridine"
+          ]
+        }
+      ],
+      "foodContext": "此卡用完整 UDP-糖說明 Leloir 代謝中的 C4 差向異構化；它不是食品加工配方，也不是游離半乳糖直接改成游離葡萄糖的操作。",
+      "limits": "第二、三階段只用未反應 Gal 3D 定位 C4；雖有酵素結合 4-酮中間體的實驗證據，本卡沒有其 3D，也沒有酵素、NAD+/NADH、蛋白殘基或逐步電子箭頭與跨步逐氫映射。重新定向來自結構與機構證據，不是直接拍到旋轉軌跡；大腸桿菌 Tyr149 編號不套到人類 GALE。兩端採 Rhea 指定二價陰離子形式；NAD 是內部循環，不列入外部淨式。",
+      "sources": [
+        {
+          "title": "Rhea:22168：可逆 UDP-α-D-glucose／UDP-α-D-galactose 指定離子總式",
+          "url": "https://www.rhea-db.org/rhea/22168"
+        },
+        {
+          "title": "ChEBI:66914：UDP-α-D-galactose(2−) 的完整立體身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:66914"
+        },
+        {
+          "title": "ChEBI:58885：UDP-α-D-glucose(2−) 的完整立體身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:58885"
+        },
+        {
+          "title": "IUBMB EC 5.1.3.2：酵素名稱、可逆淨式與 NAD+ 需求",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC5/1/3/2.html"
+        },
+        {
+          "title": "Maitra、Ankel 1971：酵素結合 UDP-4-酮糖的 C4 同位素證據",
+          "url": "https://doi.org/10.1073/pnas.68.11.2660"
+        },
+        {
+          "title": "Thoden、Holden 1998：大腸桿菌 GALE 的 Gal／Glc 結合與重新定向機構",
+          "url": "https://doi.org/10.1021/bi9808969"
+        },
+        {
+          "title": "Berger 等 2001：大腸桿菌 Tyr149／Ser124 酸鹼催化的變異體動力學",
+          "url": "https://doi.org/10.1021/bi0104571"
+        },
+        {
+          "title": "PubChem CID 9549262：UDP-α-D-galactose(2−) 身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/9549262"
+        },
+        {
+          "title": "PubChem CID 16667346：UDP-α-D-glucose(2−) 身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/16667346"
+        }
+      ],
+      "relatedIds": [
+        "glucose-mannose-epimerization",
+        "udp-glucose-6-dehydrogenase",
+        "sucrose-synthase-udp-glucose-transfer"
+      ],
+      "viewModel": "udp-galactose-alpha-dianion",
+      "knowledgeCheck": {
+        "question": "GALE 使完整 UDP-半乳糖轉成 UDP-葡萄糖時，NAD 輔酶在總式中如何處理？",
+        "options": [
+          "酵素結合 NAD+ 暫時還原再再生；淨式只列兩個 C4 差向異構的 UDP-糖",
+          "每轉化一個 UDP-半乳糖便淨消耗 2 個 NAD+，得到 UDP-葡萄糖醛酸",
+          "不需要任何酵素輔酶；游離半乳糖經 C2 烯二醇直接變成游離葡萄糖"
+        ],
+        "answerIndex": 0,
+        "explanation": "GALE 的外部淨式是同式、同電荷的 UDP-糖 C4 差向異構化；NAD 在活性位先接受 C4 氫負離子，後將氫負離子送回並再生。兩次 NAD 淨還原屬 UGDH 的 C6 氧化路線。"
+      }
+    },
+    {
+      "id": "glucose-isomerase-metal-hydride-transfer",
+      "title": "葡萄糖異構酶：雙鎂位協助的醛酮異構化",
+      "family": "異構化與差向異構化",
+      "overallEquation": "D-glucose (C6H12O6) ⇌ D-fructose (C6H12O6)",
+      "equationType": "C6H12O6 到 C6H12O6 的配平異構化淨式；Mg²⁺ 是酵素催化金屬，沒有淨消耗；開環及金屬位氫轉移只作概念階段，未提供每步配平微態",
+      "conditions": "選 Streptomyces olivochromogenes 的 D-xylose isomerase（XI；EC 5.3.1.5）處理 D-glucose。它也常因這個底物用途稱葡萄糖異構酶；兩個活性位 Mg²⁺ 參與結合與催化。本卡沒有給出特定糖漿製程 pH、溫度、速率或收率。",
+      "reactiveSite": "葡萄糖開環後的 C1–C2：C1 醛羰基轉成 C1 醇，C2 醇轉成 C2 酮。1994 年 Mg 活化 XI 的結構與同位素研究支持金屬協助 C2→C1 氫負離子移位模型；精確 H 轉移方式未由 3D 端點或 2010 年中子系列直接確定。",
+      "steps": [
+        {
+          "title": "α-D-吡喃葡萄糖進入 XI 路線",
+          "equation": "α-D-glucopyranose（環狀 C6H12O6）",
+          "explanation": "IUBMB 記錄 XI 對葡萄糖選 α 環狀底物，接著由酵素促進開環。先辨認 C1–O5 環鍵；這張圖只顯示自由糖代表分子。",
+          "viewModel": "glucose-alpha",
+          "modelNote": "自由 α-D-吡喃葡萄糖的獨立 3D 代表構象；沒有酵素、兩個 Mg²⁺、催化水或實測結合幾何。",
+          "highlight": [
+            "C1",
+            "O5",
+            "C2"
+          ]
+        },
+        {
+          "title": "開環後的線性葡萄糖",
+          "equation": "α-D-glucopyranose ⇌ open-chain D-glucose（仍為 C6H12O6）",
+          "explanation": "1994 年 S. olivochromogenes 的 X-ray 結構看見伸展開鏈 D-glucose；其 O2、O4 與 Mg-1 配位。此畫面只核對糖分子的 C1=O1 與 C2–O2，不畫金屬配位鍵。",
+          "viewModel": "glucose-open",
+          "modelNote": "自由開鏈葡萄糖 3D 端點，不是晶體內底物座標；Mg-1–O2/O4 的配位來自文獻文字，模型未建金屬與蛋白。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "O2",
+            "O4"
+          ]
+        },
+        {
+          "title": "雙金屬位協助的 C2→C1 氫移位模型",
+          "equation": "開鏈 C1 醛／C2 醇 → C1 醇／C2 酮（機構概念，非已解析單一步）",
+          "explanation": "兩個 Mg 位協助活性中心的結合與極化；1994 年 Mg-2 的兩個位置和低溶劑氫交換量支持氫負離子移位假說。2010 年中子研究仍不能確定 C2 到 C1 的 H 究竟沿哪條精確路徑移動。",
+          "viewModel": "glucose-open",
+          "modelNote": "仍顯示未反應開鏈葡萄糖，只定位 C1、C2、O1、O2；沒有氫轉移中間體、過渡態、Mg-2 位移、水的質子接力或跨模型原子映射。",
+          "highlight": [
+            "C1",
+            "C2",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "title": "核對開鏈 D-果糖終點",
+          "equation": "D-glucose (C6H12O6) ⇌ D-fructose (C6H12O6)",
+          "explanation": "獨立果糖 3D 端點顯示 C1–OH 與 C2=O；碳數、分子式及淨電荷都不變。果糖之後可環化，但本卡未建立酵素結合產物或環化階段。",
+          "viewModel": "fructose-open",
+          "modelNote": "自由開鏈 D-果糖的獨立代表構象；相同的 C1／C2／O1／O2 標籤只供位置比較，沒有驗證 H 的同位素來源、活性位幾何或環鏈比例。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "O2"
+          ]
+        }
+      ],
+      "foodContext": "葡萄糖異構酶可用於葡萄糖轉成果糖的食品酵素製程；這裡只比較催化概念，不推算工藝條件、收率或糖漿組成。",
+      "limits": "選定 S. olivochromogenes 的 1994 年雙 Mg 葡萄糖研究；2010 年 S. rubiginosus 的 Cd／Ni 抑制金屬陷阱及 Mg 木酮糖產物僅用於界定機構不確定性，不拼成同一實驗軌跡。第三階段重用未反應葡萄糖模型，沒有蛋白、Mg、水、金屬配位鍵、中間體或逐原子電子箭頭。低溶劑氫交換支持 hydride-shift 作主要模型，不能直接證明 C2→C1 的精確 H 路徑。此卡也沒有把鹼催化烯二醇當 XI 的已證實中間體。",
+      "sources": [
+        {
+          "title": "IUBMB EC 5.3.1.5：XI 命名、兩金屬位與廣底物機構",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC5/3/1/5.html"
+        },
+        {
+          "title": "Lavie 等 1994：S. olivochromogenes 的 Mg／葡萄糖 X-ray 結構",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8180169/"
+        },
+        {
+          "title": "Allen 等 1994：C2 標記葡萄糖的低溶劑氫交換",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8312268/"
+        },
+        {
+          "title": "Kovalevsky 等 2010：不同金屬陷阱的 X-ray／中子結構與 H 路徑界線",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2887347/"
+        },
+        {
+          "title": "Collyer 等 1990：XI 開環與金屬協助機構的早期結構研究",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2319597/"
+        }
+      ],
+      "relatedIds": [
+        "glucose-fructose-isomerization"
+      ],
+      "viewModel": "glucose-alpha",
+      "knowledgeCheck": {
+        "question": "XI 這張概覽卡和鹼催化烯二醇卡的主要證據區別是什麼？",
+        "options": [
+          "XI 已直接拍到完整 C2→C1 氫負離子反應軌跡",
+          "XI 的雙金屬位與低溶劑氫交換支持 hydride-shift 模型，但精確 H 路徑尚未直接確定",
+          "兩張卡都證明中性烯二醇是 XI 的必經中間體"
+        ],
+        "answerIndex": 1,
+        "explanation": "1994 年 Mg 結構和同位素研究支持 XI 的 hydride-shift 模型；2010 年中子研究仍保留精確 C2→C1 H 路徑的不確定性。"
+      }
+    },
+    {
+      "id": "hmf-acid-humin-parallel-network",
+      "title": "HMF 酸性轉化的分流：乙醯丙酸、甲酸與 humin",
+      "family": "脫水與熱反應",
+      "overallEquation": "HMF + 2 H2O → levulinic acid + formic acid（可命名液相支路）；HMF ⇢ humin 混合網路（無唯一總式）",
+      "equationType": "第一個箭頭是中性式配平的所選再水合分支：C6H6O3 + 2 H2O = C5H8O3 + CH2O2。第二個箭頭只標示競爭產物網路，不能配為單一固定 humin 分子或反應式",
+      "conditions": "以 HMF 的 Brønsted 酸性水相降解為指定範圍；Tsilomelekis 等人以 5 wt% HMF／0.1 M HCl、50–140 °C 研究液相產物與 humin 固體，並比較 DMSO／水混合溶劑。此卡不把其特定粒徑、速率或產率外推到果糖直接脫水、食品烹調或其他酸／溶劑。",
+      "reactiveSite": "HMF 呋喃環、醛基 C1=O1 與羥甲基是分流與候選連接的關鍵；再水合液相支路斷開 C6 骨架為 C5 乙醯丙酸加 C1 甲酸。候選 humin 起始路徑涉及 HMF 的水合開環 DHH、DHH 烯醇與 HMF 醛端的醇醛加成，但固體有多種含氧連結，非唯一位點。",
+      "steps": [
+        {
+          "title": "從 HMF 辨認兩種競爭去向",
+          "equation": "HMF：C6H6O3（酸性水相中的共同分流點）",
+          "explanation": "己糖脫水所得 HMF 可再與水反應，也可進入生成複雜碳質固體的網路。先看呋喃環、醛基和羥甲基；不同去向的權重依條件改變，沒有單一產率。",
+          "viewModel": "hmf",
+          "modelNote": "顯示既有中性 HMF 3D；C1/O1 為醛端、O3 為呋喃環氧、C6/O2 為羥甲基的本地局部標籤。沒有水、HCl 或固體 3D。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C6",
+            "O2",
+            "O3"
+          ]
+        },
+        {
+          "title": "液相競爭支路：乙醯丙酸與甲酸一起生成",
+          "equation": "HMF + 2 H2O → levulinic acid (C5H8O3) + formic acid (CH2O2)",
+          "explanation": "此可命名支路的中性分子式與電荷配平；C5 酸與 C1 酸屬同一次 HMF 再水合的兩個產物。乙醯丙酸和甲酸不是 humin 的固定組成，不能由此式推算並行固體生成量。",
+          "viewModel": "levulinic-acid",
+          "modelNote": "僅顯示中性乙醯丙酸的獨立 3D；同一分支的 C1 共產物甲酸在下一階段單獨顯示。兩個分子不是一個 3D 模型。",
+          "highlight": [
+            "C2",
+            "O1",
+            "C5",
+            "O2",
+            "O3"
+          ]
+        },
+        {
+          "title": "同一液相支路的 C1 共產物：甲酸",
+          "equation": "HMF + 2 H2O → levulinic acid (C5H8O3) + formic acid (CH2O2)",
+          "explanation": "甲酸與前一步的乙醯丙酸同屬這條配平的 HMF 再水合分支，不是乙醯丙酸又變成甲酸。分開觀看兩個自由分子模型，不能從局部 C1 標籤推定 HMF 的 C1 必然走到甲酸。",
+          "viewModel": "formic-acid",
+          "modelNote": "只顯示既有中性甲酸的獨立 3D 端點；與前一步的乙醯丙酸一起記帳，未提供兩產物同場景或 HMF→甲酸的固定跨模型原子映射。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "title": "候選固體起始支路：HMF 水合開環成 DHH",
+          "equation": "HMF + H2O ⇢ 2,5-dioxo-6-hydroxyhexanal（DHH；機構提案，C6H8O4）",
+          "explanation": "HMF 的水合開環 DHH 可提供多個羰基與烯醇化位置。Patil／Lund 以固體 IR 提出此候選入口，後續 DFT 計算了 DHH 烯醇支路；這不是上述固體樣品中直接分離、定量的 DHH。",
+          "viewModel": "hmf",
+          "modelNote": "仍顯示未反應 HMF 3D 定位呋喃與醛端；不是 DHH 開鏈 3D、酸催化水合的反應構象或實測中間體。",
+          "highlight": [
+            "C1",
+            "O1",
+            "O3",
+            "C6"
+          ]
+        },
+        {
+          "title": "多種候選連接通向組成可變的 humin",
+          "equation": "DHH-derived enol + HMF ⇢ 醇醛加成／縮合候選；亦有其他呋喃連接與親核進攻途徑",
+          "explanation": "原始 IR、固態 NMR 和粒徑研究顯示含呋喃與不同含氧官能基的固體，具條件依賴性。DHH 與 HMF 的特定 C–C 鍵是可討論的計算／機構例，不是整批 humin 的唯一結構；也不能把它與含氮梅納褐色產物畫成同一分子。",
+          "viewModel": "hmf",
+          "modelNote": "畫面只重用 HMF 3D 作可能被接入固體網路的呋喃原料參照。沒有 DHH、二聚體、高聚物或固體的單一 3D、原子數與分子式；步進畫面不是反應軌跡。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "C5",
+            "C6",
+            "O3"
+          ]
+        }
+      ],
+      "foodContext": "這是酸催化生質糖轉化中的 HMF 產物流向與碳損失例，不提供食品褐變速率、褐色深淺或安全性推論；含氮梅納 melanoidin 另在既有梅納網路討論。",
+      "limits": "HMF、乙醯丙酸與甲酸為分別存在的單分子 3D；液相支路的 C5／C1 共產物分開顯示，不提供跨模型固定碳映射。DHH、醇醛二聚體及 humin 無本卡 3D 或逐箭頭模型。IR/NMR/SEM/DLS 支持官能基、組成與形態層級，不唯一決定鍵圖；2022 隱式溶劑 DFT 是候選機構而非實測固體結構。無 humin 固定公式、配平總式、分子量或通用產率。",
+      "sources": [
+        {
+          "title": "Patil、Lund 2011：HMF 固體 IR 與 DHH／醇醛加成提案",
+          "url": "https://doi.org/10.1021/ef2010157"
+        },
+        {
+          "title": "van Zandvoort 等 2013：不同糖進料 humin 組成與固態分析",
+          "url": "https://doi.org/10.1002/cssc.201300332"
+        },
+        {
+          "title": "Tsilomelekis 等 2016：HMF 酸性轉化條件、液相與固體 FTIR／SEM／DLS",
+          "url": "https://pubs.rsc.org/en/content/articlehtml/2016/gc/c5gc01938a"
+        },
+        {
+          "title": "Ashraf 等 2022：DHH 烯醇／HMF 加成的 DFT 提案",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9753539/"
+        },
+        {
+          "title": "PubChem CID 91211238：候選 DHH 的開鏈結構身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/2_5-Dioxo-6-hydroxyhexanal"
+        }
+      ],
+      "relatedIds": [
+        "hexose-hmf-dehydration",
+        "hmf-rehydration",
+        "pentose-furfural-dehydration",
+        "maillard-late-network"
+      ],
+      "viewModel": "hmf",
+      "knowledgeCheck": {
+        "question": "這張 HMF 酸性轉化卡中，哪一項可以寫成指定中性式配平反應，而 humin 仍需保持網路表示？",
+        "options": [
+          "HMF + 2 H2O → 乙醯丙酸 + 甲酸；humin 沒有單一固定分子式",
+          "每個 HMF 都必定形成同一個 DHH–HMF 二聚體，這個二聚體就是全部 humin",
+          "乙醯丙酸與甲酸就是同一個 humin 分子的兩個固定側基"
+        ],
+        "answerIndex": 0,
+        "explanation": "既有再水合支路有可命名 C5/C1 產物與配平式；固體 humin 的進料依賴及多種連接無法壓成一個確定分子。DHH／醇醛加成是候選入口。"
+      }
+    },
+    {
+      "id": "sucrose-synthase-udp-glucose-transfer",
+      "title": "UDP-葡萄糖轉移：AtSus1 保留構型合成蔗糖",
+      "family": "糖苷與水解",
+      "overallEquation": "UDP-α-D-glucose(2−) + D-fructose ⇌ sucrose + UDP(3−) + H+",
+      "equationType": "Rhea:55095 指定二價陰離子 UDP-糖、三價陰離子 UDP 與 H+ 的可逆配平淨式；兩側 C21H34N2O23P2，淨電荷均 −2；教學順序選由左往右",
+      "conditions": "以 Arabidopsis thaliana sucrose synthase 1（AtSus1，EC 2.4.1.13）的原始結構研究為具體酵素案例。酵素可逆轉移葡萄糖基；此卡選 UDP-α-D-glucose 作供體、D-fructose 作受體，受體 3D 選研究中觀察的 β-D-呋喃型。未指定未核對的胞內 pH、反應時間、產率、方向偏好或平衡組成。",
+      "reactiveSite": "UDP-α-D-glucose 糖部的 α-C1–O–P_sugar 鍵解離，果糖 β-D-呋喃型的 C2–O2 羥基接收葡萄糖基，生成蔗糖的 α-D-葡萄糖基-(1↔2)-β-D-呋喃果糖連結；UDP(3−) 離去，H+ 依 Rhea 指定離子形式記帳。不同 3D 模型的局部原子 ID 不構成同位素級跨反應映射。",
+      "steps": [
+        {
+          "title": "辨認完整 UDP-α-D-glucose 供體",
+          "equation": "UDP-α-D-glucose(2−) + D-fructose（反應物）",
+          "explanation": "葡萄糖基的異頭 C1 以 α 配置連向 UDP 焦磷酸，與游離 D-葡萄糖不同。此卡轉移的是葡萄糖基；UDP 將作離去基而不是果糖受體。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "顯示已驗證的完整 UDP-α-D-glucose(2−) 獨立計算 3D 端點。C1、O1、P_sugar 是此模型局部標籤；無果糖、酵素或 UDP 離去後的同場景模型。",
+          "highlight": [
+            "C1",
+            "O1",
+            "P_sugar"
+          ]
+        },
+        {
+          "title": "辨認 β-D-呋喃果糖 C2–OH 受體",
+          "equation": "β-D-fructofuranose 的 C2–O2H（Rhea 總式寫 D-fructose）",
+          "explanation": "AtSus1 的 UDP／果糖晶體複合物直接含 β-D-呋喃果糖；此處用相同立體形式的獨立 3D 代表分子定位 C2 羥基。Rhea 的 D-fructose 物種未固定 C2 異頭配置，β 形式不代表溶液中唯一物種。",
+          "viewModel": "fructose-furanose",
+          "modelNote": "顯示本地 PubChem 身分核對的 β-D-呋喃果糖單獨計算構象；C2／O2 是本模型的糖位標籤。它不是 PDB 3S29 的配體座標，也不是與 UDP-糖在酵素中的共同姿態。",
+          "highlight": [
+            "C2",
+            "O2"
+          ]
+        },
+        {
+          "title": "討論 UDP 離去與保留型前面轉移",
+          "equation": "UDP-Glc 的 C1–O–P 解離；果糖 O2 接收葡萄糖基（S_Ni-like 機構提案，非配平微步）",
+          "explanation": "原始 AtSus1 結構研究的電子密度與活性位幾何支持討論氧鎓樣離子對／同面轉移模型；它不是時間解析反應影像，也未證明唯一機構。葡萄糖基在蔗糖端仍為 α，故稱構型保留。不得把此模型直接改寫成糖苷水解酵素的共價糖基酵素雙重取代。",
+          "viewModel": "udp-glucose-alpha-dianion",
+          "modelNote": "仍顯示未反應 UDP-糖供體作 C1 與磷酸位置參照；畫面沒有氧鎓樣離子對、游離 UDP(3−)、酵素或果糖共同 3D，也不是反應坐標或電子箭頭。",
+          "highlight": [
+            "C1",
+            "O1",
+            "P_sugar"
+          ]
+        },
+        {
+          "title": "核對蔗糖的兩個異頭中心與共產物",
+          "equation": "UDP-α-D-glucose(2−) + D-fructose ⇌ sucrose + UDP(3−) + H+",
+          "explanation": "蔗糖由 α-D-葡萄糖基 C1 和 β-D-呋喃果糖 C2 經一個糖苷氧連接，兩個異頭中心均被占用。UDP(3−) 與 H+ 是所選 Rhea 帶電式的共產物；此畫面顯示蔗糖，下一階段顯示 UDP。",
+          "viewModel": "sucrose",
+          "modelNote": "顯示已驗證立體身分的獨立蔗糖 3D 端點。其既有原子標籤不按葡萄糖／果糖糖位對應，因此不高亮 C1／O2，也不宣稱與前幾階段逐原子映射。"
+        },
+        {
+          "title": "核對游離 UDP(3−) 與質子簿記",
+          "equation": "UDP-α-D-glucose(2−) + D-fructose ⇌ sucrose + UDP(3−) + H+",
+          "explanation": "獨立的 UDP(3−) 端點保留尿苷與焦磷酸，糖部已不在其中；三個磷酸氧帶負電。這與前一階段蔗糖一起是所選淨式右側，不表示蔗糖先變成 UDP。H+ 仍只以文字列出，兩側淨電荷均為 −2。",
+          "viewModel": "udp-trianion",
+          "modelNote": "顯示 ChEBI:58223／PubChem CID 20056717 核對的游離 UDP(3−) 獨立計算 3D。P_sugar、P_uridine 與三個陰離子氧是本模型的局部標籤；與供體的同名標籤不是離去軌跡或逐原子同位素映射。沒有 H+、酵素或溶液反離子 3D。",
+          "highlight": [
+            "P_sugar",
+            "P_uridine",
+            "O_Pu_minus",
+            "O_Ps_minus",
+            "O_Ps_terminal_minus_2"
+          ]
+        }
+      ],
+      "foodContext": "蔗糖在植物中可與 UDP-糖代謝可逆連結；本卡用酵素反應說明生合成與活化供體，不是食物加工配方，也不推定特定作物的體內淨通量。",
+      "limits": "四個獨立 3D 端點分別顯示 UDP-糖供體、β-D-呋喃果糖代表受體、蔗糖與游離 UDP(3−)；沒有 H+、兩底物同場景、AtSus1 活性位、離子對中間體、逐原子電子流或跨模型追蹤。第三階段仍是未反應供體 3D。S_Ni-like 是原始結構研究提出的解釋，不是唯一機構證明。Rhea 指定離子式的 H+ 不可省去而仍宣稱電荷守恆；本卡僅代表保留型酵素，反轉型比較另需獨立案例。",
+      "sources": [
+        {
+          "title": "Rhea:55095：UDP-α-D-glucose、D-fructose、sucrose、UDP(3−)、H+ 指定淨式",
+          "url": "https://www.rhea-db.org/rhea/55095"
+        },
+        {
+          "title": "IUBMB EC 2.4.1.13：sucrose synthase 與 configuration-retaining 命名",
+          "url": "https://iubmb.qmul.ac.uk/enzyme/EC2/4/1/13.html"
+        },
+        {
+          "title": "Zheng 等 2011：AtSus1 原始 X-ray 結構與 S_Ni-like 討論",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21865170/"
+        },
+        {
+          "title": "RCSB PDB 3S29：AtSus1、UDP 與 β-D-fructofuranose 直接結構資料",
+          "url": "https://www.rcsb.org/structure/3S29"
+        },
+        {
+          "title": "ChEBI:58885：UDP-α-D-glucose(2−) 身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:58885"
+        },
+        {
+          "title": "ChEBI:58223：UDP(3−) 身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:58223"
+        },
+        {
+          "title": "ChEBI:17992：sucrose 身分",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:17992"
+        }
+      ],
+      "relatedIds": [
+        "sucrose-inversion",
+        "enzymatic-transglycosylation",
+        "udp-galactose-4-epimerase",
+        "udp-glucose-6-dehydrogenase"
+      ],
+      "viewModel": "udp-glucose-alpha-dianion",
+      "knowledgeCheck": {
+        "question": "AtSus1 以 UDP-α-D-glucose 與果糖生成蔗糖時，哪個說法同時符合糖基來源和 Rhea 帶電總式？",
+        "options": [
+          "葡萄糖基由 UDP-糖轉移到果糖 C2–OH，生成蔗糖並產出 UDP(3−) 與 H+",
+          "果糖基由蔗糖轉移到水，生成葡萄糖與果糖且消耗 UDP",
+          "UDP-糖先淨氧化 C6 兩次並消耗 2 NAD+，生成蔗糖"
+        ],
+        "answerIndex": 0,
+        "explanation": "此路線轉移 UDP-α-D-glucose 的葡萄糖基到果糖受體，葡萄糖基異頭配置在蔗糖中保留；Rhea:55095 指定 UDP 為三價陰離子且右側另有 H+。"
+      }
+    },
+    {
+      "id": "maillard-amadori-deoxyosone-network",
+      "title": "Amadori 產物的去氧酮糖分流：初始 pH 改變路徑權重",
+      "family": "梅納反應",
+      "overallEquation": "DFG ⇢ glycine + 3-deoxyosone；或 DFG ⇢ glycine + 1-deoxyosone（兩條各自配平的形式支路）",
+      "equationType": "選定 N-(1-deoxy-D-fructos-1-yl)-glycine 中性式的兩條平行合併淨式；每條 C8H15NO7 → C2H5NO2 + C6H10O5、總電荷 0。這不是完整產物網路、固定速率式或基本微步",
+      "conditions": "以 Martins 等人的 DFG 水相模型為指定範圍：初始 pH 5.5／6.8，在 100／120 °C 加熱。較低初始 pH 相對偏向 1,2 烯醇化；提高初始 pH 時 2,3 烯醇化相對更重要。這是四組研究條件的相對趨勢，不設 pH 7 硬界線，也不指定其他食品的產率。",
+      "reactiveSite": "DFG 糖部 C1–C3 的羰基／烯醇化／脫水網路；1,2 路與 3-DG 相連，2,3 路與 1-DG 相連。甘胺酸從糖部 C1 的含氮連結釋放；中性模型不代表水相實際酸鹼微觀態。",
+      "steps": [
+        {
+          "title": "辨認開鏈 DFG 的 C1–C3 與甘胺酸連結",
+          "equation": "DFG：C8H15NO7（開鏈 Amadori 代表）",
+          "explanation": "從既有葡萄糖–甘胺酸 Amadori 產物出發。糖部 C1、C2、C3 和 C1–N1 連結決定後續可走不同烯醇化方向；這是同一模型系統的反應分流起點。",
+          "viewModel": "amadori-glycine",
+          "modelNote": "顯示既有 DFG 單分子 3D；C1–C6 是糖部局部 ID，N1/C7/C8 指甘胺酸部。沒有酸、水或其離子微觀態。",
+          "highlight": [
+            "C1",
+            "C2",
+            "C3",
+            "N1",
+            "C7",
+            "C8"
+          ]
+        },
+        {
+          "title": "平行分支 A：1,2 烯醇化通向 3-DG",
+          "equation": "DFG ⇢ glycine + 3-deoxy-D-erythro-hexos-2-ulose（合併形式式）",
+          "explanation": "在所研究的較低初始 pH 條件，1,2 烯醇化相對較有利，經脫水與胺基酸釋放的網路連到 3-DG。3-DG 是 C1 醛／C2 酮而 C3 缺 OH 的 C6 α-二羰基；此處沒有把每個質子交換畫成單一微步。",
+          "viewModel": "maillard-3-deoxyosone",
+          "modelNote": "顯示 PubChem CID 114839 的開鏈 3-DG 計算 3D 端點；C1 醛、C2 酮、C3 無 OH。局部原子標籤不是由 DFG 追蹤的映射，且不顯示烯醇化中間體或反應軌跡。",
+          "highlight": [
+            "C1",
+            "C2",
+            "C3",
+            "O1",
+            "O2"
+          ]
+        },
+        {
+          "title": "平行分支 B：2,3 烯醇化通向 1-DG",
+          "equation": "DFG ⇢ glycine + 1-deoxy-erythro-hexo-2,3-diulose（另一條合併形式式）",
+          "explanation": "提高所研究的初始 pH 時，2,3 烯醇化的相對重要性上升，與 1-DG 生成相連。1-DG 的 C1 是 CH3，C2/C3 為二酮。此步與上一分支是競爭選項，不是 3-DG 再變成 1-DG；1-DG 終點量也受較高後續反應性影響。",
+          "viewModel": "maillard-1-deoxyosone",
+          "modelNote": "顯示 PubChem CID 11228966 的開鏈 1-DG 計算 3D 端點；C1 為 CH3，C2／C3 為二酮。局部原子標籤不是由 DFG 追蹤的映射，且不顯示烯醇中間體或 pH 對能障的計算。",
+          "highlight": [
+            "C1",
+            "C2",
+            "C3",
+            "O2",
+            "O3"
+          ]
+        },
+        {
+          "title": "核對共同的甘胺酸釋放與更廣的產物網路",
+          "equation": "兩條形式式各自釋放 glycine；其餘碎裂／親本糖／酸／褐色產物另屬競爭網路",
+          "explanation": "原始實驗測得游離甘胺酸，也測得 methylglyoxal、乙酸、甲酸、葡萄糖和甘露糖等；不能把它們全部塞進一條 DFG→單一產物的總式。由去氧酮糖再走向小分子 α-二羰基及 Strecker 反應，需要另選並核對具體分支。",
+          "viewModel": "glycine",
+          "modelNote": "只顯示現有中性甘胺酸分子作共同釋放產物；原研究水相中的質子化比例、1-DG／3-DG 共產物及其他副產物都未顯示在此 3D。",
+          "highlight": [
+            "N1",
+            "C1",
+            "C2"
+          ]
+        }
+      ],
+      "foodContext": "以已分離的 DFG 水相模型說明梅納反應早期產物如何進入多種中期 α-二羰基分支；這不是任何食品的通用加熱時間、pH 界線、香氣配方或褐色程度預測。",
+      "limits": "第二、三階段各有開鏈 3-DG／1-DG 計算 3D 端點，但沒有烯醇、水、酸鹼與釋放甘胺酸的逐原子電子機構；兩個端點也不是實測水相構象或 DFG 的反應軌跡。兩支形式式各自守恆，不能合成一條整體產物式；pH 5.5/6.8 只是研究初始條件。原始動力學是多路擬合，不能由本卡推速率、活化能或 methylglyoxal 的唯一來源。",
+      "sources": [
+        {
+          "title": "Martins 等 2003 Part I：DFG 水相產物與 pH／溫度研究",
+          "url": "https://doi.org/10.1016/S0008-6215(03)00173-3"
+        },
+        {
+          "title": "Martins、van Boekel 2003 Part II：1,2／2,3 路徑的多反應動力學",
+          "url": "https://doi.org/10.1016/S0008-6215(03)00174-5"
+        },
+        {
+          "title": "PubChem CID 114839：開鏈 3-deoxyglucosone 結構身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3-Deoxyglucosone"
+        },
+        {
+          "title": "PubChem CID 11228966：開鏈 1-deoxyglucosone 結構身分",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/1-Deoxyglucosone"
+        }
+      ],
+      "relatedIds": [
+        "maillard-amadori",
+        "maillard-late-network",
+        "maillard-strecker"
+      ],
+      "viewModel": "amadori-glycine",
+      "knowledgeCheck": {
+        "question": "在指定 DFG 水相實驗的初始 pH 5.5 與 6.8 之間，提高 pH 最符合哪一項觀察？",
+        "options": [
+          "2,3 烯醇化／1-DG 分支的相對重要性上升；沒有 pH 7 硬切換證據",
+          "超過 pH 7 才突然只產生 1-DG，低於 pH 7 絕不會生成",
+          "3-DG 必須先轉成 1-DG，兩者是單一連續反應的兩個固定階段"
+        ],
+        "answerIndex": 0,
+        "explanation": "原始研究比較初始 pH 5.5/6.8：相對較低 pH 偏向 1,2 路，較高 pH 使 2,3 路更重要。兩種去氧酮糖是競爭分支；測得的 1-DG 量還受其後續高反應性影響。"
+      }
+    },
+    {
+      "id": "alkaline-glucose-lactate-network",
+      "title": "鹼性葡萄糖裂解：果糖、三碳片段與乳酸根",
+      "family": "碳骨架增減",
+      "overallEquation": "D-葡萄糖 ⇢ D-果糖／C3 片段 ⇢ 乳酸根及其他產物（所選競爭網路）",
+      "equationType": "來源界定的有向網路示意，非唯一、完整或可由此配平的總反應式；所選原文報產率及若干中間產物，但不給單分子全網路原子帳本",
+      "conditions": "Li 等 2017 的水性 0.10 M D-葡萄糖、0.25 M Ba(OH)₂、25 °C、1 bar N₂、48 h；僅作實驗證據定位。Ba(OH)₂ 同時供鹼並形成乳酸鹽，酸化後報游離乳酸。氧氣、濃度、鹼種或溫度改變時產品分布不同。",
+      "reactiveSite": "開鏈葡萄糖 C1 醛與 C2 醇先可互變為果糖 C2 酮；後續提議從開鏈果糖 C3–C4 裂成兩個 C3 骨架，進入乳酸根支路。C3 片段轉成乳酸根的過程沒有已驗證的逐原子或逐氫映射。",
+      "steps": [
+        {
+          "title": "從開鏈 D-葡萄糖辨認可互變的羰基",
+          "equation": "D-glucose，C₆H₁₂O₆，電荷 0",
+          "explanation": "以現有自由糖 3D 看 C1 醛與鄰近 C2。原文葡萄糖投料不等於溶液只含開鏈式；這個模型是反應位點參照。",
+          "viewModel": "glucose-open",
+          "modelNote": "自由開鏈 D-葡萄糖代表構象；無 Ba²⁺、OH⁻、水合及各環形的完整分布。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "O2"
+          ]
+        },
+        {
+          "title": "實測果糖支路，區分 C1 醛與 C2 酮",
+          "equation": "D-glucose (C₆H₁₂O₆) ⇌ D-fructose (C₆H₁₂O₆)；異構化分支",
+          "explanation": "時間序列先檢出果糖，0.10 M／48 h 的原文表列仍有約 3.3% 果糖。果糖是後續提議逆醛醇的 C6 入口，但此 3D 是自由果糖，不是 Ba 配位結構。",
+          "viewModel": "fructose-open",
+          "modelNote": "獨立開鏈 D-果糖 3D；與前一步的 C1/C2 標籤只供官能基位置比較，不是實測的連續座標軌跡。",
+          "highlight": [
+            "C1",
+            "O1",
+            "C2",
+            "O2",
+            "C3",
+            "C4"
+          ]
+        },
+        {
+          "title": "提出的 C3–C4 逆醛醇裂解",
+          "equation": "開鏈 D-fructose (C₆H₁₂O₆) ⇢ 二羥基丙酮 (C₃H₆O₃) + 甘油醛 (C₃H₆O₃)；形式片段式",
+          "explanation": "作者提出 C1–C3 與 C4–C6 的 C3 配對；甘油醛在反應液中檢出，二羥基丙酮未直接檢出且可能迅速轉化。中性片段式只核對 C/H/O 守恆，不證明兩個 C3 同時可分離、每個葡萄糖的唯一去向或甘油醛 D/L 比。",
+          "viewModel": "fructose-open",
+          "modelNote": "仍顯示未裂解的自由果糖，只標示 C3–C4 斷裂候選位。畫面沒有三碳產物、Ba 配位、斷鍵過渡態或逐原子電子箭頭。",
+          "highlight": [
+            "C2",
+            "C3",
+            "C4",
+            "C5"
+          ]
+        },
+        {
+          "title": "乳酸根可能端點 A：（2R），不是量得構型",
+          "equation": "提出的 C3 中間網路 ⇢ lactate (C₃H₅O₃⁻)；（2R）僅為可能立體形式",
+          "explanation": "所選 0.10 M 葡萄糖實驗報 78.3% 乳酸產率；作者提出二羥基丙酮經丙酮醛和氫移位的路徑，丙酮醛未在葡萄糖時間序列中直接檢出。Ba(OH)₂ 可形成鋇乳酸鹽，酸化後才是游離乳酸。這個（2R）模型是結構上可能的端點，不代表論文量得（2R）比例。",
+          "viewModel": "alkaline-lactate-r",
+          "modelNote": "ChEBI:16004／PubChem CID 5460179 的獨立計算（2R）乳酸根 3D；只示範一個可能對映體，無 Ba²⁺、溶劑或實測產物配置。下步是另一可能端點，並非 R→S 反應。",
+          "highlight": [
+            "C1",
+            "O1a",
+            "O1b",
+            "C2",
+            "O2"
+          ]
+        },
+        {
+          "title": "乳酸根可能端點 B：（2S），與上步並列",
+          "equation": "提出的 C3 中間網路 ⇢ lactate (C₃H₅O₃⁻)；（2S）是另一可能立體形式",
+          "explanation": "（2S）乳酸根與上一步（2R）乳酸根分子式、電荷及連接圖相同，只在 C2 配置相反。兩張圖是並列端點，不是先 R 後 S 的轉化，也不表示產物是 1:1 混合；原文沒有測 R/S。",
+          "viewModel": "alkaline-lactate-s",
+          "modelNote": "ChEBI:16651／PubChem CID 5460161 的獨立計算（2S）乳酸根 3D；原始反應研究未定此對映體是否存在或比例。與前一個 R 模型不可用於推斷速率、產率或平衡。",
+          "highlight": [
+            "C1",
+            "O1a",
+            "O1b",
+            "C2",
+            "O2"
+          ]
+        }
+      ],
+      "foodContext": "這是鹼性非生物降解的文獻案例，用來對照鹼催化 Glc⇌Fru、食品酸促 HMF 及發酵產乳酸；此反應條件和產率不是食品製程或食用建議。",
+      "limits": "研究證實所選條件下的果糖、甘油醛和乳酸產物，但不確證每個 C3 中間體或唯一微觀機構。二羥基丙酮、丙酮醛、Ba 配位與 1,2-氫移位未建 3D；第三階段只是未裂解果糖的位置參照。末兩階段分別顯示 R 與 S 的可能端點，原文未測產物立體及其比例，兩階段不是連續反應。原文的乳酸產率受糖濃度與氧氣影響；1996 年熱 Ca(OH)₂ 的 C6 糖精酸分支屬另一實驗，不拼接進此 25 °C Ba 網路。不能以 C₆H₁₂O₆ → 2 lactate⁻ 寫成這一複雜混合物的唯一總式。",
+      "sources": [
+        {
+          "title": "Li 等 2017：所選 Ba(OH)₂／N₂ 條件、時間序列、產率及提出的 C3 路線",
+          "url": "https://doi.org/10.1039/C6GC02443B"
+        },
+        {
+          "title": "Yang、Montgomery 1996：熱 Ca(OH)₂ 中 C6 糖精酸和短鏈酸混合物的不同條件對照",
+          "url": "https://doi.org/10.1016/0008-6215(95)00294-4"
+        },
+        {
+          "title": "de Bruijn 等 1986：鹼、濃度、Ca²⁺ 對產物網路的原始比較",
+          "url": "https://doi.org/10.1002/recl.19861050603"
+        },
+        {
+          "title": "PubChem CID 91435：未指定對映體乳酸根 C₃H₅O₃⁻",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/91435"
+        },
+        {
+          "title": "PubChem CID 612：未指定對映體游離乳酸 C₃H₆O₃",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/612"
+        },
+        {
+          "title": "ChEBI:16004：可能（2R）乳酸根結構，原始反應未測此形式",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:16004"
+        },
+        {
+          "title": "ChEBI:16651：可能（2S）乳酸根結構，原始反應未測此形式",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:16651"
+        },
+        {
+          "title": "ChEBI:16016：二羥基丙酮 C₃H₆O₃",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:16016"
+        },
+        {
+          "title": "ChEBI:5445：甘油醛 C₃H₆O₃；本研究未指定其立體",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:5445"
+        },
+        {
+          "title": "ChEBI:17158：丙酮醛 C₃H₄O₂",
+          "url": "https://www.ebi.ac.uk/chebi/CHEBI:17158"
+        }
+      ],
+      "relatedIds": [
+        "glucose-fructose-isomerization",
+        "glucose-mannose-epimerization",
+        "hexose-hmf-dehydration"
+      ],
+      "viewModel": "glucose-open",
+      "knowledgeCheck": {
+        "question": "這個 25 °C Ba(OH)₂／氮氣案例中，哪一組是原文直接測得的反應液成分？",
+        "options": [
+          "果糖、甘油醛與乳酸產物；二羥基丙酮及丙酮醛路線屬機構提案",
+          "D-乳酸為唯一產物，且果糖沒有出現",
+          "每一個葡萄糖都定量變成兩個指定 R/S 的乳酸根"
+        ],
+        "answerIndex": 0,
+        "explanation": "時間序列與產品表支持果糖、甘油醛和乳酸；DHA／丙酮醛是作者提出的快轉化中間階段，乳酸立體未量得。"
+      }
+    }
+  ]
+}

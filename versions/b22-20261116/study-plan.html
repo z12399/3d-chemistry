@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <script>/* 舊版本網址自動換到最新版（只在已發布的 /versions/ 路徑下才載入） */if(/\/versions\/[^/]+\//.test(location.pathname)){var g=document.createElement('script');g.src=location.pathname.replace(/\/versions\/.*$/,'/version-guard.js');document.head.appendChild(g);}</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11665a">
+  <title>課程：依考試重點 · 食品科學學習室</title>
+  <meta name="description" content="從臺大食科所 114、115 學年的考題回推：三科 257 課裡要先讀哪幾課、讀多少就涵蓋近兩年八成的分數。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%2311665a'/%3E%3Cpath d='M13 25l8 8 15-18' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./theme.css">
+  <link rel="stylesheet" href="./refresh.css">
+  <link rel="stylesheet" href="./past-exams.css">
+  <link rel="stylesheet" href="./study-plan.css">
+</head>
+<body class="pe-body">
+  <a class="pe-skip" href="#sp-main">跳到內容</a>
+  <header class="site-header"><a class="brand" href="./start.html">食品科學學習室</a>
+  <nav class="site-nav" aria-label="主要導覽"><a href="./start.html">首頁</a><a href="./past-exams.html">歷屆考題</a><a href="./study-plan.html" aria-current="page">課程</a><a href="./exam.html#exam/written">練習</a><a href="./exam.html#exam/progress">我的進度</a></nav></header>
+  <main id="sp-main" class="pe-shell" tabindex="-1">
+    <header class="pe-intro">
+      <h1>課程：依考試重點</h1>
+      <p>從 114、115 學年的 71 題考題回推每一課對應多少分，分數高的排前面。先讀第一輪，讀完一課就寫考過它的題目。</p>
+      <p class="sp-views"><span class="sp-view is-current">依考試重點</span><a class="sp-view" data-sp-chapters href="./index.html#learn/map">依章節看全部課程 →</a></p>
+    </header>
+    <div class="pe-tabs" role="tablist" aria-label="科目">
+      <button type="button" role="tab" id="sp-tab-chem" data-subject="chem" aria-controls="sp-panel-chem" aria-selected="true">食品化學</button>
+      <button type="button" role="tab" id="sp-tab-proc" data-subject="proc" aria-controls="sp-panel-proc" aria-selected="false" tabindex="-1">食品加工學</button>
+      <button type="button" role="tab" id="sp-tab-micro" data-subject="micro" aria-controls="sp-panel-micro" aria-selected="false" tabindex="-1">食品微生物學</button>
+    </div>
+    <div class="pe-panel" role="tabpanel" id="sp-panel-chem" data-subject="chem" aria-labelledby="sp-tab-chem" tabindex="0"><p class="pe-loading" role="status">正在讀取讀書清單…</p></div>
+    <div class="pe-panel" role="tabpanel" id="sp-panel-proc" data-subject="proc" aria-labelledby="sp-tab-proc" tabindex="0" hidden><p class="pe-loading">正在讀取讀書清單…</p></div>
+    <div class="pe-panel" role="tabpanel" id="sp-panel-micro" data-subject="micro" aria-labelledby="sp-tab-micro" tabindex="0" hidden><p class="pe-loading">正在讀取讀書清單…</p></div>
+    <noscript><p class="pe-sec">這一頁需要 JavaScript 才能顯示讀書清單。可以先<a href="./index.html#learn/map">依章節看課程</a>。</p></noscript>
+    <section class="pe-sec pe-about" aria-labelledby="sp-about">
+      <h2 id="sp-about">這份清單怎麼算的</h2>
+      <ul>
+        <li data-sp-method>把 114、115 學年每題參考要點的配分，平均分給該要點標示要讀的課，逐課加總後依分數排序。</li>
+        <li>配分與參考要點是本站整理的教學參考，官方不公布答案與評分標準。</li>
+        <li>只用了兩年的考題：清單說的是「近兩年考了什麼」，不是預測明年考什麼。第三輪的課不是不重要，只是近兩年沒出現。</li>
+        <li>「做過自測」只看這個瀏覽器裡的紀錄。</li>
+      </ul>
+      <p><a href="./past-exams.html">看歷屆考題：每一題考什麼、題型怎麼變 →</a></p>
+    </section>
+  </main>
+  <script type="module" src="./modules/study-plan.js"></script>
+</body>
+</html>
