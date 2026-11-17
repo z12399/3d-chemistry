@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">水分會往哪裡移動</title>
+<desc id="figure-desc">密封包裝內，若內餡水活性較高，水仍可移向較低水活性的餅乾。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">水分會往哪裡移動</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同溫下，比較的是水活性 a_w</tspan></text>
+<rect x="42" y="112" width="636" height="240" rx="22" fill="#ffffff" stroke="#53606d" stroke-width="2"/>
+<text x="65" y="141" font-size="18" fill="#53606d" text-anchor="start"><tspan x="65" dy="0">密封包裝內部</tspan></text>
+<rect x="80" y="166" width="210" height="147" rx="16" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="430" y="166" width="210" height="147" rx="16" fill="#f6f7f8" stroke="#b4692e" stroke-width="2"/>
+<text x="185" y="203" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="185" dy="0">內餡</tspan></text>
+<text x="185" y="238" font-size="22" fill="#14665d" text-anchor="middle"><tspan x="185" dy="0">較高 a_w</tspan></text>
+<text x="535" y="203" font-size="24" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="535" dy="0">餅乾</tspan></text>
+<text x="535" y="238" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="535" dy="0">較低 a_w</tspan></text>
+<circle cx="118" cy="276" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="166" cy="276" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="214" cy="276" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="262" cy="276" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<path d="M 310 254 L 407 254" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="360" y="219" font-size="20" fill="#6f8fb5" text-anchor="middle"><tspan x="360" dy="0">水分</tspan></text>
+<text x="360" y="299" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">趨向平衡</tspan></text>
+<text x="32" y="393" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">密封限制對外交換；內餡與餅乾仍可交換水分。</tspan><tspan x="32" dy="25">水活性差判斷方向，不能只比較總含水量。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">追蹤吃進什麼、在哪裡產毒</title>
+<desc id="figure-desc">以三條平行路徑區分攝入病原後體內增殖、攝入食品預成毒素，以及攝入細菌後腸內產毒。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="490" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">追蹤吃進什麼、在哪裡產毒</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">分類解釋機制，不能只憑症狀診斷</tspan></text>
+<text x="220" y="119" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="220" dy="0">食品／攝入前</tspan></text>
+<text x="549" y="119" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="549" dy="0">體內／攝入後</tspan></text>
+<path d="M 384 134 L 384 428" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<text x="32" y="187" font-size="19" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="32" dy="0">感染</tspan></text>
+<rect x="145" y="156" width="185" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="237.5" y="199.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="237.5" dy="0">病原</tspan></text>
+<path d="M 344 193 L 432 193" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="393" y="176" font-size="18" fill="#14665d" text-anchor="start"><tspan x="393" dy="0">攝入</tspan></text>
+<rect x="446" y="156" width="242" height="73" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="199.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">在體內增殖</tspan></text>
+<text x="32" y="282" font-size="19" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="32" dy="0">中毒</tspan></text>
+<rect x="145" y="251" width="185" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="237.5" y="280.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="237.5" dy="0">食品中</tspan><tspan x="237.5" dy="28">已形成的毒素</tspan></text>
+<path d="M 344 288 L 432 288" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="393" y="271" font-size="18" fill="#14665d" text-anchor="start"><tspan x="393" dy="0">攝入</tspan></text>
+<rect x="446" y="251" width="242" height="73" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="294.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">毒素發揮作用</tspan></text>
+<text x="32" y="377" font-size="19" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="32" dy="0">毒素媒介</tspan></text>
+<text x="32" y="403" font-size="19" fill="#14665d" text-anchor="start" font-weight="600"><tspan x="32" dy="0">感染</tspan></text>
+<rect x="145" y="346" width="185" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="237.5" y="389.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="237.5" dy="0">細菌</tspan></text>
+<path d="M 344 383 L 432 383" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="393" y="366" font-size="18" fill="#14665d" text-anchor="start"><tspan x="393" dy="0">攝入</tspan></text>
+<rect x="446" y="346" width="242" height="73" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="389.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">在腸內產毒</tspan></text>
+<text x="32" y="461" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">關鍵：作用對象及毒素形成的位置不同</tspan></text>
+<text x="688" y="472" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

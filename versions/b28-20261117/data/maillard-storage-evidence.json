@@ -1,0 +1,883 @@
+{
+  "schema": "maillard-storage-evidence/v1",
+  "id": "maillard-storage-evidence",
+  "title": "奶粉儲存濕度與早期梅納變化",
+  "sources": [
+    {
+      "id": "maillard-storage-aalaei2018",
+      "title": "Kinetics of available lysine in stored commercial skim milk powder at moderate temperatures",
+      "authors": "Aalaei, K.; Rayner, M.; Sjöholm, I.",
+      "year": 2018,
+      "doi": "10.1111/ijfs.13803",
+      "url": "https://academic.oup.com/ijfst/article/53/9/2159/7804989",
+      "publisher": "International Journal of Food Science and Technology 53(9), 2159–2165",
+      "locator": "Results；Table 1；Table 2；Methodology / Determination of kinetics of available lysine；Fig. 2",
+      "access": "publisher-indexed-text",
+      "snapshot": {
+        "path": "output/maillard-aw-candidate-2026-10-11/sources/aalaei2018-oup-indexed-text.txt",
+        "sha256": "a99bc62389a1f18b698c22436f22ff6fcf8e5f8c7d25bb2db3bcae6eab5ef864",
+        "kind": "publisher-indexed-text"
+      },
+      "note": "凍結的是出版社索引文字；原始期刊 PDF 與補充 Table S1 尚未取得。"
+    },
+    {
+      "id": "maillard-storage-aalaei2017-thesis",
+      "title": "Processing and Storage Stability of Skim Milk Powder",
+      "authors": "Aalaei, K.",
+      "year": 2017,
+      "url": "https://lup.lub.lu.se/search/files/31006882/Kataneh_Thesis_2017.pdf",
+      "publisher": "Lund University doctoral thesis",
+      "locator": "PDF pp.42–44；印刷頁 40–42；Figures 17–19 / Table 3",
+      "access": "original-pdf",
+      "snapshot": {
+        "path": "output/maillard-aw-candidate-2026-10-11/sources/aalaei-thesis-2017.pdf",
+        "sha256": "60c68043b0490ae941453f749696ab619a4ba5b10a2b896f74354f13af7fe084",
+        "kind": "original-pdf"
+      },
+      "note": "同題研究的作者學位論文總論；方法、圖例與表格有 43%／44% RH 差異，不能當作最終期刊原件。"
+    },
+    {
+      "id": "ntu-food-chemistry-115-239",
+      "title": "臺大 115 學年度碩士班入學考試：食品化學",
+      "authors": "國立臺灣大學",
+      "year": 2026,
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf",
+      "publisher": "National Taiwan University Library",
+      "locator": "239 食品化學，第 1 題，PDF 第 1 頁",
+      "access": "original-pdf",
+      "snapshot": {
+        "path": "output/maillard-aw-candidate-2026-10-11/sources/ntu115-239.pdf",
+        "sha256": "c8c9a9260a9bd8aeb07630872d041f81a68c7bbd44b8d2c34827c7245e7a6f5f",
+        "kind": "original-pdf"
+      },
+      "note": "梅納反應機制，以及儲存食品的相對水蒸氣壓 RVP 對反應速率的影響。"
+    }
+  ],
+  "conditions": {
+    "temperatureC": [
+      30,
+      32.5,
+      35
+    ],
+    "rhPercent": [
+      43,
+      52
+    ],
+    "storageDays": 30,
+    "matrix": "Norrmejerrier 商業低熱處理噴霧乾燥脫脂奶粉",
+    "matrixId": "norrmejerrier-commercial-low-heat-smp",
+    "proteinPercent": {
+      "mean": 37,
+      "reportedPlusMinus": 2
+    },
+    "lactosePercent": {
+      "mean": 50,
+      "reportedPlusMinus": 2
+    },
+    "fatPercentUpperExclusive": 1.25,
+    "pretreatment": {
+      "pasteurizationTemperatureC": 73,
+      "seconds": 15
+    },
+    "temperatureToleranceC": 0.5,
+    "rhTolerancePercentagePoints": 3,
+    "container": "open-petri-dish-in-controlled-rh-desiccator",
+    "powderMassG": 8,
+    "layerThicknessCm": 1,
+    "lysineAssay": {
+      "quantity": "available-lysine",
+      "method": "dye-binding",
+      "independentReplicates": 5
+    },
+    "sampleAwMeasurement": {
+      "temperatureC": 20,
+      "sampleMassG": 1,
+      "replicates": 2,
+      "instrument": "Aqua-lab Series 3TE",
+      "timeSeries": null,
+      "status": "not-obtained"
+    },
+    "identicalInitialWaterStateEstablished": false,
+    "sourceRefs": [
+      "maillard-storage-aalaei2018"
+    ],
+    "sourceLocation": "Methodology；Table 1 time 0"
+  },
+  "rows": [
+    {
+      "id": "smp-30C-43rh",
+      "temperatureC": 30,
+      "rhPercent": 43,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 5.93,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.113,
+        "printedCi95HalfWidthTimes1000PerHour": 0.021,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    },
+    {
+      "id": "smp-32.5C-43rh",
+      "temperatureC": 32.5,
+      "rhPercent": 43,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 11.86,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.181,
+        "printedCi95HalfWidthTimes1000PerHour": 0.024,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    },
+    {
+      "id": "smp-35C-43rh",
+      "temperatureC": 35,
+      "rhPercent": 43,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 15.82,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.251,
+        "printedCi95HalfWidthTimes1000PerHour": 0.029,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    },
+    {
+      "id": "smp-30C-52rh",
+      "temperatureC": 30,
+      "rhPercent": 52,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 13.74,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.206,
+        "printedCi95HalfWidthTimes1000PerHour": 0.033,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    },
+    {
+      "id": "smp-32.5C-52rh",
+      "temperatureC": 32.5,
+      "rhPercent": 52,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 22.22,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.386,
+        "printedCi95HalfWidthTimes1000PerHour": 0.027,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    },
+    {
+      "id": "smp-35C-52rh",
+      "temperatureC": 35,
+      "rhPercent": 52,
+      "endpoint": {
+        "timeDays": 30,
+        "lossPercent": 28.95,
+        "uncertainty": null,
+        "origin": "reported-endpoint",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Results / Blockage of lysine as a function of storage temperature and RH"
+      },
+      "fit": {
+        "order": 1,
+        "printedKTimes1000PerHour": 0.486,
+        "printedCi95HalfWidthTimes1000PerHour": 0.0171,
+        "confidenceLevel": 0.95,
+        "origin": "published-fit",
+        "sourceRefs": [
+          "maillard-storage-aalaei2018"
+        ],
+        "sourceLocation": "Table 2"
+      }
+    }
+  ],
+  "waterContent": {
+    "quantity": "Water mass percent, wet basis, NOT water activity",
+    "replicates": 2,
+    "uncertainty": "SD",
+    "rows": [
+      {
+        "timeDays": 0,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 4.0,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 2.96,
+            "sdWaterPercentWetBasis": 0.1,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 4.0,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 2.96,
+            "sdWaterPercentWetBasis": 0.1,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 4.0,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 2.96,
+            "sdWaterPercentWetBasis": 0.1,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 2,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.68,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.24,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 3,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.27,
+            "sdWaterPercentWetBasis": 0.14,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          }
+        ]
+      },
+      {
+        "timeDays": 4,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 6.7,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.91,
+            "sdWaterPercentWetBasis": 0.14,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 6.95,
+            "sdWaterPercentWetBasis": 0.01,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 7.55,
+            "sdWaterPercentWetBasis": 0.01,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          }
+        ]
+      },
+      {
+        "timeDays": 5,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.88,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.01,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 10,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 5.84,
+            "sdWaterPercentWetBasis": 0.05,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": null,
+            "sdWaterPercentWetBasis": null,
+            "replicates": 2,
+            "reportedMissing": true
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.49,
+            "sdWaterPercentWetBasis": 0.05,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.42,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 5.66,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 15,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 7.01,
+            "sdWaterPercentWetBasis": 0.1,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 4.89,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.14,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.28,
+            "sdWaterPercentWetBasis": 0.08,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.36,
+            "sdWaterPercentWetBasis": 0.01,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.03,
+            "sdWaterPercentWetBasis": 0.03,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 20,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.66,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 4.55,
+            "sdWaterPercentWetBasis": 0.1,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.36,
+            "sdWaterPercentWetBasis": 0.03,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.49,
+            "sdWaterPercentWetBasis": 0.03,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.34,
+            "sdWaterPercentWetBasis": 0.04,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 5.47,
+            "sdWaterPercentWetBasis": 0.01,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      },
+      {
+        "timeDays": 30,
+        "measurements": [
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.47,
+            "sdWaterPercentWetBasis": 0.02,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 30,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 4.21,
+            "sdWaterPercentWetBasis": 0.03,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.65,
+            "sdWaterPercentWetBasis": 0.05,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 32.5,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.71,
+            "sdWaterPercentWetBasis": 0.11,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 43,
+            "meanWaterPercentWetBasis": 5.06,
+            "sdWaterPercentWetBasis": 0.03,
+            "replicates": 2,
+            "reportedMissing": false
+          },
+          {
+            "storageTemperatureC": 35,
+            "storageRhPercent": 52,
+            "meanWaterPercentWetBasis": 6.04,
+            "sdWaterPercentWetBasis": 0.05,
+            "replicates": 2,
+            "reportedMissing": false
+          }
+        ]
+      }
+    ],
+    "sourceRefs": [
+      "maillard-storage-aalaei2018"
+    ],
+    "sourceLocation": "Table 1"
+  },
+  "missingEvidence": {
+    "lysineTimeSeries": {
+      "values": null,
+      "status": "not-obtained",
+      "sourceRefs": [
+        "maillard-storage-aalaei2018"
+      ],
+      "sourceLocation": "Supplementary Table S1"
+    },
+    "sampleAwTimeSeries": {
+      "values": null,
+      "status": "not-obtained",
+      "sourceRefs": [
+        "maillard-storage-aalaei2018"
+      ],
+      "sourceLocation": "Methodology / Measurement of water activity"
+    },
+    "measuredC0": {
+      "values": null,
+      "status": "not-obtained",
+      "sourceRefs": [
+        "maillard-storage-aalaei2018"
+      ],
+      "sourceLocation": "Supplementary Table S1"
+    },
+    "fitC0": {
+      "values": null,
+      "status": "not-stated",
+      "sourceRefs": [
+        "maillard-storage-aalaei2018"
+      ],
+      "sourceLocation": "Methodology / Determination of kinetics of available lysine"
+    },
+    "physicalStateTimeSeries": {
+      "values": null,
+      "status": "not-established",
+      "sourceRefs": [
+        "maillard-storage-aalaei2018"
+      ],
+      "sourceLocation": "Discussion"
+    }
+  },
+  "modelCalculator": {
+    "timeDays": 30,
+    "timeHours": 720,
+    "formula": "r(t) = exp(-k * t)",
+    "modelInitialFraction": 1,
+    "parameterOrigin": "published-fit",
+    "resultKind": "model-substitution",
+    "newMeasurement": false,
+    "independentlyRefit": false,
+    "fitC0Treatment": "not-stated",
+    "sourceRefs": [
+      "maillard-storage-aalaei2018"
+    ],
+    "sourceLocation": "Methodology / Determination of kinetics of available lysine；Fig. 2"
+  },
+  "versionDifferences": [
+    {
+      "id": "lower-rh-label",
+      "selectedSourceId": "maillard-storage-aalaei2018",
+      "selectedRhPercent": 43,
+      "otherSourceId": "maillard-storage-aalaei2017-thesis",
+      "otherReportedRhPercent": [
+        43,
+        44
+      ],
+      "note": "資料採 2018 期刊一致使用的 43%；保留 2017 論文內部 43／44 的差異。"
+    },
+    {
+      "id": "publication-identity",
+      "selectedSourceId": "maillard-storage-aalaei2018",
+      "otherSourceId": "maillard-storage-aalaei2017-thesis",
+      "note": "2017 論文清單所列期刊與 2018 最終期刊不同；數值交叉核對不等於將兩個版本視為同一原件。"
+    }
+  ],
+  "limits": [
+    {
+      "id": "storage-rh-not-aw",
+      "detail": "43%／52% 是儲存空氣 RH；不能直接當作粉末全程實測 aw。aw 量測在 20°C，儲存為 30–35°C。"
+    },
+    {
+      "id": "initial-water-differs",
+      "detail": "Table 1 第 0 日兩 RH 組的濕基含水量分別為 4.00±0.02% 與 2.96±0.10%；起始含水狀態未完全匹配。"
+    },
+    {
+      "id": "endpoint-not-rate",
+      "detail": "第 30 日損失是端點比例；k 是作者以時間資料擬合的參數。不能用損失／30 取代 k。"
+    },
+    {
+      "id": "uncertainty-types",
+      "detail": "端點損失未取得可用誤差值；k 的 95% CI 與重複量測 SD、預測區間不同。"
+    },
+    {
+      "id": "missing-time-series",
+      "detail": "完整離胺酸 Table S1 與樣品 aw 時序未取得，不補造實測時間點。"
+    },
+    {
+      "id": "physical-state-unmeasured",
+      "detail": "此候選未取得同批 Tg／結晶度時序，不能為每組條件指定相態或相態因果。"
+    },
+    {
+      "id": "early-indicator-only",
+      "detail": "染料結合法的可利用離胺酸是早期反應指標；不是褐變顏色或所有梅納產物。"
+    },
+    {
+      "id": "two-rh-conditions",
+      "detail": "只有一種商業奶粉、兩種儲存 RH 與三個溫度，不能推出通用 aw–速率曲線。"
+    },
+    {
+      "id": "source-access-and-version",
+      "detail": "正式版來源為出版社索引文字；作者論文原件已凍結，但有 43%／44% RH 版本差異。"
+    },
+    {
+      "id": "normalized-model-substitution",
+      "detail": "第 30 日正規化計算採模型起始比例 1；非新實測，未獨立重擬合，未推定原始或擬合 C0。與報告端點的差只是百分點差。"
+    }
+  ],
+  "provenance": {
+    "sourceAudit": {
+      "path": "output/maillard-aw-candidate-2026-10-11/source-audit.json",
+      "sha256": "2ad457c847a95d0161138996453889edfe1695b400e6ce8c0c7f460c5ae734df",
+      "kind": "source-audit"
+    },
+    "sourceFreeze": {
+      "path": "output/maillard-aw-candidate-2026-10-11/source-audit-freeze.json",
+      "sha256": "2f12d24eaf5966bf504b2b4448461fc593101c98d2f09ad68b806ea540fd3029",
+      "kind": "source-freeze"
+    },
+    "transcription": "Published endpoint percentages and Table 2 printed coefficients retained; no interpolation or independent refit."
+  }
+}
