@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">原值與相對增加，排序可以相反</title>
+<desc id="desc">大豆油和芥花油的 TPC 起始值與第 20 次值並列，各自除以起點後回答另一個問題。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">原值與相對增加，排序可以相反</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">TPC：原值與自己的起始比使用不同分母</tspan></text>
+<text x="215" y="115" font-size="19" fill="#53606d" text-anchor="middle"><tspan x="215" dy="0">起始 y₀</tspan></text>
+<text x="390" y="115" font-size="19" fill="#53606d" text-anchor="middle"><tspan x="390" dy="0">第 20 次 y₂₀</tspan></text>
+<text x="585" y="115" font-size="19" fill="#53606d" text-anchor="middle"><tspan x="585" dy="0">各自起始比</tspan></text>
+<text x="30" y="176" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">大豆油</tspan></text>
+<rect x="140" y="140" width="150" height="60" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="215.0" y="177.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="215.0" dy="0">9.67%</tspan></text>
+<rect x="315" y="140" width="150" height="60" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="390.0" y="177.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="390.0" dy="0">13.0%</tspan></text>
+<path d="M480 170L510 170" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="600" y="177" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">13.0 ÷ 9.67</tspan></text>
+<text x="30" y="271" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="30" dy="0">芥花油</tspan></text>
+<rect x="140" y="235" width="150" height="60" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="215.0" y="272.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="215.0" dy="0">4.67%</tspan></text>
+<rect x="315" y="235" width="150" height="60" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="390.0" y="272.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="390.0" dy="0">8.67%</tspan></text>
+<path d="M480 265L510 265" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<text x="600" y="272" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">8.67 ÷ 4.67</tspan></text>
+<rect x="30" y="333" width="660" height="86" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="50" y="365" font-size="20" fill="#14665d" text-anchor="start"><tspan x="50" dy="0">比較原值：大豆油較高</tspan></text>
+<text x="50" y="397" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="50" dy="0">比較相對增加：芥花油較高</tspan></text>
+<text x="30" y="463" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">13.0%−8.67%＝4.33 個百分點；不是 4.33% 的相對增加。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

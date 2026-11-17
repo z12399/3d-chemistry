@@ -1,0 +1,12 @@
+.competitive-exclusion-lab{font-size:1rem;line-height:1.65;max-width:74rem;margin:1.25rem auto;padding:1.2rem;border:1px solid #b8ccc8;border-radius:12px;background:#f7fbfa;color:#193832;overflow-wrap:anywhere}
+.competitive-exclusion-lab h3{font-size:1.3rem;margin:.2rem 0 .5rem}.competitive-exclusion-lab h4{font-size:1.05rem;line-height:1.6}
+.competitive-exclusion-lab .ce-origin,.competitive-exclusion-lab .ce-given{padding:.7rem .9rem;background:#e5f1ed;border-left:4px solid #3b7869}
+.competitive-exclusion-lab label{display:block;margin:.65rem 0}.competitive-exclusion-lab select,.competitive-exclusion-lab textarea,.competitive-exclusion-lab button{font:inherit;max-width:100%;box-sizing:border-box}
+.competitive-exclusion-lab select,.competitive-exclusion-lab textarea{display:block;width:100%;padding:.55rem;border:1px solid #77998f;border-radius:5px;background:#fff;color:inherit}.competitive-exclusion-lab textarea[readonly]{background:#eef3f1}
+.competitive-exclusion-lab .ce-controls{display:flex;gap:1rem;flex-wrap:wrap}.competitive-exclusion-lab .ce-controls>label{flex:1 1 15rem}
+.competitive-exclusion-lab fieldset{border:1px solid #aac5bc;padding:.6rem .9rem}.competitive-exclusion-lab .ce-choice{display:flex;align-items:flex-start;gap:.6rem;padding:.4rem 0}.competitive-exclusion-lab .ce-choice input{margin-top:.4rem;flex:none}
+.competitive-exclusion-lab button{padding:.6rem 1rem;border:1px solid #346d5c;border-radius:6px;background:#215d4d;color:#fff;cursor:pointer}.competitive-exclusion-lab button:disabled{background:#566d66;cursor:default}
+.competitive-exclusion-lab :focus-visible{outline:3px solid #9a6500;outline-offset:3px}.competitive-exclusion-lab .ce-feedback{margin:1rem 0;padding:.8rem 1rem;background:#fff;border-left:4px solid #3e7c68}
+.competitive-exclusion-lab details{margin:.8rem 0}.competitive-exclusion-lab summary{font-size:1rem;font-weight:600;cursor:pointer}.competitive-exclusion-lab .ce-save-row{margin-top:1rem}.competitive-exclusion-lab .ce-small{font-size:1rem;color:#38584e}
+.competitive-exclusion-lab .ce-table-scroll{overflow-x:auto}.competitive-exclusion-lab table{border-collapse:collapse;width:100%;min-width:26rem;margin:.8rem 0}.competitive-exclusion-lab caption{text-align:left;margin-bottom:.4rem}.competitive-exclusion-lab th,.competitive-exclusion-lab td{text-align:left;border:1px solid #b8ccc8;padding:.55rem}
+.competitive-exclusion-lab [hidden]{display:none!important}

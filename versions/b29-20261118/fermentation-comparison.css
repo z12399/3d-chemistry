@@ -1,0 +1,140 @@
+.fermentation-comparison-design {
+  --fcd-ink: #1c2732;
+  --fcd-muted: #53606d;
+  --fcd-line: #dce5e2;
+  --fcd-accent: #14665d;
+  --fcd-soft: #edf7f3;
+  container-type: inline-size;
+  color: var(--fcd-ink);
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.65;
+  min-width: 0;
+  width: 100%;
+  overflow-wrap: anywhere;
+}
+.fermentation-comparison-design *,
+.fermentation-comparison-design *::before,
+.fermentation-comparison-design *::after { box-sizing: border-box; }
+.fermentation-comparison-design .fcd-sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
+.fermentation-comparison-design h3,
+.fermentation-comparison-design h4 { color: var(--fcd-ink); line-height: 1.35; margin: 0 0 12px; }
+.fermentation-comparison-design h3 { font-size: 20px; font-weight: 650; }
+.fermentation-comparison-design h4 { font-size: 17px; font-weight: 650; }
+.fermentation-comparison-design p { margin: 8px 0 14px; }
+.fermentation-comparison-design small { display: block; font-size: 16px; color: var(--fcd-muted); }
+.fermentation-comparison-design .fcd-muted { color: var(--fcd-muted); }
+.fermentation-comparison-design label { display: flex; flex-direction: column; gap: 7px; min-width: 0; font-weight: 550; }
+.fermentation-comparison-design input,
+.fermentation-comparison-design input:not([type=range]):not([type=checkbox]):not([type=file]),
+.fermentation-comparison-design select,
+.fermentation-comparison-design textarea {
+  width: 100%; min-width: 0; max-width: 100%; min-height: 44px;
+  font: inherit; color: var(--fcd-ink); background: #fff; border: 1px solid #b8c9c3;
+  border-radius: 10px; padding: 10px 12px; line-height: 1.5;
+}
+.fermentation-comparison-design textarea { resize: vertical; white-space: pre-wrap; }
+.fermentation-comparison-design textarea[readonly] { background: #f5f7f6; color: var(--fcd-muted); }
+.fermentation-comparison-design button {
+  min-height: 44px; min-width: 44px; max-width: 100%;
+  padding: 10px 16px; border: 1px solid #b8c9c3; border-radius: 10px;
+  background: #fff; color: var(--fcd-accent); font: inherit; font-weight: 600;
+  line-height: 1.5; white-space: normal; overflow-wrap: anywhere; cursor: pointer;
+}
+.fermentation-comparison-design button:hover:not(:disabled) { background: var(--fcd-soft); border-color: var(--fcd-accent); }
+.fermentation-comparison-design button:disabled,
+.fermentation-comparison-design select:disabled { opacity: .6; cursor: default; }
+.fermentation-comparison-design :is(button,select,input,textarea,a,summary):focus-visible { outline: 3px solid #3a8f82; outline-offset: 3px; }
+.fermentation-comparison-design a { color: var(--fcd-accent); text-decoration: underline; text-underline-offset: .18em; }
+.fermentation-comparison-design details { border-top: 1px solid var(--fcd-line); padding: 8px 0; margin: 8px 0; min-width: 0; }
+.fermentation-comparison-design [data-fc-detail] > summary {
+  min-height: 44px; padding: 10px 6px; font-size: 16px; font-weight: 600;
+  line-height: 1.5; color: var(--fcd-accent); cursor: pointer;
+}
+.fermentation-comparison-design details[open] > summary { margin-bottom: 12px; }
+.fermentation-comparison-design .fcd-question-row,
+.fermentation-comparison-design .fcd-cards,
+.fermentation-comparison-design .fcd-fields,
+.fermentation-comparison-design .fcd-results { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.fermentation-comparison-design .fcd-question-row { margin-bottom: 16px; }
+.fermentation-comparison-design .fcd-treatment,
+.fermentation-comparison-design .fcd-pair,
+.fermentation-comparison-design .fcd-matrix { margin: 28px 0; }
+.fermentation-comparison-design .fcd-section-title { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+.fermentation-comparison-design .fcd-section-title > span { color: var(--fcd-muted); }
+.fermentation-comparison-design .fcd-card {
+  background: #fff; border: 1px solid var(--fcd-line); border-radius: 16px;
+  padding: 20px; min-width: 0; display: flex; flex-direction: column;
+}
+.fermentation-comparison-design .fcd-card.is-selected { border-color: var(--fcd-accent); box-shadow: 0 0 0 1px var(--fcd-accent); }
+.fermentation-comparison-design .fcd-origin { color: var(--fcd-accent); font-weight: 600; margin-bottom: 8px; }
+.fermentation-comparison-design .fcd-card > h3 { font-size: 19px; }
+.fermentation-comparison-design .fcd-card-result { color: var(--fcd-muted); }
+.fermentation-comparison-design .fcd-actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.fermentation-comparison-design .fcd-card .fcd-actions { margin-top: auto; }
+.fermentation-comparison-design .fcd-add { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; gap: 12px; }
+.fermentation-comparison-design .fcd-add > button:last-child { grid-column: 1 / -1; justify-self: start; }
+.fermentation-comparison-design .fcd-editor { border: 1px solid var(--fcd-line); border-radius: 16px; padding: 22px; background: #f8fbf9; margin-top: 18px; }
+.fermentation-comparison-design .fcd-editor > h3:focus { outline-offset: 5px; }
+.fermentation-comparison-design fieldset { min-width: 0; margin: 0 0 16px; border: 0; padding: 0; }
+.fermentation-comparison-design legend { font-size: 16px; color: var(--fcd-muted); margin-bottom: 14px; }
+.fermentation-comparison-design .fcd-facts { margin: 0; }
+.fermentation-comparison-design .fcd-facts > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--fcd-line); }
+.fermentation-comparison-design .fcd-facts dt { font-weight: 600; }
+.fermentation-comparison-design .fcd-facts dd { margin: 0; }
+.fermentation-comparison-design .fcd-pair-controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: end; gap: 12px; margin-bottom: 20px; }
+.fermentation-comparison-design [data-fc-action="reveal"] { background: var(--fcd-accent); color: #fff; border-color: var(--fcd-accent); }
+.fermentation-comparison-design button[data-fc-action="reveal"]:hover:not(:disabled) { background: #10554e; color: #fff; }
+.fermentation-comparison-design .fcd-unrevealed { background: #f5f7f6; padding: 16px 20px; border-radius: 14px; }
+.fermentation-comparison-design .fcd-unrevealed > p { margin: 0; }
+.fermentation-comparison-design .fcd-result { padding: 20px; border: 1px solid var(--fcd-line); border-radius: 14px; background: #fff; min-width: 0; }
+.fermentation-comparison-design .fcd-result > strong { display: block; color: var(--fcd-accent); font-size: 30px; line-height: 1.35; font-weight: 650; font-variant-numeric: tabular-nums; }
+.fermentation-comparison-design .fcd-result > strong > span { font-size: 18px; }
+.fermentation-comparison-design .fcd-bar { height: 16px; background: #edf2ef; border-left: 1px solid #768f85; margin: 14px 0; }
+.fermentation-comparison-design .fcd-bar > i { height: 100%; display: block; background: #73b7a2; }
+.fermentation-comparison-design .fcd-scale { display: flex; justify-content: space-between; gap: 20px; color: var(--fcd-muted); margin-top: 6px; }
+.fermentation-comparison-design .fcd-independent-values { gap: 24px; }
+.fermentation-comparison-design .fcd-difference { padding: 14px 18px; border-radius: 12px; background: var(--fcd-soft); }
+.fermentation-comparison-design .fcd-assessment { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 22px; }
+.fermentation-comparison-design .fcd-assessment > div { min-width: 0; }
+.fermentation-comparison-design .fcd-assessment ul { padding-left: 22px; }
+.fermentation-comparison-design .fcd-assessment li { margin-bottom: 12px; }
+.fermentation-comparison-design .fcd-table-wrap { width: 100%; min-width: 0; }
+.fermentation-comparison-design table { width: 100%; table-layout: fixed; border-collapse: collapse; font: inherit; margin: 0 0 14px; }
+.fermentation-comparison-design caption { text-align: left; font-weight: 600; margin-bottom: 12px; }
+.fermentation-comparison-design th,
+.fermentation-comparison-design td { padding: 12px 10px; border-bottom: 1px solid var(--fcd-line); text-align: left; vertical-align: top; overflow-wrap: anywhere; }
+.fermentation-comparison-design th { font-weight: 600; }
+.fermentation-comparison-design thead { background: #f3f7f5; }
+.fermentation-comparison-design .fcd-basis { display: block; font-size: 16px; color: var(--fcd-muted); margin-bottom: 5px; }
+.fermentation-comparison-design .fcd-writing { display: grid; gap: 16px; }
+.fermentation-comparison-design .fcd-retain { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 24px 0; }
+.fermentation-comparison-design .fcd-retain p { margin: 0; color: var(--fcd-muted); }
+.fermentation-comparison-design .fcd-save-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.fermentation-comparison-design [data-fc-status] { padding: 12px 0; color: var(--fcd-accent); }
+.fermentation-comparison-design [hidden] { display: none !important; }
+@container (max-width: 800px) {
+  .fermentation-comparison-design .fcd-assessment { grid-template-columns: 1fr; gap: 10px; }
+  .fermentation-comparison-design .fcd-pair-controls { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .fermentation-comparison-design .fcd-pair-controls > button { grid-column: 1 / -1; justify-self: start; }
+}
+@container (max-width: 560px) {
+  .fermentation-comparison-design .fcd-question-row,
+  .fermentation-comparison-design .fcd-cards,
+  .fermentation-comparison-design .fcd-fields,
+  .fermentation-comparison-design .fcd-results,
+  .fermentation-comparison-design .fcd-pair-controls,
+  .fermentation-comparison-design .fcd-add { grid-template-columns: minmax(0, 1fr); }
+  .fermentation-comparison-design .fcd-card,
+  .fermentation-comparison-design .fcd-result,
+  .fermentation-comparison-design .fcd-editor { padding: 16px; }
+  .fermentation-comparison-design .fcd-actions > button { flex: 1 1 auto; }
+  .fermentation-comparison-design .fcd-save-actions { flex-direction: column; align-items: stretch; }
+  .fermentation-comparison-design th,
+  .fermentation-comparison-design td { padding: 10px 6px; }
+  .fermentation-comparison-design .fcd-facts > div { grid-template-columns: minmax(0, 1fr); gap: 4px; }
+  .fermentation-comparison-design .fcd-scale { flex-wrap: wrap; }
+}
