@@ -1,0 +1,52 @@
+.browning-comparison-lab{--bc-ink:#1c2732;--bc-muted:#53606d;--bc-line:#dfe4e8;--bc-teal:#14665d;--bc-pale:#e7f1ee;box-sizing:border-box;min-width:0;max-width:100%;padding:20px;border:1px solid var(--bc-line);border-radius:14px;background:#fff;color:var(--bc-ink);font-size:16px;line-height:1.6;overflow-wrap:anywhere}
+.browning-comparison-lab *{box-sizing:border-box;min-width:0}
+.browning-comparison-lab [hidden]{display:none!important}
+.browning-comparison-lab h3{margin:0 0 8px;font-size:23px;line-height:1.35}
+.browning-comparison-lab h4{margin:0 0 9px;font-size:17px}
+.browning-comparison-lab p{margin:8px 0 14px}
+.browning-comparison-lab .bc-kicker{margin:0 0 6px;font-size:13px;letter-spacing:.05em;color:var(--bc-teal)}
+.browning-comparison-lab .bc-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0 12px}
+.browning-comparison-lab label{display:block;font-size:16px}
+.browning-comparison-lab select,.browning-comparison-lab textarea{display:block;width:100%;max-width:100%;min-width:0;margin:6px 0 0;padding:9px 10px;border:1px solid #9aa7ad;border-radius:7px;background:#fff;color:var(--bc-ink);font:inherit;line-height:1.5}
+.browning-comparison-lab textarea{resize:vertical;white-space:pre-wrap}
+.browning-comparison-lab input[type="radio"]{appearance:auto!important;-webkit-appearance:radio!important;display:inline-block!important;position:static!important;flex:0 0 18px!important;width:18px!important;min-width:18px!important;max-width:18px!important;height:18px!important;min-height:18px!important;padding:0!important;margin:4px 9px 0 0!important;border:initial!important;box-shadow:none!important;accent-color:var(--bc-teal)}
+.browning-comparison-lab button{display:inline-block;max-width:100%;white-space:normal;padding:9px 13px;border:1px solid #a6b7b2;border-radius:7px;background:#fff;color:var(--bc-ink);font:inherit;font-weight:600;line-height:1.45;cursor:pointer;overflow-wrap:anywhere}
+.browning-comparison-lab button:disabled{cursor:default;color:var(--bc-muted);background:#f6f7f8;border-color:var(--bc-line)}
+.browning-comparison-lab button:focus-visible,.browning-comparison-lab input:focus-visible,.browning-comparison-lab select:focus-visible,.browning-comparison-lab textarea:focus-visible,.browning-comparison-lab summary:focus-visible{outline:3px solid #b4692e;outline-offset:3px}
+.browning-comparison-lab .bc-principle{padding:11px 13px;background:var(--bc-pale);border-left:3px solid var(--bc-teal);border-radius:4px}
+.browning-comparison-lab .bc-apply[aria-pressed="true"]{background:var(--bc-teal);border-color:var(--bc-teal);color:#fff}
+.browning-comparison-lab .bc-change{font-size:14px;color:var(--bc-muted);margin:8px 0 12px}
+.browning-comparison-lab .bc-comparison{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0 18px}
+.browning-comparison-lab .bc-card{border:1px solid var(--bc-line);border-radius:10px;padding:14px;background:#fff}
+.browning-comparison-lab .bc-changed{border-color:#7ca89f;background:#fafdfc}
+.browning-comparison-lab .bc-conditions-list{padding-left:20px;margin:0 0 14px;font-size:14px;color:var(--bc-muted)}
+.browning-comparison-lab .bc-change-chip{padding:8px 10px;margin:0 0 14px;border:1px dashed #7ca89f;border-radius:6px;font-size:14px}
+.browning-comparison-lab .bc-route{list-style:none;display:flex;flex-direction:column;gap:22px;padding:0;margin:15px 0 2px}
+.browning-comparison-lab .bc-route li{position:relative;padding:8px 10px;border-radius:6px;background:var(--bc-pale);font-size:16px;line-height:1.45;text-align:center}
+.browning-comparison-lab .bc-route li+li::before{content:'↓';position:absolute;top:-25px;left:calc(50% - 6px);font-size:18px;color:var(--bc-muted)}
+.browning-comparison-lab .bc-route-blocked li:nth-child(2){background:#fff1e6;border:1px solid #bd8c61}
+.browning-comparison-lab .bc-route-blocked li:nth-child(3)::before{content:'⋮';font-size:20px}
+.browning-comparison-lab .bc-route-unknown li:nth-child(2){background:#f5f3ea;border:1px dashed #9f956d}
+.browning-comparison-lab .bc-unrevealed{display:flex;align-items:center;justify-content:center;min-height:125px;padding:14px;border:1px dashed var(--bc-line);border-radius:7px;color:var(--bc-muted);text-align:center}
+.browning-comparison-lab fieldset{min-width:0;margin:12px 0;padding:12px 14px;border:1px solid var(--bc-line);border-radius:9px}
+.browning-comparison-lab legend{max-width:100%;padding:0 5px;font-size:16px;font-weight:600;line-height:1.55;white-space:normal}
+.browning-comparison-lab .bc-choice{display:flex;align-items:flex-start;min-height:38px;padding:5px 0;cursor:pointer}
+.browning-comparison-lab .bc-choice span{flex:1 1 auto}
+.browning-comparison-lab fieldset:disabled .bc-choice{color:var(--bc-muted);cursor:default}
+.browning-comparison-lab .bc-prediction>button{margin-top:9px}
+.browning-comparison-lab .bc-feedback:empty{display:none}
+.browning-comparison-lab .bc-feedback{margin:14px 0;padding:13px 15px;border-left:3px solid var(--bc-teal);border-radius:5px;background:var(--bc-pale)}
+.browning-comparison-lab .bc-result-title{margin:0 0 8px;font-size:18px;font-weight:700;color:var(--bc-teal)}
+.browning-comparison-lab .bc-answer-status{font-size:14px}
+.browning-comparison-lab .bc-detail{margin:11px 0;padding:10px 0;border-top:1px solid var(--bc-line)}
+.browning-comparison-lab .bc-detail summary{font-size:16px;font-weight:600;cursor:pointer;line-height:1.55}
+.browning-comparison-lab .bc-detail[open] summary{margin-bottom:10px}
+.browning-comparison-lab .bc-reason-detail{margin:5px 0 10px}
+.browning-comparison-lab .bc-history{font-size:14px;white-space:pre-wrap}
+.browning-comparison-lab .bc-small{font-size:13px;color:var(--bc-muted)}
+.browning-comparison-lab .bc-save{display:flex;flex-wrap:wrap;gap:9px 12px;align-items:center;margin-top:13px}
+.browning-comparison-lab .bc-save button{background:var(--bc-teal);border-color:var(--bc-teal);color:#fff}
+.browning-comparison-lab .bc-save button:disabled{background:#f6f7f8;color:var(--bc-muted);border-color:var(--bc-line)}
+.browning-comparison-lab [data-bc-save-status]{flex:1 1 180px;margin:0;font-size:13px}
+@media(max-width:700px){.browning-comparison-lab .bc-controls,.browning-comparison-lab .bc-comparison{grid-template-columns:1fr}}
+@media(max-width:420px){.browning-comparison-lab{padding:12px;font-size:16px}.browning-comparison-lab h3{font-size:21px}.browning-comparison-lab .bc-card{padding:11px}.browning-comparison-lab fieldset{padding:10px}.browning-comparison-lab .bc-save button{width:100%}}

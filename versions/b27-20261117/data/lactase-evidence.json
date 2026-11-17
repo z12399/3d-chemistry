@@ -1,0 +1,450 @@
+{
+  "schema": "lactase-evidence/v1",
+  "checkedDate": "2026-10-10",
+  "title": "人體乳糖酶：從 LCT 基因到乳糖水解",
+  "overview": "旋轉人體乳糖酶的 3D 分子：由整體摺疊切到原子球棍，選 E1538／E1749，再按播放、暫停或拖曳進度，連續追乳糖、水、共價中間體與產物。連續作用畫面是獨立局部化學教學分鏡與插值。蛋白座標來自 AlphaFold v6 預測；另可查二聚組裝、生合成與 LCT 調控的文獻。",
+  "sources": [
+    {
+      "id": "lph-uniprot",
+      "title": "UniProt P09848：人類 LPH 序列與功能註記",
+      "url": "https://www.uniprot.org/uniprotkb/P09848/entry",
+      "year": "查核 2026-10-10",
+      "evidence": "官方 reviewed entry；1927 aa、成熟鏈及膜拓樸註記。"
+    },
+    {
+      "id": "lct-ncbi",
+      "title": "NCBI Gene 3938：人類 LCT 基因",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/3938",
+      "year": "查核 2026-10-10",
+      "evidence": "官方基因紀錄；2q21.3、17 exons，RefSeq NM_002299.4 / NP_002290.2。"
+    },
+    {
+      "id": "lph-sequence-1988",
+      "title": "Mantei 等：人類及兔 LPH 的完整一次序列",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2460343/",
+      "year": "1988",
+      "evidence": "cDNA 與胜肽序列；前驅物、同源重複與 Nout–Cin 膜拓樸。"
+    },
+    {
+      "id": "lph-dimer-1996",
+      "title": "Naim & Naim：LPH 二聚化與細胞表面運輸",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8832204/",
+      "year": "1996",
+      "evidence": "化學交聯、蔗糖梯度及細胞表現支持同源二聚體；不是原子級界面座標。"
+    },
+    {
+      "id": "lph-domains-2010",
+      "title": "Behrendt、Polaina、Naim：LPH 域、折疊與運輸的層級關係",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2823554/",
+      "year": "2010",
+      "evidence": "域刪除／細胞運輸實驗；Fig. 1 人類兩段加工位置。域模型由同源建模產生。"
+    },
+    {
+      "id": "lph-folding-2017",
+      "title": "Diekmann 等：LPH 結構域、折疊與早期分泌運輸",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27773655/",
+      "year": "2017（2016 線上發表）",
+      "evidence": "N-linked glycosylation 與伴護系統的生化／細胞實驗；不二聚變體仍可能離開 ER，不能推絕對必要條件。"
+    },
+    {
+      "id": "lph-sites-1998",
+      "title": "Zecca 等：LPH 兩個催化位置的重新指派",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9762914/",
+      "year": "1998",
+      "evidence": "人類定點突變：lactase E1749，phlorizin E1273；加工部分另含大鼠，不能混用。"
+    },
+    {
+      "id": "lph-catalysis-2014",
+      "title": "Kallemeijn 等：人類 retaining β-glycosidase 的酸鹼及親核殘基",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4271221/",
+      "year": "2014",
+      "evidence": "人類 LPH 突變、機制探針及化學救援；Fig. 5／結果支持 E1538 酸鹼、E1749 親核。"
+    },
+    {
+      "id": "lph-iubmb",
+      "title": "IUBMB EC 3.2.1.108：lactase，構型保留的水解活性",
+      "url": "https://iubmb.qmul.ac.uk/enzyme/EC3/2/1/108.html",
+      "year": "查核 2026-10-10",
+      "evidence": "官方酵素反應及 retaining 註記。"
+    },
+    {
+      "id": "lacz-1jz7",
+      "title": "RCSB 1JZ7：E. coli lacZ β-galactosidase 與半乳糖",
+      "url": "https://www.rcsb.org/structure/1JZ7",
+      "year": "2001",
+      "evidence": "微生物實驗結構；biological assembly 四聚體，不能當作人體 LPH。"
+    },
+    {
+      "id": "lph-alphafold",
+      "title": "RCSB AF_AFP09848F1：人類 LPH 的 AlphaFold 單鏈預測",
+      "url": "https://www.rcsb.org/structure/AF_AFP09848F1",
+      "year": "查核 2026-10-10",
+      "evidence": "人體 P09848 的 AlphaFold v6 單鏈預測；本頁固定 1927 殘基、15481 重原子的來源座標。不是人體實驗結構，不驗證二聚界面、成熟後域間位置或乳糖結合姿態。"
+    },
+    {
+      "id": "lct-cdx2-2000",
+      "title": "Mitchelmore 等：CDX2 與 HNF1α 的 LPH promoter 協作",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1220882/",
+      "year": "2000",
+      "evidence": "豬 LPH promoter／細胞 reporter 與結合實驗；不是完整成人人體調控網絡。"
+    },
+    {
+      "id": "lct-enattah-2002",
+      "title": "Enattah 等：成人型 hypolactasia 相關變異的辨識",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11788828/",
+      "year": "2002",
+      "evidence": "芬蘭家族及相關族群的遺傳／表現關聯；MCM6 內含子的 −13910 C/T，非全球唯一變異。"
+    },
+    {
+      "id": "lct-tishkoff-2007",
+      "title": "Tishkoff 等：非洲與歐洲乳糖酶持續型的獨立演化",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2672153/",
+      "year": "2007",
+      "evidence": "東非群體、關聯及 reporter 實驗；支持不同 ancestry 的獨立 enhancer 變異。"
+    },
+    {
+      "id": "lct-epigenetic-2016",
+      "title": "Labrie 等：LCT 調控的遺傳與表觀遺傳作用",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4899171/",
+      "year": "2016",
+      "evidence": "人類腸上皮 DNA 修飾、基因型、年齡與 mRNA 的比較；不是個人縱向停產時程。"
+    },
+    {
+      "id": "lct-oct1-2005",
+      "title": "Lewinsky 等：−13910 T enhancer、Oct-1 與 LCT promoter",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16301215/",
+      "year": "2005",
+      "evidence": "細胞 reporter 與 DNA–蛋白結合實驗；不能將單一因子當成全部體內調控。"
+    },
+    {
+      "id": "lct-organoid-2025",
+      "title": "Recent evolution of the developing human intestine impacts metabolic and barrier functions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12495891/",
+      "year": "2025",
+      "evidence": "人類發育中腸道類器官；MCM6 enhancer 的 CRISPR 刪除降低 LCT mRNA。C、T 在此模型均能增強表現；不是成人終生表現試驗。"
+    }
+  ],
+  "comparison": [
+    {
+      "organism": "人體小腸",
+      "protein": "LCT 編碼的 LPH",
+      "family": "GH1",
+      "assembly": "同源二聚體；成熟鏈各有 III、IV 兩個同源區",
+      "scope": "膜錨定、面向腸腔。兩種活性存在於同一成熟鏈；本課主對象。"
+    },
+    {
+      "organism": "大腸桿菌 E. coli",
+      "protein": "lacZ 編碼的 β-galactosidase",
+      "family": "GH2",
+      "assembly": "1JZ7 的 biological assembly 為四聚體",
+      "scope": "物種、序列、結構與調控系統不同。不能把 lac operon 或 LacZ 的活性殘基直接套到 LCT。"
+    },
+    {
+      "organism": "食品用微生物製劑",
+      "protein": "依菌種／菌株而異的 β-galactosidase",
+      "family": "依來源而異",
+      "assembly": "須查具體蛋白，不能統稱為四聚體或二聚體",
+      "scope": "可水解乳糖不代表與人體 LPH 是相同酵素；應讀產品來源及對應文獻。"
+    }
+  ],
+  "structure": {
+    "title": "一條鏈有幾個區？組裝有幾條鏈？",
+    "intro": "I–IV 是同一條前驅物中的同源區；同源二聚體則由兩條相同鏈組成。成熟鏈主要保留 III、IV；每條鏈的 IV 都含乳糖酶活性區。",
+    "limit": "此圖是生化證據支持的組裝與序列概念圖。方塊長度、角度、兩鏈相對位置與接觸方式不是實測；選單顯示成熟單鏈只是拆開閱讀，不表示生理上已解離。本次查核未找到人體 LPH 的實驗原子座標；AlphaFold 單鏈預測不能補成已驗證的二聚體。",
+    "domains": [
+      {
+        "id": "signal",
+        "label": "訊號胜肽",
+        "role": "全長 1–19；在製造時導向內質網並被切除，最終刷狀緣成熟鏈不保留它。",
+        "sourceIds": [
+          "lph-uniprot",
+          "lph-sequence-1988"
+        ]
+      },
+      {
+        "id": "I",
+        "label": "同源區 I",
+        "role": "位於前段；參與前驅物的內部分子伴護。不是另一條獨立的成熟酵素鏈。",
+        "sourceIds": [
+          "lph-sequence-1988",
+          "lph-domains-2010"
+        ]
+      },
+      {
+        "id": "II",
+        "label": "同源區 II",
+        "role": "前段伴護區的一部分。第一次剪切移去 20–734，包含 I 與 II 約三分之二；後續再移去 735–868。不能把第一次剪切畫成完整 I、II 一起去除。",
+        "sourceIds": [
+          "lph-domains-2010"
+        ]
+      },
+      {
+        "id": "III",
+        "label": "同源區 III",
+        "role": "成熟鏈的主要 phlorizin／β-glucoside 水解區，也支持整體折疊與運輸。人類全長編號：E1065 酸鹼、E1273 親核。不是本課乳糖切鍵的主要活性區。",
+        "sourceIds": [
+          "lph-sites-1998",
+          "lph-catalysis-2014",
+          "lph-domains-2010"
+        ]
+      },
+      {
+        "id": "IV",
+        "label": "同源區 IV · 乳糖酶",
+        "role": "主要乳糖水解區。人類全長編號：E1538 作酸／鹼，E1749 作親核；即使成熟鏈從 869 開始，本課仍沿用全長編號。域折疊、二聚與運輸彼此相關。",
+        "sourceIds": [
+          "lph-catalysis-2014",
+          "lph-dimer-1996"
+        ]
+      },
+      {
+        "id": "membrane",
+        "label": "膜錨＋胞質尾",
+        "role": "P09848 註記：胞外 20–1882，跨膜 1883–1901，胞質尾 1902–1927。成熟鏈 N 端面向腸腔，C 端尾在細胞內；醣鏈修飾不算新增肽鏈。",
+        "sourceIds": [
+          "lph-uniprot",
+          "lph-sequence-1988"
+        ]
+      }
+    ],
+    "forms": [
+      {
+        "id": "precursor",
+        "label": "全長前驅物：讀一條鏈",
+        "chains": 1,
+        "domains": [
+          "signal",
+          "I",
+          "II",
+          "III",
+          "IV",
+          "membrane"
+        ],
+        "text": "LCT 的參考蛋白有 1927 個胺基酸。I–IV 是同一條肽鏈中的重複同源區，並非四個單體組成的四聚體。圖中也顯示之後會切除的訊號胜肽。",
+        "sourceIds": [
+          "lph-uniprot",
+          "lph-sequence-1988"
+        ]
+      },
+      {
+        "id": "mature",
+        "label": "成熟鏈：拆開閱讀",
+        "chains": 1,
+        "domains": [
+          "III",
+          "IV",
+          "membrane"
+        ],
+        "text": "最終成熟鏈為全長編號 869–1927，保留 III、IV、膜錨與胞質尾。這個單鏈閱讀模式不代表離體單體仍有完整活性，也不模擬解離。",
+        "sourceIds": [
+          "lph-uniprot",
+          "lph-domains-2010"
+        ]
+      },
+      {
+        "id": "dimer",
+        "label": "刷狀緣組裝：同源二聚體",
+        "chains": 2,
+        "domains": [
+          "III",
+          "IV",
+          "membrane"
+        ],
+        "text": "同源二聚體有兩條相同的成熟肽鏈，各自帶 III 與 IV。兩條鏈不是一個基因一次翻譯出的兩條連續鏈，而是兩份翻譯產物組裝；生化研究支持二聚與有效運輸及活性形成相關。",
+        "sourceIds": [
+          "lph-dimer-1996",
+          "lph-domains-2010"
+        ]
+      }
+    ]
+  },
+  "mechanism": {
+    "title": "乳糖的 β(1→4) 鍵，如何經兩次置換被水解？",
+    "equation": "乳糖＋H₂O → D-葡萄糖＋β-D-半乳糖（新釋出）；之後半乳糖可變旋。",
+    "scope": "用人類全長 E1538／E1749 指派與 GH1 retaining 機制整理概念步驟。Gal＝半乳糖部分，Glc＝葡萄糖部分；連續畫面保留原子身份與糖環，補間呈現成鍵和斷鍵；播放進度不是實測時間、原子軌跡、過渡態或速率。酵素沒有把糖環劈開，也沒有被計量消耗。",
+    "steps": [
+      {
+        "id": "binding",
+        "label": "1 · 辨認底物與切鍵位置",
+        "diagram": "Gal-C1(β)–O4–Glc；domain IV 對位乳糖糖苷鍵",
+        "detail": "乳糖是半乳糖 C1 以 β 糖苷連接到葡萄糖 O4。水解的反應中心在半乳糖異頭碳 C1 及橋氧；葡萄糖的還原端異頭配置不是這個 β(1→4) 的 β 所指定的位置。",
+        "sourceIds": [
+          "lph-iubmb",
+          "lph-catalysis-2014"
+        ]
+      },
+      {
+        "id": "glycosylation",
+        "label": "2 · 糖基化：葡萄糖離去",
+        "diagram": "E1749–O–Gal（α 糖基–酵素中間體）＋Glc–OH",
+        "detail": "E1538 以酸的角色協助糖苷氧離去，E1749 的羧酸根氧親核攻擊 Gal C1。葡萄糖離去，Gal 暫時與酵素共價連接；第一次置換反轉該中心的構型。這是短暫的催化中間體概念，不是新的穩定產物。",
+        "sourceIds": [
+          "lph-catalysis-2014",
+          "lph-iubmb"
+        ]
+      },
+      {
+        "id": "deglycosylation",
+        "label": "3 · 去糖基化：水進入",
+        "diagram": "H₂O 經 E1538 活化 → 攻擊 Gal C1 → 解除 Gal–E1749 連接",
+        "detail": "同一個 E1538 改作鹼，協助水成為進攻者；水攻擊糖基–酵素中間體，第二次置換再反轉一次。圖只整理化學角色，不指定實際分子運動或每個可交換氫的身分。",
+        "sourceIds": [
+          "lph-catalysis-2014",
+          "lph-iubmb"
+        ]
+      },
+      {
+        "id": "products",
+        "label": "4 · 產物釋放與酵素再生",
+        "diagram": "β-D-Gal＋D-Glc；E1538／E1749 可再次參與循環",
+        "detail": "兩次反轉使新釋出的半乳糖保留 β 構型；後續在溶液中可變旋，不表示永遠只有 β。總式每 mol 乳糖水解用 1 mol 水。人體刷狀緣完成切鍵後，單醣吸收是另一段運輸過程。",
+        "sourceIds": [
+          "lph-iubmb",
+          "lph-uniprot"
+        ]
+      }
+    ]
+  },
+  "production": {
+    "title": "LCT 的編碼，如何成為刷狀緣酵素？",
+    "scope": "這是參考 LCT 產物的生合成流程。表現量、正確折疊、運輸與成熟是不同層級；不能只由有基因便推斷已有足量可用酵素，也不能把蛋白水解當作唯一的活性開關。",
+    "steps": [
+      {
+        "id": "gene",
+        "label": "1 · LCT：蛋白的編碼區",
+        "diagram": "第 2 號染色體 2q21.3 → LCT（17 個外顯子）",
+        "detail": "人類 LCT（NCBI Gene 3938）位於 2q21.3。參考轉錄本 NM_002299.4 對應蛋白 NP_002290.2／UniProt P09848。外顯子數不等於催化域數或肽鏈數；MCM6 內的 enhancer 調控 LCT，但不編碼 LPH 肽鏈。",
+        "sourceIds": [
+          "lct-ncbi",
+          "lph-uniprot",
+          "lct-organoid-2025"
+        ]
+      },
+      {
+        "id": "rna",
+        "label": "2 · 轉錄、加工與剪接",
+        "diagram": "LCT DNA → pre-mRNA → 去除內含子、接合外顯子 → 成熟 mRNA",
+        "detail": "腸道細胞依調控狀態轉錄 LCT；RNA 加工包含剪接，再由核輸出。核糖體依 mRNA 的密碼子讀出胺基酸順序。調控 DNA 改變轉錄的機會或程度，與直接改寫蛋白胺基酸序列是不同問題。",
+        "sourceIds": [
+          "lct-ncbi",
+          "lph-sequence-1988"
+        ]
+      },
+      {
+        "id": "translation",
+        "label": "3 · 翻譯並進入內質網",
+        "diagram": "核糖體讀 mRNA → 1927 aa prepro-LPH → 訊號胜肽導向 ER",
+        "detail": "每次翻譯產生一條前驅物。N 端 1–19 的訊號胜肽支持進入分泌路徑；訊號胜肽被切除，胞外部分在 ER 腔內。兩條鏈的二聚化需要兩份產物，不是把 mRNA 直接翻成二聚體。",
+        "sourceIds": [
+          "lph-uniprot",
+          "lph-sequence-1988"
+        ]
+      },
+      {
+        "id": "er",
+        "label": "4 · ER：醣化、折疊與二聚",
+        "diagram": "N-linked 醣化＋內部分子伴護／細胞伴護 → 折疊與同源二聚",
+        "detail": "前段、域間關係與 N-linked glycosylation 支持正確折疊；calnexin／calreticulin 等伴護系統參與成熟。二聚化在 ER 發生，支持有效運輸與活性形成。這些事件相互關聯，單一流程箭頭不表示所有分子只走一種固定時間表。",
+        "sourceIds": [
+          "lph-dimer-1996",
+          "lph-folding-2017"
+        ]
+      },
+      {
+        "id": "golgi",
+        "label": "5 · 高基氏體：醣鏈加工與初次剪切",
+        "diagram": "Arg734｜Leu735 → LPHβ_initial（735–1927）",
+        "detail": "蛋白在高基氏體經進一步醣鏈加工；人類加工模型中，TGN 的初次剪切移去 20–734 前片段，頂端分選把 LPHβ_initial 送往腸上皮刷狀緣。剪切去掉的是同一條前驅物的一段，沒有把它變成兩條成熟催化鏈。",
+        "sourceIds": [
+          "lph-domains-2010",
+          "lph-sequence-1988"
+        ]
+      },
+      {
+        "id": "brush-border",
+        "label": "6 · 刷狀緣：最終加工與作用位置",
+        "diagram": "腸腔側 Arg868｜Ala869 → 成熟 LPH（869–1927）",
+        "detail": "腸腔蛋白酶 trypsin 參與最終 N 端加工；III、IV 朝向腸腔，膜錨固定在小腸吸收細胞的頂端膜。胰臟提供 trypsin 不代表它製造刷狀緣 LPH；乳糖水解發生在小腸刷狀緣，不在胃或細胞核。",
+        "sourceIds": [
+          "lph-domains-2010",
+          "lph-uniprot"
+        ]
+      }
+    ]
+  },
+  "regulation": {
+    "title": "決定是否持續製造乳糖酶的幾層調控",
+    "scope": "這裡比較調控的層級與證據，不計算個人乳糖耐受量。常用 −13910 C/T 是 LCT 文獻的鏈向慣例，不能未換算便當作正向基因組的 C/T；單一變異、mRNA 或酵素量也不能直接預測症狀。",
+    "cases": [
+      {
+        "id": "enterocyte",
+        "label": "腸上皮細胞：啟動子與轉錄因子",
+        "diagram": "腸道細胞狀態＋LCT promoter＋遠端 enhancer → LCT 轉錄",
+        "detail": "LCT 表現在小腸吸收型上皮細胞。CDX2 與 HNF1α 的 promoter 協作有豬啟動子及細胞模型證據；人類 −13910 區域另有 Oct-1 結合與 reporter 證據。這些實驗支持部分調控機制，尚不能列成完整成人人體網絡或單一開關。",
+        "sourceIds": [
+          "lct-cdx2-2000",
+          "lct-oct1-2005",
+          "lct-ncbi"
+        ]
+      },
+      {
+        "id": "development",
+        "label": "年齡變化：嬰幼兒與成人非持續型",
+        "diagram": "早期較高表現 → 許多人斷奶後逐步下降",
+        "detail": "嬰幼兒通常具有較高乳糖酶表現；許多人的表現在成長後下降。這是基因表現的發育變化，不是身體失去 LCT 基因，也不是所有人到同一歲數都降到零。實際時間與程度有個體及族群差異。",
+        "sourceIds": [
+          "lct-epigenetic-2016",
+          "lct-enattah-2002"
+        ]
+      },
+      {
+        "id": "enhancer",
+        "label": "MCM6 enhancer：LCT 仍是編碼基因",
+        "diagram": "MCM6 內的 cis 調控區 → 影響鄰近 LCT 轉錄",
+        "detail": "−13910 C/T（rs4988235）的常見比較落在 MCM6 內含子中的 LCT enhancer。變異可改變調控活性，通常不直接改 LPH 的胺基酸。2025 年發育中人類腸道類器官中，刪除此 enhancer 降低 LCT mRNA；C 與 T 版本在該模型均有增強作用。",
+        "sourceIds": [
+          "lct-organoid-2025",
+          "lct-oct1-2005"
+        ]
+      },
+      {
+        "id": "persistence",
+        "label": "成人持續型：條件與族群範圍",
+        "diagram": "特定 enhancer 變異＋發育調控背景 → 較能維持成人 LCT 表現",
+        "detail": "−13910 T 是歐洲及部分相關族群中重要的 lactase persistence 相關變異；東非另有獨立的持續型相關變異。不能把單一 C/T 位點當成全球通用或必然發病判定。類器官的發育期 enhancer 活性也不能單獨證明成人會終生維持。",
+        "sourceIds": [
+          "lct-enattah-2002",
+          "lct-tishkoff-2007",
+          "lct-organoid-2025"
+        ]
+      },
+      {
+        "id": "epigenetic",
+        "label": "表觀遺傳：DNA 修飾與年齡的關係",
+        "diagram": "年齡／基因型 ↔ 調控區 DNA 修飾 ↔ LCT 表現",
+        "detail": "人類腸上皮研究發現，調控區 DNA 修飾與年齡、基因型及 LCT mRNA 有關。可用來理解相同編碼基因如何有不同表現；成人橫向比較不能直接證明單一甲基化位點控制所有變化，也不能替個人算出幾歲停產。",
+        "sourceIds": [
+          "lct-epigenetic-2016"
+        ]
+      },
+      {
+        "id": "protein-level",
+        "label": "轉錄以後：折疊、運輸與可用活性",
+        "diagram": "有 LCT mRNA ≠ 有足量正確折疊的刷狀緣 LPH",
+        "detail": "人工結構域變體的細胞實驗顯示，蛋白折疊、運輸與活性可能分離。折疊／醣化或運輸失常屬於轉錄後或蛋白層級的問題，與 enhancer 導致較少轉錄不同。此比較不為個人作診斷；症狀還涉及攝入量、腸道與其他條件。",
+        "sourceIds": [
+          "lph-folding-2017",
+          "lph-domains-2010"
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "蛋白 3D 為 AlphaFold v6 全長前驅物的單鏈預測。成熟模式只隱藏 1–868，未重算成熟構象；未提供實驗二聚體、乳糖結合姿勢、水、醣鏈、氫或質子化狀態。",
+    "反應 3D 使用獨立建構的乳糖、水與末端羧基片段，展示原子與化學鍵如何轉換；其幾何不是蛋白中的實測構象、對接結果或反應軌跡。",
+    "催化步骤是人類殘基功能證據與 retaining 機制的教材整理；不模擬動力學、過渡態或活性值。",
+    "所有殘基編號使用人類 P09848 全長 1927 aa，不與兔、大鼠或 LacZ 的編號混用。",
+    "MCM6 enhancer、LCT 編碼、RNA 加工及蛋白成熟是不同層級；相關變異不等於個人症狀判定。",
+    "實驗證據、計算預測及本頁示意分開標示；2025 年類器官結果的範圍是發育中腸上皮。"
+  ]
+}

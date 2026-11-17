@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脫酸先對當量，再談質量</title>
+<desc id="figure-desc">脫酸以鹼中和 FFA 成皂後分離。酸價（mg KOH/g）配合油樣質量給可滴定酸當量，據此可算題設理想純 NaOH 需求；FFA 質量另需指定單羧酸摩爾質量，並假設酸當量全由該 FFA 貢獻。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脫酸先對當量，再談質量</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">酸價的 KOH 是報告基準，並不辨認脂肪酸種類</tspan></text>
+<rect x="32" y="118" width="174" height="96" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="119.0" y="159.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="119.0" dy="0">酸價 AV</tspan><tspan x="119.0" dy="28">mg KOH / g 油</tspan></text>
+<rect x="275" y="118" width="170" height="96" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="159.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">可滴定酸</tspan><tspan x="360.0" dy="28">當量</tspan></text>
+<rect x="514" y="118" width="174" height="96" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="601.0" y="159.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="601.0" dy="0">指定 FFA 種類</tspan><tspan x="601.0" dy="28">才換算質量</tspan></text>
+<path d="M 214 166 L 265 166" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 453 166 L 504 166" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="360" y="265" font-size="25" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">游離脂肪酸 ＋ 鹼 → 皂 ＋ 水</tspan></text>
+<rect x="32" y="315" width="174" height="85" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="119.0" y="350.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="119.0" dy="0">含 FFA 的油</tspan><tspan x="119.0" dy="28">加入 NaOH</tspan></text>
+<rect x="275" y="315" width="170" height="85" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="350.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">中和</tspan><tspan x="360.0" dy="28">形成含皂相</tspan></text>
+<rect x="514" y="285" width="174" height="64" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="601.0" y="324.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="601.0" dy="0">分離後的油</tspan></text>
+<rect x="514" y="380" width="174" height="64" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="601.0" y="419.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="601.0" dy="0">含皂相</tspan></text>
+<path d="M 214 357 L 265 357" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 453 357 L 478 357 L 478 317 L 504 317" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 478 357 L 478 412 L 504 412" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="32" y="477" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">KOH 等效質量 ≠ 相同質量的 NaOH。</tspan><tspan x="32" dy="25">理論中和量不等於實際耗鹼或油損失。</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

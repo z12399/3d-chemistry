@@ -1,0 +1,20 @@
+.electron-library { max-width:1060px; font-size:16px; }
+.electron-library-toolbar { display:flex; gap:18px; align-items:end; padding:0 0 14px; border-bottom:1px solid #dfe4e8; }
+.electron-library-toolbar label { display:block; flex:1; min-width:0; color:#14665d; font-size:16px; line-height:1.6; }
+.electron-library-toolbar select { display:block; width:100%; margin-top:7px; border:1px solid #cfd6dc; background:#f6f7f8; color:#53606d; border-radius:8px; font:inherit; padding:10px 12px; }
+.electron-library-toolbar button { padding:11px 13px; border:0; background:none; color:#53606d; font-family:inherit; font-size:16px; line-height:1.5; white-space:nowrap; cursor:pointer; }
+.electron-library-context { color:#53606d; font-size:16px; line-height:1.6; margin:12px 0; }
+.electron-library .electron-heading > p { display:none; }
+.electron-library .electron-heading h3 { margin:0; }
+.electron-library .electron-route { margin-top:18px; }
+.electron-library-status { color:#955b39; font-size:16px; line-height:1.7; }
+.electron-library-status:empty { display:none; }
+.electron-library-discard,.electron-library-retry { border:1px solid #be9879; background:#f5eadd; color:#965d38; padding:10px 14px; font:inherit; border-radius:6px; margin:0 8px 16px 0; cursor:pointer; }
+.electron-library-modes { display:flex; gap:8px; flex-wrap:wrap; margin:0 0 18px; }
+.electron-library .electron-library-modes button { border:1px solid #cfd6dc; background:#f6f7f8; color:#53606d; border-radius:8px; padding:10px 14px; font:inherit; font-size:16px; cursor:pointer; }
+.electron-library .electron-library-modes button[aria-pressed="true"] { background:#e7f1ee; border-color:#14665d; color:#14665d; }
+.electron-library-scope { margin-top:16px; padding:18px 0; border-top:1px solid #dfe4e8; color:#53606d; font-size:16px; line-height:1.7; }
+.electron-library .electron-library-scope summary { font-size:16px; cursor:pointer; }
+.electron-library-scope p { max-width:800px; }
+.electron-library :is(button,select,summary):focus-visible { outline:2px solid #14665d; outline-offset:3px; }
+@media(max-width:700px){.electron-library-toolbar{align-items:stretch;flex-direction:column;gap:5px}.electron-library-toolbar button{align-self:flex-end}.electron-library-toolbar select{font-size:16px;max-width:100%}}
