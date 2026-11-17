@@ -1,0 +1,582 @@
+/* Sugar Lab: warm paper, copper details, and a quiet molecular stage. */
+:root {
+  color-scheme: light;
+  --font: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+  --bg: #f5f2eb;
+  --panel: #fffdf9;
+  --panel2: #efeee7;
+  --line: #dddcd2;
+  --ink: #203038;
+  --muted: #58666a;
+  --faint: #727b7d;
+  --mint: #286e64;
+  --salmon: #b9543a;
+  --blue: #416b80;
+  --copper: #b9543a;
+  --copper-soft: #f5e7de;
+  --stage: #111f2b;
+  --stage-ink: #f1f4f0;
+  --stage-muted: #b5c5cb;
+  --radius: 14px;
+  --shadow: 0 4px 22px #20303806;
+}
+
+/* Foundation */
+body { background: var(--bg); color: var(--ink); line-height: 1.6; }
+button { min-height: 36px; background: var(--panel); border-color: var(--line); color: var(--ink); border-radius: 7px; }
+button:hover { background: #f0eee5; border-color: #b3b6ac; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible,
+textarea:focus-visible, summary:focus-visible { outline: 3px solid var(--copper); outline-offset: 3px; }
+button:disabled { opacity: .45; }
+a { color: var(--mint); text-underline-offset: 3px; }
+h1 { font-size: clamp(30px, 2.8vw, 42px); line-height: 1.23; font-weight: 640; letter-spacing: -.045em; }
+h2 { line-height: 1.4; font-weight: 620; letter-spacing: -.02em; }
+h3 { line-height: 1.45; }
+p { overflow-wrap: break-word; }
+.eyebrow { color: var(--copper); font-size: 10px; letter-spacing: .2em; font-weight: 700; }
+small, .tiny, .muted { color: var(--muted); }
+.tiny { line-height: 1.7; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+.button-primary { background: var(--copper); border-color: var(--copper); color: #fffdf9; font-weight: 650; font-size: 13px; }
+.button-primary:hover { background: #9e442e; border-color: #9e442e; }
+.button-secondary { padding: 9px 14px; color: var(--ink); border-color: #c8c7bd; background: #fffdf980; font-size: 13px; font-weight: 600; }
+.text-button { min-height: 32px; color: var(--muted); font-size: 12px; text-align: left; }
+select { background: var(--panel); border-color: #c9ccc2; color: var(--ink); padding: 10px 11px; line-height: 1.5; min-width: 0; }
+input:not([type=range]):not([type=checkbox]):not([type=file]), textarea { background: var(--panel); border-color: #c9ccc2; color: var(--ink); }
+input[type=range] { accent-color: var(--copper); height: 5px; }
+input[type=checkbox] { accent-color: var(--mint); }
+summary { color: var(--muted); font-size: 13px; }
+summary:hover { color: var(--copper); }
+.divider { background: var(--line); margin: 19px 0; }
+
+/* The permanent frame */
+.topbar { position: sticky; top: 0; z-index: 30; height: 76px; padding: 0 28px; gap: 24px; background: var(--bg); border-bottom: 1px solid var(--line); }
+.brand { min-width: 0; gap: 11px; font-size: 17px; color: var(--ink); letter-spacing: -.02em; }
+.brand-mark { display: block; flex: 0 0 35px; width: 35px; height: 40px; color: var(--copper); font-size: 36px; }
+.brand-mark svg { display: block; width: 35px; height: 40px; }
+.brand-wordmark { display: block; line-height: 1.4; }
+.brand-subtitle, .brand small { display: block; margin-top: 2px; color: var(--copper); font-size: 9px; letter-spacing: .25em; font-weight: 700; }
+.header-note { font-size: 12px; color: var(--faint); }
+.header-context { margin-left: 20px; padding-left: 25px; border-left: 1px solid var(--line); color: #7f877f; font-size: 9px; font-weight: 600; letter-spacing: .18em; }
+.header-actions { gap: 15px; }
+.save-status { color: var(--muted); font-size: 11px; }
+.save-status::before { content: ''; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background: #80927b; margin-right: 7px; vertical-align: 2px; }
+.help-button { display: grid; place-items: center; width: 33px; min-height: 33px; padding: 0; border: 1px solid #cbcfc4; border-radius: 50%; color: var(--muted); font: 19px/1 Georgia, serif; background: transparent; }
+.workspace { grid-template-columns: 176px minmax(0, 1fr); min-height: calc(100vh - 76px); }
+.sidebar { position: sticky; top: 76px; align-self: start; min-height: calc(100vh - 76px); padding: 32px 12px 20px; background: transparent; gap: 18px; border-right: 1px solid var(--line); }
+.sidebar nav { display: grid; gap: 7px; }
+.nav-heading { padding: 0 11px; color: var(--faint); font-size: 10px; letter-spacing: .17em; }
+.nav-item { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 11px 12px; margin: 0; color: var(--muted); background: transparent; border-radius: 6px; font-size: 13px; white-space: nowrap; }
+.nav-item > span { margin: 0; }
+.nav-item > .nav-number { display: inline-block; flex: 0 0 22px; color: #87918a; font: 13px/1 Georgia, serif; text-align: left; }
+.nav-item > .nav-label { display: block; flex: 1; color: inherit; font: inherit; text-align: left; }
+.nav-item small { display: none; }
+.nav-item:hover { background: #eae9e1; }
+.nav-item.active { color: #963f2b; background: var(--copper-soft); font-weight: 650; }
+.nav-item.active > .nav-number { color: var(--copper); }
+.sidebar-bottom { padding: 20px 11px 0; margin-top: auto; }
+.sidebar-bottom p, .mini-molecule { display: none; }
+.sidebar-bottom .sidebar-caption { display: block; padding: 0; margin: 0 0 18px; color: #7b857b; font-size: 10px; line-height: 1.95; letter-spacing: .025em; }
+main { max-width: 1600px; width: 100%; min-width: 0; margin: 0 auto; padding: 30px 32px 24px; }
+.page-heading { margin-bottom: 26px; gap: 24px; align-items: flex-end; }
+.page-heading .eyebrow { display: block; margin-bottom: 9px; }
+.page-heading p { display: block; margin-top: 10px; font-size: 13px; line-height: 1.75; color: var(--muted); }
+.page-heading > button { flex-shrink: 0; margin-bottom: 3px; }
+.workspace-footer { padding-top: 20px; margin-top: 28px; border-top: 1px solid var(--line); font-size: 11px; color: var(--faint); }
+
+/* The conformation desk */
+/* Moving WebGL labels and redrawn teaching cards must not become the browser's
+   scroll anchor; their motion otherwise pushes the equation out of view. */
+#lab-grid, #atlas-detail, .comparison-grid { overflow-anchor: none; }
+.lab-grid { grid-template-columns: minmax(0,1fr) 304px; gap: 24px; }
+.molecule-picker { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; }
+.molecule-chip { padding: 7px 12px; min-height: 34px; border: 1px solid transparent; border-radius: 6px; color: var(--muted); background: #ebeae2; font-size: 12px; }
+.molecule-chip:hover { background: #e3e4da; }
+.molecule-chip.active { background: var(--panel); color: var(--copper); border-color: #c9937b; box-shadow: 0 2px 4px #5a332308; font-weight: 650; }
+.viewer-panel, .atlas-viewer-card { position: relative; background: radial-gradient(ellipse at 48% 40%, #223947 0%, #182b38 42%, #111f2b 100%); border: 1px solid #263b47; border-radius: var(--radius); overflow: hidden; box-shadow: 0 9px 25px #1123320c; color: var(--stage-ink); }
+.viewer-header { position: relative; inset: auto; min-height: 57px; padding: 17px 21px 12px; align-items: center; gap: 18px; z-index: 5; border-bottom: 1px solid #cadfe60a; background: transparent; }
+.viewer-header h2 { color: var(--stage-ink); font-size: 17px; font-weight: 580; letter-spacing: .01em; }
+.viewer-header .eyebrow { display: block; color: #bbcec9; }
+.formula { color: #b9c9cc; font: 18px/1.4 Georgia, serif; letter-spacing: .07em; }
+.viewer-panel #viewer { height: clamp(440px, 36vw, 510px); background-image: linear-gradient(#b8dbdf05 1px, transparent 1px), linear-gradient(90deg, #b8dbdf05 1px, transparent 1px); background-size: 44px 44px; }
+.viewer-loading { color: var(--stage-muted); }
+.atom-label { padding: 2px 5px; border: 1px solid #70879066; border-radius: 4px; background: #132a36e8; color: #edf7f4; font-size: 11px; line-height: 1.25; text-shadow: none; font-weight: 600; box-shadow: 0 1px 6px #0010192b; }
+.atom-label.selected { border-color: #efc98a; background: #f3d297; color: #322c1e; text-shadow: none; font-weight: 750; }
+.viewer-tools { gap: 12px; padding: 10px 16px; background: #11212dda; border-top: 1px solid #a5c7cd1e; color: var(--stage-muted); }
+.viewer-tools button, .viewer-tools .icon-button { background: #263945; border-color: #495d66; color: #e3eeec; padding: 5px 9px; min-height: 31px; font-size: 12px; }
+.viewer-tools button:hover { background: #364d58; border-color: #8ba7aa; }
+.viewer-tools button:focus-visible { outline-color: #eac791; }
+.viewer-tools .check { color: #d0dedf; }
+.viewer-tools input[type=checkbox] { accent-color: #a2d8c7; }
+.segmented { background: #0e1e2a; border-color: #475b65; border-radius: 5px; padding: 2px; }
+.segmented button { color: #bdced0; border: 0; background: transparent; padding: 4px 10px; min-height: 27px; }
+.segmented button.active, .viewer-tools button[aria-pressed=true] { background: #dce9e1; color: #203c3b; border-color: #dce9e1; box-shadow: 0 1px 4px #0002; }
+.check { font-size: 12px; gap: 5px; color: var(--muted); }
+.check input { width: 14px; height: 14px; }
+.icon-button { min-width: 31px; height: 31px; padding: 4px; border-color: var(--line); color: var(--mint); }
+.viewer-caption { flex-direction: row; gap: 12px; padding: 9px 17px; background: #10212c; color: #aebfc5; font-size: 11px; }
+.atom-legend { white-space: nowrap; }
+.legend-dot { width: 7px; height: 7px; margin-left: 9px; border: 1px solid #b7cbd454; }
+.carbon { background: #a5bdcf; }
+.oxygen { background: #e18470; }
+.hydrogen { background: #eff1e9; }
+.studio-note { display: flex; align-items: baseline; gap: 9px; padding: 10px 2px 0; font-size: 11px; color: var(--muted); line-height: 1.6; }
+.studio-note > strong { color: var(--copper); font-size: 10px; font-weight: 650; white-space: nowrap; }
+.model-status { display: block; margin: 0; padding: 0 19px 11px; color: #b6cbc9; font-size: 11px; line-height: 1.65; }
+.model-status strong { color: #f0cf98; font-weight: 600; }
+.model-status[data-kind=missing] { color: #f3c1a5; }
+
+.energy-panel, .inspector, .reaction-timeline, .comparison-card, .equilibrium-card,
+.food-card, .note-card, .atlas-equations, .atlas-context, .coverage-panel,
+.mechanism-changes, .mechanism-limits { background: var(--panel); border: 1px solid var(--line); box-shadow: var(--shadow); border-radius: var(--radius); }
+.energy-panel { margin-top: 20px; padding: 20px 22px 14px; }
+.energy-panel h2 { font-size: 16px; }
+.energy-panel .eyebrow { display: block; }
+.method-badge { border: 1px solid #c9cfc2; border-radius: 4px; background: #f1f2ea; color: #567064; font-size: 10px; line-height: 1.5; padding: 3px 7px; }
+.chart { height: 188px; margin-top: 12px; }
+.chart svg { overflow: hidden; }
+.chart-empty { color: var(--muted); }
+.science-note { margin-top: 5px; border-top: 1px solid var(--line); padding-top: 9px; }
+.science-note summary { color: var(--muted); font-size: 12px; }
+.science-note p { color: var(--muted); font-size: 12px; line-height: 1.75; margin: 9px 0 3px; }
+.inspector { margin-top: 48px; padding: 22px; }
+.inspector > .eyebrow { display: block; margin-bottom: 7px; }
+.inspector > h2 { margin-bottom: 20px; font-size: 19px; }
+.inspector > label { color: var(--muted); margin-bottom: 7px; }
+.angle-display { margin: 22px 0 4px; }
+.angle-display > strong { color: var(--copper); font: 45px/1.05 Georgia, serif; letter-spacing: -.04em; }
+.angle-display > strong > span { color: var(--copper); font: 21px/1 Georgia, serif; }
+.range-labels { color: var(--faint); }
+.preset-angles, .history-controls { gap: 6px; margin-top: 12px; }
+.preset-angles button, .history-controls button { min-height: 32px; padding: 5px 9px; font-size: 12px; }
+.preset-angles button { color: var(--muted); }
+.energy-number { margin: 22px 0 16px; }
+.energy-number > span { font-size: 12px; }
+.energy-number strong { color: var(--ink); font: 33px/1.4 Georgia, serif; letter-spacing: -.03em; }
+.energy-number small { font: 12px var(--font); color: var(--muted); }
+.toggle-button { min-height: 30px; border-color: #c6cdbf; color: var(--mint); background: var(--panel); }
+.toggle-button[aria-pressed=true] { background: #e2eee6; border-color: #8bac9e; color: #245d52; }
+.inline-label { margin-top: 14px; }
+.info-card { background: #f0f2e9; border-left: 2px solid #72987f; margin-top: 17px; border-radius: 0 6px 6px 0; }
+.info-card strong { font-size: 13px; color: #315c50; }
+.info-card p { color: var(--muted); }
+.newman-details { margin-top: 20px; padding-top: 13px; }
+.newman-details summary, .inspector summary { color: var(--muted); font-weight: 600; }
+.inspector details:not(.newman-details) { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 11px; }
+.inspector details p { margin: 9px 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
+#newman svg { max-height: 175px; }
+
+/* Atlas: an index of ideas, with one visible lesson at a time. */
+.atlas-intro { margin-bottom: 21px; gap: 28px; }
+.atlas-intro .eyebrow { display: none; }
+.atlas-intro h2 { font-size: 19px; }
+.atlas-intro p { margin-top: 7px; font-size: 13px; color: var(--muted); }
+.atlas-search-label { min-width: min(300px, 100%); font-size: 11px; color: var(--muted); }
+.atlas-search-label input { margin-top: 7px; border-radius: 8px; font-size: 13px; padding: 11px 13px; }
+.atlas-curated { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin: 0 0 22px; }
+.atlas-curated button { display: flex; flex-direction: column; gap: 7px; position: relative; text-align: left; padding: 17px 18px; min-width: 0; min-height: 115px; background: #fffdf8; border-color: #d5d8cc; border-radius: 10px; transition: border-color .18s, background .18s, transform .18s; }
+.atlas-curated button:hover { transform: translateY(-2px); border-color: #ba8b72; background: #fcf6ed; }
+.atlas-curated button > span, .atlas-curated button > small { color: var(--muted); font-size: 11px; line-height: 1.6; }
+.atlas-curated button > .curated-number { color: var(--copper); font: 17px/1 Georgia, serif; }
+.atlas-curated button strong { color: var(--ink); font-size: 15px; font-weight: 600; padding-right: 17px; }
+.atlas-curated button > b { position: absolute; top: 18px; right: 17px; color: #af8c6c; font-size: 16px; font-weight: 400; }
+.coverage-panel { margin: 0 0 22px; padding: 11px 16px; border-radius: 8px; background: transparent; box-shadow: none; }
+.coverage-panel summary { color: var(--muted); font-size: 12px; }
+.coverage-panel p, .coverage-panel li { font-size: 13px; line-height: 1.9; color: var(--muted); }
+.atlas-filters { gap: 6px; margin-bottom: 15px; }
+.atlas-filters button { padding: 5px 10px; min-height: 31px; background: transparent; border-color: #d6d7cd; color: var(--muted); border-radius: 5px; font-size: 11px; }
+.atlas-filters .active { color: #92432f; border-color: #c08e76; background: #f4e8de; }
+.atlas-interactive-filter { margin: 0 0 23px; }
+.atlas-layout { grid-template-columns: 190px minmax(0,1fr); gap: 23px; }
+.atlas-index { padding-right: 16px; border-right: 1px solid var(--line); }
+#atlas-list { scrollbar-color: #c3c7bc transparent; max-height: 1100px; }
+.atlas-link { padding: 12px; margin-bottom: 5px; border: 1px solid transparent; border-radius: 7px; background: transparent; }
+.atlas-link > span { font-size: 10px; color: var(--faint); }
+.atlas-link strong { font-size: 13px; line-height: 1.7; font-weight: 600; }
+.atlas-link small { font-size: 10px; line-height: 1.6; color: var(--faint); }
+.atlas-link:hover { border-color: #d0d3c6; background: #eceee5; }
+.atlas-link.active { border-color: #c3b39d; background: #eee9dc; }
+.atlas-link.active strong { color: #8c472f; }
+.atlas-reaction-heading { margin-bottom: 20px; }
+.atlas-reaction-heading h2 { font-size: clamp(23px, 2.15vw, 30px); line-height: 1.42; letter-spacing: -.035em; }
+.atlas-reaction-heading p { color: var(--muted); font-size: 13px; line-height: 1.8; margin-top: 9px; }
+.atlas-reaction-heading > label { display: block; max-width: 450px; margin-top: 13px; font-size: 11px; color: var(--muted); }
+.atlas-reaction-heading > label select { display: block; margin-top: 5px; font-size: 12px; }
+.atlas-reaction-heading > button { margin-top: 13px; font-size: 12px; }
+.atlas-route-note { margin-top: 9px; }
+.atlas-route-note summary { font-size: 12px; color: var(--muted); }
+.atlas-reaction-heading { scroll-margin-top: 100px; }
+.atlas-intro h2 { display: none; }
+.atlas-stage-grid { grid-template-columns: minmax(0,1.3fr) minmax(270px,.9fr); align-items: start; gap: 22px; }
+.atlas-stage-grid > div, .atlas-stage-grid > aside, #atlas-detail { min-width: 0; }
+/* Keep overview stepping controls above the molecule, so clicking Next does
+   not scroll the current structure out of view. The mechanism has its coach. */
+#atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-stage-grid > div { display: flex; flex-direction: column; }
+#atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress { order: -1; display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 9px 14px; margin: 0 0 14px; padding: 12px 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+#atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress .section-heading { margin: 0; }
+#atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress .history-controls { margin: 0; grid-column: 2; grid-row: 1; }
+#atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress > input { grid-column: 1 / -1; margin: 4px 0; }
+.atlas-model-heading { align-items: flex-start; gap: 16px; padding: 18px 19px 10px; font-size: 14px; color: var(--stage-ink); }
+.atlas-model-heading > span:first-child { font-weight: 580; line-height: 1.65; }
+.atlas-model-heading .method-badge { flex-shrink: 0; max-width: 125px; background: #203744; border-color: #48606b; color: #c3d5d4; white-space: normal; font-size: 10px; }
+.atlas-viewer { height: 465px; background-image: linear-gradient(#b8dbdf05 1px, transparent 1px), linear-gradient(90deg, #b8dbdf05 1px, transparent 1px); background-size: 44px 44px; }
+.atlas-viewer-card .viewer-tools { padding: 10px 14px; gap: 8px; }
+.atlas-viewer-card button { padding: 5px 8px; font-size: 11px; }
+.atlas-model-note { min-height: 0; padding: 10px 16px; background: #0e1f2a; color: #afc4c8; font-size: 11px; line-height: 1.75; }
+.atlas-model-note summary { color: #bfcecf; font-size: 11px; font-weight: 500; }
+.atlas-model-note summary:hover { color: #f0cf98; }
+.atlas-model-note p { margin: 8px 0; }
+.atlas-progress { padding: 18px 0 15px; }
+.atlas-progress .section-heading > span { color: var(--copper); font-size: 12px; font-weight: 650; }
+.atlas-progress .section-heading button { min-height: 30px; padding: 4px 10px; color: var(--muted); }
+.atlas-step-tabs { gap: 5px; }
+.atlas-step-tabs button { padding: 8px 7px; min-width: 76px; font-size: 11px; line-height: 1.6; background: #eeeee5; border-color: transparent; border-radius: 5px; }
+.atlas-step-tabs button > span { margin-bottom: 4px; color: #828a80; font: 19px Georgia, serif; }
+.atlas-step-tabs button.active { border-color: #b78971; background: #fbefe3; color: #91442f; }
+.atlas-step-tabs button.active > span { color: var(--copper); }
+.atlas-equations { padding: 22px; }
+.atlas-equations > .eyebrow { margin-bottom: 15px; color: var(--copper); }
+.atlas-total-equation { padding: 4px 0 18px; }
+.atlas-total-equation > span, .atlas-current-equation > span { color: var(--faint); font-size: 11px; }
+.atlas-total-equation > p { color: var(--ink); font-size: 17px; line-height: 1.8; margin: 10px 0; }
+.atlas-total-equation small { color: var(--faint); font-size: 10px; }
+.condition-line { margin: 17px 0; }
+.condition-line summary { color: var(--muted); font-size: 12px; }
+.condition-line strong { color: var(--copper); }
+.condition-line p { color: var(--muted); font-size: 13px; }
+.atlas-current-equation { padding-top: 19px; }
+.atlas-current-equation h3 { font-size: 17px; }
+.atlas-current-equation p { color: var(--muted); font-size: 13px; line-height: 1.85; }
+.atlas-current-equation .step-formula { border-left: 2px solid var(--copper); background: #f7eee2; color: #674836; font-size: 15px; line-height: 1.8; padding: 13px 14px; }
+.atlas-step-explanation { margin-top: 13px; }
+.atlas-step-explanation summary { font-size: 12px; }
+.knowledge-check { margin-top: 21px; padding-top: 17px; }
+.knowledge-check summary { color: var(--mint); font-size: 12px; }
+.knowledge-check button { min-height: 36px; font-size: 12px; line-height: 1.7; }
+.knowledge-check button.correct { color: #295e4f; border-color: #91b09c; background: #e6eee2; }
+.knowledge-check p { color: var(--muted); }
+.atlas-context { display: block; margin-top: 23px; padding: 16px 20px; box-shadow: none; }
+.atlas-context summary { color: var(--muted); }
+.atlas-context h3 { margin-top: 18px; font-size: 14px; }
+.atlas-context p { color: var(--muted); font-size: 13px; line-height: 1.85; }
+.atlas-relations { margin-top: 25px; }
+.atlas-relations h3 { font-size: 14px; font-weight: 600; }
+.atlas-relations > div { gap: 7px; margin-top: 12px; }
+.atlas-relations button { color: var(--muted); font-size: 12px; padding: 7px 11px; min-height: 34px; }
+.atlas-relations .button-primary { color: #fffdf9; }
+.atlas-sources { margin-top: 24px; }
+.atlas-sources summary { font-size: 12px; }
+.atlas-sources li { color: var(--muted); font-size: 12px; }
+
+/* Reaction studio: the canvas and the reasoning share a top edge. */
+#alternate-content:has(#atlas-mechanism-player) .atlas-intro,
+#alternate-content:has(#atlas-mechanism-player) .atlas-curated,
+#alternate-content:has(#atlas-mechanism-player) .coverage-panel,
+#alternate-content:has(#atlas-mechanism-player) .atlas-filters,
+#alternate-content:has(#atlas-mechanism-player) .atlas-interactive-filter,
+#alternate-content:has(#atlas-mechanism-player) .atlas-index { display: none; }
+#alternate-content:has(#atlas-mechanism-player) .atlas-layout { display: block; }
+#atlas-mechanism-player .atlas-stage-grid { grid-template-columns: minmax(0,1fr) 354px; scroll-margin-top: 140px; }
+#atlas-mechanism-player .atlas-viewer { height: 490px; }
+#atlas-mechanism-player .atlas-equations { padding: 21px; }
+.mechanism-intro { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 12px; margin: 0 0 14px; }
+.mechanism-intro h3 { flex: 1; margin: 0; font-size: 12px; color: var(--muted); }
+.mechanism-intro > p { display: none; }
+.mechanism-help { font-size: 12px; }
+.mechanism-help[open] { flex-basis: 100%; }
+.mechanism-help summary { color: var(--muted); font-size: 12px; }
+.mechanism-help p { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.mechanism-step-equation { padding-bottom: 17px; border-bottom: 1px solid var(--line); }
+.mechanism-step-equation > span, .mechanism-step-equation > label { display: block; color: var(--copper); font-size: 10px; font-weight: 650; letter-spacing: .08em; }
+.mechanism-step-equation > p { margin: 9px 0 0; color: var(--ink); font-size: 17px; line-height: 1.7; overflow-wrap: anywhere; }
+.mechanism-step-equation > small { display: block; margin-top: 8px; color: var(--muted); font-size: 11px; }
+.mechanism-story { display: block; margin: 18px 0 0; padding: 0; border: 0; background: transparent; box-shadow: none; }
+.mechanism-story-kicker { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 9px; color: var(--copper); font-size: 10px; font-weight: 650; letter-spacing: .015em; }
+.mechanism-overview-link { padding: 0; min-height: 24px; border: 0; background: transparent; color: var(--muted); font-size: 10px; text-decoration: underline; text-underline-offset: 3px; }
+.mechanism-overview-link:hover { color: var(--copper); background: transparent; }
+.mechanism-story-title { margin: 8px 0 14px; font-size: 20px; line-height: 1.4; letter-spacing: -.025em; color: var(--ink); }
+.mechanism-story-primary { color: var(--muted); font-size: 13px; line-height: 1.8; margin: 12px 0; }
+.mechanism-path, .reaction-guide-pair { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin: 11px 0; }
+.mechanism-path { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); gap: 7px; }
+.mechanism-path-node, .reaction-guide-pair span { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; min-width: 0; min-height: 42px; padding: 9px; border: 1px solid #c9d5c7; border-radius: 6px; background: #f2f5ec; color: #306957; font-size: 13px; overflow-wrap: anywhere; }
+.mechanism-path-node small { font-size: 9px; line-height: 1.2; color: #6a8474; letter-spacing: .05em; }
+.mechanism-path-node strong { font-size: 12px; font-weight: 650; line-height: 1.5; }
+.mechanism-path-node:last-child, .reaction-guide-pair span:last-child { color: #96553c; background: #fbf1e6; border-color: #dfc7af; }
+.mechanism-path-node:last-child small { color: #9a775f; }
+.mechanism-path-arrow, .reaction-guide-pair b { color: #9a8b72; font-size: 20px; line-height: 1; }
+.mechanism-change-callout { margin: 11px 0; padding: 9px 10px; color: #725536; background: #f6eddb; border-left: 2px solid #c09759; border-radius: 0 4px 4px 0; font-size: 12px; line-height: 1.7; }
+.mechanism-change-callout > span { font-weight: 650; }
+.mechanism-beat-track { display: flex; flex-wrap: wrap; gap: 5px; margin: 17px 0 9px; }
+.mechanism-beat-track [data-beat] { padding: 4px 8px; color: #7b8178; background: #eeefe6; border-radius: 4px; font-size: 10px; font-weight: 600; line-height: 1.65; }
+.mechanism-beat-track [data-beat].active { background: var(--copper); color: white; }
+.mechanism-beat-track [data-beat].done { color: #396759; background: #e2ebdf; }
+.mechanism-beat-detail { color: var(--muted); font-size: 12px; line-height: 1.75; margin: 8px 0 12px; }
+#mechanism-beat-next { min-height: 39px; width: 100%; padding: 8px 13px; }
+.mechanism-schematic-note { color: var(--faint); font-size: 10px; line-height: 1.75; margin-top: 12px; }
+.mechanism-milestone { margin: 10px 0; padding: 8px 10px; border-left: 2px solid #b28a46; background: #f5eddb; color: #70562f; font-size: 12px; line-height: 1.8; font-weight: 600; }
+.mechanism-deep { margin-top: 14px; }
+.mechanism-deep summary, .mechanism-advanced summary, .mechanism-explanation summary { color: var(--muted); font-size: 12px; font-weight: 600; }
+.mechanism-deep p, #mechanism-instruction > p, #mechanism-explanation > p { color: var(--muted); font-size: 12px; line-height: 1.8; margin-top: 9px; }
+.mechanism-advanced, .mechanism-explanation { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 13px; }
+.mechanism-advanced label, #mechanism-controls label { display: block; margin: 12px 0 6px; color: var(--muted); font-size: 12px; }
+.mechanism-advanced select { font-size: 12px; }
+.mechanism-explanation p { margin-top: 9px; font-size: 12px; line-height: 1.85; color: var(--muted); }
+.mechanism-changes { margin-top: 16px; padding: 13px 17px; border-radius: 9px; box-shadow: none; }
+.mechanism-changes summary, .mechanism-limits summary { color: var(--muted); font-size: 12px; }
+.mechanism-changes li { border-color: var(--line); font-size: 12px; gap: 12px; }
+.change-formed strong { color: var(--mint); }
+.change-broken strong { color: var(--copper); }
+.change-order strong { color: #967130; }
+.mechanism-limits { padding: 15px 19px; margin-top: 22px; box-shadow: none; }
+.mechanism-limits p, .mechanism-limits li { color: var(--muted); font-size: 12px; line-height: 1.85; }
+.mechanism-limits p { margin-top: 11px; }
+.mechanism-limits a { color: var(--mint); overflow-wrap: anywhere; }
+
+/* The dedicated mutarotation lesson */
+.reaction-inspector { margin-top: 0; }
+.reaction-task { color: var(--ink); font-size: 14px; line-height: 1.85; margin: 0 0 18px; }
+.reaction-formula { padding: 14px; margin: 14px 0 18px; border: 1px solid #dfd2bd; background: #faf3e8; border-radius: 6px; }
+.reaction-formula > span { color: var(--copper); font-size: 10px; }
+.reaction-formula p { color: var(--ink); font-size: 15px; line-height: 1.8; margin: 9px 0; }
+.reaction-formula small { color: var(--muted); font-size: 11px; }
+.reaction-detail, .timeline-note { margin-top: 13px; border-top: 1px solid var(--line); padding-top: 10px; }
+.reaction-detail summary, .timeline-note summary { color: var(--muted); font-size: 12px; }
+.reaction-detail p, .timeline-note p { margin: 9px 0 0; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.equation { background: #f6eee0; color: #665035; font-size: 12px; }
+.completion { border-left: 2px solid #688e77; background: #eaf0e3; color: #365b43; font-size: 14px; }
+.feedback { color: #a94d36; font-size: 13px; line-height: 1.8; }
+.reaction-guide { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 11px 17px; padding: 15px 19px; color: var(--stage-ink); background: #18323d; border-bottom: 1px solid #56707555; }
+.reaction-guide-copy { min-width: 0; }
+.reaction-guide-progress { color: #d7ba89; font-size: 10px; font-weight: 650; letter-spacing: .04em; }
+.reaction-guide-pair#reaction-guide-pair { display: block; width: fit-content; max-width: 100%; margin: 5px 0; padding: 5px 8px; border: 1px solid #56797b; border-radius: 4px; background: #22434a; color: #dcece4; font-size: 13px; line-height: 1.5; }
+.reaction-guide-arrows { color: #c2d5d5; font-size: 11px; line-height: 1.6; }
+.reaction-guide-note { display: block; color: #a2bac0; font-size: 10px; line-height: 1.6; margin-top: 3px; }
+.reaction-guide-next { white-space: nowrap; background: #e8c9a0; color: #3d3023; border-color: #e8c9a0; font-size: 12px; }
+.reaction-guide-next:hover { background: #f1dab9; border-color: #f1dab9; }
+.reaction-advanced { border-top: 1px solid var(--line); margin-top: 16px; padding-top: 12px; }
+.reaction-advanced summary { color: var(--muted); font-size: 12px; font-weight: 600; }
+.reaction-advanced-intro { color: var(--muted); font-size: 12px; margin: 9px 0; }
+.related-mechanism { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; padding: 9px 17px; background: #16323d; border-bottom: 1px solid #42616d; color: #bad0cf; font-size: 11px; }
+.related-mechanism button { background: #24434a; border-color: #5b7d7c; color: #e2eade; font-size: 11px; min-height: 29px; padding: 4px 9px; }
+.related-mechanism button:hover { background: #31555a; }
+.reaction-timeline { padding: 20px 22px; }
+.timeline-steps { gap: 6px; margin-top: 17px; }
+.timeline-steps button { border-color: transparent; background: #eeeee5; font-size: 11px; }
+.timeline-steps span { color: #8a9085; }
+.timeline-steps .active { background: #f5e8da; border-color: #c29278; color: #964730; }
+.timeline-steps .active span { color: var(--copper); }
+
+/* Comparison, notebook, and supporting surfaces */
+.comparison-grid { gap: 20px; }
+.comparison-card { display: flex; flex-direction: column; padding: 21px; }
+.comparison-card > .eyebrow { display: block; margin-bottom: 6px; }
+.comparison-card h2 { font-size: 19px; }
+.mini-viewer { height: 290px; margin: 17px 0; border-radius: 10px; background: radial-gradient(ellipse at 50% 40%, #28414c, #111f2b); }
+.comparison-card > p { margin: 7px 0 16px; color: var(--muted); min-height: 0; font-size: 13px; line-height: 1.9; }
+.comparison-card > button { margin-top: auto; }
+.comparison-note { margin: 6px 0 18px; }
+.comparison-note summary, .equilibrium-note summary { color: var(--muted); font-size: 12px; font-weight: 600; }
+.comparison-note p, .equilibrium-note p { color: var(--muted); font-size: 12px; line-height: 1.85; margin: 10px 0; }
+.comparison-warning { margin: 15px 0 0; }
+.equilibrium-card { padding: 27px; gap: 35px; }
+.equilibrium-card p { color: var(--muted); font-size: 13px; }
+.equilibrium-note { margin-top: 13px; }
+.ratio-bar { border-radius: 5px; height: 33px; }
+.ratio-bar span:first-child { background: #c1ced4; color: #253f49; }
+.ratio-bar span:last-child { background: #d4dbc3; color: #3d5439; }
+.free-energy { padding-left: 28px; }
+.free-energy strong { color: var(--copper); font: 43px/1.4 Georgia, serif; }
+.free-energy strong small { font: 13px var(--font); }
+.free-energy code { color: var(--ink); }
+.food-heading { font-size: 20px; margin-top: 32px; }
+.food-card { padding: 22px; }
+.food-card .eyebrow { display: block; }
+.food-card p { color: var(--muted); font-size: 13px; line-height: 1.9; }
+.food-card details { padding-top: 13px; margin-top: 18px; }
+.food-card summary { color: var(--mint); font-size: 12px; }
+.notebook-toolbar { gap: 18px; margin-bottom: 23px; }
+.notebook-toolbar p { color: var(--muted); font-size: 13px; line-height: 1.8; }
+.notebook-toolbar button { font-size: 12px; }
+.notes-grid { gap: 19px; }
+.note-card { position: relative; padding: 25px 24px 22px; border-top: 3px solid #baa48a; }
+.note-card h2 { color: var(--ink); font-size: 19px; line-height: 1.6; }
+.note-card .eyebrow { color: #8f705b; }
+.note-text { color: var(--muted); font-size: 13px; line-height: 1.95; }
+.note-card details { margin-top: 19px; padding-top: 13px; }
+.event-list { color: var(--muted); font-size: 12px; line-height: 1.8; }
+.empty-notes { padding: 65px 24px; background: #fffdf780; border: 1px dashed #c8c7b8; }
+.empty-notes > span { color: var(--copper); }
+.empty-notes p { color: var(--muted); }
+.stop-replay { background: var(--copper); border-color: #a2442e; color: #fffdf9; box-shadow: 0 5px 20px #3d2b2426; }
+dialog { padding: 28px; background: var(--panel); border: 1px solid #d8d8cc; box-shadow: 0 20px 80px #13293740; border-radius: 15px; }
+dialog::backdrop { background: #0f263673; backdrop-filter: blur(5px); }
+.dialog-header { gap: 15px; padding-bottom: 15px; border-bottom: 1px solid var(--line); }
+.dialog-header h2 { font-size: 23px; }
+.dialog-header button { min-width: 34px; min-height: 34px; padding: 0; border-radius: 50%; background: #efeee5; color: var(--muted); }
+#dialog-body p, #dialog-body li { color: var(--muted); font-size: 14px; line-height: 1.9; }
+#dialog-body h3 { color: var(--ink); font-size: 16px; }
+#dialog-body a { color: var(--mint); overflow-wrap: anywhere; }
+.toast { background: #203c3e; color: #fffdf4; border-color: #49615b; box-shadow: 0 6px 25px #17312a24; font-size: 13px; }
+
+/* Responsive layouts keep both the molecule and the explanation readable. */
+@media (min-width: 1600px) {
+  main { padding: 34px 40px 28px; }
+  .lab-grid { grid-template-columns: minmax(0,1fr) 330px; gap: 28px; }
+  #atlas-mechanism-player .atlas-stage-grid { grid-template-columns: minmax(0,1fr) 376px; gap: 27px; }
+  #atlas-mechanism-player .atlas-viewer { height: 510px; }
+  .viewer-panel #viewer { height: 510px; }
+}
+@media (max-width: 1250px) {
+  main { padding: 28px 25px 22px; }
+  .lab-grid { grid-template-columns: minmax(0,1fr) 282px; gap: 19px; }
+  .inspector { padding: 19px; }
+  .atlas-stage-grid { grid-template-columns: minmax(0,1fr); }
+  #atlas-mechanism-player .atlas-stage-grid { grid-template-columns: minmax(0,1fr) 330px; gap: 18px; }
+  #atlas-mechanism-player .atlas-equations { padding: 18px; }
+  .comparison-card { padding: 18px; }
+  .mini-viewer { height: 245px; }
+}
+@media (max-width: 1050px) {
+  .workspace { grid-template-columns: minmax(0,1fr); }
+  .sidebar { position: static; min-height: 0; padding: 7px 22px; display: flex; flex-direction: row; align-items: center; gap: 15px; border-right: 0; border-bottom: 1px solid var(--line); }
+  .sidebar nav { display: flex; flex: 1; gap: 4px; overflow-x: auto; scrollbar-width: thin; }
+  .nav-heading, .sidebar-bottom .sidebar-caption { display: none; }
+  .nav-item { flex: 0 0 auto; width: auto; padding: 8px 11px; min-height: 38px; gap: 7px; font-size: 12px; }
+  .nav-item > .nav-number { flex-basis: 18px; font-size: 11px; display: inline-block; }
+  .sidebar-bottom { display: block; padding: 0; margin: 0; }
+  .sidebar-bottom .text-button { font-size: 10px; white-space: nowrap; }
+  .header-context { display: none; }
+  main { padding: 28px 25px 22px; }
+  h1 { font-size: 35px; }
+  .atlas-intro { flex-direction: row; align-items: center; }
+  .atlas-search-label { width: auto; min-width: 265px; }
+  .atlas-layout { grid-template-columns: 178px minmax(0,1fr); gap: 20px; }
+  .atlas-index { padding-right: 12px; }
+}
+@media (max-width: 850px) {
+  .lab-grid { display: flex; flex-direction: column; gap: 0; }
+  .main-column { display: contents; }
+  .molecule-picker { order: 1; align-self: stretch; }
+  .viewer-panel { order: 2; align-self: stretch; }
+  .studio-note { order: 2; align-self: stretch; }
+  .inspector { order: 3; align-self: stretch; margin-top: 18px; }
+  .energy-panel { order: 4; align-self: stretch; margin-top: 18px; }
+  .reaction-timeline { order: 4; align-self: stretch; }
+  .viewer-panel #viewer { height: 455px; }
+  .atlas-stage-grid, #atlas-mechanism-player .atlas-stage-grid { grid-template-columns: minmax(0,1fr); }
+  #atlas-mechanism-player .atlas-stage-grid { display: flex; flex-direction: column; gap: 18px; }
+  #atlas-mechanism-player .atlas-stage-grid > div { display: contents; }
+  #atlas-mechanism-player .atlas-viewer-card { order: 0; width: 100%; }
+  #atlas-mechanism-player .mechanism-coach { order: 1; width: 100%; }
+  #atlas-mechanism-player .atlas-progress { order: 2; width: 100%; }
+  #atlas-mechanism-player .mechanism-changes { order: 3; width: 100%; }
+  #atlas-mechanism-player .atlas-viewer { height: 455px; }
+  #atlas-mechanism-player .atlas-equations { padding: 23px; }
+  .mechanism-story-title { font-size: 23px; }
+  .mechanism-path { max-width: 510px; }
+  .mechanism-path-node strong { font-size: 13px; }
+  #mechanism-beat-next { width: auto; min-width: 205px; }
+  .comparison-grid { grid-template-columns: minmax(0,1fr); }
+  .comparison-card { padding: 23px; }
+  .mini-viewer { height: 310px; }
+  .comparison-card > p { min-height: 0; }
+  .food-grid { grid-template-columns: minmax(0,1fr); }
+  .equilibrium-card { grid-template-columns: 1fr; gap: 23px; }
+  .free-energy { border-left: 0; border-top: 1px solid var(--line); padding: 20px 0 0; }
+}
+@media (max-width: 640px) {
+  .topbar { height: 67px; padding: 0 17px; gap: 12px; }
+  .brand { font-size: 15px; gap: 9px; }
+  .brand-mark, .brand-mark svg { width: 29px; height: 35px; }
+  .brand-mark { flex-basis: 29px; }
+  .brand-subtitle, .brand small { font-size: 8px; }
+  .header-note, .save-status { display: none; }
+  .header-actions { gap: 6px; }
+  .header-actions .help-button { padding: 0; font-size: 18px; }
+  .sidebar { display: block; padding: 6px 11px; }
+  .sidebar nav { display: flex; gap: 3px; overflow: visible; }
+  .nav-item { flex: 1 1 0; min-width: 0; min-height: 37px; padding: 7px 2px; font-size: 11px; text-align: center; justify-content: center; gap: 0; }
+  .nav-item > .nav-number { display: none; }
+  .nav-item > .nav-label { display: block; text-align: center; }
+  .sidebar-bottom { display: flex; justify-content: flex-end; margin-top: 3px; }
+  .sidebar-bottom .text-button { min-height: 23px; padding: 2px 3px; font-size: 10px; }
+  main { padding: 23px 15px 20px; }
+  .page-heading { align-items: flex-start; gap: 10px; margin-bottom: 22px; }
+  .page-heading .eyebrow { font-size: 9px; margin-bottom: 8px; }
+  h1 { font-size: 31px; letter-spacing: -.035em; }
+  .page-heading p { font-size: 12px; margin-top: 8px; line-height: 1.7; }
+  .page-heading > button { padding: 7px 10px; margin-top: 22px; min-height: 32px; font-size: 11px; }
+  .molecule-picker { gap: 5px; margin-bottom: 12px; }
+  .molecule-chip { flex: 1 0 auto; font-size: 11px; padding: 6px 8px; min-height: 33px; }
+  .viewer-header { padding: 14px 16px 11px; min-height: 49px; }
+  .viewer-header h2 { font-size: 15px; }
+  .formula { font-size: 16px; }
+  .viewer-panel #viewer { height: min(95vw, 385px); min-height: 320px; }
+  .viewer-tools { gap: 8px; padding: 9px 11px; }
+  .viewer-tools button { min-height: 31px; }
+  .segmented button { min-height: 25px; padding: 4px 8px; }
+  .check { font-size: 11px; }
+  .viewer-caption { padding: 9px 12px; gap: 7px; font-size: 10px; }
+  .atom-legend { font-size: 9px; }
+  .legend-dot { margin-left: 5px; width: 6px; height: 6px; margin-right: 2px; }
+  .studio-note { font-size: 10px; }
+  .inspector { padding: 21px; }
+  .energy-panel { padding: 18px 13px 13px; }
+  .chart { height: 173px; }
+  .atlas-intro { flex-direction: column; align-items: stretch; gap: 15px; }
+  .atlas-search-label { min-width: 0; width: 100%; }
+  .atlas-curated { gap: 7px; margin-bottom: 18px; }
+  .atlas-curated button { padding: 12px 10px; min-height: 128px; gap: 6px; }
+  .atlas-curated button strong { font-size: 12px; line-height: 1.7; padding-right: 0; }
+  .atlas-curated button > span, .atlas-curated button > small { font-size: 10px; line-height: 1.65; }
+  .atlas-curated button > .curated-number { font-size: 10px; letter-spacing: .02em; white-space: nowrap; }
+  .atlas-curated button > b { top: 13px; right: 10px; font-size: 13px; }
+  .coverage-panel { padding: 10px 12px; margin-bottom: 18px; }
+  .atlas-filters { overflow-x: auto; flex-wrap: nowrap; max-height: none; padding-bottom: 5px; scrollbar-width: thin; margin-bottom: 14px; }
+  .atlas-filters button { flex: 0 0 auto; min-height: 31px; }
+  .atlas-layout { grid-template-columns: minmax(0,1fr); gap: 20px; }
+  .atlas-index { padding: 0; border: 0; min-width: 0; }
+  #atlas-list { display: flex; gap: 7px; max-height: none; overflow: auto; padding-bottom: 8px; }
+  .atlas-link { flex: 0 0 158px; min-width: 158px; width: 158px; margin: 0; border-color: var(--line); padding: 11px; }
+  .atlas-link strong { font-size: 12px; }
+  .atlas-reaction-heading h2 { font-size: 24px; }
+  .atlas-reaction-heading > p { font-size: 12px; }
+  .atlas-model-heading { flex-direction: column; padding: 15px 14px 9px; gap: 6px; font-size: 13px; }
+  .atlas-model-heading .method-badge { max-width: 100%; white-space: nowrap; font-size: 10px; }
+  .model-status { padding: 0 14px 10px; font-size: 10px; }
+  .atlas-viewer, #atlas-mechanism-player .atlas-viewer { height: min(100vw, 380px); min-height: 335px; }
+  .atlas-viewer-card .viewer-tools { padding: 9px 11px; gap: 7px; }
+  .atlas-viewer-card .viewer-tools button { min-height: 38px; }
+  .atlas-model-note { padding: 9px 13px; font-size: 10px; }
+  .atlas-progress .history-controls button { font-size: 12px; padding: 7px 11px; }
+  #atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress { grid-template-columns: minmax(0,1fr); }
+  #atlas-detail:not(:has(#atlas-mechanism-player)) .atlas-progress .history-controls { grid-column: 1; grid-row: 2; }
+  .atlas-equations, #atlas-mechanism-player .atlas-equations { padding: 20px; }
+  .atlas-step-tabs button { min-width: 75px; font-size: 10px; }
+  .atlas-context { padding: 14px 17px; }
+  .mechanism-story-title { font-size: 21px; }
+  .mechanism-step-equation > p { font-size: 16px; }
+  .mechanism-path-node strong { font-size: 12px; }
+  #mechanism-beat-next { width: 100%; }
+  .mechanism-changes { padding: 12px 14px; }
+  .mechanism-limits { padding: 13px 16px; }
+  .reaction-guide { grid-template-columns: 1fr; padding: 13px 14px; gap: 10px; }
+  .reaction-guide-next { width: 100%; min-height: 35px; }
+  .reaction-timeline { padding: 18px; }
+  .timeline-steps { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .timeline-steps button { font-size: 10px; padding: 7px 4px; }
+  .comparison-card { padding: 20px; }
+  .mini-viewer { height: 290px; }
+  .equilibrium-card { padding: 22px; }
+  .notes-grid { grid-template-columns: minmax(0,1fr); }
+  .note-card { padding: 22px 20px; }
+  .workspace-footer { font-size: 10px; margin-top: 23px; padding-top: 16px; }
+  .workspace-footer > span:last-child { display: none; }
+  dialog { padding: 21px; width: calc(100% - 26px); }
+  .dialog-header h2 { font-size: 20px; }
+  .stop-replay { bottom: 15px; right: 14px; font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .atlas-curated button:hover { transform: none; }
+}

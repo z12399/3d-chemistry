@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">受傷細胞的檢出取決於培養條件</title>
+<desc id="figure-desc">亞致死受傷的細胞在選擇性培養基上不易形成菌落，但在非選擇性（修復）條件下可以恢復；兩種方法的計數差反映受傷細胞，不是額外的死亡。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="530" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">受傷細胞的檢出取決於培養條件</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同一批樣品分開使用可比較的方法</tspan></text>
+<rect x="255" y="110" width="210" height="66" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="150.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">同批受處理樣品</tspan></text>
+<path d="M 300 186 L 300 217 L 180 217 L 180 248" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 420 186 L 420 217 L 540 217 L 540 248" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<rect x="40" y="260" width="280" height="132" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180.0" y="305.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">恢復支持方法 R</tspan><tspan x="180.0" dy="28">可恢復細胞可形成菌落</tspan><tspan x="180.0" dy="28">計數 NR</tspan></text>
+<rect x="400" y="260" width="280" height="132" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540.0" y="305.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">選擇性方法 S</tspan><tspan x="540.0" dy="28">受傷細胞可能較難成菌落</tspan><tspan x="540.0" dy="28">計數 NS</tspan></text>
+<rect x="137" y="430" width="446" height="52" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="463.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">ΔL = log₁₀(NR / NS)</tspan></text>
+<text x="32" y="511" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">差距非額外死亡；對照及方法效能仍要檢查。</tspan></text>
+<text x="688" y="512" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">植酸酶：逐步切下磷酸基</title>
+<desc id="figure-desc">發酵酸化可活化原料自帶植酸酶；單步 IP6 水解為 IP5 與無機磷，並不表示所有磷酸基已去除或元素全數保留。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="550" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">植酸酶：逐步切下磷酸基</tspan></text>
+<rect x="35" y="92" width="197" height="69" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="133.5" y="133.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="133.5" dy="0">發酵酸化</tspan></text>
+<path d="M 244 126 L 339 126" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="289" y="105" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="289" dy="0">可活化</tspan></text>
+<rect x="352" y="92" width="335" height="69" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="519.5" y="133.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="519.5" dy="0">原料本身的植酸酶</tspan></text>
+<circle cx="137" cy="300" r="34" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 137.0 265.0 L 137.0 248.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="137.0" cy="233.0" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="137.0" y="239.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="137.0" dy="0">P</tspan></text>
+<path d="M 167.31088913245534 282.5 L 182.0333209967908 274.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="195.02370205355737" cy="266.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="195.02370205355737" y="272.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="195.02370205355737" dy="0">P</tspan></text>
+<path d="M 167.31088913245534 317.5 L 182.03332099679082 326.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="195.0237020535574" cy="333.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="195.0237020535574" y="339.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="195.0237020535574" dy="0">P</tspan></text>
+<path d="M 137.0 335.0 L 137.0 352.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="137.0" cy="367.0" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="137.0" y="373.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="137.0" dy="0">P</tspan></text>
+<path d="M 106.68911086754466 317.5 L 91.96667900320921 326.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.97629794644263" cy="333.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="78.97629794644263" y="339.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="78.97629794644263" dy="0">P</tspan></text>
+<path d="M 106.68911086754466 282.5 L 91.9666790032092 274.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="78.97629794644261" cy="266.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="78.97629794644261" y="272.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="78.97629794644261" dy="0">P</tspan></text>
+<text x="137" y="307" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="137" dy="0">IP6</tspan></text>
+<circle cx="449" cy="300" r="34" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 449.0 265.0 L 449.0 248.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="449.0" cy="233.0" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="449.0" y="239.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="449.0" dy="0">P</tspan></text>
+<path d="M 479.3108891324554 282.5 L 494.0333209967908 274.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="507.0237020535574" cy="266.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="507.0237020535574" y="272.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="507.0237020535574" dy="0">P</tspan></text>
+<path d="M 479.3108891324554 317.5 L 494.0333209967908 326.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="507.0237020535574" cy="333.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="507.0237020535574" y="339.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="507.0237020535574" dy="0">P</tspan></text>
+<path d="M 449.0 335.0 L 449.0 352.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="449.0" cy="367.0" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="449.0" y="373.0" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="449.0" dy="0">P</tspan></text>
+<path d="M 418.6891108675446 317.5 L 403.9666790032092 326.0" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="390.9762979464426" cy="333.5" r="17" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<text x="390.9762979464426" y="339.5" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="390.9762979464426" dy="0">P</tspan></text>
+<text x="449" y="307" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="449" dy="0">IP5</tspan></text>
+<path d="M 232 300 L 347 300" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="290" y="280" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="290" dy="0">＋ H₂O</tspan></text>
+<path d="M 520 173 L 520 192 L 290 192 L 290 248" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="309" y="229" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="309" dy="0">催化水解</tspan></text>
+<text x="565" y="308" font-size="27" fill="#1c2732" text-anchor="start"><tspan x="565" dy="0">＋</tspan></text>
+<circle cx="639" cy="300" r="31" fill="#f6f7f8" stroke="#b4692e" stroke-width="2"/>
+<text x="639" y="307" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="639" dy="0">Pi</tspan></text>
+<text x="639" y="355" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="639" dy="0">無機磷</tspan></text>
+<text x="360" y="418" font-size="20" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">第一個切除位置可隨酵素而異</tspan></text>
+<text x="32" y="484" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">IP6 降低≠菌產酵素，也≠完全變成肌醇；</tspan><tspan x="32" dy="25">另追蹤礦物質回收量，IP6／Fe 比不是吸收率。</tspan></text>
+<text x="688" y="532" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
