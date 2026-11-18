@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">pI：找到零電荷兩側的 pKa</title>
+<desc id="figure-desc">三列依解離順序列出 Ala、Asp、Lys 的電荷，以綠箭頭標出夾住零電荷的兩步並列其 pI。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">pI：找到零電荷兩側的 pKa</tspan></text>
+<text x="360" y="85" font-size="20" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">取零電荷兩側的 pKa 平均（本課近似）</tspan></text>
+<text x="32" y="150" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">Ala</tspan></text>
+<text x="32" y="184" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">pI 6.015</tspan></text>
+<circle cx="210" cy="155" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="210" y="162" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="210" dy="0">+1</tspan></text>
+<circle cx="405" cy="155" r="27" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="405" y="162" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="405" dy="0">0</tspan></text>
+<circle cx="600" cy="155" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="600" y="162" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">−1</tspan></text>
+<path d="M 244 155 L 370 155" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="307.5" y="133" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="307.5" dy="0">2.34</tspan></text>
+<path d="M 439 155 L 565 155" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="502.5" y="133" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="502.5" dy="0">9.69</tspan></text>
+<text x="32" y="290" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">Asp</tspan></text>
+<text x="32" y="324" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">pI 2.765</tspan></text>
+<circle cx="210" cy="295" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="210" y="302" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="210" dy="0">+1</tspan></text>
+<circle cx="340" cy="295" r="27" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="340" y="302" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="340" dy="0">0</tspan></text>
+<circle cx="470" cy="295" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="470" y="302" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="470" dy="0">−1</tspan></text>
+<circle cx="600" cy="295" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="600" y="302" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">−2</tspan></text>
+<path d="M 244 295 L 305 295" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="275.0" y="273" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="275.0" dy="0">1.88</tspan></text>
+<path d="M 374 295 L 435 295" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="405.0" y="273" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="405.0" dy="0">3.65</tspan></text>
+<path d="M 504 295 L 565 295" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="535.0" y="273" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="535.0" dy="0">9.60</tspan></text>
+<text x="32" y="430" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">Lys</tspan></text>
+<text x="32" y="464" font-size="18" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">pI 9.740</tspan></text>
+<circle cx="210" cy="435" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="210" y="442" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="210" dy="0">+2</tspan></text>
+<circle cx="340" cy="435" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="340" y="442" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="340" dy="0">+1</tspan></text>
+<circle cx="470" cy="435" r="27" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="470" y="442" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="470" dy="0">0</tspan></text>
+<circle cx="600" cy="435" r="27" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="600" y="442" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="600" dy="0">−1</tspan></text>
+<path d="M 244 435 L 305 435" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="275.0" y="413" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="275.0" dy="0">2.18</tspan></text>
+<path d="M 374 435 L 435 435" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="405.0" y="413" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="405.0" dy="0">8.95</tspan></text>
+<path d="M 504 435 L 565 435" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="535.0" y="413" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="535.0" dy="0">10.53</tspan></text>
+<text x="32" y="512" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">平均淨電荷＝0；不是全部 pKa 的平均。</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

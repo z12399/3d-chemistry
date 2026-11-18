@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 550" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">露點與濕球：走向飽和的路不同</title>
+<desc id="figure-desc">同壓狀態在定含濕比下冷卻至飽和得到露點；絕熱加水至飽和得到熱力學濕球，後者須包含補入液水的焓。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="550" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">露點與濕球：走向飽和的路不同</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同總壓的濕空氣圖（定性）</tspan></text>
+<path d="M 95 365 L 655 365" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 95 365 L 95 113" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="32" y="106" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="32" dy="0">含濕比 Y</tspan></text>
+<text x="654" y="398" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="654" dy="0">乾球溫度 T乾</tspan></text>
+<path d="M 130 350 C 180 335 220 312 250 285 C 290 249 325 215 350 190 C 378 157 400 125 417 100" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="179" y="198" font-size="20" fill="#14665d" text-anchor="start"><tspan x="179" dy="0">飽和線</tspan></text>
+<path d="M 223 209 L 290 245" fill="none" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="550" cy="285" r="7" fill="#1c2732" stroke="#1c2732" stroke-width="2"/>
+<text x="568" y="278" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="568" dy="0">狀態點</tspan></text>
+<path d="M 535 285 L 264 285" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<circle cx="250" cy="285" r="7" fill="#ffffff" stroke="#6f8fb5" stroke-width="3"/>
+<text x="130" y="277" font-size="20" fill="#6f8fb5" text-anchor="start"><tspan x="130" dy="0">露點 T露</tspan></text>
+<text x="389" y="316" font-size="20" fill="#6f8fb5" text-anchor="middle"><tspan x="389" dy="0">定 Y 冷卻</tspan></text>
+<path d="M 544 279 L 363 196" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<circle cx="350" cy="190" r="7" fill="#ffffff" stroke="#b4692e" stroke-width="3"/>
+<text x="439" y="132" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="439" dy="0">熱力學濕球 T濕</tspan></text>
+<path d="M 440 145 L 360 179" fill="none" stroke="#53606d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="445" y="207" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="445" dy="0">絕熱加水</tspan><tspan x="445" dy="25">直到飽和</tspan></text>
+<rect x="43" y="432" width="634" height="57" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="467.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">濕球能量平衡包含補入液水的焓</tspan></text>
+<text x="32" y="524" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">濕球線近似等焓線，端點不可當精確濕球。</tspan></text>
+<text x="688" y="532" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

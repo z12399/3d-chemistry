@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 490" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">ES 穩態：流入等於兩條流出</title>
+<desc id="figure-desc">E與S形成ES，ES可解離回E與S或生成E與P；穩態近似平衡的是總通量而不是單純結合平衡。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="490" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">ES 穩態：流入等於兩條流出</tspan></text>
+<rect x="32" y="160" width="180" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122.0" y="212.0" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="122.0" dy="0">E＋S</tspan></text>
+<rect x="287" y="160" width="145" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="359.5" y="212.0" font-size="30" fill="#1c2732" text-anchor="middle"><tspan x="359.5" dy="0">ES</tspan></text>
+<rect x="517" y="160" width="171" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="602.5" y="212.0" font-size="28" fill="#1c2732" text-anchor="middle"><tspan x="602.5" dy="0">E＋P</tspan></text>
+<path d="M 220 183 L 279 183" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="249" y="147" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="249" dy="0">k₁</tspan></text>
+<path d="M 279 227 L 220 227" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="249" y="281" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="249" dy="0">k₋₁</tspan></text>
+<path d="M 440 205 L 509 205" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="475" y="172" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="475" dy="0">kcat</tspan></text>
+<rect x="32" y="325" width="656" height="67" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="365.5" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">ES 生成速率 ≈ 解離速率＋產物生成速率</tspan></text>
+<text x="360" y="430" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">Km＝(k₋₁＋kcat)／k₁</tspan></text>
+<text x="32" y="466" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">本機構：kcat ≪ k₋₁ 時，Km ≈ Kd。</tspan></text>
+<text x="688" y="472" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

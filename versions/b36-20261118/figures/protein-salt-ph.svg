@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 495" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">pH 與鹽：作用要看條件</title>
+<desc id="figure-desc">pH 偏離等電點可提高淨電荷與排斥；低鹽與高鹽透過不同作用改變溶解，並非鹽越多越好。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="495" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">pH 與鹽：作用要看條件</tspan></text>
+<rect x="32" y="94" width="185" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.5" y="134.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="124.5" dy="0">pH 偏離 pI</tspan></text>
+<path d="M 224 127 L 264 127" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="272" y="94" width="180" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="362.0" y="134.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="362.0" dy="0">淨電荷增加</tspan></text>
+<path d="M 460 127 L 500 127" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="508" y="94" width="180" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="134.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="598.0" dy="0">排斥增強</tspan></text>
+<rect x="32" y="211" width="185" height="70" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.5" y="253.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="124.5" dy="0">低濃度鹽</tspan></text>
+<path d="M 225 246 L 263 246" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="272" y="211" width="180" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="362.0" y="253.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="362.0" dy="0">屏蔽電荷</tspan></text>
+<path d="M 460 246 L 500 246" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="508" y="211" width="180" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="253.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="598.0" dy="0">可促進溶解</tspan></text>
+<rect x="32" y="328" width="185" height="70" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.5" y="370.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="124.5" dy="0">高濃度鹽</tspan></text>
+<path d="M 225 363 L 263 363" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="272" y="328" width="180" height="70" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="362.0" y="370.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="362.0" dy="0">與蛋白爭水</tspan></text>
+<path d="M 460 363 L 500 363" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="508" y="328" width="180" height="70" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="598.0" y="370.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="598.0" dy="0">可能鹽析</tspan></text>
+<text x="32" y="439" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">反應依蛋白、鹽種、濃度與處理歷史而異。</tspan><tspan x="32" dy="25">溶解與保水需分別量測。</tspan></text>
+<text x="688" y="477" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

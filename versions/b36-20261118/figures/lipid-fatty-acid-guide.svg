@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脂肪酸名稱，分開讀四件事</title>
+<desc id="figure-desc">用亞油酸的標記分辨碳數、雙鍵數與計數端點，並用彎折鏈及雙烯丙位概念說明堆積與氧化。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脂肪酸名稱，分開讀四件事</tspan></text>
+<rect x="32" y="90" width="656" height="103" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="145" y="128" font-size="30" fill="#14665d" text-anchor="middle"><tspan x="145" dy="0">18</tspan></text>
+<text x="218" y="128" font-size="30" fill="#14665d" text-anchor="middle"><tspan x="218" dy="0">:</tspan></text>
+<text x="285" y="128" font-size="30" fill="#14665d" text-anchor="middle"><tspan x="285" dy="0">2</tspan></text>
+<text x="510" y="128" font-size="30" fill="#14665d" text-anchor="middle"><tspan x="510" dy="0">（Δ9Z,12Z）</tspan></text>
+<text x="145" y="174" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="145" dy="0">碳數</tspan></text>
+<text x="285" y="174" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="285" dy="0">雙鍵數</tspan></text>
+<text x="534" y="174" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="534" dy="0">位置與順式配置</tspan></text>
+<text x="73" y="239" font-size="19" fill="#1c2732" text-anchor="start"><tspan x="73" dy="0">羧基端</tspan></text>
+<text x="645" y="239" font-size="19" fill="#1c2732" text-anchor="end"><tspan x="645" dy="0">甲基端</tspan></text>
+<path d="M 165 231 L 310 231" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 558 264 L 413 264" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="330" y="237" font-size="19" fill="#14665d" text-anchor="start"><tspan x="330" dy="0">Δ 計數</tspan></text>
+<text x="386" y="270" font-size="19" fill="#b4692e" text-anchor="end"><tspan x="386" dy="0">n／ω 計數</tspan></text>
+<text x="360" y="311" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">亞油酸：n−(18−12) ＝ n−6</tspan></text>
+<rect x="32" y="338" width="316" height="127" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 65 379 L 95 365 L 125 379 L 155 365 L 179 390 L 180 420 L 210 434 L 242 420" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="198" y="375" font-size="18" fill="#14665d" text-anchor="start"><tspan x="198" dy="0">cis 彎折</tspan></text>
+<text x="190" y="453" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">較難緊密堆積</tspan></text>
+<rect x="372" y="338" width="316" height="127" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="530" y="375" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="530" dy="0">雙鍵 — 雙烯丙位 — 雙鍵</tspan></text>
+<path d="M 530 391 L 530 419" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="530" y="451" font-size="19" fill="#b4692e" text-anchor="middle"><tspan x="530" dy="0">較容易參與氧化</tspan></text>
+<text x="360" y="498" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">18:1 或 n−3，單獨都不足以唯一指認脂肪酸</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

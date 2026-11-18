@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">每經過一個 D，剩十分之一</title>
+<desc id="figure-desc">對數線性等溫模型的三個步驟，每次將當時的殘存量再乘 0.1，三個 D 後剩初始量的千分之一。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">每經過一個 D，剩十分之一</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">固定溫度；存活曲線可用對數直線近似</tspan></text>
+<rect x="33" y="146" width="122" height="80" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="94.0" y="193.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="94.0" dy="0">N₀</tspan></text>
+<text x="94" y="259" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="94" dy="0">初始量</tspan></text>
+<path d="M 167 186 L 199 186" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="183" y="125" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="183" dy="0">× 0.1</tspan></text>
+<rect x="211" y="146" width="122" height="80" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="272.0" y="193.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="272.0" dy="0">0.1 N₀</tspan></text>
+<text x="272" y="259" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="272" dy="0">1 D 後</tspan></text>
+<path d="M 345 186 L 377 186" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="361" y="125" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="361" dy="0">× 0.1</tspan></text>
+<rect x="389" y="146" width="122" height="80" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="450.0" y="193.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="450.0" dy="0">0.01 N₀</tspan></text>
+<text x="450" y="259" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="450" dy="0">2 D 後</tspan></text>
+<path d="M 523 186 L 555 186" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="539" y="125" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="539" dy="0">× 0.1</tspan></text>
+<rect x="567" y="146" width="122" height="80" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="628.0" y="193.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="628.0" dy="0">0.001 N₀</tspan></text>
+<text x="628" y="259" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="628" dy="0">3 D 後</tspan></text>
+<rect x="85" y="301" width="550" height="58" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="337.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">殘存比例＝10^(−t/D)</tspan></text>
+<text x="32" y="397" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">每次減少的基準是「當時剩餘量」</tspan></text>
+<text x="688" y="412" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

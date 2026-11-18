@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">厚度加倍，時間何時變四倍？</title>
+<desc id="figure-desc">傅立葉數 Fo＝α·t/L²：在相同 Bi 與相同無因次溫度下，Fo 相同，所以厚度加倍、加熱時間變為四倍；若 h 不變而加厚，Bi 也改變，就不能直接套四倍。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">厚度加倍，時間何時變四倍？</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同材料、同 Bi、同相對位置與相對升溫</tspan></text>
+<rect x="140" y="105" width="440" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="142.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Fo = αt / L² 維持相同</tspan></text>
+<text x="190" y="216" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">原平板</tspan></text>
+<text x="530" y="216" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="530" dy="0">雙厚平板</tspan></text>
+<rect x="100" y="247" width="180" height="44" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="440" y="225" width="180" height="88" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<path d="M 92 269 L 288 269" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M 432 269 L 628 269" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M 82 247 L 82 269" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 422 225 L 422 269" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="61" y="267" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="61" dy="0">L</tspan></text>
+<text x="395" y="254" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="395" dy="0">2L</tspan></text>
+<path d="M 315 269 L 395 269" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="190" y="357" font-size="25" fill="#1c2732" text-anchor="middle"><tspan x="190" dy="0">時間 t</tspan></text>
+<text x="530" y="357" font-size="25" fill="#14665d" text-anchor="middle"><tspan x="530" dy="0">時間 4t</tspan></text>
+<rect x="50" y="397" width="620" height="64" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="436.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">若 h 不變，Bi 也變：不能直接套四倍。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
