@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "version": 2,
+  "sources": [
+    {
+      "id": "thermal-size-source-mit18-3",
+      "title": "MIT Unified Engineering：18.3 Transient Heat Transfer (Convective Cooling or Heating)",
+      "url": "https://web.mit.edu/course/16/16.unified/www/FALL/thermodynamics/notes/node129.html",
+      "locator": "§18.3；Eq. 18.14 內外溫差尺度；Eqs. 18.15–18.18 能量收支、指數解；Eq. 18.18 後時間常數段落",
+      "sha256": "c5de2185be221590b99c2474e6224f951f2701673347f227a2f8cdbd920241bf"
+    },
+    {
+      "id": "thermal-size-source-nptel-m5",
+      "title": "NPTEL：Module 5 — Unsteady State Heat Conduction",
+      "url": "https://archive.nptel.ac.in/content/storage2/courses/112108149/pdf/M5/Student_Slides_M5.pdf",
+      "locator": "PDF 第2頁 §5.2、Eqs. 5.5–5.7，V/As 與 Bi<0.1 經驗判據；第3頁 §5.3、Eqs. 5.8–5.12；第4頁時間常數說明",
+      "sha256": "d10be649b8c17185a94550b3324ae0d85312735a94fc93f5e8db40ccf5d3b802"
+    }
+  ],
+  "claims": [
+    {
+      "id": "thermal-size-length",
+      "text": "本課以整個球表面換熱，特徵長度 Lc=V/A；球的 V=4πr³/3、A=4πr²，所以 Lc=r/3。Bi=hLc/k。",
+      "sourceIds": ["thermal-size-source-nptel-m5"],
+      "locator": "PDF 第2頁 Eq. 5.6 支持 V/A 定義；球的 V、A 與 r/3 為幾何推導，未把半徑直接代成 Lc。"
+    },
+    {
+      "id": "thermal-size-balance",
+      "text": "近均溫且物性、h、介質溫度固定時，Cvol V dT/dt=hA(T∞−T)，τ=Cvol V/(hA)。T(t)=T∞+(Ti−T∞)exp(−t/τ)。",
+      "sourceIds": ["thermal-size-source-mit18-3", "thermal-size-source-nptel-m5"],
+      "locator": "MIT Eqs. 18.15–18.18 及其後 τ 段；NPTEL 第3頁 Eqs. 5.8–5.12。Cvol=ρc；本課統一向球內傳熱為正。"
+    },
+    {
+      "id": "thermal-size-distinct-quantities",
+      "text": "儲熱量、總傳熱率和溫變率要分開：Q∞=Cvol V(T∞−Ti)，Q̇(0+)=hA(T∞−Ti)，初始體積平均溫變率=Q̇(0+)/(Cvol V)。冷卻時三者帶負號。",
+      "sourceIds": ["thermal-size-source-mit18-3"],
+      "locator": "由 MIT Eqs. 18.15–18.16 的第一定律推導；均質球、均勻初溫及有限 h。平均溫變率不等於高 Bi 的球心溫變率。"
+    },
+    {
+      "id": "thermal-size-scaling",
+      "text": "兩球同材料、同 h、同初始與介質溫差，半徑乘 s 時：體積與總熱量乘 s³、面積與初始總熱流乘 s²、初始平均溫變率乘 1/s；近均溫模型的 τ 乘 s。",
+      "sourceIds": ["thermal-size-source-mit18-3", "thermal-size-source-nptel-m5"],
+      "locator": "由球幾何、MIT 時間常數及第一定律獨立推導；τ 的倍數不是任意幾何、任意邊界的通用到達時間倍數。"
+    },
+    {
+      "id": "thermal-size-direction",
+      "text": "此常物性線性模型中，升溫和降溫共用同一 τ；達成同一相對溫差比例 f 的時間為 −τ ln(1−f)。反轉初溫與介質溫度，不會改變這個模型時間。",
+      "sourceIds": ["thermal-size-source-mit18-3"],
+      "locator": "由 MIT Eq. 18.18 的正規化溫差指數解推導；0<f<1 且 Ti≠T∞。"
+    },
+    {
+      "id": "thermal-size-screening",
+      "text": "本課採 Bi<0.1 作近均溫的初步篩選。它是經驗判據，不能保證所有物體、位置和時間的誤差都小於固定百分比。",
+      "sourceIds": ["thermal-size-source-nptel-m5", "thermal-size-source-mit18-3"],
+      "locator": "NPTEL 第2頁明稱 thumb rule；MIT Eq. 18.14 及後文要求內部溫差相對小，未提供普適百分比誤差保證。"
+    },
+    {
+      "id": "thermal-size-blocked",
+      "text": "Bi≥0.1 時，本課停止給出主圖單一溫度與到達時間；幾何、熱量及初始平均收支仍可比較。既有平板課只展示另一種幾何的內部梯度，不是此球體的精確替代解。",
+      "sourceIds": ["thermal-size-source-mit18-3", "thermal-size-source-nptel-m5"],
+      "locator": "依來源的近均溫前提制定本課保守顯示規則；不是聲稱 Bi=0.1 處物理現象突然跳變，也沒有新增球體 PDE 解。"
+    }
+  ],
+  "assumptions": [
+    "幾何為完整實心球；A 是全部對外換熱球面。",
+    "材料均質，Cvol=ρc 與熱導率 k 為正且不隨溫度改變；沒有內部發熱。",
+    "初始溫度均勻；外部介質以一步變化成固定 T∞，有限 h 在球面與時間上固定。",
+    "只考慮表面對流與內部導熱；不加入輻射、蒸發、相變、接觸或包材熱阻。",
+    "比較兩球時固定材料、h 和溫差條件；只改半徑比例。",
+    "向球內傳熱為正，冷卻的熱流、能量改變及初始平均溫變率為負。",
+    "初始體積平均溫變率可由能量收支得到；高 Bi 時不得把它稱為球心或整球共同速率。",
+    "預設尺寸、物性與操作值是自編教學假設，未對應任何具名食品實測。"
+  ],
+  "limits": [
+    "Bi 的特徵長度必須明示；此球採 V/A=r/3，既有對稱平板採半厚度。",
+    "Bi<0.1 是本課採用的篩選條件，不是通用的固定誤差保證。",
+    "Bi≥0.1 的單一溫度、球心溫度及到達時間主結果保持 unknown；不顯示高 Bi 假設預測曲線。",
+    "高 Bi 時本課不提供 τ 數值；公式可閱讀，但不能當成真實球體響應時間。",
+    "更高的初始總瓦數可與更低的初始平均溫變率同時成立。",
+    "升降溫對稱限所選固定物性與邊界；不能直接外推自然對流改變、相變或真實食品。",
+    "轉往平板課不攜帶球體參數；平板結果不能標成球體的精確驗證。",
+    "本課不提供食品安全冷卻時限、殺菌排程、健康或學習成效的實證結論。"
+  ]
+}

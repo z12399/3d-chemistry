@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="18">
+<title id="figure-title">類黃酮的共同骨架：C6–C3–C6 與位置編號</title>
+<desc id="figure-desc">A 環與 B 環各是六個碳的苯環，中間的三個碳是 C2、C3、C4；這三個碳和 A 環上的氧（O1）接成含氧的六元環，叫 C 環。B 環接在 C2。</desc>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="24" fill="#1c2732" text-anchor="start" font-weight="600">類黃酮的共同骨架：C₆–C₃–C₆ 與位置編號</text>
+<path d="M 265.9 322.8 L 203.1 359.1 L 140.2 322.8 L 140.2 250.2 L 203.1 213.9 L 265.9 250.2 Z" fill="#e7f1ee" stroke="none"/>
+<circle cx="203.1" cy="286.5" r="37.8" fill="none" stroke="#14665d" stroke-width="2"/>
+<path d="M 454.6 213.9 L 454.6 141.3 L 517.4 105 L 580.3 141.3 L 580.3 213.9 L 517.4 250.2 Z" fill="#e7f1ee" stroke="none"/>
+<circle cx="517.4" cy="177.6" r="37.8" fill="none" stroke="#14665d" stroke-width="2"/>
+<path d="M 265.9 322.8 L 203.1 359.1" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 203.1 359.1 L 140.2 322.8" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 140.2 322.8 L 140.2 250.2" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 140.2 250.2 L 203.1 213.9" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 203.1 213.9 L 265.9 250.2" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 265.9 250.2 L 265.9 322.8" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 454.6 213.9 L 454.6 141.3" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 454.6 141.3 L 517.4 105" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 517.4 105 L 580.3 141.3" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 580.3 141.3 L 580.3 213.9" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 580.3 213.9 L 517.4 250.2" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 517.4 250.2 L 454.6 213.9" fill="none" stroke="#14665d" stroke-width="2.5" stroke-linecap="round"/>
+<path d="M 341.8 221.4 L 391.7 250.2" fill="none" stroke="#1c2732" stroke-width="3" stroke-linecap="round"/>
+<path d="M 391.7 250.2 L 391.7 322.8" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round"/>
+<path d="M 391.7 322.8 L 328.8 359.1" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round"/>
+<path d="M 328.8 359.1 L 265.9 322.8" fill="none" stroke="#1c2732" stroke-width="3" stroke-linecap="round"/>
+<path d="M 265.9 250.2 L 315.8 221.4" fill="none" stroke="#1c2732" stroke-width="3" stroke-linecap="round"/>
+<path d="M 391.7 250.2 L 454.6 213.9" fill="none" stroke="#1c2732" stroke-width="3" stroke-linecap="round"/>
+<circle cx="391.7" cy="250.2" r="8" fill="#b4692e"/>
+<circle cx="391.7" cy="322.8" r="8" fill="#b4692e"/>
+<circle cx="328.8" cy="359.1" r="8" fill="#b4692e"/>
+<text x="328.8" y="220.9" font-size="22" fill="#a3322a" text-anchor="middle" font-weight="600">O</text>
+<text x="203.1" y="294.5" font-size="24" fill="#14665d" text-anchor="middle" font-weight="600">A</text>
+<text x="328.8" y="294.5" font-size="24" fill="#14665d" text-anchor="middle" font-weight="600">C</text>
+<text x="517.4" y="185.6" font-size="24" fill="#14665d" text-anchor="middle" font-weight="600">B</text>
+<text x="328.8" y="193.9" font-size="18" fill="#53606d" text-anchor="middle">1</text>
+<text x="391.7" y="234.2" font-size="18" fill="#b4692e" text-anchor="middle" font-weight="700">2</text>
+<text x="411.7" y="334.8" font-size="18" fill="#b4692e" text-anchor="middle" font-weight="700">3</text>
+<text x="328.8" y="391.1" font-size="18" fill="#b4692e" text-anchor="middle" font-weight="700">4</text>
+<text x="203.1" y="389.1" font-size="18" fill="#53606d" text-anchor="middle">5</text>
+<text x="120.2" y="336.8" font-size="18" fill="#53606d" text-anchor="middle">6</text>
+<text x="120.2" y="252.2" font-size="18" fill="#53606d" text-anchor="middle">7</text>
+<text x="203.1" y="199.9" font-size="18" fill="#53606d" text-anchor="middle">8</text>
+<text x="434.6" y="137.3" font-size="18" fill="#53606d" text-anchor="middle">2′</text>
+<text x="517.4" y="91" font-size="18" fill="#53606d" text-anchor="middle">3′</text>
+<text x="602.3" y="141.3" font-size="18" fill="#53606d" text-anchor="middle">4′</text>
+<text x="602.3" y="225.9" font-size="18" fill="#53606d" text-anchor="middle">5′</text>
+<text x="517.4" y="280.2" font-size="18" fill="#53606d" text-anchor="middle">6′</text>
+<rect x="32" y="398" width="200" height="66" rx="12" fill="#e7f1ee" stroke="#cfe0db" stroke-width="1.5"/>
+<text x="132" y="425" font-size="19" fill="#1c2732" text-anchor="middle" font-weight="600">C₆：A 環</text>
+<text x="132" y="450" font-size="16" fill="#53606d" text-anchor="middle">苯環，6 個碳</text>
+<rect x="250" y="398" width="220" height="66" rx="12" fill="#fbf0e6" stroke="#ecd3bd" stroke-width="1.5"/>
+<text x="360" y="425" font-size="19" fill="#1c2732" text-anchor="middle" font-weight="600">C₃：C2、C3、C4</text>
+<text x="360" y="450" font-size="16" fill="#53606d" text-anchor="middle">中間的 3 個碳</text>
+<rect x="488" y="398" width="200" height="66" rx="12" fill="#e7f1ee" stroke="#cfe0db" stroke-width="1.5"/>
+<text x="588" y="425" font-size="19" fill="#1c2732" text-anchor="middle" font-weight="600">C₆：B 環</text>
+<text x="588" y="450" font-size="16" fill="#53606d" text-anchor="middle">苯環，6 個碳，接在 C2</text>
+<text x="32" y="496" font-size="16" fill="#53606d" text-anchor="start">C 環＝O1、C2、C3、C4，加上和 A 環共用的兩個碳。</text>
+<text x="688" y="496" font-size="16" fill="#53606d" text-anchor="end">示意圖</text>
+</svg>
