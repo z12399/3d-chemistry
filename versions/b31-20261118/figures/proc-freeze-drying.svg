@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">凍乾：兩階段處理不同的水</title>
+<desc id="figure-desc">一次乾燥以冰昇華為主，冰去除後二次乾燥脫附殘留吸附水。兩階段都需要能量與蒸氣移除，並受產品狀態限制。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">凍乾：兩階段處理不同的水</tspan></text>
+<text x="170" y="107" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="170" dy="0">一次乾燥：冰昇華</tspan></text>
+<text x="550" y="107" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="550" dy="0">二次乾燥：水脫附</tspan></text>
+<path d="M 60 205 L 60 350 L 280 350 L 280 205" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="70" y="245" width="200" height="94" rx="3" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<path d="M 440 205 L 440 350 L 660 350 L 660 205" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="450" y="245" width="200" height="94" rx="3" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="70" y="290" width="200" height="49" rx="3" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="170" y="277" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="170" dy="0">乾燥層</tspan></text>
+<text x="170" y="322" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="170" dy="0">冰</tspan></text>
+<text x="550" y="277" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="550" dy="0">殘留吸附水</tspan></text>
+<circle cx="469" cy="305" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="510" cy="320" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="550" cy="303" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="592" cy="321" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="631" cy="305" r="6" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<path d="M 170 234 L 170 160" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="170" y="143" font-size="19" fill="#6f8fb5" text-anchor="middle"><tspan x="170" dy="0">水蒸氣移除</tspan></text>
+<path d="M 170 403 L 170 361" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="205" y="395" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="205" dy="0">供熱</tspan></text>
+<path d="M 550 234 L 550 160" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="550" y="143" font-size="19" fill="#6f8fb5" text-anchor="middle"><tspan x="550" dy="0">水蒸氣移除</tspan></text>
+<path d="M 550 403 L 550 361" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="585" y="395" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="585" dy="0">供熱</tspan></text>
+<path d="M 305 285 L 416 285" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="360" y="259" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">冰去除後</tspan></text>
+<text x="32" y="458" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">速率受層厚、乾燥層阻力及產品溫度限制。</tspan><tspan x="32" dy="25">沒有通用操作參數；凍乾不能替代安全製程。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

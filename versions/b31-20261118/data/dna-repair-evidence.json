@@ -1,0 +1,370 @@
+{
+  "schema": "dna-repair-evidence",
+  "version": 1,
+  "id": "dna-repair-evidence",
+  "researchProvenance": [
+    {
+      "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/verified-table-subsets.json",
+      "bytes": 2918,
+      "sha256": "c4d68ec2954779a8de5e27ef867233482aa655f6d42a108f4cee2800343c79c9"
+    },
+    {
+      "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/source-audit-v2.json",
+      "bytes": 14364,
+      "sha256": "7a2436d7457df02c6871890c9ed25c9d901b976bc1f4cb09e7a68c8762a7d49a"
+    }
+  ],
+  "source": {
+    "id": "michaels1992",
+    "title": "Evidence that MutY and MutM combine to prevent mutations by an oxidatively damaged form of guanine in DNA",
+    "citation": "Michaels et al. (1992), PNAS 89:7022–7025",
+    "doi": "10.1073/pnas.89.15.7022",
+    "pmid": "1495996",
+    "pmcid": "PMC49637",
+    "publisherUrl": "https://www.pnas.org/doi/10.1073/pnas.89.15.7022",
+    "archiveUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC49637/?page=-1",
+    "pages": [
+      {
+        "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7022.png",
+        "bytes": 133487,
+        "sha256": "1d80e02a4b110762db5faadd0da67403eb1bb2d3a80936824cea704a59f174de",
+        "page": 7022,
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f09/49637/43908b919cec/pnas01089-0369.png",
+        "role": "accepted-original-page-scan"
+      },
+      {
+        "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7023-recovery-v2.png",
+        "bytes": 135939,
+        "sha256": "604ada8f8936db11521f70a8de1ca8c3511d60bfd4e7d7aa5e3fd0214541affb",
+        "page": 7023,
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f09/49637/0ee714986ae8/pnas01089-0370.png",
+        "role": "accepted-original-page-scan"
+      },
+      {
+        "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png",
+        "bytes": 140801,
+        "sha256": "7dd61b61b15629d50687df509361603a3e7a957c9202b66f71be56b54ff7e7c0",
+        "page": 7024,
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f09/49637/2d006104aac6/pnas01089-0371.png",
+        "role": "accepted-original-page-scan"
+      },
+      {
+        "path": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7025.png",
+        "bytes": 116087,
+        "sha256": "cc506d9fb95e166f909af06f9fe1a431b8311fb7581e3895463e5cd5b70dbf6a",
+        "page": 7025,
+        "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2f09/49637/317a3cdbf30b/pnas01089-0372.png",
+        "role": "accepted-original-page-scan"
+      }
+    ],
+    "tableLocator": "p7024 Table 1 and caption",
+    "mechanismLocators": [
+      "p7023 Results / Figure 1",
+      "p7025 Figure 3 conceptual model"
+    ],
+    "excludedSource": "Initial overwritten 7023.png, challenge HTML, failed PDFs, PMID1323127 and Table2/3 are not this data source."
+  },
+  "fixedConditions": {
+    "organism": "Escherichia coli",
+    "mechanismEvidence": "Purified MutY with three fixed paired-base substrate categories; source-supported base-excision outcome only.",
+    "cellEvidence": "Four published GT100 strain groups and two published plasmid columns; Table1 only.",
+    "metric": "Rifʳ colonies per 10⁸ cells",
+    "nIndependentCultures": 8,
+    "spread": "SD",
+    "scope": "Existing research evidence; no executable construction, culture or selection protocol."
+  },
+  "substrates": [
+    {
+      "id": "a-oxog",
+      "label": "A／8-oxoG",
+      "targetBase": "A",
+      "oppositeBase": "8-oxoG",
+      "targetBaseDamaged": false,
+      "oppositeBaseDamaged": true,
+      "reportedRemovedBase": "A",
+      "apSiteGenerated": true,
+      "reportedChoice": "target-base",
+      "sourceStatement": "MutY 移除與 8-oxoG 配對的未受損 A；另一股的 8-oxoG 仍在。",
+      "locator": "p7023 Results: MutY Glycosylase Activity on A/8-oxoG Mispairs; Figure 1; p7025 Figure 3 conceptual scope"
+    },
+    {
+      "id": "a-g",
+      "label": "A／G",
+      "targetBase": "A",
+      "oppositeBase": "G",
+      "targetBaseDamaged": false,
+      "oppositeBaseDamaged": false,
+      "reportedRemovedBase": "A",
+      "apSiteGenerated": true,
+      "reportedChoice": "target-base",
+      "sourceStatement": "在來源的 A／G 錯配底物中，MutY 也移除未受損 A。",
+      "locator": "p7023 Results: continuation on A/G mispair; Figure 1"
+    },
+    {
+      "id": "c-oxog",
+      "label": "C／8-oxoG",
+      "targetBase": "C",
+      "oppositeBase": "8-oxoG",
+      "targetBaseDamaged": false,
+      "oppositeBaseDamaged": true,
+      "reportedRemovedBase": null,
+      "apSiteGenerated": false,
+      "reportedChoice": "none",
+      "sourceStatement": "來源未見 MutY 移除與 8-oxoG 配對的 C；8-oxoG 仍在，不能視為健康 DNA。",
+      "locator": "p7023 Results: other combinations of mispairs with 8-oxoG; C-removal not observed, data not shown"
+    }
+  ],
+  "strains": [
+    {
+      "id": "gt100",
+      "label": "GT100"
+    },
+    {
+      "id": "mutY",
+      "label": "GT100 mutY::mini-Tn10"
+    },
+    {
+      "id": "mutM",
+      "label": "GT100 mutM"
+    },
+    {
+      "id": "mutS",
+      "label": "GT100 mutS::mini-Tn10"
+    }
+  ],
+  "columns": [
+    {
+      "id": "vector",
+      "label": "pKK223-3",
+      "role": "對照載體"
+    },
+    {
+      "id": "mutm-overproducer",
+      "label": "pKK-Fapy2",
+      "role": "MutM overproducer"
+    }
+  ],
+  "rows": [
+    {
+      "id": "gt100:vector",
+      "strainId": "gt100",
+      "strainLabel": "GT100",
+      "columnId": "vector",
+      "columnLabel": "pKK223-3",
+      "columnRole": "對照載體",
+      "reportedValue": "1 ± 1",
+      "mean": 1,
+      "sd": 1,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100; column pKK223-3; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "gt100:mutm-overproducer",
+      "strainId": "gt100",
+      "strainLabel": "GT100",
+      "columnId": "mutm-overproducer",
+      "columnLabel": "pKK-Fapy2",
+      "columnRole": "MutM overproducer",
+      "reportedValue": "1 ± 1",
+      "mean": 1,
+      "sd": 1,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100; column pKK-Fapy2; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutY:vector",
+      "strainId": "mutY",
+      "strainLabel": "GT100 mutY::mini-Tn10",
+      "columnId": "vector",
+      "columnLabel": "pKK223-3",
+      "columnRole": "對照載體",
+      "reportedValue": "57 ± 13",
+      "mean": 57,
+      "sd": 13,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutY::mini-Tn10; column pKK223-3; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutY:mutm-overproducer",
+      "strainId": "mutY",
+      "strainLabel": "GT100 mutY::mini-Tn10",
+      "columnId": "mutm-overproducer",
+      "columnLabel": "pKK-Fapy2",
+      "columnRole": "MutM overproducer",
+      "reportedValue": "2 ± 1",
+      "mean": 2,
+      "sd": 1,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutY::mini-Tn10; column pKK-Fapy2; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutM:vector",
+      "strainId": "mutM",
+      "strainLabel": "GT100 mutM",
+      "columnId": "vector",
+      "columnLabel": "pKK223-3",
+      "columnRole": "對照載體",
+      "reportedValue": "13 ± 5",
+      "mean": 13,
+      "sd": 5,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutM; column pKK223-3; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutM:mutm-overproducer",
+      "strainId": "mutM",
+      "strainLabel": "GT100 mutM",
+      "columnId": "mutm-overproducer",
+      "columnLabel": "pKK-Fapy2",
+      "columnRole": "MutM overproducer",
+      "reportedValue": "1 ± 1",
+      "mean": 1,
+      "sd": 1,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutM; column pKK-Fapy2; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutS:vector",
+      "strainId": "mutS",
+      "strainLabel": "GT100 mutS::mini-Tn10",
+      "columnId": "vector",
+      "columnLabel": "pKK223-3",
+      "columnRole": "對照載體",
+      "reportedValue": "71 ± 18",
+      "mean": 71,
+      "sd": 18,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutS::mini-Tn10; column pKK223-3; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    },
+    {
+      "id": "mutS:mutm-overproducer",
+      "strainId": "mutS",
+      "strainLabel": "GT100 mutS::mini-Tn10",
+      "columnId": "mutm-overproducer",
+      "columnLabel": "pKK-Fapy2",
+      "columnRole": "MutM overproducer",
+      "reportedValue": "102 ± 21",
+      "mean": 102,
+      "sd": 21,
+      "spread": "SD",
+      "nIndependentCultures": 8,
+      "metric": "Rifʳ colonies per 10⁸ cells",
+      "metricLabel": "每10⁸細胞的 Rif 抗性菌落數（原表突變指標）",
+      "denominator": {
+        "value": 100000000,
+        "unit": "cells",
+        "reported": "10⁸ cells"
+      },
+      "sourceId": "michaels1992",
+      "locator": "p7024 Table 1; row GT100 mutS::mini-Tn10; column pKK-Fapy2; caption mean ± SD of eight independent cultures",
+      "sourcePage": "output/microbiology-next-capability-2026-10-16/redox-repair-source-audit-v1/michaels1992-page7024.png"
+    }
+  ],
+  "statistics": {
+    "status": "not-provided-for-this-activity",
+    "nIndependentCultures": 8,
+    "spread": "SD",
+    "denominator": {
+      "value": 100000000,
+      "unit": "cells"
+    },
+    "significanceAvailable": false,
+    "equivalenceAvailable": false,
+    "message": "原報均值±SD，獨立n=8；本課無可沿用的顯著性判定，不以SD重疊判斷差異。"
+  },
+  "limits": [
+    "只呈現來源支持的 MutY 鹼基切除起始步驟；不重建完整 BER、MutM 或 MutT 反應帳本。",
+    "AP 是缺鹼基位點；糖與糖磷酸骨架仍在，本步不刪除整個核苷酸，也不表示修復完成。",
+    "位置圖是概念示意，不是實驗原子座標、分子動力學、速率或任意序列預測。",
+    "Fig.1 的可見短片段涉及反應後鹼／熱處理；個別 lane 處理有未解之處，不模擬膠圖或視為 MutY 直接切斷骨架。",
+    "三個固定底物之外未測；c-oxog 未見切除不證明其他酵素不能作用，也不表示損傷消失。",
+    "Table 1 是 Rif 抗性菌落數／10⁸細胞，不是每代突變率、所有突變總量或特定 G:C→T:A 的專一讀數。",
+    "均值±SD，獨立n=8；SD不是CI，本課不從均值差或SD重疊新增p值、顯著性、等效性或因果強度。",
+    "一次體外切除與細胞指標是獨立證據層；不換算成存活、殺菌效果、食品安全或食品菌恢復。",
+    "只讀既有研究組別與載體欄位，沒有菌株構建、序列設計、培養或選殖操作規程。",
+    "此為114-259第5題DNA修復類別的選定代表機制；不拆分18分，不宣稱整題或三科完成。"
+  ],
+  "displayMetadata": {
+    "mechanismBoundary": "AP未完成修復；本步糖磷酸骨架保持連續。",
+    "geneticBoundary": "均值±SD，獨立n=8；不是存活率。",
+    "geneticDescriptions": {
+      "gt100": "GT100 的兩欄原報均值皆為1，SD皆為1；相同均值不等於已證明兩組等效。",
+      "mutY": "mutY 組的對照載體欄原報57±13，MutM overproducer欄為2±1；本課不新增顯著性或存活判定。",
+      "mutM": "mutM 組的對照載體欄原報13±5，MutM overproducer欄為1±1；這是原組別的固定研究比較。",
+      "mutS": "mutS 組的對照載體欄原報71±18，MutM overproducer欄為102±21；不能由較高均值宣稱統計顯著促突變作用。"
+    },
+    "transferPrompt": "另一食品菌在處理後 DNA 訊號仍可檢出，是否已證明 MutY 修好 DNA 並提高存活？",
+    "transferReference": "DNA仍存在、特定損傷是否被處理、細胞表型與存活是不同端點；還需要相應方法與來源，不能從本圖或Table1代推。",
+    "exposureBoundary": "開啟來源、完整表或參考只記錄曝光，不代表已讀，也不稱盲測。"
+  }
+}

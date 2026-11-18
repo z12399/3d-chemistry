@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">生長曲線：先標清量到的量</title>
+<desc id="figure-desc">以定性 CFU 曲線分四階段，並提醒穩定期的淨變化小不代表細胞全部停止代謝。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">生長曲線：先標清量到的量</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同一指定條件下的族群觀察</tspan></text>
+<rect x="90" y="135" width="120" height="215" rx="0" fill="#f6f7f8" stroke="#f6f7f8" stroke-width="2"/>
+<text x="150.0" y="121" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="150.0" dy="0">遲滯</tspan></text>
+<rect x="210" y="135" width="155" height="215" rx="0" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="287.5" y="121" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="287.5" dy="0">對數</tspan></text>
+<rect x="365" y="135" width="150" height="215" rx="0" fill="#f6f7f8" stroke="#f6f7f8" stroke-width="2"/>
+<text x="440.0" y="121" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="440.0" dy="0">穩定</tspan></text>
+<rect x="515" y="135" width="145" height="215" rx="0" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="587.5" y="121" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="587.5" dy="0">下降</tspan></text>
+<path d="M 75 350 L 675 350" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 75 350 L 75 135" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="75" y="97" font-size="18" fill="#53606d" text-anchor="start"><tspan x="75" dy="0">CFU（定性）</tspan></text>
+<text x="675" y="379" font-size="18" fill="#53606d" text-anchor="end"><tspan x="675" dy="0">時間</tspan></text>
+<path d="M 95 321 C 157 321 183 319 210 309 C 260 293 304 224 355 190 C 395 175 465 178 500 183 C 556 191 602 252 650 285" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360" y="414" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">穩定期：淨變化小，仍可能有代謝</tspan></text>
+<text x="32" y="454" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">CFU、濁度與代謝產物量測的是不同對象。</tspan><tspan x="32" dy="25">曲線形狀不等於每個細胞的狀態。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
