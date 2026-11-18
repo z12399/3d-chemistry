@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">木糖醇：先水解，再還原</title>
+<desc id="figure-desc">木聚糖水解得到木糖，木糖的 C1 醛基再還原成 CH2OH；下方另列晶體溶解的分子間能量收支。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">木糖醇：先水解，再還原</tspan></text>
+<rect x="32" y="110" width="190" height="125" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="127.0" y="165.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="127.0" dy="0">木聚糖片段</tspan><tspan x="127.0" dy="28">β-1,4 糖苷鍵</tspan></text>
+<rect x="265" y="110" width="190" height="125" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="165.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">木糖</tspan><tspan x="360.0" dy="28">開鏈 C1：醛基</tspan></text>
+<rect x="500" y="110" width="188" height="125" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="165.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="594.0" dy="0">木糖醇</tspan><tspan x="594.0" dy="28">C1：CH₂OH</tspan></text>
+<path d="M 226 182 L 257 182" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="242" y="151" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="242" dy="0">水解</tspan></text>
+<path d="M 459 182 L 492 182" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="475" y="151" font-size="16" fill="#1c2732" text-anchor="middle"><tspan x="475" dy="0">還原</tspan></text>
+<rect x="32" y="280" width="656" height="173" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="55" y="311" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="55" dy="0">晶體溶解：分子間作用重整</tspan></text>
+<rect x="80" y="350" width="20" height="20" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="107" y="350" width="20" height="20" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="80" y="377" width="20" height="20" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<rect x="107" y="377" width="20" height="20" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="106" y="430" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="106" dy="0">晶格</tspan></text>
+<circle cx="590" cy="355" r="9" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="628" cy="378" r="9" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="579" cy="393" r="9" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="606" y="430" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="606" dy="0">水合</tspan></text>
+<path d="M 160 375 L 535 375" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="347" y="352" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="347" dy="0">吸熱與放熱相抵後呈淨吸熱</tspan></text>
+<text x="347" y="411" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="347" dy="0">從周圍取得熱</tspan></text>
+<text x="32" y="490" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">溶解不是木糖醇的共價鍵斷裂。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

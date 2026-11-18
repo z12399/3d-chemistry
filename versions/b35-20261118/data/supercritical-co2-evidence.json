@@ -1,0 +1,1442 @@
+{
+  "schema": "supercritical-co2-evidence/v1",
+  "id": "supercritical-co2-evidence",
+  "evidenceDate": "2026-10-12",
+  "sources": [
+    {
+      "id": "scfe-source-genena-2008",
+      "title": "Rosemary (Rosmarinus officinalis): a study of the composition, antioxidant and antimicrobial activities of extracts obtained with supercritical carbon dioxide",
+      "publisher": "Ciência e Tecnologia de Alimentos 28(2):463–469 (2008); Aziza Kamal Genena, Haiko Hense, Artur Smânia Junior, Simone Machado de Souza",
+      "url": "https://doi.org/10.1590/S0101-20612008000200030",
+      "locator": "印刷第 464 頁 §2.1–2.2 方法；第 465 頁 §3.1 與 Table 1，assays 4、5、7、8、10、11",
+      "note": "六組迷迭香總萃取物乾基得率；不是特定成分回收率、純度或平衡溶解度。得率的重複次數與變異未報告，只比較表列方向，不判定顯著差異。30°C 的原表列低於 CO₂ 臨界溫度，不納入主六組超臨界條件。"
+    },
+    {
+      "id": "scfe-source-span-wagner-1996",
+      "title": "A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple-Point Temperature to 1100 K at Pressures up to 800 MPa",
+      "publisher": "Journal of Physical and Chemical Reference Data 25:1509–1596 (1996); Roland Span, Wolfgang Wagner",
+      "url": "https://srd.nist.gov/jpcrdreprint/1.555991.pdf",
+      "locator": "印刷第 1519–1520 頁 §3.1–3.2 相點；第 1545 頁 §6.2 EOS；第 1558–1559 頁 Fig.38、§8–10 適用範圍與插值限制",
+      "note": "純 CO₂ 流體狀態方程及相點來源；不含食品混合物、萃取率或固體密度。臨界附近不以一個全域誤差數字保證精度，也不把粗網格插值等同原 EOS。"
+    },
+    {
+      "id": "scfe-source-coolprop-co2",
+      "title": "CoolProp CarbonDioxide fluid documentation and High-Level API",
+      "publisher": "CoolProp project; version 8.0.0, revision ae81610e7d23efc57f9d051c8e70a4d66e87537f",
+      "url": "https://coolprop.org/fluid_properties/fluids/CarbonDioxide.html",
+      "locator": "Equation of State／Fluid Information；High-Level API 的 Versions、Vapor, Liquid, and Saturation States、Imposing the Phase",
+      "note": "以固定版本 HEOS／Span–Wagner 自行計算純 CO₂ 密度，保留來源與 MIT 授權。飽和線分別求液／氣端點；未知蒸氣分率時不給單一兩相密度。程式中的 supercritical_liquid 不直接譯成超臨界；教學標籤須同時滿足 T>Tc 與 P>Pc。"
+    },
+    {
+      "id": "scfe-source-villacis-2021",
+      "title": "Supercritical CO2 Extraction of Bioactive Compounds from Mango (Mangifera indica L.) Peel and Pulp",
+      "publisher": "Foods 10(9):2201 (2021); José Villacís-Chiriboga, Stefan Voorspoels, Maarten Uyttebroek, Jenny Ruales, John Van Camp, Edwin Vera, Kathy Elst",
+      "url": "https://doi.org/10.3390/foods10092201",
+      "locator": "PDF 第 8 頁 §3.2：壓力、溫度、密度與溶質蒸氣壓的相反效應",
+      "note": "採用一般機制說明：加壓提高密度的作用，以及升溫造成密度下降與溶質蒸氣壓上升的競爭；不把該芒果／共溶劑研究的模型、最佳條件或定量結果套用至迷迭香，也不由六點得率量化各機制的因果份額。"
+    }
+  ],
+  "critical": {
+    "temperatureK": 304.1282000029807,
+    "temperatureC": 30.978200002980714,
+    "pressureMPa": 7.377298373446752,
+    "densityKgM3": 467.59996991047996,
+    "kind": "critical-reference",
+    "sourceIds": [
+      "scfe-source-span-wagner-1996",
+      "scfe-source-coolprop-co2"
+    ],
+    "publishedReference": {
+      "temperatureK": 304.1282,
+      "temperatureUncertaintyK": 0.015,
+      "pressureMPa": 7.3773,
+      "pressureUncertaintyMPa": 0.003,
+      "densityKgM3": 467.6,
+      "densityUncertaintyKgM3": 0.6,
+      "sourceId": "scfe-source-span-wagner-1996",
+      "locator": "printed p.1520, section 3.2 equations 3.5–3.7; PDF page 13",
+      "uncertaintyNote": "原論文列出的相點不確定度，不是活動全部格點的 EOS 不確定度。",
+      "frozenPdfSha256": "099adc9ad4fa458c7deb2164f79941478073b29880f6c127ac69eae744ad2444"
+    }
+  },
+  "eos": {
+    "kind": "equation-of-state-calculation",
+    "fluid": "pure carbon dioxide",
+    "engine": {
+      "backend": "HEOS::CO2",
+      "version": "8.0.0",
+      "gitRevision": "ae81610e7d23efc57f9d051c8e70a4d66e87537f",
+      "fluidJSONSha256": "7b8f61985eadd7769d6c8a4d8c184424b477f9eabff65bef7bfa68de5ed6a911",
+      "equationBibTeX": "Span-JPCRD-1996"
+    },
+    "grid": {
+      "temperaturesC": [
+        20,
+        30,
+        32,
+        40,
+        50,
+        60,
+        80
+      ],
+      "pressuresMPa": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        15,
+        20,
+        30
+      ]
+    },
+    "units": {
+      "temperature": "degree Celsius",
+      "pressure": "MPa",
+      "density": "kg/m^3"
+    },
+    "interpolation": false,
+    "measuredData": false,
+    "sourceIds": [
+      "scfe-source-span-wagner-1996",
+      "scfe-source-coolprop-co2"
+    ],
+    "scope": "純 CO₂ 單相平衡密度；格點為 EOS 計算，不是實測、溶解度或萃取產率。",
+    "samples": [
+      {
+        "sampleKey": "20:2",
+        "temperatureC": 20,
+        "pressureMPa": 2,
+        "densityKgM3": 40.77269170749657,
+        "phase": "gas",
+        "enginePhaseRaw": "gas"
+      },
+      {
+        "sampleKey": "20:4",
+        "temperatureC": 20,
+        "pressureMPa": 4,
+        "densityKgM3": 97.49158793239333,
+        "phase": "gas",
+        "enginePhaseRaw": "gas"
+      },
+      {
+        "sampleKey": "20:6",
+        "temperatureC": 20,
+        "pressureMPa": 6,
+        "densityKgM3": 782.6482693361565,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "liquid"
+      },
+      {
+        "sampleKey": "20:8",
+        "temperatureC": 20,
+        "pressureMPa": 8,
+        "densityKgM3": 827.7130203226488,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "20:10",
+        "temperatureC": 20,
+        "pressureMPa": 10,
+        "densityKgM3": 856.3098524948857,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "20:15",
+        "temperatureC": 20,
+        "pressureMPa": 15,
+        "densityKgM3": 903.9564247086523,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "20:20",
+        "temperatureC": 20,
+        "pressureMPa": 20,
+        "densityKgM3": 937.0401231570354,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "20:30",
+        "temperatureC": 20,
+        "pressureMPa": 30,
+        "densityKgM3": 984.7167375820187,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "30:2",
+        "temperatureC": 30,
+        "pressureMPa": 2,
+        "densityKgM3": 38.83737876724003,
+        "phase": "gas",
+        "enginePhaseRaw": "gas"
+      },
+      {
+        "sampleKey": "30:4",
+        "temperatureC": 30,
+        "pressureMPa": 4,
+        "densityKgM3": 89.75942965142177,
+        "phase": "gas",
+        "enginePhaseRaw": "gas"
+      },
+      {
+        "sampleKey": "30:6",
+        "temperatureC": 30,
+        "pressureMPa": 6,
+        "densityKgM3": 171.43924976273723,
+        "phase": "gas",
+        "enginePhaseRaw": "gas"
+      },
+      {
+        "sampleKey": "30:8",
+        "temperatureC": 30,
+        "pressureMPa": 8,
+        "densityKgM3": 701.7222014925914,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "30:10",
+        "temperatureC": 30,
+        "pressureMPa": 10,
+        "densityKgM3": 771.4960401547476,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "30:15",
+        "temperatureC": 30,
+        "pressureMPa": 15,
+        "densityKgM3": 846.9814864461357,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "30:20",
+        "temperatureC": 30,
+        "pressureMPa": 20,
+        "densityKgM3": 890.4974092120136,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "30:30",
+        "temperatureC": 30,
+        "pressureMPa": 30,
+        "densityKgM3": 947.9828497375798,
+        "phase": "compressed-liquid",
+        "enginePhaseRaw": "supercritical_liquid"
+      },
+      {
+        "sampleKey": "32:2",
+        "temperatureC": 32,
+        "pressureMPa": 2,
+        "densityKgM3": 38.479008175098826,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "32:4",
+        "temperatureC": 32,
+        "pressureMPa": 4,
+        "densityKgM3": 88.44728466196466,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "32:6",
+        "temperatureC": 32,
+        "pressureMPa": 6,
+        "densityKgM3": 165.8707406239877,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "32:8",
+        "temperatureC": 32,
+        "pressureMPa": 8,
+        "densityKgM3": 652.1225837337664,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "32:10",
+        "temperatureC": 32,
+        "pressureMPa": 10,
+        "densityKgM3": 749.9804624912529,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "32:15",
+        "temperatureC": 32,
+        "pressureMPa": 15,
+        "densityKgM3": 834.5304587429926,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "32:20",
+        "temperatureC": 32,
+        "pressureMPa": 20,
+        "densityKgM3": 880.717404188746,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "32:30",
+        "temperatureC": 32,
+        "pressureMPa": 30,
+        "densityKgM3": 940.4739741550575,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "40:2",
+        "temperatureC": 40,
+        "pressureMPa": 2,
+        "densityKgM3": 37.12749536913021,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "40:4",
+        "temperatureC": 40,
+        "pressureMPa": 4,
+        "densityKgM3": 83.75769733352531,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "40:6",
+        "temperatureC": 40,
+        "pressureMPa": 6,
+        "densityKgM3": 149.2598511146936,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "40:8",
+        "temperatureC": 40,
+        "pressureMPa": 8,
+        "densityKgM3": 277.8972562234332,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "40:10",
+        "temperatureC": 40,
+        "pressureMPa": 10,
+        "densityKgM3": 628.6117301458911,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "40:15",
+        "temperatureC": 40,
+        "pressureMPa": 15,
+        "densityKgM3": 780.2329326344161,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "40:20",
+        "temperatureC": 40,
+        "pressureMPa": 20,
+        "densityKgM3": 839.8124761526396,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "40:30",
+        "temperatureC": 40,
+        "pressureMPa": 30,
+        "densityKgM3": 909.8878780296334,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "50:2",
+        "temperatureC": 50,
+        "pressureMPa": 2,
+        "densityKgM3": 35.59863966040745,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "50:4",
+        "temperatureC": 50,
+        "pressureMPa": 4,
+        "densityKgM3": 78.85786017645903,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "50:6",
+        "temperatureC": 50,
+        "pressureMPa": 6,
+        "densityKgM3": 135.20798431927759,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "50:8",
+        "temperatureC": 50,
+        "pressureMPa": 8,
+        "densityKgM3": 219.18295789919804,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "50:10",
+        "temperatureC": 50,
+        "pressureMPa": 10,
+        "densityKgM3": 384.327151676668,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "50:15",
+        "temperatureC": 50,
+        "pressureMPa": 15,
+        "densityKgM3": 699.753168972781,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "50:20",
+        "temperatureC": 50,
+        "pressureMPa": 20,
+        "densityKgM3": 784.2920365016615,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "50:30",
+        "temperatureC": 50,
+        "pressureMPa": 30,
+        "densityKgM3": 870.4287076560202,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "60:2",
+        "temperatureC": 60,
+        "pressureMPa": 2,
+        "densityKgM3": 34.21852105385195,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "60:4",
+        "temperatureC": 60,
+        "pressureMPa": 4,
+        "densityKgM3": 74.72560549566208,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "60:6",
+        "temperatureC": 60,
+        "pressureMPa": 6,
+        "densityKgM3": 124.91045423525134,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "60:8",
+        "temperatureC": 60,
+        "pressureMPa": 8,
+        "densityKgM3": 191.6235121249478,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "60:10",
+        "temperatureC": 60,
+        "pressureMPa": 10,
+        "densityKgM3": 289.95101399083126,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "60:15",
+        "temperatureC": 60,
+        "pressureMPa": 15,
+        "densityKgM3": 604.0921593838782,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "60:20",
+        "temperatureC": 60,
+        "pressureMPa": 20,
+        "densityKgM3": 723.6819997406101,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "60:30",
+        "temperatureC": 60,
+        "pressureMPa": 30,
+        "densityKgM3": 829.7135073836279,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "80:2",
+        "temperatureC": 80,
+        "pressureMPa": 2,
+        "densityKgM3": 31.812946736159407,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "80:4",
+        "temperatureC": 80,
+        "pressureMPa": 4,
+        "densityKgM3": 68.03144321812812,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "80:6",
+        "temperatureC": 80,
+        "pressureMPa": 6,
+        "densityKgM3": 110.14363509268134,
+        "phase": "gas",
+        "enginePhaseRaw": "supercritical_gas"
+      },
+      {
+        "sampleKey": "80:8",
+        "temperatureC": 80,
+        "pressureMPa": 8,
+        "densityKgM3": 160.33736319820204,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "80:10",
+        "temperatureC": 80,
+        "pressureMPa": 10,
+        "densityKgM3": 221.6039450696465,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "80:15",
+        "temperatureC": 80,
+        "pressureMPa": 15,
+        "densityKgM3": 427.1543041474875,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "80:20",
+        "temperatureC": 80,
+        "pressureMPa": 20,
+        "densityKgM3": 593.8910346907174,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      },
+      {
+        "sampleKey": "80:30",
+        "temperatureC": 80,
+        "pressureMPa": 30,
+        "densityKgM3": 745.6046942603718,
+        "phase": "supercritical",
+        "enginePhaseRaw": "supercritical"
+      }
+    ]
+  },
+  "saturation": [
+    {
+      "temperatureC": 20.0,
+      "pressureMPa": 5.729052581475148,
+      "liquidDensityKgM3": 773.3865418994698,
+      "vaporDensityKgM3": 194.2016012243525,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.1,
+      "pressureMPa": 5.742510684475897,
+      "liquidDensityKgM3": 772.314509150284,
+      "vaporDensityKgM3": 194.98668757780612,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.2,
+      "pressureMPa": 5.755994040930318,
+      "liquidDensityKgM3": 771.236842505607,
+      "vaporDensityKgM3": 195.77742233449086,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.3,
+      "pressureMPa": 5.769502711384318,
+      "liquidDensityKgM3": 770.1534584370299,
+      "vaporDensityKgM3": 196.57388989023246,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.4,
+      "pressureMPa": 5.783036756968303,
+      "liquidDensityKgM3": 769.0642712934691,
+      "vaporDensityKgM3": 197.37617671101083,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.5,
+      "pressureMPa": 5.796596239409114,
+      "liquidDensityKgM3": 767.9691932207872,
+      "vaporDensityKgM3": 198.18437140381948,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.6,
+      "pressureMPa": 5.810181221042072,
+      "liquidDensityKgM3": 766.8681340777001,
+      "vaporDensityKgM3": 198.99856479064954,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.7,
+      "pressureMPa": 5.823791764823354,
+      "liquidDensityKgM3": 765.7610013477715,
+      "vaporDensityKgM3": 199.81884998578073,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.8,
+      "pressureMPa": 5.837427934342608,
+      "liquidDensityKgM3": 764.6477000473108,
+      "vaporDensityKgM3": 200.64532247655734,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 20.9,
+      "pressureMPa": 5.851089793835734,
+      "liquidDensityKgM3": 763.5281326289802,
+      "vaporDensityKgM3": 201.47808020783697,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.0,
+      "pressureMPa": 5.864777408198038,
+      "liquidDensityKgM3": 762.4021988808817,
+      "vaporDensityKgM3": 202.31722367033328,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.1,
+      "pressureMPa": 5.8784908429975316,
+      "liquidDensityKgM3": 761.2697958209212,
+      "vaporDensityKgM3": 203.1628559930573,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.2,
+      "pressureMPa": 5.892230164488573,
+      "liquidDensityKgM3": 760.1308175861972,
+      "vaporDensityKgM3": 204.0150830401065,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.3,
+      "pressureMPa": 5.90599543962578,
+      "liquidDensityKgM3": 758.9851553171737,
+      "vaporDensityKgM3": 204.87401351204954,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.4,
+      "pressureMPa": 5.919786736078163,
+      "liquidDensityKgM3": 757.8326970363827,
+      "vaporDensityKgM3": 205.73975905217114,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.5,
+      "pressureMPa": 5.933604122243569,
+      "liquidDensityKgM3": 756.6733275213566,
+      "vaporDensityKgM3": 206.61243435787514,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.6,
+      "pressureMPa": 5.947447667263484,
+      "liquidDensityKgM3": 755.506928171537,
+      "vaporDensityKgM3": 207.4921572975506,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.7,
+      "pressureMPa": 5.961317441038063,
+      "liquidDensityKgM3": 754.3333768688076,
+      "vaporDensityKgM3": 208.3790490332327,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.8,
+      "pressureMPa": 5.97521351424154,
+      "liquidDensityKgM3": 753.1525478313522,
+      "vaporDensityKgM3": 209.27323414941654,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 21.9,
+      "pressureMPa": 5.989135958337894,
+      "liquidDensityKgM3": 751.9643114604851,
+      "vaporDensityKgM3": 210.1748407884005,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.0,
+      "pressureMPa": 6.003084845596985,
+      "liquidDensityKgM3": 750.7685341800722,
+      "vaporDensityKgM3": 211.0840007925826,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.1,
+      "pressureMPa": 6.017060249110936,
+      "liquidDensityKgM3": 749.5650782681745,
+      "vaporDensityKgM3": 212.0008498541345,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.2,
+      "pressureMPa": 6.031062242810986,
+      "liquidDensityKgM3": 748.3538016804772,
+      "vaporDensityKgM3": 212.9255276725427,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.3,
+      "pressureMPa": 6.045090901484739,
+      "liquidDensityKgM3": 747.1345578650638,
+      "vaporDensityKgM3": 213.85817812052454,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.4,
+      "pressureMPa": 6.059146300793787,
+      "liquidDensityKgM3": 745.9071955680729,
+      "vaporDensityKgM3": 214.7989494188647,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.5,
+      "pressureMPa": 6.0732285172919,
+      "liquidDensityKgM3": 744.6715586297108,
+      "vaporDensityKgM3": 215.74799432078188,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.6,
+      "pressureMPa": 6.0873376284435965,
+      "liquidDensityKgM3": 743.4274857701018,
+      "vaporDensityKgM3": 216.70547030645344,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.7,
+      "pressureMPa": 6.101473712643319,
+      "liquidDensityKgM3": 742.1748103643728,
+      "vaporDensityKgM3": 217.6715397884055,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.8,
+      "pressureMPa": 6.115636849235177,
+      "liquidDensityKgM3": 740.9133602063587,
+      "vaporDensityKgM3": 218.6463703285174,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 22.9,
+      "pressureMPa": 6.129827118533223,
+      "liquidDensityKgM3": 739.6429572602636,
+      "vaporDensityKgM3": 219.6301348674488,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.0,
+      "pressureMPa": 6.144044601842505,
+      "liquidDensityKgM3": 738.3634173995329,
+      "vaporDensityKgM3": 220.62301196738744,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.1,
+      "pressureMPa": 6.158289381480718,
+      "liquidDensityKgM3": 737.074550132178,
+      "vaporDensityKgM3": 221.62518606905908,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.2,
+      "pressureMPa": 6.172561540800699,
+      "liquidDensityKgM3": 735.7761583116907,
+      "vaporDensityKgM3": 222.63684776405498,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.3,
+      "pressureMPa": 6.186861164213762,
+      "liquidDensityKgM3": 734.4680378326341,
+      "vaporDensityKgM3": 223.6581940836033,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.4,
+      "pressureMPa": 6.2011883372138605,
+      "liquidDensityKgM3": 733.1499773099264,
+      "vaporDensityKgM3": 224.6894288050105,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.5,
+      "pressureMPa": 6.215543146402868,
+      "liquidDensityKgM3": 731.8217577407077,
+      "vaporDensityKgM3": 225.7307627771305,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.6,
+      "pressureMPa": 6.229925679516818,
+      "liquidDensityKgM3": 730.4831521476369,
+      "vaporDensityKgM3": 226.78241426630848,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.7,
+      "pressureMPa": 6.244336025453444,
+      "liquidDensityKgM3": 729.1339252022972,
+      "vaporDensityKgM3": 227.84460932441533,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.8,
+      "pressureMPa": 6.258774274300893,
+      "liquidDensityKgM3": 727.7738328272994,
+      "vaporDensityKgM3": 228.9175821807068,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 23.9,
+      "pressureMPa": 6.273240517367966,
+      "liquidDensityKgM3": 726.4026217755581,
+      "vaporDensityKgM3": 230.0015756594315,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.0,
+      "pressureMPa": 6.28773484721578,
+      "liquidDensityKgM3": 725.0200291849575,
+      "vaporDensityKgM3": 231.0968416252786,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.1,
+      "pressureMPa": 6.302257357691245,
+      "liquidDensityKgM3": 723.6257821065993,
+      "vaporDensityKgM3": 232.20364145897145,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.2,
+      "pressureMPa": 6.316808143962319,
+      "liquidDensityKgM3": 722.2195970044775,
+      "vaporDensityKgM3": 233.32224656553095,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.3,
+      "pressureMPa": 6.331387302555282,
+      "liquidDensityKgM3": 720.8011792242859,
+      "vaporDensityKgM3": 234.45293891799366,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.4,
+      "pressureMPa": 6.34599493139428,
+      "liquidDensityKgM3": 719.370222428812,
+      "vaporDensityKgM3": 235.59601163964385,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.5,
+      "pressureMPa": 6.360631129843287,
+      "liquidDensityKgM3": 717.9264079970045,
+      "vaporDensityKgM3": 236.751769628146,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.6,
+      "pressureMPa": 6.375295998750679,
+      "liquidDensityKgM3": 716.4694043835689,
+      "vaporDensityKgM3": 237.92053022529984,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.7,
+      "pressureMPa": 6.3899896404967995,
+      "liquidDensityKgM3": 714.9988664355028,
+      "vaporDensityKgM3": 239.1026239365568,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.8,
+      "pressureMPa": 6.404712159044699,
+      "liquidDensityKgM3": 713.5144346615589,
+      "vaporDensityKgM3": 240.29839520487272,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 24.9,
+      "pressureMPa": 6.419463659994268,
+      "liquidDensityKgM3": 712.0157344501979,
+      "vaporDensityKgM3": 241.50820324395485,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.0,
+      "pressureMPa": 6.43424425064042,
+      "liquidDensityKgM3": 710.5023752309454,
+      "vaporDensityKgM3": 242.73242293657532,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.1,
+      "pressureMPa": 6.449054040035203,
+      "liquidDensityKgM3": 708.9739495734885,
+      "vaporDensityKgM3": 243.97144580419427,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.2,
+      "pressureMPa": 6.463893139054587,
+      "liquidDensityKgM3": 707.4300322181039,
+      "vaporDensityKgM3": 245.22568105491743,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.3,
+      "pressureMPa": 6.478761660470311,
+      "liquidDensityKgM3": 705.870179030165,
+      "vaporDensityKgM3": 246.49555671759995,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.4,
+      "pressureMPa": 6.493659719027031,
+      "liquidDensityKgM3": 704.2939258705135,
+      "vaporDensityKgM3": 247.78152087083458,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.5,
+      "pressureMPa": 6.508587431525569,
+      "liquidDensityKgM3": 702.7007873723607,
+      "vaporDensityKgM3": 249.08404297665066,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.6,
+      "pressureMPa": 6.52354491691244,
+      "liquidDensityKgM3": 701.0902556141549,
+      "vaporDensityKgM3": 250.40361532990755,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.7,
+      "pressureMPa": 6.5385322963766725,
+      "liquidDensityKgM3": 699.4617986763085,
+      "vaporDensityKgM3": 251.74075463581113,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.8,
+      "pressureMPa": 6.553549693454182,
+      "liquidDensityKgM3": 697.8148590680571,
+      "vaporDensityKgM3": 253.0960037294979,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 25.9,
+      "pressureMPa": 6.568597234140448,
+      "liquidDensityKgM3": 696.1488520087066,
+      "vaporDensityKgM3": 254.4699334534877,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.0,
+      "pressureMPa": 6.5836750470125125,
+      "liquidDensityKgM3": 694.4631635452897,
+      "vaporDensityKgM3": 255.86314471090614,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.1,
+      "pressureMPa": 6.598783263360686,
+      "liquidDensityKgM3": 692.757148486027,
+      "vaporDensityKgM3": 257.2762707147455,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.2,
+      "pressureMPa": 6.613922017331087,
+      "liquidDensityKgM3": 691.0301281259018,
+      "vaporDensityKgM3": 258.70997945628613,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.3,
+      "pressureMPa": 6.629091446079852,
+      "liquidDensityKgM3": 689.2813877371505,
+      "vaporDensityKgM3": 260.1649764190163,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.4,
+      "pressureMPa": 6.64429168993997,
+      "liquidDensityKgM3": 687.5101737933445,
+      "vaporDensityKgM3": 261.64200756816433,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.5,
+      "pressureMPa": 6.659522892601987,
+      "liquidDensityKgM3": 685.7156908908765,
+      "vaporDensityKgM3": 263.141862650408,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.6,
+      "pressureMPa": 6.674785201309509,
+      "liquidDensityKgM3": 683.8970983260791,
+      "vaporDensityKgM3": 264.66537884345274,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.7,
+      "pressureMPa": 6.690078767070938,
+      "liquidDensityKgM3": 682.0535062795543,
+      "vaporDensityKgM3": 266.2134448012984,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.8,
+      "pressureMPa": 6.705403744888787,
+      "liquidDensityKgM3": 680.1839715515673,
+      "vaporDensityKgM3": 267.7870051481582,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 26.9,
+      "pressureMPa": 6.72076029400792,
+      "liquidDensityKgM3": 678.2874927831642,
+      "vaporDensityKgM3": 269.38706548250207,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.0,
+      "pressureMPa": 6.736148578184649,
+      "liquidDensityKgM3": 676.3630050868803,
+      "vaporDensityKgM3": 271.0146979628055,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.1,
+      "pressureMPa": 6.751568765978066,
+      "liquidDensityKgM3": 674.4093739980551,
+      "vaporDensityKgM3": 272.67104755859435,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.2,
+      "pressureMPa": 6.767021031065861,
+      "liquidDensityKgM3": 672.4253886424498,
+      "vaporDensityKgM3": 274.3573390648609,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.3,
+      "pressureMPa": 6.782505552586805,
+      "liquidDensityKgM3": 670.4097539976391,
+      "vaporDensityKgM3": 276.07488499526147,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.4,
+      "pressureMPa": 6.798022515512028,
+      "liquidDensityKgM3": 668.3610821036286,
+      "vaporDensityKgM3": 277.8250944905028,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.5,
+      "pressureMPa": 6.813572111048074,
+      "liquidDensityKgM3": 666.2778820516517,
+      "vaporDensityKgM3": 279.60948340387205,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.6,
+      "pressureMPa": 6.829154537074786,
+      "liquidDensityKgM3": 664.1585485480388,
+      "vaporDensityKgM3": 281.4296857569697,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.7,
+      "pressureMPa": 6.844769998621201,
+      "liquidDensityKgM3": 662.0013488107033,
+      "vaporDensityKgM3": 283.2874667969634,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.8,
+      "pressureMPa": 6.8604187083839765,
+      "liquidDensityKgM3": 659.8044075078735,
+      "vaporDensityKgM3": 285.184737933898,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 27.9,
+      "pressureMPa": 6.876100887292472,
+      "liquidDensityKgM3": 657.5656893892325,
+      "vaporDensityKgM3": 287.1235738951749,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.0,
+      "pressureMPa": 6.89181676512645,
+      "liquidDensityKgM3": 655.2829791859244,
+      "vaporDensityKgM3": 289.1062325076588,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.1,
+      "pressureMPa": 6.907566581192493,
+      "liquidDensityKgM3": 652.9538582636452,
+      "vaporDensityKgM3": 291.13517760999946,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.2,
+      "pressureMPa": 6.923350585067309,
+      "liquidDensityKgM3": 650.5756773967024,
+      "vaporDensityKgM3": 293.2131057146757,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.3,
+      "pressureMPa": 6.939169037417089,
+      "liquidDensityKgM3": 648.1455248831725,
+      "vaporDensityKgM3": 295.34297718845403,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.4,
+      "pressureMPa": 6.9550222109043744,
+      "liquidDensityKgM3": 645.6601890320122,
+      "vaporDensityKgM3": 297.5280529121004,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.5,
+      "pressureMPa": 6.97091039119715,
+      "liquidDensityKgM3": 643.1161138082956,
+      "vaporDensityKgM3": 299.77193762977555,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.6,
+      "pressureMPa": 6.986833878097226,
+      "liquidDensityKgM3": 640.509346103536,
+      "vaporDensityKgM3": 302.07863152560634,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.7,
+      "pressureMPa": 7.002792986810772,
+      "liquidDensityKgM3": 637.8354726773166,
+      "vaporDensityKgM3": 304.45259199824494,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.8,
+      "pressureMPa": 7.018788049389203,
+      "liquidDensityKgM3": 635.0895442559076,
+      "vaporDensityKgM3": 306.89880818411143,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 28.9,
+      "pressureMPa": 7.034819416376465,
+      "liquidDensityKgM3": 632.265983517938,
+      "vaporDensityKgM3": 309.42289156551624,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.0,
+      "pressureMPa": 7.050887458710675,
+      "liquidDensityKgM3": 629.358472665653,
+      "vaporDensityKgM3": 312.03118707753697,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.1,
+      "pressureMPa": 7.0669925699408305,
+      "liquidDensityKgM3": 626.3598148525552,
+      "vaporDensityKgM3": 314.7309106262931,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.2,
+      "pressureMPa": 7.083135168841183,
+      "liquidDensityKgM3": 623.2617617320334,
+      "vaporDensityKgM3": 317.5303210482253,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.3,
+      "pressureMPa": 7.0993157025323566,
+      "liquidDensityKgM3": 620.0547965254169,
+      "vaporDensityKgM3": 320.4389375796352,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.4,
+      "pressureMPa": 7.115534650257693,
+      "liquidDensityKgM3": 616.7278578371496,
+      "vaporDensityKgM3": 323.4678183516978,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.5,
+      "pressureMPa": 7.131792528019216,
+      "liquidDensityKgM3": 613.2679832503296,
+      "vaporDensityKgM3": 326.62992206303977,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.6,
+      "pressureMPa": 7.148089894358079,
+      "liquidDensityKgM3": 609.6598423230702,
+      "vaporDensityKgM3": 329.9405851172162,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.7,
+      "pressureMPa": 7.164427357684126,
+      "liquidDensityKgM3": 605.8851139292415,
+      "vaporDensityKgM3": 333.41816239145015,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.8,
+      "pressureMPa": 7.180805585739359,
+      "liquidDensityKgM3": 601.9216393232482,
+      "vaporDensityKgM3": 337.08490541112377,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 29.9,
+      "pressureMPa": 7.197225318058381,
+      "liquidDensityKgM3": 597.742243189604,
+      "vaporDensityKgM3": 340.96819439017304,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.0,
+      "pressureMPa": 7.213687382731153,
+      "liquidDensityKgM3": 593.3130474362594,
+      "vaporDensityKgM3": 345.10231451342935,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.1,
+      "pressureMPa": 7.230192719496398,
+      "liquidDensityKgM3": 588.5909806361209,
+      "vaporDensityKgM3": 349.5311006503354,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.2,
+      "pressureMPa": 7.246742412424224,
+      "liquidDensityKgM3": 583.5199539698173,
+      "vaporDensityKgM3": 354.3120300274031,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.3,
+      "pressureMPa": 7.263337737634955,
+      "liquidDensityKgM3": 578.0247032486346,
+      "vaporDensityKgM3": 359.52286148117986,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.4,
+      "pressureMPa": 7.2799802356239995,
+      "liquidDensityKgM3": 572.0002606377359,
+      "vaporDensityKgM3": 365.273060793327,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.5,
+      "pressureMPa": 7.2966718261209085,
+      "liquidDensityKgM3": 565.2925025890383,
+      "vaporDensityKgM3": 371.7250192114372,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.6,
+      "pressureMPa": 7.31341500210438,
+      "liquidDensityKgM3": 557.6582436579164,
+      "vaporDensityKgM3": 379.1377175305885,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.7,
+      "pressureMPa": 7.3302131876009495,
+      "liquidDensityKgM3": 548.670113522253,
+      "vaporDensityKgM3": 387.97080043592206,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.8,
+      "pressureMPa": 7.347071495966513,
+      "liquidDensityKgM3": 537.4289453620122,
+      "vaporDensityKgM3": 399.1976657972975,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.9,
+      "pressureMPa": 7.363998824068586,
+      "liquidDensityKgM3": 521.1765186138591,
+      "vaporDensityKgM3": 415.79274727227624,
+      "isCriticalReference": false
+    },
+    {
+      "temperatureC": 30.978200002980714,
+      "pressureMPa": 7.377298373446752,
+      "liquidDensityKgM3": 467.59996991047996,
+      "vaporDensityKgM3": 467.59996991047996,
+      "isCriticalReference": true
+    }
+  ],
+  "saturationNote": "EOS 飽和液／氣端點與臨界參考；曲線只供定位。未指定兩相比例時，T/P 不提供唯一整體密度。",
+  "nearCriticalCue": {
+    "temperatureGapK": 5,
+    "pressureGapMPa": 1,
+    "kind": "chosen-ui-sensitivity-cue-not-phase-boundary"
+  },
+  "rosemary": {
+    "kind": "published-experiment",
+    "sourceId": "scfe-source-genena-2008",
+    "definition": "總萃取物乾基產率 = 萃取物質量／乾基原料質量 × 100%；不是目標化合物回收率、純度或平衡溶解度。",
+    "endpoint": "global extraction yield, percent dry basis",
+    "material": "dried rosemary leaves (Rosmarinus officinalis)",
+    "conditions": {
+      "co2MassFlowKgPerHour": 0.2,
+      "extractionHours": 4,
+      "averageParticleDiameterMm": 1.142,
+      "moisturePercentDryBasis": 9.6,
+      "sfeFeedMassG": null,
+      "solventToFeedRatio": null
+    },
+    "reportedUncertainty": "Table 1 未報各產率條件的重複 n、SD 或 SE；文中的 triplicate 是 MIC 試验，不移用為產率樣本數。",
+    "statisticalSignificance": "not-inferred",
+    "selectionNote": "採 40/50°C、100/200/300bar 六組；原表 30°C 列低於純 CO₂ 臨界溫度，不納入超臨界配對。",
+    "provenance": {
+      "frozenPdf": {
+        "path": "output/extraction-evidence-2026-10-12/sources/genena-2008-rosemary.pdf",
+        "sha256": "0751ed44dd8657a3fc89d93aa6f4a15b2e758dd7ec19b33ca52f56200c281adf"
+      },
+      "table": "Table 1, printed p.465 / PDF p.3",
+      "methods": "sections 2.1–2.2 printed p.464 / PDF p.2",
+      "evidenceDate": "2026-10-12"
+    },
+    "rows": [
+      {
+        "assayNumber": 4,
+        "temperatureC": 40,
+        "pressureMPa": 10,
+        "yieldPercentDryBasis": 2.27,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 4; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      },
+      {
+        "assayNumber": 5,
+        "temperatureC": 50,
+        "pressureMPa": 10,
+        "yieldPercentDryBasis": 1.5,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 5; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      },
+      {
+        "assayNumber": 7,
+        "temperatureC": 40,
+        "pressureMPa": 20,
+        "yieldPercentDryBasis": 2.66,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 7; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      },
+      {
+        "assayNumber": 8,
+        "temperatureC": 50,
+        "pressureMPa": 20,
+        "yieldPercentDryBasis": 3.32,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 8; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      },
+      {
+        "assayNumber": 10,
+        "temperatureC": 40,
+        "pressureMPa": 30,
+        "yieldPercentDryBasis": 3.18,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 10; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      },
+      {
+        "assayNumber": 11,
+        "temperatureC": 50,
+        "pressureMPa": 30,
+        "yieldPercentDryBasis": 3.52,
+        "yieldStdDevPercentagePoints": null,
+        "yieldStandardErrorPercentagePoints": null,
+        "yieldReplicateCount": null,
+        "sourceLocator": "Table 1, assay 11; printed p.465 / PDF p.3",
+        "kind": "published-experiment"
+      }
+    ]
+  },
+  "limits": [
+    "純 CO₂ EOS 不適用含水、共溶劑或溶質混合物的物性推斷。",
+    "密度不決定溶解度、產率、選擇性或傳質速率。",
+    "研究產率依原文乾基定義，不是目標化合物回收率。",
+    "格點與產率均不插值；未報誤差與樣本数不補造。"
+  ]
+}

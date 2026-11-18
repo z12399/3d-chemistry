@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "mechanisms": 2,
+  "states": 16,
+  "checks": [
+    {
+      "id": "glucose-etherification-permethylation-state-0",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.708
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-1",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.708
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-2",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.708
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-3",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.708
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-4",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.708
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-5",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.715
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-6",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.92
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-7",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.703
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-8",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.724
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-9",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.711
+    },
+    {
+      "id": "glucose-etherification-permethylation-state-10",
+      "atoms": 59,
+      "formula": "C11H32I5O11-5",
+      "charge": -5,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.711
+    },
+    {
+      "id": "glucose-etherification-anomeric-hydrolysis-state-0",
+      "atoms": 46,
+      "formula": "C11H27O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.738
+    },
+    {
+      "id": "glucose-etherification-anomeric-hydrolysis-state-1",
+      "atoms": 46,
+      "formula": "C11H27O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.858
+    },
+    {
+      "id": "glucose-etherification-anomeric-hydrolysis-state-2",
+      "atoms": 46,
+      "formula": "C11H27O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.807
+    },
+    {
+      "id": "glucose-etherification-anomeric-hydrolysis-state-3",
+      "atoms": 46,
+      "formula": "C11H27O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.807
+    },
+    {
+      "id": "glucose-etherification-anomeric-hydrolysis-state-4",
+      "atoms": 46,
+      "formula": "C11H27O8+",
+      "charge": 1,
+      "identityFrom3DMatches": true,
+      "fullValence": true,
+      "minimumFragmentSeparationAngstrom": 2.757
+    }
+  ]
+}
