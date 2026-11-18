@@ -1,0 +1,614 @@
+{
+  "schema": "cocoa-structure-evidence/v1",
+  "id": "cocoa-structure-evidence",
+  "evidenceDate": "2026-10-12",
+  "sources": [
+    {
+      "id": "cocoa-source-beppu-2013",
+      "title": "Quantification of Triacylglycerol Molecular Species in Cocoa Butter Using High-Performance Liquid Chromatography Equipped with Nano Quantity Analyte Detector",
+      "publisher": "Beppu et al., Journal of Oleo Science 62(10):789–794 (2013)",
+      "url": "https://doi.org/10.5650/jos.62.789",
+      "locator": "p789 摘要／縮寫；p790 §2.1 位置命名註解；p791 Fig.1",
+      "note": "β-POS 的 β 區別甘油位置異構物；O 位於中位2，P/S在外位。原名含 rac，不指定單一 sn 對映構型。分子式由三條脂肪酸與甘油扣三個水作元素收支導出，不是本研究的新實測值。"
+    },
+    {
+      "id": "depth-cocoa-polymorph",
+      "title": "Tempering of cocoa butter and chocolate using minor lipidic components",
+      "url": "https://www.nature.com/articles/s41467-021-25206-1",
+      "publisher": "Chen et al., Nature Communications (2021)"
+    },
+    {
+      "id": "ntu-food-chemistry-115-239",
+      "title": "國立臺灣大學 115 學年度碩士班招生考試：239 食品化學",
+      "url": "https://exam.lib.ntu.edu.tw/sites/default/files/exam//graduate/115/115-239.pdf",
+      "publisher": "國立臺灣大學圖書館考古題；PDF 第 1 頁第 1 題。僅對應本課的部分能力，不換算題目涵蓋率或配分。"
+    }
+  ],
+  "sourceRoles": {
+    "cocoa-source-beppu-2013": {
+      "role": "molecular-connectivity-reference",
+      "locator": "p789 abbreviation; p790 section 2.1 and positional-isomer footnote; p791 Fig.1",
+      "acceptedUses": [
+        "β-POS uses oleoyl at the middle glycerol position and palmitoyl/stearoyl at the two outer positions.",
+        "Use a two-dimensional condensed connectivity sketch without an absolute sn or enantiomer assignment."
+      ],
+      "limits": [
+        "β in β-POS is a glycerol positional label, not β₂ crystal packing.",
+        "C55H104O6 is derived by formal atom balance, not a new measurement or a model of cellular TAG synthesis.",
+        "Outer P/S exchange is accepted only because this diagram does not specify stereochemistry."
+      ]
+    },
+    "depth-cocoa-polymorph": {
+      "role": "published-chocolate-measurement",
+      "locator": "Chocolate Table 2 and Fig.5, PDF p6; chocolate preparation, DSC and bending methods, PDF pp7–8",
+      "acceptedUses": [
+        "Four Table 2 chocolate groups, their means, SE, author compact-letter assignments and Fig.5 Form V assignment.",
+        "Keep the measured melting and protocol-defined bending quantities separate from molecular formula."
+      ],
+      "limits": [
+        "Do not pool pure cocoa-butter Table 1 with chocolate Table 2.",
+        "DPPE and recrystallized share c for bending; preserve that table result despite broader narrative wording.",
+        "No raw force-displacement, XRD or replicate values were reconstructed; SE is not SD or a confidence interval.",
+        "A common Form V assignment does not establish identical microstructure, taste, storage stability, or causal shares."
+      ]
+    },
+    "ntu-food-chemistry-115-239": {
+      "role": "exam-scope-only",
+      "locator": "Official PDF page 1, question 4(1)(2); the pre-existing source object is preserved verbatim.",
+      "acceptedUses": [
+        "Question 4(1) supplies the molecular-structure learning target.",
+        "Question 4(2) motivates crystal/material evidence as a prerequisite to a fuller fat-bloom explanation."
+      ],
+      "limits": [
+        "No official answer was retrieved.",
+        "This activity does not complete every fat-bloom mechanism or claim whole-question coverage or points."
+      ]
+    }
+  },
+  "residues": {
+    "P": {
+      "id": "P",
+      "label": "棕櫚醯",
+      "acidName": "棕櫚酸",
+      "acidFormula": "C16H32O2",
+      "acylFormula": "C16H31O",
+      "carbons": 16,
+      "doubleBonds": 0,
+      "acidAtoms": {
+        "C": 16,
+        "H": 32,
+        "O": 2
+      },
+      "acylAtoms": {
+        "C": 16,
+        "H": 31,
+        "O": 1
+      },
+      "condensedAcyl": "C(=O)-(CH2)14-CH3",
+      "doubleBondGeometry": null,
+      "doubleBondDeltaPosition": null
+    },
+    "O": {
+      "id": "O",
+      "label": "油醯",
+      "acidName": "油酸",
+      "acidFormula": "C18H34O2",
+      "acylFormula": "C18H33O",
+      "carbons": 18,
+      "doubleBonds": 1,
+      "acidAtoms": {
+        "C": 18,
+        "H": 34,
+        "O": 2
+      },
+      "acylAtoms": {
+        "C": 18,
+        "H": 33,
+        "O": 1
+      },
+      "condensedAcyl": "C(=O)-(CH2)7-CH=CH-(CH2)7-CH3",
+      "doubleBondGeometry": "cis",
+      "doubleBondDeltaPosition": 9
+    },
+    "S": {
+      "id": "S",
+      "label": "硬脂醯",
+      "acidName": "硬脂酸",
+      "acidFormula": "C18H36O2",
+      "acylFormula": "C18H35O",
+      "carbons": 18,
+      "doubleBonds": 0,
+      "acidAtoms": {
+        "C": 18,
+        "H": 36,
+        "O": 2
+      },
+      "acylAtoms": {
+        "C": 18,
+        "H": 35,
+        "O": 1
+      },
+      "condensedAcyl": "C(=O)-(CH2)16-CH3",
+      "doubleBondGeometry": null,
+      "doubleBondDeltaPosition": null
+    }
+  },
+  "structureContract": {
+    "sourceId": "cocoa-source-beppu-2013",
+    "locator": "p789; p790 §2.1 positional-nomenclature note; Fig.1",
+    "name": "β-POS",
+    "expandedName": "1-palmitoyl-2-oleoyl-3-stearoyl-rac-glycerol",
+    "representation": "2D connectivity; glycerol position 2 is middle; outer positions are not stereospecific sn labels",
+    "glycerolFormula": "C3H8O3",
+    "fattyAcids": [
+      {
+        "code": "P",
+        "name": "棕櫚酸",
+        "acylName": "棕櫚醯",
+        "carbonCount": 16,
+        "doubleBonds": 0,
+        "acidFormula": "C16H32O2",
+        "condensedAcyl": "C(=O)-(CH2)14-CH3"
+      },
+      {
+        "code": "O",
+        "name": "油酸",
+        "acylName": "油醯",
+        "carbonCount": 18,
+        "doubleBonds": 1,
+        "doubleBondGeometry": "cis",
+        "doubleBondDeltaPosition": 9,
+        "acidFormula": "C18H34O2",
+        "condensedAcyl": "C(=O)-(CH2)7-CH=CH-(CH2)7-CH3"
+      },
+      {
+        "code": "S",
+        "name": "硬脂酸",
+        "acylName": "硬脂醯",
+        "carbonCount": 18,
+        "doubleBonds": 0,
+        "acidFormula": "C18H36O2",
+        "condensedAcyl": "C(=O)-(CH2)16-CH3"
+      }
+    ],
+    "validConnectivityAssignments": [
+      [
+        "P",
+        "O",
+        "S"
+      ],
+      [
+        "S",
+        "O",
+        "P"
+      ]
+    ],
+    "middleAcyl": "O",
+    "outerAcyls": [
+      "P",
+      "S"
+    ],
+    "esterLinkCount": 3,
+    "formula": "C55H104O6",
+    "formulaProvenance": "element balance C3H8O3+C16H32O2+C18H34O2+C18H36O2−3H2O; calculated, not measured in the cited paper",
+    "formulaBalance": {
+      "reactantCounts": {
+        "C": 55,
+        "H": 110,
+        "O": 9
+      },
+      "waterLost": {
+        "molecules": 3,
+        "H": 6,
+        "O": 3
+      },
+      "productCounts": {
+        "C": 55,
+        "H": 104,
+        "O": 6
+      }
+    },
+    "betaMeaning": "β in β-POS labels glycerol positional connectivity; beta at middle glycerol carbon is distinct from beta2 crystal packing",
+    "stereochemistry": "No wedges/dashes, Fischer projection, R/S, or absolute sn assignment. Reversing the drawn outer P/S labels is accepted only at this connectivity level; it does not establish the equivalence of specified enantiomers.",
+    "crystalBetaMeaning": "β₂/Form V labels packing in cocoa-butter crystals; it does not change which acyl chains are ester-linked.",
+    "sourceIds": [
+      "cocoa-source-beppu-2013"
+    ],
+    "kind": "connectivity-reference-and-derived-atom-ledger"
+  },
+  "materials": {
+    "kind": "published-experiment-summary",
+    "sourceIds": [
+      "depth-cocoa-polymorph"
+    ],
+    "matrix": "Lindt Excellence Cocoa 90% dark chocolate",
+    "lotIdentity": null,
+    "independentBatchCount": null,
+    "metrics": {
+      "meltingC": {
+        "id": "meltingC",
+        "label": "DSC 熔融溫度",
+        "unit": "°C",
+        "errorKind": "SE",
+        "measurementScale": "interval",
+        "relativeDifferenceAllowed": false
+      },
+      "bendingModulusNmm2": {
+        "id": "bendingModulusNmm2",
+        "label": "彈性彎曲模數 E_B",
+        "unit": "N/mm²",
+        "errorKind": "SE",
+        "measurementScale": "ratio",
+        "relativeDifferenceAllowed": true
+      }
+    },
+    "groups": [
+      {
+        "id": "commercial",
+        "label": "Commercial",
+        "labelZh": "原商售巧克力",
+        "form": "V",
+        "metrics": {
+          "meltingC": {
+            "mean": 33.3,
+            "se": 0.5,
+            "letters": [
+              "a"
+            ],
+            "exactN": 3
+          },
+          "bendingModulusNmm2": {
+            "mean": 74.7,
+            "se": 13.2,
+            "letters": [
+              "a"
+            ],
+            "exactN": null,
+            "reportedNRange": [
+              4,
+              16
+            ]
+          }
+        },
+        "additive": null,
+        "historyId": "commercial-original",
+        "crystalEvidence": {
+          "form": "V",
+          "betaLabel": "β₂",
+          "polytype": "3L",
+          "sourceId": "depth-cocoa-polymorph",
+          "locator": "Fig.5",
+          "kind": "published XRD/DSC assignment; not raw spectra"
+        },
+        "sourceId": "depth-cocoa-polymorph",
+        "locator": "Table 2"
+      },
+      {
+        "id": "dmpc",
+        "label": "DMPC",
+        "labelZh": "添加 0.1% DMPC 後重結晶",
+        "form": "V",
+        "metrics": {
+          "meltingC": {
+            "mean": 34.4,
+            "se": 0.2,
+            "letters": [
+              "a"
+            ],
+            "exactN": 3
+          },
+          "bendingModulusNmm2": {
+            "mean": 75.6,
+            "se": 8.3,
+            "letters": [
+              "a"
+            ],
+            "exactN": null,
+            "reportedNRange": [
+              4,
+              16
+            ]
+          }
+        },
+        "additive": {
+          "name": "dimyristoylphosphatidylcholine",
+          "abbreviation": "DMPC",
+          "concentration": 0.1,
+          "unit": "% w/w"
+        },
+        "historyId": "melt-recrystallize",
+        "crystalEvidence": {
+          "form": "V",
+          "betaLabel": "β₂",
+          "polytype": "3L",
+          "sourceId": "depth-cocoa-polymorph",
+          "locator": "Fig.5",
+          "kind": "published XRD/DSC assignment; not raw spectra"
+        },
+        "sourceId": "depth-cocoa-polymorph",
+        "locator": "Table 2"
+      },
+      {
+        "id": "dppe",
+        "label": "DPPE",
+        "labelZh": "添加 0.1% DPPE 後重結晶",
+        "form": "V",
+        "metrics": {
+          "meltingC": {
+            "mean": 34,
+            "se": 0.1,
+            "letters": [
+              "a"
+            ],
+            "exactN": 3
+          },
+          "bendingModulusNmm2": {
+            "mean": 65.7,
+            "se": 8.4,
+            "letters": [
+              "a",
+              "c"
+            ],
+            "exactN": null,
+            "reportedNRange": [
+              4,
+              16
+            ]
+          }
+        },
+        "additive": {
+          "name": "dipalmitoylphosphatidylethanolamine",
+          "abbreviation": "DPPE",
+          "concentration": 0.1,
+          "unit": "% w/w"
+        },
+        "historyId": "melt-recrystallize",
+        "crystalEvidence": {
+          "form": "V",
+          "betaLabel": "β₂",
+          "polytype": "3L",
+          "sourceId": "depth-cocoa-polymorph",
+          "locator": "Fig.5",
+          "kind": "published XRD/DSC assignment; not raw spectra"
+        },
+        "sourceId": "depth-cocoa-polymorph",
+        "locator": "Table 2"
+      },
+      {
+        "id": "recrystallized",
+        "label": "Recrystallized commercial",
+        "labelZh": "無添加重結晶",
+        "form": "V",
+        "metrics": {
+          "meltingC": {
+            "mean": 33.6,
+            "se": 0.3,
+            "letters": [
+              "a"
+            ],
+            "exactN": 3
+          },
+          "bendingModulusNmm2": {
+            "mean": 36.6,
+            "se": 4.2,
+            "letters": [
+              "b",
+              "c"
+            ],
+            "exactN": null,
+            "reportedNRange": [
+              4,
+              16
+            ]
+          }
+        },
+        "additive": null,
+        "historyId": "melt-recrystallize",
+        "crystalEvidence": {
+          "form": "V",
+          "betaLabel": "β₂",
+          "polytype": "3L",
+          "sourceId": "depth-cocoa-polymorph",
+          "locator": "Fig.5",
+          "kind": "published XRD/DSC assignment; not raw spectra"
+        },
+        "sourceId": "depth-cocoa-polymorph",
+        "locator": "Table 2"
+      }
+    ],
+    "method": {
+      "meltingC": {
+        "method": "DSC",
+        "instrument": "TA Q2000",
+        "sampleMassMg": [
+          5,
+          10
+        ],
+        "pan": "sample: aluminum pan with lid; reference: empty hermetically sealed pan",
+        "nitrogenFlowMlPerMin": 18,
+        "startTemperatureC": 5,
+        "endTemperatureC": 50,
+        "heatingRateCPerMinute": 5
+      },
+      "bendingModulusNmm2": {
+        "quantity": "Elastic bending modulus",
+        "symbol": "E_B",
+        "unit": "N/mm²",
+        "equivalentUnit": "MPa",
+        "instrument": "TA.XT2 with three-point bending attachment",
+        "testSpeedMmPerS": 1,
+        "triggerForceN": 0.1,
+        "supportSpanMm": 20,
+        "formula": "E_B = F*a^3/(4*d*b*h^3)",
+        "variables": {
+          "F": "peak force required to break sample (N)",
+          "d": "deformation at peak force (mm)",
+          "a": "distance between support points (mm)",
+          "b": "sample width (mm)",
+          "h": "sample height (mm)"
+        },
+        "interpretation": "Protocol-derived bending stiffness metric; do not relabel as generic hardness, fracture stress, preference, or initial-slope Young modulus.",
+        "rawForceDisplacementRetrieved": false
+      }
+    },
+    "histories": {
+      "commercial-original": {
+        "description": "Fresh commercial chocolate directly from package",
+        "factoryTemperingSchedule": null
+      },
+      "melt-recrystallize": {
+        "meltTemperatureC": 60,
+        "meltApparatus": "double boiler",
+        "mixingForAdditives": {
+          "maximumMinutes": 5
+        },
+        "moldDimensionsMm": [
+          35,
+          19,
+          5
+        ],
+        "crystallization": [
+          {
+            "temperatureC": 5,
+            "duration": 1,
+            "durationUnit": "hour"
+          },
+          {
+            "temperatureC": 20,
+            "duration": 4,
+            "durationUnit": "days"
+          }
+        ],
+        "note": "Recrystallized control and additive groups share the reported thermal history. Additive groups also change composition; original commercial control has a different thermal history."
+      }
+    },
+    "statistics": {
+      "summary": "mean ± standard error",
+      "elasticBendingModulusAndWiN": "4–16 replicates, per-cell exact n not reported",
+      "meltingTemperatureN": 3,
+      "test": "one-way ANOVA with Tukey post-tests",
+      "threshold": 0.05,
+      "sharedLetterMeaning": "Within a metric row, shared superscript letter means not significantly different at the authors' P > 0.05 criterion; this is not proof of equivalence.",
+      "noSharedLetterMeaning": "Apply authors' within-row compact-letter comparison; do not recalculate p values from mean and SE.",
+      "tableVsNarrativeConflict": "Narrative describes recrystallized chocolate as significantly lower, but Table 2 DPPE (a,c) and recrystallized (b,c) share c. Preserve table and do not assert their difference is significant.",
+      "inferFromSeOverlap": false,
+      "includedMetrics": [
+        "meltingC",
+        "bendingModulusNmm2"
+      ]
+    },
+    "rawData": {
+      "doi": "https://doi.org/10.7910/DVN/SJ8BEQ",
+      "retrieved": false,
+      "knownAttempt": "Previous read-only public API attempt returned HTTP403; it was not saved as a source file. One ordinary request after the authorized source freeze returned HTTP200 with metadata. No raw dataset files or individual force-displacement arrays were downloaded.",
+      "metadataRetrieved": true,
+      "metadataFile": "output/cocoa-evidence-2026-10-12/sources/chen-dataverse-api-response.json"
+    },
+    "limits": [
+      "All four samples assigned Form V does not imply identical bulk or surface microstructure.",
+      "Table 2 is not a storage time course or a fat-bloom mechanism experiment.",
+      "Do not pool pure cocoa-butter Table 1, its 80°C/23°C protocol, or its metrics with chocolate Table 2.",
+      "No invented raw force-displacement, XRD intensity, microscopy, individual replicates, standard deviation, confidence interval, or p-value.",
+      "Do not rank sensory quality, safety, universal additive efficacy, or commercial recipe superiority.",
+      "Reported n is a replicate count and does not establish independent production batches."
+    ]
+  },
+  "exam": {
+    "sourceId": "ntu-food-chemistry-115-239",
+    "year": 115,
+    "question": "食品化學第4題(1)(2)",
+    "page": 1,
+    "scope": "New structure lesson partly supports (1). Crystal/evidence comparison provides prerequisite reasoning relevant to (2), not a complete fat-bloom mechanism answer.",
+    "officialAnswerRetrieved": false,
+    "coverageClaim": "No point/percentage coverage claim. Existing official source object preserved exactly despite its older Q1 publisher locator; this new audit and lesson examRefs give Q4-specific scope."
+  },
+  "provenance": {
+    "recipePath": "content-work/cocoa-structure-evidence-recipe-2026-10-12.json",
+    "recipeSha256": "9ed5484301389aa947a357136769fe3cfab65e712d958361eb387bd73c8f71b9",
+    "sourceReview": {
+      "path": "output/cocoa-evidence-2026-10-12/source-review.json",
+      "sha256": "518d79af7eda660c86b908f0d09ad10aad665bd232a8c93a88754176afaff136",
+      "status": "FROZEN_PRIMARY_VERIFIED"
+    },
+    "frozenEvidence": [
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/beppu-2013-page-2.png",
+        "bytes": 478170,
+        "sha256": "d1911fcb9809365184efa761a723e466c57378d92e503cd39ac83dd7c27de7a8"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/beppu-2013-page-3.png",
+        "bytes": 374174,
+        "sha256": "f44e2c2d453bf3e777b74541faa102ac40e3a9d2322d15ec594c6d83e1849c4b"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/beppu-2013.pdf",
+        "bytes": 582430,
+        "sha256": "a3d441d2c6fa36f59c1612242c25095a698da047b54abd0838fcb86d79330d72"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-fulltext.xml",
+        "bytes": 91978,
+        "sha256": "842bb9851550f3e14274ff0c1d87760388374fc43ddb0c28d1de3afe8a417173"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-nature.pdf",
+        "bytes": 3067237,
+        "sha256": "880ce4fb2ea6b71c9c45bfa9adced74245a487f3f5c94bdadd225e4ff0d76573"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-page-5.png",
+        "bytes": 466403,
+        "sha256": "99009ceddbce63dc3f85a19ae4808aa5b37d97a0eab134d6454a9d9997821b96"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-page-6.png",
+        "bytes": 279792,
+        "sha256": "9564cf8c809f4bc0bcc0b9e0fb5d60dd62f7999dd3715d65184aa542317afe2b"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-page-7.png",
+        "bytes": 543626,
+        "sha256": "e8c449c6d2ea13a09def89f875d1cec484242e029ef52e802b4e5885e92750fc"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-2021-page-8.png",
+        "bytes": 559527,
+        "sha256": "b9fa621f04a86ab911394795985946f800127f6b7d10a7363c22c2a37615a6da"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/chen-dataverse-api-response.json",
+        "bytes": 11482,
+        "sha256": "cb84619841567c155b33ba135d4ce1b57739ff03b63f3a5f26c762cee1c77b25"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/http-attempts-01.json",
+        "bytes": 3357,
+        "sha256": "9d322c6f4f28e698e17cd1d6616bee543223aacfbc26328637d19c308f998463"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/http-attempts-02.json",
+        "bytes": 773,
+        "sha256": "18f080d3fef2bd93db76fdffd8929da662ed05a48ac01122608ca8d1d16a9fd8"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/ntu-115-239-page1.png",
+        "bytes": 115100,
+        "sha256": "59a045d54ec86731abfefe7ab122eda4149445a78ce427554926766b4066aeb9"
+      },
+      {
+        "path": "output/cocoa-evidence-2026-10-12/sources/ntu-115-239.pdf",
+        "bytes": 77099,
+        "sha256": "c8c9a9260a9bd8aeb07630872d041f81a68c7bbd44b8d2c34827c7245e7a6f5f"
+      }
+    ],
+    "derivations": [
+      "Acyl formulas equal the corresponding free acid minus OH.",
+      "TAG atom counts equal glycerol plus three free acids minus three waters.",
+      "Group mean differences are computed; relative differences are restricted to bending modulus with an explicitly chosen baseline.",
+      "No percentage change is emitted for Celsius temperatures because their zero is arbitrary."
+    ],
+    "noInterpolation": true,
+    "noRawDataReconstruction": true
+  }
+}

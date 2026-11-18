@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">上浮與合併：看的是不同改變</title>
+<desc id="figure-desc">兩組獨立對照：上浮使相同大小的液滴移到上方；合併使數個液滴成為較大液滴。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">上浮與合併：看的是不同改變</tspan></text>
+<rect x="32" y="111" width="310" height="261" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="378" y="111" width="310" height="261" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="187" y="145" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="187" dy="0">上浮：空間分布改變</tspan></text>
+<text x="533" y="145" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="533" dy="0">合併：液滴個體改變</tspan></text>
+<rect x="56" y="175" width="80" height="158" rx="5" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="230" y="175" width="80" height="158" rx="5" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="402" y="175" width="80" height="158" rx="5" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="576" y="175" width="80" height="158" rx="5" fill="#ffffff" stroke="#dfe4e8" stroke-width="2"/>
+<circle cx="78" cy="204" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="113" cy="240" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="80" cy="276" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="112" cy="310" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="250" cy="197" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="280" cy="197" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="250" cy="228" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="280" cy="228" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<path d="M 151 255 L 216 255" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="184" y="235" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="184" dy="0">往上</tspan></text>
+<circle cx="424" cy="210" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="459" cy="245" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="424" cy="282" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="459" cy="312" r="12" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<circle cx="616" cy="253" r="24" fill="#e7f1ee" stroke="#b4692e" stroke-width="2"/>
+<path d="M 497 255 L 562 255" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="529" y="235" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="529" dy="0">合併</tspan></text>
+<text x="187" y="355" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="187" dy="0">液滴不一定已融合</tspan></text>
+<text x="533" y="355" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="533" dy="0">液滴大小與個體改變</tspan></text>
+<text x="32" y="412" font-size="24" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">上層變濃 ≠ 已合併</tspan></text>
+<text x="32" y="447" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">仍需觀察滴徑或顯微結構，才能區分。</tspan></text>
+<text x="688" y="462" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
