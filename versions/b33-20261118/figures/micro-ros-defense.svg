@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 590" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">SOD 改變活性氧種類，還沒清完</title>
+<desc id="figure-desc">超氧歧化酶（SOD）把兩個超氧自由基轉成 O₂ 與 H₂O₂；H₂O₂ 仍是活性氧，需再由過氧化氫酶或過氧化酶分解，才完成解毒。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="590" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">SOD 改變活性氧種類，還沒清完</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">先形成 H₂O₂，再比較兩條清除支路</tspan></text>
+<rect x="32" y="120" width="186" height="92" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125.0" y="159.0" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="125.0" dy="0">2 O₂•⁻</tspan><tspan x="125.0" dy="28">＋ 2 H⁺</tspan></text>
+<rect x="308" y="120" width="186" height="92" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="401.0" y="159.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="401.0" dy="0">O₂ ＋ H₂O₂</tspan><tspan x="401.0" dy="28">H₂O₂ 仍是 ROS</tspan></text>
+<path d="M 228 166 L 298 166" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="263" y="108" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="263" dy="0">SOD</tspan></text>
+<path d="M 401 222 L 401 254 L 180 254 L 180 287" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 401 254 L 550 254 L 550 287" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<rect x="40" y="300" width="280" height="90" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180.0" y="338.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="180.0" dy="0">Catalase</tspan><tspan x="180.0" dy="28">2 H₂O₂ → O₂ ＋ 2 H₂O</tspan></text>
+<rect x="400" y="300" width="280" height="90" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540.0" y="338.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="540.0" dy="0">NADH peroxidase</tspan><tspan x="540.0" dy="28">H₂O₂ → 2 H₂O</tspan></text>
+<text x="180" y="438" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">淨反應不消耗</tspan><tspan x="180" dy="29">外加 NADH</tspan></text>
+<rect x="403" y="444" width="155" height="56" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="480.5" y="479.0" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="480.5" dy="0">外加 NADH</tspan></text>
+<path d="M 482 434 L 482 400" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 603 400 L 603 435" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="603" y="476" font-size="23" fill="#b4692e" text-anchor="middle"><tspan x="603" dy="0">NAD⁺</tspan></text>
+<text x="550" y="526" font-size="19" fill="#53606d" text-anchor="middle"><tspan x="550" dy="0">此支路另需 H⁺</tspan></text>
+<text x="32" y="565" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">物種清除不等於已量測菌數、損傷或存活。</tspan></text>
+<text x="688" y="572" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

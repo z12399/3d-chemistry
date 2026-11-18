@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">同樣要紅色，先對齊產品條件</title>
+<desc id="desc">甜菜色素與花青素為不同結構類別，先由色調酸度與熱歷程篩選，再在指定食品基質驗證保色。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">同樣要紅色，先對齊產品條件</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">原料同稱天然紅色，不能套同一個穩定性模型</tspan></text>
+<rect x="125" y="92" width="470" height="65" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="131.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">產品色調 ＋ 酸度 ＋ 熱歷程</tspan></text>
+<path d="M360 173V193H180V219" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<path d="M360 193H540V219" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-orange)"/>
+<rect x="30" y="234" width="300" height="138" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="390" y="234" width="300" height="138" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180" y="268" font-size="22" fill="#14665d" text-anchor="middle"><tspan x="180" dy="0">甜菜色素</tspan></text>
+<text x="180" y="309" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">含氮：甜菜紅素／黃素</tspan><tspan x="180" dy="27">較低酸產品的候選</tspan></text>
+<text x="540" y="268" font-size="22" fill="#b4692e" text-anchor="middle"><tspan x="540" dy="0">花青素</tspan></text>
+<text x="540" y="309" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="540" dy="0">另一結構類別</tspan><tspan x="540" dy="27">種類、醯化與共色有影響</tspan></text>
+<text x="360" y="416" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">在指定基質中驗證熱處理與儲存後保色</tspan></text>
+<text x="30" y="460" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">產品可先匹配起始色澤；色素濃度與保存期限仍須各自核對。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

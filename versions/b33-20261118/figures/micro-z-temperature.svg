@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">z 是敏感度，要與參考 D 一起看</title>
+<desc id="figure-desc">兩條假想定性 logD–溫度直線在同一參考D交會；較大z的直線較緩，兩側排序不同。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">z 是敏感度，要與參考 D 一起看</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">假想定性模型；沒有真實生物參數</tspan></text>
+<path d="M 94 106 L 135 106" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="147" y="113" font-size="19" fill="#14665d" text-anchor="start"><tspan x="147" dy="0">較大 z：斜率較緩</tspan></text>
+<path d="M 404 106 L 445 106" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="457" y="113" font-size="19" fill="#b4692e" text-anchor="start"><tspan x="457" dy="0">較小 z：斜率較陡</tspan></text>
+<path d="M 83 366 L 675 366" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 83 366 L 83 154" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="83" y="136" font-size="18" fill="#53606d" text-anchor="start"><tspan x="83" dy="0">log₁₀ D</tspan></text>
+<text x="675" y="395" font-size="18" fill="#53606d" text-anchor="end"><tspan x="675" dy="0">溫度 T</tspan></text>
+<path d="M 90 235 L 647 235" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 360 157 L 360 366" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 6"/>
+<path d="M 125 170 L 625 308" fill="none" stroke="#14665d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 270 137 L 470 355" fill="none" stroke="#b4692e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="360" cy="235" r="7" fill="#1c2732" stroke="#1c2732" stroke-width="2"/>
+<text x="376" y="220" font-size="20" fill="#1c2732" text-anchor="start"><tspan x="376" dy="0">相同 Dref</tspan></text>
+<text x="360" y="394" font-size="20" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">Tref</tspan></text>
+<text x="360" y="438" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">log₁₀[D(T)/Dref] = −(T−Tref)/z</tspan></text>
+<text x="32" y="476" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">比較溫度改變，兩者的 D 排序可不同。</tspan><tspan x="32" dy="25">限適用區間；單一 z 不能給出通用處理排程。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

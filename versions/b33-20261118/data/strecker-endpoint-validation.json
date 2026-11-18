@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "routes": 1,
+  "branches": 1,
+  "states": 7,
+  "moves": 6,
+  "allStateAtoms": 25,
+  "allStateFormula": "C5H13NO6",
+  "allStateCharge": 0,
+  "rdkitVersion": "2026.03.6",
+  "isTrajectory": false,
+  "checks": [
+    {
+      "reactionId": "maillard-strecker",
+      "variantId": "oxazolidinone-path-a",
+      "status": "PASS",
+      "states": 7,
+      "moves": 6,
+      "startingReferences": [
+        {
+          "fragmentContaining": "Ng",
+          "modelId": "glycine",
+          "inchi": "InChI=1S/C2H5NO2/c3-1-2(4)5/h1,3H2,(H,4,5)",
+          "matchesExistingModel": true
+        },
+        {
+          "fragmentContaining": "Cma",
+          "modelId": "methylglyoxal",
+          "inchi": "InChI=1S/C3H4O2/c1-3(5)2-4/h2H,1H3",
+          "matchesExistingModel": true
+        }
+      ],
+      "endpointReferences": [
+        {
+          "fragmentContaining": "Cg",
+          "modelId": "formaldehyde",
+          "inchi": "InChI=1S/CH2O/c1-2/h1H2",
+          "matchesReference": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+        },
+        {
+          "fragmentContaining": "Ng",
+          "modelId": "aminoacetone",
+          "inchi": "InChI=1S/C3H7NO/c1-3(5)2-4/h2,4H2,1H3",
+          "matchesReference": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/215"
+        },
+        {
+          "fragmentContaining": "Ccarb",
+          "modelId": "carbon-dioxide",
+          "inchi": "InChI=1S/CO2/c2-1-3",
+          "matchesReference": true,
+          "source": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+        }
+      ],
+      "mapping": {
+        "glycineAlphaCarbon": "Cg",
+        "carboxylCarbon": "Ccarb",
+        "carboxylOxygens": [
+          "Og1",
+          "Og2"
+        ],
+        "aminoNitrogen": "Ng",
+        "methylglyoxalAldehydeCarbon": "Cma",
+        "methylglyoxalAldehydeOxygen": "Oma",
+        "methylglyoxalKetoneCarbon": "Cmk",
+        "methylglyoxalKetoneOxygen": "Omk",
+        "methylglyoxalMethylCarbon": "Cmm",
+        "initialWaterOxygens": [
+          "Ow1",
+          "Ow2"
+        ],
+        "formaldehydeOxygen": "Ow1",
+        "sourceAssetAtomIds": {
+          "glycine": {
+            "N1": "Ng",
+            "C1": "Cg",
+            "C2": "Ccarb",
+            "O1": "Og1",
+            "O2": "Og2",
+            "HN1a": "HNa",
+            "HN1b": "HNb",
+            "HC1a": "HG1",
+            "HC1b": "HG2",
+            "HO2": "HgO"
+          },
+          "methylglyoxal": {
+            "C1": "Cmm",
+            "C2": "Cmk",
+            "O1": "Omk",
+            "C3": "Cma",
+            "O2": "Oma",
+            "HC1a": "Hmm1",
+            "HC1b": "Hmm2",
+            "HC1c": "Hmm3",
+            "HC3": "Hma"
+          }
+        }
+      },
+      "stateChecks": [
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-0",
+          "literatureState": "Reactants",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.021876
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-1",
+          "literatureState": "IM1a",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.041021
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-2",
+          "literatureState": "IM2a",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.13338
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-3",
+          "literatureState": "IM3a",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.12001
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-4",
+          "literatureState": "IM4a",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.046195
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-5",
+          "literatureState": "IM5a",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.046416
+        },
+        {
+          "stateId": "maillard-strecker-oxazolidinone-path-a-state-6",
+          "literatureState": "Products",
+          "atoms": 25,
+          "formula": "C5H13NO6",
+          "charge": 0,
+          "fullValence": true,
+          "atomIdentitiesConserved": true,
+          "stereochemistryFrom3DMatchesGraph": true,
+          "minimumAtomDistanceAngstrom": 0.967746,
+          "minimumInterfragmentDistanceAngstrom": 3.008983
+        }
+      ],
+      "coordinateProvenance": "independently rebuilt from cited connectivity with ETKDGv3/MMFF94; NOT imported DFT or IRC coordinates",
+      "originalDftCoordinatesImported": false
+    }
+  ]
+}

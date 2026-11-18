@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脫臭：低壓蒸汽帶走揮發成分</title>
+<desc id="figure-desc">蒸汽通過低壓油相，使揮發成分進入氣相並移出，也可能減少生育酚等有用成分。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脫臭：低壓蒸汽帶走揮發成分</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">目標去除、成分保留與油回收要一起比較</tspan></text>
+<rect x="250" y="125" width="215" height="225" rx="22" fill="#ffffff" stroke="#14665d" stroke-width="2"/>
+<rect x="260" y="227" width="195" height="113" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="357" y="156" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="357" dy="0">低壓氣相</tspan></text>
+<path d="M 260 220 L 455 220" fill="none" stroke="#dfe4e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="357" y="314" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="357" dy="0">油相</tspan></text>
+<path d="M 80 324 L 280 324" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="82" y="305" font-size="22" fill="#6f8fb5" text-anchor="start"><tspan x="82" dy="0">蒸汽</tspan></text>
+<path d="M 300 294 L 300 184" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M 401 287 L 401 184" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<circle cx="335" cy="267" r="9" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="373" cy="251" r="9" fill="#b8902a" stroke="#b8902a" stroke-width="2"/>
+<path d="M 338 250 L 347 197" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M 376 234 L 380 196" fill="none" stroke="#b8902a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-gold)"/>
+<path d="M 470 181 L 635 181" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<text x="494" y="142" font-size="22" fill="#6f8fb5" text-anchor="start"><tspan x="494" dy="0">隨蒸汽移出</tspan></text>
+<circle cx="505" cy="230" r="7" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="522" y="237" font-size="20" fill="#b4692e" text-anchor="start"><tspan x="522" dy="0">目標揮發物</tspan></text>
+<circle cx="505" cy="268" r="7" fill="#b8902a" stroke="#b8902a" stroke-width="2"/>
+<text x="522" y="275" font-size="19" fill="#b8902a" text-anchor="start"><tspan x="522" dy="0">也可能帶走</tspan></text>
+<text x="522" y="302" font-size="20" fill="#b8902a" text-anchor="start"><tspan x="522" dy="0">生育酚</tspan></text>
+<rect x="35" y="388" width="190" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="130.0" y="425.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="130.0" dy="0">目標去除</tspan></text>
+<rect x="265" y="388" width="190" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="425.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">有用成分保留</tspan></text>
+<rect x="495" y="388" width="190" height="60" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="590.0" y="425.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="590.0" dy="0">油品回收</tspan></text>
+<text x="32" y="474" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">指定成分保留率要比較前後總量。</tspan><tspan x="32" dy="25">聞不到異味，不表示所有劣變都消失。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
