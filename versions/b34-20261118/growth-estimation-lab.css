@@ -1,0 +1,67 @@
+.growth-estimation-lab { --ge-ink:#1c2732; --ge-muted:#53606d; --ge-line:#dfe4e8; --ge-accent:#237985; --ge-unused:#a86327; color:var(--ge-ink); font-size:15px; line-height:1.6; max-width:1040px; }
+.growth-estimation-lab * { box-sizing:border-box; }
+.growth-estimation-lab .ge-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.growth-estimation-lab button, .growth-estimation-lab select { border:1px solid #cfd6dc; background:#fff; color:var(--ge-ink); border-radius:8px; font:inherit; font-size:15px; padding:6px 10px; min-height:36px; cursor:pointer; }
+.growth-estimation-lab select { width:auto; min-width:70px; }
+.growth-estimation-lab button:hover { border-color:var(--ge-accent); }
+.growth-estimation-lab button[aria-pressed="true"] { color:#fff; background:#14665d; border-color:#14665d; }
+.growth-estimation-lab button:disabled { cursor:default; opacity:.65; }
+.growth-estimation-lab :is(button,select,textarea,summary,[role="button"]):focus-visible { outline:3px solid var(--ge-accent); outline-offset:3px; }
+.growth-estimation-lab .ge-toolbar { display:flex; flex-wrap:wrap; gap:10px 20px; align-items:center; }
+.growth-estimation-lab .ge-toolbar label, .growth-estimation-lab .ge-chart-tools label { display:flex; align-items:center; gap:7px; white-space:nowrap; }
+.growth-estimation-lab .ge-toolbar > button { margin-left:auto; }
+.growth-estimation-lab .ge-scope { font-size:13px; color:var(--ge-muted); margin:10px 0 14px; }
+.growth-estimation-lab .ge-workspace { display:grid; grid-template-columns:minmax(0,1fr) 260px; gap:20px; align-items:start; }
+.growth-estimation-lab .ge-chart-area { min-width:0; }
+.growth-estimation-lab .ge-chart-tools { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:7px; font-size:14px; }
+.growth-estimation-lab .ge-chart-tools button, .growth-estimation-lab .ge-chart-tools select { font-size:14px; padding:4px 8px; min-height:34px; }
+.growth-estimation-lab .ge-chart-tools [role="group"] { display:flex; gap:4px; }
+.growth-estimation-lab [data-ge-basis] { min-width:100px; }
+.growth-estimation-lab .ge-figure { margin-top:8px; background:#f6f7f8; border-radius:6px; }
+.growth-estimation-lab .ge-figure svg { display:block; width:100%; height:auto; overflow:visible; }
+.growth-estimation-lab .ge-figure text { font-family:inherit; font-size:18px; fill:var(--ge-ink); }
+.growth-estimation-lab .ge-grid { fill:none; stroke:#dce7e8; stroke-width:1; }
+.growth-estimation-lab .ge-axis { fill:none; stroke:#82979b; stroke-width:1.2; }
+.growth-estimation-lab .ge-line { fill:none; stroke:var(--ge-accent); stroke-width:2.8; }
+.growth-estimation-lab .ge-extension { fill:none; stroke:var(--ge-accent); stroke-width:2; stroke-dasharray:6 5; }
+.growth-estimation-lab .ge-zero { stroke:#718a90; stroke-width:1.5; }
+.growth-estimation-lab .ge-error, .growth-estimation-lab .ge-stem { fill:none; stroke:currentColor; stroke-width:1.8; }
+.growth-estimation-lab .ge-fitting { color:var(--ge-accent); }
+.growth-estimation-lab .ge-unused { color:var(--ge-unused); }
+.growth-estimation-lab .ge-dot { fill:currentColor; stroke:#fff; stroke-width:1.5; }
+.growth-estimation-lab .ge-unused .ge-dot { fill:#fff; stroke:var(--ge-unused); stroke-width:2.4; }
+.growth-estimation-lab .ge-hit { fill:transparent; stroke:none; cursor:pointer; }
+.growth-estimation-lab .ge-legend { display:flex; flex-wrap:wrap; gap:2px 12px; margin:6px 0; font-size:13px; color:var(--ge-muted); }
+.growth-estimation-lab .ge-legend > span:first-child { color:var(--ge-accent); }
+.growth-estimation-lab .ge-legend > span:nth-child(2) { color:var(--ge-unused); }
+.growth-estimation-lab .ge-results { min-width:0; font-size:14px; }
+.growth-estimation-lab .ge-double { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:0 8px; }
+.growth-estimation-lab .ge-double > strong { color:var(--ge-accent); font-size:27px; font-weight:550; line-height:1.45; }
+.growth-estimation-lab .ge-results dl { display:grid; gap:5px; margin:10px 0 12px; padding-top:9px; border-top:1px solid var(--ge-line); }
+.growth-estimation-lab .ge-results dl > div { display:flex; justify-content:space-between; flex-wrap:wrap; gap:0 8px; }
+.growth-estimation-lab .ge-results dt { color:var(--ge-muted); }
+.growth-estimation-lab .ge-results dd { margin:0; font-variant-numeric:tabular-nums; }
+.growth-estimation-lab .ge-results > label { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.growth-estimation-lab .ge-selected { margin:8px 0 0; font-variant-numeric:tabular-nums; }
+.growth-estimation-lab .ge-action-row { display:flex; flex-wrap:wrap; align-items:center; gap:7px; margin-top:10px; padding-top:10px; border-top:1px solid var(--ge-line); grid-column:1/-1; }
+.growth-estimation-lab .ge-action-row button { padding-inline:8px; }
+.growth-estimation-lab .ge-action-row > span { color:var(--ge-muted); font-size:14px; margin-left:auto; }
+.growth-estimation-lab .ge-result-note { font-size:13px; color:var(--ge-muted); margin:7px 0 10px; }
+.growth-estimation-lab .ge-feedback { font-size:14px; color:var(--ge-accent); margin:7px 0; }
+.growth-estimation-lab .ge-feedback:empty { display:none; }
+.growth-estimation-lab > details { border-top:1px solid var(--ge-line); padding:0 0 8px; }
+.growth-estimation-lab summary { cursor:pointer; padding:11px 0; font-size:15px; }
+.growth-estimation-lab details p { margin:8px 0 12px; }
+.growth-estimation-lab details label { display:block; margin:12px 0; }
+.growth-estimation-lab textarea { display:block; width:100%; font:inherit; font-size:15px; color:var(--ge-ink); background:#fff; border:1px solid #cfd6dc; border-radius:8px; padding:9px; margin-top:5px; resize:vertical; }
+.growth-estimation-lab textarea[readonly] { background:#fff; }
+.growth-estimation-lab .ge-choices { display:flex; flex-wrap:wrap; gap:7px; }
+.growth-estimation-lab pre { white-space:pre-wrap; overflow-wrap:anywhere; background:#f6f7f8; padding:12px; border-radius:5px; font:13px/1.7 inherit; }
+.growth-estimation-lab .ge-table-wrap { overflow-x:auto; }
+.growth-estimation-lab table { border-collapse:collapse; width:100%; font-size:14px; }
+.growth-estimation-lab caption { text-align:left; margin-bottom:8px; }
+.growth-estimation-lab th, .growth-estimation-lab td { padding:7px 10px; border-bottom:1px solid var(--ge-line); text-align:left; white-space:nowrap; }
+.growth-estimation-lab li { margin-bottom:8px; }
+.growth-estimation-lab a { color:var(--ge-accent); overflow-wrap:anywhere; }
+@media (max-width:1000px) { .growth-estimation-lab .ge-workspace { grid-template-columns:minmax(0,1fr); gap:10px; } .growth-estimation-lab .ge-results { display:grid; grid-template-columns:1fr 1.2fr; gap:4px 20px; } .growth-estimation-lab .ge-results dl { margin:0; border:0; padding:0; grid-row:span 2; } .growth-estimation-lab .ge-selected { grid-column:1/-1; } .growth-estimation-lab .ge-figure svg { max-height:330px; } }
+@media (max-width:850px) { .growth-estimation-lab .ge-toolbar { gap:8px 12px; } .growth-estimation-lab .ge-toolbar > button { margin-left:0; } .growth-estimation-lab .ge-figure text { font-size:20px; } }
