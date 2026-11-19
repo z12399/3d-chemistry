@@ -1,0 +1,87 @@
+.oil-experiment { container-type:inline-size; max-width:1000px; --oil-ink:#1c2732; --oil-gold:#b79a4d; --oil-line:#dfe4e8; }
+.oil-experiment button,.oil-experiment select { font:inherit; cursor:pointer; }
+.oil-experiment button:focus-visible,.oil-experiment select:focus-visible,.oil-experiment input:focus-visible { outline:3px solid #14665d; outline-offset:3px; }
+.oil-toolbar { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:18px; margin:0 0 25px; }
+.oil-route-choice { display:flex; gap:4px; padding:4px; background:#f1f3f5; border-radius:9px; }
+.oil-route-choice button { border:0; background:transparent; border-radius:8px; color:#53606d; padding:9px 17px; font-size:13px; }
+.oil-route-choice button[aria-pressed=true] { background:#fcfcf7; color:#14665d; box-shadow:0 1px 4px #393c2e0e; }
+.oil-option { display:flex; gap:7px; align-items:center; color:#53606d; font-size:13px; }
+.oil-option input { accent-color:#14665d; }
+.oil-stations { display:flex; gap:5px; margin-bottom:23px; flex-wrap:wrap; }
+.oil-stations button { display:flex; flex:1 1 115px; align-items:center; gap:9px; padding:12px 8px; border:0; border-bottom:2px solid #cfd6dc; color:#53606d; background:transparent; font-size:13px; text-align:left; }
+.oil-stations button span { color:#687480; font:13px Georgia,serif; }
+.oil-stations button[aria-current=step] { color:#706532; border-color:#b69b57; }
+.oil-stations button[aria-current=step] span { color:#9b843f; }
+.oil-flow-focus,.oil-neutral-layout,.oil-scene,.oil-stage-info,.oil-neutral-visual,.oil-neutral-controls { min-width:0; }
+.oil-scene { border:1px solid var(--oil-line); border-radius:14px; padding:26px 23px 16px; background:#f1f3f5; }
+.oil-stage-title>span { font-size:13px; letter-spacing:1.4px; color:#687480; }
+.oil-stage-title h4 { font-size:25px; font-weight:500; letter-spacing:.04em; margin:10px 0 0; color:#706a3f; }
+.oil-vessel-diagram svg { width:100%; height:auto; display:block; font-family:inherit; }
+.oil-vessel-diagram text { font-size:12px; fill:#88896f; }
+.oil-vessel-diagram .oil-method { font-size:14px; fill:#89815a; }
+.oil-vessel { fill:none; stroke:#b7b396; stroke-width:1.5; }
+.oil-liquid { fill:#e7d391; opacity:.62; }
+.oil-meniscus { fill:#e4d084; opacity:.8; }
+.oil-pipe { stroke:#b6b499; fill:none; stroke-width:1.5; }
+.oil-outlet { stroke:#a19667; fill:none; stroke-width:1.8; }
+.oil-species { fill:#b59b62; }
+.oil-adsorbent { fill:#8e8a68; }
+.oil-crystal { fill:#fdfbf0; stroke:#b3ac89; stroke-width:1.5; }
+.oil-steam { fill:none; stroke:#fafbf3; stroke-width:3; }
+.oil-figure-note { font-size:13px; color:#687480; line-height:1.8; margin:9px 0 0; }
+.oil-stage-info { padding:14px 2px; }
+.oil-focus-phrase { color:var(--oil-ink); font-size:19px; line-height:1.7; margin:0 0 25px; }
+.oil-stage-info dl { margin:0; }
+.oil-stage-info dl>div { margin:0 0 23px; }
+.oil-stage-info dt { font-size:13px; color:#687480; }
+.oil-stage-info dd { font-size:14px; line-height:1.8; color:#53606d; margin:6px 0 0; }
+.oil-equation { font:18px/1.9 'Cambria Math',Georgia,serif; color:#53606d; overflow-wrap:anywhere; margin:20px 0 0; }
+.oil-flow-footer { display:flex; align-items:center; justify-content:space-between; gap:20px; margin:20px 0 25px; }
+.oil-route-note,.oil-note { font-size:13px; color:#53606d; line-height:1.95; }
+.oil-next,.oil-reset { flex-shrink:0; border:1px solid #dfe4e8; border-radius:6px; padding:10px 14px; background:transparent; color:#53606d; font-size:13px!important; }
+.oil-neutral-visual { padding:27px 25px; background:#f1f3f5; border:1px solid var(--oil-line); border-radius:14px; }
+.oil-reaction-label { font-size:13px; color:#687480; margin:0 0 27px; }
+.oil-reaction { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:7px 10px; color:#747043; font:22px/1.7 'Cambria Math',Georgia,serif; min-height:90px; margin-bottom:36px; }
+.oil-reactant-plus { font-size:18px; color:#53606d; }
+.oil-reaction-arrow { font-size:30px; padding:0 6px; }
+.oil-acid-track { display:flex; overflow:hidden; height:12px; border-radius:7px; background:#dfe4e8; }
+.oil-acid-track.is-empty>div { opacity:0; }
+.oil-acid-remaining { background:#d1b25c; }
+.oil-acid-reacted { background:#929f72; }
+.oil-acid-legend { display:flex; gap:15px; justify-content:space-between; font-size:13px; color:#8b8054; line-height:1.7; margin:10px 0; }
+.oil-acid-legend span+span { color:#53606d; }
+.oil-acid-legend b { font-weight:500; }
+.oil-mass-results { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:23px 18px; margin-top:33px; border-top:1px solid #dfe4e8; padding-top:24px; }
+.oil-mass-results span { display:block; font-size:13px; color:#53606d; }
+.oil-mass-results strong { display:block; font:26px/1.3 Georgia,serif; color:#53606d; margin:8px 0 0; font-variant-numeric:tabular-nums; }
+.oil-mass-results small { font:13px system-ui,sans-serif; color:#687480; }
+.oil-primary-result { margin:23px 0; }
+.oil-primary-result>span,.oil-primary-result>small { display:block; font-size:13px; color:#53606d; }
+.oil-primary-result>output { display:block; font:45px/1.2 Georgia,serif; color:#7b7f4f; margin:6px 0; }
+.oil-select-label { display:block; font-size:13px; color:#53606d; margin:0 0 9px; }
+.oil-neutral-controls select { max-width:100%; width:100%; padding:10px; border:1px solid #cfd6dc; border-radius:8px; color:#53606d; background:#fff; margin:0 0 23px; font-size:13px; }
+.oil-reset { margin-top:15px; }
+.oil-bottom-details { margin-top:25px; }
+.oil-balance { display:grid; grid-template-columns:1fr 1fr; gap:0 24px; margin:20px 0; font-size:13px; color:#53606d; font-variant-numeric:tabular-nums; }
+.oil-balance>div { display:flex; justify-content:space-between; gap:8px; padding:9px 0; border-bottom:1px solid #dfe4e8; }
+.oil-balance dd { margin:0; }
+@container (min-width:680px) {
+  .oil-flow-focus,.oil-neutral-layout { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(0,1fr); gap:35px; align-items:center; }
+  .oil-neutral-layout { align-items:start; }
+}
+@container (max-width:679px) {
+  .oil-stage-info,.oil-neutral-controls { margin-top:25px; }
+  .oil-stations button { flex-basis:85px; font-size:13px; gap:5px; }
+  .oil-balance { grid-template-columns:1fr; }
+}
+@media (max-width:480px) {
+  .oil-scene,.oil-neutral-visual { padding:23px 15px 20px; }
+  .oil-route-choice button { padding:9px 13px; }
+  .oil-vessel-diagram text { font-size:17px; }
+  .oil-vessel-diagram .oil-method { font-size:19px; }
+  .oil-flow-footer { align-items:flex-start; gap:12px; }
+  .oil-next { padding:9px 10px; }
+  .oil-route-note { margin:0; }
+  .oil-reaction { font-size:21px; }
+  .oil-acid-legend { gap:7px; font-size:13px; }
+}

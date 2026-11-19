@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="title desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="title">油品排序，要先選量測的問題</title>
+<desc id="desc">油樣分到誘導期、酸價、p-AV、TPC 四種檢測，量測對象不同而不能互相替代。</desc>
+<defs>
+<marker id="arr-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#14665d"/></marker>
+<marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#53606d"/></marker>
+<marker id="arr-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b4692e"/></marker>
+<marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#6f8fb5"/></marker>
+<marker id="arr-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#b8902a"/></marker>
+</defs>
+<rect width="720" height="500" fill="#ffffff"/>
+<text x="30" y="38" font-size="22" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="30" dy="0">油品排序，要先選量測的問題</tspan></text>
+<text x="30" y="69" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">同一油樣，可以有不同的指標排序</tspan></text>
+<rect x="262" y="96" width="196" height="64" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="360.0" y="135.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">取樣後的油樣</tspan></text>
+<path d="M360 161L360 194" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M106 194L610 194" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 194L100 222" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="25" y="236" width="145" height="143" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="97.5" y="269" font-size="21" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="97.5" dy="0">誘導期</tspan></text>
+<text x="97.5" y="314" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="97.5" dy="0">120°C Rancimat</tspan><tspan x="97.5" dy="27">到判定點的時間</tspan></text>
+<path d="M275 194L275 222" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="200" y="236" width="145" height="143" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="272.5" y="269" font-size="21" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="272.5" dy="0">酸價</tspan></text>
+<text x="272.5" y="314" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="272.5" dy="0">可滴定酸</tspan><tspan x="272.5" dy="27">KOH 當量／油量</tspan></text>
+<path d="M450 194L450 222" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="375" y="236" width="145" height="143" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="447.5" y="269" font-size="21" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="447.5" dy="0">p-AV</tspan></text>
+<text x="447.5" y="314" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="447.5" dy="0">指定顯色分析</tspan><tspan x="447.5" dy="27">氧化指標</tspan></text>
+<path d="M625 194L625 222" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arr-teal)"/>
+<rect x="550" y="236" width="145" height="143" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="622.5" y="269" font-size="21" fill="#14665d" text-anchor="middle" font-weight="600"><tspan x="622.5" dy="0">TPC</tspan></text>
+<text x="622.5" y="314" font-size="17" fill="#1c2732" text-anchor="middle"><tspan x="622.5" dy="0">測油儀探針</tspan><tspan x="622.5" dy="27">總極性物指標</tspan></text>
+<text x="30" y="428" font-size="17" fill="#53606d" text-anchor="start"><tspan x="30" dy="0">誘導期不是炸鍋中的經過時間。</tspan><tspan x="30" dy="25">各指標保留方法、單位與取樣條件，不合成通用油種排名。</tspan></text>
+<text x="688" y="484" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

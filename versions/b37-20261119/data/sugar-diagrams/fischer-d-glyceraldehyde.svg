@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="178" viewBox="0 0 220 178" role="img" aria-label="D-甘油醛的 Fischer 投影：C2 的 OH 在右邊。">
+<rect width="220" height="178" fill="#ffffff"/>
+<g font-family="'Noto Sans TC','Microsoft JhengHei',Arial,sans-serif" font-size="17" fill="#1f2a30" stroke-linecap="round">
+<line x1="110" y1="52" x2="110" y2="124" stroke="#1f2a30" stroke-width="2"/>
+<text x="110" y="44" text-anchor="middle">CHO</text>
+<text x="110" y="144" text-anchor="middle">CH<tspan dy="4" font-size="12">2</tspan><tspan dy="-4">OH</tspan></text>
+<text x="40" y="44" text-anchor="end" font-size="12" fill="#6b7780">1</text>
+<text x="40" y="144" text-anchor="end" font-size="12" fill="#6b7780">3</text>
+<text x="40" y="93" text-anchor="end" font-size="12" fill="#b4532a" font-weight="700">2</text>
+<line x1="76" y1="88" x2="144" y2="88" stroke="#b4532a" stroke-width="2.6"/>
+<text x="148" y="94" text-anchor="start" fill="#b4532a" font-weight="700">OH</text>
+<text x="72" y="94" text-anchor="end">H</text>
+<text x="110" y="166" text-anchor="middle" font-size="13" fill="#b4532a">OH 在右：D</text>
+</g>
+</svg>

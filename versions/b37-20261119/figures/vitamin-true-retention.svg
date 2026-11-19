@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="vitamin-true-retention-title vitamin-true-retention-desc">
+<title id="vitamin-true-retention-title">真保留率：先把濃度換成總量</title>
+<desc id="vitamin-true-retention-desc">加工前總量作分母；加工後固體與湯汁分別以濃度乘質量，只加總指定食用部分，未回收量需另查原因。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">真保留率：先把濃度換成總量</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="90" width="208" height="84" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="136.0" y="125.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">加工前同批食品</text>
+<text x="136.0" y="151.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">C₀ × m₀</text>
+<text x="494" y="75" font-size="18" fill="#14665d" text-anchor="middle" font-weight="400">加工後分流</text>
+<path d="M243 131 H264 V89 H594" fill="none" stroke="#14665d" stroke-width="2.5"/>
+<path d="M384 89 V116" fill="none" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M594 89 V116" fill="none" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="300" y="120" width="168" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="384.0" y="155.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">固體</text>
+<text x="384.0" y="181.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">C固 × m固</text>
+<rect x="500" y="120" width="188" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="594.0" y="155.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">湯汁</text>
+<text x="594.0" y="181.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">C湯 × m湯</text>
+<path d="M384 207 V230 H506" fill="none" stroke="#14665d" stroke-width="2"/>
+<path d="M594 207 V230 H506" fill="none" stroke="#14665d" stroke-width="2"/>
+<rect x="302" y="253" width="386" height="80" rx="12" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="495" y="284" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600">只加總指定吃下的部分</text>
+<text x="495" y="314" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">Σ(Cᵢ × mᵢ)</text>
+<path d="M506 230 V249" fill="none" stroke="#14665d" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="34" y="227" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">C：mg/g</text>
+<text x="34" y="253" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">m：g</text>
+<text x="34" y="279" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">每部分得到 mg</text>
+<text x="360" y="364" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">真保留率 ＝ Σ(Cᵢ × mᵢ) / (C₀ × m₀) × 100%</text>
+<rect x="32" y="403" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="429" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">每 100 g 的濃度不能直接替代總量；失水可能使濃度升高。</text>
+<text x="46" y="454" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">未回收量：降解、未收集滴液或分析差異，需分開查證。</text>
+<text x="680" y="507" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

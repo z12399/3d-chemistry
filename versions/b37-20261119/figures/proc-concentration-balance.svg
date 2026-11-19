@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">濃縮：總量與固形物都要守恆</title>
+<desc id="figure-desc">理想穩態蒸發器將進料分成濃縮液與純水蒸氣，固形物全部留在產品；以教材果汁流量示範兩個衡算。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">濃縮：總量與固形物都要守恆</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">理想穩態：蒸氣純水，固形物全數保留</tspan></text>
+<rect x="32" y="236" width="187" height="117" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="125.5" y="273.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="125.5" dy="0">進料 F</tspan><tspan x="125.5" dy="28">500 kg/h</tspan><tspan x="125.5" dy="28">固形物 20%</tspan></text>
+<path d="M 232 294 L 282 294" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="295" y="236" width="132" height="117" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="361.0" y="301.5" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="361.0" dy="0">蒸發器</tspan></text>
+<path d="M 440 294 L 491 294" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="504" y="236" width="184" height="117" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="596.0" y="273.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="596.0" dy="0">產品 P</tspan><tspan x="596.0" dy="28">200 kg/h</tspan><tspan x="596.0" dy="28">固形物 50%</tspan></text>
+<path d="M 361 224 L 361 188" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<rect x="246" y="91" width="230" height="85" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="361.0" y="126.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="361.0" dy="0">純水蒸氣 V</tspan><tspan x="361.0" dy="28">300 kg/h</tspan></text>
+<text x="125" y="389" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="125" dy="0">固形物 100 kg/h</tspan></text>
+<text x="596" y="389" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="596" dy="0">固形物 100 kg/h</tspan></text>
+<rect x="32" y="426" width="656" height="57" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360" y="462" font-size="24" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">F＝P＋V；F xF＝P xP</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
