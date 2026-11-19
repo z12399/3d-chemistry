@@ -1,0 +1,99 @@
+/* One visible cycle; property tables and detailed controls unfold on demand. */
+.refrigeration-experiment { container-type:inline-size; max-width:940px; }
+.ref-layout,.ref-panel,.ref-visual { min-width:0; }
+.ref-visual { background:#f1f3f5; border:1px solid var(--exp-line); border-radius:14px; padding:22px 14px 15px; }
+.ref-cycle svg,.ref-ph svg { width:100%; height:auto; display:block; overflow:visible; font-family:inherit; }
+.ref-cycle { max-width:520px; margin:auto; overflow-x:auto; padding-bottom:8px; }
+.ref-cycle svg,.ref-ph svg { min-width:420px; }
+.ref-cycle text { fill:#605e54; font-size:16px; }
+.ref-cycle .ref-center { fill:#827862; font-size:18px; letter-spacing:2px; }
+.ref-cycle .ref-sub { font-size:16px; fill:#938d7f; }
+.ref-pipe { stroke:currentColor; fill:none; stroke-width:2; }
+.ref-cycle .ref-cold { color:#618477; fill:#618477; }
+.ref-cycle .ref-hot { color:#b87558; fill:#b87558; }
+.ref-cycle .ref-work { color:#a58a4f; fill:#967b40; }
+.ref-energy { stroke:currentColor; stroke-width:1.6; }
+.ref-device { cursor:pointer; }
+.ref-device:hover rect { stroke:#7b937c; }
+.ref-device rect { fill:#faf8f0; stroke:#d7d4c8; stroke-width:1.5; }
+.ref-device.is-selected rect { fill:#e6eee5; stroke:#618477; stroke-width:2; }
+.ref-device.hot.is-selected rect { fill:#f3e4d9; stroke:#b87558; }
+.ref-device.work.is-selected rect { fill:#f0e9d8; stroke:#a58a4f; }
+.ref-device text { fill:#4c554a; font-size:16px; }
+.ref-state circle { fill:#f3f1e9; stroke:#c4c5b7; }
+.ref-state text { fill:#565d52; font-size:16px; }
+.ref-steps { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:4px; margin:27px 0 0; }
+.ref-steps button { border:0; border-bottom:2px solid transparent; padding:8px 0; background:transparent; color:#53606d; font:inherit; font-size:16px; cursor:pointer; }
+.ref-steps button span { display:block; font-size:16px; margin-bottom:5px; }
+.ref-steps button[aria-pressed=true] { border-color:#14665d; color:#14665d; }
+.ref-step { padding:20px 5px 0; }
+.ref-step-title { margin:0 0 8px; font-size:16px; color:#53606d; }
+.ref-step-equation { margin:0 0 10px; color:#53606d; font:25px/1.3 'Cambria Math',Georgia,serif; }
+.ref-step-description { margin:0; font-size:16px; color:#53606d; line-height:1.85; }
+.ref-next { display:block; margin:7px 5px 0 auto; padding:8px 0; background:transparent; border:0; font:inherit; font-size:16px; color:#53606d; cursor:pointer; }
+.ref-result { padding:0 0 22px; }
+.ref-result > span,.ref-result p { color:var(--exp-muted); font-size:16px; }
+.ref-cop { display:block; margin:6px 0; font:52px/1.1 Georgia,serif; color:#53606d; font-variant-numeric:tabular-nums; }
+.ref-result p { margin:8px 0 0; }
+.ref-energy-balance { margin:25px 0 18px; }
+.ref-energy-balance > p { margin:0 0 9px; font-size:16px; color:var(--exp-muted); }
+.ref-energy-bar { display:flex; height:8px; gap:3px; border-radius:4px; overflow:hidden; }
+.ref-cooling-share { background:#80a18a; }
+.ref-work-share { background:#bea466; }
+.ref-balance { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:9px; margin-top:13px; color:var(--exp-muted); font-size:16px; }
+.ref-balance strong { display:block; margin-top:4px; font-size:18px; font-weight:500; color:var(--exp-ink); font-variant-numeric:tabular-nums; }
+.ref-formula { margin:18px 0; font:21px/1.55 'Cambria Math',Georgia,serif; color:var(--exp-ink); }
+.ref-formula small { font-size:16px; color:var(--exp-muted); }
+.ref-scope,.ref-note { color:var(--exp-muted); font-size:16px; line-height:1.85; }
+.ref-scope { border-left:2px solid var(--exp-line); padding-left:11px; margin:20px 0; }
+.ref-power,.ref-quality,.ref-pressures { font-size:16px; line-height:1.85; color:#53606d; }
+.ref-reset { margin:16px 0 0; padding:8px 14px; font:inherit; font-size:16px; color:var(--exp-muted); border:1px solid var(--exp-line); background:transparent; border-radius:6px; cursor:pointer; }
+.refrigeration-experiment button:focus-visible { outline:3px solid var(--exp-accent); outline-offset:3px; }
+.ref-properties { margin-top:28px; }
+.ref-ph { width:100%; max-width:520px; overflow-x:auto; padding-bottom:8px; }
+.ref-ph text { fill:#727469; font-size:16px; }
+.ref-grid { stroke:#e2e0d6; fill:none; stroke-width:1; }
+.ref-saturation { stroke:#c4c7b9; fill:none; stroke-width:1.6; }
+.ref-cycle-line { stroke:#a0b4a0; stroke-width:1.5; fill:none; }
+.ref-cycle-line.is-selected { stroke:#517863; stroke-width:3.5; }
+.ref-compression { stroke-dasharray:5 4; }
+.ref-point { fill:#faf8ef; stroke:#517863; stroke-width:1.5; }
+.ref-ph .ref-point-label { font-size:16px; font-weight:600; fill:#43634c; }
+.ref-table-scroll { max-width:100%; overflow-x:auto; }
+.ref-table-scroll table { width:100%; min-width:350px; border-collapse:collapse; font-size:16px; font-variant-numeric:tabular-nums; }
+.ref-table-scroll caption { text-align:left; font-size:16px; color:var(--exp-muted); margin-bottom:12px; }
+.ref-table-scroll th,.ref-table-scroll td { padding:11px 5px; border-bottom:1px solid var(--exp-line); text-align:right; white-space:nowrap; }
+.ref-table-scroll th { font-weight:500; }
+.ref-table-scroll th:first-child { text-align:left; }
+.ref-table-scroll th small { display:block; color:var(--exp-muted); font-size:16px; margin-top:4px; }
+.ref-property-layout > div { min-width:0; }
+.ref-loading,.ref-load-error { padding:30px 0; font-size:16px; color:#53606d; }
+@container (min-width:800px) {
+  .ref-layout { display:grid; grid-template-columns:minmax(452px,1.3fr) minmax(0,1fr); gap:28px; align-items:start; }
+  .ref-visual { position:sticky; top:96px; }
+
+}
+@container (max-width:799px) {
+  .ref-panel { margin-top:30px; }
+}
+@container (min-width:840px) {
+  .ref-property-layout { display:grid; grid-template-columns:minmax(420px,1.2fr) minmax(350px,1fr); gap:28px; align-items:start; }
+}
+.refrigeration-experiment .food-exp-heading h3 { font-size:clamp(23px,3cqi,28px); line-height:1.4; }
+.refrigeration-experiment .food-exp-kicker,.refrigeration-experiment .food-exp-hint,
+.refrigeration-experiment .food-exp-control-label,.refrigeration-experiment .food-exp-endpoints,
+.refrigeration-experiment .food-exp-details summary,.refrigeration-experiment .food-exp-details-body,
+.refrigeration-experiment .food-exp-sources,.refrigeration-experiment .food-exp-sources a { font-size:16px; line-height:1.8; }
+.refrigeration-experiment .food-exp-control-label { flex-wrap:wrap; gap:6px 16px; }
+.refrigeration-experiment .food-exp-control-label output { white-space:nowrap; }
+.refrigeration-experiment input[type=range] { min-height:30px; }
+.ref-cycle:focus-visible,.ref-ph:focus-visible,.ref-table-scroll:focus-visible { outline:3px solid var(--exp-accent); outline-offset:3px; }
+.ref-steps button,.ref-next,.ref-reset { min-height:44px; }
+.ref-balance { gap:8px; line-height:1.65; }
+.ref-property-layout { row-gap:24px; }
+@media (max-width:480px) {
+  .ref-visual { padding:20px 5px 12px; }
+  .ref-step { padding-inline:9px; }
+  .ref-next { margin-right:9px; }
+  .ref-table-scroll th,.ref-table-scroll td { padding-inline:5px; }
+}
