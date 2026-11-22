@@ -1,0 +1,74 @@
+/* 全站外框（b31，2026-11-18）：每一頁上方同一列——左邊站名，右邊五個入口，最後一個安靜的「更多」。
+   每一頁都連結這一份（index.html 經 index.bundle.css 合成），各頁 CSS 不再各自寫頂欄；
+   數值不靠各頁的變數，換頁時高度、留白、寬度、底色都一樣；只有深色模式的頁面（exam-map.css）用 --frame-* 換色。 */
+.site-header {
+  box-sizing: border-box; position: relative; z-index: 40;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 6px 24px;
+  max-width: 1200px; margin: 0 auto; padding: 14px 24px;
+  background: transparent; color: var(--frame-ink, #17232d);
+  font-family: 'Segoe UI', 'Microsoft JhengHei UI', 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans TC', system-ui, sans-serif;
+  font-size: 16px; line-height: 1.5;
+}
+.site-header *, .site-header *::before, .site-header *::after { box-sizing: border-box; }
+.site-header .brand {
+  order: 0; display: flex; align-items: center; gap: 0; min-height: 44px; margin: 0; padding: 0;
+  color: var(--frame-ink, #17232d); font-size: 1.0625rem; font-weight: 700; letter-spacing: .02em; text-decoration: none; white-space: nowrap;
+}
+.site-header .brand:hover { color: var(--frame-accent, #11665a); }
+.site-nav { order: 1; display: flex; flex-wrap: wrap; gap: 2px 4px; margin-left: auto; }
+.site-nav a {
+  display: flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 10px;
+  color: var(--frame-muted, #3f4c57); font-size: .95rem; font-weight: 500; text-decoration: none; white-space: nowrap;
+}
+.site-nav a:hover { background: var(--frame-hover, #e8eae3); color: var(--frame-ink, #17232d); }
+.site-nav a[aria-current=page] { background: var(--frame-panel, #fff); color: var(--frame-accent, #11665a); font-weight: 650; box-shadow: 0 1px 2px #17232d14, 0 0 0 1px var(--frame-line, #e1e4de); }
+.site-header a:focus-visible, .site-more > summary:focus-visible, .site-more-panel button:focus-visible { outline: 3px solid #187766; outline-offset: 2px; }
+
+/* 「更多」：跟五個入口同一種字，只多一個小箭頭；打開是一張兩欄的白卡 */
+.site-more { order: 2; position: relative; margin: 0 0 0 -16px; }
+.site-more > summary {
+  display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; border-radius: 10px;
+  color: var(--frame-muted, #3f4c57); font-size: .95rem; font-weight: 500; list-style: none; cursor: pointer; user-select: none; white-space: nowrap;
+}
+.site-more > summary::-webkit-details-marker { display: none; }
+.site-more > summary::after {
+  content: ''; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor;
+  transform: translateY(-2px) rotate(45deg); opacity: .7;
+}
+.site-more[open] > summary::after { transform: translateY(1px) rotate(-135deg); }
+.site-more > summary:hover, .site-more[open] > summary { background: var(--frame-hover, #e8eae3); color: var(--frame-ink, #17232d); }
+/* 目前在「更多」裡的頁面（筆記、跨科專題、怎麼用、3D 工具）時，「更多」也標成目前所在；切換學科的標示不算 */
+.site-more:has(.site-more-panel a[data-learning][aria-current=page]) > summary, .site-more:has(.site-more-panel button.active) > summary { color: var(--frame-accent, #11665a); font-weight: 650; }
+.site-more-panel {
+  position: absolute; right: 0; top: calc(100% + 6px);
+  display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 12px;
+  width: 448px; max-width: calc(100vw - 32px); padding: 10px;
+  border: 1px solid var(--frame-line, #e1e4de); border-radius: 14px; background: var(--frame-panel, #fff);
+  box-shadow: 0 2px 4px #17232d0d, 0 14px 32px #17232d1f;
+}
+.site-more-col { display: flex; flex-direction: column; min-width: 0; }
+.site-more-col > * + .site-more-title { margin-top: 8px; padding-top: 10px; border-top: 1px solid var(--frame-line, #eceee8); }
+.site-more-title { margin: 4px 10px 2px; color: var(--frame-faint, #66727d); font-size: .8125rem; font-weight: 600; line-height: 1.6; }
+.site-more-panel a, .site-more-panel button {
+  display: flex; align-items: center; width: 100%; min-height: 40px; margin: 0; padding: 0 10px;
+  border: 0; border-radius: 8px; background: none; box-shadow: none;
+  color: var(--frame-ink, #17232d); font: inherit; font-size: .9375rem; font-weight: 500; line-height: 1.4; text-align: left; text-decoration: none; cursor: pointer;
+}
+.site-more-panel a:hover, .site-more-panel button:hover { background: var(--frame-hover, #f0f2ec); color: var(--frame-ink, #17232d); }
+.site-more-panel a[aria-current=page], .site-more-panel a.active, .site-more-panel button.active { background: var(--frame-current, #e3f1ec); color: var(--frame-accent, #11665a); font-weight: 650; }
+.site-more-col > .site-more-end { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--frame-line, #eceee8); }
+
+/* 手機：站名與「更多」一列，五個入口一列 */
+@media (max-width: 640px) {
+  .site-header { padding: 8px 12px 6px 16px; gap: 0 12px; }
+  .site-nav { order: 2; width: 100%; margin: 0 0 0 -9px; gap: 0 2px; }
+  .site-nav a { padding: 0 9px; font-size: .9rem; }
+  .site-more { order: 1; margin-left: auto; }
+  .site-more > summary { padding: 0 10px; font-size: .9rem; }
+  .site-more-panel { position: fixed; left: 8px; right: 8px; top: 56px; width: auto; max-width: none; max-height: calc(100vh - 74px); overflow: auto; }
+}
+@media (max-width: 359px) {
+  .site-nav a { padding: 0 6px; font-size: .875rem; }
+  .site-more-panel { grid-template-columns: minmax(0, 1fr); }
+}
+@media print { .site-more { display: none; } }
