@@ -1,0 +1,81 @@
+.sake-fermentation-lab { --sake-ink:#1c2732;--sake-muted:#53606d;--sake-line:#dfe4e8;--sake-paper:#fff;--sake-sugar:#426c50;--sake-acid:#775582;--sake-accent:#a05835;width:100%;max-width:1140px;min-width:0;margin:0 auto;color:var(--sake-ink);font-size:16px;line-height:1.6; }
+.sake-fermentation-lab *,.sake-fermentation-lab *::before,.sake-fermentation-lab *::after { box-sizing:border-box; }
+.sake-fermentation-lab [hidden] { display:none!important; }
+.sake-fermentation-lab h2 { font-size:23px;line-height:1.35;font-weight:550;margin:0; }
+.sake-fermentation-lab h3 { font-size:19px;line-height:1.45;font-weight:550;margin:0 0 8px; }
+.sake-fermentation-lab p { margin:8px 0 12px; }
+.sake-heading { display:flex;align-items:baseline;flex-wrap:wrap;gap:4px 18px;margin:0 0 10px; }
+.sake-heading p { margin:0;color:var(--sake-muted); }
+.sake-fermentation-lab button { min-height:44px;max-width:100%;padding:8px 14px;border:1px solid #cfd6dc;border-radius:8px;background:#f6f7f8;color:var(--sake-ink);font:inherit;font-size:16px;line-height:1.5;cursor:pointer; }
+.sake-fermentation-lab button[aria-pressed="true"] { border-color:#14665d;box-shadow:inset 0 0 0 1px #14665d;background:#e7f1ee;color:#14665d; }
+.sake-fermentation-lab button:disabled { opacity:.5;cursor:default; }
+.sake-fermentation-lab .sake-primary { color:#fff;background:#14665d;border-color:#14665d; }
+.sake-tabs { display:flex;gap:10px;border-bottom:1px solid var(--sake-line);padding:0 0 12px;margin-bottom:14px; }
+.sake-tabs button { flex:1; }
+.sake-top-controls { display:flex;align-items:end;flex-wrap:wrap;justify-content:space-between;gap:12px 20px;margin-bottom:10px; }
+.sake-stage-controls,.sake-role-controls { display:flex;align-items:center;flex-wrap:wrap;gap:8px; }
+.sake-stage-controls > span,.sake-role-controls > span { color:var(--sake-muted);margin-right:4px; }
+.sake-role-controls { margin:0 0 12px; }
+.sake-method { width:235px;max-width:100%; }
+.sake-fermentation-lab label { display:block;min-width:0;color:var(--sake-muted);font-size:16px; }
+.sake-fermentation-lab :is(select,textarea) { width:100%;min-width:0;max-width:100%;min-height:44px;margin:5px 0 0;padding:8px 10px;border:1px solid #cfd6dc;border-radius:8px;background:var(--sake-paper);color:var(--sake-ink);font:inherit;font-size:16px; }
+.sake-fermentation-lab textarea { min-height:115px;resize:vertical;line-height:1.65; }
+.sake-fermentation-lab textarea[readonly] { background:#f6f7f8; }
+.sake-diagram-scroll { width:100%;max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;border:1px solid var(--sake-line);border-radius:5px;background:var(--sake-paper); }
+.sake-diagram { display:block;width:100%;min-width:660px;height:auto; }
+.sake-diagram text { fill:var(--sake-ink);font:23px sans-serif; }
+.sake-diagram .sake-node rect { fill:#f5f6ef;stroke:#a8b69f;stroke-width:1.5; }
+.sake-diagram .sake-node.is-highlighted rect { fill:#f4e7d4;stroke:var(--sake-accent);stroke-width:2.5; }
+.sake-diagram .sake-node-actor rect { fill:#ecf1e6; }
+.sake-diagram .sake-node-environment rect { fill:#f3edf5;stroke:#b5a3bd; }
+.sake-diagram .sake-node.is-highlighted text { font-weight:600; }
+.sake-diagram .sake-edge { fill:none;stroke:#95a18f;stroke-width:2.2; }
+.sake-diagram .sake-edge.is-highlighted { stroke:var(--sake-accent);stroke-width:3.5; }
+.sake-diagram .sake-edge-environment { stroke:var(--sake-acid);stroke-dasharray:8 6; }
+.sake-diagram .sake-edge-purpose { stroke:#677581;stroke-dasharray:2 5; }
+.sake-diagram .sake-catalysis { stroke:#779071;stroke-width:1.5;fill:none; }
+.sake-diagram .sake-edge-label { fill:var(--sake-muted);font-size:23px; }
+.sake-diagram .sake-parallel { fill:#45664b;font-size:23px; }
+.sake-diagram .sake-stage-note { fill:var(--sake-muted);font-size:23px; }
+.sake-legend { display:flex;flex-wrap:wrap;gap:4px 18px;margin:7px 0 0;color:var(--sake-muted);font-size:16px; }
+.sake-legend span { display:flex;align-items:center;gap:7px; }
+.sake-legend span::before { content:"";display:inline-block;width:32px;border-top:2px solid #cfd6dc; }
+.sake-legend .sake-environment-key::before { border-top-style:dashed;border-color:var(--sake-acid); }
+.sake-legend .sake-purpose-key::before { border-top-style:dotted;border-color:#677581; }
+.sake-result { padding:12px 0 8px;border-bottom:1px solid var(--sake-line);margin-bottom:8px; }
+.sake-result .sake-result-label { color:var(--sake-muted);margin:0 0 4px; }
+.sake-result .sake-result-main { font-size:19px;line-height:1.6;margin:0 0 5px; }
+.sake-fermentation-lab .sake-caption { color:var(--sake-muted);font-size:16px;line-height:1.6; }
+.sake-result .sake-caption { margin-bottom:4px; }
+.sake-current-result { padding:2px 0 8px;border-bottom:0;margin-bottom:0; }
+.sake-current-result .sake-result-label { margin-bottom:2px; }
+.sake-source-short { display:flex;flex-wrap:wrap;gap:6px 16px;margin:8px 0 0; }
+.sake-cross-links { display:flex;flex-wrap:wrap;gap:8px 22px;margin:12px 0;font-size:16px; }
+.sake-study-controls { display:grid;grid-template-columns:minmax(200px,300px) 1fr;align-items:end;gap:12px 22px;margin:0 0 12px; }
+.sake-study-controls p { margin:0;color:var(--sake-muted); }
+.sake-study-list { border-top:1px solid var(--sake-line); }
+.sake-study-row { display:grid;grid-template-columns:115px minmax(0,1fr);gap:15px;padding:14px 12px;border-bottom:1px solid var(--sake-line); }
+.sake-study-row.is-selected { background:#e7f1ee;box-shadow:inset 3px 0 0 var(--sake-accent); }
+.sake-study-label { align-self:center;color:var(--sake-muted); }
+.sake-study-steps { display:flex;align-items:stretch;gap:26px;min-width:0; }
+.sake-study-step { position:relative;flex:1;min-width:0; }
+.sake-study-step + .sake-study-step::before { content:"→";position:absolute;left:-22px;top:2px;color:var(--sake-muted); }
+.sake-study-step strong { display:block;font-weight:550;font-size:18px; }
+.sake-study-step p { margin:3px 0 0;font-size:16px;color:var(--sake-muted); }
+.sake-study-key { color:var(--sake-muted);font-size:16px;margin:9px 0 0!important; }
+.sake-fermentation-lab details { border-top:1px solid var(--sake-line);margin:0;padding:6px 0; }
+.sake-fermentation-lab summary { min-height:44px;padding:8px 0;color:var(--sake-muted);font-size:16px;cursor:pointer; }
+.sake-detail-body { padding:8px 0 12px; }
+.sake-detail-body article { padding:12px 0;border-bottom:1px solid var(--sake-line); }
+.sake-detail-body article:last-child { border-bottom:0; }
+.sake-detail-body ul { padding-left:24px; }
+.sake-detail-body li { margin:6px 0; }
+.sake-raw { white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;font-size:16px;line-height:1.7;margin:12px 0; }
+.sake-record-bar,.sake-save,.sake-buttons { display:flex;align-items:center;flex-wrap:wrap;gap:10px 18px;margin:14px 0; }
+.sake-record-bar span,.sake-save p { color:var(--sake-muted); }
+.sake-save p { margin:0; }
+.sake-save a { margin-left:auto; }
+.sake-fermentation-lab a { color:#14665d;overflow-wrap:anywhere; }
+.sake-fermentation-lab :is(button,select,textarea,summary,a,[tabindex]):focus-visible { outline:3px solid #14665d;outline-offset:3px; }
+@media(max-width:800px) { .sake-top-controls { align-items:start; }.sake-method { width:100%; }.sake-method select { max-width:360px; }.sake-study-controls { grid-template-columns:1fr; }.sake-study-row { grid-template-columns:90px minmax(0,1fr);gap:10px; }.sake-study-steps { gap:22px; } }
+@media(max-width:520px) { .sake-tabs { gap:8px; }.sake-tabs button { padding:8px; }.sake-stage-controls,.sake-role-controls { gap:7px; }.sake-stage-controls > span,.sake-role-controls > span { flex-basis:100%; }.sake-study-row { grid-template-columns:1fr;padding:12px; }.sake-study-steps { flex-direction:column;gap:20px; }.sake-study-step + .sake-study-step::before { content:"↓";left:0;top:-22px; }.sake-save a { margin-left:0; } }

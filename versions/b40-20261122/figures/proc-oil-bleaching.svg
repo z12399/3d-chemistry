@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">脫色：先吸附，再移走固體</title>
+<desc id="figure-desc">脫色以活性白土或活性碳吸附色素等雜質，再過濾移除吸附劑；吸附劑也可能促進氫過氧化物分解，因此脫色後過氧化價下降不代表氧化被逆轉。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">脫色：先吸附，再移走固體</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">活性白土或活性碳提供吸附表面</tspan></text>
+<rect x="32" y="123" width="180" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="270" y="123" width="180" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="508" y="123" width="180" height="205" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122" y="158" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="122" dy="0">油中色素</tspan></text>
+<text x="360" y="158" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360" dy="0">吸附在固體上</tspan></text>
+<text x="598" y="158" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="598" dy="0">過濾分離</tspan></text>
+<circle cx="75" cy="214" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="115" cy="253" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="168" cy="206" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="163" cy="278" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<rect x="309" y="196" width="102" height="98" rx="5" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<circle cx="309" cy="214" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="338" cy="196" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="411" cy="228" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<circle cx="378" cy="294" r="6" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<path d="M 544 193 L 544 296" fill="none" stroke="#53606d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 535 205 L 553 218 M 535 234 L 553 247 M 535 263 L 553 276" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 565 245 L 660 245" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="615" y="281" font-size="19" fill="#1c2732" text-anchor="middle"><tspan x="615" dy="0">油相</tspan></text>
+<path d="M 220 225 L 260 225" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 458 225 L 498 225" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<path d="M 544 337 L 544 365 L 405 365" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-muted)"/>
+<text x="385" y="372" font-size="19" fill="#1c2732" text-anchor="end"><tspan x="385" dy="0">吸附劑與附著成分移出</tspan></text>
+<rect x="42" y="404" width="636" height="61" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="441.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">過氧化價下降，也可能來自氫過氧化物分解。</tspan></text>
+<text x="32" y="494" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">指標下降不能證明氧化被逆轉；還要比較油回收率。</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
