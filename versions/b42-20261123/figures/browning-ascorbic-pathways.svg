@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">抗壞血酸：保護與降解兩個階段</title>
+<desc id="figure-desc">抗壞血酸還原醌並自身氧化為 DHA；DHA 可降解為羰基參與非酵素褐變，酸與熱另可支持無氧降解。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="540" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">抗壞血酸：保護與降解兩個階段</tspan></text>
+<text x="50" y="90" font-size="20" fill="#14665d" text-anchor="start"><tspan x="50" dy="0">延緩酵素褐變：還原與氧化配對</tspan></text>
+<rect x="48" y="110" width="150" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="123.0" y="150.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="123.0" dy="0">醌</tspan></text>
+<path d="M 211 143 L 333 143" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="254" y="130" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="254" dy="0">還原</tspan></text>
+<rect x="346" y="110" width="150" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="421.0" y="150.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="421.0" dy="0">酚</tspan></text>
+<rect x="48" y="208" width="150" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="123.0" y="248.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="123.0" dy="0">AA</tspan></text>
+<path d="M 211 241 L 333 241" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="254" y="228" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="254" dy="0">自身氧化</tspan></text>
+<rect x="346" y="208" width="150" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="421.0" y="248.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="421.0" dy="0">DHA</tspan></text>
+<path d="M 272 159 L 272 208" fill="none" stroke="#53606d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M 510 241 L 551 241" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="563" y="208" width="125" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="625.5" y="234.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="625.5" dy="0">反應性</tspan><tspan x="625.5" dy="28">羰基</tspan></text>
+<path d="M 625 286 L 625 331" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="608" y="315" font-size="18" fill="#1c2732" text-anchor="end"><tspan x="608" dy="0">參與</tspan></text>
+<rect x="510" y="343" width="178" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="599.0" y="385.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="599.0" dy="0">非酵素褐變</tspan></text>
+<path d="M 123 286 L 123 379 L 270 379" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="145" y="319" font-size="18" fill="#b4692e" text-anchor="start"><tspan x="145" dy="0">酸／熱，無氧途徑</tspan></text>
+<rect x="282" y="343" width="188" height="70" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="376.0" y="371.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="376.0" dy="0">降解產物</tspan><tspan x="376.0" dy="28">可含糠醛</tspan></text>
+<text x="32" y="463" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">除氧不能刪掉所有降解路徑；</tspan><tspan x="32" dy="25">兩分支的速率與產物量不由此圖推定。</tspan></text>
+<text x="688" y="522" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

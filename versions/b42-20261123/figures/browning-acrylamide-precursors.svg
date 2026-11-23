@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 510" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">丙烯醯胺：先追前驅物</title>
+<desc id="figure-desc">游離天門冬醯胺與羰基在加熱下經席夫鹼及脫羧等中間步驟生成丙烯醯胺；酵素降低 Asn 是另一條前驅物處理支路。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="510" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">丙烯醯胺：先追前驅物</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">反應網路摘要；不由烤色推算含量</tspan></text>
+<rect x="35" y="120" width="175" height="92" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="122.5" y="159.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="122.5" dy="0">游離 Asn</tspan><tspan x="122.5" dy="28">＋反應性羰基</tspan></text>
+<path d="M 221 166 L 269 166" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="245" y="148" font-size="18" fill="#1c2732" text-anchor="middle"><tspan x="245" dy="0">高溫</tspan></text>
+<rect x="280" y="120" width="168" height="92" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="364.0" y="173.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="364.0" dy="0">席夫鹼</tspan></text>
+<path d="M 459 166 L 507 166" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="518" y="120" width="167" height="92" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="601.5" y="159.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="601.5" dy="0">脫羧等</tspan><tspan x="601.5" dy="28">中間步驟</tspan></text>
+<path d="M 601 224 L 601 284 L 454 284" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="264" y="251" width="178" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="353.0" y="291.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="353.0" dy="0">丙烯醯胺</tspan></text>
+<rect x="35" y="364" width="150" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="110.0" y="404.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="110.0" dy="0">Asn ＋ 水</tspan></text>
+<path d="M 197 397 L 374 397" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="286" y="377" font-size="18" fill="#b4692e" text-anchor="middle"><tspan x="286" dy="0">天門冬醯胺酶</tspan></text>
+<rect x="387" y="364" width="298" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="536.0" y="390.0" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="536.0" dy="0">Asp⁻ ＋ NH₄⁺</tspan><tspan x="536.0" dy="28">降低可反應的游離 Asn</tspan></text>
+<text x="32" y="473" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">減少前驅物可減少生成；效果仍須分析成品。</tspan></text>
+<text x="688" y="492" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
