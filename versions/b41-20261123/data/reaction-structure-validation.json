@@ -1,0 +1,211 @@
+{
+  "status": "PASS",
+  "count": 29,
+  "checks": [
+    {
+      "id": "fructose-open",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "mannose-open",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "sorbitol",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "mannitol",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "gluconic-acid",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucuronic-acid",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucaric-acid",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "methyl-alpha-glucoside",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucose-6-phosphate",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucose-pentaacetate",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucose-enediol",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "xylose-open",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucose-glycine-imine",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "amadori-glycine",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "heyns-glycine",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "hmf",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "furfural",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "levulinic-acid",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "formic-acid",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glycine",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "methylglyoxal",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "formaldehyde",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "sucrose",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "maltose",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "lactose",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "fructose-furanose",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "galactose-beta",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "glucono-delta-lactone",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    },
+    {
+      "id": "ethylene-glycol",
+      "formula": true,
+      "exported3DInchi": true,
+      "valence": true,
+      "bondLengths": true
+    }
+  ],
+  "smallMoleculePubChemIdentityMatches": 7,
+  "limits": "Representative structures only; no reaction trajectories or barriers validated."
+}

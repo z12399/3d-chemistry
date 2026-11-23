@@ -1,0 +1,424 @@
+{
+  "schemaVersion": 1,
+  "sourceCheckedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "alkaline-lactate-r",
+      "name": "（2R）乳酸根 · 可能端點（比例未測）",
+      "formula": "C3H5O3-",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -0.80879,
+            0.012764,
+            0.040792
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            0.704783,
+            -0.09826,
+            0.401464
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O1b",
+          "element": "O",
+          "position": [
+            -1.494091,
+            -1.040744,
+            0.138467
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            1.383359,
+            -1.214222,
+            -0.364771
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1a",
+          "element": "O",
+          "position": [
+            -1.153465,
+            1.188861,
+            -0.3002
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            1.368204,
+            1.1516,
+            0.084248
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_C2_1",
+          "element": "H",
+          "position": [
+            0.799887,
+            -0.253213,
+            1.480923
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_C3_1",
+          "element": "H",
+          "position": [
+            2.457361,
+            -1.230255,
+            -0.151215
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C3_2",
+          "element": "H",
+          "position": [
+            1.276834,
+            -1.065869,
+            -1.445248
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C3_3",
+          "element": "H",
+          "position": [
+            0.962279,
+            -2.191867,
+            -0.111216
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_O2_1",
+          "element": "H",
+          "position": [
+            0.599542,
+            1.718619,
+            -0.178127
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O2"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "O1a",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2_1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "H_O2_1",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.ebi.ac.uk/chebi/CHEBI:16004",
+        "sourceMolfile": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/16004",
+        "sourcePubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5460179",
+        "sourcePubchemProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5460179/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "chebiId": 16004,
+        "pubchemCid": 5460179,
+        "sourceMolfileSha256": "ddbb559d93cd576a0e31ee90eb8920bd3d8785234353922b4b94af722559e517",
+        "sourcePubchemSha256": "a33cac9dfb9629271452869eb2918766e07e9d4d42cfd27e6abcfe7df0dc673c",
+        "sourceInchi": "InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m1/s1",
+        "sourceInchiKey": "JVTAAEKCZFNVCJ-UWTATZPHSA-M",
+        "inchi": "InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m1/s1",
+        "smiles": "C[C@@H](O)C(=O)[O-]",
+        "method": "RDKit ETKDGv3 16 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated lactate anion conformer of a possible R or S endpoint. Li et al. 2017 did not assay product enantiomers or their ratio. The alternative model is not a next reaction step; no Ba2+, solvent, salt lattice, reaction intermediate or product distribution is depicted.",
+        "candidateConformers": 2,
+        "convergedConformers": 2,
+        "selectedMmff94EnergyKcalMol": 53.62941582813612
+      }
+    },
+    {
+      "id": "alkaline-lactate-s",
+      "name": "（2S）乳酸根 · 可能端點（比例未測）",
+      "formula": "C3H5O3-",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -0.808793,
+            0.012766,
+            -0.040797
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            0.704782,
+            -0.09826,
+            -0.401464
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O1b",
+          "element": "O",
+          "position": [
+            -1.494091,
+            -1.040746,
+            -0.138454
+          ],
+          "formalCharge": -1
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            1.38336,
+            -1.214217,
+            0.364763
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O1a",
+          "element": "O",
+          "position": [
+            -1.153469,
+            1.188863,
+            0.30019
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            1.368211,
+            1.151594,
+            -0.084237
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "H_C2_1",
+          "element": "H",
+          "position": [
+            0.799892,
+            -0.253206,
+            -1.480921
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "H_C3_1",
+          "element": "H",
+          "position": [
+            1.276855,
+            -1.065858,
+            1.445237
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C3_2",
+          "element": "H",
+          "position": [
+            0.962282,
+            -2.191863,
+            0.111227
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_C3_3",
+          "element": "H",
+          "position": [
+            2.45736,
+            -1.230257,
+            0.151182
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "H_O2_1",
+          "element": "H",
+          "position": [
+            0.599554,
+            1.718626,
+            0.178111
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O2"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "O1a",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "H_C2_1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_1",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "H_C3_3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "H_O2_1",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://www.ebi.ac.uk/chebi/CHEBI:16651",
+        "sourceMolfile": "https://www.ebi.ac.uk/chebi/backend/api/public/molfile/16651",
+        "sourcePubchem": "https://pubchem.ncbi.nlm.nih.gov/compound/5460161",
+        "sourcePubchemProperties": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5460161/property/IsomericSMILES,InChI,InChIKey,MolecularFormula,Charge,DefinedAtomStereoCount,UndefinedAtomStereoCount,DefinedBondStereoCount,UndefinedBondStereoCount/JSON",
+        "chebiId": 16651,
+        "pubchemCid": 5460161,
+        "sourceMolfileSha256": "17579bfedbc4b37c2ee72ab34534c94d30d8fcdbd1ee37d434951d7c9eb79780",
+        "sourcePubchemSha256": "d454ed588ddb48cc3ef5cbe68ec18bc23dfa4f4e32cb5cf007e2998dc9299160",
+        "sourceInchi": "InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m0/s1",
+        "sourceInchiKey": "JVTAAEKCZFNVCJ-REOHCLBHSA-M",
+        "inchi": "InChI=1S/C3H6O3/c1-2(4)3(5)6/h2,4H,1H3,(H,5,6)/p-1/t2-/m0/s1",
+        "smiles": "C[C@H](O)C(=O)[O-]",
+        "method": "RDKit ETKDGv3 16 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated lactate anion conformer of a possible R or S endpoint. Li et al. 2017 did not assay product enantiomers or their ratio. The alternative model is not a next reaction step; no Ba2+, solvent, salt lattice, reaction intermediate or product distribution is depicted.",
+        "candidateConformers": 2,
+        "convergedConformers": 2,
+        "selectedMmff94EnergyKcalMol": 53.6294158462007
+      }
+    }
+  ]
+}
