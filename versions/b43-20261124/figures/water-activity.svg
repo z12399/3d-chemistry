@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">含水量與水活性看的是不同量</title>
+<desc id="figure-desc">比較食品與同溫純水上方的平衡水蒸氣壓，水活性是兩者的比值，不能由含水量直接換算。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">含水量與水活性看的是不同量</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">同溫、達到平衡後，比較上方水蒸氣壓</tspan></text>
+<rect x="55" y="106" width="250" height="226" rx="14" fill="#ffffff" stroke="#53606d" stroke-width="2"/>
+<rect x="67" y="230" width="226" height="88" rx="6" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="180" y="286" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="180" dy="0">食品</tspan></text>
+<circle cx="95" cy="146" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="165" cy="175" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="235" cy="142" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="270" cy="190" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<text x="180" y="210" font-size="24" fill="#14665d" text-anchor="middle"><tspan x="180" dy="0">p</tspan></text>
+<rect x="415" y="106" width="250" height="226" rx="14" fill="#ffffff" stroke="#53606d" stroke-width="2"/>
+<rect x="427" y="230" width="226" height="88" rx="6" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="540" y="286" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="540" dy="0">純水</tspan></text>
+<circle cx="455" cy="146" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="525" cy="175" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="595" cy="142" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<circle cx="630" cy="190" r="5" fill="#ffffff" stroke="#6f8fb5" stroke-width="2"/>
+<text x="540" y="210" font-size="24" fill="#14665d" text-anchor="middle"><tspan x="540" dy="0">p₀</tspan></text>
+<text x="360" y="183" font-size="18" fill="#53606d" text-anchor="middle"><tspan x="360" dy="0">比較</tspan></text>
+<path d="M 318 207 L 402 207" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="220" y="347" width="280" height="54" rx="14" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="360" y="382" font-size="25" fill="#14665d" text-anchor="middle"><tspan x="360" dy="0">a_w ＝ p ／ p₀</tspan></text>
+<text x="32" y="439" font-size="19" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">含水量：水有多少　　水活性：水的狀態</tspan></text>
+<text x="688" y="462" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

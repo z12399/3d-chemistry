@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="proc-freeze-drying-collapse-title proc-freeze-drying-collapse-desc">
+<title id="proc-freeze-drying-collapse-title">凍乾崩塌：把供熱、孔道與材料連起來</title>
+<desc id="proc-freeze-drying-collapse-desc">架板供熱影響產品溫度，冰昇華與乾燥層阻力影響水蒸氣移除；材料若在相應時間尺度下易流動鬆弛，可能變形，Tg′與Tc須分別量測。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">凍乾崩塌：把供熱、孔道與材料連起來</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="99" width="656" height="166" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="47" y="128" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">一次乾燥的耦合過程</text>
+<rect x="48" y="153" width="157" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="126.5" y="188.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">架板供熱</text>
+<text x="126.5" y="214.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">Ts 設定</text>
+<line x1="208" y1="196" x2="246" y2="196" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="251" y="153" width="182" height="84" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="342.0" y="188.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">產品溫度 Tp</text>
+<text x="342.0" y="214.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">冰昇華</text>
+<line x1="436" y1="196" x2="474" y2="196" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="479" y="153" width="193" height="84" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="575.5" y="188.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">水蒸氣移除</text>
+<text x="575.5" y="214.0" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">乾燥層的阻力</text>
+<rect x="32" y="287" width="656" height="125" rx="12" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="318" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">冰晶移除後，材料骨架需要保住孔道</text>
+<text x="48" y="349" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">若材料在相應溫度與時間下容易流動、鬆弛</text>
+<text x="48" y="375" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">→ 可能結構變形；仍有真空或仍在冷凍不能排除崩塌</text>
+<text x="360" y="449" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="400">Ts ≠ Tp　　Tg′ ≠ Tc　　宏觀外形 ≠ 微觀結構</text>
+<rect x="32" y="470" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="496" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">退火可能改變冰晶與後續孔壁；條件需由該材料量測支持。</text>
+<text x="46" y="521" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">Tg′、Tc 的方法與定義不同，不可搬用另一配方的臨界值。</text>
+<text x="680" y="547" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

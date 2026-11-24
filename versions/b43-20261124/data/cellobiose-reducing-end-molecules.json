@@ -1,0 +1,1647 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-09-24",
+  "molecules": [
+    {
+      "id": "cellobiose-open",
+      "name": "開鏈纖維二糖（保留 β 1→4 鍵）",
+      "formula": "C12H22O11",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -2.577722,
+            -2.551532,
+            0.993782
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -2.507683,
+            -1.020506,
+            0.888812
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -3.741153,
+            -0.447288,
+            0.171317
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            -3.566132,
+            1.054519,
+            -0.063882
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -2.240593,
+            1.338101,
+            -0.760685
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -1.099064,
+            0.719704,
+            0.062079
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -1.287329,
+            -0.680784,
+            0.204222
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            0.112271,
+            0.960828,
+            -0.658552
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C7",
+          "element": "C",
+          "position": [
+            1.315857,
+            0.618638,
+            0.087038
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C8",
+          "element": "C",
+          "position": [
+            2.160747,
+            1.90904,
+            0.135833
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            2.945675,
+            2.059098,
+            -1.057522
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C9",
+          "element": "C",
+          "position": [
+            3.877305,
+            -2.139368,
+            -0.998405
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C10",
+          "element": "C",
+          "position": [
+            3.364161,
+            -0.944838,
+            -0.201885
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C11",
+          "element": "C",
+          "position": [
+            1.949952,
+            -0.582179,
+            -0.661374
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            1.124464,
+            -1.748984,
+            -0.44168
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            3.36961,
+            -1.207714,
+            1.201635
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            4.316712,
+            -3.165302,
+            -0.482607
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C12",
+          "element": "C",
+          "position": [
+            3.083706,
+            2.015733,
+            1.355167
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O7",
+          "element": "O",
+          "position": [
+            3.706999,
+            3.305299,
+            1.3176
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O8",
+          "element": "O",
+          "position": [
+            -2.078706,
+            2.759374,
+            -0.89356
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O9",
+          "element": "O",
+          "position": [
+            -4.662764,
+            1.54147,
+            -0.853804
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O10",
+          "element": "O",
+          "position": [
+            -4.919941,
+            -0.649344,
+            0.959847
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O11",
+          "element": "O",
+          "position": [
+            -2.646372,
+            -3.143965,
+            -0.303374
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HC1a",
+          "element": "H",
+          "position": [
+            -1.672715,
+            -2.932138,
+            1.47912
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC1b",
+          "element": "H",
+          "position": [
+            -3.452534,
+            -2.870203,
+            1.568717
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC2",
+          "element": "H",
+          "position": [
+            -2.451037,
+            -0.623599,
+            1.911078
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "HC3",
+          "element": "H",
+          "position": [
+            -3.902049,
+            -0.944107,
+            -0.793117
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "HC4",
+          "element": "H",
+          "position": [
+            -3.62582,
+            1.599222,
+            0.886886
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "HC5",
+          "element": "H",
+          "position": [
+            -2.255235,
+            0.928178,
+            -1.778258
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "HC6",
+          "element": "H",
+          "position": [
+            -1.028679,
+            1.207439,
+            1.043521
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "HC7",
+          "element": "H",
+          "position": [
+            1.031723,
+            0.324994,
+            1.105761
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C7"
+        },
+        {
+          "id": "HC8",
+          "element": "H",
+          "position": [
+            1.486534,
+            2.775566,
+            0.148599
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C8"
+        },
+        {
+          "id": "HC9",
+          "element": "H",
+          "position": [
+            3.865924,
+            -2.018671,
+            -2.095197
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C9"
+        },
+        {
+          "id": "HC10",
+          "element": "H",
+          "position": [
+            4.068314,
+            -0.132368,
+            -0.397008
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C10"
+        },
+        {
+          "id": "HC11",
+          "element": "H",
+          "position": [
+            1.934085,
+            -0.40383,
+            -1.743452
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C11"
+        },
+        {
+          "id": "HO4",
+          "element": "H",
+          "position": [
+            0.187882,
+            -1.463833,
+            -0.523621
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "HO5",
+          "element": "H",
+          "position": [
+            3.015387,
+            -2.11802,
+            1.283083
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O5"
+        },
+        {
+          "id": "HO6",
+          "element": "H",
+          "position": [
+            3.482952,
+            2.862709,
+            -0.896797
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O3"
+        },
+        {
+          "id": "HC12a",
+          "element": "H",
+          "position": [
+            2.520822,
+            1.927298,
+            2.28891
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HC12b",
+          "element": "H",
+          "position": [
+            3.890068,
+            1.282421,
+            1.336676
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HO7",
+          "element": "H",
+          "position": [
+            4.300098,
+            3.350083,
+            2.089713
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O7"
+        },
+        {
+          "id": "HO8",
+          "element": "H",
+          "position": [
+            -1.192694,
+            2.880805,
+            -1.291084
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O8"
+        },
+        {
+          "id": "HO9",
+          "element": "H",
+          "position": [
+            -4.399152,
+            2.443017,
+            -1.129314
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O9"
+        },
+        {
+          "id": "HO10",
+          "element": "H",
+          "position": [
+            -5.626153,
+            -0.166776,
+            0.483267
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O10"
+        },
+        {
+          "id": "HO11",
+          "element": "H",
+          "position": [
+            -2.600688,
+            -4.107516,
+            -0.176467
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O11"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "C7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "C8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "O3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "C10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "C11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C11",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "O6",
+          "order": 2,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "C12",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "O7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "O8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C11",
+          "b": "C7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "HC1a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "HC1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "HC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "HC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "HC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "HC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "HC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "HC7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "HC8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "HC9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "HC10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C11",
+          "b": "HC11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "HO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "HO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O7",
+          "b": "HO7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O8",
+          "b": "HO8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O9",
+          "b": "HO9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O10",
+          "b": "HO10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O11",
+          "b": "HO11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O3",
+          "b": "HO6",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://openstax.org/books/organic-chemistry/pages/25-8-disaccharides",
+        "pubchemCid": null,
+        "sourceCache": null,
+        "sourceCacheSha256": null,
+        "sourceInchi": null,
+        "sourceSmiles": null,
+        "inchi": "InChI=1S/C12H22O11/c13-1-4(16)7(18)11(5(17)2-14)23-12-10(21)9(20)8(19)6(3-15)22-12/h1,4-12,14-21H,2-3H2/t4-,5+,6+,7+,8+,9-,10+,11+,12-/m0/s1",
+        "smiles": "O=C[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)[C@H](O)CO",
+        "parentAlphaId": "cellobiose",
+        "parentAlphaInchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11+,12+/m1/s1",
+        "parentAssetSha256": "6fc39c878725f8ad4bd9c6a368a0d29976ac38d8afc7bfa1be5cf23cb34edb4f",
+        "sugarPositionMap": {
+          "A_nonreducing_beta_glucosyl": {
+            "C1": "C6",
+            "C2": "C5",
+            "C3": "C4",
+            "C4": "C3",
+            "C5": "C2",
+            "C6": "C1",
+            "O1_bridge": "O2",
+            "O2": "O8",
+            "O3": "O9",
+            "O4": "O10",
+            "O5_ring": "O1",
+            "O6": "O11"
+          },
+          "B_reducing_glucose": {
+            "C1": "C9",
+            "C2": "C10",
+            "C3": "C11",
+            "C4": "C7",
+            "C5": "C8",
+            "C6": "C12",
+            "O1_hydroxyl_or_carbonyl": "O6",
+            "O2": "O5",
+            "O3": "O4",
+            "O4_bridge": "O2",
+            "O5_ring_or_hydroxyl": "O3",
+            "O6": "O7"
+          }
+        },
+        "allAtomIdsPreservedFromParent": true,
+        "atomOriginNote": "All original alpha-cellobiose atom IDs are preserved. In the open graph, HO6 moves from O6 to O3; its ID records the starting atom and does not imply measured proton transfer or an elementary step.",
+        "identityScope": "Neutral open-chain cellobiose graph derived from source-verified alpha endpoint; no direct open-chain PubChem identity or measured isolated conformer",
+        "construction": "Break B-C1–B-O5 (C9–O3), make B-C1=O1 (C9=O6), and transfer existing HO6 to O3; donor bridge C6–O2–C7 unchanged",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated neutral conformer per endpoint; not a solution population, reaction trajectory, atom-resolved proton relay, energy barrier or catalytic mechanism.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": 177.82215463847535
+      }
+    },
+    {
+      "id": "cellobiose-beta",
+      "name": "β-纖維二糖（β 1→4 鍵）",
+      "formula": "C12H22O11",
+      "atoms": [
+        {
+          "id": "C1",
+          "element": "C",
+          "position": [
+            -2.88897,
+            2.714685,
+            -0.248594
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C2",
+          "element": "C",
+          "position": [
+            -2.592271,
+            1.222959,
+            -0.441629
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C3",
+          "element": "C",
+          "position": [
+            -3.723499,
+            0.349856,
+            0.117097
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C4",
+          "element": "C",
+          "position": [
+            -3.358387,
+            -1.124942,
+            -0.062317
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C5",
+          "element": "C",
+          "position": [
+            -1.994867,
+            -1.430357,
+            0.550466
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C6",
+          "element": "C",
+          "position": [
+            -0.946897,
+            -0.431275,
+            0.025294
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "O1",
+          "element": "O",
+          "position": [
+            -1.35802,
+            0.914271,
+            0.237416
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O2",
+          "element": "O",
+          "position": [
+            0.242141,
+            -0.660669,
+            0.780035
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C7",
+          "element": "C",
+          "position": [
+            1.44647,
+            -0.241733,
+            0.122559
+          ],
+          "formalCharge": 0,
+          "cip": "S"
+        },
+        {
+          "id": "C8",
+          "element": "C",
+          "position": [
+            2.493629,
+            -1.364886,
+            0.311183
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O3",
+          "element": "O",
+          "position": [
+            3.858293,
+            -0.921239,
+            0.336478
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C9",
+          "element": "C",
+          "position": [
+            4.121244,
+            0.262387,
+            -0.403816
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C10",
+          "element": "C",
+          "position": [
+            3.28123,
+            1.467033,
+            0.068612
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "C11",
+          "element": "C",
+          "position": [
+            1.99269,
+            1.029675,
+            0.774396
+          ],
+          "formalCharge": 0,
+          "cip": "R"
+        },
+        {
+          "id": "O4",
+          "element": "O",
+          "position": [
+            1.077757,
+            2.13436,
+            0.716712
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O5",
+          "element": "O",
+          "position": [
+            4.027568,
+            2.299732,
+            0.975155
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O6",
+          "element": "O",
+          "position": [
+            3.884679,
+            -0.000559,
+            -1.781604
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "C12",
+          "element": "C",
+          "position": [
+            2.314647,
+            -2.492541,
+            -0.71913
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O7",
+          "element": "O",
+          "position": [
+            1.022205,
+            -3.092656,
+            -0.62515
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O8",
+          "element": "O",
+          "position": [
+            -1.651297,
+            -2.788407,
+            0.221216
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O9",
+          "element": "O",
+          "position": [
+            -4.375087,
+            -1.937802,
+            0.546694
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O10",
+          "element": "O",
+          "position": [
+            -4.961087,
+            0.606573,
+            -0.549439
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "O11",
+          "element": "O",
+          "position": [
+            -1.912172,
+            3.485533,
+            -0.951636
+          ],
+          "formalCharge": 0
+        },
+        {
+          "id": "HC1a",
+          "element": "H",
+          "position": [
+            -2.829822,
+            2.986898,
+            0.810473
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC1b",
+          "element": "H",
+          "position": [
+            -3.872617,
+            2.986367,
+            -0.642143
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C1"
+        },
+        {
+          "id": "HC2",
+          "element": "H",
+          "position": [
+            -2.452591,
+            1.040972,
+            -1.515847
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C2"
+        },
+        {
+          "id": "HC3",
+          "element": "H",
+          "position": [
+            -3.878623,
+            0.559464,
+            1.182979
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C3"
+        },
+        {
+          "id": "HC4",
+          "element": "H",
+          "position": [
+            -3.369742,
+            -1.391417,
+            -1.126865
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C4"
+        },
+        {
+          "id": "HC5",
+          "element": "H",
+          "position": [
+            -2.054966,
+            -1.383725,
+            1.644703
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C5"
+        },
+        {
+          "id": "HC6",
+          "element": "H",
+          "position": [
+            -0.762139,
+            -0.618594,
+            -1.040733
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C6"
+        },
+        {
+          "id": "HC7",
+          "element": "H",
+          "position": [
+            1.263881,
+            -0.055611,
+            -0.943631
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C7"
+        },
+        {
+          "id": "HC8",
+          "element": "H",
+          "position": [
+            2.318656,
+            -1.821328,
+            1.294895
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C8"
+        },
+        {
+          "id": "HC9",
+          "element": "H",
+          "position": [
+            5.185633,
+            0.495253,
+            -0.285325
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C9"
+        },
+        {
+          "id": "HC10",
+          "element": "H",
+          "position": [
+            3.04923,
+            2.106809,
+            -0.792064
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C10"
+        },
+        {
+          "id": "HC11",
+          "element": "H",
+          "position": [
+            2.169527,
+            0.855506,
+            1.843125
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C11"
+        },
+        {
+          "id": "HO4",
+          "element": "H",
+          "position": [
+            0.168414,
+            1.767109,
+            0.759271
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O4"
+        },
+        {
+          "id": "HO5",
+          "element": "H",
+          "position": [
+            3.3927,
+            2.982155,
+            1.270603
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O5"
+        },
+        {
+          "id": "HO6",
+          "element": "H",
+          "position": [
+            4.729091,
+            -0.341,
+            -2.124356
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O6"
+        },
+        {
+          "id": "HC12a",
+          "element": "H",
+          "position": [
+            2.446449,
+            -2.121979,
+            -1.740214
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HC12b",
+          "element": "H",
+          "position": [
+            3.071125,
+            -3.268007,
+            -0.554712
+          ],
+          "formalCharge": 0,
+          "attachedTo": "C12"
+        },
+        {
+          "id": "HO7",
+          "element": "H",
+          "position": [
+            1.027235,
+            -3.847422,
+            -1.243414
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O7"
+        },
+        {
+          "id": "HO8",
+          "element": "H",
+          "position": [
+            -0.668915,
+            -2.847426,
+            0.272768
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O8"
+        },
+        {
+          "id": "HO9",
+          "element": "H",
+          "position": [
+            -3.99611,
+            -2.84081,
+            0.568115
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O9"
+        },
+        {
+          "id": "HO10",
+          "element": "H",
+          "position": [
+            -5.55516,
+            -0.122004,
+            -0.273574
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O10"
+        },
+        {
+          "id": "HO11",
+          "element": "H",
+          "position": [
+            -2.043934,
+            4.413937,
+            -0.694048
+          ],
+          "formalCharge": 0,
+          "attachedTo": "O11"
+        }
+      ],
+      "bonds": [
+        {
+          "a": "C1",
+          "b": "C2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "C3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C3",
+          "b": "C4",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C4",
+          "b": "C5",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C5",
+          "b": "C6",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O1",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C6",
+          "b": "O2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O2",
+          "b": "C7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "C8",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C8",
+          "b": "O3",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "O3",
+          "b": "C9",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C9",
+          "b": "C10",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C10",
+          "b": "C11",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C11",
+          "b": "O4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "O5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "O6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "C12",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "O7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "O8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "O9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "O10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "O11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O1",
+          "b": "C2",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C11",
+          "b": "C7",
+          "order": 1,
+          "inRing": true
+        },
+        {
+          "a": "C1",
+          "b": "HC1a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C1",
+          "b": "HC1b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C2",
+          "b": "HC2",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C3",
+          "b": "HC3",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C4",
+          "b": "HC4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C5",
+          "b": "HC5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C6",
+          "b": "HC6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C7",
+          "b": "HC7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C8",
+          "b": "HC8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C9",
+          "b": "HC9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C10",
+          "b": "HC10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C11",
+          "b": "HC11",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O4",
+          "b": "HO4",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O5",
+          "b": "HO5",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O6",
+          "b": "HO6",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12a",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "C12",
+          "b": "HC12b",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O7",
+          "b": "HO7",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O8",
+          "b": "HO8",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O9",
+          "b": "HO9",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O10",
+          "b": "HO10",
+          "order": 1,
+          "inRing": false
+        },
+        {
+          "a": "O11",
+          "b": "HO11",
+          "order": 1,
+          "inRing": false
+        }
+      ],
+      "rotatableBonds": [],
+      "metadata": {
+        "source": "https://pubchem.ncbi.nlm.nih.gov/compound/10712",
+        "pubchemCid": 10712,
+        "sourceCache": "source/pubchem-additional-cellobiose-beta.json",
+        "sourceCacheSha256": "aa716b1e02b6b9370704780a78bb9db6b7cc954aca706fd93e7d88ec0d4fb364",
+        "sourceInchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11-,12+/m1/s1",
+        "sourceSmiles": "C([C@@H]1[C@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O",
+        "inchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11-,12+/m1/s1",
+        "smiles": "OC[C@H]1O[C@@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](O)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1O",
+        "parentAlphaId": "cellobiose",
+        "parentAlphaInchi": "InChI=1S/C12H22O11/c13-1-3-5(15)6(16)9(19)12(22-3)23-10-4(2-14)21-11(20)8(18)7(10)17/h3-20H,1-2H2/t3-,4-,5-,6+,7-,8-,9-,10-,11+,12+/m1/s1",
+        "parentAssetSha256": "6fc39c878725f8ad4bd9c6a368a0d29976ac38d8afc7bfa1be5cf23cb34edb4f",
+        "sugarPositionMap": {
+          "A_nonreducing_beta_glucosyl": {
+            "C1": "C6",
+            "C2": "C5",
+            "C3": "C4",
+            "C4": "C3",
+            "C5": "C2",
+            "C6": "C1",
+            "O1_bridge": "O2",
+            "O2": "O8",
+            "O3": "O9",
+            "O4": "O10",
+            "O5_ring": "O1",
+            "O6": "O11"
+          },
+          "B_reducing_glucose": {
+            "C1": "C9",
+            "C2": "C10",
+            "C3": "C11",
+            "C4": "C7",
+            "C5": "C8",
+            "C6": "C12",
+            "O1_hydroxyl_or_carbonyl": "O6",
+            "O2": "O5",
+            "O3": "O4",
+            "O4_bridge": "O2",
+            "O5_ring_or_hydroxyl": "O3",
+            "O6": "O7"
+          }
+        },
+        "allAtomIdsPreservedFromParent": true,
+        "atomOriginNote": "All original alpha-cellobiose atom IDs are preserved. In the open graph, HO6 moves from O6 to O3; its ID records the starting atom and does not imply measured proton transfer or an elementary step.",
+        "identityScope": "Full beta stereograph independently matched to cached PubChem",
+        "construction": "Invert only reducing B-C1 (local C9) chirality",
+        "method": "RDKit ETKDGv3 12 seeded candidates; lowest converged MMFF94 conformer; rigid display orientation",
+        "rdkitVersion": "2026.03.6",
+        "seed": 20260922,
+        "coordinateUnit": "angstrom",
+        "isTrajectory": false,
+        "limitations": "One computed isolated neutral conformer per endpoint; not a solution population, reaction trajectory, atom-resolved proton relay, energy barrier or catalytic mechanism.",
+        "candidateConformers": 12,
+        "convergedConformers": 12,
+        "selectedMmff94EnergyKcalMol": 175.0800934867201
+      }
+    }
+  ]
+}
