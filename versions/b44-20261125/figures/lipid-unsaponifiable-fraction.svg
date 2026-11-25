@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="746" viewBox="0 0 720 746" role="img" aria-labelledby="title desc">
+  <title id="title">酯鍵被鹼切開後，兩端各去哪裡</title>
+  <desc id="desc">示意圖：固醇酯與蠟酯的酯鍵被鹼切開，釋出固醇或長鏈醇，以及脂肪酸鹽。固醇與長鏈醇進有機層，算進不皂化物；脂肪酸鹽留在水相；三酸甘油酯釋出的甘油也留在水相。</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#53606d"/></marker></defs>
+  <rect width="720" height="746" rx="14" fill="#fff"/>
+  <g font-family="Arial,Microsoft JhengHei,sans-serif" fill="#1c2732">
+    <text x="28" y="42" font-size="26" font-weight="700">酯鍵被鹼切開後，兩端各去哪裡</text>
+    <text x="28" y="74" font-size="17" fill="#53606d">固醇酯與蠟酯切開後，釋出的醇進有機層，被算進不皂化物</text>
+
+    <text x="28" y="119" font-size="18" font-weight="700">固醇酯</text>
+    <rect x="28" y="136" width="664" height="73" rx="9" fill="#f6f7f8" stroke="#dfe4e8"/>
+    <rect x="48" y="150" width="148" height="44" rx="8" fill="#e7f1ee" stroke="#14665d"/>
+    <text x="65" y="179" font-size="21" fill="#14665d">固醇骨架</text>
+    <text x="208" y="179" font-size="21">— O — C(=O) — R</text>
+    <text x="506" y="179" font-size="18" fill="#53606d">＋ OH⁻</text>
+    <path d="M195 211 L195 252" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M520 211 L520 252" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <rect x="28" y="262" width="312" height="96" rx="9" fill="#e7f1ee" stroke="#9bbdb6"/>
+    <text x="47" y="293" font-size="21" font-weight="600" fill="#14665d">游離固醇 — OH</text>
+    <text x="47" y="326" font-size="18">→ 進有機層（不皂化物）</text>
+    <rect x="380" y="262" width="312" height="96" rx="9" fill="#f0f3f5" stroke="#c8d1d8"/>
+    <text x="399" y="293" font-size="21" font-weight="600">脂肪酸鹽 R–COO⁻</text>
+    <text x="399" y="326" font-size="18">→ 留在水相（皂）</text>
+
+    <text x="28" y="402" font-size="18" font-weight="700">蠟酯：同樣切開酯鍵，釋出長鏈醇</text>
+    <rect x="28" y="419" width="664" height="67" rx="9" fill="#f6f7f8" stroke="#dfe4e8"/>
+    <text x="48" y="460" font-size="21"><tspan fill="#14665d">長鏈醇骨架</tspan> — O — C(=O) — R ＋ OH⁻</text>
+    <path d="M195 488 L195 526" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M520 488 L520 526" stroke="#53606d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <rect x="28" y="536" width="312" height="74" rx="9" fill="#e7f1ee" stroke="#9bbdb6"/>
+    <text x="47" y="565" font-size="21" font-weight="600" fill="#14665d">長鏈醇 — OH</text>
+    <text x="47" y="593" font-size="18">→ 進有機層（不皂化物）</text>
+    <rect x="380" y="536" width="312" height="74" rx="9" fill="#f0f3f5" stroke="#c8d1d8"/>
+    <text x="399" y="565" font-size="21" font-weight="600">脂肪酸鹽 R–COO⁻</text>
+    <text x="399" y="593" font-size="18">→ 留在水相（皂）</text>
+
+    <path d="M28 636 H692" stroke="#dfe4e8"/>
+    <text x="28" y="666" font-size="18">對照三酸甘油酯：釋出的甘油偏親水，留在水相</text>
+    <text x="28" y="699" font-size="17" font-weight="600" fill="#14665d">所以不皂化物裡，不全是「原本沒反應」的分子。</text>
+    <text x="28" y="728" font-size="16" fill="#53606d">示意圖：只畫出酯鍵兩端的去向，沒有畫出完整結構。</text>
+  </g>
+</svg>

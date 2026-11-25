@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="proc-freeze-drying-storage-title proc-freeze-drying-storage-desc">
+<title id="proc-freeze-drying-storage-title">乾後 0 月，還不是儲藏後的答案</title>
+<desc id="proc-freeze-drying-storage-desc">時間軸列出研究量測的0、0.5、1、3與9月；同一時點才依原表比較配方，0月是凍乾後而非乾前。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">乾後 0 月，還不是儲藏後的答案</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<text x="32" y="95" font-size="20" fill="#14665d" text-anchor="start" font-weight="600">L. plantarum CNCM I-4459</text>
+<text x="32" y="124" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">25°C、避光、真空封瓶；復水後量 CFU/mL</text>
+<line x1="67" y1="185" x2="653" y2="185" stroke="#14665d" stroke-width="3"/>
+<circle cx="67" cy="185" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="67" y="222" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">0 月</text>
+<circle cx="213" cy="185" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="213" y="222" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">0.5 月</text>
+<circle cx="360" cy="185" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="360" y="222" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">1 月</text>
+<circle cx="507" cy="185" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="507" y="222" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">3 月</text>
+<circle cx="653" cy="185" r="7" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="653" y="222" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">9 月</text>
+<text x="67" y="254" font-size="18" fill="#b4692e" text-anchor="middle" font-weight="400">已凍乾</text>
+<text x="360" y="277" font-size="16" fill="#53606d" text-anchor="middle" font-weight="400">量測時點示意；橫向間隔不按時間比例</text>
+<rect x="32" y="302" width="656" height="120" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="48" y="330" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">同一時間比較四種保護配方</text>
+<text x="48" y="357" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">5% 蔗糖；或再加 5% 膠束酪蛋白、</text>
+<text x="48" y="383" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">乳清蛋白分離物或菊糖（皆為 m/v）</text>
+<text x="48" y="409" font-size="17" fill="#1c2732" text-anchor="start" font-weight="400">各添加組不是等總固形物替換</text>
+<rect x="32" y="444" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="470" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">CFU/mL 不是存活率；缺乾前計數，不能算凍乾存活率。</text>
+<text x="46" y="495" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">同時間 Tukey 字母不可挪用為跨時間顯著性判斷。</text>
+<text x="680" y="547" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

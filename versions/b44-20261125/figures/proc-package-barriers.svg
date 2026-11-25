@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 530" role="img" aria-labelledby="proc-package-barriers-title proc-package-barriers-desc">
+<title id="proc-package-barriers-title">膜片阻隔與整包完整性，分開檢查</title>
+<desc id="proc-package-barriers-desc">左側對同一膜片分開表示氧氣與水蒸氣傳輸；右側整包示意封口與缺陷也影響表現，底部列出透水量近似式的條件。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker></defs>
+<rect width="720" height="100%" fill="#ffffff"/>
+<g font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" fill="#1c2732" font-size="18">
+<text x="32" y="36" font-size="20" fill="#1c2732" text-anchor="start" font-weight="600">膜片阻隔與整包完整性，分開檢查</text>
+<line x1="32" y1="54" x2="688" y2="54" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="32" y="83" width="312" height="259" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<rect x="368" y="83" width="320" height="259" rx="12" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="188" y="115" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">膜片量測</text>
+<rect x="167" y="137" width="40" height="158" rx="2" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<text x="62" y="168" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">氧氣</text>
+<line x1="63" y1="191" x2="157" y2="191" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="215" y1="191" x2="313" y2="191" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="262" y="169" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">OTR</text>
+<text x="51" y="247" font-size="18" fill="#1c2732" text-anchor="start" font-weight="400">水蒸氣</text>
+<line x1="63" y1="267" x2="157" y2="267" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="215" y1="267" x2="313" y2="267" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="262" y="246" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">WVTR</text>
+<text x="528" y="115" font-size="20" fill="#14665d" text-anchor="middle" font-weight="600">完整包裝</text>
+<rect x="432" y="141" width="192" height="151" rx="18" fill="#e7f1ee" stroke="#14665d" stroke-width="2"/>
+<line x1="444" y1="156" x2="612" y2="156" stroke="#b4692e" stroke-width="4"/>
+<text x="528" y="193" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">封口</text>
+<circle cx="434" cy="243" r="6" fill="#ffffff" stroke="#b4692e" stroke-width="2"/>
+<line x1="384" y1="243" x2="422" y2="243" stroke="#14665d" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="528" y="249" font-size="18" fill="#1c2732" text-anchor="middle" font-weight="400">針孔／摺角</text>
+<text x="360" y="381" font-size="23" fill="#1c2732" text-anchor="middle" font-weight="400">m透水 ≈ WVTR × A × t</text>
+<rect x="32" y="424" width="656" height="68" rx="12" fill="#e7f1ee" stroke="#e7f1ee" stroke-width="2"/>
+<text x="46" y="450" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">比較須對齊溫度、濕度、厚度、壓差與單位。</text>
+<text x="46" y="475" font-size="16" fill="#14665d" text-anchor="start" font-weight="400">此式限固定穩態梯度，忽略封口與缺陷；不是保存期公式。</text>
+<text x="680" y="517" font-size="16" fill="#53606d" text-anchor="end" font-weight="400">示意圖</text>
+</g>
+</svg>

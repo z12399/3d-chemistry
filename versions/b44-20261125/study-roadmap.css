@@ -1,0 +1,26 @@
+.study-roadmap { margin:0 0 38px; max-width:1120px; }
+.study-roadmap h2,.study-core-intro h2 { font-size:24px; line-height:1.6; margin:0 0 14px; }
+.study-roadmap p,.study-core-intro p,.study-core-intro li { max-width:65em; line-height:1.9; }
+.study-starts { margin:24px 0; border-top:1px solid var(--line); }
+.study-start { padding:20px 0; border-bottom:1px solid var(--line); }
+.study-start h3 { font-size:20px; margin:4px 0 8px; }
+.study-start p { margin:7px 0; }
+.study-start-status { font-size:13px; color:var(--muted); }
+.study-start-link { display:inline-flex; align-items:center; min-height:44px; text-decoration:underline; text-underline-offset:4px; }
+.study-roadmap summary,.study-station-reasoning summary { padding:12px 0; min-height:44px; cursor:pointer; }
+.study-roadmap ul,.study-station-reasoning ul { margin:0; padding-left:24px; line-height:1.9; }
+.study-roadmap a,.study-core-intro a,.study-station-reasoning a { text-decoration:underline; text-underline-offset:3px; }
+.study-topic-directory { margin:18px 0 0; }
+.study-topic-directory h3 { margin:26px 0 10px; font-size:21px; }
+.study-topic-directory table { width:100%; border-collapse:collapse; font-size:15px; line-height:1.8; }
+.study-topic-directory th,.study-topic-directory td { padding:14px 16px; vertical-align:top; border-bottom:1px solid var(--line); text-align:left; }
+.study-topic-directory th:first-child { width:26%; }
+.study-topic-directory th[scope=row] { font-weight:500; }
+.study-topic-directory td:last-child { width:35%; }
+.study-core-intro { max-width:960px; border-left:3px solid var(--copper); padding:12px 24px; margin:24px 0; background:var(--panel); }
+.study-station-reasoning { font-size:15px; line-height:1.9; margin-top:14px; }
+.study-station-reasoning p { margin:8px 0; }
+#protein-path-practice { scroll-margin-top:24px; margin:32px 0; }
+.study-start-link:focus-visible,.study-roadmap summary:focus-visible,.study-core-intro a:focus-visible { outline:3px solid var(--copper); outline-offset:4px; }
+
+.study-core-intro button { min-height:44px; padding:5px 10px; text-decoration:underline; text-underline-offset:3px; }
