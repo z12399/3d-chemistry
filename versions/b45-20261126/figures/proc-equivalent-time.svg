@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">先加溫度權重，再累積時間</title>
+<desc id="figure-desc">課文假想例中，80°C 的十分之一相對速率乘 10 分鐘，與 90°C 相對速率乘 1 分鐘，得到相同等效時間貢獻。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">先加溫度權重，再累積時間</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">教學參數：Tref＝90°C；z＝10°C</tspan></text>
+<text x="122" y="122" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="122" dy="0">熱歷程分段</tspan></text>
+<text x="365" y="122" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="365" dy="0">相對速率 × 時間</tspan></text>
+<text x="620" y="122" font-size="20" fill="#1c2732" text-anchor="middle" font-weight="600"><tspan x="620" dy="0">等效貢獻</tspan></text>
+<rect x="32" y="151" width="184" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.0" y="180.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="124.0" dy="0">80°C</tspan><tspan x="124.0" dy="28">10 min</tspan></text>
+<rect x="32" y="252" width="184" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="124.0" y="281.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="124.0" dy="0">90°C</tspan><tspan x="124.0" dy="28">1 min</tspan></text>
+<path d="M 230 188 L 274 188" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 230 289 L 274 289" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="289" y="151" width="154" height="73" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="366.0" y="180.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="366.0" dy="0">十分之一</tspan><tspan x="366.0" dy="28">× 10 min</tspan></text>
+<rect x="289" y="252" width="154" height="73" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="366.0" y="281.5" font-size="20" fill="#1c2732" text-anchor="middle"><tspan x="366.0" dy="0">參考速率</tspan><tspan x="366.0" dy="28">× 1 min</tspan></text>
+<path d="M 457 188 L 502 188" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<path d="M 457 289 L 502 289" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="516" y="151" width="172" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="602.0" y="180.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="602.0" dy="0">F90</tspan><tspan x="602.0" dy="28">1 min</tspan></text>
+<rect x="516" y="252" width="172" height="73" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="602.0" y="281.5" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="602.0" dy="0">F90</tspan><tspan x="602.0" dy="28">1 min</tspan></text>
+<rect x="77" y="361" width="566" height="62" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="360.0" y="399.0" font-size="22" fill="#1c2732" text-anchor="middle"><tspan x="360.0" dy="0">Fref＝Σ（相對速率 × 分段時間）</tspan></text>
+<text x="32" y="448" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">Fref ÷ Dref 才得到模型的對數減少數</tspan></text>
+<text x="688" y="452" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

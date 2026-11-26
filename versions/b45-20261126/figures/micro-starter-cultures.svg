@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">乳酸發酵再生 NAD⁺</title>
+<desc id="figure-desc">糖解將葡萄糖轉成丙酮酸時，NAD⁺ 被還原成 NADH；NADH 提供還原當量，使丙酮酸形成乳酸並再生 NAD⁺，回到糖解使用。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="520" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">乳酸發酵再生 NAD⁺</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">發酵種的酸化、風味與質地功能依菌株而異</tspan></text>
+<text x="32" y="112" font-size="18" fill="#14665d" text-anchor="start"><tspan x="32" dy="0">糖解（葡萄糖 → 丙酮酸）時</tspan><tspan x="32" dy="28">NAD⁺ 被還原成 NADH</tspan></text>
+<rect x="32" y="162" width="144" height="86" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="104.0" y="198.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="104.0" dy="0">葡萄糖</tspan><tspan x="104.0" dy="28">糖解</tspan></text>
+<path d="M 190 205 L 244 205" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="258" y="162" width="170" height="86" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="343.0" y="212.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="343.0" dy="0">丙酮酸</tspan></text>
+<path d="M 443 205 L 513 205" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="477" y="184" font-size="18" fill="#14665d" text-anchor="middle"><tspan x="477" dy="0">還原</tspan></text>
+<rect x="528" y="162" width="160" height="86" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="608.0" y="212.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="608.0" dy="0">乳酸</tspan></text>
+<rect x="269" y="308" width="153" height="66" rx="14" fill="#f6f7f8" stroke="#dfe4e8" stroke-width="2"/>
+<text x="345.5" y="348.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="345.5" dy="0">NADH</tspan></text>
+<path d="M 150 248 L 150 341 L 256 341" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="168" y="329" font-size="18" fill="#14665d" text-anchor="start"><tspan x="168" dy="0">糖解產生</tspan></text>
+<rect x="535" y="308" width="153" height="66" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="611.5" y="348.0" font-size="23" fill="#1c2732" text-anchor="middle"><tspan x="611.5" dy="0">NAD⁺</tspan></text>
+<path d="M 436 341 L 521 341" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="478" y="314" font-size="19" fill="#14665d" text-anchor="middle"><tspan x="478" dy="0">再生</tspan></text>
+<path d="M 345 295 L 345 278 L 477 278 L 477 228" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<text x="333" y="291" font-size="18" fill="#b4692e" text-anchor="end"><tspan x="333" dy="0">電子／還原當量</tspan></text>
+<path d="M 611 389 L 611 425 L 104 425 L 104 265" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<text x="351" y="460" font-size="20" fill="#14665d" text-anchor="middle"><tspan x="351" dy="0">NAD⁺ 回到糖解使用</tspan></text>
+<text x="32" y="496" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">這是乳酸發酵機制示意，不代表所有發酵途徑</tspan></text>
+<text x="688" y="502" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>

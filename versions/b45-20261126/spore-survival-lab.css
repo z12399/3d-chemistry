@@ -1,0 +1,52 @@
+/* Under-processing comparison: prediction, sliders, two survivor bars. */
+.spore-lab { --ss-ink: var(--ink, #1c2732); --ss-muted: var(--muted, #53606d); --ss-line: var(--line, #dfe4e8); --ss-accent: var(--mint, #14665d); color: var(--ss-ink); font-size: 1rem; line-height: 1.7; }
+.ss-head { margin-bottom: 14px; }
+.ss-kicker { margin: 0; color: var(--ss-accent); font-size: .8125rem; font-weight: 600; letter-spacing: .08em; }
+.spore-lab h3 { margin: 4px 0 6px; font-size: 1.5rem; line-height: 1.4; font-weight: 650; }
+.ss-hint { margin: 0; color: var(--ss-muted); }
+.ss-predict, .ss-gram { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 18px; padding: 14px 18px; border: 1px solid var(--ss-line); border-radius: 12px; background: var(--chrome, #f6f7f8); }
+.ss-predict legend, .ss-gram legend { float: left; width: 100%; margin-bottom: 8px; padding: 0; font-weight: 600; }
+.ss-gram { background: #fff; }
+.ss-choice { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 16px; border: 1px solid #cfd6dc; border-radius: 22px; background: #fff; cursor: pointer; }
+.ss-choice span { white-space: nowrap; }
+.ss-choice:has(input:checked) { border-color: var(--ss-accent); background: var(--tint, #e7f1ee); }
+.ss-choice input { flex: 0 0 18px; width: 18px; height: 18px; margin: 0; }
+.ss-main { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 1fr); gap: 22px; align-items: start; }
+.ss-controls { display: grid; gap: 14px; min-width: 0; }
+.ss-controls label { display: grid; gap: 4px; font-weight: 600; font-size: .9375rem; }
+.ss-controls output { color: var(--ss-accent); font-variant-numeric: tabular-nums; }
+.ss-controls input[type="range"] { width: 100%; min-height: 32px; }
+.ss-controls select { min-height: 44px; padding: 8px 12px; border: 1px solid #cfd6dc; border-radius: 10px; background-color: #fff; font: inherit; font-weight: 400; color: inherit; max-width: 100%; }
+.ss-result { min-width: 0; padding: 14px 16px; border: 1px solid var(--ss-line); border-radius: 12px; background: #fff; }
+.ss-chart { display: block; width: 100%; height: auto; }
+.ss-chart text { fill: var(--ss-muted); font: 13px var(--font, sans-serif); }
+.ss-chart .ss-val { fill: var(--ss-ink); font-weight: 700; font-size: 15px; }
+.ss-chart .ss-unit { font-size: 12px; }
+.ss-grid { stroke: #eef1f3; }
+.ss-axis { stroke: #8590a0; stroke-width: 1.2; }
+.ss-sal { fill: #6f8fb5; }
+.ss-spore { fill: #b4692e; }
+.ss-planned { stroke: var(--ss-ink); stroke-width: 2; stroke-dasharray: 6 4; }
+.ss-legend { display: flex; align-items: center; gap: 8px; margin: 6px 0 10px; color: var(--ss-muted); font-size: .875rem; }
+.ss-key-planned { display: inline-block; width: 26px; border-top: 2px dashed var(--ss-ink); }
+.ss-read { display: grid; gap: 6px; margin: 0; }
+.ss-read > div { display: grid; grid-template-columns: 6em minmax(0, 1fr); gap: 8px; padding-top: 6px; border-top: 1px solid #eef1f3; }
+.ss-read dt { color: var(--ss-muted); font-size: .9375rem; }
+.ss-read dd { margin: 0; font-size: .9375rem; }
+.ss-read strong { font-size: 1.125rem; font-variant-numeric: tabular-nums; }
+.ss-caveat { margin: 18px 0 4px; padding: 12px 16px; border-left: 4px solid #b8902a; border-radius: 0 10px 10px 0; background: #fbf5e2; font-size: .9375rem; }
+.spore-lab details { padding: 4px 0; border-top: 1px solid var(--ss-line); }
+.spore-lab details:first-of-type { margin-top: 18px; }
+.spore-lab summary { min-height: 48px; padding: 12px 0; font-size: .9375rem; color: var(--ss-muted); }
+.spore-lab details[open] > summary { color: var(--ss-ink); }
+.spore-lab details p, .spore-lab details li { font-size: .9375rem; }
+.ss-steps { padding-left: 22px; }
+.spore-lab a { color: var(--ss-accent); text-decoration: underline; text-underline-offset: 3px; }
+.ss-detail label:not(.ss-choice) { display: block; margin: 4px 0 6px; font-weight: 600; font-size: .9375rem; }
+.ss-detail textarea { display: block; width: 100%; box-sizing: border-box; padding: 10px 14px; border: 1px solid #cfd6dc; border-radius: 10px; font: inherit; line-height: 1.8; resize: vertical; }
+.ss-save { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; margin: 12px 0 14px; }
+.ss-save button { min-height: 44px; padding: 8px 18px; border: 1px solid var(--ss-accent); border-radius: 10px; background: var(--ss-accent); color: #fff; font: inherit; font-weight: 600; cursor: pointer; }
+.ss-save span { color: var(--ss-muted); font-size: .9375rem; }
+@media (max-width: 860px) { .ss-main { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .ss-chart text { font-size: 20px; } .ss-chart .ss-val { font-size: 22px; } }
+@media (max-width: 600px) { .spore-lab .ss-chart text, .spore-lab .ss-chart .ss-unit { font-size: 20px; } .spore-lab .ss-chart .ss-val { font-size: 22px; } }

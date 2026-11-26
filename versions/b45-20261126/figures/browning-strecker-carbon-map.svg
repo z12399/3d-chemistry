@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" role="img" aria-labelledby="figure-title figure-desc" font-family="'Segoe UI','Microsoft JhengHei UI','Microsoft JhengHei',sans-serif" font-size="20">
+<title id="figure-title">Strecker：分開追碳與氮</title>
+<desc id="figure-desc">指定甘胺酸與甲基乙二醛支路中，甘胺酸羧碳形成二氧化碳，α 碳形成甲醛，而氮進入二羰基來源的胺基丙酮。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#14665d"/></marker>
+<marker id="arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#53606d"/></marker>
+<marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b4692e"/></marker>
+<marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#6f8fb5"/></marker>
+<marker id="arrow-gold" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#b8902a"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+<text x="32" y="42" font-size="26" fill="#1c2732" text-anchor="start" font-weight="600"><tspan x="32" dy="0">Strecker：分開追碳與氮</tspan></text>
+<text x="32" y="74" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">指定 Gly／甲基乙二醛支路的原子去向</tspan></text>
+<circle cx="64" cy="155" r="17" fill="#b4692e" stroke="#b4692e" stroke-width="2"/>
+<text x="100" y="162" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="100" dy="0">Gly 羧基碳</tspan></text>
+<path d="M 300 155 L 438 155" fill="none" stroke="#b4692e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<rect x="451" y="121" width="232" height="68" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="162.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">CO₂ 的碳</tspan></text>
+<circle cx="64" cy="265" r="17" fill="#14665d" stroke="#14665d" stroke-width="2"/>
+<text x="100" y="272" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="100" dy="0">Gly α 碳</tspan></text>
+<path d="M 300 265 L 438 265" fill="none" stroke="#14665d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-teal)"/>
+<rect x="451" y="231" width="232" height="68" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="272.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">甲醛的羰基碳</tspan></text>
+<circle cx="64" cy="375" r="17" fill="#6f8fb5" stroke="#6f8fb5" stroke-width="2"/>
+<text x="100" y="382" font-size="22" fill="#1c2732" text-anchor="start"><tspan x="100" dy="0">Gly 的氮</tspan></text>
+<path d="M 300 375 L 438 375" fill="none" stroke="#6f8fb5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<rect x="451" y="341" width="232" height="68" rx="14" fill="#e7f1ee" stroke="#dfe4e8" stroke-width="2"/>
+<text x="567.0" y="382.0" font-size="21" fill="#1c2732" text-anchor="middle"><tspan x="567.0" dy="0">胺基丙酮的氮</tspan></text>
+<text x="320" y="322" font-size="18" fill="#53606d" text-anchor="start"><tspan x="320" dy="0">甲基乙二醛提供胺基酮碳骨架</tspan></text>
+<text x="32" y="432" font-size="18" fill="#53606d" text-anchor="start"><tspan x="32" dy="0">醛碳不是由二羰基物原有的醛端直接指認；</tspan><tspan x="32" dy="25">脫羧出現不等於最終醛已等量形成。</tspan></text>
+<text x="688" y="482" font-size="16" fill="#53606d" text-anchor="end"><tspan x="688" dy="0">示意圖</tspan></text>
+</svg>
