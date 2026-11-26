@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <script>/* 舊版本網址自動換到最新版（只在已發布的 /versions/ 路徑下才載入） */if(/\/versions\/[^/]+\//.test(location.pathname)){var g=document.createElement('script');g.src=location.pathname.replace(/\/versions\/.*$/,'/version-guard.js');document.head.appendChild(g);}</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#11665a">
+  <title>學習路線 · 食品科學學習室</title>
+  <meta name="description" content="第一輪的內容照原理的先後排成三科的課：一課是一個完整的主題，裡面分成幾個小節，照順序讀。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%2311665a'/%3E%3Cpath d='M13 25l8 8 15-18' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./theme.css">
+  <link rel="stylesheet" href="./refresh.css">
+  <link rel="stylesheet" href="./past-exams.css">
+  <link rel="stylesheet" href="./route.css">
+  <link rel="stylesheet" href="./site-frame.css">
+</head>
+<body class="pe-body rt-body">
+  <a class="pe-skip" href="#rt-main">跳到內容</a>
+  <header class="site-header"><a class="brand" href="./start.html">食品科學學習室</a>
+  <nav class="site-nav" aria-label="主要導覽"><a href="./start.html">首頁</a><a href="./past-exams.html">歷屆考題</a><a href="./study-plan.html" aria-current="page">課程</a><a href="./exam.html#exam/written">練習</a><a href="./exam.html#exam/progress">我的進度</a></nav>
+  <details class="site-more"><summary>更多</summary><div class="site-more-panel">
+    <div class="site-more-col"><a href="./index.html#learn/review">筆記</a><a href="./index.html#paths">跨科專題</a><a href="./index.html#guide">怎麼用</a><p class="site-more-title">切換學科</p><a href="./index.html#learn/map">食品化學</a><a href="./index.html#process/map">食品加工學</a><a href="./index.html#micro/map">食品微生物學</a></div>
+    <div class="site-more-col"><p class="site-more-title">3D 分子工具</p><a href="./index.html#lab/library">糖類反應地圖</a><a href="./index.html#lab/explore">構形與能量</a><a href="./index.html#lab/reaction">葡萄糖變旋</a><a href="./index.html#lab/compare">結構比較</a><a href="./index.html#lab/notebook">3D 實驗筆記</a><a class="site-more-end" href="./third-party-attributions.html">第三方素材與授權</a></div>
+  </div></details></header>
+  <main id="rt-main" class="pe-shell rt-shell" tabindex="-1">
+    <header class="pe-intro rt-intro">
+      <h1>學習路線</h1>
+      <p>第一輪的內容排成 <strong data-route-count>25 課</strong>：一課是一個完整的主題，裡面分成幾個小節，照順序讀。</p>
+    </header>
+    <section class="rt-next" id="rt-next" aria-labelledby="rt-next-title">
+      <h2 id="rt-next-title">接著讀</h2>
+      <p class="pe-loading" role="status">正在讀取學習路線…</p>
+    </section>
+    <div class="rt-views" role="tablist" aria-label="檢視方式">
+      <button type="button" role="tab" id="rt-tab-map" data-view="map" aria-controls="rt-view-map" aria-selected="true">全貌圖</button>
+      <button type="button" role="tab" id="rt-tab-read" data-view="read" aria-controls="rt-view-read" aria-selected="false" tabindex="-1">逐課看</button>
+    </div>
+    <section class="rt-view rt-view-map" id="rt-view-map" role="tabpanel" aria-labelledby="rt-tab-map" data-view="map"><p class="pe-loading">正在讀取學習路線…</p></section>
+    <section class="rt-view rt-view-read" id="rt-view-read" role="tabpanel" aria-labelledby="rt-tab-read" data-view="read" hidden><p class="pe-loading">正在讀取學習路線…</p></section>
+    <noscript><p class="pe-sec">這一頁需要 JavaScript 才能畫出學習路線。可以先看<a href="./study-plan.html">讀書清單</a>或<a href="./index.html#learn/map">依章節看課程</a>。</p></noscript>
+    <section class="pe-sec pe-about rt-about" aria-labelledby="rt-about-title">
+      <h2 id="rt-about-title">這份路線怎麼排的</h2>
+      <ul>
+        <li>先看第一輪每一節用到哪些原理、又教會哪些原理，再依原理的先後排：同一個主題的小節合成一課，一課裡後面的小節用到前面小節教的東西。每一課開頭寫著這一課在講什麼。</li>
+        <li>有些小節近兩年沒有直接考，但後面的小節要用到它教的東西，所以補進來，標成<strong>基礎</strong>。</li>
+        <li>「相關的小節」列出一節的先備的小節，以及後面用到它的小節，包括其他課裡的小節。</li>
+        <li>「做過自測」只看這個瀏覽器裡的紀錄；「接著讀」是依路線順序，每一科第一個還沒做過自測的小節。</li>
+        <li>課的分法、承接句與小節之間的關係是本站依課程內容做的教學整理，不是官方的考試範圍，也不是考題預測。想知道哪裡分數多，看<a href="./study-plan.html">讀書清單（照配分排）</a>。</li>
+      </ul>
+    </section>
+  </main>
+  <script type="module" src="./modules/learning-route.js"></script>
+  <script type="module" src="./modules/site-more.js"></script>
+</body>
+</html>
